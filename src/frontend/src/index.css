@@ -128,3 +128,7 @@
     @apply font-sans;
     }
 }
+/* Reserve the scrollbar's space so short pages don't shift content sideways */
+html {
+  scrollbar-gutter: stable;
+}

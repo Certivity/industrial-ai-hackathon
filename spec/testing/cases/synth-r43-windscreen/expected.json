@@ -1,0 +1,476 @@
+{
+  "team_id": "synthetic",
+  "case_id": "synth-r43-windscreen",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The windscreen shall bear a trade name or mark of the manufacturer.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 5,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "Manufactured parts of the windscreen shall bear the ECE Regulation No. 43 number allocated to the prime manufacturer.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 5,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The marking of the windscreen shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 5,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "An international approval mark shall be affixed conspicuously to every windscreen conforming to an approved type, in addition to the manufacturer's marking.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 5,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The approval mark shall consist of a circle surrounding the letter 'E' followed by the distinguishing number of the country which has granted approval.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.4.1"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The approval mark shall include the number of UN Regulation No. 43 followed by the letter 'R', a dash and the approval number, placed to the right of the circle.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.4.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The symbol II for ordinary laminated glass shall be affixed near the approval mark of an ordinary laminated-glass windscreen.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The approval mark and symbol shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The windscreen shall be such that, in the event of shattering, the danger of bodily injury is reduced as far as possible.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The windscreen shall be sufficiently resistant to the incidents likely to occur in normal traffic, and to atmospheric and temperature conditions, chemical action, combustion and abrasion.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The windscreen shall be sufficiently transparent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The windscreen shall not cause any noticeable distortions of objects as seen through it.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The windscreen shall not give rise to any confusion between the colours used in road-traffic signs and signals.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "In the event of the windscreen's shattering, the driver shall still be able to see the road clearly enough to brake and stop the vehicle safely.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "An ordinary laminated-glass windscreen shall comply with the requirements contained in Annex 6.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 8,
+        "paragraph": "7.3"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "In the headform test on a complete windscreen the drop height shall be 1.5 m +0/-5 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.2.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "In the headform test the windscreen shall break displaying numerous circular cracks centred approximately on the point of impact, the cracks nearest to the point of impact being not more than 80 mm from it.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "In the headform test the layers of glass shall remain adhering to the plastics-material interlayer.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.2"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "In the headform test any partial separation from the interlayer shall be less than 4 mm in breadth on either side of the crack, and shall occur only outside a circle of 60 mm in diameter centred on the point of impact.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "On the impact side of the headform test the interlayer shall not be laid bare over an area of more than 20 cm2.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.3.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "On the impact side of the headform test a tear in the interlayer shall not exceed a length of 35 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.3.2"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "A set of windscreens submitted for approval shall be considered satisfactory in the headform test only if all the tests have given a satisfactory result.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.2"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "In the 2,260 g ball test the height of drop, from the underface of the ball to the upper face of the test piece, shall be 4 m +25/-0 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.2.2.2"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "In the 2,260 g ball test the ball shall not pass through the glazing within five seconds after the moment of impact.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.2.3.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "A set of test pieces shall be considered satisfactory in the 2,260 g ball test only if at least eleven of the twelve tests have given a satisfactory result.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.2.3.2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "In the 227 g ball test ten test pieces shall be tested at a temperature of +40 °C ± 2 °C and ten at a temperature of -20 °C ± 2 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.3.3.1"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "For a nominal thickness above 4.5 mm and up to 5.5 mm, the height of fall in the 227 g ball test shall be 9 m at +40 °C ± 2 °C and 8.5 m at -20 °C ± 2 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.3.2"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "For a nominal thickness above 4.5 mm and up to 5.5 mm, the mass of the fragments detached in the 227 g ball test shall not exceed 15 g at +40 °C ± 2 °C and at -20 °C ± 2 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.3.2"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "In the 227 g ball test the ball shall not pass through the test piece.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.4.1"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "In the 227 g ball test the test piece shall not break into several pieces.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.4.1"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "In the 227 g ball test, if the interlayer is not torn, the weight of fragments detached from the side of the glass opposite to the point of impact shall not exceed the permitted mass for the thickness category.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.4.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "A set of test pieces shall be considered satisfactory in the 227 g ball test only if at least eight of the ten tests carried out at each temperature have given a satisfactory result.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.4.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The abrasion test shall be continued for 1,000 cycles.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 5.1.1"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The light scatter resulting from abrasion of the test piece shall not exceed 2 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 5.1.2"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The windscreen shall comply with the test of resistance to high temperature of Annex 3, paragraph 5.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 5.2"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "In the high-temperature test the test pieces shall be heated to 100 °C +0/-2 °C and maintained at this temperature for two hours.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 59,
+        "paragraph": "Annex 3 5.1"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "In the high-temperature test no bubbles or other defects shall form more than 15 mm from an uncut edge or 25 mm from a cut edge of the test piece, or more than 10 mm away from any cracks.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 59,
+        "paragraph": "Annex 3 5.3.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The windscreen shall comply with the test of resistance to humidity of Annex 3, paragraph 7.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 5.4"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "In the humidity test the test pieces shall be kept in a vertical position for two weeks in a closed container at 50 °C ± 2 °C and a relative humidity of 95 ± 4 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "After the humidity test no significant change shall be observed more than 10 mm from the uncut edges and more than 15 mm from the cut edges once the laminated glass has been kept for two hours in the ambient atmosphere.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 63,
+        "paragraph": "Annex 3 7.3.1"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The windscreen shall meet the optical qualities set out in Annex 3, paragraph 9, except a flat windscreen within an already approved group whose rake angle is less than 40° to the vertical.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 6"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The regular light transmittance of the windscreen shall not be less than 70 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 65,
+        "paragraph": "Annex 3 9.1.4"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The optical distortion of the windscreen shall not exceed 2' of arc in test area A, extended according to paragraph 9.2.2.1.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 71,
+        "paragraph": "Annex 3 9.2.6"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The optical distortion of the windscreen shall not exceed 6' of arc in the reduced test area B.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 71,
+        "paragraph": "Annex 3 9.2.6"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "In a peripheral area 100 mm inboard of the design glass outline, a maximum optical distortion of 6' of arc shall be permitted for all portions of zone A.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 71,
+        "paragraph": "Annex 3 9.2.6.4"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The separation of the primary and secondary images shall not exceed 15' of arc in test area A, extended according to paragraph 9.2.2.1.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 75,
+        "paragraph": "Annex 3 9.3.5"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The separation of the primary and secondary images shall not exceed 25' of arc in the reduced test area B.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 75,
+        "paragraph": "Annex 3 9.3.5"
+      }
+    }
+  ]
+}

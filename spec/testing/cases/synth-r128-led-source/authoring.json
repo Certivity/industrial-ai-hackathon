@@ -1,0 +1,32 @@
+{
+  "case_id": "synth-r128-led-source",
+  "regulation": "UN R128",
+  "requirements": [
+    {"paragraph": "2.3.1.1", "quote": "the trade name or mark of the applicant", "text": "The cap of the LED light source shall bear the trade name or mark of the applicant."},
+    {"paragraph": "2.3.1.2", "quote": "the rated voltage", "text": "The cap of the LED light source shall bear the rated voltage."},
+    {"paragraph": "2.3.1.3", "quote": "the designation of the relevant category", "text": "The cap of the LED light source shall bear the designation of the relevant category."},
+    {"paragraph": "2.3.1.4", "quote": "a space of sufficient size to accommodate the approval mark", "text": "The cap of the LED light source shall bear a space of sufficient size to accommodate the approval mark."},
+    {"paragraph": "3.2.2", "quote": "to remain in good working order when in normal use", "text": "The LED light source shall be so designed as to be and to remain in good working order when in normal use."},
+    {"paragraph": "3.2.2", "quote": "exhibit no fault in design or manufacture", "text": "The LED light source shall exhibit no fault in design or manufacture."},
+    {"paragraph": "3.2.3", "quote": "no scores or spots on their optical surfaces", "text": "The LED light source shall exhibit no scores or spots on its optical surfaces which might impair its efficiency and its optical performance."},
+    {"paragraph": "3.2.4", "quote": "standard caps complying with the cap data sheets of IEC Publication 60061", "text": "The LED light source shall be equipped with a standard cap complying with the cap data sheet of IEC Publication 60061 as specified on its data sheet of Annex 1."},
+    {"paragraph": "3.2.5", "quote": "strong and firmly secured to the rest of the LED light source", "text": "The cap shall be strong and firmly secured to the rest of the LED light source."},
+    {"paragraph": "3.2.7", "quote": "shall be the only element(s) of the LED light source", "text": "The solid state junction(s) and possibly one or more elements for fluorescence-based conversion shall be the only elements of the LED light source that generate and emit light when energized."},
+    {"paragraph": "3.3.1", "quote": "aged at their test voltage for at least forty-eight hours", "text": "The LED light source shall first be aged at its test voltage for at least forty-eight hours."},
+    {"paragraph": "3.3.2", "quote": "electrical and photometric measurements shall be carried out at the relevant test voltage", "text": "Unless otherwise specified, electrical and photometric measurements of the LED light source shall be carried out at the relevant test voltage(s)."},
+    {"paragraph": "3.3.3", "quote": "instruments of at least class 0.2", "text": "Electrical measurements as specified in Annex 4 shall be carried out with instruments of at least class 0.2 (0.2 per cent full scale accuracy)."},
+    {"paragraph": "3.4.1", "quote": "position and dimensions of the light emitting area shall conform to the requirements as given on the relevant data sheet", "text": "The position and dimensions of the light emitting area shall conform to the requirements given on the relevant data sheet of Annex 1."},
+    {"paragraph": "3.5.1", "quote": "the luminous flux shall be within the limits given on the relevant data sheet of Annex 1", "text": "When measured according to the conditions specified in Annex 4, the luminous flux shall be within the limits given on the relevant data sheet of Annex 1."},
+    {"paragraph": "3.6.1", "quote": "shall be within the limits given on the relevant data sheet of annex 1", "text": "When measured according to the test conditions specified in Annex 4, the normalized luminous intensity distribution and/or cumulative luminous flux distribution shall be within the limits given on the relevant data sheet of Annex 1."},
+    {"paragraph": "3.7.1", "quote": "shall be specified on the relevant data sheet", "text": "The colour of the light emitted by the LED light source shall be as specified on the relevant data sheet, applying the colour definitions of UN Regulation No. 48."},
+    {"paragraph": "3.7.2", "quote": "measured by the method specified in Annex 4", "text": "The colour of the light emitted shall be measured by the method specified in Annex 4."},
+    {"paragraph": "3.7.2", "quote": "shall lie within the required chromaticity area", "text": "The measured integral value of the chromaticity coordinates of the emitted light shall lie within the required chromaticity area."},
+    {"paragraph": "3.8", "quote": "the LED light source is of the low UV type", "text": "The UV-radiation of the LED light source shall be such that the LED light source is of the low UV type."},
+    {"paragraph": "3.10.1", "quote": "luminous flux values at elevated temperatures shall be within the limits given in the relevant data sheet of Annex 1", "text": "At the maximum test temperature specified on the data sheet, the luminous flux values at elevated temperatures shall be within the limits given in the relevant data sheet of Annex 1."},
+    {"paragraph": "3.10.1", "quote": "The colour variation shall not exceed 0.010", "text": "At the maximum test temperature specified on the data sheet, the colour variation shall not exceed 0.010."},
+    {"paragraph": "3.10.2", "quote": "shall be continuously operated during 1000 h", "text": "After the measurement at the maximum test temperature, the LED light source shall be continuously operated during 1000 h at the relevant test voltage(s), with an integrated heat sink at an ambient temperature corresponding to the maximum test temperature of the data sheet."},
+    {"paragraph": "3.10.3", "quote": "shall not deviate by more than ± 10 per cent", "text": "After the 1000 h operation the luminous flux values at elevated temperatures shall not deviate by more than ± 10 per cent from the values of the same sample measured before the operation."},
+    {"paragraph": "3.10.3", "quote": "The colour variation shall not deviate from the corresponding values", "text": "After the 1000 h operation the colour variation shall not deviate from the values of the same sample measured before the operation by more than ± 0.010."},
+    {"paragraph": "3.10.4", "quote": "shall be verified again", "text": "After the measurements following the 1000 h operation, the LED light source shall again exhibit no scores or spots on its optical surfaces as required in paragraph 3.2.3."}
+  ]
+}

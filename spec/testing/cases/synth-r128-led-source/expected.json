@@ -1,0 +1,266 @@
+{
+  "team_id": "synthetic",
+  "case_id": "synth-r128-led-source",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The cap of the LED light source shall bear the trade name or mark of the applicant.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The cap of the LED light source shall bear the rated voltage.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The cap of the LED light source shall bear the designation of the relevant category.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The cap of the LED light source shall bear a space of sufficient size to accommodate the approval mark.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.4"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The LED light source shall be so designed as to be and to remain in good working order when in normal use.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The LED light source shall exhibit no fault in design or manufacture.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The LED light source shall exhibit no scores or spots on its optical surfaces which might impair its efficiency and its optical performance.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.3"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The LED light source shall be equipped with a standard cap complying with the cap data sheet of IEC Publication 60061 as specified on its data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.4"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The cap shall be strong and firmly secured to the rest of the LED light source.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.5"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The solid state junction(s) and possibly one or more elements for fluorescence-based conversion shall be the only elements of the LED light source that generate and emit light when energized.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.7"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The LED light source shall first be aged at its test voltage for at least forty-eight hours.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.3.1"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "Unless otherwise specified, electrical and photometric measurements of the LED light source shall be carried out at the relevant test voltage(s).",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.3.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Electrical measurements as specified in Annex 4 shall be carried out with instruments of at least class 0.2 (0.2 per cent full scale accuracy).",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.3.3"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The position and dimensions of the light emitting area shall conform to the requirements given on the relevant data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.4.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "When measured according to the conditions specified in Annex 4, the luminous flux shall be within the limits given on the relevant data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.5.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "When measured according to the test conditions specified in Annex 4, the normalized luminous intensity distribution and/or cumulative luminous flux distribution shall be within the limits given on the relevant data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.6.1"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The colour of the light emitted by the LED light source shall be as specified on the relevant data sheet, applying the colour definitions of UN Regulation No. 48.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 5,
+        "paragraph": "3.7.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The colour of the light emitted shall be measured by the method specified in Annex 4.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 5,
+        "paragraph": "3.7.2"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The measured integral value of the chromaticity coordinates of the emitted light shall lie within the required chromaticity area.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 5,
+        "paragraph": "3.7.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The UV-radiation of the LED light source shall be such that the LED light source is of the low UV type.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 5,
+        "paragraph": "3.8"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "At the maximum test temperature specified on the data sheet, the luminous flux values at elevated temperatures shall be within the limits given in the relevant data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 6,
+        "paragraph": "3.10.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "At the maximum test temperature specified on the data sheet, the colour variation shall not exceed 0.010.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 6,
+        "paragraph": "3.10.1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "After the measurement at the maximum test temperature, the LED light source shall be continuously operated during 1000 h at the relevant test voltage(s), with an integrated heat sink at an ambient temperature corresponding to the maximum test temperature of the data sheet.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 6,
+        "paragraph": "3.10.2"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "After the 1000 h operation the luminous flux values at elevated temperatures shall not deviate by more than ± 10 per cent from the values of the same sample measured before the operation.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 7,
+        "paragraph": "3.10.3"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "After the 1000 h operation the colour variation shall not deviate from the values of the same sample measured before the operation by more than ± 0.010.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 7,
+        "paragraph": "3.10.3"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "After the measurements following the 1000 h operation, the LED light source shall again exhibit no scores or spots on its optical surfaces as required in paragraph 3.2.3.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 7,
+        "paragraph": "3.10.4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+gold: 190 requirements from ['UN R148', 'UN R48', 'UN R150', 'UN R10']
+random 6 (seed 20261024): ['UN R132', 'UN R40', 'UN R163', 'UN R19', 'UN R67', 'UN R155']
+
+A. GRAPH (prototype parser, base versions)
+  regulation     ver  pages  nodes  para  table  scope  orphan  REFERS_TO  resolved  to other reg  CITES_REG regs   cites (of the 10)
+  UN R148      1.6.0     48    414   386     16     12       0        116       92%            13               4                 R48
+  UN R48       9.3.0    122   1205  1181      0     24       0        398       96%             6              17  R148,R150,R163,R19
+  UN R150      1.2.1     54    540   502     11     27       0        132       89%             1               2                 R48
+  UN R10       7.2.0    148    864   782     33     49       0        162       99%             0               2                   -
+  UN R132      1.0.0     50    586   573      1     12       0        178       99%             0               2                   -
+  UN R40       1.1.0     31    363   353      0     10       5         59       98%             0               0                   -
+  UN R163      0.3.0     26    333   319      1     13       0         77       84%             0               4        R10,R155,R48
+  UN R19      4.10.0     48    449   433      0     16       0        148       97%             0               3                 R48
+  UN R67       4.2.0    123   1370  1333      4     33       0        260       87%             0               2                 R10
+  UN R155      0.2.0     24    180   159     12      9       0         26      100%             0               0                   -
+  totals: 6304 nodes, 6050 parent edges, 1556 REFERS_TO (1446 of 1536 targets inside the regulation resolved = 94%), 203 CITES_REG edges into regulations of the index
+  CITES_REG targets in the index, from the four gold regulations:
+    UN R148: R48x11, R53x4, R128x2, R37x1
+    UN R48: R148x24, R149x18, R150x12, R3x6, R7x5, R37x4, R104x4, R128x3, R6x3, R19x3, R23x3, R13Hx3, R116x2, R162x2, R163x2, R107x1, R38x1
+    UN R150: R48x6, R53x2
+    UN R10: R37x2, R128x2
+
+B. ANCHORS: 190/190 gold requirements land on a node with the same label and page range
+   190 requirements -> 121 nodes -> 48 roots in 4 regulations
+   UN R148: 63 requirements, 40 nodes, 13 roots of 57, 402 content nodes
+   UN R48: 56 requirements, 35 nodes, 14 roots of 124, 1181 content nodes
+   UN R150: 39 requirements, 31 nodes, 11 roots of 47, 513 content nodes
+   UN R10: 32 requirements, 15 nodes, 10 roots of 129, 815 content nodes
+
+C. REGULATION LEVEL (one card per regulation: title, section 1, depth-2 table of contents; BM25 with the IDF of all 56 cards)
+   card size (chars/4): R150 925, R148 1027, R48 2481, R10 3779; over 56 regulations: min 710, median 1631, max 4855; all cards together about 106K tokens
+   SUPERSEDES read from the introductions: UN R148 -> ['UN R4', 'UN R6', 'UN R7', 'UN R23', 'UN R38', 'UN R50', 'UN R77', 'UN R87', 'UN R91']; UN R149 -> ['UN R19', 'UN R98', 'UN R112', 'UN R113', 'UN R119', 'UN R123']; UN R150 -> ['UN R3', 'UN R27', 'UN R69', 'UN R70', 'UN R104']
+
+   gold regulation ranks among all 56 regulations, and the set kept at 0.4 x the best score
+  card + query                                                         R48  R148  R150  R10  kept     P     R    F2
+  whole spec.md as the query, title+scope cards (as eval/baseline.py)   14     5    12   31     8  0.12  0.25  0.21
+  profile items, title                                                   8     9     7   21    12  0.25  0.75  0.54
+  profile items, title+scope                                            14     2     8   34    10  0.20  0.50  0.38
+  profile items, title+scope+toc                                         1     3    11   25     9  0.22  0.50  0.40
+  + derived electronics item                                             1     4    19    3    10  0.30  0.75  0.58
+  + vehicle-category facet                                               1     3    18    2     9  0.33  0.75  0.60
+  + SUPERSEDES from the introductions                                    1     3     5    2     5  0.80  1.00  0.95
+   final scores: R48=42.0, R10=30.5, R148=23.5, R149=22.0, R150=19.3, R13H=13.3, R79=12.1, R26=11.8, R116=10.6
+   lexical top 12 before the facet: R48=42.0, R53=31.0, R10=30.5, R148=23.5, R7=22.8, R149=22.0, R3=19.3, R123=18.7, R23=17.7, R19=17.4, R13H=13.3, R104=12.7
+   the category facet (letter M) drops: ['R53', 'R62', 'R40', 'R102', 'R92']
+   threshold 0.3 x best: 6 regulations, P=0.67 R=1.00 F2=0.91  ['R48', 'R10', 'R148', 'R149', 'R150', 'R13H']
+   threshold 0.4 x best: 5 regulations, P=0.80 R=1.00 F2=0.95  ['R48', 'R10', 'R148', 'R149', 'R150']
+   threshold 0.5 x best: 4 regulations, P=0.75 R=0.75 F2=0.75  ['R48', 'R10', 'R148', 'R149']
+   threshold 0.6 x best: 2 regulations, P=1.00 R=0.50 F2=0.56  ['R48', 'R10']
+
+   gold regulation ranks among the 10 regulations, and the set kept at 0.4 x the best score
+  card + query                                                         R48  R148  R150  R10  kept     P     R    F2
+  whole spec.md as the query, title+scope cards (as eval/baseline.py)    4     2     3    7     2  0.50  0.25  0.28
+  profile items, title                                                   2     3     1    5     4  0.75  0.75  0.75
+  profile items, title+scope                                             4     1     3    8     3  0.67  0.50  0.53
+  profile items, title+scope+toc                                         1     2     4    5     3  0.67  0.50  0.53
+  + derived electronics item                                             1     3     5    2     4  0.75  0.75  0.75
+  + vehicle-category facet                                               1     3     5    2     4  0.75  0.75  0.75
+  + SUPERSEDES from the introductions                                    1     3     4    2     3  1.00  0.75  0.79
+   final scores: R48=42.0, R10=30.5, R148=23.5, R150=10.3, R163=9.4, R67=5.0, R155=3.4, R132=2.9
+   lexical top 12 before the facet: R48=42.0, R10=30.5, R148=23.5, R19=17.4, R150=10.3, R163=9.4, R67=5.0, R155=3.4, R40=3.0, R132=2.9
+   the category facet (letter M) drops: ['R40']
+   threshold 0.3 x best: 3 regulations, P=1.00 R=0.75 F2=0.79  ['R48', 'R10', 'R148']
+   threshold 0.4 x best: 3 regulations, P=1.00 R=0.75 F2=0.79  ['R48', 'R10', 'R148']
+   threshold 0.5 x best: 3 regulations, P=1.00 R=0.75 F2=0.79  ['R48', 'R10', 'R148']
+   threshold 0.6 x best: 2 regulations, P=1.00 R=0.50 F2=0.56  ['R48', 'R10']
+
+   R10 rank among the 56 under different wordings of the derived item (cards title+scope+toc; before / after facet and SUPERSEDES)
+  derived item                                                                   lexical  after facet + SUPERSEDES
+  none                                                                                25                        16
+  'electromagnetic compatibility'                                                     10                         5
+  'electrical electronic sub-assembly ESA'                                             4                         3
+  naive, from the materials row: 'LED module printed circuit board electronics'       21                        12
+  both regulation concepts (the item used above)                                       3                         2
+
+   CITES_REG from R48: the whole regulation reaches 17 regulations; the 20 roots a heading walk picks reach 6: {'UN R23': 1, 'UN R148': 6, 'UN R7': 2, 'UN R13H': 3, 'UN R3': 3, 'UN R150': 3}
+   from the 4 function-named R48 sections ['6.10', '6.14', '6.4', '6.7']: {'UN R23': 1, 'UN R148': 3, 'UN R7': 2, 'UN R13H': 1, 'UN R3': 1, 'UN R150': 1}
+   R10 is cited by: UN R163x4, UN R67x3; nodes that mention electromagnetic compatibility in the three lighting regulations: UN R148 ['4.7.2.3'], UN R48 [], UN R150 []
+
+D. SECTION / NODE / PAGE LEVEL (regulation set: the four gold regulations, i.e. assuming the regulation step was right)
+   gold-touched roots by category (F function-named, M markings, G other body sections, T annex scopes):
+     F:  8 roots,  50 requirements (26%); 31 of 125 nodes cited, match rate 25%   R148 5.2, R148 5.5, R148 5.8, R150 5.1, R48 6.10, R48 6.14, R48 6.4, R48 6.7
+     M:  3 roots,  33 requirements (17%); 25 of 68 nodes cited, match rate 37%   R10 5.2, R148 3.3, R150 3.3
+     G: 26 roots,  84 requirements (44%); 48 of 171 nodes cited, match rate 28%   R10 6.1, R10 6.10, R10 6.5, R10 6.6, R10 6.7, R10 6.8, R10 6.9, R148 4.3, R148 4.5, R148 4.6, R148 4.7, R148 4.8, R148 4.9, R148 6.1, R150 4.1, R150 4.2, R48 5.1, R48 5.10, R48 5.11, R48 5.18, R48 5.28, R48 5.3, R48 5.30, R48 5.5, R48 5.7, R48 5.9
+     T: 11 roots,  23 requirements (12%); 17 of 204 nodes cited, match rate 8%   R10 Annex 10, R10 Annex 9, R148 Annex 3, R148 Annex 8, R150 Annex 2, R150 Annex 4 Part 1, R150 Annex 5, R150 Annex 6 Part 1, R150 Annex 6 Part 2, R150 Annex 6 Part 4, R150 Annex 6 Part 6
+   gold requirements by top-level section or annex (nodes, requirements):
+     UN R148 3. Administrative provisions                                       17  25
+     UN R148 4. General technical requirements                                  12  25
+     UN R148 5. Specific technical requirements                                  6   6
+     UN R148 Annex: Annex 8 Testing procedures with respect to light sources     3   3
+     UN R148 6. Conformity of production                                         1   2
+     UN R148 Annex: Annex 3 Standard light distributions                         1   2
+     UN R48  6. Individual specifications                                       19  34
+     UN R48  5. General specifications                                          16  22
+     UN R150 4. General requirements The requirements contained                  7  10
+     UN R150 5. Specific technical requirements                                  6  10
+     UN R150 Annex: Annex 6 Environmental Testing                                7   8
+     UN R150 3. Administrative provisions                                        7   7
+     UN R150 Annex: Annex 4 Photometric and colorimetric measurements            2   2
+     UN R150 Annex: Annex 2 Minimum requirements for conformity of productio     1   1
+     UN R150 Annex: Annex 5 Specifications of shape and dimensions               1   1
+     UN R10  6. Specification in configurations other than REESS                12  25
+     UN R10  Annex: Annex 9 Method(s) of testing for immunity of electrical/     1   4
+     UN R10  Annex: Annex 10 Method(s) of testing for immunity to and emissi     1   2
+     UN R10  5. Markings                                                         1   1
+   lexical walk (head): gold roots found per regulation R148 4/13, R48 6/14, R150 1/11, R10 1/10; function-named 7/8, markings 1/3, other body 3/26, annex 1/11
+   lexical walk (full): gold roots found per regulation R148 8/13, R48 5/14, R150 5/11, R10 1/10; function-named 5/8, markings 2/3, other body 8/26, annex 4/11
+   R48 roots the heading walk picks: 2.2, 2.8, 2, 5.11*, 5.12, 5.18*, 5.21, 5.24, 5.26, 5.36, 6.10*, 6.14*, 6.15, 6.16, 6.23, 6.25, 6.28, 6.4*, 6.7*, Annex 3 Part 7   (* = holds a gold node)
+  selector                                                      roots  gold roots  nodes  cited nodes  node P  node R    F2  reqs reachable    reg P/R  page P/R
+  every node of the 4 regulations                                 357       48/48   2911      121/121      4%    100%  0.18         190/190  100%/100%  18%/100%
+  lexical walk, headings only                                      47       12/48    341       30/121      9%     25%  0.18          46/190  100%/100%   40%/43%
+  lexical walk, headings + text                                    67       19/48    890       69/121      8%     57%  0.25          97/190  100%/100%   29%/68%
+  oracle F only                                                     8        8/48    125       31/121     25%     26%  0.25          50/190   100%/75%   89%/30%
+  oracle F + M                                                     11       11/48    193       56/121     29%     46%  0.41          83/190  100%/100%   88%/43%
+  oracle F + M + G (no annexes)                                    37       37/48    364      104/121     29%     86%  0.61         167/190  100%/100%   90%/81%
+  oracle: every gold-touched root                                  48       48/48    568      121/121     21%    100%  0.58         190/190  100%/100%  65%/100%
+  end-to-end: regulation step + lexical walk (headings + text)     52       14/48    661       50/121      8%     41%  0.22          75/190   100%/75%   30%/53%
+  end-to-end: regulation step + oracle roots                       37       37/48    382       90/121     24%     74%  0.52         151/190   100%/75%   75%/77%
+   (reg and page P/R: tools/score_local.py, one entry per selected node; the end-to-end rows keep ['R48', 'R10', 'R148'] from the regulation step)
+
+   search as a safety net (BM25 on each node's own text, per profile item top-N, union):
+  search           nodes  gold nodes  gold roots touched
+  top 5 per item      47       4/121               12/48
+  top 10 per item     90       7/121               17/48
+  top 20 per item    161      15/121               24/48
+  top 40 per item    293      21/121               31/48
+
+   cost of a regulation-level error (oracle roots as the base; for a wrong regulation the lexical walk 'headings + text' decides what it drags in).
+   dF2 uses node recall; dF2(req) uses the share of gold requirements reachable, which weighs R10's 32 requirements on 15 nodes properly:
+  scenario                           nodes  node P  node R  node F2     dF2  dF2(req)
+  base: oracle roots of the 4          568     21%    100%    0.575       -         -
+  drop UN R148                         400     20%     67%    0.458  -0.117    -0.117
+  drop UN R48                          445     19%     71%    0.463  -0.112    -0.114
+  drop UN R150                         382     24%     74%    0.520  -0.055    -0.036
+  drop UN R10                          477     22%     88%    0.552  -0.024    -0.038
+  add UN R132, walk picks 286 nodes    854     14%    100%    0.452  -0.123    -0.123
+  add UN R132, all 574 nodes          1142     11%    100%    0.372  -0.203    -0.203
+  add UN R40, walk picks 193 nodes     761     16%    100%    0.486  -0.089    -0.089
+  add UN R40, all 353 nodes            921     13%    100%    0.431  -0.144    -0.144
+  add UN R163, walk picks 172 nodes    740     16%    100%    0.494  -0.081    -0.081
+  add UN R163, all 320 nodes           888     14%    100%    0.441  -0.134    -0.134
+  add UN R19, walk picks 209 nodes     777     16%    100%    0.480  -0.095    -0.095
+  add UN R19, all 433 nodes           1001     12%    100%    0.407  -0.168    -0.168
+  add UN R67, walk picks 711 nodes    1279      9%    100%    0.343  -0.232    -0.232
+  add UN R67, all 1337 nodes          1905      6%    100%    0.253  -0.322    -0.322
+  add UN R155, walk picks 16 nodes     584     21%    100%    0.566  -0.009    -0.009
+  add UN R155, all 171 nodes           739     16%    100%    0.495  -0.080    -0.080
+
+E. REQUIREMENT LEVEL CEILING (lexical: content words of the gold text found in its anchor node)
+   own text of the anchor                         median 1.00   >=0.8: 182   0.5-0.8:   8   <0.5:   0
+   anchor + parent + children                     median 1.00   >=0.8: 187   0.5-0.8:   3   <0.5:   0
+   control: a random node of the same regulation  median 0.05   >=0.8:   0   0.5-0.8:   1   <0.5: 189
+   BM25 with the gold text as the query ranks its anchor first 164/190, within 3: 182, within 10: 189
+   anchor's own text holds < 80% of the gold words: [('G-0022', 0.77), ('G-0045', 0.75), ('G-0076', 0.71), ('G-0082', 0.6), ('G-0119', 0.75), ('G-0219', 0.5), ('G-0221', 0.6), ('G-0225', 0.6)]
+
+   extractive floor: every sentence of the selected nodes is a candidate requirement, matched 1:1 with the gold by lexical cosine (a crude stand-in for the judge)
+  selection                        cosine >=  candidate sentences  matched  of them from the anchor node    P    R    F2
+  anchor nodes only (121)                0.5                  280      170                           166  61%  89%  0.82
+  anchor nodes only (121)                0.6                  280      158                           156  56%  83%  0.76
+  anchor nodes only (121)                0.7                  280      147                           145  52%  77%  0.71
+  oracle: every gold-touched root        0.5                  935      172                           165  18%  91%  0.51
+  oracle: every gold-touched root        0.6                  935      162                           158  17%  85%  0.48
+  oracle: every gold-touched root        0.7                  935      146                           143  16%  77%  0.43
+  lexical walk, headings + text          0.5                 1477      106                            84   7%  56%  0.24
+  lexical walk, headings + text          0.6                 1477       98                            81   7%  52%  0.22
+  lexical walk, headings + text          0.7                 1477       84                            71   6%  44%  0.19
+  every node of the 4 regulations        0.5                 4656      179                           150   4%  94%  0.17
+  every node of the 4 regulations        0.6                 4656      170                           144   4%  89%  0.16
+  every node of the 4 regulations        0.7                 4656      152                           134   3%  80%  0.14
+   anchor nodes only, cosine >= 0.6, matched by regulation: R148 55/63, R48 45/56, R150 34/39, R10 24/32; missed: ['G-0179', 'G-0193', 'G-0196', 'G-0203', 'G-0204', 'G-0205', 'G-0217', 'G-0219', 'G-0055', 'G-0056', 'G-0059', 'G-0064', 'G-0082', 'G-0085', 'G-0094', 'G-0104', 'G-0109', 'G-0114', 'G-0121', 'G-0019', 'G-0024', 'G-0029', 'G-0036', 'G-0045', 'G-0143', 'G-0144', 'G-0145', 'G-0146', 'G-0147', 'G-0148', 'G-0149', 'G-0154']
+   requirements per cited node: R148 1.57, R48 1.60, R150 1.26, R10 2.13
+
+wrote d:/vscode_workspace/industrial-ai-hackathon-2026/spec/testing/mapping-sim.csv

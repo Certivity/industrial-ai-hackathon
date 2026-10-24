@@ -4,8 +4,8 @@ Status: results of the data exploration, 2026-10-24. Companion to `spec/proposal
 
 ## Summary
 
-- **The structural graph holds up.** A deterministic parser (PyMuPDF, no LLM) put **215 of 215** expert anchors on the right node and page: R150 31, R148 40, R48 35, R10 15 (rear-lamp gold) and R175 94 (the old requirements of the sub-goal case). The gold `page` is the physical PDF page, which the printed footer confirms, so the proposal's main open risk is closed.
-- **Caveat on those numbers.** The rules were written on R150, then generalised after they failed on R148 (4/40) and R48 (23/35). R150, R148, R48 and R10 are therefore in-sample. R175 (94/94) ran with the rules frozen, so it is the only hold-out.
+- **The structural graph holds up.** A deterministic parser (PyMuPDF, no LLM) put **178 of 178** distinct expert anchors on the right node and page: R150 31, R148 40, R48 35, R10 15 (rear-lamp gold) and R175 57 (the 94 old requirements of the sub-goal case sit on 57 distinct paragraphs). The gold `page` is the physical PDF page, which the printed footer confirms, so the proposal's main open risk is closed.
+- **Caveat on those numbers.** The rules were written on R150, then generalised after they failed on R148 (4/40) and R48 (23/35). R150, R148, R48 and R10 are therefore in-sample. R175 (57/57 paragraphs) ran with the rules frozen, so it is the only hold-out.
 - **Three proposal rules must change:** paragraph numbering (use the longest increasing chain, not a successor check), tables (not one node per row, and never trust extracted cell text), and "pick the subtree and extract every obligation" (a subtree gives only 26-49% node-level precision, so the applicability filter is where precision is decided).
 - **Figures can be ignored in v1.** 0 of 190 gold requirements use figure content. Some images do carry binding numbers, so keep the references and show the page image in the UI.
 - **The sub-goal is mostly deterministic.** Hash alignment leaves 8% of nodes to examine, routing the old requirements by their anchors catches 7 of 7 changed requirements in a review set of 18 of 94, and the expected `reason` strings come out of a word diff.
@@ -19,7 +19,7 @@ Status: results of the data exploration, 2026-10-24. Companion to `spec/proposal
 | UN R148 base 1.6.0 | 48 | 27K | 40 | R150 rules unchanged: 4/40, then generalised (in-sample) | 40/40 |
 | UN R48 base 9.3.0 | 122 | 74K | 35 | R150 rules unchanged: 23/35, then generalised (in-sample) | 35/35 |
 | UN R10 base 7.2.0 | 148 | 63K | 15 | R150 rules unchanged: 15/15 | 15/15 |
-| UN R175 base 0.1.0 (sub-goal `old.pdf`) | 17 | 13K | 94 | frozen (hold-out) | 94/94 |
+| UN R175 base 0.1.0 (sub-goal `old.pdf`) | 17 | 13K | 57 (for 94 requirements) | frozen (hold-out) | 57/57 |
 
 An anchor is a (page, paragraph) pair from `cases/dev-rear-lamp/expected.json` (R150, R148, R48, R10) or from `subgoal/dev/requirements_old.json` (R175). It counts as found when a parsed node has the same label, compared with the platform's own `_paragraph_key`, and the gold page lies inside that node's page range. The four rear-lamp regulations together are about 197K tokens of text.
 
@@ -65,7 +65,7 @@ What works: per scope (annex, part, appendix), take the **longest strictly incre
 
 ### 2.5 Tables
 
-- Counts of captioned tables parsed: R150 11, R148 16, R10 33. R48 has none (its grids were not checked).
+- Counts of captioned tables parsed: R150 11, R148 16, R10 33. R48 has none with a caption, but its pages draw ruled tables all the same (the colour boundaries of 2.11 among them): 26 of its nodes carry a grid since `spec/testing/report.md` section 9. R10 6.9.1 holds its test pulses in two tables that have no caption line, so a grid belongs to the node whose text lies inside it, not only to a captioned table.
 - A table can span pages: R150 Table 3 has its header on p12 and its rows on p13, and the gold cites p12 (the caption page). Table A6-1 runs p46-47.
 - `page.find_tables()` finds the grids (Table 3: 10 columns by 18 rows). **`Table.extract()` text cannot be used**: spaces are lost (`Thetwosamples`), exponents fuse into digits (`1 .20∙103` for 1.20·10³), and signs move (R10 pulse 1 reads `75V -` for `-75 V`).
 - What works, and was checked on both tables: take the cell rectangles from `find_tables()`, build each cell's text from the spans inside it (`get_text("dict", clip=cell)`), render superscript spans as `^x`, and forward-fill merged key cells. R10 then reads `1 | -75 V | -450 V | 500 pulses | III | III`; R150 Table 3 reads `IA, IB | Red | 20' | 3.00∙10^2 | 2.00∙10^2 | 1.00∙10^2 | -- | -- | --`, the same values as gold G-0029.
@@ -120,6 +120,8 @@ For the sub-goal, hash the embedded images per version: R175's two images are by
 
   The roots are depth-2 body sections or annex/part scopes, so the numbers depend on that granularity. The dilution is worst inside annexes (R150 Annex 5: 1 of 33 shall/must nodes; R10 Annex 9: 1 of 27). R48's low recall is the declarative style in 2.4.
 
+  Without the shall/must gate the same subtrees hold 568 nodes, 121 of them cited (21%); 96 of the uncited ones are bare headings. `spec/precision.md` §3 sorts the rest into buckets with their match rates.
+
 ### 2.9 The sub-goal (R175, old 0.1.0 to new 1.0.0)
 
 | Question | Result |
@@ -167,11 +169,11 @@ For the sub-goal, hash the embedded images per version: R175's two images are by
 4. Build nodes: `kind` (annex, appendix, part, para, table), `label` (`<scope> <number>`), `num`, `heading`, `text` (lines joined; a line ending in `-` joins with no space), `text_hash` (normalised body without the number), `page_start/end`, `parent` (from the number prefix), `figure_refs`, `has_image`, and a line-to-page map so any quote resolves to a page.
 5. Tables: caption `^Table\s+([A-Z]?\d+[a-z]?(-\d+)?)` (plain with a capitalised title, or bold alone). The owner is the nearest open ancestor paragraph whose own text names the table (Table A6-1 belongs to paragraph 3, not to the latest sub-item 3.2); the label is `<owner>. Table <id>`, the page is the caption page, the page range runs to the last row.
 
-**4.3 `eval/anchors.py`: the gate.** Load the five anchor sets, compare with `_paragraph_key`, require 215/215, and print the diff of left-out lines for every parser change. Add the unlabelled health report from 4.1 to the same command.
+**4.3 `eval/anchors.py`: the gate.** Load the five anchor sets, compare with `_paragraph_key`, require 178/178, and print the diff of left-out lines for every parser change. Add the unlabelled health report from 4.1 to the same command.
 
 **4.4 Graph store.** The proposal's tables plus `node.scope`, `node.kind`, `figure_refs`, `has_image`. Edges: parent (implicit), REFERS_TO (with a target regulation when `of UN Regulation No. M`), CITES_REG, DEFINES, IMPORTS_DEFINITIONS, SUPERSEDES (hand-written, checked against each new-series text), HAS_TABLE. A regulation card is its title, the §1 scope text and the generated depth-2 table of contents (about 1-3K tokens each).
 
-**4.5 Tables.** Build a markdown grid per table node (header rows kept and repeated across pages, merged key cells filled, exponents as `^x`). Splitting into requirements is the extractor's job (2.5).
+**4.5 Tables.** Build a markdown grid per table node (header rows kept and repeated across pages, merged key cells filled, exponents as `^x`). Splitting into requirements is the extractor's job (2.5). Built as `Node.grid` in `src/regcomp/parse.py`, with raised digits instead of `^x` and the grid given to whichever node holds the text inside the table; what it does and where it stops is in `spec/testing/report.md` section 9.
 
 **4.6 Obligations (LLM, batch).** Unit = one node's own text (children excluded) plus its breadcrumb, its table grid, and its figure notes. Do not filter by modal verb. Skip by scope only (Annex 1 communication forms, transitional provisions, §2 definitions apart from DEFINES edges) and let the model tag `kind` (design, performance, marking, installation, test-procedure, conformity, admin). Normalise declarative fields to "X shall Y" (R48). Verify each `quote` against the node text or the table grid (fuzzy ≥ 0.95) and take the page from the quote's offset. Ceiling check against the gold needs the local judge.
 
@@ -181,7 +183,7 @@ For the sub-goal, hash the embedded images per version: R175's two images are by
 - R48-type regulations: choose device sections from the 28 by profile function, then apply the template children (Presence, Number, Position, Electrical connections…) with the vehicle category as the condition.
 - R150/R148-type regulations: choose the class branch (IA/IB against the other classes) and the table group by colour or class.
 - Annex test methods: choose the method that matches the product (R10 Annex 9 has 27 shall/must nodes and the gold cites 1).
-- Applicability per obligation: inclusive but drop admin and rows for other colours or classes. Emit obligation ids only; fill regulation, base version, page, label from the store.
+- Applicability per obligation: keep when the match probability is above F2/5 (`spec/precision.md` §2, 4.3-4.5); drop by addressee, modality and profile facets, and rows for other colours or classes. Emit obligation ids only; fill regulation, base version, page, label from the store.
 
 **4.8 `diff.py` (sub-goal), validated on R175.**
 
@@ -201,12 +203,13 @@ For the sub-goal, hash the embedded images per version: R175's two images are by
 ## 5. Not tested, and risks
 
 - **5 of 56 regulations seen.** Other layouts may break a rule (4.1 is the cheap answer).
-- **In-sample numbers.** R148, R48 and R10 rules were adapted after failures. R175 94/94 is the only hold-out, and R175 is a small, simple document.
+- **In-sample numbers.** R148, R48 and R10 rules were adapted after failures. R175 57/57 is the only hold-out, and R175 is a small, simple document.
 - **Nothing LLM-based has been measured:** obligation extraction, the applicability filter, the sub-goal judge, requirement-level precision and recall. The node-level proxy in 2.8 is not a score.
+- **Section choice has not been measured either.** Every precision figure here and in `spec/precision.md` uses the gold-touched subtrees, so the real figures will be lower.
 - **Table conventions in the gold are inconsistent** (2.5); the caption-page rule is a hedge, not a certainty.
 - **Sub-goal scoring:** whether false flags are penalised is not stated.
 - **Figures:** binding numbers in images (R150 A5-I, Figure I, three equation pages; R148 Annex 3 light distributions) are lost in v1. The dev gold does not need them; the held-out case might.
-- **Tables:** `find_tables()` was validated on ruled tables only. R48's tables were not checked.
+- **Tables:** `find_tables()` reads ruled tables only. Over the 92 PDFs 98% of the captioned tables got a grid; the rest are drawn as images, or have only horizontal rules, or sit on a dense page (`spec/testing/report.md` section 9.4).
 - **Footer format** is assumed constant across the corpus (true for the six files checked).
 
 ## Appendix: the regexes in one place

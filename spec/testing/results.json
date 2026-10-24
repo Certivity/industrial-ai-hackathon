@@ -1,0 +1,3006 @@
+[
+  {
+    "case": "dev-rear-lamp",
+    "gold_regulations": [
+      "UN R10",
+      "UN R148",
+      "UN R150",
+      "UN R48"
+    ],
+    "gold_requirements": 190,
+    "gold_paragraphs": 121,
+    "gold_sections": 48,
+    "unparsed_gold": [],
+    "stage_regulations": {
+      "gold_ranks": {
+        "UN R10": 31,
+        "UN R148": 2,
+        "UN R150": 8,
+        "UN R48": 12
+      },
+      "top5": [
+        "UN R19",
+        "UN R148",
+        "UN R23",
+        "UN R7",
+        "UN R38"
+      ],
+      "chosen": [
+        "UN R19",
+        "UN R148",
+        "UN R23"
+      ],
+      "precision": 0.333,
+      "recall": 0.25,
+      "f2": 0.263
+    },
+    "oracle_sections": {
+      "every_node": {
+        "nodes": 568,
+        "precision": 0.213,
+        "recall": 1.0,
+        "f2": 0.575
+      },
+      "without_headings": {
+        "nodes": 473,
+        "precision": 0.256,
+        "recall": 1.0,
+        "f2": 0.632
+      }
+    },
+    "oracle_regulations": {
+      "sections:1": {
+        "nodes": 73,
+        "found": 17,
+        "paragraph_precision": 0.233,
+        "paragraph_recall": 0.14,
+        "paragraph_f2": 0.153,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.4,
+          "recall": 0.075
+        },
+        "gold_sections_found": 1
+      },
+      "sections:2": {
+        "nodes": 146,
+        "found": 19,
+        "paragraph_precision": 0.13,
+        "paragraph_recall": 0.157,
+        "paragraph_f2": 0.151,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.278,
+          "recall": 0.094
+        },
+        "gold_sections_found": 2
+      },
+      "sections:3": {
+        "nodes": 242,
+        "found": 28,
+        "paragraph_precision": 0.116,
+        "paragraph_recall": 0.231,
+        "paragraph_f2": 0.193,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.257,
+          "recall": 0.17
+        },
+        "gold_sections_found": 4
+      },
+      "sections:5": {
+        "nodes": 354,
+        "found": 40,
+        "paragraph_precision": 0.113,
+        "paragraph_recall": 0.331,
+        "paragraph_f2": 0.239,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.321,
+          "recall": 0.321
+        },
+        "gold_sections_found": 7
+      },
+      "sections:8": {
+        "nodes": 519,
+        "found": 51,
+        "paragraph_precision": 0.098,
+        "paragraph_recall": 0.421,
+        "paragraph_f2": 0.254,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.291,
+          "recall": 0.434
+        },
+        "gold_sections_found": 10
+      },
+      "sections-nodef:1": {
+        "nodes": 67,
+        "found": 18,
+        "paragraph_precision": 0.269,
+        "paragraph_recall": 0.149,
+        "paragraph_f2": 0.163,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.556,
+          "recall": 0.094
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:2": {
+        "nodes": 167,
+        "found": 32,
+        "paragraph_precision": 0.192,
+        "paragraph_recall": 0.264,
+        "paragraph_f2": 0.246,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.55,
+          "recall": 0.208
+        },
+        "gold_sections_found": 5
+      },
+      "sections-nodef:3": {
+        "nodes": 237,
+        "found": 46,
+        "paragraph_precision": 0.194,
+        "paragraph_recall": 0.38,
+        "paragraph_f2": 0.319,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.486,
+          "recall": 0.321
+        },
+        "gold_sections_found": 8
+      },
+      "sections-nodef:5": {
+        "nodes": 432,
+        "found": 46,
+        "paragraph_precision": 0.106,
+        "paragraph_recall": 0.38,
+        "paragraph_f2": 0.251,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.328,
+          "recall": 0.377
+        },
+        "gold_sections_found": 8
+      },
+      "sections-nodef:8": {
+        "nodes": 519,
+        "found": 58,
+        "paragraph_precision": 0.112,
+        "paragraph_recall": 0.479,
+        "paragraph_f2": 0.289,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.309,
+          "recall": 0.472
+        },
+        "gold_sections_found": 12
+      },
+      "nodes:10": {
+        "nodes": 40,
+        "found": 3,
+        "paragraph_precision": 0.075,
+        "paragraph_recall": 0.025,
+        "paragraph_f2": 0.029,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.412,
+          "recall": 0.264
+        }
+      },
+      "nodes:25": {
+        "nodes": 100,
+        "found": 11,
+        "paragraph_precision": 0.11,
+        "paragraph_recall": 0.091,
+        "paragraph_f2": 0.094,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.345,
+          "recall": 0.358
+        }
+      },
+      "nodes:50": {
+        "nodes": 200,
+        "found": 24,
+        "paragraph_precision": 0.12,
+        "paragraph_recall": 0.198,
+        "paragraph_f2": 0.175,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.308,
+          "recall": 0.528
+        }
+      },
+      "nodes:100": {
+        "nodes": 400,
+        "found": 42,
+        "paragraph_precision": 0.105,
+        "paragraph_recall": 0.347,
+        "paragraph_f2": 0.238,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.259,
+          "recall": 0.774
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 40,
+        "found": 2,
+        "paragraph_precision": 0.05,
+        "paragraph_recall": 0.017,
+        "paragraph_f2": 0.019,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.297,
+          "recall": 0.208
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 100,
+        "found": 6,
+        "paragraph_precision": 0.06,
+        "paragraph_recall": 0.05,
+        "paragraph_f2": 0.051,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.286,
+          "recall": 0.377
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 200,
+        "found": 16,
+        "paragraph_precision": 0.08,
+        "paragraph_recall": 0.132,
+        "paragraph_f2": 0.117,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.272,
+          "recall": 0.642
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 400,
+        "found": 34,
+        "paragraph_precision": 0.085,
+        "paragraph_recall": 0.281,
+        "paragraph_f2": 0.192,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.215,
+          "recall": 0.755
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 40,
+        "found": 4,
+        "paragraph_precision": 0.1,
+        "paragraph_recall": 0.033,
+        "paragraph_f2": 0.038,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.412,
+          "recall": 0.264
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 100,
+        "found": 14,
+        "paragraph_precision": 0.14,
+        "paragraph_recall": 0.116,
+        "paragraph_f2": 0.12,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.379,
+          "recall": 0.415
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 200,
+        "found": 27,
+        "paragraph_precision": 0.135,
+        "paragraph_recall": 0.223,
+        "paragraph_f2": 0.197,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.296,
+          "recall": 0.604
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 400,
+        "found": 45,
+        "paragraph_precision": 0.113,
+        "paragraph_recall": 0.372,
+        "paragraph_f2": 0.255,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.251,
+          "recall": 0.792
+        }
+      }
+    },
+    "chosen_regulations": {
+      "sections:1": {
+        "nodes": 34,
+        "found": 17,
+        "paragraph_precision": 0.5,
+        "paragraph_recall": 0.14,
+        "paragraph_f2": 0.164,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.667,
+          "recall": 0.075
+        },
+        "gold_sections_found": 1
+      },
+      "sections:2": {
+        "nodes": 51,
+        "found": 19,
+        "paragraph_precision": 0.373,
+        "paragraph_recall": 0.157,
+        "paragraph_f2": 0.178,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.625,
+          "recall": 0.094
+        },
+        "gold_sections_found": 2
+      },
+      "sections:3": {
+        "nodes": 70,
+        "found": 21,
+        "paragraph_precision": 0.3,
+        "paragraph_recall": 0.174,
+        "paragraph_f2": 0.19,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.5,
+          "recall": 0.132
+        },
+        "gold_sections_found": 3
+      },
+      "sections:5": {
+        "nodes": 131,
+        "found": 21,
+        "paragraph_precision": 0.16,
+        "paragraph_recall": 0.174,
+        "paragraph_f2": 0.171,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.364,
+          "recall": 0.151
+        },
+        "gold_sections_found": 3
+      },
+      "sections:8": {
+        "nodes": 226,
+        "found": 26,
+        "paragraph_precision": 0.115,
+        "paragraph_recall": 0.215,
+        "paragraph_f2": 0.183,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.263,
+          "recall": 0.189
+        },
+        "gold_sections_found": 5
+      },
+      "sections-nodef:1": {
+        "nodes": 48,
+        "found": 17,
+        "paragraph_precision": 0.354,
+        "paragraph_recall": 0.14,
+        "paragraph_f2": 0.16,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.571,
+          "recall": 0.075
+        },
+        "gold_sections_found": 1
+      },
+      "sections-nodef:2": {
+        "nodes": 66,
+        "found": 19,
+        "paragraph_precision": 0.288,
+        "paragraph_recall": 0.157,
+        "paragraph_f2": 0.173,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.417,
+          "recall": 0.094
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:3": {
+        "nodes": 80,
+        "found": 21,
+        "paragraph_precision": 0.263,
+        "paragraph_recall": 0.174,
+        "paragraph_f2": 0.186,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.467,
+          "recall": 0.132
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:5": {
+        "nodes": 160,
+        "found": 21,
+        "paragraph_precision": 0.131,
+        "paragraph_recall": 0.174,
+        "paragraph_f2": 0.163,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.308,
+          "recall": 0.151
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:8": {
+        "nodes": 251,
+        "found": 26,
+        "paragraph_precision": 0.104,
+        "paragraph_recall": 0.215,
+        "paragraph_f2": 0.177,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.238,
+          "recall": 0.189
+        },
+        "gold_sections_found": 5
+      },
+      "nodes:10": {
+        "nodes": 30,
+        "found": 1,
+        "paragraph_precision": 0.033,
+        "paragraph_recall": 0.008,
+        "paragraph_f2": 0.01,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.348,
+          "recall": 0.151
+        }
+      },
+      "nodes:25": {
+        "nodes": 75,
+        "found": 4,
+        "paragraph_precision": 0.053,
+        "paragraph_recall": 0.033,
+        "paragraph_f2": 0.036,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.242,
+          "recall": 0.151
+        }
+      },
+      "nodes:50": {
+        "nodes": 150,
+        "found": 8,
+        "paragraph_precision": 0.053,
+        "paragraph_recall": 0.066,
+        "paragraph_f2": 0.063,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.2,
+          "recall": 0.208
+        }
+      },
+      "nodes:100": {
+        "nodes": 300,
+        "found": 13,
+        "paragraph_precision": 0.043,
+        "paragraph_recall": 0.107,
+        "paragraph_f2": 0.083,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.195,
+          "recall": 0.283
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 30,
+        "found": 1,
+        "paragraph_precision": 0.033,
+        "paragraph_recall": 0.008,
+        "paragraph_f2": 0.01,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.292,
+          "recall": 0.132
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 75,
+        "found": 3,
+        "paragraph_precision": 0.04,
+        "paragraph_recall": 0.025,
+        "paragraph_f2": 0.027,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.214,
+          "recall": 0.17
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 150,
+        "found": 6,
+        "paragraph_precision": 0.04,
+        "paragraph_recall": 0.05,
+        "paragraph_f2": 0.047,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.226,
+          "recall": 0.264
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 300,
+        "found": 13,
+        "paragraph_precision": 0.043,
+        "paragraph_recall": 0.107,
+        "paragraph_f2": 0.083,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.181,
+          "recall": 0.283
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 30,
+        "found": 1,
+        "paragraph_precision": 0.033,
+        "paragraph_recall": 0.008,
+        "paragraph_f2": 0.01,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.348,
+          "recall": 0.151
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 75,
+        "found": 4,
+        "paragraph_precision": 0.053,
+        "paragraph_recall": 0.033,
+        "paragraph_f2": 0.036,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.229,
+          "recall": 0.151
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 150,
+        "found": 8,
+        "paragraph_precision": 0.053,
+        "paragraph_recall": 0.066,
+        "paragraph_f2": 0.063,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.204,
+          "recall": 0.208
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 300,
+        "found": 14,
+        "paragraph_precision": 0.047,
+        "paragraph_recall": 0.116,
+        "paragraph_f2": 0.089,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        },
+        "page_level": {
+          "precision": 0.197,
+          "recall": 0.283
+        }
+      }
+    },
+    "taxonomy": {
+      "nodes:25": {
+        "emitted": {
+          "wrong regulation": 50,
+          "uncited node in a gold section": 13,
+          "found": 4,
+          "wrong section": 8
+        },
+        "missed": {
+          "regulation not chosen": 81,
+          "in a reached section, not emitted": 22,
+          "section not reached": 14
+        }
+      },
+      "sections:3": {
+        "emitted": {
+          "wrong regulation": 21,
+          "found": 21,
+          "lead-in stem in a gold section": 2,
+          "uncited node in a gold section": 26
+        },
+        "missed": {
+          "regulation not chosen": 81,
+          "section not reached": 19
+        }
+      }
+    }
+  },
+  {
+    "case": "synth-r43-windscreen",
+    "gold_regulations": [
+      "UN R43"
+    ],
+    "gold_requirements": 47,
+    "gold_paragraphs": 35,
+    "gold_sections": 9,
+    "unparsed_gold": [],
+    "stage_regulations": {
+      "gold_ranks": {
+        "UN R43": 1
+      },
+      "top5": [
+        "UN R43",
+        "UN GTR 9",
+        "UN R19",
+        "UN R89",
+        "UN R127"
+      ],
+      "chosen": [
+        "UN R43",
+        "UN GTR 9",
+        "UN R19"
+      ],
+      "precision": 0.333,
+      "recall": 1.0,
+      "f2": 0.714
+    },
+    "oracle_sections": {
+      "every_node": {
+        "nodes": 404,
+        "precision": 0.087,
+        "recall": 1.0,
+        "f2": 0.322
+      },
+      "without_headings": {
+        "nodes": 321,
+        "precision": 0.109,
+        "recall": 1.0,
+        "f2": 0.38
+      }
+    },
+    "oracle_regulations": {
+      "sections:1": {
+        "nodes": 3,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:2": {
+        "nodes": 4,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:3": {
+        "nodes": 5,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:5": {
+        "nodes": 8,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:8": {
+        "nodes": 315,
+        "found": 9,
+        "paragraph_precision": 0.029,
+        "paragraph_recall": 0.257,
+        "paragraph_f2": 0.099,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.136,
+          "recall": 0.667
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:1": {
+        "nodes": 1,
+        "found": 1,
+        "paragraph_precision": 1.0,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.035,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.083
+        },
+        "gold_sections_found": 1
+      },
+      "sections-nodef:2": {
+        "nodes": 10,
+        "found": 2,
+        "paragraph_precision": 0.2,
+        "paragraph_recall": 0.057,
+        "paragraph_f2": 0.067,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.25
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:3": {
+        "nodes": 11,
+        "found": 3,
+        "paragraph_precision": 0.273,
+        "paragraph_recall": 0.086,
+        "paragraph_f2": 0.099,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.25
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:5": {
+        "nodes": 35,
+        "found": 3,
+        "paragraph_precision": 0.086,
+        "paragraph_recall": 0.086,
+        "paragraph_f2": 0.086,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.667,
+          "recall": 0.333
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:8": {
+        "nodes": 298,
+        "found": 11,
+        "paragraph_precision": 0.037,
+        "paragraph_recall": 0.314,
+        "paragraph_f2": 0.126,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.175,
+          "recall": 0.833
+        },
+        "gold_sections_found": 4
+      },
+      "nodes:10": {
+        "nodes": 10,
+        "found": 1,
+        "paragraph_precision": 0.1,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.033,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.125,
+          "recall": 0.083
+        }
+      },
+      "nodes:25": {
+        "nodes": 25,
+        "found": 1,
+        "paragraph_precision": 0.04,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.03,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.105,
+          "recall": 0.167
+        }
+      },
+      "nodes:50": {
+        "nodes": 50,
+        "found": 4,
+        "paragraph_precision": 0.08,
+        "paragraph_recall": 0.114,
+        "paragraph_f2": 0.105,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.133,
+          "recall": 0.333
+        }
+      },
+      "nodes:100": {
+        "nodes": 100,
+        "found": 5,
+        "paragraph_precision": 0.05,
+        "paragraph_recall": 0.143,
+        "paragraph_f2": 0.104,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.13,
+          "recall": 0.583
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 10,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.222,
+          "recall": 0.167
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 25,
+        "found": 1,
+        "paragraph_precision": 0.04,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.03,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.158,
+          "recall": 0.25
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 50,
+        "found": 4,
+        "paragraph_precision": 0.08,
+        "paragraph_recall": 0.114,
+        "paragraph_f2": 0.105,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.129,
+          "recall": 0.333
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 100,
+        "found": 7,
+        "paragraph_precision": 0.07,
+        "paragraph_recall": 0.2,
+        "paragraph_f2": 0.146,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.157,
+          "recall": 0.667
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 10,
+        "found": 2,
+        "paragraph_precision": 0.2,
+        "paragraph_recall": 0.057,
+        "paragraph_f2": 0.067,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.333,
+          "recall": 0.25
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 25,
+        "found": 3,
+        "paragraph_precision": 0.12,
+        "paragraph_recall": 0.086,
+        "paragraph_f2": 0.091,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.316,
+          "recall": 0.5
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 50,
+        "found": 6,
+        "paragraph_precision": 0.12,
+        "paragraph_recall": 0.171,
+        "paragraph_f2": 0.158,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.206,
+          "recall": 0.583
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 100,
+        "found": 8,
+        "paragraph_precision": 0.08,
+        "paragraph_recall": 0.229,
+        "paragraph_f2": 0.167,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.13,
+          "recall": 0.583
+        }
+      }
+    },
+    "chosen_regulations": {
+      "sections:1": {
+        "nodes": 25,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:2": {
+        "nodes": 37,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:3": {
+        "nodes": 68,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:5": {
+        "nodes": 95,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:8": {
+        "nodes": 557,
+        "found": 9,
+        "paragraph_precision": 0.016,
+        "paragraph_recall": 0.257,
+        "paragraph_f2": 0.065,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.078,
+          "recall": 0.667
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:1": {
+        "nodes": 23,
+        "found": 1,
+        "paragraph_precision": 0.043,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.031,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.25,
+          "recall": 0.083
+        },
+        "gold_sections_found": 1
+      },
+      "sections-nodef:2": {
+        "nodes": 62,
+        "found": 2,
+        "paragraph_precision": 0.032,
+        "paragraph_recall": 0.057,
+        "paragraph_f2": 0.05,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.25,
+          "recall": 0.25
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:3": {
+        "nodes": 72,
+        "found": 3,
+        "paragraph_precision": 0.042,
+        "paragraph_recall": 0.086,
+        "paragraph_f2": 0.071,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.214,
+          "recall": 0.25
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:5": {
+        "nodes": 158,
+        "found": 3,
+        "paragraph_precision": 0.019,
+        "paragraph_recall": 0.086,
+        "paragraph_f2": 0.05,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.143,
+          "recall": 0.333
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:8": {
+        "nodes": 735,
+        "found": 11,
+        "paragraph_precision": 0.015,
+        "paragraph_recall": 0.314,
+        "paragraph_f2": 0.063,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.076,
+          "recall": 0.833
+        },
+        "gold_sections_found": 4
+      },
+      "nodes:10": {
+        "nodes": 30,
+        "found": 1,
+        "paragraph_precision": 0.033,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.029,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.037,
+          "recall": 0.083
+        }
+      },
+      "nodes:25": {
+        "nodes": 75,
+        "found": 1,
+        "paragraph_precision": 0.013,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.023,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.038,
+          "recall": 0.167
+        }
+      },
+      "nodes:50": {
+        "nodes": 150,
+        "found": 4,
+        "paragraph_precision": 0.027,
+        "paragraph_recall": 0.114,
+        "paragraph_f2": 0.069,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.055,
+          "recall": 0.333
+        }
+      },
+      "nodes:100": {
+        "nodes": 300,
+        "found": 5,
+        "paragraph_precision": 0.017,
+        "paragraph_recall": 0.143,
+        "paragraph_f2": 0.057,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.054,
+          "recall": 0.583
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 30,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.071,
+          "recall": 0.167
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 75,
+        "found": 1,
+        "paragraph_precision": 0.013,
+        "paragraph_recall": 0.029,
+        "paragraph_f2": 0.023,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.057,
+          "recall": 0.25
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 150,
+        "found": 4,
+        "paragraph_precision": 0.027,
+        "paragraph_recall": 0.114,
+        "paragraph_f2": 0.069,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.052,
+          "recall": 0.333
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 300,
+        "found": 7,
+        "paragraph_precision": 0.023,
+        "paragraph_recall": 0.2,
+        "paragraph_f2": 0.08,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.063,
+          "recall": 0.667
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 30,
+        "found": 2,
+        "paragraph_precision": 0.067,
+        "paragraph_recall": 0.057,
+        "paragraph_f2": 0.059,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.111,
+          "recall": 0.25
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 75,
+        "found": 3,
+        "paragraph_precision": 0.04,
+        "paragraph_recall": 0.086,
+        "paragraph_f2": 0.07,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.115,
+          "recall": 0.5
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 150,
+        "found": 6,
+        "paragraph_precision": 0.04,
+        "paragraph_recall": 0.171,
+        "paragraph_f2": 0.103,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.092,
+          "recall": 0.583
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 300,
+        "found": 8,
+        "paragraph_precision": 0.027,
+        "paragraph_recall": 0.229,
+        "paragraph_f2": 0.091,
+        "regulation_level": {
+          "precision": 0.333,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.054,
+          "recall": 0.583
+        }
+      }
+    },
+    "taxonomy": {
+      "nodes:25": {
+        "emitted": {
+          "wrong section": 19,
+          "found": 1,
+          "uncited node in a gold section": 5,
+          "wrong regulation": 50
+        },
+        "missed": {
+          "in a reached section, not emitted": 27,
+          "section not reached": 7
+        }
+      },
+      "sections:3": {
+        "emitted": {
+          "wrong section": 5,
+          "wrong regulation": 63
+        },
+        "missed": {
+          "section not reached": 35
+        }
+      }
+    }
+  },
+  {
+    "case": "synth-r128-led-source",
+    "gold_regulations": [
+      "UN R128"
+    ],
+    "gold_requirements": 26,
+    "gold_paragraphs": 22,
+    "gold_sections": 9,
+    "unparsed_gold": [],
+    "stage_regulations": {
+      "gold_ranks": {
+        "UN R128": 5
+      },
+      "top5": [
+        "UN R38",
+        "UN R19",
+        "UN R23",
+        "UN R6",
+        "UN R128"
+      ],
+      "chosen": [
+        "UN R38",
+        "UN R19",
+        "UN R23"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "f2": 0.0
+    },
+    "oracle_sections": {
+      "every_node": {
+        "nodes": 41,
+        "precision": 0.537,
+        "recall": 1.0,
+        "f2": 0.853
+      },
+      "without_headings": {
+        "nodes": 32,
+        "precision": 0.594,
+        "recall": 0.864,
+        "f2": 0.792
+      }
+    },
+    "oracle_regulations": {
+      "sections:1": {
+        "nodes": 7,
+        "found": 5,
+        "paragraph_precision": 0.714,
+        "paragraph_recall": 0.227,
+        "paragraph_f2": 0.263,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.2
+        },
+        "gold_sections_found": 1
+      },
+      "sections:2": {
+        "nodes": 9,
+        "found": 6,
+        "paragraph_precision": 0.667,
+        "paragraph_recall": 0.273,
+        "paragraph_f2": 0.309,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.2
+        },
+        "gold_sections_found": 2
+      },
+      "sections:3": {
+        "nodes": 14,
+        "found": 10,
+        "paragraph_precision": 0.714,
+        "paragraph_recall": 0.455,
+        "paragraph_f2": 0.49,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.6
+        },
+        "gold_sections_found": 3
+      },
+      "sections:5": {
+        "nodes": 50,
+        "found": 10,
+        "paragraph_precision": 0.256,
+        "paragraph_recall": 0.455,
+        "paragraph_f2": 0.394,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.158,
+          "recall": 0.6
+        },
+        "gold_sections_found": 3
+      },
+      "sections:8": {
+        "nodes": 76,
+        "found": 10,
+        "paragraph_precision": 0.154,
+        "paragraph_recall": 0.455,
+        "paragraph_f2": 0.327,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.136,
+          "recall": 0.6
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:1": {
+        "nodes": 7,
+        "found": 5,
+        "paragraph_precision": 0.714,
+        "paragraph_recall": 0.227,
+        "paragraph_f2": 0.263,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.2
+        },
+        "gold_sections_found": 1
+      },
+      "sections-nodef:2": {
+        "nodes": 9,
+        "found": 6,
+        "paragraph_precision": 0.667,
+        "paragraph_recall": 0.273,
+        "paragraph_f2": 0.309,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.2
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:3": {
+        "nodes": 14,
+        "found": 10,
+        "paragraph_precision": 0.714,
+        "paragraph_recall": 0.455,
+        "paragraph_f2": 0.49,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 1.0,
+          "recall": 0.6
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:5": {
+        "nodes": 50,
+        "found": 10,
+        "paragraph_precision": 0.256,
+        "paragraph_recall": 0.455,
+        "paragraph_f2": 0.394,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.158,
+          "recall": 0.6
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:8": {
+        "nodes": 67,
+        "found": 10,
+        "paragraph_precision": 0.179,
+        "paragraph_recall": 0.455,
+        "paragraph_f2": 0.347,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.136,
+          "recall": 0.6
+        },
+        "gold_sections_found": 3
+      },
+      "nodes:10": {
+        "nodes": 10,
+        "found": 3,
+        "paragraph_precision": 0.3,
+        "paragraph_recall": 0.136,
+        "paragraph_f2": 0.153,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.222,
+          "recall": 0.4
+        }
+      },
+      "nodes:25": {
+        "nodes": 25,
+        "found": 6,
+        "paragraph_precision": 0.24,
+        "paragraph_recall": 0.273,
+        "paragraph_f2": 0.265,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.2,
+          "recall": 0.6
+        }
+      },
+      "nodes:50": {
+        "nodes": 50,
+        "found": 7,
+        "paragraph_precision": 0.149,
+        "paragraph_recall": 0.318,
+        "paragraph_f2": 0.259,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.227,
+          "recall": 1.0
+        }
+      },
+      "nodes:100": {
+        "nodes": 100,
+        "found": 12,
+        "paragraph_precision": 0.132,
+        "paragraph_recall": 0.545,
+        "paragraph_f2": 0.335,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.172,
+          "recall": 1.0
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 10,
+        "found": 4,
+        "paragraph_precision": 0.4,
+        "paragraph_recall": 0.182,
+        "paragraph_f2": 0.204,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.286,
+          "recall": 0.4
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 25,
+        "found": 5,
+        "paragraph_precision": 0.208,
+        "paragraph_recall": 0.227,
+        "paragraph_f2": 0.223,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.25,
+          "recall": 0.8
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 50,
+        "found": 7,
+        "paragraph_precision": 0.149,
+        "paragraph_recall": 0.318,
+        "paragraph_f2": 0.259,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.227,
+          "recall": 1.0
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 100,
+        "found": 10,
+        "paragraph_precision": 0.112,
+        "paragraph_recall": 0.455,
+        "paragraph_f2": 0.282,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.156,
+          "recall": 1.0
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 10,
+        "found": 3,
+        "paragraph_precision": 0.3,
+        "paragraph_recall": 0.136,
+        "paragraph_f2": 0.153,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.222,
+          "recall": 0.4
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 25,
+        "found": 6,
+        "paragraph_precision": 0.25,
+        "paragraph_recall": 0.273,
+        "paragraph_f2": 0.268,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.2,
+          "recall": 0.6
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 50,
+        "found": 8,
+        "paragraph_precision": 0.174,
+        "paragraph_recall": 0.364,
+        "paragraph_f2": 0.299,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.227,
+          "recall": 1.0
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 100,
+        "found": 13,
+        "paragraph_precision": 0.146,
+        "paragraph_recall": 0.591,
+        "paragraph_f2": 0.367,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.161,
+          "recall": 1.0
+        }
+      }
+    },
+    "chosen_regulations": {
+      "sections:1": {
+        "nodes": 14,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:2": {
+        "nodes": 19,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:3": {
+        "nodes": 50,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:5": {
+        "nodes": 90,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:8": {
+        "nodes": 210,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:1": {
+        "nodes": 23,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:2": {
+        "nodes": 32,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:3": {
+        "nodes": 59,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:5": {
+        "nodes": 113,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:8": {
+        "nodes": 212,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "nodes:10": {
+        "nodes": 30,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes:25": {
+        "nodes": 75,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes:50": {
+        "nodes": 150,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes:100": {
+        "nodes": 300,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 30,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 75,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 150,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 300,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 30,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 75,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 150,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 300,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "taxonomy": {
+      "nodes:25": {
+        "emitted": {
+          "wrong regulation": 75
+        },
+        "missed": {
+          "regulation not chosen": 22
+        }
+      },
+      "sections:3": {
+        "emitted": {
+          "wrong regulation": 50
+        },
+        "missed": {
+          "regulation not chosen": 22
+        }
+      }
+    }
+  },
+  {
+    "case": "synth-r79-eps",
+    "gold_regulations": [
+      "UN R79"
+    ],
+    "gold_requirements": 38,
+    "gold_paragraphs": 25,
+    "gold_sections": 6,
+    "unparsed_gold": [],
+    "stage_regulations": {
+      "gold_ranks": {
+        "UN R79": 22
+      },
+      "top5": [
+        "UN R100",
+        "UN R10",
+        "UN R101",
+        "UN R89",
+        "UN R19"
+      ],
+      "chosen": [
+        "UN R100",
+        "UN R10",
+        "UN R101"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "f2": 0.0
+    },
+    "oracle_sections": {
+      "every_node": {
+        "nodes": 183,
+        "precision": 0.137,
+        "recall": 1.0,
+        "f2": 0.442
+      },
+      "without_headings": {
+        "nodes": 167,
+        "precision": 0.15,
+        "recall": 1.0,
+        "f2": 0.468
+      }
+    },
+    "oracle_regulations": {
+      "sections:1": {
+        "nodes": 19,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:2": {
+        "nodes": 94,
+        "found": 9,
+        "paragraph_precision": 0.096,
+        "paragraph_recall": 0.36,
+        "paragraph_f2": 0.232,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.3,
+          "recall": 0.273
+        },
+        "gold_sections_found": 1
+      },
+      "sections:3": {
+        "nodes": 107,
+        "found": 12,
+        "paragraph_precision": 0.112,
+        "paragraph_recall": 0.48,
+        "paragraph_f2": 0.29,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.417,
+          "recall": 0.455
+        },
+        "gold_sections_found": 2
+      },
+      "sections:5": {
+        "nodes": 201,
+        "found": 12,
+        "paragraph_precision": 0.06,
+        "paragraph_recall": 0.48,
+        "paragraph_f2": 0.199,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.231,
+          "recall": 0.545
+        },
+        "gold_sections_found": 2
+      },
+      "sections:8": {
+        "nodes": 274,
+        "found": 16,
+        "paragraph_precision": 0.058,
+        "paragraph_recall": 0.64,
+        "paragraph_f2": 0.214,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.222,
+          "recall": 0.727
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:1": {
+        "nodes": 75,
+        "found": 9,
+        "paragraph_precision": 0.12,
+        "paragraph_recall": 0.36,
+        "paragraph_f2": 0.257,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.429,
+          "recall": 0.273
+        },
+        "gold_sections_found": 1
+      },
+      "sections-nodef:2": {
+        "nodes": 88,
+        "found": 12,
+        "paragraph_precision": 0.136,
+        "paragraph_recall": 0.48,
+        "paragraph_f2": 0.319,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.556,
+          "recall": 0.455
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:3": {
+        "nodes": 181,
+        "found": 12,
+        "paragraph_precision": 0.066,
+        "paragraph_recall": 0.48,
+        "paragraph_f2": 0.214,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.273,
+          "recall": 0.545
+        },
+        "gold_sections_found": 2
+      },
+      "sections-nodef:5": {
+        "nodes": 202,
+        "found": 15,
+        "paragraph_precision": 0.074,
+        "paragraph_recall": 0.6,
+        "paragraph_f2": 0.248,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.308,
+          "recall": 0.727
+        },
+        "gold_sections_found": 3
+      },
+      "sections-nodef:8": {
+        "nodes": 303,
+        "found": 19,
+        "paragraph_precision": 0.063,
+        "paragraph_recall": 0.76,
+        "paragraph_f2": 0.236,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.222,
+          "recall": 0.909
+        },
+        "gold_sections_found": 4
+      },
+      "nodes:10": {
+        "nodes": 10,
+        "found": 2,
+        "paragraph_precision": 0.2,
+        "paragraph_recall": 0.08,
+        "paragraph_f2": 0.091,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.375,
+          "recall": 0.273
+        }
+      },
+      "nodes:25": {
+        "nodes": 25,
+        "found": 4,
+        "paragraph_precision": 0.16,
+        "paragraph_recall": 0.16,
+        "paragraph_f2": 0.16,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.412,
+          "recall": 0.727
+        }
+      },
+      "nodes:50": {
+        "nodes": 50,
+        "found": 8,
+        "paragraph_precision": 0.16,
+        "paragraph_recall": 0.32,
+        "paragraph_f2": 0.267,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.333,
+          "recall": 0.909
+        }
+      },
+      "nodes:100": {
+        "nodes": 100,
+        "found": 10,
+        "paragraph_precision": 0.1,
+        "paragraph_recall": 0.4,
+        "paragraph_f2": 0.25,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.244,
+          "recall": 1.0
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 10,
+        "found": 2,
+        "paragraph_precision": 0.2,
+        "paragraph_recall": 0.08,
+        "paragraph_f2": 0.091,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.5,
+          "recall": 0.273
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 25,
+        "found": 2,
+        "paragraph_precision": 0.08,
+        "paragraph_recall": 0.08,
+        "paragraph_f2": 0.08,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.222,
+          "recall": 0.364
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 50,
+        "found": 4,
+        "paragraph_precision": 0.08,
+        "paragraph_recall": 0.16,
+        "paragraph_f2": 0.133,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.31,
+          "recall": 0.818
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 100,
+        "found": 8,
+        "paragraph_precision": 0.08,
+        "paragraph_recall": 0.32,
+        "paragraph_f2": 0.2,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.25,
+          "recall": 1.0
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 10,
+        "found": 4,
+        "paragraph_precision": 0.4,
+        "paragraph_recall": 0.16,
+        "paragraph_f2": 0.182,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.714,
+          "recall": 0.455
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 25,
+        "found": 6,
+        "paragraph_precision": 0.24,
+        "paragraph_recall": 0.24,
+        "paragraph_f2": 0.24,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.5,
+          "recall": 0.727
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 50,
+        "found": 10,
+        "paragraph_precision": 0.2,
+        "paragraph_recall": 0.4,
+        "paragraph_f2": 0.333,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.375,
+          "recall": 0.909
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 100,
+        "found": 16,
+        "paragraph_precision": 0.16,
+        "paragraph_recall": 0.64,
+        "paragraph_f2": 0.4,
+        "regulation_level": {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "page_level": {
+          "precision": 0.268,
+          "recall": 1.0
+        }
+      }
+    },
+    "chosen_regulations": {
+      "sections:1": {
+        "nodes": 3,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:2": {
+        "nodes": 6,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:3": {
+        "nodes": 67,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:5": {
+        "nodes": 247,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections:8": {
+        "nodes": 677,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:1": {
+        "nodes": 6,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:2": {
+        "nodes": 94,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:3": {
+        "nodes": 210,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:5": {
+        "nodes": 418,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "sections-nodef:8": {
+        "nodes": 850,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "gold_sections_found": 0
+      },
+      "nodes:10": {
+        "nodes": 30,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes:25": {
+        "nodes": 75,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes:50": {
+        "nodes": 150,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes:100": {
+        "nodes": 300,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:10": {
+        "nodes": 30,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:25": {
+        "nodes": 75,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:50": {
+        "nodes": 150,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-flat:100": {
+        "nodes": 300,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:10": {
+        "nodes": 30,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:25": {
+        "nodes": 75,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:50": {
+        "nodes": 150,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "nodes-nodef:100": {
+        "nodes": 300,
+        "found": 0,
+        "paragraph_precision": 0.0,
+        "paragraph_recall": 0.0,
+        "paragraph_f2": 0.0,
+        "regulation_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "page_level": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    "taxonomy": {
+      "nodes:25": {
+        "emitted": {
+          "wrong regulation": 75
+        },
+        "missed": {
+          "regulation not chosen": 25
+        }
+      },
+      "sections:3": {
+        "emitted": {
+          "wrong regulation": 67
+        },
+        "missed": {
+          "regulation not chosen": 25
+        }
+      }
+    }
+  }
+]

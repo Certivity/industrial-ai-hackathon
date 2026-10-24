@@ -1,0 +1,386 @@
+{
+  "team_id": "synthetic",
+  "case_id": "synth-r79-eps",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "There shall be a tendency to self-centre when tested in accordance with paragraph 6.2 with the intact steering equipment.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The vehicle shall meet the requirements of paragraph 6.2.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "It shall be possible to travel along a straight section of road at the maximum design speed of the vehicle without unusual steering correction by the driver.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "It shall be possible to travel along a straight section of road at the maximum design speed of the vehicle without unusual vibration in the steering system.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The direction of operation of the steering control shall correspond to the intended change of direction of the vehicle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "There shall be a continuous relationship between the steering control deflection and the steering angle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The steering equipment shall be designed, constructed and fitted in such a way that it is capable of withstanding the stresses arising during normal operation of the vehicle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The maximum steering angle shall not be limited by any part of the steering transmission unless specifically designed for this purpose.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "For a vehicle without a coupling system for charging the traction battery, the immunity of the steering equipment to magnetic or electric fields shall be demonstrated by fulfilling the technical requirements of UN Regulation No. 10 in its 03 series of amendments.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection can be established between the adjustable components by appropriate locking devices.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.8.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The steered wheels shall not be solely the rear wheels.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "In the case of a failure in any system which shares the same energy supply as the steering equipment, steering shall be ensured in accordance with the relevant failure conditions of paragraph 5.3.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The requirements of Annex 6 shall be applied to the safety aspects of the electronic control system that forms part of the control transmission of the steering function.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The steered wheels, the steering control and all mechanical parts of the steering transmission shall be amply dimensioned, readily accessible for maintenance, and exhibit safety features at least equal to those prescribed for other essential components of the vehicle, in order not to be regarded as liable to breakage.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.1.1"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "A part of the steering whose failure would be likely to result in loss of control of the vehicle shall be made of metal or of a material with equivalent characteristics and shall not be subject to significant distortion in normal operation of the steering system.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.1.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The requirements of paragraphs 5.1.2, 5.1.3 and 6.2.1 shall also be satisfied with a failure in the steering equipment as long as the vehicle can be driven with the speeds required in the respective paragraphs.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.1.2"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "Any failure in a transmission other than purely mechanical shall clearly be brought to the attention of the vehicle driver as given in paragraph 5.4.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.1.3"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "Should the engine stop or a part of the transmission fail, with the exception of the parts listed in paragraph 5.3.1.1, there shall be no immediate changes in steering angle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.2.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "As long as the vehicle is capable of being driven at a speed greater than 10 km/h, the requirements of paragraph 6 relating to a system with a failure shall be met.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.2.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver of the vehicle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 19,
+        "paragraph": "5.4.1.1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "Optical warning signals shall be visible, even by daylight, and distinguishable from other alerts.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The satisfactory condition of the optical warning signals shall be easily verifiable by the driver from the driver's seat.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The failure of a component of the warning devices shall not entail any loss of the steering system's performance.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "Acoustic warning signals shall be by continuous or intermittent sound signal or by vocal information.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.3"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "Acoustic warning signals shall be easily recognized by the driver.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.3"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "As far as practicable and subject to agreement between the vehicle manufacturer and the Type Approval Authority, the steering equipment and its installation shall be so designed that, without disassembly, its operation can be checked with commonly used measuring instruments, methods or test equipment.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 21,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "It shall be possible to verify in a simple way the correct operational status of the electronic systems which have control over steering.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 21,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "If special information is needed to verify the operational status of the electronic systems which have control over steering, it shall be made freely available.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 21,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "It shall be possible for a Category M1 vehicle to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment at 50 km/h.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "When the vehicle is driven in a circle with its steered wheels at approximately half lock and a constant speed of at least 10 km/h, the turning circle shall remain the same or become larger if the steering control is released.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "With intact steering equipment the steering control effort of a Category M1 vehicle shall not exceed 15 daN, and the turning radius of 12 m shall be reached within 4 s.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 37,
+        "paragraph": "6.2.5.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "With a failure in the steering equipment the steering control effort of a Category M1 vehicle shall not exceed 30 daN, and the turning radius of 20 m shall be reached within 4 s.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 37,
+        "paragraph": "6.2.5.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "Each unit of the steering control system shall be clearly and unambiguously identifiable, for example by marking for hardware and marking or software output for software content.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 49,
+        "paragraph": "Annex 6 3.3.5"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The identification of a unit shall define its hardware and software version, and shall be changed where a software change alters the function of the unit as far as UN Regulation No. 79 is concerned.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 49,
+        "paragraph": "Annex 6 3.3.5.1"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The results of verifying the system under non-fault conditions shall correspond with the description, including the control strategies, provided by the manufacturer.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 51,
+        "paragraph": "Annex 6 4.1.1.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The results of verifying the safety concept under a failure in any individual unit shall correspond with the documented summary of the failure analysis.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 51,
+        "paragraph": "Annex 6 4.1.2.1"
+      }
+    }
+  ]
+}

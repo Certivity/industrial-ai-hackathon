@@ -1,6 +1,6 @@
 # Proposal: grounded regulation index and versioned requirement mapping
 
-Status: proposal, 2026-10-24
+Status: proposal, 2026-10-24. Updated with `spec/finding/mapping-simulation.md` (regulation and section choice, supersession, cost of errors). The changes listed in `spec/finding/finding.md` section 3 and `spec/testing/report.md` section 6 are not merged here yet.
 
 ## Context
 
@@ -13,8 +13,8 @@ This design addresses two problems:
 
 ## What the data tells us
 
-- **The gold set is tree-shaped.** The rear-lamp gold has 190 requirements from only 4 regulations: R148 (63), R48 (56), R150 (39) and R10 (32). They sit in contiguous sections: R48 §5.x general, §6.4 reversing, §6.7 stop, §6.10 rear position, §6.14 retro-reflector; R150 §3.3 markings, §4–5, Annexes 2/4/5/6. The right approach is to pick the relevant subtree and extract every obligation in it, not to retrieve top-k chunks.
-- **Picking regulations by title gives false positives.** The spec mentions a reversing lamp, position/stop lamps and a retro-reflector, but the gold does **not** cite R23, R7 or R3. It cites the newer consolidated **R148/R150** instead. R48 itself says "type-approved to R7 *or* R148" (G-0087), so cross-regulation references help find candidates, but the final choice needs a supersession rule. R10 (electromagnetic compatibility) is in the gold because "LED modules on PCB" makes the lamp an electronic sub-assembly (ESA). Materials and electronics can pull in whole regulations.
+- **The gold set is tree-shaped.** The rear-lamp gold has 190 requirements from only 4 regulations: R148 (63), R48 (56), R150 (39) and R10 (32). They sit in contiguous sections: R48 §5.x general, §6.4 reversing, §6.7 stop, §6.10 rear position, §6.14 retro-reflector; R150 §3.3 markings, §4–5, Annexes 2/4/5/6. The right approach is to pick the relevant subtree and extract every obligation in it, not to retrieve top-k chunks. But only 26% of the requirements (50 of 190) sit in sections named after a part or function of the product (R48 §6.4/6.7/6.10/6.14, R148 §5.2/5.5/5.8, R150 §5.1). The rest are in markings (17%), general and EMC specifications (44%) and annex test methods (12%), which no function name points to (`spec/finding/mapping-simulation.md` §4.1).
+- **Picking regulations by title gives false positives.** The spec mentions a reversing lamp, position/stop lamps and a retro-reflector, but the gold does **not** cite R23, R7 or R3. It cites the newer consolidated **R148/R150** instead. R48 itself says "type-approved to R7 *or* R148" (G-0087), so cross-regulation references help find candidates, but the final choice needs a supersession rule. R10 (electromagnetic compatibility) is in the gold because "LED modules on PCB" makes the lamp an electronic sub-assembly (ESA). Materials and electronics can pull in whole regulations. Measured on the 56 regulation cards: a lexical ranking puts the older R7, R3 and R23 in the top 10 and R53 (installation for L3 vehicles) second; R10 is not cited by R48, R148 or R150, and ranks 2-3 of 56 when the profile says "electrical/electronic sub-assembly, electromagnetic compatibility" but 12-21 when it says "LED module, printed circuit board" (`spec/finding/mapping-simulation.md` §3).
 - **One obligation per requirement.** A single paragraph can yield up to 10 requirements: R10 §6.9.1 is split into one per table row (pulse 1/2a/2b/3a/3b). The text is rewritten as a standalone "X shall Y [while/when/where Z]". The gold IDs have 44 gaps, which suggests rows that don't apply were dropped. For example, only the **red** row of R150 Table 3 appears, because the lens is red. So applicability is decided down to the table row.
 - **Paragraph labels have a fixed format.** Examples: `5.1.4.4.1. Table 3`, `Annex 4 Part 1 1.2`, `Annex 6 Part 6 3. Table A6-1`. `tools/score_local.py::_paragraph_key` normalizes them. The platform scores pages against each gold paragraph's **full page range**.
 - **The main goal leaves out admin obligations.** In the dev gold, R150 requirements start at §3.3 (markings). Approval-application paperwork is left out; test-procedure parameters (saline mist, ISO 4892 exposure) are kept.
@@ -51,12 +51,13 @@ Use PyMuPDF, which gives text plus font and position information.
 ### A2. Edges
 
 - `REFERS_TO`: regex on "paragraph 5.8.1", "Annex 4, Part 1, paragraph 1.1".
-- `CITES_REG`: "UN Regulation No. 48".
+- `CITES_REG`: "UN Regulation No. 48", and lists such as "Nos. 13 and 13-H". A number with a leading zero is a series ("00 series"), not a regulation. Follow it from the chosen sections only: the whole of R48 cites 17 regulations of the index; its four lamp sections cite R148, R150, the older R23, R7 and R3, and R13H (a false positive: the braking signal of the stop lamp).
 - `DEFINES`: from the §2 definitions to the term.
-- `SUPERSEDES`: a small hand-written table, checked against the R148/R149/R150 text:
-  - R148 replaces R6, R7, R23, R38 (lamps);
+- `SUPERSEDES`: read from the "Introduction (for information)" of each regulation ("combines the provisions of individual UN Regulations Nos. …"), not typed in. For the regulations in the index it gives:
+  - R148 replaces R6, R7, R23, R38 (and Nos. 4, 50, 77, 87, 91, which are not in the index);
   - R149 replaces R19, R123;
-  - R150 replaces R3, R104.
+  - R150 replaces R3, R104;
+  - it is a redirect, not a relevance signal: R19 and R123 redirect to R149, which does not apply to a rear lamp either.
 - Each section node also gets a one-line LLM summary, used when walking the table of contents.
 
 ### A3. Obligation layer
@@ -64,7 +65,7 @@ Use PyMuPDF, which gives text plus font and position information.
 Obligations don't depend on the product, so they are computed once per regulation version.
 
 - **Extraction.** For each paragraph or table row, the LLM splits the text into atomic obligations in the gold style.
-- **Fields:** `text`, `quote` (the verbatim source span), `condition`, `subject`, and `kind`, one of {design, performance, marking, installation, test-procedure, conformity-of-production, admin}.
+- **Fields:** `text`, `quote` (the verbatim source span), `condition`, `subject`, and `kind`, one of {design, performance, marking, installation, test-procedure, conformity-of-production, admin}. Also `addressee` (product, manufacturer, test-lab, authority; set by what is constrained, not who is named), `modality` (obligation, permission, exemption, scope) and `applies_if` facets for matching against the profile (`spec/precision.md` 4.3-4.4).
 - **Check in code.** `quote` must be a fuzzy (≥0.95) substring of the node text, otherwise the obligation is rejected and retried. `page` comes from the quote's character offset.
 - **When to run it.** Run it over all base versions on Saturday with the Batch API, so on Sunday the held-out case only needs selection, not extraction.
 
@@ -73,16 +74,21 @@ Obligations don't depend on the product, so they are computed once per regulatio
 This is a workflow with fixed steps. The LLM makes the decisions inside each step.
 
 1. **Profile.** spec.md plus a vision pass over the exploded view → parts, functions, vehicle category, colours, materials and electronics (LED/PCB → ESA). Each item gets a stable key.
-2. **Pick regulations.** The LLM reads a card per regulation (title, §1 scope, short table of contents) against the profile.
-   - It follows `CITES_REG` from installation regulations to device regulations (R48 → R148).
-   - It applies `SUPERSEDES` to prefer R148/R149/R150 over the older regulations.
-   - Be **strict** here, because a wrong regulation drags in dozens of false requirements.
-3. **Pick sections.** The LLM walks down the table of contents, using the section summaries, once per profile item, and is **inclusive**. A hybrid search per item (BM25 via FTS5 plus embeddings) is a safety net: hits outside the chosen sections are shown to the LLM so it can add them.
+2. **Pick regulations.** The LLM reads a card per regulation (title, §1 scope, depth-2 table of contents) against the profile. A card is 0.7K-4.9K tokens (median 1.6K) and all 56 together are about 106K, so one prompt can hold every card.
+   - A deterministic pre-filter orders the cards and drops what cannot apply: a vehicle-category facet read from §1 (an M1 spec drops R53, R62, R40, R102 and R92) and `SUPERSEDES`.
+   - It follows `CITES_REG` from the chosen sections of an installation regulation to device regulations (R48 → R148, R150).
+   - The profile has to carry the regulatory concept, not only the spec's words: "LED modules on PCB" must become "electrical/electronic sub-assembly (ESA), electromagnetic compatibility" to reach R10, because no lighting regulation cites it.
+   - Be **strict** here. On the oracle section list, one wrong regulation costs 0.08-0.23 F2 (a lexical walk drags in 170-710 nodes), while dropping R10 costs 0.02-0.04.
+3. **Pick sections.** The LLM walks down the table of contents, using the section summaries, and is **inclusive**: a missed section loses all of its gold, and step 5 removes what does not apply. One walk per profile item only finds the sections named after a part or function (26% of the dev requirements), so there are three walks and a search:
+   - **per item:** the sections named after a part or function (R48 §6.x, R148 §5.x, R150 §5.1);
+   - **once per chosen regulation:** the sections that apply to every device of the class: markings (R148 and R150 §3.3, 17% of the requirements), general and EMC specifications (44%), conformity of production. Do not drop a section by its heading: R148 §3 is titled "Administrative provisions" and holds 25 gold requirements;
+   - **by materials and technology:** test methods in the annexes (12%). Choose the Part or the paragraph, not the annex: whole annex scopes have a match rate of 8%, below the F2/5 bar, against 25-37% for the other three kinds;
+   - **search:** a hybrid search per item (BM25 via FTS5 plus embeddings) is a safety net for sections, not for emission. Its top 40 hits per item (293 nodes) touch 31 of the 48 gold sections but hold only 21 of the 121 gold nodes. Hits outside the chosen sections are shown to the LLM so it can add them.
 4. **List** every obligation in the chosen subtrees. This step is deterministic and uses no LLM.
 5. **Check applicability** of each obligation against the profile.
    - Run in batches, with the profile and instructions cached.
-   - Drop `admin` obligations, and drop table rows for other colours or vehicle categories.
-   - When in doubt, keep it, because F2 rewards recall.
+   - Drop obligations addressed to the authority, permissions, exemptions and scope text, and drop table rows for other colours or vehicle categories. Decide `admin` by addressee, not by keyword: the gold keeps "the two samples supplied shall…".
+   - Keep an obligation only when its estimated match probability is above F2/5 (about 12-16%), measured per confidence bin on the dev case. Doubt alone is not a reason to keep it (`spec/precision.md` §2).
 6. **Verify and emit.** Fill in regulation, version (base), page and label from the store, then validate with `tools/validate.py`.
 
 ### A5. If a free-form agent is preferred
@@ -102,7 +108,7 @@ The agent still walks the graph, but it cannot invent a location.
 ### A6. Three kinds of error, three policies
 
 - **A wrong or made-up citation** cannot happen by construction: outputs are IDs only, and every quote is verified.
-- **A real obligation that doesn't apply** costs a little precision. Because F2 rewards recall, be inclusive inside the regulations you selected.
+- **A real obligation that doesn't apply** costs precision. F2 favours recall only while precision is above half of recall, and listing whole subtrees gives about 21% node precision, so keep an obligation only when its match probability is above F2/5. Dropped candidates stay visible in the UI with their reason (`spec/precision.md` §2, 4.8).
 - **No coverage.** The demo shows a coverage table with every profile item. Items with no match above the threshold show "no applicable provision found in indexed regulations (searched: …)", and nothing is emitted for them.
 
 ## Part B: versioning and change propagation
@@ -201,6 +207,7 @@ src/regcomp/
   app.py          # Streamlit demo: spec → requirements (breadcrumb, PDF page link/highlight), coverage table, change view
 eval/
   anchors.py      # parser test vs gold + requirements_old anchors
+  simulate_mapping.py  # graph of 10 regulations, lexical selectors and oracle ceilings vs the gold; --selection scores a model's picks
   judge.py        # local LLM 1:1 requirement matcher (approximates the platform), stage-wise recall, F2
 ```
 
@@ -227,8 +234,10 @@ The held-out cases are released Sunday at 08:00, uploads close at 13:00, and the
 - **Stage-wise recall on the dev case.** This shows where the pipeline is weak, which the brief asks teams to present in the pitch.
   - Regulation level: `python tools/score_local.py out.json`.
   - Section recall: the share of gold paragraphs inside the chosen subtrees.
+  - Without a model: `python eval/simulate_mapping.py` gives the funnel (regulations, sections, nodes, reachable requirements, page level) for lexical selectors and oracle ceilings. A model's picks, made without the gold in its context, are scored with `--selection picks.json`.
   - Obligation ceiling: the share of gold requirements matched by any extracted obligation in those subtrees.
   - Final requirement-level precision, recall and F2 from `eval/judge.py`.
+- **Where precision is lost** (`spec/precision.md` §5): the funnel with P, R and F2 at every stage, a cause tag on every false positive and false negative, the precision-recall curve over the judge's bins, and platform ablation uploads (output minus one bucket) to check the local numbers.
 - **Grounding audit:** 100% of emitted requirements pass quote verification, and 20 random page links are opened and checked by hand.
 - **Sub-goal:** compare with `subgoal/dev/expected.json`. Measure recall of flagged IDs, accuracy of the change type, and false flags among the 87 unchanged requirements.
 - **Propagation tests:**
@@ -241,5 +250,6 @@ The held-out cases are released Sunday at 08:00, uploads close at 13:00, and the
 
 - **Page numbering is unverified.** Until the PDFs are fetched, we don't know whether pages are physical or printed.
 - **Overfitting.** There is only one dev case, so selection rules could overfit to the rear lamp. Keep them generic: supersession, dropping admin obligations, filtering table rows by colour or vehicle category.
-- **The supersession table is hand-written** and must be checked against the R148/R149/R150 text.
+- **Supersession** is read from the introductions of R148, R149 and R150 and agrees with the former hand-written table for the regulations in the index. A regulation without such an introduction is not covered.
+- **The dev numbers are in-sample for the design.** The derived electronics item, the category facet and the section kinds were chosen knowing the dev gold, and the regulation and section steps have only been run with BM25 (`spec/finding/mapping-simulation.md` §7). A model's picks have to be scored without the gold in its context.
 - **Stack.** This assumes Python and the Claude API; both are easy to swap.

@@ -1,3 +1,4 @@
+import { Toaster } from '@/components/ui/sonner'
 import { AppHeader } from '@/components/app-header'
 import { AssessPage } from '@/features/assess/assess-page'
 import { RequirementsPage } from '@/features/requirements/requirements-page'
@@ -9,6 +10,7 @@ export default function App() {
     <>
       <AppHeader route={route} onNavigate={navigate} />
       {route === 'requirements' ? <RequirementsPage /> : <AssessPage />}
+      <Toaster />
     </>
   )
 }

@@ -38,7 +38,7 @@ export function FileDropzone({ disabled, onFiles }: Props) {
         type="button"
         disabled={disabled}
         onClick={() => input.current?.click()}
-        className="text-sm font-medium underline underline-offset-4 hover:text-primary focus-visible:outline-2 focus-visible:outline-ring disabled:pointer-events-none"
+        className="rounded-md px-2 py-1 text-sm font-medium text-foreground/70 underline underline-offset-4 transition-colors hover:bg-muted hover:text-foreground active:bg-muted-foreground/20 active:text-foreground focus-visible:outline-2 focus-visible:outline-ring disabled:pointer-events-none"
       >
         or browse files
       </button>

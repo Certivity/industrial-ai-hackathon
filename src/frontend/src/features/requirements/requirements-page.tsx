@@ -35,7 +35,7 @@ export function RequirementsPage() {
   const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }))
 
   return (
-    <main className="mx-auto flex max-w-7xl flex-col gap-6 p-6">
+    <main className="mx-auto flex max-w-7xl flex-col gap-6 px-6 pt-24 pb-6">
       <header className="flex flex-col gap-1">
         <h1 className="text-2xl font-semibold tracking-tight">Regulatory requirements</h1>
         <p className="text-sm text-muted-foreground">

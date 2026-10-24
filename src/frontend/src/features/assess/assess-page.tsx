@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import { CircleCheck, Loader2 } from 'lucide-react'
+import { Loader2 } from 'lucide-react'
 import { toast } from 'sonner'
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 import { assessDocuments, type AssessResult } from '@/lib/assess'
 import { FileDropzone } from './file-dropzone'
 import { FileList } from './file-list'
+import { AssessResults } from './results/assess-results'
 
 type State =
   | { status: 'idle' }
@@ -40,30 +41,24 @@ export function AssessPage() {
   }
 
   return (
-    <main className="mx-auto flex max-w-3xl flex-col gap-6 p-6">
-      <header className="flex flex-col gap-1">
-        <h1 className="text-2xl font-semibold tracking-tight">Assess product</h1>
-        <p className="text-sm text-muted-foreground">
-          Upload the technical documentation of a component to check it against the regulations.
-        </p>
-      </header>
+    <main
+      className={cn(
+        'mx-auto flex flex-col gap-6 px-6 pt-24 pb-6',
+        state.status === 'done' ? 'max-w-7xl' : 'max-w-3xl',
+      )}
+    >
+      {/* The results view brings its own title */}
+      {state.status !== 'done' && (
+        <header className="flex flex-col gap-1">
+          <h1 className="text-2xl font-semibold tracking-tight">Assess product</h1>
+          <p className="text-sm text-muted-foreground">
+            Upload the technical documentation of a component to check it against the regulations.
+          </p>
+        </header>
+      )}
 
       {state.status === 'done' ? (
-        <>
-          {state.result.unmet.length === 0 && (
-            <Alert>
-              <CircleCheck />
-              <AlertTitle>All regulations have been fulfilled</AlertTitle>
-              <AlertDescription>
-                No unmet requirements were found in the {files.length} submitted{' '}
-                {files.length === 1 ? 'document' : 'documents'}.
-              </AlertDescription>
-            </Alert>
-          )}
-          <div>
-            <Button onClick={reset}>Assess another product</Button>
-          </div>
-        </>
+        <AssessResults result={state.result} fileCount={files.length} onReset={reset} />
       ) : (
         <>
           <FileDropzone disabled={state.status === 'submitting'} onFiles={addFiles} />

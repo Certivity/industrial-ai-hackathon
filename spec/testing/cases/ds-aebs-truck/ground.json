@@ -1,0 +1,607 @@
+[
+  {
+    "regulation": "UN R131",
+    "paragraph": "0.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "0.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "0.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "0.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "0.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The effectiveness of AEBS shall not be adversely affected by magnetic or electrical fields. This shall be demonstrated by compliance with the 05 or later series of amendments",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.4.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "A failure warning when there is a failure in the AEBS that prevents the requirements of this Regulation of being met.",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.4.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "There shall not be an appreciable time interval between each AEBS self-check, and subsequently there shall not be a delay in illuminating the warning signal",
+    "label": "5.1.4.1.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.4.1.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Upon detection of any non-electrical failure condition (e.g. sensor blindness or sensor misalignment), the warning signal as defined in paragraph 5.1.4.1. shall be illuminated",
+    "label": "5.1.4.1.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.4.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "If the system has not been initialised after a cumulative driving time of 15 seconds above a speed of 10 km/h, information of this status shall be indicated to the driver.",
+    "label": "5.1.4.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.4.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "A deactivation warning, if the vehicle is equipped with a means to deactivate the AEBS, shall be given when the system is deactivated.",
+    "label": "5.1.4.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "the system shall provide emergency braking interventions described in paragraphs 5.2.1.2. and 5.2.2.2. having the purpose of significantly decreasing the speed of the subject vehicle.",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be designed to minimise the generation of collision warning signals and to avoid advanced emergency braking in situations where there is no risk of an imminent collision.",
+    "label": "5.1.6"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.1.7",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Any vehicle fitted with an AEBS shall meet the performance requirements of UN Regulation No. 13 in its 11 series of amendments for vehicles of Category M2, M3, N2, N3",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "a collision warning shall be provided as specified in paragraph 5.5.1., and shall be triggered at the latest 0.8 seconds before the start of emergency braking.",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "in case the collision cannot be anticipated in time to give a collision warning 0.8 seconds ahead of an emergency braking, a collision warning as specified in paragraph 5.5.1. shall be provided no later than the start of the emergency braking.",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.2",
+    "page": 6,
+    "raw_pages": [
+      6,
+      8
+    ],
+    "verdict": "ok",
+    "exact": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 4 m/s² to the service braking system of the vehicle.",
+    "label": "5.2.1.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.2",
+    "page": 6,
+    "raw_pages": [
+      6,
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The emergency braking may be aborted, or the deceleration demand reduced below the threshold above (as relevant), if the conditions prevailing a collision are no longer present",
+    "label": "5.2.1.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be active at least within the vehicle speed range between 10 km/h and the maximum design speed of the vehicle and at all vehicle load conditions",
+    "label": "5.2.1.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the AEBS shall be able to achieve a relative impact speed that is less or equal to the maximum relative impact speed as shown in the following table",
+    "label": "5.2.1.4"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.4. Table 1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "70 37 0 50 0 80 49 28 61 28 90 60 42 71 42 100 71 54 82 54",
+    "label": "5.2.1.4. Table 1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.4",
+    "page": 7,
+    "raw_pages": [
+      7,
+      9
+    ],
+    "verdict": "ok",
+    "exact": "When conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the control strategy.",
+    "label": "5.2.1.4"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.1.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "for those vehicles driving in urban areas where the speed is limited to 60kph or below, the speed reduction shall be at least 40 km/h",
+    "label": "5.2.1.4. Table 1",
+    "read": "table of the paragraph"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.2.1",
+    "page": 8,
+    "raw_pages": [
+      6,
+      8
+    ],
+    "verdict": "ok",
+    "exact": "a collision warning as specified in paragraph 5.5.1. shall be provided no later than the start of the emergency braking.",
+    "label": "5.2.2.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.2.2",
+    "page": 8,
+    "raw_pages": [
+      6,
+      8
+    ],
+    "verdict": "ok",
+    "exact": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 4 m/s² to the service braking system of the vehicle.",
+    "label": "5.2.2.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.2.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle load conditions.",
+    "label": "5.2.2.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.2.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the AEBS shall be able to achieve an impact speed that is less or equal to the maximum relative impact speed as shown in the following table",
+    "label": "5.2.2.4"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.2.4. Table 2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "40 24 29 29 29 50 35 39 39 39 60 46 49 49 49",
+    "label": "5.2.2.4",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.2.2.4",
+    "page": 9,
+    "raw_pages": [
+      7,
+      9
+    ],
+    "verdict": "ok",
+    "exact": "When conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the control strategy.",
+    "label": "5.2.2.4"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.3.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS shall provide appropriate and robust means for the driver to interrupt the collision warning and the emergency braking.",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.4.1.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS function shall be automatically reinstated at each initiation of the powertrain",
+    "label": "5.4.1.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.4.1.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS deactivation control shall be designed a in such a way that manual deactivation shall not be possible with less than two deliberate actions.",
+    "label": "5.4.1.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.4.1.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The location of AEBS deactivation control shall comply with the relevant requirements and transitional provisions of UN Regulation No. 121",
+    "label": "5.4.1.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.4.1.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "AEBS shall be automatically reinstated latest after 15 minutes. Additionally, it shall be possible for the driver to reactivate AEBS at any time, including whilst driving.",
+    "label": "5.4.1.4"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS function shall be automatically reactivated as soon as the conditions that led to the automatic deactivation are not present anymore.",
+    "label": "5.4.2.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.4.2.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Where automatic deactivation of the AEBS function is a consequence of the driver manually switching off the vehicle stability function of the vehicle, this deactivation of the AEBS shall require at least two deliberate actions",
+    "label": "5.4.2.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.4.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "A constant optical warning signal shall inform the driver that the AEBS function has been deactivated.",
+    "label": "5.4.4"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.5.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The collision warning referred to in paragraphs 5.2.1.1. and 5.2.2.1. shall be provided by at least two modes selected from acoustic, haptic or optical.",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.5.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The failure warning referred to in paragraph 5.1.4.1. shall be a constant yellow optical warning signal.",
+    "label": "5.5.4"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.5.5",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Each AEBS optical warning signal shall be activated either when the ignition (start) switch is turned to the \"on\" (run) position",
+    "label": "5.5.5"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.5.6",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The optical warning signals shall be visible even by daylight; the satisfactory condition of the signals must be easily verifiable by the driver from the driver's seat.",
+    "label": "5.5.6"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.5.7",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "When the driver is provided with an optical warning signal to indicate that the AEBS is temporarily not available, for example due to inclement weather conditions, the signal shall be constant.",
+    "label": "5.5.7"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "5.6.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "it shall be possible to confirm the correct operational status of the AEBS by a visible observation of the failure warning signal status. following a \"power-ON\" and any bulb check.",
+    "label": "5.6.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "6.7.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The failure warning signal mentioned in paragraph 5.5.4. above shall be activated and remain activated not later than 10 s after the vehicle has been driven at a speed greater than 10 km/h",
+    "label": "6.7.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "6.8.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Turn the ignition (start) switch to the \"off\" position. Again, turn the ignition (start) switch to the \"on\" (run) position and verify that the previously activated warning signal is not reactivated",
+    "label": "6.8.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "6.10.3",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS shall not provide a collision warning and shall not initiate the emergency braking phase.",
+    "label": "6.10.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "Annex 3 3.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The manufacturer shall provide a documentation package which gives access to the basic design of \"The System\" and the means by which it is linked to other vehicle systems",
+    "label": "Annex 3 3.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "Annex 3 3.4.3",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "In case of a failure, the driver shall be warned for example by warning signal or message display. When the system is not deactivated by the driver",
+    "label": "Annex 3 3.4.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "Annex 3 3.4.3.3",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "If the chosen provision selects the removal of the Higher Level Function, all the corresponding output control signals associated with this function shall be inhibited, and in such a manner as to limit the transition disturbance.",
+    "label": "Annex 3 3.4.3.3"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "Annex 3 3.4.4.1",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "This documentation shall itemize the parameters being monitored and shall set out, for each fault condition of the type defined in paragraph 3.4.4. of this annex, the warning signal to be given to the driver",
+    "label": "Annex 3 3.4.4.1"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "Annex 3 3.4.4.2",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice the safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions",
+    "label": "Annex 3 3.4.4.2"
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "Annex 3 Appendix 2 1.",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Appendix 2"
+    ]
+  },
+  {
+    "regulation": "UN R131",
+    "paragraph": "Annex 2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in Belgium (E 6) with regard to the Advanced Emergency Braking Systems (AEBS)",
+    "label": "Annex 2"
+  },
+  {
+    "regulation": "UN R13H",
+    "paragraph": "5.1.4.5.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "it shall be possible at a periodic technical inspection to confirm the correct operational status by visual observation of the warning signals following a power-on.",
+    "label": "5.1.4.5.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  }
+]

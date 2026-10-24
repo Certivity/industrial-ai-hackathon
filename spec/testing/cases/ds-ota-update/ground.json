@@ -1,0 +1,511 @@
+[
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The authenticity and integrity of software updates shall be protected to reasonably prevent their compromise and reasonably prevent invalid updates.",
+    "label": "7.2.1.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Each RXSWIN shall be uniquely identifiable. When type approval relevant software is modified by the vehicle manufacturer, the RXSWIN shall be updated",
+    "label": "7.2.1.2.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Each RXSWIN shall be easily readable in a standardized way via the use of an electronic communication interface, at least by the standard interface (OBD port).",
+    "label": "7.2.1.2.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall protect the RXSWINs and/or software version(s) on a vehicle against unauthorised modification.",
+    "label": "7.2.1.2.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the vehicle is able to restore systems to their previous version in case of a failed or interrupted update or that the vehicle can be placed into a safe state after a failed or interrupted update",
+    "label": "7.2.2.1.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "software updates can only be executed when the vehicle has enough power to complete the update process (including that needed for a possible recovery to the previous version",
+    "label": "7.2.2.1.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the execution of an update may affect the safety of the vehicle, the vehicle manufacturer shall demonstrate how the update will be executed safely. This shall be achieved through technical means that ensures the vehicle is in a state where the update can be executed safely.",
+    "label": "7.2.2.1.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the vehicle user is able to be informed about an update before the update is executed",
+    "label": "7.2.2.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "In the situation where the execution of an update whilst driving may not be safe, the vehicle manufacturer shall demonstrate how they will:",
+    "label": "7.2.2.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle user is able to be informed of the success (or failure) of the update;",
+    "label": "7.2.2.4"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall ensure that preconditions have to be met before the software update is executed.",
+    "label": "7.2.2.5"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.1.3.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The process they will use to ensure that software updates will be protected to reasonably prevent manipulation before the update process is initiated.",
+    "label": "7.1.3.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.1.3.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The update processes used are protected to reasonably prevent them being compromised, including development of the update delivery system;",
+    "label": "7.1.3.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.1.4.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "when an over the air update requires a specific skilled or complex action, for example recalibrate a sensor post-programming, in order to complete the update process, the update can only proceed when a person skilled to do that action is present",
+    "label": "7.1.4.2"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall verify the authenticity and integrity of messages it receives",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be implemented for storing cryptographic keys (e.g., use of Hardware Security Modules)",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 17,
+    "raw_pages": [
+      17,
+      20,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Access control techniques and designs shall be applied to protect system data/code",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Confidential data transmitted to or from the vehicle shall be protected",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 18,
+    "raw_pages": [
+      18,
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Through system design and access control it should not be possible for unauthorized personnel to access personal or system critical data.",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 18,
+    "raw_pages": [
+      18,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect and recover from a denial of service attack shall be employed",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 18,
+    "raw_pages": [
+      18,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Measures to prevent and detect unauthorized access shall be employed",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Measures to protect systems against embedded viruses/malware should be considered",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect malicious internal messages or activity should be considered",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 2. Table B2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Secure software update procedures shall be employed",
+    "label": "Annex 5 Part B 2. Table B2"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 2. Table B2",
+    "page": 19,
+    "raw_pages": [
+      17,
+      19,
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be implemented for storing cryptographic keys",
+    "label": "Annex 5 Part B 2. Table B2"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 2. Table B2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Security Controls shall be applied to back-end systems. Where back-end servers are critical to the provision of services there are recovery measures in case of system outage.",
+    "label": "Annex 5 Part B 2. Table B2"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 3. Table B3",
+    "page": 19,
+    "raw_pages": [
+      19,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Measures shall be implemented for defining and controlling user roles and access privileges, based on the principle of least access privilege",
+    "label": "Annex 5 Part B 3. Table B3"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 3. Table B3",
+    "page": 19,
+    "raw_pages": [
+      19,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Organizations shall ensure security procedures are defined and followed including logging of actions and access related to the management of the security functions",
+    "label": "Annex 5 Part B 3. Table B3"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. Table B4",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to systems that have remote access",
+    "label": "Annex 5 Part B 4. Table B4"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. Table B4",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Software shall be security assessed, authenticated and integrity protected.",
+    "label": "Annex 5 Part B 4. Table B4"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. Table B4",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to external interfaces",
+    "label": "Annex 5 Part B 4. Table B4"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 6. Table B6",
+    "page": 21,
+    "raw_pages": [
+      21,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Cybersecurity best practices for software and hardware development shall be followed",
+    "label": "Annex 5 Part B 6. Table B6"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 6. Table B6",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Cybersecurity best practices for software and hardware development shall be followed. Cybersecurity testing with adequate coverage",
+    "label": "Annex 5 Part B 6. Table B6"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards. If the cryptographic modules used are not in line with consensus standards, then the vehicle manufacturer shall justify their use.",
+    "label": "7.3.8"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Detect and prevent cyber-attacks against vehicles of the vehicle type;",
+    "label": "7.3.7"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.3",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "On the vehicle representative of its type, the measured values, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.2.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "On the vehicle representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limit.",
+    "label": "6.3.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6.",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Maximum allowed pulse amplitude for",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, as described in Annex 10, with the test levels given in Tables 3a and 3b.",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation.",
+    "label": "5.3"
+  }
+]

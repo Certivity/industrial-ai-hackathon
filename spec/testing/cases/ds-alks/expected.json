@@ -1,0 +1,1286 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-alks",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The activated MLS-ALKS shall perform the dynamic driving task and manage all situations including failures without creating unreasonable risks for occupants or other road users.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The activated MLS-ALKS shall not cause any collision that is reasonably foreseeable and preventable, and shall avoid a collision where this can be done safely without causing another.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The MLS-ALKS shall, whilst active, respond to any collision requiring a response under national traffic rules and shall issue a transition demand in that case unless one is already being given.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.1.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The MLS-ALKS shall exhibit anticipatory behaviour towards other road users, producing stable low-dynamic longitudinal behaviour and risk-minimising behaviour when critical situations could become imminent.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.1.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The activated MLS-ALKS shall comply with the traffic rules relating to the dynamic driving task in the country of operation, including responding to emergency and enforcement vehicles.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The activated MLS-ALKS shall exercise control over the systems needed to support the driver in resuming manual control at any time, such as demisting, windscreen wipers and lights.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The MLS-ALKS transition demand shall not endanger the safety of the vehicle occupants or other road users.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The MLS-ALKS shall perform a minimum risk manoeuvre if the driver fails to resume control of the dynamic driving task during the transition phase.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The MLS-ALKS shall, during a minimum risk manoeuvre, minimise the risks to the safety of the vehicle occupants and other road users.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The MLS-ALKS shall perform self-checks to detect failures and confirm system performance at all times, including confirming after vehicle start that an object has been detected at least at the declared detection range.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 6,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The effectiveness of the MLS-ALKS shall not be adversely affected by magnetic or electrical fields, demonstrated by fulfilling UN Regulation No. 10, 07 or later series of amendments.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 6,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The MLS-ALKS design shall include measures guarding against reasonably foreseeable misuse by the driver and tampering with the system.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 6,
+        "paragraph": "5.1.8"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The MLS-ALKS shall be prevented from being activated when it can no longer meet the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 6,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The activated MLS-ALKS shall keep the vehicle inside its lane of travel and ensure the vehicle does not unintentionally cross any lane marking, measured from the outer edge of the front tyre to the outer edge of the lane marking.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 6,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The MLS-ALKS shall aim to keep the vehicle in a stable lateral and longitudinal motion inside its lane of travel so as not to confuse other road users, and shall recover the original safe state of motion after disturbances not requiring an emergency manoeuvre.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 6,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The activated MLS-ALKS shall detect a vehicle driving beside it within the lateral detection range and, if necessary, adjust the vehicle speed and/or lateral position within the lane.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 7,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The MLS-ALKS specified maximum speed shall not exceed the 60 km/h value declared on the basis of the forward detection range of the system.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 7,
+        "paragraph": "5.2.3.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The activated MLS-ALKS shall adapt the vehicle speed to infrastructural and environmental conditions such as narrow curve radii and inclement weather.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 7,
+        "paragraph": "5.2.3.2"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The activated MLS-ALKS shall detect the distance to the next vehicle in front within the forward detection range and adapt vehicle speed to maintain a safe following distance that avoids a collision.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 7,
+        "paragraph": "5.2.3.3"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "While the MLS-ALKS vehicle is not at standstill and operating at speeds up to 60 km/h, the system shall adjust the distance to a vehicle in front in the same lane to be equal to or greater than dmin = vALKS × tfront, with a minimum time gap for M1 of 1.0 s at 7.2 km/h rising to 1.6 s at 60 km/h (linear interpolation between table points), and never less than 2 m below 2 m/s.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 7,
+        "paragraph": "5.2.3.3"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The MLS-ALKS shall, when the following distance is temporarily disrupted (e.g. cut-in or decelerating lead vehicle), readjust the following distance at the next available opportunity without harsh braking and with strategies addressing string instability, unless an emergency manoeuvre becomes necessary.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 7,
+        "paragraph": "5.2.3.3"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The activated MLS-ALKS shall be able to bring the vehicle to a complete stop behind a stationary vehicle, a stationary road user or a blocked lane of travel to avoid a collision, up to its maximum operational speed.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 8,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The activated MLS-ALKS shall detect the risk of collision with a road user ahead or beside the vehicle arising from a decelerating lead vehicle, a cutting-in vehicle or a suddenly appearing obstacle and shall automatically perform appropriate risk-minimising manoeuvres.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 8,
+        "paragraph": "5.2.5"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The activated MLS-ALKS shall avoid a collision with a leading vehicle decelerating up to its full braking performance, provided there was no undercut of the minimum following distance due to a cut-in of that lead vehicle.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 8,
+        "paragraph": "5.2.5.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The activated MLS-ALKS shall avoid a collision with a cutting-in vehicle when that vehicle maintains a lower longitudinal speed, its lateral movement was visible for at least 0.72 s before the TTCLaneIntrusion reference point, and TTCLaneIntrusion > vrel/(2 × 6 m/s2) + 0.35 s.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 8,
+        "paragraph": "5.2.5.2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The activated MLS-ALKS shall avoid a collision with an unobstructed crossing pedestrian with a lateral speed component not exceeding 5 km/h, whose anticipated impact point is displaced by not more than 0.2 m from the vehicle longitudinal centre plane, at speeds up to 60 km/h.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 9,
+        "paragraph": "5.2.5.3"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The MLS-ALKS shall not deactivate or unreasonably switch its control strategy in conditions other than those described in paragraph 5.2.5.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 9,
+        "paragraph": "5.2.5.4"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The MLS-ALKS shall treat any longitudinal deceleration demand above 5.0 m/s2 as an emergency manoeuvre, carried out in case of an imminent collision risk.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 13,
+        "paragraph": "5.3.1.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The MLS-ALKS emergency manoeuvre shall decelerate the vehicle up to its full braking performance if necessary and/or perform an automatic evasive manoeuvre when appropriate, taking remaining braking/steering performance into account under failures and resuming stable motion afterwards.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 13,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The MLS-ALKS shall not terminate an emergency manoeuvre unless the imminent collision risk has disappeared or the driver has deactivated the system, and shall continue to operate after termination.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 13,
+        "paragraph": "5.3.3"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The MLS-ALKS shall generate the hazard warning lamp activation signal if an emergency manoeuvre results in the vehicle being at standstill, and shall generate the deactivation signal automatically if the vehicle drives off again.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 13,
+        "paragraph": "5.3.3.2"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The MLS-ALKS vehicle shall implement a logic signal indicating emergency braking as specified in UN Regulation No. 13-H.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 13,
+        "paragraph": "5.3.4"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The activated MLS-ALKS shall recognise all situations in which it needs to transition control back to the driver, including planned and unplanned events and operational domain boundaries.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.1"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The MLS-ALKS shall initiate the transition demand so that sufficient time is provided for a safe transition to manual driving.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.2"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "In case of a planned event that would prevent continued operation, the MLS-ALKS shall give the transition demand early enough that a minimum risk manoeuvre, if the driver does not resume control, brings the vehicle to standstill before the planned event occurs.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.2.1"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The MLS-ALKS shall give a transition demand upon detection of an unplanned event.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.2.2"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The MLS-ALKS shall immediately initiate a transition demand upon detection of any failure affecting its ability to meet the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.2.3"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The MLS-ALKS shall continue to operate during the transition phase, may reduce speed for safe operation, and shall not bring the vehicle to standstill unless required by the situation or by the haptic warning started below 20 km/h.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.3"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The MLS-ALKS shall generate the hazard warning lamp activation signal within 5 s of the vehicle coming to standstill.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.3.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The MLS-ALKS shall escalate the transition demand no later than 4 s after the start of the transition demand.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.3.2"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The MLS-ALKS transition demand shall only be terminated once the system is deactivated or a minimum risk manoeuvre has started.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 14,
+        "paragraph": "5.4.4"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The MLS-ALKS shall start a minimum risk manoeuvre, earliest 10 s after the start of the transition demand, when the driver does not respond by deactivating the system.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 15,
+        "paragraph": "5.4.4.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The MLS-ALKS minimum risk manoeuvre shall bring the vehicle to standstill in the target stop area giving the greatest minimisation of risk, within its current lane where no lane change is performed, unless the driver deactivates the system during the manoeuvre.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 15,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The MLS-ALKS shall slow the vehicle during the minimum risk manoeuvre with a deceleration demand not greater than 4.0 m/s2, permitting higher values only for very short durations, and shall generate the hazard warning lamp activation signal with the start of the manoeuvre.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 15,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The MLS-ALKS minimum risk manoeuvre shall only be terminated once the system is deactivated or the system has brought the vehicle to a standstill.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 15,
+        "paragraph": "5.5.3"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The MLS-ALKS shall be deactivated at the end of any minimum risk manoeuvre, with hazard warning lamps remaining activated unless manually deactivated and without moving off after standstill without manual input.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 15,
+        "paragraph": "5.5.4"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "Reactivation of the MLS-ALKS after the end of any minimum risk manoeuvre shall only be possible after a new initiation of the powertrain.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 15,
+        "paragraph": "5.5.5"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The MLS-ALKS shall comprise a driver availability recognition system that detects whether the driver is present in a driving position, whether the driver's safety belt is fastened, and whether the driver is available to take over the driving task.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 15,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The MLS-ALKS shall initiate a transition demand when the driver is detected not to be in the seat for more than one second, or when the driver's safety belt is unbuckled.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 16,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The MLS-ALKS shall detect, by continuously monitoring the driver, whether the driver is available and in an appropriate driving position to respond to a transition demand.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 16,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The MLS-ALKS shall deem the driver unavailable unless at least two availability criteria (e.g. driver-exclusive control input, eye blinking, eye closure, conscious head or body movement) have individually determined availability within the last 30 seconds.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 16,
+        "paragraph": "6.1.3.1"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The MLS-ALKS shall immediately provide a distinctive warning as soon as the driver is deemed unavailable or fewer than two availability criteria can be monitored, until appropriate driver actions are detected, and shall initiate a transition demand at the latest when this warning has continued for 15 s.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 16,
+        "paragraph": "6.1.3.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The MLS-ALKS shall automatically suspend on-board displays used by the driver for activities other than driving as soon as the system issues a transition demand or as soon as the system is deactivated, whichever comes first.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The vehicle shall be equipped with dedicated means for the driver to activate and deactivate the MLS-ALKS, and the means to deactivate shall be permanently visible to the driver when the system is activated.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The MLS-ALKS default status shall be the off mode at each initiation of the powertrain, with automatic engine restarts (e.g. stop/start) not counting as a powertrain initiation.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The MLS-ALKS shall become active only upon a deliberate action by the driver and only when the driver is seated with belt fastened, is available, no safety-relevant failure is present, the DSSAD is operational, environmental and infrastructural conditions allow operation, the self-check is positively confirmed, and the vehicle is on a road where pedestrians and cyclists are prohibited and opposing traffic is physically separated.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The MLS-ALKS shall immediately initiate a transition demand if any activation condition is no longer fulfilled.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The MLS-ALKS shall be manually deactivatable by an intentional action of the driver using the same means as for activation, protected against unintentional deactivation by e.g. a single input exceeding a time threshold, a double press or two simultaneous inputs.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The MLS-ALKS shall ensure the driver is in lateral control of the vehicle at the time of manual deactivation, e.g. by placing the deactivation means on the steering control or confirming the driver is holding the steering control.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The MLS-ALKS shall be deactivated when the driver overrides it by steering while holding the steering control (unless suppressed per 6.3.1), or when the driver holds the steering control and overrides it by braking or accelerating.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 17,
+        "paragraph": "6.2.5.1"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "During an ongoing transition demand or minimum risk manoeuvre, the MLS-ALKS shall only be deactivated by a driving-control override or upon detection that the driver has taken hold of the steering control in response to the demand or manoeuvre and the system confirms the driver is attentive.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 18,
+        "paragraph": "6.2.5.2"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "On deactivation of the MLS-ALKS there shall be no automatic transition to a function providing continuous longitudinal and/or lateral movement of the vehicle, while other safety systems (AEBS, ESC, BAS, ESF) shall not be deactivated.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 18,
+        "paragraph": "6.2.6"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The MLS-ALKS shall indicate any deactivation to the driver as defined in paragraph 6.4.2.3.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 18,
+        "paragraph": "6.2.7"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "A driver input to the steering control shall override the lateral control function of the MLS-ALKS when it exceeds a reasonable threshold designed to prevent unintentional override, including a specified force and duration varying with driver attentiveness criteria.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 18,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The MLS-ALKS shall detect whether the driver is attentive, deeming the driver attentive when at least one criterion is met: gaze primarily on the road ahead, gaze on the rear-view mirrors, or head movement primarily directed towards the driving task.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 18,
+        "paragraph": "6.3.1.1"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "A driver input to the braking control resulting in a higher deceleration than that induced by the MLS-ALKS, or maintaining the vehicle in standstill by any braking system, shall override the longitudinal control function of the system.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 18,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "A driver input to the accelerator control may override the longitudinal control function of the MLS-ALKS, but such input shall not cause the system to stop meeting the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 18,
+        "paragraph": "6.3.3"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The MLS-ALKS shall immediately initiate a transition demand when a driver input to the accelerator or brake control exceeds a reasonable threshold designed to prevent unintentional input.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.3.4"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The MLS-ALKS shall initiate a transition demand when a driver activation of the direction indicator exceeds a reasonable threshold designed to prevent unintentional activation.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The MLS-ALKS may reduce or suppress the effect of a driver input on any control when it has detected an imminent collision risk due to that input.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.3.6"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The MLS-ALKS shall indicate to the driver: the system status; any failure affecting compliance, at least optically unless in off mode; a transition demand by at least optical plus acoustic and/or haptic warning; a minimum risk manoeuvre by at least optical plus acoustic and/or haptic warning; an emergency manoeuvre by an optical signal; and an active lane change procedure, if supported, by at least an optical signal.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "At the latest 4 s after initiation of the transition demand, the MLS-ALKS transition demand shall contain a constant or intermittent haptic warning unless the vehicle is at standstill, and shall be escalated and remain escalated until the transition demand ends.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The MLS-ALKS shall at least visually display to the driver the system unavailability when activation following the driver's deliberate action is denied.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "Upon activation the MLS-ALKS shall display the active mode by a dedicated optical signal containing an unambiguous steering control or vehicle indication with an \"A\" or \"AUTO\" (or UN R121 symbol) and an easily perceptible indication in the peripheral field of vision near the driver's line of sight outside the vehicle.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The MLS-ALKS active-mode optical signal shall remain constant during regular operation and shall change its peripheral indication characteristics (e.g. intermittent signal or different colour) with the initiation of a transition demand, using a low frequency when intermittent.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 19,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "Upon deactivation of the MLS-ALKS the change from active mode to off mode shall be indicated at least by an optical warning (non-display of the active signal or of the take-over instruction), plus an acoustic warning unless deactivation followed a transition demand that contained an acoustic signal.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 20,
+        "paragraph": "6.4.2.3"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "During the transition phase and the minimum risk manoeuvre the MLS-ALKS shall instruct the driver intuitively and unambiguously to take over manual control, including pictorial information showing hands and the steering control.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 20,
+        "paragraph": "6.4.3.1"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The MLS-ALKS take-over instruction signal shall change its characteristics with the start of the minimum risk manoeuvre to emphasise urgency, e.g. red flashing of the steering control and moving hands of the pictorial information.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 20,
+        "paragraph": "6.4.3.2"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The MLS-ALKS vehicle shall be equipped with a sensing system able to determine the driving environment and traffic dynamics across the full width of its own lane and the lanes immediately left and right up to the forward detection range, and along the full vehicle length up to the lateral detection range.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 20,
+        "paragraph": "7.1"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The MLS-ALKS declared forward detection range, measured from the forward most point of the vehicle, shall be at least 46 m for the specified maximum speed of 60 km/h.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 21,
+        "paragraph": "7.1.1"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The MLS-ALKS shall implement control strategies that adapt its maximum speed to the actual detection range and actual deceleration capability so as to comply with the stop-behind requirement of paragraph 5.2.4.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 21,
+        "paragraph": "7.1.1"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The MLS-ALKS lateral detection range shall be declared and be sufficient to cover the full width of the lane immediately to the left and of the lane immediately to the right of the vehicle.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 21,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The MLS-ALKS shall implement strategies to detect and compensate for environmental conditions that reduce the detection range, such as preventing activation, disabling the system and returning control, or reducing speed when visibility is too low.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 22,
+        "paragraph": "7.1.5"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "The MLS-ALKS sensing system shall be shown to retain at least the minimum required detection performance of paragraph 7.1 over the lifetime of the system despite wear and ageing.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 22,
+        "paragraph": "7.1.6"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The MLS-ALKS shall be designed so that a single perception malfunction without failure does not induce a hazardous event.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 22,
+        "paragraph": "7.1.8"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The MLS-ALKS vehicle shall be fitted with a Data Storage System for Automated Driving meeting the requirements of paragraph 8.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 22,
+        "paragraph": "8.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The MLS-ALKS DSSAD shall record at least one entry for each listed occurrence, including activation, deactivation (by dedicated means, steering override, accelerator or braking override), transition demands for each listed reason, driver input reduction or suppression, emergency manoeuvre start and end, EDR trigger input, detected collision involvement, minimum risk manoeuvre engagement, severe ALKS and vehicle failures, lane change procedure start and end, abortion of a lane change manoeuvre, and start and end of intentional lane crossing.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 23,
+        "paragraph": "8.2.1"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "For each recorded event the MLS-ALKS DSSAD shall record in a clearly identifiable way the occurrence flag, the reason for the occurrence, the date (yyyy/mm/dd) and a timestamp (hh/mm/ss timezone) with ±1.0 s accuracy.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 24,
+        "paragraph": "8.3.1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The MLS-ALKS DSSAD shall make clearly identifiable the R157SWIN, or the ALKS-relevant software versions, that were present at the time each recorded event occurred.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 24,
+        "paragraph": "8.3.2"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The MLS-ALKS DSSAD shall overwrite existing data once its storage limit is reached only following a first-in-first-out procedure respecting data availability requirements.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 24,
+        "paragraph": "8.4.2"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "On the M1 MLS-ALKS vehicle, the DSSAD data elements of paragraph 8.3.1 shall remain retrievable even after an impact of a severity level set by UN Regulations Nos. 94, 95 or 137, as applicable.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 24,
+        "paragraph": "8.4.3.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The MLS-ALKS DSSAD data shall still be fully retrievable when the main on-board vehicle power supply is not available.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "8.4.3.3"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "Data stored in the MLS-ALKS DSSAD shall be easily readable in a standardized way via an electronic communication interface, at least through the OBD port.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "8.4.4"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "Instructions on how to access the MLS-ALKS DSSAD data shall be provided.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "8.4.6"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The MLS-ALKS DSSAD shall ensure adequate protection of stored data against manipulation such as data erasure, e.g. by anti-tampering design.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "8.5.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The MLS-ALKS DSSAD shall be able to communicate with the system to inform it that the DSSAD is operational.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "8.6.1"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The effectiveness of the MLS-ALKS shall not be adversely affected by cyber-attacks, cyber threats and vulnerabilities, demonstrated by compliance with UN Regulation No. 155.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "9.1"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "Because the MLS-ALKS permits software updates, the effectiveness of its software update procedures and processes shall be demonstrated by compliance with UN Regulation No. 156.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "9.2"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The MLS-ALKS shall use an R157SWIN so that the software of the system can be identified, held on the vehicle or, if not held on the vehicle, declared as software versions to the Approval Authority.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 25,
+        "paragraph": "9.3.1.1"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The MLS-ALKS vehicle type shall be protected by proportionate mitigations against the risks identified in the manufacturer's risk assessment, including the relevant mitigations of Annex 5 Parts B and C.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The MLS-ALKS vehicle type shall be subject to appropriate and sufficient testing, prior to type approval, verifying the effectiveness of the implemented cyber security measures.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.6"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The MLS-ALKS vehicle type shall implement measures to detect and prevent cyber-attacks, support the manufacturer's monitoring capability, and provide data forensic capability for analysis of attempted or successful cyber-attacks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "Cryptographic modules used in the MLS-ALKS for cyber security purposes shall be in line with consensus standards, or their use shall be justified by the manufacturer.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.8"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The MLS-ALKS vehicle shall verify the authenticity and integrity of the messages it receives.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The MLS-ALKS shall implement security controls for storing cryptographic keys, e.g. the use of hardware security modules.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The MLS-ALKS shall employ measures to detect and recover from a denial of service attack.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The MLS-ALKS shall employ secure software update procedures.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "Security controls shall be applied to the MLS-ALKS remote access systems, including those used for over-the-air updates and telematics.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The MLS-ALKS shall apply security controls to external interfaces such as USB ports, the OBD port and diagnostic access.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The MLS-ALKS software updates shall have their authenticity and integrity protected to reasonably prevent compromise and invalid updates.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "The MLS-ALKS RXSWIN (R157SWIN) shall be easily readable in a standardized way via an electronic communication interface, at least through the OBD port.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The MLS-ALKS RXSWIN and/or software version(s) on the vehicle shall be protected against unauthorised modification.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.1.2.3"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The MLS-ALKS vehicle shall be able to restore systems to their previous version, or be placed into a safe state, after a failed or interrupted software update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.1"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The MLS-ALKS software update shall only be executed when the vehicle has enough power to complete the update process, including any recovery to the previous version or safe state.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.2"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "Where execution of a MLS-ALKS update may affect vehicle safety, technical means shall ensure the vehicle is in a state where the update can be executed safely.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.3"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The MLS-ALKS vehicle user shall be informed before an update is executed about the purpose, functional changes, expected execution time, functionalities unavailable during execution and instructions for safe execution.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "Where execution of a MLS-ALKS update whilst driving may not be safe, the vehicle shall be prevented from being driven and the driver prevented from using functionality that would affect vehicle safety or the update's successful execution.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "After execution of a MLS-ALKS update the vehicle user shall be informed of its success or failure and of the changes implemented and any related updates to the user manual.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "The MLS-ALKS vehicle shall ensure preconditions are met before a software update is executed.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.5"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "Each MLS-ALKS vehicle shall bear an international approval mark conforming to Model A consisting of a circle surrounding the letter \"E\" with the distinguishing number of the granting country, the number of this Regulation with the letter \"R\", a dash and the approval number, with a minimum dimension a of 8 mm.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 33,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The MLS-ALKS approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The MLS-ALKS approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 5,
+        "paragraph": "4.7"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The cyber security approval mark on the MLS-ALKS vehicle shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The MLS-ALKS cyber security approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The software update approval mark on the MLS-ALKS vehicle shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "The MLS-ALKS software update approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "The MLS-ALKS lane keeping test shall be executed with a minimum test duration of 5 minutes for the 60 km/h-limited system, using a passenger car target and a PTW target as lead/other vehicle, a lead vehicle swerving in the lane, and another vehicle driving close beside in the adjacent lane.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 65,
+        "paragraph": "Annex 5 4.1.2"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "The MLS-ALKS shall not initiate an emergency manoeuvre with a deceleration demand greater than 5 m/s2 due to a passable object in the lane such as a manhole lid or small branch.",
+      "source": {
+        "regulation": "UN R157",
+        "version": "1.4.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.8.1"
+      }
+    }
+  ]
+}

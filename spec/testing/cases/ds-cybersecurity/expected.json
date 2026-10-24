@@ -1,0 +1,626 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-cybersecurity",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The TCU shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The TCU shall carry the international approval mark described in paragraph 5.3 on every unit conforming to the approved type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The TCU shall have its approval mark affixed in a conspicuous and easily accessible place specified on the approval communication form.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The TCU approval mark shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The TCU approval mark shall show the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The TCU shall be designed, constructed and fitted so that the vehicle, in normal conditions of use, complies with the requirements of UN R10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The TCU shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The TCU shall not exceed 62 to 52 dBµV/m broadband radiated emissions in the 30 to 75 MHz band, decreasing logarithmically above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The TCU shall not exceed 52 to 63 dBµV/m broadband radiated emissions in the 75 to 400 MHz band, increasing logarithmically above 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The TCU shall not exceed a constant 63 dBµV/m broadband radiated emission limit in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The TCU shall show measured broadband radiated emission values below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The TCU shall not exceed 52 to 42 dBµV/m narrowband radiated emissions in the 30 to 75 MHz band, decreasing logarithmically above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The TCU shall not exceed 42 to 53 dBµV/m narrowband radiated emissions in the 75 to 400 MHz band, increasing logarithmically above 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The TCU shall not exceed a constant 53 dBµV/m narrowband radiated emission limit in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The TCU shall show measured narrowband radiated emission values below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The TCU shall withstand, over 90 per cent of the 20 MHz to 2 GHz band, 60 V/m stripline, 75 V/m TEM cell, 60 mA BCI, 30 V/m ALSE or 21 V/m reverberation chamber, depending on the method applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The TCU shall withstand, over 90 per cent of the 2 to 6 GHz band, 10 V/m in ALSE or 7 V/m in a reverberation chamber, depending on the method applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The TCU shall withstand, over the whole 20 MHz to 2 GHz band, a minimum of 50 V/m stripline, 62.5 V/m TEM cell, 50 mA BCI, 25 V/m ALSE or 18 V/m reverberation chamber.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The TCU shall withstand, over the whole 2 to 6 GHz band, a minimum of 8 V/m in ALSE or 6 V/m in a reverberation chamber.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The TCU shall show no degradation of performance of its immunity related functions during the radiated immunity tests of Annex 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The TCU shall be tested for conducted transient immunity on its 12 V supply lines using the starting profile of ISO 16750-2 and ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The TCU shall meet functional status B when related to immunity related functions and status D otherwise for the starting profile, with 10 pulses for a 12 V system.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The TCU shall meet functional performance status III for test pulse 1 at -75 V on a 12 V system over 500 pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The TCU shall meet functional performance status I for immunity related functions and III otherwise for test pulse 2a at +37 V over 500 pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The TCU shall meet functional performance status II for immunity related functions and III otherwise for test pulse 2b at +10 V over 10 pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The TCU shall meet functional performance status I for immunity related functions and III otherwise for test pulse 3a at -112 V for 1 hour.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The TCU shall meet functional performance status I for immunity related functions and III otherwise for test pulse 3b at +75 V for 1 hour.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The TCU, where it is not switched and contains no switches or inductive load, is exempt from the transient conducted emission test of paragraph 6.7.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.5"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The TCU's cellular RF transmitter shall be tested in transmit mode, with wanted emissions within the necessary bandwidth and out-of-band emissions disregarded.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The TCU shall keep spurious emissions within the limits of this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The TCU shall be manufactured so that production-sample emission levels do not exceed the reference limits by more than 4 dB.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The TCU shall show no degradation of performance of its immunity related functions up to the conducted disturbance levels of paragraph 6.9.1 in production verification.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.3"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The TCU's cyber security approval mark, where affixed, shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The TCU shall implement proportionate mitigations protecting the vehicle type against the risks identified in the risk assessment.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The TCU shall implement measures to detect and prevent cyber-attacks against the vehicle.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The TCU shall provide data forensic capability enabling analysis of attempted or successful cyber-attacks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The TCU's cryptographic modules used for cyber security shall be in line with consensus standards.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.8"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The TCU shall verify the authenticity and integrity of every message it receives over its external and in-vehicle communication channels.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The TCU shall implement security controls for storing cryptographic keys, such as a hardware security module.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The TCU shall apply access control techniques and designs to protect its system data and code from unauthorised manipulation, overwrite or erasure.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The TCU shall protect confidential data transmitted to or from the vehicle.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The TCU shall employ measures to detect and recover from denial of service attacks on its communication channels and internal network.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The TCU shall employ measures to prevent and detect unauthorised access, including attempts to gain privileged access.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The TCU, acting as gateway, shall implement measures to detect malicious internal CAN/Ethernet messages.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The TCU shall employ secure over-the-air software update procedures.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The TCU, as a system with remote access, shall apply security controls protecting its remotely operable functions.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The TCU shall apply security controls to its external interfaces, including the vehicle diagnostic interface and any exposed ports.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The TCU shall be developed following cyber security best practices for software and hardware, removing development remainders such as debug or JTAG ports.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 21,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The TCU shall undergo cyber security testing with adequate coverage to verify the effectiveness of the implemented security measures.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 22,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The TCU shall protect the authenticity and integrity of OTA software updates to prevent their compromise and invalid updates.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The TCU shall make each RXSWIN it holds uniquely identifiable.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.1"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The TCU shall make each RXSWIN or declared software version easily readable via a standardized electronic communication interface, at least through the OBD port.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The TCU shall protect the RXSWINs and software versions it stores against unauthorised modification.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.1.2.3"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The TCU shall restore target ECUs to their previous software version, or place the vehicle into a safe state, after a failed or interrupted update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.1"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The TCU shall only execute a software update when the vehicle has enough power to complete the update, including any recovery or safe-state transition.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.2"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "Where an update may affect vehicle safety, the TCU shall use technical means ensuring the vehicle is in a state in which the update can be executed safely.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.3"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The TCU shall inform the vehicle user, before execution, of the update's purpose, functional changes, expected duration, unavailable functionalities and necessary instructions.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "Where executing the update while driving is unsafe, the TCU shall ensure the vehicle cannot be driven during execution of the update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "Where executing the update while driving is unsafe, the TCU shall disable the vehicle functionalities that would affect vehicle safety or the successful execution of the update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The TCU shall inform the vehicle user of the success or failure of an executed update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The TCU shall inform the vehicle user about the changes implemented by the update and any related updates to the user manual.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The TCU shall ensure defined preconditions are met before executing a software update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.5"
+      }
+    }
+  ]
+}

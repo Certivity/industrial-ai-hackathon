@@ -136,14 +136,8 @@ def section_of(node: Node) -> str:
     return node.scope or ".".join(map(str, node.num[:2]))
 
 
-def scope_chain(scope: str) -> list[str]:
-    """'Annex 4 Part 1' -> ['Annex 4', 'Annex 4 Part 1']"""
-    pieces = re.findall(r"(?:Annex|Appendix|Part) \S+", scope)
-    return [" ".join(pieces[: i + 1]) for i in range(len(pieces))]
-
-
 def short_title(node: Node, width: int = 80) -> str:
-    return NUMBER_PREFIX.sub("", node.body)[:width]
+    return node.title(width)
 
 
 # ---------------------------------------------------------------------------------------------------------- stage 1: regulations
@@ -183,13 +177,17 @@ class RegulationIndex:
             return any(DEFINITION_TITLE.match(titles.get((node.scope, node.num[:k]), "")) for k in range(1, len(node.num) + 1))
 
         self.nodes = [n for n in doc.nodes if n.kind in ("para", "table") and not heading_only(n) and not (drop_definitions and defines(n))]
-        scopes = {n.scope: n.body[:90] for n in doc.nodes if n.kind in SCOPE_KINDS}
         docs = []
         for n in self.nodes:
             crumbs: list[str] = []
-            if graph:
-                crumbs += [scopes.get(s, s) for s in scope_chain(n.scope)]
-                crumbs += [titles[(n.scope, n.num[:k])] for k in range(1, len(n.num)) if (n.scope, n.num[:k]) in titles]
+            if graph:  # the titles of the node's ancestors, scope headings first: the tree is the parser's (Node.parent)
+                up = n.parent
+                if n.kind == "table" and up >= 0 and doc.nodes[up].kind == "para":
+                    up = doc.nodes[up].parent  # a table is matched with the crumbs of the paragraph that names it, not with its text
+                while up >= 0:
+                    ancestor = doc.nodes[up]
+                    crumbs.insert(0, ancestor.title(90) if ancestor.kind in SCOPE_KINDS else short_title(ancestor))
+                    up = ancestor.parent
             docs.append(tokens(" ".join(crumbs + [n.body])))
         self.bm25 = BM25(docs)
 

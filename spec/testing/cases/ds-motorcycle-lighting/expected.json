@@ -1,0 +1,1346 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-motorcycle-lighting",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The motorcycle shall be fitted with its lighting and light-signalling devices so that, in normal conditions of use and notwithstanding the vibrations to which they may be subjected, they retain the prescribed characteristics.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The motorcycle shall be designed so that its lamps cannot be inadvertently maladjusted.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The motorcycle shall have its illuminating lamps installed so that correct adjustment of their orientation can easily be carried out.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The motorcycle shall have each light-signalling device fitted so that its reference axis is parallel to the bearing plane of the vehicle on the road and parallel to the median longitudinal plane, within a tolerance of ±3°.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The motorcycle shall be so built that the height and orientation of its lamps can be verified with the vehicle unladen, on a flat horizontal surface, median longitudinal plane vertical, handlebars in the straight-ahead position and tyres at the manufacturer's prescribed pressures.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The motorcycle shall have each single lamp or reflector mounted so that its centre of reference lies in the median longitudinal plane of the vehicle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The motorcycle shall have each pair of lamps with the same function mounted symmetrically in relation to the median longitudinal plane.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.5.2.1"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The motorcycle shall have each pair of lamps with the same function symmetrical to one another in relation to the median longitudinal plane.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.5.2.2"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The motorcycle shall have each pair of lamps with the same function satisfying the same colorimetric requirements.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.5.2.3"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The motorcycle shall have each pair of lamps with the same function having identical nominal photometric characteristics.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.5.2.4"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The motorcycle shall have each pair of lamps with the same function coming on and going off simultaneously.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.5.2.5"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The motorcycle shall not have its stop lamp and direction indicator lamps reciprocally incorporated.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.6.1.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Where the stop lamp and the direction indicator lamps are grouped, the motorcycle shall be arranged so that any horizontal or vertical straight line through the projections of their apparent surfaces on a plane perpendicular to the reference axis intersects no more than two borderlines separating adjacent areas of different colour.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.6.1.3"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The motorcycle shall have no flashing lamps other than the direction indicator lamps, the hazard warning signal lamps and the emergency stop signal.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.8"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The motorcycle shall emit no red light that could give rise to confusion in a forward direction, and no white light that could give rise to confusion in a rearward direction.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.9"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The motorcycle shall be built so that its red lamps are not directly visible to an observer moving in zone 1 of a transverse plane situated 25 m forward of its foremost point.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.9.1"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The motorcycle shall be built so that its white lamps are not directly visible to an observer moving in zone 2 of a transverse plane situated 25 m rearward of its rearmost point.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.9.2"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The motorcycle shall be built so that zones 1 and 2 are bounded in height by two horizontal planes 1 m and 2.2 m respectively above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.9.3.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The motorcycle shall have every tell-tale lamp readily visible to a driver in the normal driving position.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.12.1"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The motorcycle shall have its passing-beam headlamp emit white light.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.13"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The motorcycle shall have its direction indicator lamps emit amber light.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.13"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The motorcycle shall have its stop lamp emit red light.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.13"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The motorcycle shall be equipped with a driving-beam headlamp complying with paragraph 6.1.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.14.1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The motorcycle shall be equipped with a passing-beam headlamp complying with paragraph 6.2.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.14.2"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The motorcycle shall be equipped with direction indicator lamps complying with paragraph 6.3.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.14.3"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The motorcycle shall be equipped with a stop lamp of category S1 or a category L stop lamp complying with paragraph 6.4.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.14.4"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The motorcycle shall be equipped with a front position lamp complying with paragraph 6.6.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "5.14.6"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The motorcycle shall be equipped with a rear position lamp complying with paragraph 6.7.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "5.14.7"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The motorcycle shall have each lighting and light-signalling device fitted in conformity with the relevant requirements of paragraph 6.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "5.16"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The motorcycle shall not be fitted with any lighting or light-signalling device other than those listed in paragraphs 5.14 and 5.15.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "5.17"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The motorcycle shall present no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of each lamp.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 10,
+        "paragraph": "5.20.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "Where, when installed on the motorcycle, any part of a lamp's apparent surface is hidden by other parts of the vehicle, the motorcycle shall be proven to keep the photometric values prescribed for the approval of the device over the visible part.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 10,
+        "paragraph": "5.20.3"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "For a motorcycle of cylinder capacity above 125 cm3 or maximum power above 11 kW, the motorcycle shall be fitted with one or two driving-beam headlamps type-approved to Class A, B or DS of the 01 or later series of amendments to UN Regulation No. 149.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The motorcycle shall have the edge of the illuminating surface of any independent driving lamp between 500 mm and 1,300 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.3.3"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The motorcycle shall have the distance between the edge of the illuminating surface of any independent driving lamp and that of the lamp producing the principal passing-beam not exceeding 200 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.3.3"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "Where the motorcycle is fitted with two driving lamps, the distance separating their illuminating surfaces shall not exceed 200 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.3.4"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The motorcycle shall ensure visibility of the driving-beam illuminating surface within a divergent space defined by generating lines on its perimeter forming at least 5° with the headlamp reference axis.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The motorcycle shall have the driving-beam headlamp oriented forwards, and the lamp may move with the steering angle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.5.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The motorcycle shall always allow the driving-beam headlamp to be switched ON and OFF manually and its automatic control to be manually deactivated by a simple and immediate operation, without submenus.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 12,
+        "paragraph": "6.1.6.3"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The motorcycle shall be fitted with a mandatory non-flashing blue circuit-closed tell-tale for the driving-beam.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 12,
+        "paragraph": "6.1.7.1"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The motorcycle shall have the aggregate maximum intensity of its simultaneously switched-on driving-beam headlamps not exceed 430,000 cd (reference number 100).",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 12,
+        "paragraph": "6.1.8.1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "For a motorcycle of cylinder capacity above 125 cm3 or maximum power above 11 kW, the motorcycle shall be fitted with one or two passing-beam headlamps type-approved to Class C or DS of the 01 or later series of amendments to UN Regulation No. 149.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "6.2.1.2"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The motorcycle shall have its passing-beam headlamp at a height between 500 mm and 1,200 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "6.2.3.2"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "Where the motorcycle has two headlamps producing the principal passing-beam, the distance separating their illuminating surfaces shall not exceed 200 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "6.2.3.4"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The motorcycle shall provide geometric visibility of the passing-beam headlamp within vertical angles of 15° upwards and 10° downwards.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The motorcycle shall provide geometric visibility of a single passing-beam headlamp within horizontal angles of 45° to the left and to the right.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The motorcycle shall keep the vertical inclination of its principal passing-beam headlamp between -0.5 and -2.5 per cent, except where an external adjusting device is present.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.2"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The motorcycle shall be capable of being tested for passing-beam vertical inclination under Condition A by placing a 75 kg ± 1 kg rider-simulating mass so as to reproduce the manufacturer's declared axle loads.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.4"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The motorcycle shall allow its principal passing-beam initial aiming to be set, per the manufacturer's instructions, between -1.0 and -1.5 per cent under Condition A.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.4"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The motorcycle shall be capable of being tested under Condition B by placing masses simulating the manufacturer's maximum total mass so as to reproduce the declared axle loads.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.4"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The motorcycle shall have its passing-beam changeover control switch off the driving-beam simultaneously.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 16,
+        "paragraph": "6.2.6"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The motorcycle shall be fitted with two direction indicator lamps per side.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The motorcycle shall have its two front indicators type-approved as category 1, 1a or 1b (UN R6 01 or later) or category 11, 11a, 11b or 11c (UN R50/R148 00 or later).",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The motorcycle shall have its two rear indicators type-approved as category 2 (UN R6 01 or later) or category 12 (UN R50/R148 00 or later).",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The motorcycle shall have a minimum distance of 240 mm between the illuminating surfaces of its two front direction indicators.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.3.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The motorcycle shall have its front indicators situated outside the longitudinal vertical planes tangential to the outer edges of the illuminating surfaces of the driving-beam and/or principal passing-beam.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.3.1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The motorcycle shall place its front direction indicators so that the minimum separation from the closest principal passing-beam illuminating surface is 75 mm for indicators of at least 90 cd, 40 mm for at least 175 cd, 20 mm for at least 250 cd and 20 mm or less for at least 400 cd.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.3.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The motorcycle shall have a clearance of at least 180 mm between the inner edges of the illuminating surfaces of its two rear indicators.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.3.1"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The motorcycle shall have its direction indicator lamps at a height between 350 mm and 1,200 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.3.3.2"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The motorcycle shall have the forward distance between the centre of reference of its rear indicators and the rearmost transverse plane of its over-all length not exceeding 300 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.3.3"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The motorcycle shall provide geometric visibility of its direction indicators within horizontal angles of 20° inwards and 80° outwards.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.4"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The motorcycle shall provide geometric visibility of its direction indicators within vertical angles of 15° above and below the horizontal, reducible to 5° downwards where the lamp is below 750 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.4"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The motorcycle shall switch its direction indicator lamps on independently of the other lamps, with all lamps on one side switched on and off by one control.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.6.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The motorcycle shall be fitted with a mandatory direction indicator operating tell-tale, optical and/or auditory, the optical version being flashing green and extinguishing, staying alight or markedly changing frequency on failure.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.7"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The motorcycle shall flash its direction indicators at a frequency of 90 ± 30 times per minute, measured with no other electrical load than that required for engine and lighting operation.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.8.1"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The motorcycle shall produce the direction indicator light within not more than one second of operating the control and the first extinction within not more than one-and-a-half seconds.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.8.3"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "The motorcycle shall, on failure other than a short circuit of one direction indicator lamp, keep the other lamps indicating the same direction flashing or alight.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "6.3.8.4"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The motorcycle shall be fitted with one or two stop lamps type-approved as category S1 (UN R7 02 or later) or as a category L stop lamp (UN R50/R148 00 or later).",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The motorcycle shall have its S1 category stop lamp at a height between 250 mm and 1,500 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "6.4.3.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The motorcycle shall have its S1 category stop lamp at the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "6.4.3.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The motorcycle shall provide geometric visibility of a single stop lamp within horizontal angles of 45° to the left and to the right.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "6.4.4"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The motorcycle shall provide geometric visibility of its stop lamp within vertical angles of 15° above and below the horizontal, reducible to 5° downwards where the lamp is below 750 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "6.4.4"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The motorcycle shall have its stop lamp oriented towards the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "6.4.5"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The motorcycle shall light up all its stop lamps simultaneously when the braking system provides the braking signal defined in UN Regulation No. 78.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "6.4.6.1"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The motorcycle shall be fitted with one or two front position lamps if white, or two (one per side) if amber, type-approved per UN R7 02 or later or UN R50/R148 00 or later.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 20,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The motorcycle shall have its front position lamp at a height between 350 mm and 1,200 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.6.3.2"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The motorcycle shall have its front position lamp at the front of the vehicle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.6.3.3"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The motorcycle shall provide geometric visibility of a single front position lamp within a horizontal angle of 80° to the left and to the right.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.6.4"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The motorcycle shall provide geometric visibility of its front position lamp within vertical angles of 15° above and below the horizontal, reducible to 5° downwards where the lamp is below 750 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.6.4"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The motorcycle shall have its front position lamp oriented forwards, and the lamp may move in line with the steering angle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.6.5"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The motorcycle shall be fitted with a mandatory non-flashing green front position lamp circuit-closed tell-tale, unless the instrument illumination can only be switched with the position lamps.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.6.6"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "Where the motorcycle has a front position lamp reciprocally incorporated with a direction indicator, that lamp or part shall be switched OFF during the entire time of operation of the direction indicator.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.6.7"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The motorcycle shall be fitted with one or two rear position lamps type-approved per UN R7 02 or later or UN R50/R148 00 or later.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "The motorcycle shall have its rear position lamp at a height between 250 mm and 1,500 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.7.3.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The motorcycle shall have its rear position lamp at the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.7.3.2"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The motorcycle shall provide geometric visibility of a single rear position lamp within a horizontal angle of 80° to the left and to the right.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.7.4"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The motorcycle shall provide geometric visibility of its rear position lamp within vertical angles of 15° above and below the horizontal, reducible to 5° downwards where the lamp is below 750 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.7.4"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The motorcycle shall have its rear position lamp oriented rearwards.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 21,
+        "paragraph": "6.7.5"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The motorcycle shall be fitted with one or two rear retro-reflectors type-approved as Class IA or IB per UN R3 02 or later or UN R150 00 or later.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 22,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The motorcycle shall have its rear retro-reflector at a height between 250 mm and 900 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 22,
+        "paragraph": "6.8.3"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The motorcycle shall provide geometric visibility of a single rear retro-reflector within horizontal angles of 30° to the left and to the right.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 22,
+        "paragraph": "6.8.4"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The motorcycle shall provide geometric visibility of its rear retro-reflector within vertical angles of 15° above and below the horizontal.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 22,
+        "paragraph": "6.8.4"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "The motorcycle shall have its rear retro-reflector oriented rearwards.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 22,
+        "paragraph": "6.8.5"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "The motorcycle shall be fitted per side with one or two side retro-reflectors type-approved as Class IA or IB per UN R3 02 or later or UN R150 00 or later.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 24,
+        "paragraph": "6.12.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The motorcycle shall have its side retro-reflectors at a height between 300 mm and 900 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 24,
+        "paragraph": "6.12.3.2"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The motorcycle shall place its side retro-reflectors where, under normal conditions, they are not masked by the rider's or passenger's clothes.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 24,
+        "paragraph": "6.12.3.3"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The motorcycle shall provide geometric visibility of its side retro-reflectors within horizontal angles of 30° to the front and to the rear.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 24,
+        "paragraph": "6.12.4"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The motorcycle shall have the reference axis of its side retro-reflectors perpendicular to the median longitudinal plane and directed outwards.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 24,
+        "paragraph": "6.12.5"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The motorcycle may be fitted with lighting and light-signalling devices type-approved for M1 and N1 vehicles in place of the corresponding L-category devices.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "5.18"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The motorcycle's light-signalling lamps shall bear an approval marking of which the dimension \"a\" is at least 5 mm.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1.2"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The motorcycle's light-signalling lamps shall carry markings that are clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The motorcycle's light-signalling lamps shall bear the number of UN Regulation No. 148 followed by \"R\" and the two digits of the series of amendments in force at approval.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.4"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "The motorcycle's direction indicator lamps that cannot be mounted on either side indiscriminately shall bear a horizontal arrow pointing outwards showing the mounting side.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The motorcycle's light-signalling lamps shall bear the trade name or mark of the applicant.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.2"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The motorcycle's light-signalling lamps with replaceable light sources shall bear a marking indicating the prescribed light source category and, where applicable, the LED substitute category.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.3"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The motorcycle's light-signalling lamps with non-replaceable light sources or electronic control gear shall bear the rated voltage or voltage range marking.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.4"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The motorcycle shall have each light-signalling lamp mounted so that its approval marking remains visible when the lamp is fitted on the vehicle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.2"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The motorcycle's direction indicator lamps shall produce a tell-tale activation signal on any one light source failing, on intensity below 50 per cent of minimum for two-source lamps, or on intensity below minimum in the specified directions.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1.4"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The motorcycle's light-signalling devices shall not generate radiated or power-line disturbances that cause a malfunction of other electric or electronic systems of the vehicle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.2.3"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The motorcycle's category S1 stop lamp shall provide a minimum luminous intensity of 6.0∙101 cd and, for a single lamp, a maximum of 2.60∙102 cd, meeting the standard light distribution and geometric visibility minima of 3∙10-1 cd.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.5.1. Table 7"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "The motorcycle's stop lamp shall emit red light.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.5.7"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The motorcycle's rear direction indicators, if category 2a, shall provide a minimum luminous intensity of 5.0∙101 cd and a maximum of 5.00∙102 cd with geometric visibility minima of 3∙10-1 cd.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The motorcycle's front direction indicators, if category 1, shall provide a minimum luminous intensity of 1.75∙102 cd and a maximum of 1.20∙103 cd, with geometric visibility minima of 3∙10-1 cd.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The motorcycle's direction indicator lamps may be measured in flashing mode at f = 1.5 ± 0.5 Hz with pulse width greater than 0.3 s, reporting the maximum intensity.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.4"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "The motorcycle's direction indicator lamps shall emit amber light.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 22,
+        "paragraph": "5.6.7"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The motorcycle's front direction indicators shall meet minimum horizontal geometric visibility angles of 20° inboard and 80° outboard and vertical angles of 15° above and 15° below.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Annex 2 Part A. Table A2-1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The motorcycle's single stop lamp shall meet minimum horizontal geometric visibility angles of 45° inboard and 45° outboard and vertical angles of 15° above and 10° below.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 33,
+        "paragraph": "Annex 2 Part A. Table A2-1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The motorcycle's headlamp shall be designed and constructed so that its satisfactory operation and prescribed characteristics remain assured in normal use notwithstanding the vibrations it is subjected to.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "The motorcycle's headlamp shall give adequate illumination without dazzle on passing-beam and good illumination on driving-beam.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.2"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "The motorcycle's headlamp shall be fitted with an adjustment device enabling it to be adjusted on the vehicle to comply with the applicable aiming rules.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The motorcycle's headlamp shall not generate radiated or power-line disturbances that cause a malfunction of other electric or electronic systems of the vehicle.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.3"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The motorcycle's headlamp with a plastic outer lens shall be subjected to the tests of Annex 8 on the lens or material samples.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.1"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The motorcycle's headlamp shall emit white light.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.16"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The motorcycle's driving-beam headlamp shall not exceed a maximum luminous intensity (Imax) of 2.15∙105 cd in any direction.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4.2"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The motorcycle's driving-beam headlamp shall provide at least 1.20∙104 cd at H-3L and H-3R, 3.40∙103 cd at H-6L and H-6R and 6.00∙102 cd at H-12L and H-12R.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4. Table 5"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "The motorcycle's Class C passing-beam headlamp shall not exceed 3.50∙102 cd at point B50L and shall provide at least 1.21∙104 cd at 75R and 5.00∙103 cd at 50L.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "The motorcycle's Class C passing-beam headlamp shall not exceed 6.25∙102 cd in Zone III.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "The motorcycle's Class C passing-beam headlamp shall not exceed an Imax of 4.41∙104 cd.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "The motorcycle's Class CS or DS passing-beam headlamp shall not exceed 7.00∙102 cd in Zone 2 and 9.00∙102 cd in Zone 1.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 26,
+        "paragraph": "5.4.3.3. Table 16"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The motorcycle's Class CS or DS passing-beam headlamp shall provide at least 1.38∙104 cd at points P3 and P1 and at least 2.45∙103 cd (CS) / 4.90∙103 cd (DS) at point P2.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 26,
+        "paragraph": "5.4.3.3. Table 16"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "The motorcycle's bend lighting, when activated together with the principal passing-beam at the left bank, shall not exceed 9.00∙102 cd in the zone from H-H to 15°U and V-V to 10°L.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 27,
+        "paragraph": "5.4.4.1"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "The motorcycle's passing-beam headlamp shall be visually aimed so that the horizontal part of the cut-off is set one per cent (0.57°) below the H-H line.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 58,
+        "paragraph": "Annex 5 3.2.1.1"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "The motorcycle's passing-beam cut-off shall have a sharpness factor G of not less than 0.13 for an asymmetric cut-off and not greater than 0.40.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 60,
+        "paragraph": "Annex 6 2.2.2"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "The motorcycle's passing-beam cut-off shall be horizontal between 1.5° and 3.5° from the V-V line, with inflection points not more than 0.2° apart vertically.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 61,
+        "paragraph": "Annex 6 2.2.3.1"
+      }
+    }
+  ]
+}

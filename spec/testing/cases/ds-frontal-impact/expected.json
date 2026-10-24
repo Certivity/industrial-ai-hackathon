@@ -1,0 +1,316 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-frontal-impact",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The front seat restraint system shall have belt components that meet the requirements of Regulation No. 16.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The vehicle shall provide belt anchorage points at the front seating positions conforming to Regulation No. 14.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The body structure and restraint system shall limit the head performance criterion to not more than 1,000 and the resultant head acceleration to not more than 80 g for more than 3 ms on the front outboard dummies in the offset deformable barrier test.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The restraint system shall limit the neck injury criteria of the front outboard dummies to the values shown in Figures 1 and 2.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The restraint system shall limit the neck bending moment about the y axis to not more than 57 Nm in extension.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.3"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The restraint system shall limit the thorax compression criterion to not more than 42 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.4"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The restraint system shall limit the viscous criterion for the thorax to not more than 1.0 m/s.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.5"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The body structure and restraint system shall limit the femur force criterion to the force-time performance criterion shown in Figure 3.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.6"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The body structure and toe-board reinforcement shall limit the tibia compression force criterion to not more than 8 kN.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.7"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The body structure and toe-board reinforcement shall limit the tibia index to not more than 1.3 at the top and bottom of each tibia.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.8"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The restraint system shall limit the movement of the sliding knee joints to not more than 15 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.9"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The steering column energy-absorbing element and body structure shall limit the residual steering wheel displacement, measured at the hub centre, to not more than 80 mm upwards and 100 mm rearward after the test.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The door locking system and body structure shall ensure that no door opens during the impact test.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The door locking system shall leave the side doors unlocked after the impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The body structure and doors shall allow at least one door per row of seats to be opened without the use of tools after the impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.5.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The restraint system buckles shall be releasable after the impact by a maximum force of 60 N applied at the centre of the release control.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.5.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The passenger compartment and restraints shall allow the occupants to be removed from the vehicle after the impact without adjustment of the seats.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.5.3"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The front structure shall ensure that no more than slight leakage of liquid occurs from the fuel feed installation on collision.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.6"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The vehicle fitted with driver and passenger frontal airbag modules shall comply with paragraphs 8.1.8. to 8.1.9. of UN Regulation No. 16 as amended by the 08 series of amendments.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 12,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The front body structure shall be designed and tested with a 40 per cent ± 20 mm overlap of the deformable barrier face.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 1.3.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The front structure and restraint system shall meet the occupant protection criteria at an impact speed of 56 -0/+1 km/h against the deformable barrier.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 19,
+        "paragraph": "Annex 3 4"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The restraint system shall limit the axial tensile neck force to not more than 3.3 kN and the fore/aft shear force at the head/neck interface to not more than 3.1 kN on the 50th percentile driver dummy in the full width rigid barrier test.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The body structure and restraint system shall limit the femur force criterion to not more than 9.07 kN on the 50th percentile driver dummy.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.5"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The restraint system shall limit the axial tensile neck force to not more than 2.9 kN and the fore/aft shear force at the head/neck interface to not more than 2.7 kN on the 5th percentile passenger dummy in the full width rigid barrier test.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The restraint system shall limit the thorax compression criterion to not more than 34 mm on the 5th percentile passenger dummy of this category M1 vehicle.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.3"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The body structure and restraint system shall limit the femur force criterion to not more than 7 kN on the 5th percentile passenger dummy.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.5"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The steering column energy-absorbing element and body structure shall limit the residual steering wheel displacement, measured at the hub centre, to not more than 80 mm upwards and 100 mm rearward after the full width rigid barrier test.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.2.1"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The door locking system and body structure shall ensure that no door opens during the full width rigid barrier impact test.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The door locking system shall leave the side doors unlocked after the full width rigid barrier test.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The restraint system buckles shall be releasable after the full width rigid barrier impact by a maximum force of 60 N at the centre of the release control.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.2.5.2"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The front structure and restraint system shall meet the occupant protection criteria at an impact speed of 50 -0/+1 km/h against the full width rigid barrier.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "Annex 3 4"
+      }
+    }
+  ]
+}

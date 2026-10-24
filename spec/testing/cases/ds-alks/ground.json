@@ -1,0 +1,1415 @@
+[
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall perform the DDT shall manage all situations including failures, and shall be free of unreasonable risks",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall not cause any collisions that are reasonably foreseeable and preventable.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The ALKS shall respond whilst active to any collision which requires a response according to national traffic rules",
+    "label": "5.1.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.1.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The system shall demonstrate anticipatory behaviour in interaction with other road user(s), in order to ensure stable, low-dynamic, longitudinal behaviour",
+    "label": "5.1.1.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall comply with traffic rules relating to the DDT in the country of operation, including responding to emergency/enforcement vehicles.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall exercise control over systems required to support the driver in resuming manual control at any time",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "A transition demand shall not endanger the safety of the vehicle occupants or other road users.",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "If the driver fails to resume control of the DDT during the transition phase, the system shall perform a minimum risk manoeuvre.",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.5",
+    "page": 6,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "During a minimum risk manoeuvre, the system shall minimise risks to safety of the",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The system shall perform self-checks to detect the occurrence of failures and to confirm system performance at all times",
+    "label": "5.1.6"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.7",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The effectiveness of the system shall not be adversely affected by magnetic or electrical fields.",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.8",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The manufacturer shall take measures to guard against reasonably foreseeable misuse by the driver and tampering of the system.",
+    "label": "5.1.8"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.1.9",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the system can no longer meet the requirements of this Regulation, it shall not be possible to activate the system.",
+    "label": "5.1.9"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall keep the vehicle inside its lane of travel and ensure that the vehicle does not unintentionally cross any lane marking",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The system shall aim to keep the vehicle in a stable lateral and longitudinal motion inside the lane of travel to avoid confusing other road users.",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall detect a vehicle driving beside as defined in paragraph 7.1.2. and, if necessary, adjust the speed and/or the lateral position",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.3.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The manufacturer shall declare the specified maximum speed based on the forward detection range of the system as described in paragraph 7.1.1.",
+    "label": "5.2.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.3.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall adapt the vehicle speed to infrastructural and environmental conditions (e.g. narrow curve radii, inclement weather).",
+    "label": "5.2.3.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.3.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall detect the distance to the next vehicle in front as defined in paragraph 7.1.1. and shall adapt the vehicle speed to adjust a safe following distance",
+    "label": "5.2.3.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.3.3. Table",
+    "page": 8,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "For speeds up to 60 km/h the minimum following distance shall be calculated using the formula:",
+    "label": "5.2.3.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.3.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the vehicle shall readjust the following distance at the next available opportunity without any harsh braking implementing strategies aiming to address significant string instability",
+    "label": "5.2.3.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall be able to bring the vehicle to a complete stop behind a stationary vehicle, a stationary road user or a blocked lane of travel to avoid a collision.",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall detect the risk of collision in particular with another road user ahead or beside the vehicle",
+    "label": "5.2.5"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.5.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall avoid a collision with a leading vehicle which decelerates up to its full braking performance",
+    "label": "5.2.5.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.5.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall avoid a collision with a cutting-in vehicle,",
+    "label": "5.2.5.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.5.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the activated ALKS shall avoid a collision up to 60 km/h.",
+    "label": "5.2.5.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.2.5.4",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the system shall not deactivate or unreasonably switch the control strategy in these other conditions.",
+    "label": "5.2.5.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.3.1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Any longitudinal deceleration demand of more than 5.0 m/s² of the system shall be considered to be an emergency manoeuvre.",
+    "label": "5.3.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.3.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "This manoeuvre shall decelerate the vehicle up to its full braking performance if necessary and/or may perform an automatic evasive manoeuvre, when appropriate.",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.3.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "An emergency manoeuvre shall not be terminated, unless the imminent collision risk disappeared, or the driver deactivated the system.",
+    "label": "5.3.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.3.3.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "If the emergency manoeuvre results in the vehicle being at standstill, the signal to activate the hazard warning lights shall be generated.",
+    "label": "5.3.3.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.3.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall implement a logic signal indicating emergency braking as specified in UN Regulation No. 13-H or 13, as appropriate.",
+    "label": "5.3.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The activated system shall recognise all situations in which it needs to transition the control back to the driver.",
+    "label": "5.4.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The initiation of the transition demand shall be such that sufficient time is provided for a safe transition to manual driving.",
+    "label": "5.4.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.2.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "a transition demand shall be given early enough to ensure the minimal risk manoeuvre, in case the driver would not resume control, would bring the vehicle to standstill before the planned event occurs.",
+    "label": "5.4.2.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.2.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In case of an unplanned event, a transition demand shall be given upon detection.",
+    "label": "5.4.2.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.2.3",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In case of any failure affecting the ability of the system to meet the requirements of this Regulation, the system shall immediately initiate a transition demand upon detection.",
+    "label": "5.4.2.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.3",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "During the transition phase the system shall continue to operate.",
+    "label": "5.4.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.3.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Once in standstill the vehicle may remain in this condition and shall generate the signal to activate the hazard warning lights within 5 s.",
+    "label": "5.4.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "During the transition phase, the transition demand shall be escalated latest after 4 s after the start of the transition demand.",
+    "label": "5.4.3.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "A transition demand shall only be terminated once the system is deactivated or a minimum risk manoeuvre has started.",
+    "label": "5.4.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.4.4.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "a minimum risk manoeuvre shall be started, earliest 10 s after the start of the transition demand.",
+    "label": "5.4.4.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.5.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The minimum risk manoeuvre shall bring the vehicle to standstill unless the system is deactivated by the driver during the manoeuvre.",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.5.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "During the minimum risk manoeuvre the vehicle shall be slowed down with an aim of achieving a deceleration demand not greater than 4.0 m/s².",
+    "label": "5.5.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.5.3",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "A minimum risk manoeuvre shall only be terminated once the system is deactivated or the system has brought the vehicle to a standstill.",
+    "label": "5.5.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.5.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be deactivated at the end of any minimum risk manoeuvre.",
+    "label": "5.5.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "5.5.5",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Reactivation of the system after the end of any minimum risk manoeuvre shall only be possible after a new initiation of the powertrain",
+    "label": "5.5.5"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.1.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The driver availability recognition system shall detect if the driver is present in a driving position, if the safety belt of the driver is fastened and if the driver is available",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.1.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "A transition demand shall be initiated according to paragraph 5.4. if any of the following conditions is met:",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.1.3",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The system shall detect if the driver is available and in an appropriate driving position to respond to a transition demand by monitoring the driver.",
+    "label": "6.1.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.1.3.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The driver shall be deemed to be unavailable unless at least two availability criteria",
+    "label": "6.1.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.1.3.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "As soon as the driver is deemed to be unavailable, or fewer than two availability criteria can be monitored, the system shall immediately provide a distinctive warning",
+    "label": "6.1.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.1.4",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Other activities than driving\" through on-board displays available upon activation of the ALKS shall be automatically suspended",
+    "label": "6.1.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall be equipped with dedicated means for the driver to activate (active mode) and deactivate (off mode) the system.",
+    "label": "6.2.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The default status of the system shall be the off mode at the initiation of thepowertrain",
+    "label": "6.2.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.3",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The system shall become active only upon a deliberate action by the driver and if all the following conditions are met:",
+    "label": "6.2.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.3",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "If any of the above conditions is no longer fulfilled, the system shall immediately initiate a transition demand unless specified differently in this Regulation.",
+    "label": "6.2.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.4",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "It shall be possible to manually deactivate (off-mode) the system by an intentional action of the driver using the same means as to activate the system",
+    "label": "6.2.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.4",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "it shall be ensured the driver is in lateral control of the vehicle at the time of the deactivation",
+    "label": "6.2.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.5.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be deactivated when at least one of the following conditions is met:",
+    "label": "6.2.5.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.5.2",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Upon detection that the driver has taken hold of the steering control as a response to the transition demand",
+    "label": "6.2.5.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.6",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "On deactivation of the system, there shall not be an automatic transition to any function, which provides continuous longitudinal and/or lateral movement of the vehicle",
+    "label": "6.2.6"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.2.7",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Any deactivation shall be indicated to the driver as defined in paragraph 6.4.2.3.",
+    "label": "6.2.7"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.3.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "A driver input to the steering control shall override the lateral control function of the system when the input exceeds a reasonable threshold",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.3.1.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The system shall detect if the driver is attentive.",
+    "label": "6.3.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.3.2",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "A driver input to the braking control resulting in a higher deceleration than that induced by the system or maintaining the vehicle in standstill",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.3.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "A driver input to the accelerator control may override the longitudinal control function of the system.",
+    "label": "6.3.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.3.4",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Any driver input to the accelerator or brake control shall immediately initiate a transition demand as specified in paragraph 5.4.",
+    "label": "6.3.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.3.5",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Any driver activation of the direction indicator shall initiate a transition demand as specified in paragraph 5.4.",
+    "label": "6.3.5"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.3.6",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "the effect of the driver input on any control may be reduced or suppressed by the system in case the system has detected an imminent collision risk",
+    "label": "6.3.6"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The following information shall be indicated to the driver:",
+    "label": "6.4.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "At the latest 4 s after the initiation of the transition demand, the transition demand shall:",
+    "label": "6.4.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.2.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "In case activation of the system following the deliberate action of the driver is denied by the system due to system unavailability, this shall be at least visually displayed to the driver.",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.2.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Upon activation the system status (active mode) shall be displayed by a dedicated optical signal to the driver.",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.2.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The optical signal shall indicate the active system state until the system is deactivated (off mode).",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.2.3",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Upon deactivation when the system status changes from active mode to off mode this shall be indicated to the driver by at least an optical warning signal.",
+    "label": "6.4.2.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.3.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "During the transition phase and the MRM, the system shall instruct the driver in an intuitive and unambiguous way to take over manual control of the vehicle.",
+    "label": "6.4.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "6.4.3.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "With the start of the minimum risk manoeuvre, the given signal shall change its characteristics to emphasize the urgency of an action by the driver.",
+    "label": "6.4.3.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "7.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The ALKS vehicle shall be equipped with a sensing system such that, it can at least determine the driving environment",
+    "label": "7.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "7.1.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "This declared value shall be at least 46 metres for a specified maximum speed of 60 km/h.",
+    "label": "7.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "7.1.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The system shall implement control strategies to adapt its maximum speed due the actual detection range and the actual deceleration capability",
+    "label": "7.1.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "7.1.2",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The manufacturer shall declare the lateral detection range. The declared range shall be sufficient to cover the full width of the lane immediately to the left and of the lane immediately to the right",
+    "label": "7.1.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "7.1.5",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The ALKS shall implement strategies to detect and compensate for environmental conditions that reduce the detection range",
+    "label": "7.1.5"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "7.1.6",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall provide evidence that the effects of wear and ageing do not reduce the performance of the sensing system below the minimum required values",
+    "label": "7.1.6"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "7.1.8",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "A single perception malfunction without failure should not induce hazardous event.",
+    "label": "7.1.8"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.1",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Each vehicle equipped with ALKS (the system) shall be fitted with a DSSAD that meets the requirements specified below.",
+    "label": "8.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.2.1",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Each vehicle equipped with a DSSAD shall at least record an entry for each of the following occurrences upon activation of the system:",
+    "label": "8.2.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.3.1",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "For each event listed in paragraph 8.2., the DSSAD shall at least record the following data elements in a clearly identifiable way:",
+    "label": "8.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.3.2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "the R157SWIN for ALKS, or the software versions relevant to ALKS, indicating the software that was present at the time when the event occurred, shall be clearly identifiable.",
+    "label": "8.3.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.4.2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Once the storage limits of the DSSAD are achieved, existing data shall only be overwritten following a first in first out procedure",
+    "label": "8.4.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.4.3.1",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "For vehicles of Category M1 and N1, the data elements listed in paragraph 8.3.1. shall be retrievable even after an impact of a severity level set by UN Regulations Nos. 94, 95 or 137",
+    "label": "8.4.3.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.4.3.3",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "If the main on-board vehicle power supply is not available, it shall still be possible to retrieve all data recorded on the DSSAD",
+    "label": "8.4.3.3"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.4.4",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "Data stored in the DSSAD shall be easily readable in a standardized way via the use of an electronic communication interface, at least through the standard interface (OBD port).",
+    "label": "8.4.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.4.6",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "Instructions from the manufacturer shall be provided on how to access the data.",
+    "label": "8.4.6"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.5.1",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "It shall be ensured that there is adequate protection against manipulation (e.g. data erasure) of stored data such as anti-tampering design.",
+    "label": "8.5.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "8.6.1",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "DSSAD shall be able to communicate with the system to inform that the DSSAD is operational.",
+    "label": "8.6.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "9.1",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "The effectiveness of the system shall not be adversely affected by cyber-attacks, cyber threats and vulnerabilities.",
+    "label": "9.1"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "9.2",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "If the system permits software updates, the effectiveness of the software update procedures and processes shall be demonstrated by compliance with UN Regulation No. 156.",
+    "label": "9.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "9.3.1.1",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "for the purpose of ensuring the software of the System can be identified, an R157SWIN shall be used.",
+    "label": "9.3.1.1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall protect the vehicle type against risks identified in the vehicle manufacturer’s risk assessment.",
+    "label": "7.3.4"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.6",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall perform, prior to type approval, appropriate and sufficient testing to verify the effectiveness of the security measures implemented.",
+    "label": "7.3.6"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall implement measures for the vehicle type to:",
+    "label": "7.3.7"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards.",
+    "label": "7.3.8"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall verify the authenticity and integrity of messages it receives",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be implemented for storing cryptographic keys (e.g., use of Hardware Security Modules)",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1",
+    "page": 18,
+    "raw_pages": [
+      18,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect and recover from a denial of service attack shall be employed",
+    "label": "Annex 5 Part B 1. Table B1"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 2. Table B2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Secure software update procedures shall be employed",
+    "label": "Annex 5 Part B 2. Table B2"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. Table B4",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to systems that have remote access",
+    "label": "Annex 5 Part B 4. Table B4"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. Table B4",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to external interfaces",
+    "label": "Annex 5 Part B 4. Table B4"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The authenticity and integrity of software updates shall be protected to reasonably prevent their compromise and reasonably prevent invalid updates.",
+    "label": "7.2.1.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.2",
+    "page": 6,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Each RXSWIN shall be easily readable in a standardized way via the use of an electronic communication interface, at least by the standard interface (OBD port).",
+    "label": "7.2.1.2.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall protect the RXSWINs and/or software version(s) on a vehicle against unauthorised modification.",
+    "label": "7.2.1.2.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall ensure that the vehicle is able to restore systems to their previous version in case of a failed or interrupted update",
+    "label": "7.2.2.1.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "software updates can only be executed when the vehicle has enough power to complete the update process",
+    "label": "7.2.2.1.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the execution of an update may affect the safety of the vehicle, the vehicle manufacturer shall demonstrate how the update will be executed safely.",
+    "label": "7.2.2.1.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall demonstrate that the vehicle user is able to be informed about an update before the update is executed.",
+    "label": "7.2.2.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Ensure the vehicle cannot be driven during the execution of the update;",
+    "label": "7.2.2.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle user is able to be informed of the success (or failure) of the update;",
+    "label": "7.2.2.4"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall ensure that preconditions have to be met before the software update is executed.",
+    "label": "7.2.2.5"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "Annex 2 Model A",
+    "page": 33,
+    "raw_pages": [
+      33,
+      34
+    ],
+    "verdict": "ok",
+    "exact": "a = 8 mm min",
+    "label": "Annex 2",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "4.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and be indelible.",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "4.7",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate.",
+    "label": "4.7"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "4.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and shall be indelible.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "4.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed on or close to the vehicle data plate affixed by the Manufacturer.",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "4.3",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and shall be indelible.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "4.4",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed on or close to the vehicle data plate affixed by the Manufacturer.",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "Annex 5 4.1.2",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "With a minimum test duration of:",
+    "label": "Annex 5 4.1.2"
+  },
+  {
+    "regulation": "UN R157",
+    "paragraph": "Annex 5 4.8.1",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "The test shall demonstrate that the ALKS vehicle is not initiating an emergency manoeuvre with a deceleration demand greater than 5 m/s² due to a passable object in the lane",
+    "label": "Annex 5 4.8.1"
+  }
+]

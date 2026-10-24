@@ -1,0 +1,633 @@
+[
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "An immobilizer and its installation shall be so designed that any equipped vehicle continues to meet the technical requirements.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "It shall not be possible for an immobilizer to enter the set state when the ignition key is in the engine running mode",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.4",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "It shall not be possible to permanently override an immobilizer.",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.5",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The immobilizer shall be designed and built such that when installed it shall not adversely affect the designed function and the safe operation of the vehicle, even in the case of malfunction.",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.6",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "it cannot rapidly and without attracting attention be rendered ineffective or destroyed by, e.g. the use of low cost easily concealed tools",
+    "label": "5.1.6"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.6",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "It shall be difficult and time consuming to replace a major component or assembly in order to bypass the immobilizer.",
+    "label": "5.1.6"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.7",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "An immobilizer shall be so designed and built such that when installed as specified by the manufacturer it is able to withstand the environment within the vehicle for a reasonable lifetime",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.7",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "the electrical properties of the on-board circuitry shall not be adversely affected by the addition of the immobilizer (lead cross-sections, contact safety, etc.)",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.9",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "It shall not be possible for an immobilizer to prevent the release of the brakes of the vehicle",
+    "label": "5.1.9"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.1.10",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "It shall not be possible for an immobilizer to operate in such a manner as to apply the brakes of the vehicle.",
+    "label": "5.1.10"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.2.1.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "interference by code of at least one control unit required for the operation of the vehicle.",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.2.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "An immobilizer for fitment to a vehicle equipped with a catalytic converter shall not cause unburnt fuel to enter the exhaust.",
+    "label": "5.2.1.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.2.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "It shall be ensured that the immobilizer does not change its state (set/unset) as a result of any of the tests in paragraph 5.3.",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.2.4.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The immobilizer must be set without supplementary action from the driver by at least one of the following means",
+    "label": "5.2.4.1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.2.5.1.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Electrical/electronic device, e.g. remote control, with at least 50,000 variants and shall incorporate rolling codes and/or have a minimum scan time of ten days",
+    "label": "5.2.5.1.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.2.6.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "the duration of the optical indication by the direction indicators does not exceed 3 seconds",
+    "label": "5.2.6.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "5.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "All components of the immobilizer shall be submitted to the tests described in Annex 6.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 1.",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "All components of the immobilizer shall operate without any failure under the following conditions.",
+    "label": "Annex 6 1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "-40°C to +85°C for parts to be fitted in the passenger or luggage compartment",
+    "label": "Annex 6 1.1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "-40°C to +125°C for parts to be fitted in the engine compartment unless otherwise specified",
+    "label": "Annex 6 1.1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 1.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "IP 40 for parts to be fitted in the passenger compartment",
+    "label": "Annex 6 1.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 1.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "IP 54 for all other parts",
+    "label": "Annex 6 1.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 1.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "7 days according to IEC 68-2-30-1980.",
+    "label": "Annex 6 1.3"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 1.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Operation supply voltage range: from 9 V to 15 V in the temperature range according to paragraph 1.1.1",
+    "label": "Annex 6 1.4"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the immobilizer shall be tested under the normal test conditions specified in paragraph 2.1. of this Regulation to check that it continues to function normally",
+    "label": "Annex 6 3.1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.2.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Test temperature T (-40 ± 2)° C",
+    "label": "Annex 6 3.2.1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.2.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Test temperature T = (+85 ± 2)° C",
+    "label": "Annex 6 3.2.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.2.4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The immobilizer, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+    "label": "Annex 6 3.2.4"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.2.5",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The immobilizer, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 min.",
+    "label": "Annex 6 3.2.5"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.3",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "After the test for tightness to foreign body and water according to IEC 529-1989, for degrees of protection as in paragraph 1.1.2., the operation tests according to paragraph 3.1. shall be repeated.",
+    "label": "Annex 6 3.3"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "After a resistance-to-humidity test to be carried out according to IEC 68 2 30 (1980) the operation tests according to paragraph 3.1. shall be repeated.",
+    "label": "Annex 6 3.4"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.5",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The immobilizer and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min.",
+    "label": "Annex 6 3.5"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.6",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "All electrical connections of the immobilizer must be short-circuit proof against earth, max. 13 V and/or fused.",
+    "label": "Annex 6 3.6"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.7",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The energy consumption in set condition under the conditions given in paragraph 2.1. shall not exceed 20 mA on average for the complete immobilizer including status display.",
+    "label": "Annex 6 3.7"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.8.2.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+    "label": "Annex 6 3.8.2.1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.8.2.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The frequency shall be variable from 20 Hz to 300 Hz with a maximum amplitude of ± 2 mm and maximum acceleration of 15 g (0-peak).",
+    "label": "Annex 6 3.8.2.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.8.2.3",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The number of cycle is 10, the test shall be performed along each of the 3 axes.",
+    "label": "Annex 6 3.8.2.3"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.8.4",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "After the vibration test the operation tests according to paragraph 3.1. shall be repeated.",
+    "label": "Annex 6 3.8.4"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 6 3.9",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The immobilizer shall be submitted to the tests described in Annex 7.",
+    "label": "Annex 6 3.9"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 1.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The immobilizer shall be tested in unset state and in set state",
+    "label": "Annex 7 1.2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 2.2. Table 1",
+    "page": 16,
+    "raw_pages": [
+      16,
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Immobilizer in set state",
+    "label": "Annex 7 2.2. Table 1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 2.2. Table 1",
+    "page": 16,
+    "raw_pages": [
+      16,
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Unexpected activation of the immobilizer",
+    "label": "Annex 7 2.2. Table 1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Immunity against electrical disturbances shall be tested in accordance with Technical ISO 10605-2008 + corrigendum:2010 + AMD1:2014 using the test severity levels from table 2.",
+    "label": "Annex 7 3.1"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 3.2. Table 2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "± 15",
+    "label": "Annex 7 3.2. Table 2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 3.2. Table 2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "± 8",
+    "label": "Annex 7 3.2. Table 2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 3.2. Table 2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge",
+    "label": "Annex 7 3.2. Table 2"
+  },
+  {
+    "regulation": "UN R162",
+    "paragraph": "Annex 7 4.",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The locking system shall be in set state.",
+    "label": "Annex 7 4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1. Table 1",
+    "page": 10,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Vehicles with 12 V systems",
+    "label": "6.7.1. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "-75 V",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "+37 V",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "-112 V",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 12,
+    "raw_pages": [
+      11,
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Test level above 2 GHz",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      10,
+      12,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band",
+    "label": "6.5.2.1"
+  }
+]

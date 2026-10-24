@@ -1,0 +1,626 @@
+[
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.2. Table A",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Crankcase emissions¹ (Type 3 test) Yes Yes Yes - Yes (petrol only) Yes (petrol only) Yes (petrol only)",
+    "label": "5.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the engine's crankcase ventilation system shall not permit the emission of any of the crankcase gases into the atmosphere",
+    "label": "5.3.3.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.2. Table A",
+    "page": 7,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The test consists of the four elementary urban driving cycles of Part One of the NEDC based Type I test",
+    "label": "5.3.5.1.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.1.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The low ambient temperature test shall be carried out at an ambient test temperature of 266 K (-7 °C)",
+    "label": "5.3.5.1.3"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.2. Table 2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "15 1.8",
+    "label": "5.3.5.2. Table 2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "for each pollutant, at least two of the three test results must be below the limit. One of the test results can exceed the limit but by no more than 10 per cent",
+    "label": "5.3.5.2.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.3.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Only one test is performed if the result obtained for each pollutant of the first test is less than or equal to 0.70 L",
+    "label": "5.3.5.3.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.3.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "only two tests are performed if for each pollutant the result of the first test is less than or equal to 0.85 L",
+    "label": "5.3.5.3.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.2. Table A",
+    "page": 7,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In-service conformity Yes Yes Yes Yes Yes (as at type-approval) Yes (as at type-approval)",
+    "label": "5.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "9.2.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "between 15,000 km or 6 months whichever occurs later and 200,000 km or 10 years whichever occurs sooner",
+    "label": "9.2.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "9.2.8",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "its final RDE emission results as determined in accordance with UN Regulation No. 168 on RDE and emitted at any RDE test performed in accordance with that Regulation, do not exceed the emission limits",
+    "label": "9.2.8"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "2.4",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 7 2.4"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "2.5",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 7 2.5"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "3.5",
+    "page": 69,
+    "raw_pages": [
+      69
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 7 3.5"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 4 5.7.1.1",
+    "page": 93,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "wrong page",
+    "exact": "The value for OVC-HEV vehicles shall be obtained from the WLTP test conducted using the Charge Sustaining mode",
+    "label": "Annex 4 5.7.1.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Live parts shall comply with paragraphs 5.1.1.1. and 5.1.1.2. for protection against direct contact",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "For high voltage live parts inside the passenger compartment, or luggage compartment, or trailer load compartment, the protection degree IPXXD shall be provided",
+    "label": "5.1.1.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "For high voltage live parts in areas other than the passenger compartment, or luggage compartment or trailer load compartment, the protection degree IPXXB shall be provided",
+    "label": "5.1.1.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.4.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The symbol shown in Figure 2 shall be present on or near the REESS having high voltage capability. The symbol background shall be yellow",
+    "label": "5.1.1.4.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.4.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Cables for high voltage buses which are not located within enclosures shall be identified by having an outer covering with the colour orange",
+    "label": "5.1.1.4.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The resistance between all exposed conductive parts and the electrical chassis shall be lower than 0.1 ohm when there is current flow of at least 0.2 amperes",
+    "label": "5.1.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.3.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "If AC high voltage buses and DC high voltage buses are galvanically connected, isolation resistance between the high voltage bus and the electrical chassis shall have a minimum value of 500 Ω/volt",
+    "label": "5.1.3.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The vehicles shall maintain isolation resistance after exposure to water",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.2.2.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Smoke caused by thermal propagation shall not be released into the passenger compartment",
+    "label": "5.2.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.2.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall provide a warning to the driver when the vehicle is in active driving possible mode in the event specified in paragraphs 6.13. to 6.15",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.2.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the tell-tale shall, when illuminated, be sufficiently bright to be visible to the driver under both daylight and night-time driving conditions",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.3.3",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "If the REESS can be externally charged, vehicle movement by its own propulsion system shall be impossible as long as the vehicle connector is physically connected to the vehicle inlet",
+    "label": "5.3.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.4.3",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "During a normal charge procedure in the conditions given in Annex 8, hydrogen emissions shall be below 125 g during 5 h, or below 25 x t2 g during t2 (in h)",
+    "label": "5.4.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.4.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "During a charge carried out by a charger presenting a failure (conditions given in Annex 8), hydrogen emissions shall be below 42 g",
+    "label": "5.4.4"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.4.5",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "All the operations linked to the REESS charging shall be controlled automatically, included the stop for charging",
+    "label": "5.4.5"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.2.2.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "During the test, there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS (s) only); (c) Venting",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.2.2.2",
+    "page": 13,
+    "raw_pages": [
+      13,
+      14,
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.10.2.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The overcurrent protection control of the REESS shall terminate charging or the temperature measured on the casing of the REESS shall be stabilized",
+    "label": "6.10.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.15",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "the vehicle occupants shall not be exposed to any hazardous environment caused by thermal propagation which is triggered by an internal short circuit leading to a single cell thermal runaway",
+    "label": "6.15"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.15.3.4",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "For 5 minutes following the signal to activate the warning indication, none of the following hazardous situations caused by thermal propagation shall occur",
+    "label": "6.15.3.4"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "5.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The components liable to affect the emissions of CO2 and fuel consumption or the electric energy consumption shall be so designed, constructed and assembled as to enable the vehicle",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "5.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The daytime running lamps as defined in paragraph 2. of Regulation No. 48 shall be switched ON during the test cycle",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "5.4.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The technical service in charge of the tests conducts the measurement of the emissions of CO2 and of the electric energy consumption according to the test procedure described in Annex 8",
+    "label": "5.4.1"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "5.4.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The results of the test for CO2 emissions must be expressed in grams per kilometre (g/km) rounded to the nearest whole number",
+    "label": "5.4.2"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "5.4.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "If applicable, the result of the electric energy consumption must be expressed in Watt hours per kilometre (Wh/km), rounded to the nearest whole number",
+    "label": "5.4.5"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "5.4.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The technical service in charge of the tests conducts the measurement of the electric range of the vehicle according to the method described in Annex 9",
+    "label": "5.4.6"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 1.3",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "OVC vehicles (as categorised in paragraph 2. to this annex) shall be tested according to condition A and to condition B",
+    "label": "Annex 8 1.3"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 3.2.1.1",
+    "page": 74,
+    "raw_pages": [
+      74
+    ],
+    "verdict": "ok",
+    "exact": "The electrical energy/power storage device of the vehicle is discharged while driving (on the test track, on a chassis dynamometer, etc.)",
+    "label": "Annex 8 3.2.1.1"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 3.2.2.4",
+    "page": 74,
+    "raw_pages": [
+      74,
+      80
+    ],
+    "verdict": "ok",
+    "exact": "During soak, the electrical energy/power storage device shall be charged, using the normal overnight charging procedure as defined in paragraph 3.2.2.5",
+    "label": "Annex 8 3.2.2.4"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 3.2.2.5.2",
+    "page": 75,
+    "raw_pages": [
+      75
+    ],
+    "verdict": "ok",
+    "exact": "The end of charge criteria corresponds to a charging time of 12 hours, except if a clear indication is given to the driver by the standard instrumentation",
+    "label": "Annex 8 3.2.2.5.2"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 3.2.4",
+    "page": 76,
+    "raw_pages": [
+      76,
+      81
+    ],
+    "verdict": "ok",
+    "exact": "The energy measurement equipment, placed between the mains socket and the vehicle charger, measures the charge energy e1 [Wh] delivered from the mains",
+    "label": "Annex 8 3.2.4"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 3.4.2.1",
+    "page": 77,
+    "raw_pages": [
+      77,
+      82
+    ],
+    "verdict": "ok",
+    "exact": "M = (De · M1 + Dav · M2)/(De + Dav)",
+    "label": "Annex 8 3.4.2.1"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 4.1.4.1.2",
+    "page": 79,
+    "raw_pages": [
+      79
+    ],
+    "verdict": "ok",
+    "exact": "If there is no single operating mode under condition A that is always selected when the vehicle is switched on, the most electric energy consuming mode shall be selected",
+    "label": "Annex 8 4.1.4.1.2"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 8 4.1.4.2.2",
+    "page": 79,
+    "raw_pages": [
+      79
+    ],
+    "verdict": "ok",
+    "exact": "If there is no single operating mode under condition B that is always selected when the vehicle is switched on, the most fuel consuming mode shall be selected",
+    "label": "Annex 8 4.1.4.2.2"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 9 3.1.5",
+    "page": 91,
+    "raw_pages": [
+      56,
+      91
+    ],
+    "verdict": "ok",
+    "exact": "The manufacturer's agent shall be in a position to attest that the thermal management system of the battery is neither disabled nor reduced",
+    "label": "Annex 9 3.1.5"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 9 3.1.6",
+    "page": 91,
+    "raw_pages": [
+      91
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle must have undergone at least 300 km or one full charge distances, whichever is longer with those batteries that are installed in the test vehicle",
+    "label": "Annex 9 3.1.6"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 7 Appendix 3 1.2",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "Measurement of REESS current and REESS voltage shall start at the same time as the test starts and shall end immediately after the vehicle has finished the test",
+    "label": "Annex 7 Appendix 3 1.2"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 7 Appendix 3 2.1.2",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "the manufacturer should provide appropriate, safe and accessible connection points in the vehicle",
+    "label": "Annex 7 Appendix 3 2.1.2"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "Annex 7 Appendix 3 3.1",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "the manufacturers shall support the approval authority by providing REESS voltage measurement points",
+    "label": "Annex 7 Appendix 3 3.1"
+  },
+  {
+    "regulation": "UN R101",
+    "paragraph": "9.5",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Conformity for CO2 emissions is checked using the statistical procedures described in paragraphs 9.3.1. to 9.3.3. Vehicles are tested according to the procedure described in Annex 8",
+    "label": "9.5"
+  }
+]

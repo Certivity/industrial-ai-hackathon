@@ -14,6 +14,8 @@ much of a result is the task and how much is one model's habits. Commands (`pyth
   agree CASE         the provider writes its own gold for an existing case (the regulations given) and the two golds are compared
                      at regulation, page and paragraph level: how far two writers of the same gold agree
   ground FILE        offline: check a provider's requirements against the raw page text of the PDFs and against our parse
+  regrade [CASE ...] offline: ground the saved provider.json of cases again with the parser as it is now, and show how the verdicts
+                     moved against the ground.json kept at the time (--write keeps them and rebuilds expected.json)
   score CASE FILE    offline: score a picks file ([{"regulation": "UN R48", "root": "6.10"}, ...]) against CASE/expected.json
   catalogue          offline: the size of what `select` sends
 
@@ -21,6 +23,11 @@ A command that would call a model prints what it would send and where, and stops
 OPENAI_API_KEY or GEMINI_API_KEY (GOOGLE_API_KEY) in the environment, or from a .env file in the repository root (git ignores it);
 a dry run says whether one was found, and never prints it. --provider replay --reply FILE answers from a file instead, to try
 the rest.
+
+--provider llm is any OpenAI-compatible chat endpoint (DeepSeek, a local server), set by four lines of the .env file or the
+environment: LLM_API_KEY, LLM_BASE_URL (e.g. https://api.deepseek.com), LLM_MODEL (what --model defaults to) and LLM_TIMEOUT_S
+(seconds the connection may stay silent; --timeout overrides it; the other providers wait up to 1200). The call goes with
+`thinking: disabled`; --thinking leaves the model's own default (DeepSeek: on).
 
 What is sent: the case's spec.md (and exploded_view.png with --image), the catalogue (titles, the first lines of section 1 and the
 section headings of the regulations in regulations/index.json), and for `author` and `agree` the page text of the chosen regulation
@@ -44,6 +51,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
@@ -65,6 +73,8 @@ CASES = ROOT / "spec" / "testing" / "cases"
 SUPERSCRIPTS = "⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺"
 PLAIN = str.maketrans(SUPERSCRIPTS, "0123456789-+")
 CONTEXT_TOKENS = 250_000  # refuse a prompt above this (estimated at 4 characters a token) unless --context says otherwise
+LLM_MAX_TOKENS = 64_000  # output cap of --provider llm; a reasoning model spends part of it thinking, and a cut-off reply is an error
+DEFAULT_TIMEOUT_S = 1200
 SCOPE_ID = re.compile(r"^(?:(?:Annex|Appendix|Part)\s+(?:\d+[A-Za-z]?|[A-Z]|[IVX]+)\b\s*[-–:.]?\s*)+")
 
 SPEC_TEMPLATE = """# spec: <name>
@@ -140,18 +150,19 @@ def exact_quote(body: str, quote: str) -> str | None:
     return body[squashed[at][0]: squashed[at + len(wanted) - 1][0] + 1]
 
 
-KEY_NAMES = ("OPENAI_API_KEY", "GEMINI_API_KEY", "GOOGLE_API_KEY")
+KEY_NAMES = ("OPENAI_API_KEY", "GEMINI_API_KEY", "GOOGLE_API_KEY", "LLM_API_KEY")
+SETTING_NAMES = ("LLM_BASE_URL", "LLM_MODEL", "LLM_TIMEOUT_S")
 
 
 def load_env(path: Path = ROOT / ".env") -> list[str]:
-    """Put the API keys of a .env file (KEY=value lines) into the environment, unless the environment has them already. Only the
-    three key names are taken; the names that were found are returned, the values never leave this function. Called by main(), not
-    by the library functions, so a test controls its own environment."""
+    """Put the API keys and the LLM_* settings of a .env file (KEY=value lines) into the environment, unless the environment has
+    them already. Only those names are taken; the names that were found are returned, the values never leave this function. Called
+    by main(), not by the library functions, so a test controls its own environment."""
     found = []
     if path.is_file():
         for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
             name, _, value = line.strip().removeprefix("export ").partition("=")
-            if name.strip() in KEY_NAMES and value.strip():
+            if name.strip() in KEY_NAMES + SETTING_NAMES and value.strip():
                 os.environ.setdefault(name.strip(), value.strip().strip("\"'"))
                 found.append(name.strip())
     return found
@@ -268,16 +279,28 @@ def gold_prompt(spec: str, regulations: list[str]) -> tuple[str, str]:
 
 
 # --------------------------------------------------------------------------------------------------------------- models
-def request_for(provider: str, model: str, system: str, user: str, image: Path | None) -> tuple[str, dict, dict]:
-    """(url, headers, body) of one JSON-answer call. The key is read from the environment and goes in a header, never in the URL."""
+def request_for(provider: str, model: str, system: str, user: str, image: Path | None, thinking: bool = False) -> tuple[str, dict, dict]:
+    """(url, headers, body) of one JSON-answer call. The key is read from the environment and goes in a header, never in the URL.
+    `llm` asks the model not to think (`thinking: disabled`, DeepSeek's switch, checked live: no reasoning tokens come back) unless
+    `thinking` is set, in which case the model's own default applies."""
     picture = base64.b64encode(image.read_bytes()).decode("ascii") if image else None
-    if provider == "openai":
-        content: list[dict] = [{"type": "text", "text": user}]
+    if provider in ("openai", "llm"):
+        content: list[dict] | str = [{"type": "text", "text": user}]
         if picture:
             content.append({"type": "image_url", "image_url": {"url": f"data:image/png;base64,{picture}"}})
         body = {"model": model, "messages": [{"role": "system", "content": system}, {"role": "user", "content": content}],
                 "response_format": {"type": "json_object"}}
-        return "https://api.openai.com/v1/chat/completions", {"Authorization": "Bearer " + os.environ.get("OPENAI_API_KEY", "")}, body
+        if provider == "openai":
+            return "https://api.openai.com/v1/chat/completions", {"Authorization": "Bearer " + os.environ.get("OPENAI_API_KEY", "")}, body
+        base = os.environ.get("LLM_BASE_URL", "").strip().rstrip("/")
+        if not base:
+            raise SystemExit("error: LLM_BASE_URL is not set (the endpoint of --provider llm, e.g. https://api.deepseek.com)")
+        if not picture:  # the plain string every compatible server takes; the list form only where an image needs it
+            body["messages"][1]["content"] = user
+        body["max_tokens"] = LLM_MAX_TOKENS
+        if not thinking:
+            body["thinking"] = {"type": "disabled"}
+        return base + "/chat/completions", {"Authorization": "Bearer " + os.environ.get("LLM_API_KEY", "")}, body
     if provider == "gemini":
         parts: list[dict] = [{"text": user}]
         if picture:
@@ -290,10 +313,15 @@ def request_for(provider: str, model: str, system: str, user: str, image: Path |
 
 
 def reply_text(provider: str, answer: dict) -> str:
-    if provider == "openai":
-        message = answer["choices"][0]["message"]
+    if provider in ("openai", "llm"):
+        choice = answer["choices"][0]
+        message, why = choice["message"], choice.get("finish_reason")
         if message.get("refusal"):
             raise RuntimeError("the model refused: " + message["refusal"][:200])
+        if why == "length":  # cut off at the output limit: the JSON is incomplete, and a reasoning model may have spent it all thinking
+            raise RuntimeError("the reply was cut off at the output limit (finish_reason: length); raise the cap or ask for less")
+        if not (message.get("content") or "").strip():
+            raise RuntimeError(f"the model returned no content (finish_reason: {why})")
         return message["content"]
     if provider == "gemini":
         if answer.get("promptFeedback", {}).get("blockReason"):
@@ -302,7 +330,8 @@ def reply_text(provider: str, answer: dict) -> str:
     raise SystemExit(f"error: unknown provider {provider!r}")
 
 
-def post(url: str, headers: dict, body: dict, timeout: int = 1200) -> dict:
+def post(url: str, headers: dict, body: dict, timeout: float = DEFAULT_TIMEOUT_S) -> dict:
+    """POST a JSON body and return the JSON answer. `timeout` is how long the connection may stay silent, not a total."""
     data, delay = json.dumps(body).encode("utf-8"), 5
     for attempt in range(4):
         request = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json", **headers}, method="POST")
@@ -316,13 +345,27 @@ def post(url: str, headers: dict, body: dict, timeout: int = 1200) -> dict:
                 delay *= 3
                 continue
             raise SystemExit(f"error: {url.split('?')[0]} answered {error.code}: {detail}") from None
-        except urllib.error.URLError as error:
+        except (urllib.error.URLError, TimeoutError) as error:  # a read that stalls raises TimeoutError, which is not a URLError
             if attempt < 3:
                 time.sleep(delay)
                 delay *= 3
                 continue
-            raise SystemExit(f"error: {url.split('?')[0]} not reachable: {error.reason}") from None
+            reason = f"no answer within {timeout:g} s (LLM_TIMEOUT_S, or --timeout)" if isinstance(error, TimeoutError) else error.reason
+            raise SystemExit(f"error: {url.split('?')[0]} not reachable: {reason}") from None
     raise SystemExit("error: no answer")
+
+
+def timeout_for(provider: str, flag: float | None) -> float:
+    """--timeout, else LLM_TIMEOUT_S for --provider llm, else the default."""
+    if flag:
+        return flag
+    wanted = os.environ.get("LLM_TIMEOUT_S", "").strip()
+    if provider == "llm" and wanted:
+        try:
+            return float(wanted)
+        except ValueError:
+            raise SystemExit(f"error: LLM_TIMEOUT_S={wanted!r} is not a number of seconds") from None
+    return DEFAULT_TIMEOUT_S
 
 
 class Model:
@@ -331,8 +374,17 @@ class Model:
     HOSTS = {"openai": "api.openai.com", "gemini": "generativelanguage.googleapis.com", "replay": "(a file)"}
 
     def __init__(self, args: argparse.Namespace, work: Path, image: Path | None = None) -> None:
-        self.provider, self.name, self.send, self.context = args.provider, args.model, args.send, args.context
+        self.provider, self.send, self.context = args.provider, args.send, args.context
+        self.name = args.model or (os.environ.get("LLM_MODEL") if args.provider == "llm" else None)
+        self.timeout = timeout_for(args.provider, getattr(args, "timeout", None))
+        self.thinking = getattr(args, "thinking", False)
         self.replies, self.work, self.image = list(args.reply or []), work, image
+
+    @property
+    def host(self) -> str:
+        if self.provider == "llm":
+            return urllib.parse.urlparse(os.environ.get("LLM_BASE_URL", "")).netloc or "(LLM_BASE_URL is not set)"
+        return self.HOSTS[self.provider]
 
     def ask(self, label: str, system: str, user: str) -> str | None:
         """The reply text; None for a dry run, which says what it would send and stops."""
@@ -340,7 +392,7 @@ class Model:
         kept = self.work / f"{label}.prompt.txt"
         kept.write_text(f"# SYSTEM\n{system}\n\n# USER\n{user}\n", encoding="utf-8")
         size = tokens_of(system) + tokens_of(user)
-        print(f"{label}: {self.provider}/{self.name or '-'} at {self.HOSTS[self.provider]}: about {size:,} tokens ({len(user):,} characters)"
+        print(f"{label}: {self.provider}/{self.name or '-'} at {self.host}: about {size:,} tokens ({len(user):,} characters)"
               + (f" and {self.image.name}" if self.image else "") + f"; the prompt is kept in {kept}")
         if size > self.context:
             raise SystemExit(f"error: the prompt is about {size:,} tokens, over --context {self.context:,}; narrow it or raise --context")
@@ -349,16 +401,17 @@ class Model:
                 raise SystemExit("error: --provider replay needs one --reply FILE for each call")
             text = Path(self.replies.pop(0)).read_text(encoding="utf-8")
         elif not self.send:
-            have = {"openai": os.environ.get("OPENAI_API_KEY"), "gemini": os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")}[self.provider]
+            have = {"openai": os.environ.get("OPENAI_API_KEY"), "gemini": os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"),
+                    "llm": os.environ.get("LLM_API_KEY")}[self.provider]
             print(f"dry run: nothing was sent. An API key for {self.provider} was {'found' if have else 'NOT found'}. Add --send to call the model.")
             return None
         else:
             if not self.name:
-                raise SystemExit("error: --model is required with --send")
-            url, headers, body = request_for(self.provider, self.name, system, user, self.image)
+                raise SystemExit("error: --model is required with --send (for --provider llm: or LLM_MODEL)")
+            url, headers, body = request_for(self.provider, self.name, system, user, self.image, self.thinking)
             if not any(v.removeprefix("Bearer ").strip() for v in headers.values()):
-                raise SystemExit("error: no API key in the environment (OPENAI_API_KEY, or GEMINI_API_KEY / GOOGLE_API_KEY)")
-            text = reply_text(self.provider, post(url, headers, body))
+                raise SystemExit("error: no API key in the environment (OPENAI_API_KEY, GEMINI_API_KEY / GOOGLE_API_KEY, or LLM_API_KEY)")
+            text = reply_text(self.provider, post(url, headers, body, self.timeout))
         (self.work / f"{label}.reply.txt").write_text(text, encoding="utf-8")
         return text
 
@@ -428,18 +481,53 @@ def print_score(name: str, s: dict) -> None:
 
 # ------------------------------------------------------------------------------------------------------------ grounding
 VERDICTS = ("ok", "wrong page", "hallucinated", "other node", "spans nodes", "no node")
+TABLE_WORD = re.compile(r"\btable\b")
+ROW_ID = re.compile(r"\s[a-z]{1,2}\d+$")  # a table row the model names in the label: "m10", "a1"
+
+
+def label_readings(key: str | None) -> list[tuple[str, str]]:
+    """What a model's paragraph label may mean, as (key, reading), most literal first. A model writes the table under a paragraph into
+    the label ('6.9.1. Table 3b', '5.2.1.4. Table', 'Annex 5 Part B 1. Table B1 M10', 'Annex 5 Part B 1. M10': a row id after the
+    caption, or in its place). The parser has that table in the paragraph's own node when the table has no caption line (R10 6.9.1)
+    and as '<paragraph>. Table B1' when it has: so the label is also read without the row id and without the Table clause."""
+    key = key or ""
+    out = [(key, "as written")]
+    if (m := TABLE_WORD.search(key)):
+        words = key[m.start():].split()  # 'table', its id, then whatever the model added after it
+        if len(words) > 2:
+            out.append((key[: m.start()] + " ".join(words[:2]), "without the row id"))
+        if key[: m.start()].strip():
+            out.append((key[: m.start()].strip(), "without the table"))
+    elif (m := ROW_ID.search(key)):
+        out.append((key[: m.start()].strip(), "without the row id"))
+    words = key.split()
+    for k in range(len(words) - 1, 1, -1):  # a descriptor the model added to a scope ("Annex 2 Model A", "Annex 3 a"): words with no digit
+        if any(c.isdigit() for c in words[k]):  # a number is never dropped: "Annex 4 Part 1 1.2" is not "Annex 4 Part 1"
+            break
+        if (prefix := " ".join(words[:k])) not in [p for p, _ in out]:
+            out.append((prefix, "without the trailing words"))
+    return out
+
+
+def ground_nodes(regulation: str) -> list[tuple[Node, str]]:
+    """The nodes a label can name, with their squashed text: paragraphs and tables (candidates) and the headings of annexes,
+    appendices and parts, whose own text (a model of the approval mark, a communication form) a requirement may quote."""
+    heads = [n for n in parsed(regulation).nodes if n.kind in SCOPE_KINDS]
+    return [(n, squash(n.body)) for n in [*candidates(regulation), *heads]]
 
 
 def ground(requirements: list[dict]) -> list[dict]:
     """Triage a provider's requirements (regulation, page, paragraph, quote). Each gets a verdict:
-      ok            a parsed node with that label holds the quote, on the page the provider gave (+-1)
+      ok            a parsed node with that label holds the quote, on the page the provider gave (+-1); the label may differ from the
+                    node's by a Table clause or a row id the model added (label_readings), or by a table that the parser names
+                    '<paragraph>. Table N' where the model names the paragraph: `read` says how
       wrong page    that node holds the quote, but not near the page the provider gave
       hallucinated  the quote is on no page of the regulation's raw text
       other node    the quote is in a parsed node with another label: the provider's label or our segmentation differs
       spans nodes   the label exists but no single parsed node holds the quote: a table, or a paragraph we split
       no node       the quote is on a page but no parsed node has the label
     Everything but ok and hallucinated is for a person to open in the PDF: it is a defect of the parser, or of the label.
-    `exact` is the quote as our node writes it, for build_expected."""
+    `exact` is the quote as our node writes it, for build_expected; `label` the label of the node that holds it."""
     raw: dict[str, list[str]] = {}
     nodes_of: dict[str, list[tuple[Node, str]]] = {}
     out = []
@@ -448,16 +536,31 @@ def ground(requirements: list[dict]) -> list[dict]:
         if regulation not in raw:
             with pymupdf.open(corpus.pdf_path(corpus.entry_for(regulation), "base")) as pdf:
                 raw[regulation] = [squash(p.get_text("text")) for p in pdf]
-            nodes_of[regulation] = [(n, squash(n.body)) for n in candidates(regulation)]
+            nodes_of[regulation] = ground_nodes(regulation)
         quote = squash(item.get("quote", ""))
         on_pages = [i + 1 for i, text in enumerate(raw[regulation]) if quote and quote in text]
         if not on_pages and len(quote) > 20:  # a quote that crosses a page break: find its first half
             on_pages = [i + 1 for i, text in enumerate(raw[regulation]) if quote[: len(quote) // 2] in text]
         key, page = _paragraph_key(item.get("paragraph", "")), item.get("page")
-        labelled = [(n, s) for n, s in nodes_of[regulation] if _paragraph_key(n.label) == key]
-        holding = [n for n, s in labelled if quote and quote in s]
-        elsewhere = [n for n, s in nodes_of[regulation] if quote and quote in s and _paragraph_key(n.label) != key]
         near = lambda n: isinstance(page, int) and n.page_start - 1 <= page <= n.page_end + 1  # noqa: E731
+        labelled = [(n, s) for n, s in nodes_of[regulation] if _paragraph_key(n.label) == key]
+        holding, read = [], "as written"
+        for reading_key, read in label_readings(key):
+            holding = [n for n, s in nodes_of[regulation] if quote and quote in s and _paragraph_key(n.label) == reading_key]
+            if holding:
+                break
+        tables = [(n, _paragraph_key(n.label) or "") for n, s in nodes_of[regulation] if quote and quote in s and n.kind == "table"]
+        if not holding:  # the model names the paragraph and the parser has its table as '<paragraph>. Table N'
+            for reading_key, _ in label_readings(key):
+                holding = [n for n, k in tables if k.startswith(reading_key + " table")]
+                if holding:
+                    read = "table of the paragraph"
+                    break
+        if not holding and (m := TABLE_WORD.search(key or "")) and len((key or "")[m.start():].split()) > 1:  # the right table, another owner
+            wanted = " ".join((key or "")[m.start():].split()[:2])
+            holding = [n for n, k in tables if k == wanted or k.endswith(" " + wanted)]
+            read = "table by its id"
+        elsewhere = [n for n, s in nodes_of[regulation] if quote and quote in s and _paragraph_key(n.label) != key]
         if not on_pages:
             verdict = "hallucinated"
         elif any(near(n) for n in holding):
@@ -472,7 +575,11 @@ def ground(requirements: list[dict]) -> list[dict]:
             verdict = "no node"
         row = {"regulation": regulation, "paragraph": item.get("paragraph"), "page": page, "raw_pages": on_pages[:4], "verdict": verdict}
         if verdict in ("ok", "wrong page"):
-            row["exact"] = exact_quote(next(n for n in holding if near(n) or verdict == "wrong page").body, item["quote"])
+            holder = next(n for n in holding if near(n) or verdict == "wrong page")
+            row["exact"] = exact_quote(holder.body, item["quote"])
+            row["label"] = holder.label
+            if read != "as written":
+                row["read"] = read
         elif verdict == "other node":
             row["our_labels"] = [n.label for n in elsewhere][:3]
         out.append(row)
@@ -481,7 +588,9 @@ def ground(requirements: list[dict]) -> list[dict]:
 
 def print_ground(rows: list[dict]) -> None:
     counts = {v: sum(1 for r in rows if r["verdict"] == v) for v in VERDICTS}
-    print("grounding of %d: " % len(rows) + ", ".join(f"{v} {n}" for v, n in counts.items() if n))
+    read = sum(1 for r in rows if r.get("read"))
+    print("grounding of %d: " % len(rows) + ", ".join(f"{v} {n}" for v, n in counts.items() if n)
+          + (f" ({read} of the ok or wrong page with a label read as the node's)" if read else ""))
     for row in rows:
         if row["verdict"] != "ok":
             extra = f"  our labels {row['our_labels']}" if row.get("our_labels") else ""
@@ -489,10 +598,11 @@ def print_ground(rows: list[dict]) -> None:
 
 
 def authoring_from(requirements: list[dict], rows: list[dict], case_id: str) -> dict:
-    """build_expected's authoring file from the requirements that ground, with the quote as our node writes it."""
+    """build_expected's authoring file from the requirements that ground, with the quote and the label as our node writes them."""
     keep = [(r, row) for r, row in zip(requirements, rows) if row["verdict"] in ("ok", "wrong page") and row.get("exact")]
     return {"case_id": case_id, "regulation": keep[0][0]["regulation"] if keep else "",
-            "requirements": [{"regulation": r["regulation"], "paragraph": r["paragraph"], "quote": row["exact"], "text": r["text"]} for r, row in keep]}
+            "requirements": [{"regulation": r["regulation"], "paragraph": row.get("label") or r["paragraph"], "quote": row["exact"],
+                              "text": r["text"]} for r, row in keep]}
 
 
 # --------------------------------------------------------------------------------------------------------------- commands
@@ -536,6 +646,45 @@ def cmd_ground(args: argparse.Namespace) -> int:
     rows = ground(data["requirements"] if isinstance(data, dict) else data)
     print_ground(rows)
     Path(args.file).with_name("ground.json").write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return 0
+
+
+def cmd_regrade(args: argparse.Namespace) -> int:
+    """Offline: ground the saved provider.json of every case again with the parser as it is now, and show how the verdicts moved
+    against the ground.json kept when the case was written. `--write` keeps the new verdicts and rebuilds authoring.json and
+    expected.json from them (labels and pages come from the parser, so a parser fix changes them)."""
+    cases = [Path(c) for c in args.cases] or sorted(p.parent for p in CASES.glob("*/provider.json"))
+    moved: dict[tuple[str, str], int] = defaultdict(int)
+    totals = {"before": defaultdict(int), "after": defaultdict(int)}
+    print(f"{'case':<26}{'wrote':>6}{'ok':>6}{'(was)':>7}{'wrong':>6}{'hall':>5}{'other':>6}{'spans':>6}{'nonode':>7}{'kept':>6}{'(was)':>7}")
+    for case in cases:
+        requirements = json.loads((case / "provider.json").read_text(encoding="utf-8"))["requirements"]
+        rows = ground(requirements)
+        saved = json.loads((case / "ground.json").read_text(encoding="utf-8")) if (case / "ground.json").is_file() else []
+        before = [r["verdict"] for r in saved] if len(saved) == len(rows) else ["?"] * len(rows)
+        for was, row in zip(before, rows):
+            moved[(was, row["verdict"])] += 1
+            totals["before"][was] += 1
+            totals["after"][row["verdict"]] += 1
+        now = {v: sum(1 for r in rows if r["verdict"] == v) for v in VERDICTS}
+        kept_now = now["ok"] + now["wrong page"]
+        kept_was = sum(1 for v in before if v in ("ok", "wrong page"))
+        print(f"{case.name:<26}{len(rows):>6}{now['ok']:>6}{before.count('ok'):>7}{now['wrong page']:>6}{now['hallucinated']:>5}"
+              f"{now['other node']:>6}{now['spans nodes']:>6}{now['no node']:>7}{kept_now:>6}{kept_was:>7}")
+        if args.write:
+            (case / "ground.json").write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            authoring = authoring_from(requirements, rows, case.name)
+            (case / "authoring.json").write_text(json.dumps(authoring, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            expected, problems = build_expected.build(authoring) if authoring["requirements"] else ({}, ["nothing grounded"])
+            for problem in problems:
+                print("   build_expected:", problem)
+            if not problems:
+                (case / "expected.json").write_text(json.dumps(expected, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    n = sum(totals["after"].values())
+    kept_was = sum(totals["before"][v] for v in ("ok", "wrong page"))
+    kept_now = sum(totals["after"][v] for v in ("ok", "wrong page"))
+    print(f"{'TOTAL':<26}{n:>6}  kept {kept_now} ({100 * kept_now / max(1, n):.1f}%), was {kept_was} ({100 * kept_was / max(1, n):.1f}%)")
+    print("moved:", ", ".join(f"{a} -> {b} {k}" for (a, b), k in sorted(moved.items(), key=lambda kv: -kv[1]) if a != b) or "nothing")
     return 0
 
 
@@ -621,8 +770,11 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="command", required=True)
 
     def model_options(p: argparse.ArgumentParser) -> None:
-        p.add_argument("--provider", choices=["openai", "gemini", "replay"], default="openai")
-        p.add_argument("--model", help="the provider's model id")
+        p.add_argument("--provider", choices=["openai", "gemini", "llm", "replay"], default="openai",
+                       help="llm: an OpenAI-compatible endpoint set by LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_TIMEOUT_S (.env)")
+        p.add_argument("--model", help="the provider's model id (--provider llm: LLM_MODEL when left out)")
+        p.add_argument("--timeout", type=float, help="seconds a connection may stay silent (--provider llm: LLM_TIMEOUT_S; else 1200)")
+        p.add_argument("--thinking", action="store_true", help="--provider llm: leave the model's thinking on (without it: thinking disabled)")
         p.add_argument("--send", action="store_true", help="actually call the model (without it: print what would be sent and stop)")
         p.add_argument("--reply", action="append", help="--provider replay: the file that answers the next call (once per call)")
         p.add_argument("--context", type=int, default=CONTEXT_TOKENS, help="refuse a prompt above this many tokens (4 characters each)")
@@ -640,6 +792,9 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("picks")
     p = sub.add_parser("ground", help="check a provider's requirements against the PDFs offline")
     p.add_argument("file", help="a JSON file with a list of requirements (regulation, page, paragraph, quote), or {requirements: [...]}")
+    p = sub.add_parser("regrade", help="ground the saved provider.json of cases again with the current parser (offline) and show what moved")
+    p.add_argument("cases", nargs="*", help="case folders (default: every spec/testing/cases/* with a provider.json)")
+    p.add_argument("--write", action="store_true", help="keep the new verdicts and rebuild authoring.json and expected.json")
     p = sub.add_parser("author", help="the provider invents a product and writes a gold for it")
     p.add_argument("--id", required=True, help="the case id; the case goes to spec/testing/cases/ID/")
     p.add_argument("--brief", required=True, help="one line: the product, e.g. 'front bumper with parking sensors and fog lamps, M1'")
@@ -653,8 +808,8 @@ def main(argv: list[str] | None = None) -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     load_env()
-    return {"catalogue": cmd_catalogue, "select": cmd_select, "score": cmd_score, "ground": cmd_ground, "author": cmd_author,
-            "agree": cmd_agree}[args.command](args)
+    return {"catalogue": cmd_catalogue, "select": cmd_select, "score": cmd_score, "ground": cmd_ground, "regrade": cmd_regrade,
+            "author": cmd_author, "agree": cmd_agree}[args.command](args)
 
 
 if __name__ == "__main__":

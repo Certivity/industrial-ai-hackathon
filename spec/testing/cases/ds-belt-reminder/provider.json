@@ -1,0 +1,326 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.1.1.",
+      "quote": "The seating position of the driver of M and N categories of vehicles as well as the seating positions of the occupants of seats in the same row as the driver seat",
+      "text": "The safety-belt reminder shall be fitted to the driver seating position and to every seating position in the same row as the driver seat of the M1 vehicle."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.1.1.",
+      "quote": "The visual warning shall be so located as to be readily visible and recognisable in the daylight and at night time by the driver and distinguishable from other alerts.",
+      "text": "The visual warning (instrument-cluster belt telltale) shall be located so that it is readily visible and recognisable in daylight and at night by the driver and is distinguishable from other alerts."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.1.2.",
+      "quote": "The visual warning shall be a steady or flashing tell-tale.",
+      "text": "The visual warning shall be a steady or flashing tell-tale."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.2.1.",
+      "quote": "The audible warning shall consist of a continuous or an intermittent (pauses shall not exceed 1 second) sound signal or of continuous vocal information.",
+      "text": "The audible warning shall consist of a continuous or intermittent sound signal whose pauses do not exceed 1 second, or of continuous vocal information."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.2.2.",
+      "quote": "Audible warning shall be easily recognized by the driver.",
+      "text": "The audible warning shall be easily recognized by the driver."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.3.1.",
+      "quote": "The first level warning shall be at least a visual warning activated for 30 seconds or longer for seating positions covered by paragraph 5.1.1.",
+      "text": "The first level warning shall be at least a visual warning activated for 30 seconds or longer when the safety-belt of the driver or of a front passenger seat in the same row as the driver is not fastened and the ignition switch or vehicle master control switch is activated."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.3.1.",
+      "quote": "If the vehicle master control switch has been activated remotely, the first level warning shall be (re-)initiated once the driver has entered the vehicle or driver presence is detected.",
+      "text": "The first level warning shall be (re-)initiated once the driver has entered the vehicle or driver presence is detected where the vehicle master control switch has been activated remotely."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.3.2.",
+      "quote": "The first level warning may be discontinued when: (a) None of the safety-belts which triggered the warning are unfastened",
+      "text": "The first level warning may be discontinued when none of the safety-belts which triggered the warning are unfastened or the seat(s) which triggered the warning are no longer occupied."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.",
+      "quote": "The second level warning shall be a visual and audible signal activated for at least 30 seconds not counting periods in which the warning may stop for up to 3 seconds",
+      "text": "The second level warning shall be a visual and audible signal activated for at least 30 seconds, not counting periods in which the warning may stop for up to 3 seconds, when the conditions chosen by the manufacturer from those in paragraphs 5.2.4.1.1 to 5.2.4.1.3 are fulfilled."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.",
+      "quote": "The second level warning shall supersede the first level warning when the first level warning is still active.",
+      "text": "The second level warning shall supersede the first level warning when the first level warning is still active."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.1.",
+      "quote": "The distance driven greater than the distance threshold. The threshold shall not exceed 500 m. The distance driven when the vehicle is not in normal operation shall be excluded.",
+      "text": "Where the manufacturer selects the distance condition, the second level warning shall be triggered when the distance driven exceeds a threshold not exceeding 500 m, excluding distance driven when the vehicle is not in normal operation."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.2.",
+      "quote": "The vehicle speed greater than the speed threshold. The threshold shall not exceed 25 km/h.",
+      "text": "Where the manufacturer selects the speed condition, the second level warning shall be triggered when the vehicle speed exceeds a threshold not exceeding 25 km/h."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.3.",
+      "quote": "The duration time (engine running, propulsion system activated, etc.) is greater than the duration time threshold. The threshold shall not exceed 60 seconds.",
+      "text": "Where the manufacturer selects the duration condition, the second level warning shall be triggered when the duration time with the propulsion system activated exceeds a threshold not exceeding 60 seconds, excluding the first level warning duration and duration when the vehicle is not in normal operation."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.2.",
+      "quote": "The thresholds to trigger safety belt reminder listed in paragraphs 5.2.4.1.1. to 5.2.4.1.3., may be reset when: (a) Any of the doors have been opened while the vehicle is not in normal operation",
+      "text": "The thresholds triggering the second level warning shall be reset when any of the doors has been opened while the vehicle is not in normal operation or when the seat or seats which triggered the warning are no longer occupied."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.3.",
+      "quote": "The second level warning may be discontinued when: (a) None of the safety-belts which triggered the warning are unfastened",
+      "text": "The second level warning may be discontinued when none of the safety-belts which triggered the warning are unfastened, the vehicle ceases to be in normal operation, or the seat or seats which triggered the warning are no longer occupied."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.4.",
+      "quote": "The second level warning shall be resumed for the remainder of the required duration when one or any combination of the conditions",
+      "text": "The second level warning shall be resumed for the remainder of the required duration when one or any combination of the conditions in paragraphs 5.2.4.1.1 to 5.2.4.1.3 is again fulfilled."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.5.",
+      "quote": "For the condition that a safety belt becomes unfastened pursuant to paragraphs 5.3.3. and 5.4.5., the thresholds set out in paragraphs 5.2.4.1.1. to 5.2.4.1.3. shall be measured from the point in time at which unfastening occurs.",
+      "text": "Where a safety-belt becomes unfastened while the vehicle is in normal operation, the thresholds of paragraphs 5.2.4.1.1 to 5.2.4.1.3 shall be measured from the point in time at which unfastening occurs."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.3.1.",
+      "quote": "Safety-belt reminders for driver and occupants of seats in the same row as the driver shall fulfil the requirements set out in paragraph 5.2.",
+      "text": "The safety-belt reminder for the driver and the front passenger seat in the same row as the driver shall fulfil the general requirements of paragraph 5.2."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.3.2.",
+      "quote": "The colour and symbol of the visual warning shall be as defined in item 21 in Table 1 of UN Regulation No. 121.",
+      "text": "The colour and symbol of the visual warning shall be as defined in item 21 in Table 1 of UN Regulation No. 121."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.3.3.",
+      "quote": "The second level warning shall be activated when a safety-belt is or becomes unfastened while the vehicle is in normal operation",
+      "text": "The second level warning shall be activated when a safety-belt is or becomes unfastened while the vehicle is in normal operation and at the same time any one condition or combination of the conditions in paragraphs 5.2.4.1.1 to 5.2.4.1.3 is satisfied."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.5.1.",
+      "quote": "it shall consist of an operation of specific controls that are not integrated in the safety-belt buckle) and this operation shall only be possible when the vehicle is stationary",
+      "text": "Where a short-term deactivation is provided, the reminder shall be deactivatable only by operating specific controls that are not integrated in the safety-belt buckle, and only when the vehicle is stationary."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.5.1.",
+      "quote": "When the ignition or vehicle master control switch is deactivated for more than 30 minutes and activated again, a short-term deactivated safety-belt reminder shall reactivate.",
+      "text": "A short-term deactivated safety-belt reminder shall reactivate when the ignition or vehicle master control switch has been deactivated for more than 30 minutes and is activated again."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.5.1.",
+      "quote": "It shall not be possible to provide short-term deactivation of the relevant visual warning(s).",
+      "text": "It shall not be possible to provide short-term deactivation of the visual warning."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.5.2.",
+      "quote": "it shall require a sequence of operations to deactivate, that are detailed only in the manufacturer's technical manual and/or which requires the use of tools",
+      "text": "Where a long-term deactivation facility is provided, it shall require a sequence of operations detailed only in the manufacturer's technical manual and/or the use of tools not provided with the vehicle."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.5.2.",
+      "quote": "It shall not be possible to provide long-term deactivation of the relevant visual warning(s).",
+      "text": "It shall not be possible to provide long-term deactivation of the visual warning."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.1.1.",
+      "quote": "The connection shall be automatic when the seat is installed in the vehicle.",
+      "text": "Where a removable seat is provided without manual connection, the safety-belt reminder connection shall be automatic when the seat is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.2.4.",
+      "quote": "In case a connector is misconnected or disconnected for removable seating positions covered by paragraph 5.1.1., a warning visible to the driver shall be activated for 30 seconds",
+      "text": "Where a connector is misconnected or disconnected for a front removable seating position, a warning visible to the driver shall be activated for 30 seconds when the ignition switch or vehicle master control switch is activated."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 7,
+      "paragraph": "5.6.3.",
+      "quote": "The presence or absence of the removable seat shall not adversely affect the functioning of the safety-belt reminder system of other seating position.",
+      "text": "The presence or absence of a removable seat shall not adversely affect the functioning of the safety-belt reminder system of the other seating position."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 7,
+      "paragraph": "5.6.4.",
+      "quote": "The safety-belt reminder system of the removable seats shall not give any false indication of belt use, whether the seats are installed in the vehicle or not.",
+      "text": "The safety-belt reminder system of a removable seat shall not give any false indication of belt use, whether the seat is installed in the vehicle or not."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 11,
+      "paragraph": "Annex 3 1.",
+      "quote": "A load of 40 kg is placed on each seat cushion in the same row as the driver's seat, or the state in which occupants are on board the vehicle is simulated",
+      "text": "The first level warning shall be demonstrated with the safety-belt unfastened, the vehicle stationary with propulsion system stopped or idling, the ignition switch or vehicle master control switch activated, and a load of 40 kg (or an equivalent occupant simulation, not exceeding 40 kg per occupant) placed on each front seat cushion."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 11,
+      "paragraph": "Annex 3 2.1.1.1.",
+      "quote": "Accelerate the test vehicle to 25 -0/+10 km/h from a halt and continue on at the same speed.",
+      "text": "The second level warning for the driver seat shall be demonstrated when the driver's belt is unfastened before the journey, the other belts are fastened, and the vehicle is accelerated from a halt to 25 -0/+10 km/h and continues at the same speed."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 11,
+      "paragraph": "Annex 3 2.1.2.",
+      "quote": "The safety-belt of the driver's seat is unbuckled; (d) The test vehicle is driven, at the choice of the manufacturer, under one of the conditions in paragraphs 2.1.2.1. to 2.1.2.3.",
+      "text": "The second level warning for the driver seat shall be demonstrated when the driver's belt becomes unbuckled while the vehicle is in normal operation with the other belts fastened, and the vehicle is driven under one or a combination of the conditions of paragraphs 2.1.2.1 to 2.1.2.3."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 12,
+      "paragraph": "Annex 3 2.2.1.",
+      "quote": "A load of 40 kg is applied to the seat(s) in the same row as the driver's seat, or the state in which occupants are on board the vehicle is simulated by a method specified by the manufacturer",
+      "text": "The second level warning for the front passenger seat shall be demonstrated with its belt unfastened, the other belts fastened, and a 40 kg load (or equivalent occupant simulation) applied to that seat while the vehicle is driven under one or a combination of the conditions of paragraphs 2.1.1.1 to 2.1.1.3."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 12,
+      "paragraph": "Annex 3 2.2.2.",
+      "quote": "A load of 40 kg is applied to the seat(s) in the same row as the driver's seat, or the state in which occupants are on board the vehicle is simulated",
+      "text": "The second level warning for the front passenger seat shall be demonstrated with a 40 kg load (or equivalent occupant simulation) applied, the vehicle in normal operation, and the belt of the non-driver seat unbuckled, the vehicle then being driven under one or a combination of the conditions of paragraphs 2.1.2.1 to 2.1.2.3."
+    },
+    {
+      "regulation": "UN R174",
+      "page": 13,
+      "paragraph": "Annex 3 3.",
+      "quote": "The second level warning test may be initiated after completion of the first level warning test. However, it shall also be ensured that the second level warning supersedes the first level warning when the first level warning is still active.",
+      "text": "The first level warning test shall have a duration of at least the 30 seconds required for front-row seating positions, and the second level warning shall be shown to supersede the first level warning when the first level warning is still active."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1.",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements",
+      "text": "The safety-belt reminder system shall be designed, constructed and fitted so that the vehicle complies with the EMC requirements of UN R10 in normal conditions of use."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.1.1.2.",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "The reminder control unit, as an ESA, shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.3.2.1.",
+      "quote": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+      "text": "The vehicle with the reminder system fitted shall have narrowband radiated emissions, at a 10.0 ± 0.2 m antenna spacing, below 28 dB microvolts/m in the 30 to 230 MHz band and 35 dB microvolts/m in the 230 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.1.",
+      "quote": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m",
+      "text": "The vehicle shall withstand radiated field strengths of 30 V/m over more than 90 per cent and a minimum of 25 V/m over the whole 20 to 2,000 MHz band, and 10 V/m over more than 90 per cent and a minimum of 8 V/m over the 2,000 to 6,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.2.",
+      "quote": "during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "The safety-belt reminder, as an immunity related function disturbing which causes confusion to the driver, shall show no degradation of performance during the vehicle immunity tests of Annex 6."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1.",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The reminder control unit shall have broadband radiated emissions below 62 to 52 dB microvolts/m from 30 to 75 MHz, 52 to 63 dB microvolts/m from 75 to 400 MHz and 63 dB microvolts/m from 400 to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1.",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The reminder control unit shall have narrowband radiated emissions below 52 to 42 dB microvolts/m from 30 to 75 MHz, 42 to 53 dB microvolts/m from 75 to 400 MHz and 53 dB microvolts/m from 400 to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7. Table 1",
+      "quote": "Maximum allowed pulse amplitude for Vehicles with 12 V systems Positive +75 V Negative -100 V",
+      "text": "The transient conducted disturbances emitted by the reminder control unit on the 12 V supply lines shall not exceed a maximum pulse amplitude of +75 V (positive) and -100 V (negative)."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.2.",
+      "quote": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "The reminder control unit shall show no degradation of its immunity related function during the radiated immunity tests of Annex 9 at the levels of Tables 2a and 2b."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9. Table 3b",
+      "quote": "Test pulse number 1 -75 V -450 V 500 pulses III III",
+      "text": "The reminder control unit shall withstand test pulse 1 at -75 V for 500 pulses with functional status classification III."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9. Table 3b",
+      "quote": "3a -112 V -150 V 1 h I III",
+      "text": "The reminder control unit shall withstand test pulse 3a at -112 V for 1 hour with functional status classification I, and test pulse 3b at +75 V for 1 hour with functional status classification I."
+    }
+  ]
+}

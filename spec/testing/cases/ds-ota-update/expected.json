@@ -1,0 +1,456 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-ota-update",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The OTA ECU software update manager shall protect the authenticity and integrity of software updates to reasonably prevent their compromise and reasonably prevent invalid updates.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The OTA ECU software update manager shall make each RXSWIN uniquely identifiable and shall update the RXSWIN when type approval relevant software is modified and this leads to a type approval extension or a new type approval.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The OTA ECU software update manager shall make each RXSWIN easily readable in a standardized way via an electronic communication interface, at least through the standard OBD port.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The OTA ECU software update manager shall protect the RXSWINs and software version(s) on the vehicle against unauthorised modification.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.1.2.3"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The OTA ECU software update manager shall restore systems to their previous version in case of a failed or interrupted update, or place the vehicle into a safe state after a failed or interrupted update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.1"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The OTA ECU software update manager shall only execute a software update when the vehicle has enough power to complete the update process, including the power needed for a possible recovery to the previous version or for placing the vehicle into a safe state.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The OTA ECU software update manager shall, where execution of an update may affect vehicle safety, use technical means to ensure the vehicle is in a state where the update can be executed safely before it starts execution.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.3"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The OTA ECU software update manager shall inform the vehicle user about an update before the update is executed, covering the purpose of the update, changes to vehicle functions, expected completion time, functionalities unavailable during execution and instructions for safe execution.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The OTA ECU software update manager shall, where execution of an update while driving may not be safe, ensure the vehicle cannot be driven during execution and that the driver cannot use any functionality affecting vehicle safety or the successful execution of the update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The OTA ECU software update manager shall inform the vehicle user of the success or failure of the update after its execution, and of the changes implemented and any related updates to the user manual.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The OTA ECU software update manager shall ensure that defined preconditions are met before the software update is executed.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.5"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The OTA ECU software update manager shall protect software updates to reasonably prevent manipulation before the update process is initiated.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.3.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The OTA ECU software update manager shall protect the update processes it uses, including the update delivery system, to reasonably prevent them being compromised.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.3.2"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The OTA ECU software update manager shall, where an over-the-air update requires a specific skilled or complex action such as sensor recalibration post-programming to complete the update, only proceed when a person skilled to do that action is present or in control of the process.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.4.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The OTA ECU software update manager shall verify the authenticity and integrity of messages it receives over the vehicle communication channels.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The OTA ECU software update manager shall implement security controls for storing its cryptographic keys, such as the use of a hardware security module.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The OTA ECU software update manager shall apply access control techniques and designs to protect system data and code.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The OTA ECU software update manager shall protect confidential data transmitted to or from the vehicle, including update packages exchanged with the maker's backend.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The OTA ECU software update manager shall, through system design and access control, prevent unauthorised personnel from accessing personal or system critical data.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The OTA ECU software update manager shall employ measures to detect and recover from a denial of service attack on its communication channels.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The OTA ECU software update manager shall employ measures to prevent and detect unauthorised access, including access attempts aimed at gaining privileged access.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The OTA ECU software update manager shall consider measures to protect the system against embedded viruses and malware received through update or communication media.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The OTA ECU software update manager shall consider measures to detect malicious internal messages or activity on the in-vehicle network.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The OTA ECU software update manager shall employ secure software update procedures for over-the-air and local software updates.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The OTA ECU software update manager shall implement security controls for storing the cryptographic keys of the software provider used to validate updates.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The OTA ECU software update manager shall apply security controls to the back-end systems it interacts with and support recovery measures where the back-end servers are critical to the provision of services in case of system outage.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The OTA ECU software update manager shall implement measures defining and controlling user roles and access privileges for starting or approving an update, based on the principle of least access privilege.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 3. Table B3"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The OTA ECU software update manager shall define and follow security procedures including logging of actions and access related to the management of its security functions.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 3. Table B3"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The OTA ECU software update manager shall apply security controls to the remote access paths (telematics and Wi-Fi) used to download update packages.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The OTA ECU software update manager shall security assess, authenticate and integrity protect the software it downloads and installs.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The OTA ECU software update manager shall apply security controls to the external interfaces it uses, including diagnostic access to the update functions.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The OTA ECU software update manager shall follow cybersecurity best practices for software and hardware development, including avoidance of deprecated cryptographic algorithms.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 21,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The OTA ECU software update manager shall follow cybersecurity best practices for software and hardware development and undergo cybersecurity testing with adequate coverage, with no debug ports, JTAG ports, development certificates or developer passwords left accessible.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 22,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The OTA ECU software update manager shall use cryptographic modules that are in line with consensus standards, or have the use of non-consensus modules justified.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.8"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The OTA ECU software update manager shall implement measures to detect and prevent cyber-attacks against the vehicle, to support the monitoring capability of the manufacturer, and to provide data forensic capability for analysis of attempted or successful cyber-attacks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The OTA ECU software update manager and its electrical/electronic installation shall be designed, constructed and fitted so that the vehicle complies with the EMC requirements of UN R10 in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The OTA ECU software update manager shall keep the vehicle's broadband radiated emissions at the 10 m antenna spacing below 32 dB microvolts/m in the 30 to 75 MHz band, logarithmically rising from 32 to 43 dB microvolts/m in the 75 to 400 MHz band and constant at 43 dB microvolts/m in the 400 to 1,000 MHz band, and at the 3 m spacing below 42, 42 to 53 and 53 dB microvolts/m respectively.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The OTA ECU software update manager shall keep the vehicle's narrowband radiated emissions at the 10 m antenna spacing below 28 dB microvolts/m in the 30 to 230 MHz band and 35 dB microvolts/m in the 230 to 1,000 MHz band, and at the 3 m spacing below 38 and 45 dB microvolts/m respectively.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.3"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The OTA ECU software update manager shall show no degradation of performance of immunity related functions when the vehicle is tested to the radiated field strengths of 30 V/m over 90 per cent of 20 to 2,000 MHz and 10 V/m over 90 per cent of 2,000 to 6,000 MHz, minimum 25 V/m and 8 V/m respectively.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "Where the update controller is approved as an ESA, it shall show no degradation of performance of immunity related functions when tested by the methods of Annex 9 at the levels of Table 2a/2b, e.g. 60 mA BCI and 30 V/m ALSE over 90 per cent of 20 to 6,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "Where the update controller is approved as an ESA, its narrowband radiated emissions shall be below 52 to 42 dB microvolts/m in the 30 to 75 MHz band, 42 to 53 dB microvolts/m in the 75 to 400 MHz band and 53 dB microvolts/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "Where the update controller is approved as an ESA, its broadband radiated emissions shall be below 62 to 52 dB microvolts/m in the 30 to 75 MHz band, 52 to 63 dB microvolts/m in the 75 to 400 MHz band and 63 dB microvolts/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "Where the update controller is approved as an ESA on a 12 V system, its transient conducted emissions on the supply lines shall not exceed +75 V for positive pulses and -100 V for negative pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "Where the update controller is approved as an ESA, it shall meet the functional status classifications of Tables 3a and 3b for the starting profile and pulses 1, 2a, 2b, 3a and 3b on the 12 V supply lines (e.g. -75 V for pulse 1, +37 V for pulse 2a, -112 V for pulse 3a, 500 pulses/1 h as listed).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The vehicle fitted with the OTA ECU software update manager shall bear the UN R10 international approval mark (circle with \"E\" and country number, followed by \"R\" - dash and the approval number) in a conspicuous and easily accessible place specified on the approval communication form; where the update controller is approved as an ESA, that mark shall be affixed to the ESA and need not be visible when installed.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    }
+  ]
+}

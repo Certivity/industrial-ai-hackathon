@@ -1,0 +1,192 @@
+{
+  "case_id": "ds-frontal-impact",
+  "regulation": "UN R94",
+  "requirements": [
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.1.2",
+      "quote": "When the protective system for the front seating positions includes belts, the belt components shall meet the requirements of Regulation No. 16.",
+      "text": "The front seat restraint system shall have belt components that meet the requirements of Regulation No. 16."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.1.3",
+      "quote": "Seating positions where a dummy is installed and the protective system includes belts, shall be provided with anchorage points conforming to Regulation No. 14.",
+      "text": "The vehicle shall provide belt anchorage points at the front seating positions conforming to Regulation No. 14."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.1",
+      "quote": "The head performance criterion (HPC) shall not exceed 1,000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms.",
+      "text": "The body structure and restraint system shall limit the head performance criterion to not more than 1,000 and the resultant head acceleration to not more than 80 g for more than 3 ms on the front outboard dummies in the offset deformable barrier test."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.2",
+      "quote": "The Injury Criteria for the neck (NIC) shall not exceed the values shown in Figures 1 and 2⁴;",
+      "text": "The restraint system shall limit the neck injury criteria of the front outboard dummies to the values shown in Figures 1 and 2."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.3",
+      "quote": "The neck bending moment about the y axis shall no exceed 57 Nm in extension³;",
+      "text": "The restraint system shall limit the neck bending moment about the y axis to not more than 57 Nm in extension."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.4",
+      "quote": "The Thorax Compression Criterion (ThCC) shall not exceed 42 mm;",
+      "text": "The restraint system shall limit the thorax compression criterion to not more than 42 mm."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.5",
+      "quote": "The viscous criterion (V * C) for the thorax shall not exceed 1,0 m/s;",
+      "text": "The restraint system shall limit the viscous criterion for the thorax to not more than 1.0 m/s."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.6",
+      "quote": "The femur force criterion (FFC) shall not exceed the force-time performance criterion shown in Figure 3;",
+      "text": "The body structure and restraint system shall limit the femur force criterion to the force-time performance criterion shown in Figure 3."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.7",
+      "quote": "The tibia compression force criterion (TCFC) shall not exceed 8 kN;",
+      "text": "The body structure and toe-board reinforcement shall limit the tibia compression force criterion to not more than 8 kN."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.8",
+      "quote": "The tibia index (TI), measured at the top and bottom of each tibia, shall not exceed 1,3 at either location;",
+      "text": "The body structure and toe-board reinforcement shall limit the tibia index to not more than 1.3 at the top and bottom of each tibia."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.1.9",
+      "quote": "The movement of the sliding knee joints shall not exceed 15 mm.",
+      "text": "The restraint system shall limit the movement of the sliding knee joints to not more than 15 mm."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.2",
+      "quote": "the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction.",
+      "text": "The steering column energy-absorbing element and body structure shall limit the residual steering wheel displacement, measured at the hub centre, to not more than 80 mm upwards and 100 mm rearward after the test."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.3",
+      "quote": "During the test no door shall open.",
+      "text": "The door locking system and body structure shall ensure that no door opens during the impact test."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.4",
+      "quote": "After the impact, the side doors shall be unlocked.",
+      "text": "The door locking system shall leave the side doors unlocked after the impact."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.5.1",
+      "quote": "To open at least one door per row of seats. Where there is no such door, it shall be possible to allow the evacuation of all the occupants by activating the displacement system of seats, if necessary.",
+      "text": "The body structure and doors shall allow at least one door per row of seats to be opened without the use of tools after the impact."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.5.2",
+      "quote": "To release the dummies from their restraint system which, if locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control;",
+      "text": "The restraint system buckles shall be releasable after the impact by a maximum force of 60 N applied at the centre of the release control."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.5.3",
+      "quote": "To remove the dummies from the vehicle without adjustment of the seats.",
+      "text": "The passenger compartment and restraints shall allow the occupants to be removed from the vehicle after the impact without adjustment of the seats."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "5.2.6",
+      "quote": "In the case of a vehicle propelled by liquid fuel, no more than slight leakage of liquid from the fuel feed installation shall occur on collision.",
+      "text": "The front structure shall ensure that no more than slight leakage of liquid occurs from the fuel feed installation on collision."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "6.1",
+      "quote": "For a vehicle fitted with airbag assemblies intended to protect the driver and occupants other than the driver, compliance with paragraphs 8.1.8. to 8.1.9. of UN Regulation No. 16",
+      "text": "The vehicle fitted with driver and passenger frontal airbag modules shall comply with paragraphs 8.1.8. to 8.1.9. of UN Regulation No. 16 as amended by the 08 series of amendments."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "Annex 3 1.3.1",
+      "quote": "The vehicle shall overlap the barrier face by 40 per cent ± 20 mm.",
+      "text": "The front body structure shall be designed and tested with a 40 per cent ± 20 mm overlap of the deformable barrier face."
+    },
+    {
+      "regulation": "UN R94",
+      "paragraph": "Annex 3 4",
+      "quote": "Vehicle speed at the moment of impact shall be 56 -0/+1 km/h.",
+      "text": "The front structure and restraint system shall meet the occupant protection criteria at an impact speed of 56 -0/+1 km/h against the deformable barrier."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.2",
+      "quote": "The Injury Criteria for neck shall not exceed the following values: (a) The axial tensile neck force shall not exceed 3.3 kN; (b) The fore/aft shear forces at the head/neck interface shall not exceed 3.1 kN;",
+      "text": "The restraint system shall limit the axial tensile neck force to not more than 3.3 kN and the fore/aft shear force at the head/neck interface to not more than 3.1 kN on the 50th percentile driver dummy in the full width rigid barrier test."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.5",
+      "quote": "The femur force criterion (FFC) shall not exceed 9.07 kN.",
+      "text": "The body structure and restraint system shall limit the femur force criterion to not more than 9.07 kN on the 50th percentile driver dummy."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.2",
+      "quote": "The axial tensile neck force shall not exceed 2.9 kN; (b) The fore/aft shear forces at the head/neck interface shall not exceed 2.7 kN;",
+      "text": "The restraint system shall limit the axial tensile neck force to not more than 2.9 kN and the fore/aft shear force at the head/neck interface to not more than 2.7 kN on the 5th percentile passenger dummy in the full width rigid barrier test."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.3",
+      "quote": "34 mm in the case of vehicles of category M1;",
+      "text": "The restraint system shall limit the thorax compression criterion to not more than 34 mm on the 5th percentile passenger dummy of this category M1 vehicle."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.5",
+      "quote": "The femur force criterion (FFC) shall not exceed 7 kN.",
+      "text": "The body structure and restraint system shall limit the femur force criterion to not more than 7 kN on the 5th percentile passenger dummy."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.2.1",
+      "quote": "After the test the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction.",
+      "text": "The steering column energy-absorbing element and body structure shall limit the residual steering wheel displacement, measured at the hub centre, to not more than 80 mm upwards and 100 mm rearward after the full width rigid barrier test."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.3",
+      "quote": "During the test no door shall open.",
+      "text": "The door locking system and body structure shall ensure that no door opens during the full width rigid barrier impact test."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.4",
+      "quote": "After the impact, the side doors shall be unlocked.",
+      "text": "The door locking system shall leave the side doors unlocked after the full width rigid barrier test."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.5.2",
+      "quote": "To release the dummies from their restraint system which, locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control;",
+      "text": "The restraint system buckles shall be releasable after the full width rigid barrier impact by a maximum force of 60 N at the centre of the release control."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 4",
+      "quote": "Vehicle speed at the moment of impact shall be 50 -0/ +1 km/h.",
+      "text": "The front structure and restraint system shall meet the occupant protection criteria at an impact speed of 50 -0/+1 km/h against the full width rigid barrier."
+    }
+  ]
+}

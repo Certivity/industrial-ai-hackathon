@@ -175,6 +175,206 @@ def test_page_of_agrees_with_body_about_a_list_dash():
     assert (n.page_of("Heat"), n.page_of("- Heat"), n.page_of("x-y")) == (2, 1, 2)
 
 
+def test_a_restart_counts_a_left_out_one_with_a_sentence_and_a_second_item_behind_it():
+    _, doc = starts_of("1. First paragraph of the text", "1.1. A sub paragraph of the text", "2. Second paragraph of the text",
+                       "1.", "2.",  # table cells: a "2." behind the "1.", but no sentence after the number
+                       "1. Additional information:...............", "2. Other information:...............",  # form fields with leaders
+                       "1. Performance of electrical storage devices", "2. Capacity of the electrical supply")
+    assert [r[1] for r in doc.restarts] == ["1. Performance of electrical storage devices"]
+    _, before = starts_of("1. Performance of electrical storage devices", "2. Second paragraph of the text")  # nothing has passed 1 yet
+    assert before.restarts == []
+    _, form = starts_of("1. First paragraph of the text", "2. Second paragraph of the text", "3. Third paragraph of the text",
+                        "1. Additional information (where applicable): see addendum")  # a form field: nothing goes on behind it
+    assert form.restarts == [] and len(form.left_out) == 1
+
+
+def test_a_missing_space_after_the_dot_still_starts_a_paragraph():
+    # R162 5.1.2 and R48 6.3.6.1.2.2 print "5.1.2.An immobilizer ...": of the 47 lines of the base PDFs that start "<number>.<letter>", the
+    # capital-then-lower-case form made 8 nodes (R162 2, R83 3, R48, R49, R100) and the rest ("4.a. Detected", "2.x.", "3.1.(A)") stay out
+    found, _ = starts_of("5.1.1. First", "5.1.2.An immobilizer and its installation", "5.1.3. Third")
+    assert found == ["5.1.1. First", "5.1.2.An immobilizer and its installation", "5.1.3. Third"]
+    assert P.DOTTED.match("5.1.2.An immobilizer").group(1) == "5.1.2"
+    assert not P.DOTTED.match("5.1.2.5 mm") and not P.DOTTED.match("3.5.mm") and not P.DOTTED.match("1.2.a)")
+
+
+# ------------------------------------------------------------------------------------------ scopes from raw lines
+BODY = 10.5
+
+
+def raws_of(*items: tuple[str, bool, float]) -> list[P._Raw]:
+    """Raw lines (text, bold, size) as `_raw_lines` makes them, one page, every line at x = 57."""
+    return [P._Raw(1, text, bold, size, (57.0, 10.0 * i, 400.0, 10.0 * i + 9)) for i, (text, bold, size) in enumerate(items)]
+
+
+def scopes_of(*items: tuple[str, bool, float]) -> tuple[list[tuple[str, str, str]], ParsedDocument]:
+    """The headings `_scope_lines` finds, as (first 22 characters of the line, kind, scope), and the document that counted what it refused."""
+    doc = ParsedDocument(path=Path("t.pdf"), pages=1)
+    doc.body_size = BODY
+    lines, scopes = P._scope_lines(raws_of(*items), BODY, doc)
+    return [(line.text[:22], line.heading, scopes[line.scope]) for line in lines if line.heading], doc
+
+
+def parsed_from(*items: tuple[str, bool, float]) -> ParsedDocument:
+    """The whole text pipeline of parse_pdf on raw lines: scopes, starts, nodes, tree."""
+    doc = ParsedDocument(path=Path("t.pdf"), pages=1)
+    doc.body_size = BODY
+    lines, scopes = P._scope_lines(raws_of(*items), BODY, doc)
+    starts = P._paragraph_starts(lines, scopes, doc)
+    P._build_nodes(lines, scopes, starts, doc)
+    P._link_tree(doc)
+    return doc
+
+
+T = lambda text: (text, False, BODY)  # noqa: E731  a text line
+H = lambda text: (text, True, 13.0)  # noqa: E731  a heading the size test takes
+B = lambda text, size=BODY: (text, True, size)  # noqa: E731  a bold line at body size: the size test refuses it
+
+APPENDIX_2 = [H("Annex 7 - Appendix 2 Alternative procedure"), T("1. Introduction"), T("1.1. The first text"), T("2. Procedure"), T("2.1. More")]
+
+
+def test_a_bold_appendix_at_body_size_opens_a_scope_when_the_numbering_restarts_after_it():
+    # R101 Annex 7 Appendix 3: bold, but 10.5 pt where Appendices 1 and 2 are 13 pt; its "1. Introduction" restarts the numbering
+    found, doc = scopes_of(*APPENDIX_2, B("Annex 7 - Appendix 3 Determination of REESS current"), T("1. Introduction"), T("1.1. This appendix"))
+    assert found == [("Annex 7 - Appendix 2 A", "annex-appendix", "Annex 7 Appendix 2"),
+                     ("Annex 7 - Appendix 3 D", "annex-appendix", "Annex 7 Appendix 3")]
+    assert doc.scope_rejects == []
+
+
+def test_a_bold_appendix_whose_id_follows_the_scope_opens_one_without_a_restart():
+    found, _ = scopes_of(*APPENDIX_2, B("Annex 7 - Appendix 3 Determination of REESS current"), T("5. Something else"))
+    assert [kind for _, kind, scope in found] == ["annex-appendix", "annex-appendix"] and found[1][2] == "Annex 7 Appendix 3"
+
+
+def test_a_bold_appendix_whose_id_does_not_follow_opens_one_when_only_the_numbering_restarts():
+    found, doc = scopes_of(*APPENDIX_2, B("Annex 7 - Appendix 5 Determination of REESS current"), T("1. Introduction"))
+    assert len(found) == 2 and found[1][2] == "Annex 7 Appendix 5" and doc.scope_rejects == []
+
+
+def test_a_restart_needs_the_scope_to_have_passed_one():
+    # nothing but a "1." before the heading: a form numbered from 1, not a scope that ended
+    found, doc = scopes_of(H("Annex 7 - Appendix 2 Alternative procedure"), T("1. Introduction"),
+                           B("Annex 7 - Appendix 5 Determination of REESS current"), T("1. Introduction"))
+    assert len(found) == 1 and [r[3] for r in doc.scope_rejects] == ["no evidence"]
+
+
+def test_a_bold_line_that_shows_neither_restart_nor_successor_is_refused_and_counted():
+    found, doc = scopes_of(*APPENDIX_2, B("Annex 7 - Appendix 5 Determination of REESS current"), T("5. Something else"))
+    assert len(found) == 1 and [r[3] for r in doc.scope_rejects] == ["no evidence"] and len(doc.unexplained_rejects) == 1
+
+
+def test_a_line_that_repeats_the_id_of_its_scope_never_opens_one():
+    # R49 Annex 9B Appendix 3 labels its items "Appendix 3 - Item 1"; the numbering does restart inside each of them
+    found, doc = scopes_of(H("Annex 9B - Appendix 3 Documentation"), T("1. First"), T("1.1. Text"), T("2. Second"),
+                           B("Appendix 3 - Item 1"), T("1. In the case where"), T("2. Another"))
+    assert len(found) == 1 and [r[3] for r in doc.scope_rejects] == ["same id"] and doc.unexplained_rejects == []
+
+
+def test_what_does_not_look_like_a_heading_is_refused_with_its_reason():
+    for line, why in ((B("Annex 7 - Appendix 3 Determination of REESS current", 9.0), "small"),  # a footnote
+                      (B("Annex 7 - Appendix 3 Determination of REESS current."), "sentence"),
+                      (B("Annex 7 - Appendix 3 Determination of REESS current and REESS voltage of plug-in electric vehicles, as set out in the text of this regulation"), "long"),
+                      (B("Annex 8 to this Regulation"), "lowercase")):  # a reference in running text (R149 "Annex 5 to this")
+        found, doc = scopes_of(*APPENDIX_2, line, T("1. Introduction"))
+        assert len(found) == 1 and [r[3] for r in doc.scope_rejects] == [why], (line, doc.scope_rejects)
+
+
+def test_a_line_that_is_not_bold_never_opens_a_scope():
+    found, doc = scopes_of(*APPENDIX_2, T("Annex 7 - Appendix 3 Determination of REESS current"), T("1. Introduction"))
+    assert len(found) == 1 and doc.scope_rejects == []
+
+
+def test_next_ids_of_annexes_and_appendices():
+    assert P._next_ids(None) == {"1"} and "3" in P._next_ids("2") and "2B" in P._next_ids("2A") and "10" in P._next_ids("9")
+    assert P._next_ids("X") == set()
+
+
+def test_the_nodes_of_a_rescued_appendix_get_its_scope_in_their_labels_and_the_tree():
+    doc = parsed_from(H("Annex 7 Road load determination"), *APPENDIX_2, B("Annex 7 - Appendix 3 Determination of REESS current"),
+                      T("1. Introduction"), T("1.1. This Appendix defines the method"), T("2. Method"))
+    by_label = {n.label: n for n in doc.nodes}
+    assert "Annex 7 Appendix 3 1.1" in by_label and "Annex 7 Appendix 2 1.1" in by_label
+    assert by_label["Annex 7 Appendix 3 1.1"].body.startswith("1.1. This Appendix defines")
+    assert [n.label for n in doc.orphans] == []
+    inner = by_label["Annex 7 Appendix 3 1.1"]
+    assert doc.nodes[inner.parent].label == "Annex 7 Appendix 3 1"
+    assert doc.nodes[doc.nodes[inner.parent].parent].label == "Annex 7 Appendix 3"
+    assert doc.nodes[doc.nodes[doc.nodes[inner.parent].parent].parent].label == "Annex 7"
+    assert inner.path.startswith("Annex 7 Road load") and inner.path.endswith("› 1 Introduction › 1.1") and "Appendix 3" in inner.path
+
+
+# ----------------------------------------------------------------------------------------------------- parts and dividers
+def test_a_top_level_part_that_carries_on_the_numbering_is_a_divider():
+    # R89 and R163: "Part I" starts at 5 after 4.x, "Part II" at 9 after 8.x; the paragraphs are cited as printed
+    doc = parsed_from(T("1. Scope"), T("4. Definitions"), T("4.1. A term"), H("Part I - Approval of alarm systems"), T("5. General"),
+                      T("5.1. Text"), T("8. Marking"), H("Part II - Approval of a vehicle"), T("9. Fitting"), T("9.1. Text"))
+    assert [n.label for n in doc.nodes if n.kind == "para"] == ["1", "4", "4.1", "5", "5.1", "8", "9", "9.1"]
+    parts = [n for n in doc.nodes if n.kind == "part"]
+    assert [(n.label, n.scope, n.parent) for n in parts] == [("Part I", "", -1), ("Part II", "", -1)]
+    assert {n.scope for n in doc.nodes} == {""}
+
+
+def test_a_top_level_part_that_starts_the_numbering_over_is_a_scope():
+    doc = parsed_from(T("1. Scope"), T("2. Text"), T("3. More"), H("Part II - Approval of a vehicle"), T("1. Scope"), T("2. Text"))
+    assert [n.label for n in doc.nodes if n.kind == "para"] == ["1", "2", "3", "Part II 1", "Part II 2"]
+    assert next(n for n in doc.nodes if n.kind == "part").scope == "Part II"
+
+
+def test_a_part_inside_an_annex_stays_a_scope():
+    found, _ = scopes_of(H("Annex 4 Tests"), T("1. Text"), H("Part A: Position lamps"), T("1. Text"))
+    assert found[-1] == ("Part A: Position lamps", "part", "Annex 4 Part A")
+
+
+# ------------------------------------------------------------------------------------------------ text, hash and the tree
+def test_structured_lines_break_before_list_items_and_footnotes_only():
+    assert P.structured_lines(["5.1. The lamp:", "(a) is red;", "(b) is amber", "or white;", "(i) a", "-", "Heat: 48 h", "wraps on"]) == [
+        "5.1. The lamp:", "(a) is red;", "(b) is amber or white;", "(i) a", "- Heat: 48 h wraps on"]
+    assert P.structured_lines(["text", "1Note", "goes on", "text again"], [0, 1, 2, 0]) == ["text", "1Note goes on", "text again"]
+    assert P.structured_lines(["a hyphen-", "ated word"]) == ["a hyphen-ated word"]
+
+
+def test_the_hash_ignores_the_number_and_the_flow_of_a_paragraph_but_not_its_words():
+    a = node("5.1", ["5.1. The lamp shall be", "red."], [1, 1], (5, 1))
+    assert a.text_hash == node("6.2", ["6.2. The lamp shall be red."], [1], (6, 2)).text_hash
+    assert a.text_hash != node("5.1", ["5.1. The lamp shall be amber."], [1], (5, 1)).text_hash
+    inline = node("5.1", ["5.1. Lamps: (a) red; (b) amber or", "white."], [1, 1], (5, 1))
+    listed = node("5.1", ["5.1. Lamps:", "(a) red;", "(b) amber or white."], [1, 1, 1], (5, 1))
+    assert inline.text_hash == listed.text_hash  # a list set inline or one item to a line is the same paragraph
+    assert inline.text_hash != node("5.1", ["5.1. Lamps: (a) red; (b) white."], [1], (5, 1)).text_hash
+
+
+def test_the_hash_ignores_a_footnote_mark_and_number_but_keeps_an_exponent_and_the_footnote_text():
+    def with_note(mark: str, number: str, power: str = "²", text: str = "This provision does not apply.") -> Node:
+        n = node("5.1", [f"5.1. Shall not exceed 10{power} cd{mark}", f"{number}{text}"], [1, 1], (5, 1))
+        n.note = [0, 1]
+        return n
+    assert with_note("¹", "1").text_hash == with_note("²", "2").text_hash == with_note("¹⁵", "15").text_hash  # renumbered in a new version
+    assert with_note("¹", "1").text_hash != with_note("¹", "1", power="³").text_hash  # 10² is not 10³ (the mark is not the exponent)
+    assert with_note("¹", "1").text_hash != with_note("¹", "1", text="This provision applies.").text_hash  # footnote text is binding
+
+
+def test_model_text_has_a_table_once():
+    n = node("6.9.1", ["6.9.1. Test pulses", "Pulse", "1", "500 pulses", "after the table"], [1] * 5, (6, 9, 1))
+    n.grid, n.table_lines = "| Pulse | Number |\n| --- | --- |\n| 1 | 500 pulses |", [1, 2, 3]
+    assert n.model_text == "6.9.1. Test pulses after the table\n\n" + n.grid
+    assert n.body.count("500 pulses") == 1 and n.model_text.count("500 pulses") == 1
+    n.grid, n.table_lines = None, []
+    assert n.model_text == n.structured
+
+
+def test_title_and_heading_are_the_first_words_without_the_number():
+    n = node("6.10", ["6.10. Rear position lamps", "(a) text"], [1, 1], (6, 10))
+    assert n.title() == "Rear position lamps (a) text" and n.title(10) == "Rear posit" and n.heading == n.title(90)
+
+
+def test_title_joins_only_the_lines_it_needs_and_still_equals_the_start_of_the_body():
+    # an annex heading holds pages of text and every node under it asks for its title (R49: 2.5 s became 5.4 s when it joined them all)
+    lines = ["3.2.12.2.6.4.1. A well-", "known lamp shall", *[f"line {i} of the text with some words in it-" if i % 7 == 0 else f"line {i} of the text" for i in range(400)]]
+    n = node("3.2.12.2.6.4.1", lines, [1] * len(lines), (3, 2, 12, 2, 6, 4, 1))
+    for width in (10, 60, 70, 90, 500):
+        assert n.title(width) == P.NUMBER_PREFIX.sub("", n.body)[:width], width
+    assert n.title(20) == "A well-known lamp sh"
+
+
 def test_orphans_are_paragraphs_whose_parent_number_is_missing():
     doc = ParsedDocument(path=Path("t.pdf"), pages=1)
     doc.nodes = [node("4.1", ["4.1. a"], [1], (4, 1)), node("4.2", ["4.2. b"], [1], (4, 2)),
@@ -362,6 +562,59 @@ def test_corpus_grids_can_be_skipped():
     doc = _parse("UN R150", grids=False)
     assert not doc.grids_built and doc.grids == 0 and all(n.grid is None for n in doc.nodes)
     assert _parse("UN R150").grids_built
+
+
+def test_corpus_r101_appendix_3_is_a_scope_of_its_own():
+    # bold at body size where Appendices 1 and 2 are 13 pt: the size test alone left its paragraphs in Appendix 2 (found by DeepSeek's
+    # ds-phev-reess, which cited "Annex 7 Appendix 3 1.2" where our node was "Annex 7 Appendix 2 1.2")
+    doc = _parse("UN R101", grids=False)
+    inner = next(n for n in doc.nodes if n.body.startswith("1.1. This Appendix defines the method and required instrumentation to determine the REESS current"))
+    assert (inner.scope, inner.label) == ("Annex 7 Appendix 3", "Annex 7 Appendix 3 1.1")
+    assert any(n.label == "Annex 7 Appendix 3 1" and n.body.startswith("1. Introduction") for n in doc.nodes)
+    assert "Annex 7 Appendix 2 2.2.4" in {n.label for n in doc.nodes}  # Appendix 2's own 2.2.4 (page 71) was left out of its chain before
+    assert doc.unexplained_rejects == [] and {r[3] for r in doc.scope_rejects} <= {"same id"}
+
+
+def test_corpus_parts_that_carry_on_the_numbering_are_not_in_the_labels():
+    for regulation, label in (("UN R89", "21.1.2.1"), ("UN R163", "5.1")):  # R89: Part III holds 19-26; R163: Part I holds 5-8
+        doc = _parse(regulation, grids=False)
+        assert _find(doc, label).scope == "" and not [n for n in doc.nodes if n.kind == "para" and n.scope.startswith("Part")], regulation
+        dividers = [n for n in doc.nodes if n.kind == "part"]
+        assert dividers and all(n.scope == "" and n.parent == -1 and n.label.startswith("Part ") for n in dividers), regulation
+
+
+def test_corpus_a_missing_space_after_the_dot_does_not_hide_the_paragraph():
+    assert _find(_parse("UN R162", grids=False), "5.1.2").body.startswith("5.1.2.An immobilizer")
+    assert _find(_parse("UN R48", grids=False), "6.3.6.1.2.2").body.startswith("6.3.6.1.2.2.The")
+
+
+def test_corpus_the_tree_is_complete_and_the_table_hangs_under_its_paragraph():
+    doc = _parse("UN R150", grids=False)
+    table, nodes = _find(doc, "5.1.4.4.1. Table 3"), doc.nodes
+    assert nodes[table.parent].label == "5.1.4.4.1" and nodes[table.parent].kind == "para"
+    assert table.path.endswith("› Table 3") and " › 5.1.4.4.1 " in table.path  # the owner's number and title, then the table
+    assert all(n.parent < i for i, n in enumerate(nodes))  # a parent comes first
+    assert all(i in nodes[n.parent].children for i, n in enumerate(nodes) if n.parent >= 0)
+    assert all(nodes[c].parent == i for i, n in enumerate(nodes) for c in n.children)
+    scoped = next(n for n in nodes if n.scope.startswith("Annex") and n.kind == "para" and len(n.num) > 1)
+    assert nodes[scoped.parent].scope == scoped.scope and scoped.path.startswith("Annex")  # an annex's paragraphs hang in its scope
+
+
+def test_corpus_footnotes_are_flagged_where_they_sit():
+    n = _find(_parse("UN R13H", grids=False), "Annex 6 4.4")  # "... the control mode⁴ of the anti-lock system." then footnote 4 on two lines
+    assert n.note == [0, 1, 2] and n.text[1].startswith("4It is understood")
+    assert n.structured.count("\n") == 1 and n.structured.split("\n")[1].startswith("4It is understood")
+
+
+def test_corpus_a_restart_under_a_heading_the_parser_does_not_know_is_counted():
+    doc = _parse("UN R13H", grids=False)  # Annex 4: plain "A." and "B." headings over paragraphs 1, 2, 3 (not a scope the gold names)
+    assert any(scope == "Annex 4" for _, _, scope in doc.restarts)
+
+
+def test_corpus_model_text_has_the_r10_pulses_once():
+    n = _find(_parse("UN R10"), "6.9.1")
+    assert n.grid and n.table_lines and n.body.count("500 pulses") >= 1
+    assert n.model_text.count("500 pulses") == n.grid.count("500 pulses")
 
 
 # --------------------------------------------------------------------------------------------------------- runner

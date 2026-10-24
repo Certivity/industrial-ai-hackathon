@@ -1,0 +1,330 @@
+{
+  "case_id": "ds-aebs-light",
+  "regulation": "UN R152",
+  "requirements": [
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.2",
+      "quote": "The effectiveness of AEBS shall not be adversely affected by magnetic or electrical fields.",
+      "text": "The CAMRAD-AEB shall not have its effectiveness adversely affected by magnetic or electrical fields, demonstrated by fulfilling the technical requirements and transitional provisions of the 06 series of amendments to UN Regulation No. 10."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.3",
+      "quote": "Conformity with the safety aspects of electronic control systems shall be shown by meeting the requirements of Annex 3.",
+      "text": "The CAMRAD-AEB as an electronic control system shall meet the safety aspects requirements of Annex 3 of UN R152."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.4.1",
+      "quote": "A failure warning when there is a failure in the AEBS that prevents the requirements of this Regulation of being met.",
+      "text": "The CAMRAD-AEB shall provide a failure warning as specified in paragraph 5.5.4 when there is a failure in the AEBS that prevents the requirements of the Regulation from being met."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.4.1.1",
+      "quote": "There shall not be an appreciable time interval between each AEBS self-check, and subsequently there shall not be a delay in illuminating the warning signal",
+      "text": "The CAMRAD-AEB shall not have an appreciable time interval between each AEBS self-check and shall not delay illuminating the warning signal in the case of an electrically detectable failure."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.4.1.2",
+      "quote": "Upon detection of any non-electrical failure condition (e.g. sensor blindness or sensor misalignment), the warning signal as defined in paragraph 5.1.4.1. shall be illuminated.",
+      "text": "The CAMRAD-AEB shall illuminate the failure warning signal defined in paragraph 5.1.4.1 upon detection of any non-electrical failure condition such as sensor blindness or sensor misalignment."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.4.2",
+      "quote": "If the system has not been initialised after a cumulative driving time of 15 seconds above a speed of 10km/h, information of this status shall be indicated to the driver.",
+      "text": "The CAMRAD-AEB shall indicate to the driver the non-initialised status if the system has not been initialised after a cumulative driving time of 15 seconds above a speed of 10 km/h, and this information shall exist until the system has been successfully initialised."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.4.3",
+      "quote": "A deactivation warning, if the vehicle is equipped with a means to deactivate the AEBS, shall be given when the system is deactivated.",
+      "text": "The CAMRAD-AEB shall give a deactivation warning as specified in paragraph 5.4.3 when the system is deactivated, where the vehicle is equipped with a means to deactivate the AEBS."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.5",
+      "quote": "the system shall provide emergency braking interventions described in paragraphs 5.2.1.2., 5.2.2.2. and 5.2.3.2.",
+      "text": "The CAMRAD-AEB shall provide the emergency braking interventions described in paragraphs 5.2.1.2 and 5.2.2.2 having the purpose of significantly decreasing the speed of the subject vehicle, subject to paragraphs 5.3.1 and 5.3.2."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.6",
+      "quote": "The system shall be designed to minimise the generation of collision warning signals and to avoid advanced emergency braking in situations where there is no risk of an imminent collision.",
+      "text": "The CAMRAD-AEB shall be designed to minimise the generation of collision warning signals and to avoid advanced emergency braking in situations where there is no risk of an imminent collision, demonstrated in the assessment under Annex 3 including the scenarios of Appendix 2."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.1.7",
+      "quote": "Any vehicle fitted with an AEBS shall meet the performance requirements of UN Regulation No. 13-H",
+      "text": "The vehicle fitted with the CAMRAD-AEB shall meet the performance requirements of UN Regulation No. 13-H in its 01 series of amendments and shall be equipped with an anti-lock braking function in accordance with Annex 6 to UN Regulation No. 13-H in its 01 series of amendments."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.1.1",
+      "quote": "a collision warning shall be provided as specified in paragraph 5.5.1., and shall be triggered at the latest 0.8 seconds before the start of emergency braking",
+      "text": "The CAMRAD-AEB shall provide a collision warning as specified in paragraph 5.5.1, triggered at the latest 0.8 seconds before the start of emergency braking, when an imminent collision with a preceding M1 vehicle in the same lane is detected with a relative speed above that up to which the subject vehicle is able to avoid the collision."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.1.1",
+      "quote": "in case the collision cannot be anticipated in time to give a collision warning 0.8 seconds ahead of an emergency braking a collision warning shall be provided",
+      "text": "The CAMRAD-AEB shall provide a collision warning as specified in paragraph 5.5.1 no later than the start of emergency braking intervention where the collision cannot be anticipated in time to give a collision warning 0.8 seconds ahead of the emergency braking."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.1.2",
+      "quote": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 5.0 m/s² to the service braking system of the vehicle.",
+      "text": "The CAMRAD-AEB shall issue a braking demand of at least 5.0 m/s² to the service braking system of the vehicle when the system has detected the possibility of an imminent collision with a vehicle."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.1.3",
+      "quote": "The system shall be active at least within the vehicle speed range between 10 km/h and 60 km/h and at all vehicle load conditions",
+      "text": "The CAMRAD-AEB shall be active at least within the vehicle speed range between 10 km/h and 60 km/h and at all vehicle load conditions, unless deactivated as per paragraph 5.4."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.1.4",
+      "quote": "the AEBS shall be able to achieve a relative impact speed that is less or equal to the maximum relative impact speed as shown in the following table",
+      "text": "The CAMRAD-AEB shall, in the absence of driver input that would lead to interruption under paragraph 5.3.2 and under the conditions (a) to (d) of paragraph 5.2.1.4, achieve a relative impact speed no greater than the maximum relative impact speed for M1 vehicles in the table of paragraph 5.2.1.4."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.1.4",
+      "quote": "For relative speeds between the listed values (e.g. 53 km/h), the maximum relative impact speed (i.e. 30/30 km/h) assigned to the next higher relative speed (i.e. 55 km/h) shall apply.",
+      "text": "The CAMRAD-AEB shall meet a maximum relative impact speed of 0 km/h up to a relative speed of 40 km/h, 10 km/h at 42 km/h, 15 km/h at 45 km/h, 25 km/h at 50 km/h, 30 km/h at 55 km/h and 35 km/h at 60 km/h for both maximum mass and mass in running order conditions, applying the value assigned to the next higher relative speed for intermediate relative speeds."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.2.1",
+      "quote": "a collision warning shall be provided as specified in paragraph 5.5.1. and shall be provided no later than the start of emergency braking intervention",
+      "text": "The CAMRAD-AEB shall provide a collision warning as specified in paragraph 5.5.1 no later than the start of emergency braking intervention when the AEBS has detected the possibility of a collision with a pedestrian crossing the road at a constant speed of 5 km/h within the conditions of paragraph 5.2.2.4."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.2.2",
+      "quote": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 5.0 m/s2 to the service braking system of the vehicle.",
+      "text": "The CAMRAD-AEB shall issue a braking demand of at least 5.0 m/s² to the service braking system of the vehicle when the system has detected the possibility of an imminent collision with a pedestrian."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.2.3",
+      "quote": "The system shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle load conditions",
+      "text": "The CAMRAD-AEB shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle load conditions, unless deactivated as per paragraph 5.4."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.2.2.4",
+      "quote": "For subject vehicle speeds between the listed values (e.g. 53 km/h), the maximum relative impact speed (i.e. 30/30 km/h) assigned to the next higher relative speed (i.e. 55 km/h) shall apply.",
+      "text": "The CAMRAD-AEB shall, under the conditions (a) to (e) of paragraph 5.2.2.4, achieve an impact speed no greater than 0 km/h for subject vehicle speeds of 20 to 40 km/h, 10 km/h at 42 km/h (maximum mass only), 15 km/h at 45 km/h, 25 km/h at 50 km/h, 30 km/h at 55 km/h and 35 km/h at 60 km/h, applying the next higher speed value for intermediate speeds."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.3.1",
+      "quote": "The AEBS shall provide the means for the driver to interrupt the collision warning and the emergency braking.",
+      "text": "The CAMRAD-AEB shall provide the means for the driver to interrupt the collision warning and the emergency braking."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.3.2",
+      "quote": "this interruption may be initiated by any positive action (e.g. kick-down. operating the direction indicator control) that indicates that the driver is aware of the emergency situation",
+      "text": "The CAMRAD-AEB shall allow the interruption to be initiated by any positive action, such as kick-down or operating the direction indicator control, that indicates the driver is aware of the emergency situation."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.4.1.1",
+      "quote": "The AEBS function shall be automatically reinstated at each initiation of the powertrain",
+      "text": "The CAMRAD-AEB shall be automatically reinstated at each initiation of the powertrain where a means to manually deactivate the AEBS function is provided."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.4.1.2",
+      "quote": "The AEBS control shall be designed a in such a way that manual deactivation shall not be possible with less than two deliberate actions.",
+      "text": "The CAMRAD-AEB control shall be designed such that manual deactivation is not possible with less than two deliberate actions."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.4.1.4",
+      "quote": "It shall not be possible to manually deactivate the AEBS at a speed above 10 km/h.",
+      "text": "The CAMRAD-AEB shall not be manually deactivatable at a speed above 10 km/h."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.4.2.2",
+      "quote": "The AEBS function shall be automatically reactivated as soon as the conditions that led to the automatic deactivation are not present anymore.",
+      "text": "The CAMRAD-AEB shall be automatically reactivated as soon as the conditions that led to its automatic deactivation are no longer present."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.4.3",
+      "quote": "A constant optical warning signal shall inform the driver that the AEBS function has been deactivated.",
+      "text": "The CAMRAD-AEB shall inform the driver by a constant optical warning signal, which may be the yellow warning signal of paragraph 5.5.4, that the AEBS function has been deactivated."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.5.1",
+      "quote": "shall be provided by at least two modes selected from acoustic, haptic or optical",
+      "text": "The collision warning of paragraphs 5.2.1.1 and 5.2.2.1 shall be provided by at least two modes selected from acoustic, haptic or optical."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.5.4",
+      "quote": "The failure warning referred to in paragraph 5.1.4.1. shall be a constant yellow optical warning signal.",
+      "text": "The CAMRAD-AEB failure warning referred to in paragraph 5.1.4.1 shall be a constant yellow optical warning signal."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.5.5",
+      "quote": "Each AEBS optical warning signal shall be activated either when the ignition (start) switch is turned to the \"on\" (run) position",
+      "text": "Each CAMRAD-AEB optical warning signal shall be activated when the ignition (start) switch is turned to the \"on\" (run) position or to the manufacturer-designated check position, except for signals shown in a common space."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.5.6",
+      "quote": "The optical warning signals shall be visible even by daylight; the satisfactory condition of the signals must be easily verifiable by the driver from the driver's seat.",
+      "text": "The CAMRAD-AEB optical warning signals shall be visible even by daylight and their satisfactory condition shall be easily verifiable by the driver from the driver's seat."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.5.7",
+      "quote": "When the driver is provided with an optical warning signal to indicate that the AEBS is temporarily not available",
+      "text": "The CAMRAD-AEB shall provide a constant optical warning signal, which may be the failure warning signal of paragraph 5.5.4, when indicating to the driver that the AEBS is temporarily not available, for example due to inclement weather conditions."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "5.6.1",
+      "quote": "it shall be possible to confirm the correct operational status of the AEBS by a visible observation of the failure warning signal status",
+      "text": "The CAMRAD-AEB shall allow confirmation of its correct operational status at a Periodic Technical Inspection by visible observation of the failure warning signal status following a power-ON and any bulb check."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "6.3.1",
+      "quote": "The target used for the vehicle detection tests shall be a regular high-volume series production passenger car of Category M1",
+      "text": "The CAMRAD-AEB shall detect and respond to the M1 category vehicle target defined in paragraph 6.3.1 used for the vehicle detection tests, or an equivalent soft target according to ISO 19206-3:2021."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "6.3.2",
+      "quote": "The target used for the pedestrian detection tests shall be a child \"articulated soft target\"",
+      "text": "The CAMRAD-AEB shall detect and respond to the child articulated soft pedestrian target according to ISO 19206-2:2018 used for the pedestrian detection tests."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "6.8.2",
+      "quote": "The failure warning signal mentioned in paragraph 5.5.4. above shall be activated and remain activated not later than 10 s after the vehicle has been driven at a speed greater than 10 km/h",
+      "text": "The CAMRAD-AEB failure warning signal shall be activated and remain activated not later than 10 s after the vehicle has been driven at a speed greater than 10 km/h with a simulated electrical failure, and shall be reactivated immediately after a subsequent ignition \"off\"/\"on\" cycle with the vehicle stationary as long as the failure exists."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "6.10.1",
+      "quote": "A test scenario shall be accounted as passed if the required performance is met in two test runs.",
+      "text": "The CAMRAD-AEB shall meet the required performance in two test runs of each test scenario, with the number of failed test runs not exceeding 10.0 per cent of the performed Car to Car tests and 10.0 per cent of the performed Car to Pedestrian tests."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "Annex 2",
+      "quote": "pursuant to UN Regulation No. 152 (marked with C for Car to Car. P for Car to Pedestrian. B for Car to Bicycle)",
+      "text": "The CAMRAD-AEB shall be covered by an approval mark affixed to the vehicle marked with C for Car to Car and P for Car to Pedestrian pursuant to UN Regulation No. 152."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "Annex 3 3.1",
+      "quote": "The manufacturer shall provide a documentation package which gives access to the basic design of \"The System\" and the means by which it is linked to other vehicle systems",
+      "text": "The CAMRAD-AEB shall be documented by a documentation package giving access to its basic design, the means by which it is linked to other vehicle systems, its functions and safety concept, and how its current operational status can be checked for periodic technical inspections."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "Annex 3 3.4.3",
+      "quote": "In case of a failure, the driver shall be warned for example by warning signal or message display.",
+      "text": "The CAMRAD-AEB shall warn the driver by a warning signal or message display in case of a failure, and the warning shall be present as long as the fault condition persists when the system is not deactivated by the driver."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "Annex 3 3.4.3.3",
+      "quote": "all the corresponding output control signals associated with this function shall be inhibited, and in such a manner as to limit the transition disturbance",
+      "text": "The CAMRAD-AEB shall inhibit all output control signals associated with the higher level function when the chosen provision under fault conditions removes that function, in such a manner as to limit the transition disturbance."
+    },
+    {
+      "regulation": "UN R152",
+      "paragraph": "Annex 3 3.4.4.2",
+      "quote": "This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice the safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions",
+      "text": "The CAMRAD-AEB shall incorporate measures ensuring it does not prejudice the safe operation of the vehicle when its performance is affected by environmental conditions such as climatic, temperature, dust ingress, water ingress or ice packing, and these measures shall be documented."
+    },
+    {
+      "regulation": "UN R13H",
+      "paragraph": "5.1.1.4",
+      "quote": "The effectiveness of the braking equipment shall not be adversely affected by magnetic or electrical fields.",
+      "text": "The braking equipment used by the CAMRAD-AEB shall not have its effectiveness adversely affected by magnetic or electrical fields, demonstrated by fulfilling the technical requirements of Regulation No. 10."
+    },
+    {
+      "regulation": "UN R13H",
+      "paragraph": "5.1.3",
+      "quote": "The requirements of Annex 8 shall be applied to the safety aspects of all complex electronic vehicle control systems",
+      "text": "The CAMRAD-AEB, as a system using the braking system for automatically commanded braking, shall meet the safety aspects requirements of Annex 8 of UN R13-H."
+    },
+    {
+      "regulation": "UN R13H",
+      "paragraph": "5.2.9",
+      "quote": "Malfunctions of the electric control transmission shall not apply the brakes contrary to the intentions of the driver or ADS.",
+      "text": "The CAMRAD-AEB shall be designed so that malfunctions of the electric control transmission do not apply the brakes contrary to the intentions of the driver."
+    },
+    {
+      "regulation": "UN R13H",
+      "paragraph": "5.2.22.2",
+      "quote": "Deceleration demanded by an Automated Driving System, automatically commanded braking and/or regenerative braking",
+      "text": "The CAMRAD-AEB shall generate the stop lamp signal when its automatically commanded braking produces a deceleration greater than 1.3 m/s², and may generate it at or below that value; once generated the signal shall be kept as long as the deceleration demand persists and may be suppressed at standstill or when the demand falls below 1.3 m/s²."
+    },
+    {
+      "regulation": "UN R13H",
+      "paragraph": "5.2.23.1",
+      "quote": "The signal shall not be activated when the vehicle deceleration is below 6 m/s² but it may be generated at any deceleration at or above this value",
+      "text": "The CAMRAD-AEB shall not activate the emergency braking signal below 6 m/s² deceleration, may generate it at or above this value as defined by the manufacturer, and shall de-activate it at the latest when the deceleration has fallen below 2.5 m/s²."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.2.2.1",
+      "quote": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "The vehicle fitted with the CAMRAD-AEB shall have broadband radiated emissions below 32 dBµV/m in 30 to 75 MHz, 32 to 43 dBµV/m in 75 to 400 MHz and 43 dBµV/m in 400 to 1,000 MHz when measured per Annex 4 at a 10.0 ± 0.2 m antenna spacing."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.3.2.1",
+      "quote": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+      "text": "The vehicle fitted with the CAMRAD-AEB shall have narrowband radiated emissions below 28 dBµV/m in 30 to 230 MHz and 35 dBµV/m in 230 to 1,000 MHz when measured per Annex 5 at a 10.0 ± 0.2 m antenna spacing."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.4.2.1",
+      "quote": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+      "text": "The CAMRAD-AEB shall show no degradation of performance of its immunity related functions when the vehicle is exposed to field strengths of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole 20 to 2,000 MHz band, and 10 V/m over 90 per cent and a minimum of 8 V/m over the whole 2,000 to 6,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1",
+      "quote": "Test severity in over 90 per cent of the 20 to 6,000 MHz frequency band are given in Table 2a.",
+      "text": "The CAMRAD-AEB ESA shall withstand, over 90 per cent of the 20 to 6,000 MHz band, 60 V/m stripline (20 to 400 MHz), 75 V/m TEM cell (20 to 200 MHz), 60 mA BCI (20 to 400 MHz), 30 V/m ALSE (80 to 2,000 MHz) and 21 V/m reverberation chamber (LUF to 2,000 MHz) below 2 GHz, and 10 V/m ALSE and 7 V/m reverberation chamber in 2,000 to 6,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1",
+      "quote": "Test severity for the minimum test Level over the whole 20 to 6,000 MHz frequency band given in Table 2b.",
+      "text": "The CAMRAD-AEB ESA shall withstand, over the whole 20 to 6,000 MHz band, minimum levels of 50 V/m stripline, 62.5 V/m TEM cell, 50 mA BCI, 25 V/m ALSE and 18 V/m reverberation chamber below 2 GHz, and 8 V/m ALSE and 6 V/m reverberation chamber in 2,000 to 6,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Maximum allowed pulse amplitude for Polarity of pulse amplitude Vehicles with 12 V systems Vehicles with 24 V systems",
+      "text": "The CAMRAD-AEB ESA on the 12 V supply lines shall not emit transient conducted disturbances exceeding a maximum positive pulse amplitude of +75 V and a maximum negative pulse amplitude of -100 V, tested according to ISO 7637-2 as described in Annex 10."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "Immunity test level Number of pulses Functional status classification for ESA: 12 V system",
+      "text": "The CAMRAD-AEB ESA shall meet, for its immunity related functions on the 12 V system, test pulse 1 at -75 V (500 pulses, FPSC III), 2a at +37 V (500 pulses, FPSC I), 2b at +10 V (10 pulses, FPSC II), 3a at -112 V (1 h, FPSC I) and 3b at +75 V (1 h, FPSC I) according to ISO 7637-2."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "case_id": "ds-speed-limiter",
+  "regulation": "UN R89",
+  "requirements": [
+    {
+      "regulation": "UN R89",
+      "paragraph": "5.1.1",
+      "quote": "The speed limitation must be such that the vehicle in normal use, despite the vibrations to which it may be subjected, complies with the provisions of Part I of this Regulation.",
+      "text": "The SLD shall be designed and constructed so that an N3 goods vehicle in normal use, despite the vibrations to which it may be subjected, still limits its maximum speed in accordance with UN R89 Part I."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "5.1.2",
+      "quote": "the vehicle's SLD must be so designed, constructed and assembled as to resist corrosion and ageing phenomena to which it may be exposed and to resist tempering",
+      "text": "The SLD shall be designed, constructed and assembled to resist corrosion and ageing phenomena to which it may be exposed and to resist tampering."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2.1",
+      "quote": "The set speed Vset must not, in any case, be capable of being increased or removed temporarily or permanently on vehicles in use.",
+      "text": "The SLD shall lock the set speed Vset so that it cannot be increased or removed, temporarily or permanently, on vehicles in use."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2.2",
+      "quote": "The SLD and the connections necessary for its operation, except those essential for the running of the vehicle, shall be capable of being protected from any unauthorized adjustments or the interruption of its energy supply",
+      "text": "The SLD and its operating connections, except those essential for running the vehicle, shall be capable of being protected from unauthorised adjustment or interruption of energy supply by seals and/or special tools."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.3",
+      "quote": "The SLD shall not actuate the vehicle's service braking system. A permanent brake {e.g. retarder) may be actuated only if it operates after the speed limitation device has restricted the fuel feed to the minimum fuel position.",
+      "text": "The SLD shall not actuate the vehicle's service braking system, and any retarder output shall operate only after the device has restricted the fuel feed to the minimum fuel position."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.4",
+      "quote": "The SLD must be such that it does not affect the vehicle’s road speed if a positive action on the accelerator is applied when the vehicle is running at its set speed.",
+      "text": "The SLD shall not affect the vehicle's road speed when a positive action on the accelerator is applied while the vehicle is running at its set speed."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.5",
+      "quote": "The SLD may allow normal accelerator control for the purposes of gear changing.",
+      "text": "The SLD shall allow normal accelerator control to be used for gear changing."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.6",
+      "quote": "No malfunction or unauthorized interference shall result in an increase in engine power above that demanded by the position of the driver’s accelerator.",
+      "text": "The SLD shall be designed so that no malfunction or unauthorised interference results in engine power above that demanded by the driver's accelerator position."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.7",
+      "quote": "The SLD shall operate satisfactorily in its electromagnetic environment without unacceptable electromagnetic disturbance for anything in this environment.",
+      "text": "The SLD shall operate satisfactorily in its electromagnetic environment without causing unacceptable electromagnetic disturbance to anything in that environment."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.3.1",
+      "quote": "The speed limitation tests to which the SLD presented for approval is submitted as well as the performances required are described in annex 5 to this Regulation.",
+      "text": "The SLD shall be tested to the speed limitation tests and performance requirements of Annex 5 of UN R89."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.1",
+      "quote": "The vehicle running at a speed which is 10 km/h below the set speed shall be accelerated as much as possible using a fully positive action on the accelerator control.",
+      "text": "The SLD shall be evaluated by accelerating the vehicle from 10 km/h below the set speed with a fully positive action on the accelerator, maintaining the action at least 30 seconds after stabilisation."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.1",
+      "quote": "The stabilized speed reached by the vehicle shall not exceed the set speed (Vstab ≤ Vset). However, a tolerance of 5% of the Vset value, or 5 km/h, whichever is the greater, is acceptable;",
+      "text": "The SLD shall limit the stabilised speed so that Vstab does not exceed Vset, allowing a tolerance of 5% of Vset or 5 km/h, whichever is greater."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.2.1",
+      "quote": "Vmax shall not exceed Vstab by more than 5%;",
+      "text": "The SLD shall ensure that, after the stabilised speed is first reached, Vmax does not exceed Vstab by more than 5%."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.2.3",
+      "quote": "the stabilized speed conditions specified in paragraph 1.1.4.2.3. shall be attained within 10 s of first reaching Vstab;",
+      "text": "The SLD shall attain the stabilised speed conditions within 10 s of first reaching Vstab."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.3.1",
+      "quote": "speed shall not vary by more than 4% of Vstab or 2 km/h whichever is greater;",
+      "text": "The SLD shall hold the vehicle speed within 4% of Vstab or 2 km/h, whichever is greater, when stable speed control has been achieved."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.3.2",
+      "quote": "the rate of change of speed shall not exceed 0.2 m/s² when measured on a period greater than 0.1 s;",
+      "text": "The SLD shall keep the rate of change of speed below 0.2 m/s2, measured over a period greater than 0.1 s, when stable speed control has been achieved."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.4",
+      "quote": "Tests in acceleration shall be carried out and the acceptance criteria verified for each gear ratio allowing in theory the set speed to be exceeded.",
+      "text": "The SLD shall meet the acceleration test acceptance criteria in each gear ratio that could theoretically allow the set speed to be exceeded."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.5.2.1",
+      "quote": "On each test run Vstab shall not exceed Vset. However, a tolerance of 5% of the Vset value, or 5 km/h, whichever is the greater, is acceptable;",
+      "text": "The SLD shall, in the steady speed test method, keep Vstab on each test run within Vset plus a tolerance of 5% of Vset or 5 km/h, whichever is greater."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.5.2.2",
+      "quote": "The difference between the stabilization speeds obtained during each test run shall be equal to or less than 3 km/h;",
+      "text": "The SLD shall produce stabilisation speeds in the steady speed test that differ by no more than 3 km/h between test runs."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.1",
+      "quote": "Conditioning 1: tests at ambient temperature (20° C ± 2° C) Number of cycles: 50,000",
+      "text": "The SLD shall complete 50,000 endurance cycles at an ambient temperature of 20 °C ± 2 °C."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.2.1",
+      "quote": "The components shall be cycled in a climatic chamber A temperature of 65° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+      "text": "The electronic components of the SLD shall complete 12,500 endurance cycles in a climatic chamber maintained at 65 °C ± 5 °C."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.2.2",
+      "quote": "The components shall be cycled in a climatic chamber. A temperature of 100° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+      "text": "The mechanical components of the SLD shall complete 12,500 endurance cycles in a climatic chamber maintained at 100 °C ± 5 °C."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.3",
+      "quote": "In the climatic chamber used for conditioning 2, a temperature of -20° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+      "text": "The SLD shall complete 12,500 endurance cycles in a climatic chamber maintained at -20 °C ± 5 °C."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.4",
+      "quote": "The device shall be cycled in a salted atmosphere chamber. The concentration of sodium chloride is of 5% and internal temperature of the climatic chamber is of 35° C ± 2° C. Number of cycles: 12,500.",
+      "text": "SLD components exposed to the ambient road environment shall complete 12,500 endurance cycles in a salt atmosphere chamber with 5% sodium chloride at 35 °C ± 2 °C."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.5.2.1",
+      "quote": "First test: frequency range 10-24 Hz, amplitude ± 2 mm;",
+      "text": "The SLD, mounted as on the vehicle, shall withstand a sinusoidal vibration test over 10–24 Hz at ± 2 mm amplitude in all three planes."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.5.2.2",
+      "quote": "Second test: frequency range 24-1,000 Hz for chassis and cab-mounted components, input 2.5 g. For engine-mounted components, input 5 g.",
+      "text": "The SLD shall withstand a sinusoidal vibration test over 24–1,000 Hz at 2.5 g for chassis- and cab-mounted components and 5 g for engine-mounted components."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.3.1",
+      "quote": "At the end of the endurance tests, no modification of the device’s performances shall be observed regarding the set speed;",
+      "text": "The SLD shall show no modification of its performance with regard to the set speed at the end of the endurance tests."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.2.2",
+      "quote": "The effectiveness of the speed limitation function shall not be adversely affected by magnetic or electric fields.",
+      "text": "The SLD shall retain its effectiveness when exposed to magnetic or electric fields, demonstrated by fulfilling UN Regulation No. 10 (03 series of amendments for vehicles without a charging coupling system)."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "If measurements are made using the method described in Annex 7, the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band",
+      "text": "The SLD ECU, as an ESA, shall not exceed 62 to 52 dBµV/m in 30–75 MHz, 52 to 63 dBµV/m in 75–400 MHz and 63 dBµV/m in 400–1,000 MHz for broadband radiated emissions when measured per Annex 7."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The SLD ECU, as an ESA, shall not exceed 52 to 42 dBµV/m in 30–75 MHz, 42 to 53 dBµV/m in 75–400 MHz and 53 dBµV/m in 400–1,000 MHz for narrowband radiated emissions when measured per Annex 8."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+      "text": "The SLD ECU shall withstand, in over 90% of the 20–6,000 MHz band, immunity test levels of 60 V/m (stripline), 75 V/m (TEM cell), 60 mA (BCI), 30 V/m (ALSE) and 21 V/m (reverberation chamber) below 2 GHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+      "text": "The SLD ECU shall withstand the minimum test levels of 50 V/m (stripline), 62.5 V/m (TEM cell), 50 mA (BCI), 25 V/m (ALSE) and 18 V/m (reverberation chamber) over the whole 20–6,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.2",
+      "quote": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+      "text": "The SLD shall show no degradation of its speed-limitation function, as an immunity related function, during the immunity tests performed in accordance with Annex 9."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "1 -75 V -450 V 500 pulses III III 2a +37 V +37 V 500 pulses I III",
+      "text": "The SLD ECU on the 24 V supply shall pass ISO 7637-2 test pulses 1 (-450 V, 500 pulses, FPSC III) and 2a (+37 V, 500 pulses, FPSC I) for immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "2b +10 V +20 V 10 pulses II III 3a -112 V -150 V 1 h I III 3b +75 V +150 V 1 h I III",
+      "text": "The SLD ECU on the 24 V supply shall pass pulses 2b (+20 V, 10 pulses, FPSC II), 3a (-150 V, 1 h, FPSC I) and 3b (+150 V, 1 h, FPSC I) applied to the supply lines."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases) C (for other ESA)",
+      "text": "The SLD ECU shall withstand the ISO 16750-2 starting profile with 10 pulses at functional status classification II, since it must be operational during engine start phases."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "Functional status classification for ESA: 12 V system 24 V system Related to immunity related functions Not related to immunity related functions B D",
+      "text": "The SLD ECU, being related to immunity related functions, shall achieve functional status B for the starting profile on the 24 V system."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.2",
+      "quote": "The vehicle manufacturer shall identify and manage, for the vehicle type being approved, supplier-related risks.",
+      "text": "The SLD shall support identification and management of supplier-related cyber security risks for the vehicle type on which it is installed."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.3",
+      "quote": "The vehicle manufacturer shall identify the critical elements of the vehicle type and perform an exhaustive risk assessment for the vehicle type and shall treat/manage the identified risks appropriately.",
+      "text": "The SLD, as a critical element of the vehicle type, shall be subject to an exhaustive cyber security risk assessment covering its elements, their interactions and its interactions with external systems."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.4",
+      "quote": "The vehicle manufacturer shall protect the vehicle type against risks identified in the vehicle manufacturer’s risk assessment. Proportionate mitigations shall be implemented to protect the vehicle type.",
+      "text": "The SLD shall implement proportionate mitigations against the cyber security risks identified in the risk assessment, including all relevant mitigations of Annex 5, Parts B and C."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 4. Table B4",
+      "quote": "Security controls shall be applied to external interfaces",
+      "text": "The SLD shall apply security controls to its external interfaces, including the calibration and diagnostic connector and the CAN/speed sensor interfaces, to prevent code injection and unauthorised parameter manipulation."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 5. Table B5",
+      "quote": "Access control techniques and designs shall be applied to protect system data/code.",
+      "text": "The SLD shall apply access-control techniques and designs to protect the stored set speed, calibration data and fault-event records from unauthorised change or deletion."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "The vehicle shall verify the authenticity and integrity of messages it receives",
+      "text": "The SLD shall verify the authenticity and integrity of messages it receives over its vehicle network interfaces before acting on them."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Measures to detect malicious internal messages or activity should be considered",
+      "text": "The SLD shall implement measures to detect malicious internal messages or activity on the vehicle network that could affect the speed limitation function."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.7",
+      "quote": "The vehicle manufacturer shall implement measures for the vehicle type to: (a) Detect and prevent cyber-attacks against vehicles of the vehicle type;",
+      "text": "The SLD shall include measures to detect and prevent cyber-attacks against the vehicle, and to provide data forensic capability enabling analysis of attempted or successful attacks."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.6",
+      "quote": "The vehicle manufacturer shall perform, prior to type approval, appropriate and sufficient testing to verify the effectiveness of the security measures implemented.",
+      "text": "The SLD shall be subjected to appropriate and sufficient testing, prior to type approval, to verify the effectiveness of its implemented cyber security measures."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.8",
+      "quote": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards.",
+      "text": "Any cryptographic module used in the SLD for tamper detection or message authentication shall be in line with consensus standards, or its use shall be justified."
+    }
+  ]
+}

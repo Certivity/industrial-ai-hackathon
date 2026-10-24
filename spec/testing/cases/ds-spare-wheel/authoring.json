@@ -1,0 +1,162 @@
+{
+  "case_id": "ds-spare-wheel",
+  "regulation": "UN R64",
+  "requirements": [
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.1",
+      "quote": "Tyres intended for use as part of a temporary-use spare unit as defined in paragraph 2.10., shall be approved in accordance with Regulations Nos. 30 or 54.",
+      "text": "The temporary-use spare tyre of the unit shall be type-approved in accordance with UN Regulations Nos. 30 or 54."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.2",
+      "quote": "the load capacity of the temporary-use spare unit shall be at least equal to one half of the highest of the maximum axle loads",
+      "text": "The temporary-use spare unit shall have a load capacity at least equal to one half of the highest maximum axle load of the vehicle; where its use is restricted to a specific axle, at least one half of the maximum load of that axle."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.3",
+      "quote": "The design speed of the temporary-use spare unit shall be at least 120 km/h for types 1, 2 and 3.",
+      "text": "The design speed of the temporary-use spare unit shall be at least 120 km/h where the unit is a Type 1, Type 2 or Type 3 temporary-use spare unit."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.4.1",
+      "quote": "An 80 km/h maximum speed warning symbol arranged in accordance with the diagram below shall be permanently displayed on the outer face of the wheel in a prominent position",
+      "text": "The unit shall carry an 80 km/h maximum speed warning symbol, arranged in accordance with the specified diagram, permanently displayed on the outer face of the wheel in a prominent position."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.4.1",
+      "quote": "with the exception that the figure \"80\" shall be replaced by \"50\" and the wording \"km/h\" by \"mph\"",
+      "text": "Where the vehicle is intended to be sold in countries using imperial units, the unit shall additionally carry an identical warning symbol with \"80\" replaced by \"50\" and \"km/h\" by \"mph\", permanently displayed on the outer face of the wheel in a prominent position."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.4.1",
+      "quote": "Upper case letters shall be at least 5 mm high and the numbers \"80\" and \"50\" shall be at least 20 mm high",
+      "text": "The warning symbol shall have upper case letters at least 5 mm high and the numbers \"80\" and \"50\" at least 20 mm high, with each character element at least 3 mm line thickness."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.4.1",
+      "quote": "Lower case text shall at least have a line height of 5 mm. All text shall be enclosed in a border and be on a background of contrasting colour.",
+      "text": "The warning symbol shall have lower case text with a line height of at least 5 mm, all text enclosed in a border and placed on a background of contrasting colour."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.4.2",
+      "quote": "the outward facing surface of the wheel and/or tyre shall exhibit a distinctive colour or colour pattern which is quite clearly different from the colour(s) of the standard units",
+      "text": "When mounted to the vehicle for temporary use, the outward facing surface of the wheel and/or tyre shall exhibit a distinctive colour or colour pattern clearly different from the colour of the standard units."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "5.1.4.2",
+      "quote": "If it is possible to attach a wheel cover to the temporary-use spare unit, the distinctive colour or colour pattern shall not be obscured by this wheel cover.",
+      "text": "Where a wheel cover can be attached to the temporary-use spare unit, the distinctive colour or colour pattern shall not be obscured by that wheel cover."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "6.1.1",
+      "quote": "A statement of the risk resulting from non-compliance with the restrictions on the use of a temporary-use spare unit including, as appropriate, a statement relating to use restricted to a specific axle",
+      "text": "The vehicle owner's manual shall contain a statement of the risk resulting from non-compliance with the restrictions on the use of the temporary-use spare unit, including, where applicable, that use is restricted to a specific axle."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "6.1.2",
+      "quote": "An instruction to drive with caution and at no more than the permitted maximum speed of 80 km/h (50 mph) when a type 1, 2 or 3 temporary-use spare unit",
+      "text": "The owner's manual shall contain an instruction to drive with caution and at no more than the permitted maximum speed of 80 km/h (50 mph) when the type 1, 2 or 3 temporary-use spare unit is fitted, and to reinstall a standard unit as soon as possible."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "6.1.3",
+      "quote": "A statement that operation of the vehicle is not permitted with more than one temporary-use spare unit fitted at the same time",
+      "text": "The owner's manual shall state that operation of the vehicle is not permitted with more than one temporary-use spare unit fitted at the same time."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "6.1.4",
+      "quote": "A clear indication of the inflation pressure specified by the vehicle manufacturer for the tyre of the temporary-use spare unit",
+      "text": "The owner's manual shall give a clear indication of the inflation pressure specified by the vehicle manufacturer for the tyre of the temporary-use spare unit."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 1.1",
+      "quote": "The test track shall be substantially level and have a surface affording good adhesion.",
+      "text": "The braking and deviation test of the unit shall be conducted on a substantially level test track with a surface affording good adhesion."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 1.2",
+      "quote": "The test shall be performed when there is no wind liable to affect the results.",
+      "text": "The braking and deviation test shall be performed when there is no wind liable to affect the results."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 1.3",
+      "quote": "The vehicle shall be loaded to its maximum mass as defined in paragraph 2.9. of this Regulation.",
+      "text": "The braking and deviation test shall be performed with the vehicle loaded to its maximum mass."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 1.4",
+      "quote": "The axle loads resulting from the loading condition in accordance with paragraph 1.3. of this annex shall be proportional to the maximum axle loads",
+      "text": "The axle loads resulting from the test loading condition shall be proportional to the maximum axle loads of the vehicle."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 1.5",
+      "quote": "the tyres shall be inflated to the pressures recommended by the vehicle manufacturer for the vehicle type and loading condition",
+      "text": "The tyres shall be inflated to the pressures recommended by the vehicle manufacturer for the vehicle type and loading condition during the test."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.1",
+      "quote": "The test shall be carried out with the temporary-use spare unit fitted alternately in place of one front wheel and one rear wheel.",
+      "text": "The braking and deviation test shall be carried out with the temporary-use spare unit fitted alternately in place of one front wheel and one rear wheel; where use is restricted to a specific axle, only with the unit fitted to that axle."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.2",
+      "quote": "The test shall be carried out using the service braking system from an initial speed of 80 km/h with the engine disconnected.",
+      "text": "The braking test shall be carried out using the service braking system from an initial speed of 80 km/h with the engine disconnected."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.3.1",
+      "quote": "The stopping distance achieved using a maximum force of 500 N applied to the foot control shall not exceed 50.7 m",
+      "text": "For an M1 vehicle approved to Regulation No. 13 and fitted with the type 1, 2, 3 or 5 temporary-use spare unit, the stopping distance at 80 km/h using a maximum foot control force of 500 N shall not exceed 50.7 m."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.3.1",
+      "quote": "The mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve",
+      "text": "For an M1 vehicle approved to Regulation No. 13 and fitted with the type 1, 2, 3 or 5 temporary-use spare unit, the mean fully developed deceleration at 80 km/h shall be not less than 5.8 m/s²."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.3.1.4",
+      "quote": "The stopping distance achieved using a maximum force of 500 N + 0 / -50 N applied to the foot control, shall not exceed 46.4 m",
+      "text": "For an M1 vehicle approved to Regulation No. 13-H and fitted with the type 1, 2, 3 or 5 temporary-use spare unit, the stopping distance at 80 km/h using a maximum foot control force of 500 N + 0/−50 N shall not exceed 46.4 m."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.3.1.4",
+      "quote": "according to the formula given in paragraph 2.3.1. and shall be not less than 6.43 m/s⁻²",
+      "text": "For an M1 vehicle approved to Regulation No. 13-H and fitted with the type 1, 2, 3 or 5 temporary-use spare unit, the mean fully developed deceleration at 80 km/h shall be not less than 6.43 m/s²."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.4",
+      "quote": "Tests shall be carried out for each of the fitting conditions of temporary-use spare units specified in paragraph 2.1. of this annex.",
+      "text": "The braking and deviation test shall be carried out for each fitting condition of the temporary-use spare unit specified in paragraph 2.1 of Annex 3."
+    },
+    {
+      "regulation": "UN R64",
+      "paragraph": "Annex 3 2.5",
+      "quote": "The prescribed braking performance shall be obtained without any wheel-locking, deviation of the vehicle from its intended course, abnormal vibration",
+      "text": "With the temporary-use spare unit fitted, the prescribed braking performance shall be obtained without any wheel-locking, deviation of the vehicle from its intended course, abnormal vibration, abnormal tyre wear during the test or excessive steering correction."
+    }
+  ]
+}

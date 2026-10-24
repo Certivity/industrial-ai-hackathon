@@ -1,0 +1,274 @@
+[
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.2.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Light sources shall be so designed as to be and to remain in good working order when in normal use.",
+    "label": "3.2.2"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.2.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "They shall moreover exhibit no fault in design or manufacture.",
+    "label": "3.2.2"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.2.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The filament(s) shall be the only element(s) of the filament light source that generate and emit light when energized.",
+    "label": "3.2.3"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.2.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Light sources shall exhibit no scores or spots which might impair their efficiency and their optical performance.",
+    "label": "3.2.4"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.2.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Light sources shall be equipped with standard caps complying with the cap data sheets of IEC Publication 60061, as specified on the individual data sheets of Annex 1.",
+    "label": "3.2.5"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.2.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The cap shall be strong and firmly secured to the bulb of the filament light source.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.2.7",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "To ascertain whether light sources conform to the requirements of paragraphs 3.2.4. to 3.2.6. above, a visual inspection, a dimension check and, where necessary, a trial fitting into the holder as specified in IEC publication 60061 shall be carried out.",
+    "label": "3.2.7"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Filament light sources shall first be aged at their test voltage for approximately one hour.",
+    "label": "3.3.1.1"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The position and dimensions of the filament shall be measured with the filament light sources being supplied with current at from 90 per cent to 100 per cent of the test voltage.",
+    "label": "3.3.1.3"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.1.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified, electrical and photometric measurements shall be carried out at the test voltage(s).",
+    "label": "3.3.1.4"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.1.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Electrical measurements shall be carried out with instruments of at least class 0.2.",
+    "label": "3.3.1.5"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The geometric shapes of the filament shall in principle be as specified on the filament light source data sheets of Annex 1.",
+    "label": "3.3.2.1"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.2.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The length of a line filament shall be determined by its ends, defined - unless otherwise specified on the relevant data sheet - as the apices of the first and the last filament turn as seen in projection perpendicular to the reference axis of the filament light source.",
+    "label": "3.3.2.4"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.2.4.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "For axial filaments the extreme position of the apices considered shall be determined by rotating the filament light source about its reference axis. The length shall then be measured in a direction parallel to the reference axis.",
+    "label": "3.3.2.4.1"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.3.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted by the filament light source shall be white unless otherwise specified on the relevant data sheet.",
+    "label": "3.3.3.1"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.3.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted shall be measured by the method specified in Annex 5. Each measured value shall lie within the required chromaticity area.",
+    "label": "3.3.3.3"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.3.3",
+    "page": 7,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "3.3.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The UV radiation of a halogen filament light source shall be such that:",
+    "label": "3.3.4"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "2.3.1.1",
+    "page": 3,
+    "raw_pages": [
+      3,
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The trade name or mark of the applicant;",
+    "label": "2.3.1.1"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "2.3.1.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The rated voltage.",
+    "label": "2.3.1.2"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "2.3.1.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The designation of the relevant category.",
+    "label": "2.3.1.3"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "2.3.1.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The rated wattage in the case of a filament light source",
+    "label": "2.3.1.4"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "2.3.1.6",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "A space of sufficient size to accommodate the approval mark;",
+    "label": "2.3.1.6"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "2.3.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Halogen filament light sources meeting the requirements of paragraph 3.3.4. below shall be marked with a \"U\".",
+    "label": "2.3.3"
+  },
+  {
+    "regulation": "UN R37",
+    "paragraph": "2.4.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The marks and inscriptions specified in paragraphs 2.3.1. 2.3.5., 2.3.8., 2.3.9. and 2.4.3. shall be clearly legible and be indelible.",
+    "label": "2.4.5"
+  }
+]

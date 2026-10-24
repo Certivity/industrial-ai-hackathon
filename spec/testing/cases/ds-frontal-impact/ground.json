@@ -1,0 +1,343 @@
+[
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the protective system for the front seating positions includes belts, the belt components shall meet the requirements of Regulation No. 16.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Seating positions where a dummy is installed and the protective system includes belts, shall be provided with anchorage points conforming to Regulation No. 14.",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The head performance criterion (HPC) shall not exceed 1,000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms.",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The Injury Criteria for the neck (NIC) shall not exceed the values shown in Figures 1 and 2⁴;",
+    "label": "5.2.1.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The neck bending moment about the y axis shall no exceed 57 Nm in extension³;",
+    "label": "5.2.1.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The Thorax Compression Criterion (ThCC) shall not exceed 42 mm;",
+    "label": "5.2.1.4"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The viscous criterion (V * C) for the thorax shall not exceed 1,0 m/s;",
+    "label": "5.2.1.5"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.6",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed the force-time performance criterion shown in Figure 3;",
+    "label": "5.2.1.6"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.7",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The tibia compression force criterion (TCFC) shall not exceed 8 kN;",
+    "label": "5.2.1.7"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.8",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The tibia index (TI), measured at the top and bottom of each tibia, shall not exceed 1,3 at either location;",
+    "label": "5.2.1.8"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.9",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The movement of the sliding knee joints shall not exceed 15 mm.",
+    "label": "5.2.1.9"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "During the test no door shall open.",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "After the impact, the side doors shall be unlocked.",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.5.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "To open at least one door per row of seats. Where there is no such door, it shall be possible to allow the evacuation of all the occupants by activating the displacement system of seats, if necessary.",
+    "label": "5.2.5.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.5.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "To release the dummies from their restraint system which, if locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control;",
+    "label": "5.2.5.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.5.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "To remove the dummies from the vehicle without adjustment of the seats.",
+    "label": "5.2.5.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.6",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a vehicle propelled by liquid fuel, no more than slight leakage of liquid from the fuel feed installation shall occur on collision.",
+    "label": "5.2.6"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "6.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "For a vehicle fitted with airbag assemblies intended to protect the driver and occupants other than the driver, compliance with paragraphs 8.1.8. to 8.1.9. of UN Regulation No. 16",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 1.3.1",
+    "page": 16,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall overlap the barrier face by 40 per cent ± 20 mm.",
+    "label": "Annex 3 1.3.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 4.",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle speed at the moment of impact shall be 56 -0/+1 km/h.",
+    "label": "Annex 3 4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The Injury Criteria for neck shall not exceed the following values: (a) The axial tensile neck force shall not exceed 3.3 kN; (b) The fore/aft shear forces at the head/neck interface shall not exceed 3.1 kN;",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed 9.07 kN.",
+    "label": "5.2.1.1.5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The axial tensile neck force shall not exceed 2.9 kN; (b) The fore/aft shear forces at the head/neck interface shall not exceed 2.7 kN;",
+    "label": "5.2.1.2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "34 mm in the case of vehicles of category M1;",
+    "label": "5.2.1.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed 7 kN.",
+    "label": "5.2.1.2.5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.2.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "After the test the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction.",
+    "label": "5.2.2.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "During the test no door shall open.",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.4",
+    "page": 8,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "After the impact, the side doors shall be unlocked.",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.5.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "To release the dummies from their restraint system which, locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control;",
+    "label": "5.2.5.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 4.",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle speed at the moment of impact shall be 50 -0/ +1 km/h.",
+    "label": "Annex 3 4"
+  }
+]

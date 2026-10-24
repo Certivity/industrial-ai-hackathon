@@ -1,0 +1,179 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "3.2.2",
+      "quote": "Light sources shall be so designed as to be and to remain in good working order when in normal use.",
+      "text": "The H7 halogen filament lamp shall be so designed as to remain in good working order when in normal use."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "3.2.2",
+      "quote": "They shall moreover exhibit no fault in design or manufacture.",
+      "text": "The H7 halogen filament lamp shall exhibit no fault in design or manufacture."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "3.2.3",
+      "quote": "The filament(s) shall be the only element(s) of the filament light source that generate and emit light when energized.",
+      "text": "The H7 halogen filament lamp shall have its filament as the only element that generates and emits light when energized."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "3.2.4",
+      "quote": "Light sources shall exhibit no scores or spots which might impair their efficiency and their optical performance.",
+      "text": "The H7 halogen filament lamp shall exhibit no scores or spots which might impair its efficiency and optical performance."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "3.2.5",
+      "quote": "Light sources shall be equipped with standard caps complying with the cap data sheets of IEC Publication 60061, as specified on the individual data sheets of Annex 1.",
+      "text": "The H7 halogen filament lamp shall be equipped with a PX26d standard cap complying with the cap data sheets of IEC Publication 60061 as specified on the H7 data sheet of Annex 1."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "3.2.6",
+      "quote": "The cap shall be strong and firmly secured to the bulb of the filament light source.",
+      "text": "The PX26d cap shall be strong and firmly secured to the bulb of the H7 halogen filament lamp."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "3.2.7",
+      "quote": "To ascertain whether light sources conform to the requirements of paragraphs 3.2.4. to 3.2.6. above, a visual inspection, a dimension check and, where necessary, a trial fitting into the holder as specified in IEC publication 60061 shall be carried out.",
+      "text": "The H7 halogen filament lamp shall be subjected to a visual inspection, a dimension check and, where necessary, a trial fitting into the holder as specified in IEC publication 60061 to verify conformity with the bulb, cap and cap-securing requirements."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.1.1",
+      "quote": "Filament light sources shall first be aged at their test voltage for approximately one hour.",
+      "text": "The H7 halogen filament lamp shall first be aged at its test voltage for approximately one hour before testing."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.1.3",
+      "quote": "The position and dimensions of the filament shall be measured with the filament light sources being supplied with current at from 90 per cent to 100 per cent of the test voltage.",
+      "text": "The position and dimensions of the H7 filament shall be measured with the lamp supplied with current at from 90 per cent to 100 per cent of the test voltage."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.1.4",
+      "quote": "Unless otherwise specified, electrical and photometric measurements shall be carried out at the test voltage(s).",
+      "text": "The electrical and photometric measurements of the H7 halogen filament lamp shall be carried out at its test voltage."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.1.5",
+      "quote": "Electrical measurements shall be carried out with instruments of at least class 0.2.",
+      "text": "The electrical measurements of the H7 halogen filament lamp shall be carried out with instruments of at least class 0.2."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.2.1",
+      "quote": "The geometric shapes of the filament shall in principle be as specified on the filament light source data sheets of Annex 1.",
+      "text": "The geometric shape of the H7 halogen filament lamp filament shall be as specified on the H7 data sheet of Annex 1."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.2.4",
+      "quote": "The length of a line filament shall be determined by its ends, defined - unless otherwise specified on the relevant data sheet - as the apices of the first and the last filament turn as seen in projection perpendicular to the reference axis of the filament light source.",
+      "text": "The length of the H7 line filament shall be determined by the apices of the first and last filament turn as seen in projection perpendicular to the reference axis of the lamp."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.2.4.1",
+      "quote": "For axial filaments the extreme position of the apices considered shall be determined by rotating the filament light source about its reference axis. The length shall then be measured in a direction parallel to the reference axis.",
+      "text": "The length of the axial H7 filament shall be determined by rotating the lamp about its reference axis and measuring parallel to that axis."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.3.1",
+      "quote": "The colour of the light emitted by the filament light source shall be white unless otherwise specified on the relevant data sheet.",
+      "text": "The light emitted by the H7 halogen filament lamp shall be white."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 6,
+      "paragraph": "3.3.3.3",
+      "quote": "The colour of the light emitted shall be measured by the method specified in Annex 5. Each measured value shall lie within the required chromaticity area.",
+      "text": "The colour of the light emitted by the H7 halogen filament lamp shall be measured by the method specified in Annex 5 and each measured value shall lie within the required chromaticity area."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 7,
+      "paragraph": "3.3.3.3",
+      "quote": "in the case of filament light sources emitting white light, the measured values shall not deviate more than 0.020 unit in the x and/or y direction from a point of choice on the Planckian locus",
+      "text": "The white light of the H7 halogen filament lamp shall not deviate more than 0.020 unit in the x and/or y direction from a chosen point on the Planckian locus."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 7,
+      "paragraph": "3.3.4",
+      "quote": "The UV radiation of a halogen filament light source shall be such that:",
+      "text": "The UV radiation of the H7 halogen filament lamp shall be such that the weighted UV-to-visible flux ratio criterion of paragraph 3.3.4 is met, calculated using intervals of five nanometres."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 3,
+      "paragraph": "2.3.1.1",
+      "quote": "The trade name or mark of the applicant;",
+      "text": "The H7 halogen filament lamp shall bear the trade name or mark of the applicant."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 3,
+      "paragraph": "2.3.1.2",
+      "quote": "The rated voltage.",
+      "text": "The H7 halogen filament lamp shall bear its rated voltage."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 3,
+      "paragraph": "2.3.1.3",
+      "quote": "The designation of the relevant category.",
+      "text": "The H7 halogen filament lamp shall bear the designation of its category (H7)."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 3,
+      "paragraph": "2.3.1.4",
+      "quote": "The rated wattage in the case of a filament light source",
+      "text": "The H7 halogen filament lamp shall bear its rated wattage unless it forms part of the category designation."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 3,
+      "paragraph": "2.3.1.6",
+      "quote": "A space of sufficient size to accommodate the approval mark;",
+      "text": "The H7 halogen filament lamp shall carry a space of sufficient size to accommodate the approval mark."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 3,
+      "paragraph": "2.3.3",
+      "quote": "Halogen filament light sources meeting the requirements of paragraph 3.3.4. below shall be marked with a \"U\".",
+      "text": "The H7 halogen filament lamp shall be marked with a \"U\" where it meets the UV radiation requirement of paragraph 3.3.4."
+    },
+    {
+      "regulation": "UN R37",
+      "page": 5,
+      "paragraph": "2.4.5",
+      "quote": "The marks and inscriptions specified in paragraphs 2.3.1. 2.3.5., 2.3.8., 2.3.9. and 2.4.3. shall be clearly legible and be indelible.",
+      "text": "The marks and inscriptions required on the H7 halogen filament lamp shall be clearly legible and indelible."
+    }
+  ]
+}

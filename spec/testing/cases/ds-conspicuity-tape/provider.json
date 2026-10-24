@@ -1,0 +1,438 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "Retro-reflective marking materials shall be that way constructed that they function satisfactorily and will continue to do so in normal use",
+      "text": "The retro-reflective marking tape shall be constructed so that it functions satisfactorily and continues to do so in normal use on the trailer."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "they shall not have any defect in design or manufacture that is detrimental to their efficient operation or to their maintenance in good condition",
+      "text": "The retro-reflective marking tape shall not have any defect in design or manufacture that is detrimental to its efficient operation or to its maintenance in good condition."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "6.2",
+      "quote": "Retro-reflective marking materials or parts thereof shall not be capable of being easily dismantled.",
+      "text": "The retro-reflective marking tape and its parts shall not be capable of being easily dismantled."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "6.3",
+      "quote": "The means of attachment of the marking materials shall be durable and stable.",
+      "text": "The adhesive means of attachment of the retro-reflective marking tape shall be durable and stable."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "6.4",
+      "quote": "The outer surface of the retro-reflective marking materials shall be easy to be cleaned.",
+      "text": "The outer surface of the retro-reflective marking tape shall be easy to clean."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "6.4",
+      "quote": "The surface shall therefore not be rough and any protuberances they may exhibit shall not prevent easy cleaning",
+      "text": "The outer surface of the retro-reflective marking tape shall not be rough, and any protuberances it exhibits shall not prevent easy cleaning."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 3,
+      "paragraph": "4.1.2",
+      "quote": "An orientation mark \"TOP\" which must be inscribed on any marking material whose retro-reflective system is not omnirotational at least:",
+      "text": "The retro-reflective marking tape shall bear an orientation mark \"TOP\" where its retro-reflective system is not omnirotational."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 3,
+      "paragraph": "4.1.2",
+      "quote": "(a) on strips in a 0.5 m distance,",
+      "text": "The orientation mark \"TOP\" shall be inscribed on the tape at 0.5 m intervals along the strip when the retro-reflective system is not omnirotational."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 3,
+      "paragraph": "4.2",
+      "quote": "The marks shall be clearly legible on the outside of the marking material and shall be indelible.",
+      "text": "The trade name, \"TOP\" orientation mark and approval mark shall be clearly legible on the outside of the tape and shall be indelible."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "5.4.3.1",
+      "quote": "\"C\" for material for contour/strip marking",
+      "text": "The retro-reflective marking tape shall carry the class symbol \"C\" indicating it is material for contour/strip marking."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "5.5",
+      "quote": "The approval mark shall be visible and clearly legible on the outside of the marking material and shall be indelible and positioned at least once",
+      "text": "The approval mark shall be visible and clearly legible on the outside of the tape and indelibly positioned at least once per marking interval."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 4,
+      "paragraph": "5.5",
+      "quote": "(a) at 0.5 m intervals on strips,",
+      "text": "The approval mark shall be positioned at 0.5 m intervals along the tape strip."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 10,
+      "paragraph": "4.1.1",
+      "quote": "Retro-reflective devices shall be so constructed that they function satisfactorily and will continue to do so in normal use.",
+      "text": "The retro-reflective marking tape shall be constructed so that it functions satisfactorily and continues to do so in normal use on the O4 trailer."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 10,
+      "paragraph": "4.1.1",
+      "quote": "they must not have any defect in design or manufacture that is detrimental to their efficient operation or to their maintenance in good condition",
+      "text": "The retro-reflective marking tape shall have no defect in design or manufacture detrimental to its efficient operation or to its maintenance in good condition."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 10,
+      "paragraph": "4.1.2",
+      "quote": "The components of retro-reflective devices or parts thereof shall not be capable of being easily dismantled.",
+      "text": "The components of the retro-reflective marking tape shall not be capable of being easily dismantled."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 10,
+      "paragraph": "4.1.3",
+      "quote": "The means of attachment of the retro-reflective marking materials shall be durable and stable.",
+      "text": "The means of attachment of the retro-reflective marking tape shall be durable and stable."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 10,
+      "paragraph": "4.1.4",
+      "quote": "The outer surface of retro-reflective devices shall be easy to clean.",
+      "text": "The outer surface of the retro-reflective marking tape shall be easy to clean."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 10,
+      "paragraph": "4.1.4",
+      "quote": "The surface shall therefore not be rough and any protuberances they may exhibit shall not prevent easy cleaning.",
+      "text": "The outer surface of the retro-reflective marking tape shall not be rough, and protuberances shall not prevent easy cleaning."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 8,
+      "paragraph": "3.3.4.2.2",
+      "quote": "in case of retro-reflective marking material of Class C, D, E or F an orientation mark \"TOP\" on any marking material whose retro-reflective system is not omni-rotational",
+      "text": "The retro-reflective marking tape shall bear an orientation mark \"TOP\" where its retro-reflective system is not omni-rotational."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 8,
+      "paragraph": "3.3.5.2",
+      "quote": "In case of retro-reflective marking material of Class C, D, E or F. These markings shall be positioned on the outside at least once:",
+      "text": "The approval marking, Unique Identifier and markings of the retro-reflective marking tape shall be positioned on the outside at least once per interval."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 8,
+      "paragraph": "3.3.5.2",
+      "quote": "(a) on strips in a 0.5 m distance,",
+      "text": "The markings of the retro-reflective marking tape shall be positioned at 0.5 m intervals along the strip."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 7,
+      "paragraph": "3.3.1.2",
+      "quote": "All markings shall be clearly legible and indelible.",
+      "text": "All markings on the retro-reflective marking tape shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 34,
+      "paragraph": "Annex 5 4.2.1",
+      "quote": "The width of a retro-reflective marking material shall be 50 mm +10/-0 mm",
+      "text": "The width of the retro-reflective marking tape shall be 50 mm +10/-0 mm."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 34,
+      "paragraph": "Annex 5 4.2.2",
+      "quote": "The minimum length of an element of a retro-reflective marking material shall be such that at least one approval mark is visible.",
+      "text": "The minimum length of an element of the retro-reflective marking tape shall be such that at least one approval mark is visible."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 10,
+      "paragraph": "Annex 5 1.2.1",
+      "quote": "The width of a side and/or rear marking material shall be 50 mm +10/-0 mm.",
+      "text": "The width of the side and rear marking tape on the trailer shall be 50 mm +10/-0 mm."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 10,
+      "paragraph": "Annex 5 1.2.2",
+      "quote": "The minimum length of an element of a retro-reflective marking material shall be such that at least one approval mark is visible.",
+      "text": "The minimum length of an element of the side and rear marking tape shall be such that at least one approval mark is visible."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 18,
+      "paragraph": "5.2.6.2",
+      "quote": "The trichromatic coordinates of the reflected luminous intensity must be within the limits for the night-time colours red, amber or white as specified in UN Regulation No. 48.",
+      "text": "The retro-reflective marking tape, when illuminated with CIE Standard Illuminant A at β1 = β2 = 0° (or β1 = ±5°, β2 = 0°) and observed at α = 20', shall have trichromatic coordinates of its reflected light within the UN R48 night-time colour limits for white, yellow or red as classified in Annex 6."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 11,
+      "paragraph": "Annex 6 2.",
+      "quote": "When illuminated by the CIE Standard Illuminant A at an entrance angle β1 = β2 = 0º or, if this produces a colourless surface reflection, an angle β1 = ± 5º, β2 = 0º, and measured at an observation angle of = 20’, the colour of the material in new condition shall be within the limits according to paragraph 2.30. of Regulation No.48.",
+      "text": "The retro-reflective marking tape in new condition shall show, when illuminated by CIE Standard Illuminant A at β1 = β2 = 0° (or β1 = ±5°, β2 = 0°) and measured at an observation angle of 20', a colour within the chromaticity limits of UN R48 paragraph 2.30."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 18,
+      "paragraph": "5.2.6.4",
+      "quote": "for red colour shall be βv,R ≥ 0.03, for yellow colour shall be βv,R ≥ 0.16, for white colour, it shall be βv,R ≥ 0.25.",
+      "text": "The retro-reflective marking tape shall have a luminance factor of at least 0.03 for red, at least 0.16 for yellow and at least 0.25 for white when measured per Part 2 of Annex 4 of UN R150."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 17,
+      "paragraph": "5.2.5.1. Table 6",
+      "quote": "the coefficient of retro-reflection RA in candelas per m2 per lux (cd/m2/lux) of the retro-reflective areas in new condition shall be at least as indicated in Table 6 for white, yellow and red materials",
+      "text": "The retro-reflective marking tape in new condition shall have, for Class C colour, coefficient of retro-reflection values RA at α = 0.33° (20') of at least: white 450 (β2=5°) / 200 (β2=30°) / 95 (β2=40°) / 16 (β2=60°); yellow 300 / 130 / 75 / 10; red 120 / 60 / 30 / 10 cd·m-2·lx-1 at the corresponding entrance angles."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 18,
+      "paragraph": "5.2.5.1.1",
+      "quote": "The coefficient of retro-reflection R' in candelas per m2 per lux (cd/m2/lux) of the retro-reflective areas hall be at least 80 per cent as indicated in Table 6",
+      "text": "After the weathering test of Part 6 of Annex 6, the retro-reflective marking tape shall retain at least 80 per cent of the Table 6 minimum coefficient of retro-reflection at α = 0.33°, β2 = 5°, β1 = 0°."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 18,
+      "paragraph": "5.2.5.3",
+      "quote": "The subtended angle at the sample shall not be larger than 80'.",
+      "text": "The retro-reflective marking tape shall meet its photometric values when measured with an angular diameter of the illuminated area not larger than 80'."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 11,
+      "paragraph": "Annex 7 1.1. Table 1",
+      "quote": "the coefficient of retro-reflection R' in candelas per m2 per lux (cd/m2/lux) of the retro-reflective areas in new condition shall be at least as indicated in table 1 for yellow, white and red materials",
+      "text": "The retro-reflective marking tape in new condition shall have, at observation angle α = 0.33° (20'), minimum coefficient of retro-reflection R' of: white 450 (β2=5°) / 200 (β2=30°) / 95 (β2=40°) / 16 (β2=60°); yellow 300 / 130 / 75 / 10; red 120 / 60 / 30 / 10 cd·m-2·lx-1."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 42,
+      "paragraph": "Annex 6 Part 1 2.",
+      "quote": "A section of a sample unit not less than 300 mm long shall be kept for 12 hours in a dry atmosphere at a temperature of 65 °C ± 2 ºC",
+      "text": "A specimen of the retro-reflective marking tape not less than 300 mm long shall withstand 12 hours at 65 °C ± 2 °C, followed by cooling for 1 hour at 23 °C ± 2 °C and 12 hours at −20 °C ± 2 °C."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 42,
+      "paragraph": "Annex 6 Part 1 3.",
+      "quote": "After this test, no cracking or appreciable distortion of the retro-reflective device and, in particular, of its optical component must be visible.",
+      "text": "After the heat resistance test, the retro-reflective marking tape shall show no cracking or appreciable distortion, particularly of its optical component."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 13,
+      "paragraph": "Annex 8 4.3",
+      "quote": "After this test, no cracking or appreciable distortion of the surface particularly of the optical units, shall be evident.",
+      "text": "After the heat resistance test (12 h at 65 °C ± 2 °C, 1 h at 23 °C ± 2 °C, 12 h at −20 °C ± 2 °C), the tape shall show no cracking or appreciable distortion of the surface or optical units."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 42,
+      "paragraph": "Annex 6 Part 2 1.2",
+      "quote": "No water shall penetrate to the reflecting surface of the retro-reflecting optical unit.",
+      "text": "The retro-reflective marking tape shall not allow water to penetrate to the reflecting surface when immersed 10 minutes at 50 °C ± 5 °C in both normal and inverted positions, then 10 minutes at 25 °C ± 5 °C."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 14,
+      "paragraph": "Annex 8 7.2",
+      "quote": "No water must penetrate to the reflecting surface of the sample unit.",
+      "text": "No water shall penetrate to the reflecting surface of the retro-reflective marking tape when the water-penetration immersion test of Annex 8 paragraph 7.1 is applied."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 45,
+      "paragraph": "Annex 6 Part 4 4.1",
+      "quote": "Immediately after completion of the test, the sample shall not show signs of excessive corrosion liable to impair the efficiency of the device.",
+      "text": "After the 50-hour saline mist corrosion test, the retro-reflective marking tape shall show no signs of excessive corrosion liable to impair its efficiency."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 45,
+      "paragraph": "Annex 6 Part 4 4.2",
+      "quote": "shall be not less than the value in Table 9 or more than the value in Table 10 respectively",
+      "text": "After the corrosion test and a 48-hour recovery, the retro-reflective marking tape shall still meet the minimum coefficient of retro-reflection of Table 6 (Class C) when measured at β2 = 5° and α = 20° after cleaning off salt deposits."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 12,
+      "paragraph": "Annex 8 2.2",
+      "quote": "Immediately after completion of the test, the sample shall show no sign of corrosion liable to impair the efficiency of the marking.",
+      "text": "Immediately after the 48-hour saline mist corrosion test, the retro-reflective marking tape shall show no sign of corrosion liable to impair the efficiency of the marking."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 47,
+      "paragraph": "Annex 7 Part 1 1.2",
+      "quote": "A section of a sample unit not less than 300 mm long shall be immersed in the test mixture for one minute.",
+      "text": "A section of the retro-reflective marking tape not less than 300 mm long shall be immersed for one minute in a mixture of 70 vol.% n-heptane and 30 vol.% toluol."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 47,
+      "paragraph": "Annex 7 Part 1 1.2",
+      "quote": "After removal, the surface shall be wiped dry with a soft cloth and shall not show any visible change which would reduce its effective performance.",
+      "text": "After removal from the fuel mixture and wiping dry, the retro-reflective marking tape shall show no visible change that would reduce its effective performance."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 13,
+      "paragraph": "Annex 8 3.",
+      "quote": "After removal, the surface shall be wiped dry with a soft cloth and shall not show any visible change which would reduce its effective performance.",
+      "text": "After one minute immersion in the 70/30 n-heptane/toluol mixture and wiping dry, the tape shall show no visible change reducing its effective performance."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 46,
+      "paragraph": "Annex 6 Part 6 3.1",
+      "quote": "in case of retro-reflective devices for a period of 500 hours,",
+      "text": "The retro-reflective marking tape shall be exposed for 500 hours in the accelerated artificial weathering apparatus per EN ISO 4892-2:2013 under the Table A6-1 parameters."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 18,
+      "paragraph": "5.2.5.1.1",
+      "quote": "After performing the test to the resisting to weathering as described in Part 6 of Annex 6, the retro-reflective marking shall be measured as described in Part 1 of Annex 4.",
+      "text": "After the 500-hour weathering exposure, the retro-reflective marking tape shall be measured for coefficient of retro-reflection according to Part 1 of Annex 4."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 12,
+      "paragraph": "Annex 8 1.2",
+      "quote": "No area of the exposed specimen shall show any evidence of cracking, scaling, splitting, blistering, delamination, distortion, chalking, staining or corrosion.",
+      "text": "After the weathering exposure (until blue standard No. 7 has faded to No. 4 on the grey scale) and washing, no area of the tape shall show cracking, scaling, splitting, blistering, delamination, distortion, chalking, staining or corrosion."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 12,
+      "paragraph": "Annex 8 1.3",
+      "quote": "The colours of the exposed specimen shall still meet the requirements specified in Annex 6.",
+      "text": "After weathering, the colours of the retro-reflective marking tape shall still meet the colorimetric requirements of Annex 6."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 12,
+      "paragraph": "Annex 8 1.4.2",
+      "quote": "The coefficient of retro-reflection of the exposed specimen when dry shall be not less than 80 per cent of the value in Annex 7, tables 1 and 2.",
+      "text": "After weathering, the dry retro-reflective marking tape shall retain at least 80 per cent of the Annex 7 table 1 minimum coefficient of retro-reflection when measured at α = 20' and β2 = 5°."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 48,
+      "paragraph": "Annex 8 Part 1 1.",
+      "quote": "A test sample smeared with a mixture of detergent lubricating oil and graphite shall be easily cleaned without damage to the retro-reflective surface",
+      "text": "The retro-reflective marking tape, when smeared with a mixture of detergent lubricating oil and graphite, shall be easily cleaned without damage to its retro-reflective surface using a mild aliphatic solvent such as n-heptane followed by neutral detergent washing."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 48,
+      "paragraph": "Annex 8 Part 1 2.",
+      "quote": "a test sample shall show no damage to the retro-reflective surface or delamination from the substrate or separation from the sample mounting surface",
+      "text": "The retro-reflective marking tape shall show no damage to its retro-reflective surface, no delamination from the substrate and no separation from its mounting surface when power-washed for 60 seconds at 8 ± 0.2 MPa, 60 +0/−5 °C, 7 ± 1 l/min, wand 600 ± 20 mm away at ≤45° with a 40-degree fan nozzle."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 13,
+      "paragraph": "Annex 8 5.2.1",
+      "quote": "When subjected to a continuous spraying action for 60 seconds on the test component in its normal mounting conditions, a test sample shall show no damage to the retro-reflective surface",
+      "text": "The retro-reflective marking tape shall show no damage to its retro-reflective surface, no delamination from substrate and no separation from mounting when power-washed for 60 seconds under the Annex 8 paragraph 5.2.1 parameters."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 48,
+      "paragraph": "Annex 8 Part 2 1.3",
+      "quote": "The retro-reflective material shall need a force of at least 10 N per 25 mm width at a constant speed of 300 mm per minute to be removed from their substrate.",
+      "text": "The adhesive retro-reflective marking tape shall require a peel force of at least 10 N per 25 mm width at 300 mm/min in a 90° peel test after 24 hours curing on aluminium."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 48,
+      "paragraph": "Annex 8 Part 2 1.2",
+      "quote": "The retro-reflective material shall not be easily removable without damaging the material.",
+      "text": "The retro-reflective marking tape shall not be easily removable from its substrate without damaging the material."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 14,
+      "paragraph": "Annex 8 8.3",
+      "quote": "The retro-reflective materials shall need a force of at least 10 N per 25 mm width at a constant speed of 300 mm per minute to be removed from their substrate.",
+      "text": "The retro-reflective marking tape shall require at least 10 N per 25 mm width at 300 mm/min constant speed in a 90° peel to be removed from its substrate."
+    },
+    {
+      "regulation": "UN R150",
+      "page": 48,
+      "paragraph": "Annex 8 Part 3 2.",
+      "quote": "After this test, the specimen shall not have cracking of the surface and shall not show any visible change that would reduce its effective performance.",
+      "text": "Where the retro-reflective marking tape is to be adhered to a flexible substrate such as tarpaulin, a 50 mm × 300 mm specimen bent once lengthwise around a 3.2 mm mandrel at 23 °C ± 2 °C shall show no surface cracking or visible change reducing performance."
+    },
+    {
+      "regulation": "UN R104",
+      "page": 14,
+      "paragraph": "Annex 8 9.1.2",
+      "quote": "After this test, specimen shall not have cracking of the surface and shall not show any visible change that would reduce its effective performance.",
+      "text": "Where the tape is to be adhered to a flexible substrate such as tarpaulin, the flexing test on a 50 mm by 300 mm specimen around a 3.2 mm mandrel at 23 °C ± 2 °C shall leave no surface cracking or visible change reducing performance."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 24,
+      "paragraph": "5.15",
+      "quote": "Conspicuity marking: White to the front; White or yellow to the side; Red or yellow to the rear.",
+      "text": "The conspicuity marking tape fitted on the O4 trailer shall be white or yellow when used on the side and red or yellow when used on the rear."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 63,
+      "paragraph": "6.21.1.2.1",
+      "quote": "Full contour marking on vehicles exceeding 2,100 mm in width of the following categories:",
+      "text": "The marking tape shall be capable of forming a full contour marking to the rear of an O4 trailer exceeding 2,100 mm in width."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 63,
+      "paragraph": "6.21.1.2.2.1",
+      "quote": "Partial contour marking on vehicles exceeding 6,000 mm in length (including the drawbar for trailers) of the following categories:",
+      "text": "The marking tape shall be capable of forming a partial contour marking to the side of an O4 trailer exceeding 6,000 mm in length (including the drawbar)."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 67,
+      "paragraph": "6.21.7.5",
+      "quote": "The locations on the vehicle designated for conspicuity markings shall allow for the installation of markings of at least 60 mm in width.",
+      "text": "The retro-reflective marking tape shall be of a width of at least 60 mm compatible with the vehicle locations designated for conspicuity markings."
+    },
+    {
+      "regulation": "UN R48",
+      "page": 66,
+      "paragraph": "6.21.7.1",
+      "quote": "Conspicuity markings shall be considered continuous if the distance between adjacent elements are as small as possible and do not exceed 50 per cent of the shortest adjacent element length",
+      "text": "The retro-reflective marking tape segments shall be installed so that the gaps between adjacent elements do not exceed 50 per cent of the shortest adjacent element length (or, where justified, 1,000 mm)."
+    }
+  ]
+}

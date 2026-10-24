@@ -1,0 +1,635 @@
+[
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.1.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The lamps must be so designed and constructed that under normal conditions of use and notwithstanding the vibrations to which they may be subjected in such use",
+    "label": "4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.2.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall be so made that they give adequate illumination without dazzle when emitting the passing-beam, and good illumination when emitting the driving-beam.",
+    "label": "4.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.3.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall be fitted with a device enabling them to be so adjusted on the vehicles as to comply with the rules applicable to them.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.1.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The lamp shall only be equipped with: - replaceable light source(s) approved according to UN Regulations Nos. 37, 99 and/or 128",
+    "label": "4.5.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.2.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The design of the lamp shall be such that the light source(s) can be fixed in no other position but the correct one;",
+    "label": "4.5.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.3.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Road illumination devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle.",
+    "label": "4.5.2.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.4.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "it can only be fitted in the designated and correct position and can only be removed with the use of tool(s); and",
+    "label": "4.5.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.4.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "it is tamperproof; and",
+    "label": "4.5.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.4.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "when the light source module is removed and replaced by another module provided by the applicant and bearing the same light source module identification code, the photometric requirements of the lamp or AFS system shall be met.",
+    "label": "4.5.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.3.2. Table 3a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the total objective luminous flux of all light sources (UN approved light sources, light source modules and non-replaceable light sources) producing the principle passing-beam shall be equal or greater than the minimum values",
+    "label": "4.5.3.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.3.6.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In case of an AFS incorporating light sources and/or light source modules producing the basic passing-beam and having a total objective luminous flux of the lighting units",
+    "label": "4.5.3.6"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.1.2.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a lamp equipped with light source module(s) or non-replaceable light source(s), all measurements shall be made with the light source(s) present in the lamp.",
+    "label": "4.6.1.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.1.4.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "During photometric measurements, stray reflections shall be avoided by appropriate masking.",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.2.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified, the voltage supplied at the lamp shall be either 6.3 V (6 Volt-Systems), 13.2 V (12 Volt-Systems) or 28.0 V (24 Volt-Systems).",
+    "label": "4.6.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.2.1.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In case of a lamp and/or a light source module controlled by an electronic light source control gear, the lamp shall be operated as specified by the applicant.",
+    "label": "4.6.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.7.1.",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "If the outer lens of the lamp is made of plastic material tests shall be done according to the requirements in Annex 8.",
+    "label": "4.7.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.8.",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The sharpness and linearity of the cut-off, if applicable, shall be tested according to the requirements in Annex 6.",
+    "label": "4.8"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.9.",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "complementary tests shall be done according to the requirements in Annex 7 to ensure that in use there is no excessive change in photometric performance.",
+    "label": "4.9"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.1.",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The device is robust enough to withstand 50,000 operations under normal conditions of use.",
+    "label": "4.11.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.4.1.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Except in the case of adaptation of the driving-beam, either the passing-beam or the driving-beam shall always be obtained, without any possibility of remaining in an intermediate or undefined state",
+    "label": "4.11.4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.4.2.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the case of failure, it must be possible to obtain automatically a passing-beam or a state with respect to the photometric conditions which yields values not exceeding 1.30∙10³ cd in the zone III b",
+    "label": "4.11.4.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.5.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The user cannot, with ordinary tools, change the shape or position of the moving parts, or influence the switching device.",
+    "label": "4.11.5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.13.1.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "a signal indicating the failure of that specific function shall be provided, according to the applicant’s selection of one or more of the following options:",
+    "label": "4.13.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.16.",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted shall be white for all lamps.",
+    "label": "4.16"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.1.1.",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Each system shall provide a Class C passing-beam according to paragraph 5.3.2.4. and one or more passing-beam(s) of additional class(es)",
+    "label": "5.3.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.1.2.",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The system shall provide automatic modifications, such, that good road illumination is achieved and no discomfort is caused, neither to the driver nor to other road users.",
+    "label": "5.3.1.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The system shall, prior to the subsequent test procedures, be set to the neutral state, emitting the Class C passing-beam.",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.1.",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "the passing-beam in its neutral state shall produce from at least one lighting unit a “cut-off” as defined in Annex 5",
+    "label": "5.3.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.4. Table 7",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "When emitting a specified mode of the passing-beam, the system shall meet the requirements in the respective section (C, V, E, W) of part A of the Table 7",
+    "label": "5.3.2.4",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.5.1. Table 7 Part B",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The system meets the respective requirements of part B of Table 7 (photometric values) and item B of Table 8 (\"cut-off\" provisions), when measured according to the procedure indicated in paragraph 5.3.4.",
+    "label": "5.3.2.5.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.5.2.",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "the sum of the luminous intensity values provided by all contributors of the right or the left side of the system shall be at least 2.50∙10³ cd at one or more points in the zone extending from H-H to 2° below H-H",
+    "label": "5.3.2.5.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.5.4.",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "in the case of a failure affecting the lateral movement or modification of the illumination, it must be possible to obtain automatically either photometric conditions corresponding to paragraph 5.3.2.4.",
+    "label": "5.3.2.5.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.7.",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "A system or part(s) thereof, designed to meet the requirements of both right-hand and left-hand traffic must, in each of the two setting positions according to paragraph 4.10. meet the requirements specified for the corresponding direction of traffic.",
+    "label": "5.3.2.7"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.8.1.",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Any specified passing-beam mode provides at least 2.50∙10³ cd at point 50V from each side of the system;",
+    "label": "5.3.2.8.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.3.2. Table 5",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "When measured according to the provisions laid down in paragraph 5.1. the luminous intensity shall meet the requirements of Class B in Table 5 and of paragraph 5.1.4.2.",
+    "label": "5.3.3.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.3.4.",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be so made that the lighting unit(s) of the right side and of the left side each provide at least 1.60∙10⁴ cd at the point HV.",
+    "label": "5.3.3.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.4.1.1.",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be tested in the neutral state (central/straight), and, in addition in the state(s) corresponding to the smallest turn radius of the vehicle in both directions using the signal generator",
+    "label": "5.3.4.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.6.1. Table 18",
+    "page": 28,
+    "raw_pages": [
+      29
+    ],
+    "verdict": "ok",
+    "exact": "For a left side lamp, the intensity of the light at the specified measuring points and zones shall be as indicated in Table 18.",
+    "label": "5.6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "6.1.1.",
+    "page": 29,
+    "raw_pages": [
+      29
+    ],
+    "verdict": "ok",
+    "exact": "Road illumination devices approved under this Regulation shall be so manufactured as to conform to the type approved by meeting the requirements set forth in paragraphs 4.16. and 5.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "6.2.1.1.4.",
+    "page": 30,
+    "raw_pages": [
+      31
+    ],
+    "verdict": "ok",
+    "exact": "For AFS corresponding to paragraph 5.3. no value measured and corrected according to the prescriptions of paragraph 4.6., deviates unfavourably from the value prescribed in column B of Tables 21 to 36",
+    "label": "6.2.1.1.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.7.4.",
+    "page": 71,
+    "raw_pages": [
+      71
+    ],
+    "verdict": "ok",
+    "exact": "The changes within and between the provided classes and their modes of the AFS lighting functions as specified below, shall be performed automatically without causing discomfort, distraction or glare",
+    "label": "6.22.7.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.7.4.1.",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "The class C mode(s) of the passing-beam shall be activated if no mode of another passing-beam class is activated.",
+    "label": "6.22.7.4.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.7.4.3.",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "The class E mode(s) of the passing-beam shall not operate unless the vehicle's speed exceeds 60 km/h and one or more of the following conditions is/are automatically detected:",
+    "label": "6.22.7.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.7.4.5.",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "A mode of a class C, V, E, or W passing-beam shall not be modified to become a bending mode of said class",
+    "label": "6.22.7.4.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.7.4.5.",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "A horizontal movement of the asymmetric cut-off side-wards from the longitudinal axis of the vehicle, if any, is allowed only when the vehicle is in forward motion",
+    "label": "6.22.7.4.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.7.5.",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "It shall always be possible for the driver to set the AFS to the neutral state and to return it to its automatic operation.",
+    "label": "6.22.7.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.8.2.",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "A visual failure tell-tale for AFS is mandatory. It shall be non-flashing.",
+    "label": "6.22.8.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.9.1.",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "An AFS shall be permitted only in conjunction with the installation of headlamp cleaning device(s) according to UN Regulation No. 45",
+    "label": "6.22.9.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.6.2.1.",
+    "page": 70,
+    "raw_pages": [
+      70
+    ],
+    "verdict": "ok",
+    "exact": "In the case where a headlamp levelling device is necessary to satisfy the requirements of paragraph 6.22.6.1.2., the device shall be automatic.",
+    "label": "6.22.6.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.6.2.2.",
+    "page": 70,
+    "raw_pages": [
+      70
+    ],
+    "verdict": "ok",
+    "exact": "In the event of a failure of this device, the basic passing beam shall not assume a position in which the vertical inclination is less downward than it was at the time when the failure of the device occurred.",
+    "label": "6.22.6.2.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.20.7.",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "The cornering lamps shall be so connected that they cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps are switched ON at the same time.",
+    "label": "6.20.7"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.20.7.1.",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "The cornering lamp on one side of the vehicle may only be switched ON automatically when the direction-indicators on the same side of the vehicle are switched ON and/or when the steering angle is changed from the straight-ahead position towards the same side",
+    "label": "6.20.7.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.20.9.",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "The cornering lamps shall not be switched ON at vehicle speeds above 40 km/h.",
+    "label": "6.20.9"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.20.4.3.",
+    "page": 63,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "minimum: Not less than 250 mm above the ground; maximum: Not more than 900 mm above the ground.",
+    "label": "6.20.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.1.",
+    "page": 67,
+    "raw_pages": [
+      37,
+      67
+    ],
+    "verdict": "ok",
+    "exact": "Optional on motor vehicles. Prohibited on trailers.",
+    "label": "6.22.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.4.1.4.",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "The outer edge of the apparent surface of at least one lighting unit on each side of the vehicle shall not be more than 400 mm from the extreme outer edge of the vehicle",
+    "label": "6.22.4.1.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.22.5.",
+    "page": 70,
+    "raw_pages": [
+      70
+    ],
+    "verdict": "ok",
+    "exact": "The angles of geometric visibility prescribed for the respective lighting functions according to paragraphs 6.1.5. and 6.2.5. of this Regulation, shall be met by at least one of the lighting units that are simultaneously energized",
+    "label": "6.22.5"
+  }
+]

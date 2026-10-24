@@ -1,0 +1,1317 @@
+[
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Front fog lamps which are submitted for approval shall clearly, legibly and indelibly bear: (a) The trade name or mark of the applicant,",
+    "label": "3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "(b) Marking indicating the class of the front fog lamp, and in case of Class F3 front fog lamps:",
+    "label": "3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "(c) The LED module specific identification code, if any.",
+    "label": "3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "They shall comprise, on the lens and on the main body³, spaces of sufficient size for the approval mark and the additional symbols referred to in paragraph 3.; these spaces shall be indicated on the drawings referred to in paragraph 2.2.1.",
+    "label": "3.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.3.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking shall be placed on an inner or outer part (transparent or not) of the device which cannot be separated from the transparent part of the device emitting light.",
+    "label": "3.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.3.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "In any case the marking shall be visible when the device is fitted on the vehicle, at least when a movable part such as the hood or boot lid or a door is opened.",
+    "label": "3.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.4.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "In case of Class F3 front fog lamps with LED module(s) the lamp shall bear the marking of the rated voltage, rated wattage and the light source module specific identification code.",
+    "label": "3.4"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.5.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Shall bear the trade name or mark of the applicant; this marking must be clearly legible and indelible;",
+    "label": "3.5.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.5.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Shall bear the specific identification code of the module; this marking must be clearly legible and indelible.",
+    "label": "3.5.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "3.6.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "If a light source control gear is used, which is not part of the LED module it shall be marked with its specific identification code(s), the rated input voltage and wattage.",
+    "label": "3.6"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "4.1.5.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In addition to the mark prescribed in paragraph 3.1. an approval mark as described in paragraphs 4.2. and 4.3. shall be affixed in the spaces referred to in paragraph 3.2. to every fog lamp conforming to a type approved under this Regulation.",
+    "label": "4.1.5"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "4.2.2.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "On front fog lamps meeting the requirements of this Regulation, in the case of: (a) Class B; the letter \"B\" (b) Class F3; the symbol \"F3\"",
+    "label": "4.2.2.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "4.2.2.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "On front fog lamps incorporating a lens of plastic material the group of letters \"PL\" to be affixed near the symbols prescribed in paragraph 4.2.2.1.;",
+    "label": "4.2.2.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "4.2.2.3.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "On units meeting the requirements of this Regulation which are so designed that the filament(s) of one function shall not be lit simultaneously with that of any function with which it may be reciprocally incorporated, an oblique stroke (/) shall be placed behind the symbol in the approval mark of such function.",
+    "label": "4.2.2.3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "4.2.2.3.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "On units meeting the requirements of Annex 5 to this Regulation only when supplied with a voltage of 6 V or 12 V, a symbol consisting of the number 24 crossed out by an oblique cross (x) shall be placed near the filament lamp holder.",
+    "label": "4.2.2.3.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "4.2.2.5.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Front fog lamps of Class F3 having asymmetric light distribution and which must not be indiscriminately mounted on either side of the vehicle, shall bear an arrow pointing to the outside of the vehicle.",
+    "label": "4.2.2.5"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "4.2.2.7.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The marks and symbols referred to in paragraphs 4.2.1. and 4.2.2. shall be clearly legible and be indelible even when the front fog lamp is fitted in the vehicle.",
+    "label": "4.2.2.7"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Each sample of front fog lamp submitted in conformity with paragraph 2.2. shall meet the specifications set forth in paragraphs 6. and 7. of this Regulation.",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.2.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The front fog lamps shall be so designed and constructed that in normal use, despite the vibrations to which they may then be subjected, their satisfactory operation continues to be ensured and they retain the characteristics prescribed by this Regulation.",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.2.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The correct position of the lens shall be clearly marked and the lens and reflector shall be so secured as to prevent any rotation during use.",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.2.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Front fog lamps shall be fitted with a device enabling them to be so adjusted on the vehicles as to comply with the rules applicable to them.",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.3.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Complementary tests shall be carried out according to the requirements of Annex 5 to ensure that in use there is no excessive change in photometric performance.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.4.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "If the lens of the front fog lamp is of plastic material, tests shall be carried out according to the requirements of Annex 6.",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.5.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The light source's holder shall conform to the characteristics given in IEC Publication No. 60061. The holder data sheet relevant to the category of light sources used applies;",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.5.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The light source shall fit easily into the front fog lamp;",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.5.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The design of the device shall be such that the light source(s) can be fixed in no other position but the correct one.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.6.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In the case of Class B, the front fog lamp shall only be equipped with one filament light source approved according to Regulation No. 37, even if the filament light source cannot be replaced.",
+    "label": "5.6"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.7.1.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Regulation No. 37 and its series of amendments in force at the time of application for type approval, provided that no restriction on their use is made,",
+    "label": "5.7.1.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.7.1.2.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Or, Regulation No. 99 and its series of amendments in force at the time of application for type approval,",
+    "label": "5.7.1.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.7.2.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "And/or, one or more LED modules where the requirements of Annex 12 to this Regulation shall apply; compliance with these requirements shall be tested.",
+    "label": "5.7.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.8.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The design of the LED module(s) or light generator(s) shall be such that they can be fitted in no position other than the correct one.",
+    "label": "5.8.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.8.2.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Non-identical light source modules, if any, shall be non-interchangeable within the same lamp housing.",
+    "label": "5.8.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.8.3.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The LED module(s) shall be tamperproof.",
+    "label": "5.8.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.10.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The UV resistance of light transmitting components located inside the front fog lamp and made of plastic material shall be tested according to Annex 6, paragraph 2.7.",
+    "label": "5.10.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.11.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The front fog lamp and its ballast system or light source control gear shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle¹.",
+    "label": "5.11"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "5.13.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In the case of Class F3 the sharpness and linearity of the cut-off shall be tested according to the requirements of Annex 9.",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Front fog lamps shall be so designed as to provide illumination with limited dazzle.",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.2.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The luminous intensity produced by the front fog lamp shall be measured at 25 m distance by means of a photoelectric cell having a useful area comprised within a square of 65 mm side.",
+    "label": "6.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.3.1.",
+    "page": 8,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The beam shall produce on this aiming screen, over a width of not less than 5.0° on both sides of the line v, a symmetrical and substantially horizontal cut-off to enable visual vertical adjustment.",
+    "label": "6.3.3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.3.2.",
+    "page": 8,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The front fog lamp shall be so adjusted that the cut-off on the aiming-screen is 1.15° below the line h.",
+    "label": "6.3.3.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.5. Table (Class B)",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The luminous intensity shall be measured in either white or selective yellow light as prescribed by the manufacturer for use of the front fog lamp in normal service.",
+    "label": "6.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.5. Table (Class B)",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Line 1 15° U to 60° U 0° 145 cd max",
+    "label": "6.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.5. Table (Class B)",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Zone A 0° to 1.75° U 5° L to 5°R 85 cd min",
+    "label": "6.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.5. Table (Class B)",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Zone B 0° to 3.5° U 26°L to 26°R 570 cd max",
+    "label": "6.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.5. Table (Class B)",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Zone C 3.5° U to 15° U 26°L to 26°R 360 cd max",
+    "label": "6.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.5. Table (Class B)",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Zone D 1.75° D to 3.5° D 12°L to 12°R 1,700 cd min 11,500 cd max At least one point on each vertical line",
+    "label": "6.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.5. Table (Class B)",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Zone E 1.75° D to 3.5° D 12°L to 22°L and 12°R to 22°R 810 cd min 11,500 cd max At least one point on each vertical line",
+    "label": "6.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.6.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "In the light-distribution as specified in the table in paragraph 6.3.5., single narrow spots or stripes inside the area above 15° with not more than 230 cd are allowed, if not extending beyond a conical angle of 2° aperture or a width of 1°.",
+    "label": "6.3.6"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.3.6.",
+    "page": 9,
+    "raw_pages": [
+      9,
+      11
+    ],
+    "verdict": "ok",
+    "exact": "If multiple spots or stripes are present they shall be separated by a minimum angle of 10°.",
+    "label": "6.3.6"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.2.2.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The beam shall produce on this aiming screen, over a width of not less than 5.0 degrees on both sides of the line v, a symmetrical and substantially horizontal cut-off to enable visual vertical adjustment.",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.2.3.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The front fog lamp shall be adjusted so that the cut-off on the screen is 1° below the line h according to the requirements in paragraph 2. of Annex 9.",
+    "label": "6.4.2.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Point 1, 2** +60° ±45° 85 max All points",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 1** +8° -26° to +26° 130 max All line",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 2** +4° -26° to +26° 150 max All line",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 3 +2° -26° to +26° 245 max All line",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 4 +1° -26° to +26° 360 max All line",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 5 0° -10° to +10° 485 max All line",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 6 *** -2.5° -10° to +10° 2700 min All line",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 7 *** -6.0° -10° to +10° < 50 per cent of max. on line 6 All line",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 8L and R*** -1.5° to -3.5° -22° and +22° 1,100 min One or more points",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Line 9L and R*** -1.5° to -4.5° -35° and +35° 450 min One or more points",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3. Table (Class F3)",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Zone D*** -1.5° to -3.5° -10° to +10° 12,000 max Whole zone",
+    "label": "6.4.3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3.1.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Variations in homogeneity detrimental to satisfactory visibility in the zone above the line 5 from 10 degrees left to 10 degrees right are not permitted.",
+    "label": "6.4.3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3.3.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Inside the field between lines 1 to 5 in Figure 3 of Annex 4, the beam pattern should be substantially uniform. Discontinuities in intensities detrimental to satisfactory visibility between the lines 6, 7, 8 and 9 are not permitted.",
+    "label": "6.4.3.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "6.4.3.4.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "In the light-distribution as specified in the table in paragraph 6.4.3., single narrow spots or stripes inside the area including the measuring points 1 to 10 and line 1 or inside the area of line 1 and line 2 with not more than 175 cd are allowed, if not extending beyond a conical angle of 2° aperture or a width of 1°.",
+    "label": "6.4.3.4"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "7.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted by the front fog lamp shall be either white or selective yellow by choice of the applicant.",
+    "label": "7"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "7.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The selective yellow colour, if any, of the beam may be obtained either by the colour of the light source or by the lens of the front fog lamp or by any other suitable means.",
+    "label": "7"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 5 1.",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 5"
+    ]
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 5 1.1.1.",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 5 1.1.1.1"
+    ]
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 5 1.1.1.2.",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "In the case of more than one lighting function (e.g. a headlamp with one or more driving beams and/or a front fog lamp): the headlamp shall be subjected to the following cycle until the prescribed time is reached: (a) 15 minutes, front fog lamp lit; (b) 5 minutes, all filaments lit.",
+    "label": "Annex 5 1.1.1.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 5 1.1.2.",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "In the case of non-replaceable light source operated directly under vehicle voltage system conditions: all measurements on lighting units equipped with non-replaceable light sources",
+    "label": "Annex 5 1.1.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 5 1.1.3.1.",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "It shall then be inspected visually; no distortion, deformation, cracking or change in colour of either the front fog lamp lens or the external lens, if any, shall be noticeable.",
+    "label": "Annex 5 1.1.3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 5 1.1.3.2.",
+    "page": 29,
+    "raw_pages": [
+      29
+    ],
+    "verdict": "ok",
+    "exact": "A 10 per cent discrepancy between the photometric characteristics and the values measured prior to the test is permissible including the tolerances of the photometric procedure.",
+    "label": "Annex 5 1.1.3.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 5 2.2.1.",
+    "page": 30,
+    "raw_pages": [
+      30
+    ],
+    "verdict": "ok",
+    "exact": "The result expressed in milliradians (mrad) shall be considered acceptable when the absolute value ∆ rI = | r3 - r60 | recorded on this front fog lamp is not more than 2 mrad (∆ rI ≤ 2 mrad).",
+    "label": "Annex 5 2.2.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.1.2.2.",
+    "page": 31,
+    "raw_pages": [
+      31
+    ],
+    "verdict": "ok",
+    "exact": "The variation between the photometric values measured on each sample before and after the test shall not exceed 10 per cent including the tolerances of the photometric procedure.",
+    "label": "Annex 6 2.1.2.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.2.3.1.",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "After the test of resistance to atmospheric agents, the outer face of the samples shall be free from cracks, scratches, chipping and deformation, and the mean variation in transmission",
+    "label": "Annex 6 2.2.3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.2.3.1.",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "measured on the three samples according to the procedure described in Appendix 2 to this annex shall not exceed 0.020 (∆ tm ≤ 0.020).",
+    "label": "Annex 6 2.2.3.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.2.3.2.",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "After the test of resistance to chemical agents, the samples shall not bear any traces of chemical staining likely to cause a variation of flux diffusion, whose mean variation",
+    "label": "Annex 6 2.2.3.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.3.3.",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "After the above two tests have been performed successively, the mean value of the variation in transmission:",
+    "label": "Annex 6 2.3.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.4.2.",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "The mean value of the three samples shall be such that: ∆ tm ≤ 0.010; ∆ dm ≤ 0.050.",
+    "label": "Annex 6 2.4.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.5.3.",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no appreciable impairment of the grated area. Impairments at the intersections between squares or at the edges of the cuts shall be permitted, provided that the impaired area does not exceed 15 per cent of the grated surface.",
+    "label": "Annex 6 2.5.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.6.1.2.",
+    "page": 34,
+    "raw_pages": [
+      34
+    ],
+    "verdict": "ok",
+    "exact": "After the test, the results of photometric measurements prescribed in zone B for Class B front fog lamp and lines 2 and 5 for Class F3 front fog lamp shall not exceed the maximum values prescribed by more than 30 per cent.",
+    "label": "Annex 6 2.6.1.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 6 2.7.1.2.",
+    "page": 34,
+    "raw_pages": [
+      34
+    ],
+    "verdict": "ok",
+    "exact": "After 1,500 hours of continuous exposure, the colorimetric specifications of the transmitted light must be met with a new standard gas-discharge light source, and the surface of the samples shall be free of cracks, scratches, scaling or deformation.",
+    "label": "Annex 6 2.7.1.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 9 2.",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "For visual adjustment of the front fog beam the cut-off line shall provide: a horizontal line for vertical adjustment of the front fog lamp extending to 4° either side of the v‑v line (see Figure 1).",
+    "label": "Annex 9 2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 9 4.1.2.",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "If scanned vertically through the horizontal part of the cut-off line along vertical lines at ±1° from the v‑v line, the maximum value measured for the sharpness factor G of the cut-off line shall not be less than 0.08 where:",
+    "label": "Annex 9 4.1.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 9 4.1.3.",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "The part of the cut-off line which serves vertical adjustment shall be horizontal from 3° left to 3° right of the v‑v line.",
+    "label": "Annex 9 4.1.3"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 12 1.2.",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "LED modules shall be so designed as to be, and to remain in good working order when in normal use. They shall moreover exhibit no fault in design or manufacture.",
+    "label": "Annex 12 1.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 12 1.4.1.",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "After removal and replacement of the module the photometric requirements of the headlamp shall still be met;",
+    "label": "Annex 12 1.4.1"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 12 4.3.2.",
+    "page": 46,
+    "raw_pages": [
+      46
+    ],
+    "verdict": "ok",
+    "exact": "The front fog lamp shall reach at least in the point 0°, 2.5°D on the line 6 a luminous intensity: After 1 second: 25 per cent of its objective luminous flux; After 4 seconds: 80 per cent of its objective luminous flux.",
+    "label": "Annex 12 4.3.2"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 12 4.7.1.6.",
+    "page": 48,
+    "raw_pages": [
+      48
+    ],
+    "verdict": "ok",
+    "exact": "The illuminance values measured after one minute and until photometric stability has occurred, shall comply with the minimum and maximum requirements.",
+    "label": "Annex 12 4.7.1.6"
+  },
+  {
+    "regulation": "UN R19",
+    "paragraph": "Annex 12 4.7.2.",
+    "page": 48,
+    "raw_pages": [
+      48
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted, measured after 1 minute and measured after photometric stability has been obtained, as described in paragraph 4.7.1.3. of this annex, shall be within the required colour boundaries in both instances.",
+    "label": "Annex 12 4.7.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The external surface of vehicles shall not exhibit, directed outwards, any pointed or sharp parts or any projections of such shape, dimensions, direction or hardness as to be likely to increase the risk or seriousness of bodily injury to a person hit by the external surface or brushing against it in the event of a collision.",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.3.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The external surface of vehicles shall not exhibit, directed outwards, any part likely to catch on pedestrians, cyclists or motor cyclists.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.4.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "No protruding part of the external surface shall have a radius of curvature less than 2.5 mm. This requirement shall not apply to parts of the external surface which protrude less than 5 mm, but the outward facing angles of such parts shall be blunted, save where such parts protrude less than 1.5 mm.",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.5.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Protruding parts of the external surface, made of a material of hardness not exceeding 60 shore A, may have a radius of curvature less than 2.5 mm.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.1.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The ends of the bumpers shall be turned in towards the external surface in order to minimize the risk of fouling.",
+    "label": "6.5.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.1.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "This requirement is considered to be satisfied if either the bumper is recessed or integrated within the bodywork or the end of the bumper is turned in so that it is not contactable by a 100 mm sphere and the gap between the bumper end and the surrounding bodywork does not exceed 20 mm.",
+    "label": "6.5.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.2.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "If the line of the bumper which corresponds to the outline contour of the car vertical projection is on a rigid surface, that surface shall have a minimum radius of curvature of 5 mm at all its points lying from the contour line to 20 mm inward",
+    "label": "6.5.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.2.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "and a minimum radius of curvature of 2.5 mm in all other cases.",
+    "label": "6.5.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.3.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The requirement of paragraph 6.5.2. above shall not apply to parts on or of the bumper or to bumper insets which have a projection of less than 5 mm, with special reference to joint covers and jets for headlamp washers;",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.3.",
+    "page": 7,
+    "raw_pages": [
+      4,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "but the outward facing angles of such parts shall be blunted, save where such parts protrude less than 1.5 mm.",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.4.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The requirement of paragraph 6.5.2. above does not apply to the bumper cover. The provisions of paragraph 5. of this Regulation remain applicable.",
+    "label": "6.5.4"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.3.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The requirements of paragraph 5.4. above shall not apply to gaps between fixed or movable elements, including those forming part of air intake or outlet grilles and radiator grilles, provided that the distance between consecutive elements does not exceed 40 mm and provided that the grilles and gaps have a functional purpose.",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.3.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For gaps of between 40 mm and 25 mm the radii of curvature shall be 1 mm or more. However, if the distance between two consecutive elements is equal to or less than 25 mm, the radii of curvature of external faces of the elements shall not be less than 0.5 mm.",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.3.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The junction of the front with the side faces of each element forming a grille or gap shall be blunted.",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.3.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "On the vehicle representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limit.",
+    "label": "6.3.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.3.",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "On the vehicle representative of its type, the measured values, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.2.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6.",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Maximum allowed pulse amplitude",
+    "label": "6.7.1. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2.",
+    "page": 11,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.2. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.2. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.2. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.2. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.2. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  }
+]

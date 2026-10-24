@@ -1,0 +1,616 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-bev-battery",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The traction battery pack shall provide protection degree IPXXD for its high voltage live parts where those live parts are located inside the passenger compartment, luggage compartment or trailer load compartment.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The traction battery pack shall provide protection degree IPXXB for its high voltage live parts in areas other than the passenger compartment, luggage compartment or trailer load compartment.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The traction battery pack shall bear the high voltage symbol of Figure 2 on or near it, with a yellow background and black bordering and arrow.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.4.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The battery enclosure and electrical protection barriers of the traction battery pack shall be marked with the high voltage symbol where their removal exposes high voltage live parts.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.4.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The high voltage busbar and cable connections of the traction battery pack that are not located within enclosures shall have an orange outer covering.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.1.4.3"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The traction battery pack shall have a resistance below 0.1 ohm between all exposed conductive parts and the electrical chassis at a current flow of at least 0.2 A.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.2.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The traction battery pack DC high voltage bus shall maintain an isolation resistance to the electrical chassis of at least 100 ohm per volt of the working voltage when the AC and DC buses are galvanically isolated.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.3.1"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The traction battery pack shall maintain an isolation resistance between the high voltage bus and the electrical chassis of at least 500 ohm per volt of the working voltage where its AC and DC high voltage buses are galvanically connected.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.3.2"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The traction battery pack, as installed in the vehicle, shall be designed so that smoke caused by thermal propagation is not released into the passenger compartment.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.2.2.2"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The traction battery pack system shall provide a signal to activate a driver warning when the vehicle is in active driving possible mode in the events specified in paragraphs 6.13. to 6.15.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The traction battery pack shall show no electrolyte leakage, rupture, venting, fire or explosion during the vibration test conducted in accordance with Annex 9A.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 13,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The traction battery pack shall have an isolation resistance of not less than 100 ohm per volt measured in accordance with Annex 5B after the vibration test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 13,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The traction battery pack shall show no electrolyte leakage, rupture, venting, fire or explosion during the thermal shock and cycling test conducted in accordance with Annex 9B.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 13,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The traction battery pack shall have an isolation resistance of not less than 100 ohm per volt measured in accordance with Annex 5B after the thermal shock and cycling test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 14,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The traction battery pack shall show no fire and no explosion during the mechanical shock test conducted in accordance with Annex 9C.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 14,
+        "paragraph": "6.4.1.3"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The traction battery pack shall be retained by its mounting and its components shall remain inside its boundaries after the component based mechanical shock test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 15,
+        "paragraph": "6.4.1.3"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The traction battery pack shall have an isolation resistance of at least 100 ohm per volt for the whole REESS measured after the mechanical shock test, or fulfil protection degree IPXXB.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 15,
+        "paragraph": "6.4.1.3"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The traction battery pack shall be subjected to the mechanical integrity test of paragraph 6.4.2 as it is intended for installation in vehicles of category M1.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 15,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The traction battery pack shall show no fire and no explosion during the mechanical integrity test conducted in accordance with paragraph 6.4.2.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 16,
+        "paragraph": "6.4.2.3"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The traction battery pack shall have an isolation resistance of at least 100 ohm per volt for the whole REESS after the mechanical integrity test, or fulfil protection degree IPXXB.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 17,
+        "paragraph": "6.4.2.3"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The traction battery pack shall exhibit no evidence of explosion during the fire resistance test conducted in accordance with Annex 9E.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 17,
+        "paragraph": "6.5.3.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The traction battery pack shall show no electrolyte leakage, rupture, venting, fire or explosion during the external short circuit test conducted in accordance with Annex 9F.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 17,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The traction battery pack shall have an isolation resistance of not less than 100 ohm per volt measured in accordance with Annex 5B after the external short circuit test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 17,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The traction battery pack shall show no electrolyte leakage, rupture, venting, fire or explosion during the overcharge protection test conducted in accordance with Annex 9G.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 18,
+        "paragraph": "6.7.2.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The traction battery pack shall have an isolation resistance of not less than 100 ohm per volt measured in accordance with Annex 5B after the overcharge protection test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 18,
+        "paragraph": "6.7.2.2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The traction battery pack shall show no electrolyte leakage, rupture, venting, fire or explosion during the over-discharge protection test conducted in accordance with Annex 9H.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 18,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The traction battery pack shall have an isolation resistance of not less than 100 ohm per volt measured in accordance with Annex 5B after the over-discharge protection test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 18,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The traction battery pack shall show no electrolyte leakage, rupture, venting, fire or explosion during the over-temperature protection test conducted in accordance with Annex 9I.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 18,
+        "paragraph": "6.9.2.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The traction battery pack shall have an isolation resistance of not less than 100 ohm per volt measured in accordance with Annex 5B after the over-temperature protection test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 19,
+        "paragraph": "6.9.2.2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The traction battery pack shall be subjected to the overcurrent protection test of Annex 9J where it is intended for a category M1 vehicle with DC external charging capability.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 19,
+        "paragraph": "6.10"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The traction battery pack shall show no electrolyte leakage, rupture, venting, fire or explosion during the overcurrent protection test conducted in accordance with Annex 9J.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 19,
+        "paragraph": "6.10.2.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The BMS of the traction battery pack shall terminate charging, or stabilise the casing temperature to a gradient of less than 4 °C over 2 hours, after the maximum overcurrent charging level is reached.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 19,
+        "paragraph": "6.10.2.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The traction battery pack shall have an isolation resistance of not less than 100 ohm per volt measured in accordance with Annex 5B after the overcurrent protection test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 19,
+        "paragraph": "6.10.2.3"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The traction battery pack shall be designed so that, under vehicle operation including operation with a failure, vehicle occupants are not exposed to a hazardous environment caused by emissions from the REESS.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 19,
+        "paragraph": "6.12.1"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The traction battery pack or vehicle system shall provide a signal to activate the warning specified in paragraph 5.2.3 in the event of operational failure of the vehicle controls that manage safe operation of the REESS.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 20,
+        "paragraph": "6.13"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The traction battery pack or vehicle system shall provide a signal to activate the warning specified in paragraph 5.2.3 in the case of a thermal event within the REESS.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 20,
+        "paragraph": "6.14"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The traction battery pack, containing a flammable electrolyte, shall be designed so that vehicle occupants are not exposed to a hazardous environment caused by thermal propagation triggered by an internal short circuit leading to a single cell thermal runaway.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 20,
+        "paragraph": "6.15"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The traction battery pack or vehicle system shall provide a signal to activate the warning specified in paragraph 5.2.3 in the event of thermal propagation triggered by an internal short circuit leading to a single cell thermal runaway, in order to allow egress.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 20,
+        "paragraph": "6.15.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The traction battery pack shall have functions or characteristics in the cell, REESS or vehicle intended to protect vehicle occupants in conditions caused by thermal propagation triggered by an internal short circuit leading to a single cell thermal runaway.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 21,
+        "paragraph": "6.15.2"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The traction battery pack shall not exhibit fire, explosion or smoke release into the passenger compartment for 5 minutes following the signal to activate the warning indication in the physical thermal propagation test.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 23,
+        "paragraph": "6.15.3.4"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The traction battery pack shall be compatible with the vehicle with regard to their communication.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 25,
+        "paragraph": "6.16"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The traction battery pack's electronic systems shall maintain function when the vehicle is exposed to radiated field strengths of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole 20 to 2,000 MHz band, and 10 V/m over 90 per cent and a minimum of 8 V/m over the 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The traction battery pack's BMS and high voltage control functions shall show no degradation of performance of immunity related functions when the vehicle is tested in accordance with Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The traction battery pack, as an ESA, shall emit broadband electromagnetic radiation below 62 to 52 dB microvolts/m in the 30 to 75 MHz band, 52 to 63 dB microvolts/m in the 75 to 400 MHz band and 63 dB microvolts/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The traction battery pack, as an ESA, shall emit narrowband electromagnetic radiation below 52 to 42 dB microvolts/m in the 30 to 75 MHz band, 42 to 53 dB microvolts/m in the 75 to 400 MHz band and 53 dB microvolts/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The traction battery pack, as an ESA, shall withstand radiated immunity test levels of 30 V/m (ALSE) and 60 mA (BCI) over 90 per cent of the 20 to 6,000 MHz band, and 10 V/m above 2 GHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The traction battery pack, as an ESA, shall show no degradation of performance of immunity related functions when tested to the radiated immunity levels of Annex 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The traction battery pack, in REESS charging mode coupled to the power grid, shall maintain immunity to radiated fields of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole 20 to 2,000 MHz band, and 10 V/m over 90 per cent and a minimum of 8 V/m over the 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The traction battery pack shall show no degradation of immunity related functions during vehicle charging-mode immunity tests performed in accordance with Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 18,
+        "paragraph": "7.7.2.2"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The traction battery pack, as an ESA in charging mode, shall limit radiofrequency conducted disturbances on AC power lines to 66 to 56 dBµV quasi-peak and 56 to 46 dBµV average from 0.15 to 0.5 MHz, 56/46 dBµV from 0.5 to 5 MHz and 60/50 dBµV from 5 to 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 22,
+        "paragraph": "7.13.2.1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The traction battery pack, as an ESA in charging mode, shall limit radiofrequency conducted disturbances on DC power lines to 79 dBµV quasi-peak and 66 dBµV average from 0.15 to 0.5 MHz and 73/60 dBµV from 0.5 to 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 22,
+        "paragraph": "7.13.2.2"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The BMS and vehicle network interface of the traction battery pack shall verify the authenticity and integrity of messages received over its communication interfaces.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The traction battery pack shall implement security controls for storing cryptographic keys, for example by use of Hardware Security Modules.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The traction battery pack shall protect confidential data transmitted to or from the vehicle over its communication links.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The traction battery pack shall employ measures to detect and recover from a denial of service attack on its internal and external communication channels.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The traction battery pack shall implement measures to detect malicious internal messages or activity on its vehicle data buses.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The traction battery pack shall apply security controls to any of its functions that permit remote access, such as remote charging control.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The BMS firmware of the traction battery pack shall be security assessed, authenticated and integrity protected.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The traction battery pack shall apply security controls to its external interfaces, including the service and diagnostic interfaces.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The traction battery pack shall apply access control techniques and designs to protect its system data and code, including charging parameters.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 5. Table B5"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The traction battery pack shall follow cybersecurity best practices for software and hardware development and for system design and integration.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 21,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    }
+  ]
+}

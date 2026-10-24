@@ -1,0 +1,305 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.1.",
+      "quote": "An onboard speedometer and odometer complying with the requirements of this Regulation shall be fitted to the vehicle to be approved.",
+      "text": "The instrument cluster shall provide an onboard speedometer and an odometer that comply with all requirements of UN R39."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.1.",
+      "quote": "If more than one onboard speedometer or odometer is fitted to the vehicle, all these speedometers and odometers shall comply with all the requirements of this Regulation when displayed.",
+      "text": "The instrument cluster shall comply with all UN R39 requirements for every speedometer and odometer display fitted to the vehicle."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.1.",
+      "quote": "Additional graduations and numerical values are not permitted.",
+      "text": "The instrument cluster shall not display graduations or numerical values additional to those permitted by UN R39 on the speedometer."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.2.",
+      "quote": "The display of the speedometer shall be located within the direct field of view of the driver and must be clearly legible both day and night.",
+      "text": "The instrument cluster shall place the speedometer display within the driver's direct field of view and make it clearly legible both day and night."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.2.",
+      "quote": "The range of speeds displayed must be sufficiently wide to include the maximum speed of this type of vehicle as stated by the manufacturer.",
+      "text": "The instrument cluster shall provide a speed display range wide enough to include the maximum speed of the vehicle type stated by the manufacturer."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1.",
+      "quote": "In the case of speedometers intended for vehicles of Categories M, N, and L3, L4, L5, and L7 the graduation shall be 1, 2, 5 or 10 km/h.",
+      "text": "For the M1 vehicle, the instrument cluster speedometer shall use a graduation of 1, 2, 5 or 10 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1.",
+      "quote": "when the highest value on the display does not exceed 200 km/h, speed values shall be indicated at intervals not exceeding 20 km/h.",
+      "text": "The instrument cluster shall indicate speed values at intervals not exceeding 20 km/h when the highest value on the display does not exceed 200 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1.",
+      "quote": "When the maximum value on the display exceeds 200 km/h, then the speed values shall be indicated at intervals not exceeding 30 km/h.",
+      "text": "The instrument cluster shall indicate speed values at intervals not exceeding 30 km/h when the maximum value on the display exceeds 200 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1.",
+      "quote": "If a setting makes it possible for the driver to choose between the speed in km/h and mph (miles per hour), then the speed may be displayed only in either km/h or mph at any one time.",
+      "text": "Where the instrument cluster offers a km/h / mph setting, it shall display the speed in only one of the two units at any one time."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1.",
+      "quote": "The corresponding unit shall permanently be displayed.",
+      "text": "The instrument cluster shall permanently display the speed unit corresponding to the selected display mode."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.2.",
+      "quote": "In the case of vehicles of Categories M, N, and L3, L4, L5, and L7 manufactured for sale in any country where imperial units are used, the speedometer shall also be marked in miles per hour (mph); the graduations shall be of 1, 2, 5 or 10 mph.",
+      "text": "For M1 vehicles sold in countries where imperial units are used, the instrument cluster speedometer shall also be marked in miles per hour with graduations of 1, 2, 5 or 10 mph."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.2.",
+      "quote": "The numerical values of the speed shall be indicated on the display at intervals not exceeding 20 mph and commencing at 10 or 20 mph.",
+      "text": "The instrument cluster shall indicate mph speed values at intervals not exceeding 20 mph, commencing at 10 or 20 mph."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.4.",
+      "quote": "The speed indicated shall not be less than the true speed of the vehicle.",
+      "text": "The instrument cluster shall never indicate a speed lower than the true speed of the vehicle."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.4.",
+      "quote": "there shall be the following relationship between the speed displayed (V1) and the true speed (V2). 0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h",
+      "text": "The instrument cluster shall maintain, at each UN R39 test speed, the relation 0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h between displayed speed V1 and true speed V2."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.",
+      "quote": "The display of the odometer shall be visible or accessible to the driver.",
+      "text": "The instrument cluster shall make the odometer display visible or accessible to the driver."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.",
+      "quote": "The odometer shall display at least an integer number composed of a minimum of 6 numerals for the vehicles of categories M and N",
+      "text": "The instrument cluster odometer shall display at least an integer number composed of a minimum of 6 numerals for the M1 vehicle."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.1.",
+      "quote": "In the case of vehicles manufactured for sale in any country where imperial units are used, the odometer shall be marked in miles.",
+      "text": "For M1 vehicles sold in countries where imperial units are used, the instrument cluster odometer shall be marked in miles."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.2.",
+      "quote": "The odometer shall display the distance in the unit corresponding to that of the predominant speedometer scale.",
+      "text": "The instrument cluster shall display the odometer distance in the unit corresponding to the predominant speedometer scale."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.2.",
+      "quote": "If a setting makes it possible for the driver to select the odometer display distance in km or miles independently of the speedometer, the odometer shall identify the unit used.",
+      "text": "Where the driver can select the odometer unit independently of the speedometer, the instrument cluster shall identify the odometer unit in use."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.8.",
+      "quote": "The total distance indicated shall not deviate by more than ±4.0 per cent from the true distance travelled as determined in paragraph 5.7.",
+      "text": "The instrument cluster total distance indicated shall not deviate by more than ±4.0 per cent from the true distance travelled determined per Annex 4."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.9.",
+      "quote": "When total distance values are provided by the serial data port on the standardised data link connector, as specified in paragraph 6.5.3 of Appendix 1 of Annex C5 to UN Regulation No. 154",
+      "text": "Where the instrument cluster provides total distance values over the serial data port on the standardised data link connector, those values shall not deviate from the rounded total distance indicated."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.10.",
+      "quote": "Total distance values and the total distance indicated shall have a resolution better than or equal to 1 km or 1 mile, as appropriate.",
+      "text": "The instrument cluster shall provide the total distance values and the total distance indicated with a resolution of 1 km or better (1 mile or better where miles are used)."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.11.",
+      "quote": "In the case of an electrically detectable failure preventing the odometer requirements of this UN Regulation from being met, a malfunction indication shall be provided to the driver",
+      "text": "The instrument cluster shall provide a malfunction indication to the driver in the case of an electrically detectable failure preventing the odometer requirements from being met."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.11.1.",
+      "quote": "The malfunction indication shall be active when the malfunction occurs and shall remain active as long as the malfunction persists.",
+      "text": "The instrument cluster malfunction indication shall become active when the malfunction occurs and remain active as long as the malfunction persists."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.11.1.",
+      "quote": "It may be temporarily cancelled, but shall be repeated each time the ignition or the vehicle master control switch is activated.",
+      "text": "The instrument cluster shall repeat the odometer malfunction indication each time the ignition or vehicle master control switch is activated."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.12.",
+      "quote": "The total distance indicated and total distance values shall be protected against manipulation.",
+      "text": "The instrument cluster shall protect the total distance indicated and the total distance values against manipulation (tampering)."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 10,
+      "paragraph": "Annex 3 2.",
+      "quote": "In the case of vehicles of categories M and N: 0 ≤ (V1 - V2) ≤ 0.1 V2 + 6 km/h;",
+      "text": "The instrument cluster shall, for conformity of production speedometer testing of the M1 vehicle, satisfy 0 ≤ (V1 - V2) ≤ 0.1 V2 + 6 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "page": 10,
+      "paragraph": "Annex 4 1.1.8.",
+      "quote": "The vehicle is driven for a minimum of 10 kilometres or 7 miles as indicated on the odometer and the true value is read from the instrumentation at the point where the odometer switches to the corresponding integer.",
+      "text": "The instrument cluster odometer shall increment at integers throughout a minimum 10 km (or 7 mile) test drive so the true distance can be read at each integer transition."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.2.2.",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+      "text": "The instrument cluster, as an ESA, shall carry the UN R10 approval mark when approved as an ESA under this Regulation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.",
+      "quote": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation.",
+      "text": "The instrument cluster shall display the international approval mark in the conspicuous and easily accessible place specified on the approval communication form."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.5.",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+      "text": "The instrument cluster's UN R10 approval marking need not be visible once the cluster is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1.",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "text": "The instrument cluster shall be designed, constructed and fitted so that the vehicle complies with UN R10 requirements in normal conditions of use."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.1.1.2.",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "The instrument cluster shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1.",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The instrument cluster broadband radiated emissions shall stay below the ESA limits of 62 to 52 dBµV/m from 30 to 75 MHz and the corresponding limits up to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.2.",
+      "quote": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "text": "The instrument cluster shall keep measured broadband emission values below the ESA type approval limits."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1.",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The instrument cluster narrowband radiated emissions shall stay below the ESA limits of 52 to 42 dBµV/m from 30 to 75 MHz and the corresponding limits up to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Positive +75 V Negative -100 V",
+      "text": "For a 12 V system, the instrument cluster transient conducted disturbance emissions on the supply lines shall not exceed +75 V (positive pulses) and -100 V (negative pulses)."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+      "text": "The instrument cluster shall withstand, over 90 per cent of the 20 MHz to 2 GHz band, radiated immunity test levels of 60 V/m (stripline), 75 V/m (TEM cell), 60 mA (BCI), 30 V/m (ALSE) and 21 V/m (reverberation chamber), plus 10 V/m (ALSE) and 7 V/m (reverberation chamber) above 2 GHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+      "text": "The instrument cluster shall withstand, as minimum levels over the whole 20 MHz to 6 GHz band, 50 V/m (stripline), 62.5 V/m (TEM cell), 50 mA (BCI), 25 V/m (ALSE) and 18 V/m (reverberation chamber), plus 8 V/m (ALSE) and 6 V/m (reverberation chamber) above 2 GHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.2.",
+      "quote": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+      "text": "The instrument cluster shall show no degradation of its immunity related functions (speed display, odometer and warning tell-tales) during radiated immunity testing."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "1 -75 V -450 V 500 pulses III III 2a +37 V +37 V 500 pulses I III",
+      "text": "For a 12 V system, the instrument cluster shall meet functional performance status III for test pulses 1 and 2a (500 pulses, -75 V and +37 V) where related to immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "2b +10 V + 20 V 10 pulses II III 3a -112 V -150 V 1 h I III",
+      "text": "For a 12 V system, the instrument cluster shall meet functional performance status II for pulse 2b (+10 V, 10 pulses) and status I for pulse 3a (-112 V, 1 h) with respect to its immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 73,
+      "paragraph": "Annex 6 2.1.1.2. Table",
+      "quote": "Cluster operate in normal mode Unexpected warning Inconsistent variation of the odometer",
+      "text": "The instrument cluster shall, under the 50 km/h immunity test mode, operate in normal mode and show neither unexpected warnings nor inconsistent variation of the odometer."
+    }
+  ]
+}

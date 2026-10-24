@@ -1,0 +1,290 @@
+[
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Tyres intended for use as part of a temporary-use spare unit as defined in paragraph 2.10., shall be approved in accordance with Regulations Nos. 30 or 54.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "the load capacity of the temporary-use spare unit shall be at least equal to one half of the highest of the maximum axle loads",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The design speed of the temporary-use spare unit shall be at least 120 km/h for types 1, 2 and 3.",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.4.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "An 80 km/h maximum speed warning symbol arranged in accordance with the diagram below shall be permanently displayed on the outer face of the wheel in a prominent position",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.4.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "with the exception that the figure \"80\" shall be replaced by \"50\" and the wording \"km/h\" by \"mph\"",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.4.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Upper case letters shall be at least 5 mm high and the numbers \"80\" and \"50\" shall be at least 20 mm high",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.4.1",
+    "page": 5,
+    "raw_pages": [
+      5,
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Lower case text shall at least have a line height of 5 mm. All text shall be enclosed in a border and be on a background of contrasting colour.",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.4.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the outward facing surface of the wheel and/or tyre shall exhibit a distinctive colour or colour pattern which is quite clearly different from the colour(s) of the standard units",
+    "label": "5.1.4.2"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "5.1.4.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "If it is possible to attach a wheel cover to the temporary-use spare unit, the distinctive colour or colour pattern shall not be obscured by this wheel cover.",
+    "label": "5.1.4.2"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "6.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "A statement of the risk resulting from non-compliance with the restrictions on the use of a temporary-use spare unit including, as appropriate, a statement relating to use restricted to a specific axle",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "6.1.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "An instruction to drive with caution and at no more than the permitted maximum speed of 80 km/h (50 mph) when a type 1, 2 or 3 temporary-use spare unit",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "6.1.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "A statement that operation of the vehicle is not permitted with more than one temporary-use spare unit fitted at the same time",
+    "label": "6.1.3"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "6.1.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "A clear indication of the inflation pressure specified by the vehicle manufacturer for the tyre of the temporary-use spare unit",
+    "label": "6.1.4"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 1.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The test track shall be substantially level and have a surface affording good adhesion.",
+    "label": "Annex 3 1.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The test shall be performed when there is no wind liable to affect the results.",
+    "label": "Annex 3 1.2"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 1.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall be loaded to its maximum mass as defined in paragraph 2.9. of this Regulation.",
+    "label": "Annex 3 1.3"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 1.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The axle loads resulting from the loading condition in accordance with paragraph 1.3. of this annex shall be proportional to the maximum axle loads",
+    "label": "Annex 3 1.4"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 1.5",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the tyres shall be inflated to the pressures recommended by the vehicle manufacturer for the vehicle type and loading condition",
+    "label": "Annex 3 1.5"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The test shall be carried out with the temporary-use spare unit fitted alternately in place of one front wheel and one rear wheel.",
+    "label": "Annex 3 2.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The test shall be carried out using the service braking system from an initial speed of 80 km/h with the engine disconnected.",
+    "label": "Annex 3 2.2"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.3.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The stopping distance achieved using a maximum force of 500 N applied to the foot control shall not exceed 50.7 m",
+    "label": "Annex 3 2.3.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.3.1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve",
+    "label": "Annex 3 2.3.1"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.3.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The stopping distance achieved using a maximum force of 500 N + 0 / -50 N applied to the foot control, shall not exceed 46.4 m",
+    "label": "Annex 3 2.3.1.4"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.3.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "according to the formula given in paragraph 2.3.1. and shall be not less than 6.43 m/s⁻²",
+    "label": "Annex 3 2.3.1.4"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.4",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Tests shall be carried out for each of the fitting conditions of temporary-use spare units specified in paragraph 2.1. of this annex.",
+    "label": "Annex 3 2.4"
+  },
+  {
+    "regulation": "UN R64",
+    "paragraph": "Annex 3 2.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The prescribed braking performance shall be obtained without any wheel-locking, deviation of the vehicle from its intended course, abnormal vibration",
+    "label": "Annex 3 2.5"
+  }
+]

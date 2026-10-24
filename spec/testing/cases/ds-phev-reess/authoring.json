@@ -1,0 +1,318 @@
+{
+  "case_id": "ds-phev-reess",
+  "regulation": "UN R83",
+  "requirements": [
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.2",
+      "quote": "Crankcase emissions¹ (Type 3 test) Yes Yes Yes - Yes (petrol only) Yes (petrol only) Yes (petrol only)",
+      "text": "The plug-in hybrid electric passenger car with a positive-ignition engine shall be subject to the Type 3 test for crankcase emissions."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.3.3.2",
+      "quote": "the engine's crankcase ventilation system shall not permit the emission of any of the crankcase gases into the atmosphere",
+      "text": "The plug-in hybrid electric passenger car shall have a crankcase ventilation system that does not permit the emission of any crankcase gases into the atmosphere when tested in accordance with Annex 6."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.3.5.1.2",
+      "quote": "The test consists of the four elementary urban driving cycles of Part One of the NEDC based Type I test",
+      "text": "The plug-in hybrid electric passenger car shall complete, on a chassis dynamometer with inertia simulation, the four elementary urban driving cycles of Part One of the NEDC-based Type I test without interruption over 780 seconds, starting at engine cranking, when tested for Type 6 emissions."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.3.5.1.3",
+      "quote": "The low ambient temperature test shall be carried out at an ambient test temperature of 266 K (-7 °C)",
+      "text": "The plug-in hybrid electric passenger car shall be tested for Type 6 emissions at an ambient test temperature of 266 K (-7 °C) after uniform conditioning as described in Annex 8."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.3.5.2. Table 2",
+      "quote": "15 1.8",
+      "text": "The plug-in hybrid electric passenger car, being of category M class, shall emit less than 15 g/km of carbon monoxide and less than 1.8 g/km of hydrocarbons over the cold start Type 6 test at 266 K."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.3.5.2.1",
+      "quote": "for each pollutant, at least two of the three test results must be below the limit. One of the test results can exceed the limit but by no more than 10 per cent",
+      "text": "The plug-in hybrid electric passenger car shall meet the Type 6 CO and HC limits for each pollutant in at least two of three tests, with one result permitted to exceed the limit by no more than 10 per cent, and with the arithmetic mean of the three results below the limit."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.3.5.3.1",
+      "quote": "Only one test is performed if the result obtained for each pollutant of the first test is less than or equal to 0.70 L",
+      "text": "The plug-in hybrid electric passenger car shall be accepted on the basis of a single Type 6 test when the first test result for each pollutant is less than or equal to 0.70 of the limit."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.3.5.3.2",
+      "quote": "only two tests are performed if for each pollutant the result of the first test is less than or equal to 0.85 L",
+      "text": "The plug-in hybrid electric passenger car shall be accepted on the basis of two Type 6 tests when, for each pollutant, the first result is at most 0.85 L, the sum of the first two results is at most 1.70 L and the second result is at most L."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "5.2",
+      "quote": "In-service conformity Yes Yes Yes Yes Yes (as at type-approval) Yes (as at type-approval)",
+      "text": "The plug-in hybrid electric passenger car shall be subject to in-service conformity requirements for its whole lifetime, including the main lifetime extended by the additional lifetime."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "9.2.2",
+      "quote": "between 15,000 km or 6 months whichever occurs later and 200,000 km or 10 years whichever occurs sooner",
+      "text": "The plug-in hybrid electric passenger car shall remain in conformity with the exhaust emission limits for in-service checks between 15,000 km or 6 months, whichever occurs later, and 200,000 km or 10 years, whichever occurs sooner, when properly maintained and used."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "9.2.8",
+      "quote": "its final RDE emission results as determined in accordance with UN Regulation No. 168 on RDE and emitted at any RDE test performed in accordance with that Regulation, do not exceed the emission limits",
+      "text": "The plug-in hybrid electric passenger car shall, throughout its lifetime, keep its final RDE emission results within the emission limits, considering the durability multiplier."
+    },
+    {
+      "regulation": "UN R83",
+      "paragraph": "Annex 4 5.7.1.1",
+      "quote": "The value for OVC-HEV vehicles shall be obtained from the WLTP test conducted using the Charge Sustaining mode",
+      "text": "The plug-in hybrid electric passenger car shall provide, for in-service conformity and market surveillance purposes, a reference CO2 mass obtained from the WLTP test conducted in charge-sustaining mode."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.1",
+      "quote": "Live parts shall comply with paragraphs 5.1.1.1. and 5.1.1.2. for protection against direct contact",
+      "text": "The plug-in hybrid electric passenger car shall protect its high-voltage live parts against direct contact by electrical protection barriers, enclosures, solid insulators or connectors that cannot be opened, separated or removed without the use of tools."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.1.1",
+      "quote": "For high voltage live parts inside the passenger compartment, or luggage compartment, or trailer load compartment, the protection degree IPXXD shall be provided",
+      "text": "The plug-in hybrid electric passenger car shall provide protection degree IPXXD for high-voltage live parts located inside the passenger compartment or luggage compartment."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.1.2",
+      "quote": "For high voltage live parts in areas other than the passenger compartment, or luggage compartment or trailer load compartment, the protection degree IPXXB shall be provided",
+      "text": "The plug-in hybrid electric passenger car shall provide protection degree IPXXB for high-voltage live parts in areas other than the passenger compartment or luggage compartment."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.1.4.1",
+      "quote": "The symbol shown in Figure 2 shall be present on or near the REESS having high voltage capability. The symbol background shall be yellow",
+      "text": "The plug-in hybrid electric passenger car shall have the high-voltage symbol, with yellow background and black bordering and arrow, on or near the REESS."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.1.4.3",
+      "quote": "Cables for high voltage buses which are not located within enclosures shall be identified by having an outer covering with the colour orange",
+      "text": "The plug-in hybrid electric passenger car shall identify high-voltage bus cables not located within enclosures by an orange outer covering."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.2.2",
+      "quote": "The resistance between all exposed conductive parts and the electrical chassis shall be lower than 0.1 ohm when there is current flow of at least 0.2 amperes",
+      "text": "The plug-in hybrid electric passenger car shall have a resistance below 0.1 ohm between all exposed conductive parts and the electrical chassis at a current flow of at least 0.2 amperes."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.3.2",
+      "quote": "If AC high voltage buses and DC high voltage buses are galvanically connected, isolation resistance between the high voltage bus and the electrical chassis shall have a minimum value of 500 Ω/volt",
+      "text": "The plug-in hybrid electric passenger car shall have an isolation resistance between the galvanically connected high-voltage bus and the electrical chassis of at least 500 Ω/volt of the working voltage."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.1.4",
+      "quote": "The vehicles shall maintain isolation resistance after exposure to water",
+      "text": "The plug-in hybrid electric passenger car shall maintain its isolation resistance after exposure to water such as washing or driving through standing water."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.2.2.2",
+      "quote": "Smoke caused by thermal propagation shall not be released into the passenger compartment",
+      "text": "The plug-in hybrid electric passenger car shall be designed so that smoke caused by thermal propagation is not released into the passenger compartment, as verified by design review of the REESS venting strategy and installation."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.2.3",
+      "quote": "The vehicle shall provide a warning to the driver when the vehicle is in active driving possible mode in the event specified in paragraphs 6.13. to 6.15",
+      "text": "The plug-in hybrid electric passenger car shall provide a warning to the driver, when in active driving possible mode, in the event of an operational failure of REESS controls, a thermal event in the REESS, or thermal propagation."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.2.3",
+      "quote": "the tell-tale shall, when illuminated, be sufficiently bright to be visible to the driver under both daylight and night-time driving conditions",
+      "text": "The plug-in hybrid electric passenger car shall, for an optical warning, illuminate a tell-tale that is sufficiently bright to be visible to the driver under daylight and night-time driving conditions."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.3.3",
+      "quote": "If the REESS can be externally charged, vehicle movement by its own propulsion system shall be impossible as long as the vehicle connector is physically connected to the vehicle inlet",
+      "text": "The plug-in hybrid electric passenger car shall make movement by its own propulsion system impossible as long as the vehicle connector is physically connected to the vehicle inlet."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.4.3",
+      "quote": "During a normal charge procedure in the conditions given in Annex 8, hydrogen emissions shall be below 125 g during 5 h, or below 25 x t2 g during t2 (in h)",
+      "text": "The plug-in hybrid electric passenger car, where fitted with an open-type traction battery, shall keep hydrogen emissions during a normal charge below 125 g during 5 h, or below 25 x t2 g during t2 hours."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.4.4",
+      "quote": "During a charge carried out by a charger presenting a failure (conditions given in Annex 8), hydrogen emissions shall be below 42 g",
+      "text": "The plug-in hybrid electric passenger car, where fitted with an open-type traction battery, shall keep hydrogen emissions below 42 g during a charge carried out by a charger presenting a failure and limit that failure to 30 minutes."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "5.4.5",
+      "quote": "All the operations linked to the REESS charging shall be controlled automatically, included the stop for charging",
+      "text": "The plug-in hybrid electric passenger car shall control all operations linked to REESS charging automatically, including the stop of charging."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "6.2.2.1",
+      "quote": "During the test, there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS (s) only); (c) Venting",
+      "text": "The plug-in hybrid electric passenger car's REESS shall show no electrolyte leakage, rupture, venting, fire or explosion during the vibration test."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "6.2.2.2",
+      "quote": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt",
+      "text": "The plug-in hybrid electric passenger car's high-voltage REESS shall have an isolation resistance of not less than 100 Ω/Volt after the vibration test."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "6.10.2.2",
+      "quote": "The overcurrent protection control of the REESS shall terminate charging or the temperature measured on the casing of the REESS shall be stabilized",
+      "text": "The plug-in hybrid electric passenger car, when capable of DC external charging, shall have REESS overcurrent protection that terminates charging or stabilises the casing temperature so that the gradient varies by less than 4 °C over 2 hours."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "6.15",
+      "quote": "the vehicle occupants shall not be exposed to any hazardous environment caused by thermal propagation which is triggered by an internal short circuit leading to a single cell thermal runaway",
+      "text": "The plug-in hybrid electric passenger car shall protect its occupants from hazardous environments caused by thermal propagation triggered by an internal short circuit leading to single cell thermal runaway."
+    },
+    {
+      "regulation": "UN R100",
+      "paragraph": "6.15.3.4",
+      "quote": "For 5 minutes following the signal to activate the warning indication, none of the following hazardous situations caused by thermal propagation shall occur",
+      "text": "The plug-in hybrid electric passenger car shall, for 5 minutes following the warning indication signal, exhibit no fire, explosion or smoke release into the passenger compartment caused by thermal propagation."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "5.1.1",
+      "quote": "The components liable to affect the emissions of CO2 and fuel consumption or the electric energy consumption shall be so designed, constructed and assembled as to enable the vehicle",
+      "text": "The plug-in hybrid electric passenger car shall have its CO2, fuel consumption and electric energy consumption-affecting components designed, constructed and assembled to comply with UN R101 in normal use despite vibrations."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "5.1.2",
+      "quote": "The daytime running lamps as defined in paragraph 2. of Regulation No. 48 shall be switched ON during the test cycle",
+      "text": "The plug-in hybrid electric passenger car shall be equipped with and have switched ON during the test cycle the daytime running lamp system with the highest electrical energy consumption among those fitted to the group."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "5.4.1",
+      "quote": "The technical service in charge of the tests conducts the measurement of the emissions of CO2 and of the electric energy consumption according to the test procedure described in Annex 8",
+      "text": "The plug-in hybrid electric passenger car shall have its CO2 emissions and electric energy consumption measured according to the test procedure of Annex 8."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "5.4.2",
+      "quote": "The results of the test for CO2 emissions must be expressed in grams per kilometre (g/km) rounded to the nearest whole number",
+      "text": "The plug-in hybrid electric passenger car shall have its CO2 emission results expressed in grams per kilometre rounded to the nearest whole number."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "5.4.5",
+      "quote": "If applicable, the result of the electric energy consumption must be expressed in Watt hours per kilometre (Wh/km), rounded to the nearest whole number",
+      "text": "The plug-in hybrid electric passenger car shall have its electric energy consumption result expressed in Watt hours per kilometre rounded to the nearest whole number."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "5.4.6",
+      "quote": "The technical service in charge of the tests conducts the measurement of the electric range of the vehicle according to the method described in Annex 9",
+      "text": "The plug-in hybrid electric passenger car shall have its electric range measured according to the method of Annex 9 and expressed in km rounded to the nearest whole number."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 1.3",
+      "quote": "OVC vehicles (as categorised in paragraph 2. to this annex) shall be tested according to condition A and to condition B",
+      "text": "The plug-in hybrid electric passenger car, being an off-vehicle-charging hybrid, shall be tested under both condition A (fully charged storage device) and condition B (minimum state of charge), with both results and the weighted average reported."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 3.2.1.1",
+      "quote": "The electrical energy/power storage device of the vehicle is discharged while driving (on the test track, on a chassis dynamometer, etc.)",
+      "text": "The plug-in hybrid electric passenger car shall allow discharge of its electrical energy storage device while driving until the fuel-consuming engine starts, at a steady speed of 50 km/h or as otherwise agreed."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 3.2.2.4",
+      "quote": "During soak, the electrical energy/power storage device shall be charged, using the normal overnight charging procedure as defined in paragraph 3.2.2.5",
+      "text": "The plug-in hybrid electric passenger car shall be capable of being charged during the soak period using the normal overnight charging procedure with its on-board charger or a manufacturer-recommended external charger."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 3.2.2.5.2",
+      "quote": "The end of charge criteria corresponds to a charging time of 12 hours, except if a clear indication is given to the driver by the standard instrumentation",
+      "text": "The plug-in hybrid electric passenger car shall indicate on its standard instrumentation when the electrical energy storage device is not yet fully charged, in which case the end-of-charge criterion is extended beyond 12 hours."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 3.2.4",
+      "quote": "The energy measurement equipment, placed between the mains socket and the vehicle charger, measures the charge energy e1 [Wh] delivered from the mains",
+      "text": "The plug-in hybrid electric passenger car shall permit measurement of the charge energy delivered from the mains between the mains socket and the vehicle charger after the conclusion of the condition A test."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 3.4.2.1",
+      "quote": "M = (De · M1 + Dav · M2)/(De + Dav)",
+      "text": "The plug-in hybrid electric passenger car shall have its weighted CO2 value calculated from the fully charged and minimum state of charge masses using the electric range and Dav = 25 km."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 4.1.4.1.2",
+      "quote": "If there is no single operating mode under condition A that is always selected when the vehicle is switched on, the most electric energy consuming mode shall be selected",
+      "text": "The plug-in hybrid electric passenger car shall, for condition A testing without a single default mode, be tested in the most electric energy consuming mode."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 8 4.1.4.2.2",
+      "quote": "If there is no single operating mode under condition B that is always selected when the vehicle is switched on, the most fuel consuming mode shall be selected",
+      "text": "The plug-in hybrid electric passenger car shall, for condition B testing without a single default mode, be tested in the most fuel consuming mode."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 9 3.1.5",
+      "quote": "The manufacturer's agent shall be in a position to attest that the thermal management system of the battery is neither disabled nor reduced",
+      "text": "The plug-in hybrid electric passenger car shall allow its battery thermal management system to be attested as neither disabled nor reduced during electric range testing."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 9 3.1.6",
+      "quote": "The vehicle must have undergone at least 300 km or one full charge distances, whichever is longer with those batteries that are installed in the test vehicle",
+      "text": "The plug-in hybrid electric passenger car shall have undergone at least 300 km or one full charge distance, whichever is longer, with the batteries installed in the test vehicle before electric range testing."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 7 Appendix 3 1.2",
+      "quote": "Measurement of REESS current and REESS voltage shall start at the same time as the test starts and shall end immediately after the vehicle has finished the test",
+      "text": "The plug-in hybrid electric passenger car's REESS current and voltage measurement shall start at the same time as the test and end immediately after the vehicle has finished the test."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 7 Appendix 3 2.1.2",
+      "quote": "the manufacturer should provide appropriate, safe and accessible connection points in the vehicle",
+      "text": "The plug-in hybrid electric passenger car shall provide appropriate, safe and accessible connection points for externally measuring REESS current, or otherwise support connection of a current transducer to a cable directly connected to the REESS."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "Annex 7 Appendix 3 3.1",
+      "quote": "the manufacturers shall support the approval authority by providing REESS voltage measurement points",
+      "text": "The plug-in hybrid electric passenger car shall provide REESS voltage measurement points to support external REESS voltage measurement during testing."
+    },
+    {
+      "regulation": "UN R101",
+      "paragraph": "9.5",
+      "quote": "Conformity for CO2 emissions is checked using the statistical procedures described in paragraphs 9.3.1. to 9.3.3. Vehicles are tested according to the procedure described in Annex 8",
+      "text": "The plug-in hybrid electric passenger car shall have its CO2 conformity of production checked using the statistical procedures of paragraphs 9.3.1 to 9.3.3 with testing according to Annex 8."
+    }
+  ]
+}

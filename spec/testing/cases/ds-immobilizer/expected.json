@@ -1,0 +1,566 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-immobilizer",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The immobilizer shall be designed and installed so that the equipped vehicle continues to meet the technical requirements of UN R162.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The immobilizer shall not enter the set state while the ignition key is in the engine running mode.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The immobilizer shall not be capable of being permanently overridden.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The immobilizer shall be designed and built so that, when installed, it does not adversely affect the designed function and safe operation of the vehicle even in the event of a malfunction.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The immobilizer shall be designed and built so that it cannot be rapidly and without attracting attention rendered ineffective or destroyed using low-cost, easily concealed tools, equipment or fabrications.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The immobilizer shall be designed so that replacing a major component or assembly to bypass it is difficult and time-consuming.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The immobilizer shall be able to withstand the in-vehicle environment for a reasonable lifetime when installed as specified by the manufacturer.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The immobilizer shall not adversely affect the electrical properties of the on-board circuitry (lead cross-sections, contact safety, etc.).",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The immobilizer shall not prevent the release of the vehicle's brakes.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The immobilizer shall not operate in a manner that applies the brakes of the vehicle.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The immobilizer shall prevent operation of the vehicle under its own motive power by interference by code with at least one control unit required for vehicle operation.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The immobilizer, when fitted to a vehicle equipped with a catalytic converter, shall not cause unburnt fuel to enter the exhaust.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.2.1.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The immobilizer shall not change its set/unset state as a result of any of the tests in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The immobilizer shall set without supplementary action from the driver, at least by turning the ignition key to the \"0\" position and activating a door or at the latest 1 minute after removing the key.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.4.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The electronic unsetting device of the immobilizer shall provide at least 50,000 variants and shall incorporate rolling codes and/or have a minimum scan time of ten days.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.5.1.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Where the immobilizer indicates short-term set/unset changes optically using the direction indicators, that indication shall not exceed 3 seconds.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.6.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "All components of the immobilizer shall be subjected to the tests described in Annex 6.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "All components of the immobilizer shall operate without any failure under the climatic, protection, weatherability and electrical conditions of Annex 6.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "Immobilizer parts fitted in the passenger or luggage compartment shall operate from -40 °C to +85 °C.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.1"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "Immobilizer parts fitted in the engine compartment shall operate from -40 °C to +125 °C unless otherwise specified.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "Immobilizer parts fitted in the passenger compartment shall provide degree of protection IP 40 in accordance with IEC Publication 529:1989.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "Immobilizer parts fitted elsewhere than in the passenger compartment shall provide degree of protection IP 54.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The immobilizer shall withstand a weatherability test of 7 days according to IEC 68-2-30-1980.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.3"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The immobilizer shall operate with a supply voltage from 9 V to 15 V over the temperature range of Annex 6 paragraph 1.1.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.4"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "After completion of all Annex 6 tests, the immobilizer shall continue to function normally when tested at 12 ± 0.2 V and 23 ± 5 °C.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The immobilizer shall continue to operate normally after 4 hours storage at -40 ± 2 °C with a test voltage of 9 ± 0.2 V.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.2.1"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "Passenger or luggage compartment parts shall continue to operate normally after 4 hours storage at +85 ± 2 °C with a test voltage of 15 ± 0.2 V.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.2.2"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The immobilizer shall withstand an excess voltage of 18 ± 0.2 V for 1 hour in both set and unset states.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.2.4"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The immobilizer shall withstand an excess voltage of 24 ± 0.2 V for 1 minute in both set and unset states.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.2.5"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The immobilizer shall continue to operate normally after the foreign body and water-tightness test according to IEC 529-1989.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.3"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The immobilizer shall continue to operate normally after the resistance-to-humidity test according to IEC 68-2-30 (1980).",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.4"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The immobilizer and its components shall not be destroyed by reversed polarity up to 13 V during 2 minutes.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.5"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "All electrical connections of the immobilizer shall be short-circuit proof against earth up to max. 13 V and/or fused.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.6"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The energy consumption of the complete immobilizer including status display in set condition shall not exceed 20 mA on average.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.7"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "Vehicle-mounted (Type 1) immobilizer components shall withstand sinusoidal vibration from 10 Hz to 500 Hz at max. amplitude ± 5 mm and max. acceleration 3 g (0-peak).",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.8.2.1"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "Engine-attached (Type 2) immobilizer components shall withstand sinusoidal vibration from 20 Hz to 300 Hz at max. amplitude ± 2 mm and max. acceleration 15 g (0-peak).",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.8.2.2"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The vibration test shall be performed at 1 octave/min with 10 cycles along each of the 3 axes.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.8.2.3"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The immobilizer shall continue to operate normally after the vibration test.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.8.4"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The immobilizer shall be subjected to the electromagnetic compatibility tests described in Annex 7.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.9"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The immobilizer shall be tested for immunity to conducted disturbances along supply lines in both unset and set states.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 7 1.2"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "When tested for radiated high frequency immunity in the set state with Key OFF, the immobilizer shall show no unexpected deactivation of the immobilizer.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 7 2.2. Table 1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "When tested for radiated high frequency immunity in the unset state (Key ON or vehicle at 50 km/h), the immobilizer shall show no unexpected activation.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 7 2.2. Table 1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The immobilizer shall be tested for immunity to electrostatic discharges in accordance with ISO 10605-2008 + corrigendum:2010 + AMD1:2014 at the levels of Table 2.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 17,
+        "paragraph": "Annex 7 3.1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The immobilizer in set state, at externally accessible points with the vehicle locked and Key OFF, shall withstand ± 15 kV air discharge without unexpected deactivation without reactivation within 1 s.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 17,
+        "paragraph": "Annex 7 3.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The immobilizer in set state, at externally accessible points with the vehicle locked and Key OFF, shall withstand ± 8 kV contact discharge without unexpected deactivation without reactivation within 1 s.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 17,
+        "paragraph": "Annex 7 3.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "Each ESD test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 17,
+        "paragraph": "Annex 7 3.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "Radiated emissions of the immobilizer shall be tested according to UN Regulation No. 10, 06 series, with the immobilizer in set state.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 17,
+        "paragraph": "Annex 7 4"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "For the 12 V system, the ESA shall not emit transient conducted disturbances on supply lines exceeding +75 V (positive) and -100 V (negative).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The ESA, for transient pulse 1 on the 12 V system, shall meet functional performance status classification III for immunity related functions at -75 V over 500 pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The ESA shall meet functional performance status classification I for pulse 2a (+37 V, 500 pulses) and II for pulse 2b (+10 V, 10 pulses) on the 12 V system.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The ESA shall meet functional performance status classification I for pulses 3a (-112 V) and 3b (+75 V), each applied for 1 h on the 12 V system.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The ESA shall withstand radiated electromagnetic immunity test levels of 60 V/m (stripline), 75 V/m (TEM cell), 60 mA (BCI), 30 V/m (ALSE) and 21 V/m (reverberation) below 2 GHz over 90 per cent of the band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The ESA shall withstand radiated electromagnetic immunity test levels of 10 V/m (ALSE) and 7 V/m (reverberation chamber) between 2,000 and 6,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "During radiated immunity testing, the ESA shall show no degradation of performance of immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The narrowband radiated emissions of the ESA shall be below 52 to 42 dBµV/m from 30 to 75 MHz, 42 to 53 dBµV/m from 75 to 400 MHz and 53 dBµV/m from 400 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The broadband radiated emissions of the ESA shall be below 62 to 52 dBµV/m from 30 to 75 MHz, 52 to 63 dBµV/m from 75 to 400 MHz and 63 dBµV/m from 400 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    }
+  ]
+}

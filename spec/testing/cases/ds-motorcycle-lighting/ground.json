@@ -1,0 +1,1536 @@
+[
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The lighting and light-signalling devices shall be so fitted that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In particular, it shall not be possible for the lamps to be inadvertently maladjusted.",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The illuminating lamps shall be so installed that correct adjustment of their orientation can easily be carried out.",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For all light-signalling devices the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "the height and orientation of the lamps shall be verified with the vehicle unladen and placed on a flat horizontal surface, its median longitudinal plane being vertical",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Single lamps or reflectors shall be mounted such that their centre of reference lies in the median longitudinal plane of the vehicle;",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Be mounted symmetrically in relation to the median longitudinal plane;",
+    "label": "5.5.2.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Be symmetrical to one another in relation to the median longitudinal plane;",
+    "label": "5.5.2.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Satisfy the same colorimetric requirements; and",
+    "label": "5.5.2.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Have identical nominal photometric characteristics;",
+    "label": "5.5.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Come on and go off simultaneously;",
+    "label": "5.5.2.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamps and direction indicator lamps are not permitted to be reciprocally incorporated.",
+    "label": "5.6.1.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "where stop lamps and direction indicator lamps are grouped, any horizontal or vertical straight line passing through the projections of the apparent surfaces",
+    "label": "5.6.1.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "no lamps other than direction indicator lamps, the vehicle-hazard warning signal lamps and the emergency stop signal shall be flashing lamps",
+    "label": "5.8"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "No red light which could give rise to confusion shall be emitted from a lamp as defined in paragraph 2.3. in a forward direction",
+    "label": "5.9"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a red lamp shall not be directly visible to an observer moving in zone 1 of a transverse plane situated 25 m forward of the foremost point on the vehicle",
+    "label": "5.9.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a white lamp shall not be directly visible to an observer moving in zone 2 of a transverse plane situated 25 m rearward of the rearmost point on the vehicle",
+    "label": "5.9.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9.3.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In height, by two horizontal planes 1 m and 2.2 m respectively above the ground;",
+    "label": "5.9.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.12.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Every tell-tale lamp shall be readily visible to a driver in the normal driving position.",
+    "label": "5.12.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Passing-beam headlamp: white",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Direction-indicator lamp: amber",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamp: red",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.14.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Driving-beam headlamp (paragraph 6.1.);",
+    "label": "5.14.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.14.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Passing-beam headlamp (paragraph 6.2.);",
+    "label": "5.14.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.14.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Direction indicator lamps (paragraph 6.3.);",
+    "label": "5.14.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.14.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamp, S1 category device specified in UN Regulation No. 7 or [LSD] or stop lamp specified in UN Regulation No. 50 (paragraph 6.4.)",
+    "label": "5.14.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.14.6",
+    "page": 8,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Front position lamp (paragraph 6.6.);",
+    "label": "5.14.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.14.7",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Rear position lamp (paragraph 6.7.);",
+    "label": "5.14.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.16",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The fitting of each of the lighting and light-signalling devices mentioned in paragraphs 5.14. and 5.15. above shall be effected in conformity with the relevant requirements in paragraph 6.",
+    "label": "5.16"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.17",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The fitting of any lighting and light-signalling devices other than those mentioned in paragraphs 5.14. and 5.15. above is prohibited for the purposes of type approval.",
+    "label": "5.17"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp",
+    "label": "5.20.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "If, when the lamp is installed, any part of the apparent surface of the lamp is hidden by any further parts of the vehicle",
+    "label": "5.20.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved according to Class A, B, or DS of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.3.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The distance between the edge of the illuminating surface of any independent driving lamp and the ground shall be from 500 mm to 1,300 mm.",
+    "label": "6.1.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.3.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the distance between the edge of the illuminating surface of any independent driving lamp and the edge of that of the lamp producing the principal passing-beam shall not exceed 200 mm",
+    "label": "6.1.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.3.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "In the case of two driving lamps: the distance separating the illuminating surfaces of two driving lamps shall not exceed 200 mm.",
+    "label": "6.1.3.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "shall be ensured within a divergent space defined by generating lines based on the perimeter of the illuminating surface and forming an angle of not less than 5°",
+    "label": "6.1.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.5.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Forwards. The lamp(s) may move with the steering angle.",
+    "label": "6.1.5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.6.3",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "It shall always be possible to switch the driving-beam headlamp(s) ON and OFF manually",
+    "label": "6.1.6.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.7.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory, non-flashing blue signal lamp.",
+    "label": "6.1.7.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.8.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The aggregate maximum intensity of the driving-beam headlamps which can be switched on simultaneously shall not exceed 430,000 cd",
+    "label": "6.1.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.1.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved according to Class C or DS of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+    "label": "6.2.1.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Height: a minimum of 500 mm and a maximum of 1,200 mm above the ground.",
+    "label": "6.2.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.3.4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the case of two headlamps producing the principal passing-beam the distance separating the illuminating surfaces shall not exceed 200 mm.",
+    "label": "6.2.3.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "α = 15° upwards and 10° downwards;",
+    "label": "6.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "β = 45° to the left and to the right for a single lamp;",
+    "label": "6.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The vertical inclination of the headlamp producing the principal passing-beam shall remain between -0.5 and -2.5 per cent, except in the case where an external adjusting device is present.",
+    "label": "6.2.5.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "A mass of 75 kg ± 1 kg, simulating the rider, shall be placed on the vehicle in such a way as to reproduce the axle loads declared by the manufacturer",
+    "label": "6.2.5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The vertical inclination (initial aiming) of the headlamp producing the principal passing-beam shall be set, following the manufacturer’s instructions, between -1.0 and -1.5 per cent.",
+    "label": "6.2.5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Masses, simulating the manufacturer's maximum total mass, shall be placed on the vehicle in such a way as to reproduce the axle loads declared by the manufacturer for this loading condition.",
+    "label": "6.2.5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.6",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The control for changing over to the passing-beam(s) shall switch off the driving-beam(s) simultaneously.",
+    "label": "6.2.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Two per side.",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Two front indicators, type-approved as category 1, 1a or 1b according to the 01 or subsequent series of amendments to UN Regulation No. 6",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Two rear indicators, type-approved as category 2 according to the 01 or subsequent series of amendments to UN Regulation No. 6",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "There shall be a minimum distance of 240 mm between illuminating surfaces;",
+    "label": "6.3.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The indicators shall be situated outside the longitudinal vertical plane tangential to the outer edges of the illuminating surface of the driving-beam(s) and/or principal passing-beam(s);",
+    "label": "6.3.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.1. Table",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Minimum indicator intensity (cd)",
+    "label": "6.3.3.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "For rear indicators, the clearance between the inner edges of the two illuminating surfaces shall be at least 180 mm on the condition that the prescriptions of paragraph 2.13. of UN Regulation No. 48 are applied",
+    "label": "6.3.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 350 mm nor more than 1,200 mm above the ground;",
+    "label": "6.3.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the forward distance between the centre reference of the rear indicators and the transverse plane which constitutes the rearmost limit of the vehicle's over-all length shall not exceed 300 mm",
+    "label": "6.3.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angles: 20° inwards, 80° outwards.",
+    "label": "6.3.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Vertical angles: 15° above and below the horizontal.",
+    "label": "6.3.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.6.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The direction indicator lamps shall switch on independently of the other lamps. All direction indicator lamps on one side of a vehicle shall be switched on and off by means of one control.",
+    "label": "6.3.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.7",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory. This may be optical or auditory or both.",
+    "label": "6.3.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The light flashing frequency shall be 90 ± 30 times per minute;",
+    "label": "6.3.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Operation of the light-signal control shall be followed within not more than one second by the appearance of the light and within not more than one-and-one half seconds by the first extinction",
+    "label": "6.3.8.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "In the event of failure, other than a short circuit, of one direction indicator lamp, the other(s) direction indicator lamp(s) indicating the same direction shall continue to flash or remain alight",
+    "label": "6.3.8.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved as a category S1 device according to the 02 or subsequent series of amendments to UN Regulation No. 7",
+    "label": "6.4.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.3.1",
+    "page": 19,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 250 mm nor more than 1,500 mm above the ground;",
+    "label": "6.4.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.3.1",
+    "page": 19,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In length: at the rear of the vehicle.",
+    "label": "6.4.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.4",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 45° to left and to right for a single lamp;",
+    "label": "6.4.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.4",
+    "page": 19,
+    "raw_pages": [
+      19,
+      21,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Vertical angle: 15° above and below the horizontal.",
+    "label": "6.4.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.5",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Towards the rear of the vehicle.",
+    "label": "6.4.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.6.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "All the stop lamps shall light up simultaneously when the braking system provides the braking signal defined in UN Regulation No. 78.",
+    "label": "6.4.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.1",
+    "page": 20,
+    "raw_pages": [
+      10,
+      11,
+      14,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "One or two",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.3.2",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 350 mm nor more than 1,200 mm above the ground.",
+    "label": "6.6.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.3.3",
+    "page": 21,
+    "raw_pages": [
+      21,
+      23,
+      25,
+      28
+    ],
+    "verdict": "ok",
+    "exact": "In length: at the front of the vehicle.",
+    "label": "6.6.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 80° to the left and to the right for a single lamp:",
+    "label": "6.6.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.4",
+    "page": 21,
+    "raw_pages": [
+      19,
+      21,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Vertical angle: 15° above and below the horizontal.",
+    "label": "6.6.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.5",
+    "page": 21,
+    "raw_pages": [
+      15,
+      21,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Forwards. The lamp(s) may move in line with the steering angle.",
+    "label": "6.6.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.6",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory. Non-flashing green signal lamp.",
+    "label": "6.6.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.7",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "If a front position lamp is reciprocally incorporated with a direction indicator, the electrical connection of the front position lamp on the relevant side of the vehicle or the reciprocally incorporated part of it shall be such that it is switched OFF during the entire time",
+    "label": "6.6.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved according to the 02 or subsequent series of amendments to UN Regulation No. 7",
+    "label": "6.7.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.3.1",
+    "page": 21,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "in height: not less than 250 mm nor more than 1,500 mm above the ground;",
+    "label": "6.7.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.3.2",
+    "page": 21,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "in length: at the rear of the vehicle.",
+    "label": "6.7.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 80 ° to left and to right for a single lamp:",
+    "label": "6.7.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.4",
+    "page": 21,
+    "raw_pages": [
+      19,
+      21,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Vertical angle: 15° above and below the horizontal.",
+    "label": "6.7.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.5",
+    "page": 21,
+    "raw_pages": [
+      21,
+      22,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Rearwards.",
+    "label": "6.7.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.1",
+    "page": 22,
+    "raw_pages": [
+      22,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved as Class IA or IB according to the 02 or subsequent series of amendments to UN Regulation No. 3",
+    "label": "6.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.3",
+    "page": 22,
+    "raw_pages": [
+      22,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 250 mm nor more than 900 mm above the ground;",
+    "label": "6.8.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.4",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 30° to left and to right for a single reflector;",
+    "label": "6.8.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.4",
+    "page": 22,
+    "raw_pages": [
+      19,
+      21,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Vertical angle: 15° above and below the horizontal.",
+    "label": "6.8.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.5",
+    "page": 22,
+    "raw_pages": [
+      21,
+      22,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Rearwards.",
+    "label": "6.8.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.12.1",
+    "page": 24,
+    "raw_pages": [
+      22,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved as Class IA or IB according to the 02 or subsequent series of amendments to UN Regulation No. 3",
+    "label": "6.12.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.12.3.2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 300 mm nor more than 900 mm above the ground;",
+    "label": "6.12.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.12.3.3",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "should be placed in such a position that under normal conditions it may not be masked by the driver's or passenger's clothes",
+    "label": "6.12.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.12.4",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angles β = 30° to the front and to the rear.",
+    "label": "6.12.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.12.5",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The reference axis of the retro-reflectors shall be perpendicular to the vehicle’s median longitudinal plane and directed outwards.",
+    "label": "6.12.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.18",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Lighting and light-signalling devices type-approved for four-wheeled vehicles of categories M1 and N1 and referred to in paragraphs 5.14. and 5.15. above may also be fitted to motorcycles.",
+    "label": "5.18"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "With regard to the size of the approval marking the value for “a” shall be at least 5 mm.",
+    "label": "3.3.1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "All markings shall be clearly legible and indelible,",
+    "label": "3.3.1.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation followed by the letter 'R' and the two digits indicating the series of amendments in force at the time of issue of the approval.",
+    "label": "3.3.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "On lamps which cannot be mounted on either side of the vehicle indiscriminately, a horizontal arrow showing in which position the lamp is to be mounted.",
+    "label": "3.3.2.5.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear the trade name or mark of the applicant",
+    "label": "3.3.3.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall, with the exception of lamps with non-replaceable light sources, bear a marking indicating:",
+    "label": "3.3.3.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage",
+    "label": "3.3.3.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In any case the approval marking as well as the category or categories of LED substitute light source(s) prescribed, if any, shall be visible when the lamp is fitted on the vehicle",
+    "label": "3.3.4.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "A signal for activation of the tell-tale prescribed in paragraph 6.5.8. of Regulation No. 48 or paragraph 6.3.8. of Regulation No. 53 shall be produced",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Light Signalling Devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle.",
+    "label": "4.7.2.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.5.1. Table 7",
+    "page": 16,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "wrong page",
+    "exact": "S1 (steady)",
+    "label": "5.5.1. Table 7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.5.7",
+    "page": 20,
+    "raw_pages": [
+      17,
+      20,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The colour of light emitted shall be red.",
+    "label": "5.5.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 20,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "2a (steady)",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 20,
+    "raw_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "verdict": "ok",
+    "exact": "1",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "it is allowed to measure the lamps in flashing mode.",
+    "label": "5.6.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.7",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The colour of light emitted shall be amber.",
+    "label": "5.6.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "Front direction indicator (1, 1a, 1b)",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "Stop singular (MS)",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The lamps must be so designed and constructed that under normal conditions of use and notwithstanding the vibrations to which they may be subjected in such use, their satisfactory operation remains assured",
+    "label": "4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall be so made that they give adequate illumination without dazzle when emitting the passing-beam, and good illumination when emitting the driving-beam.",
+    "label": "4.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall be fitted with a device enabling them to be so adjusted on the vehicles as to comply with the rules applicable to them.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Road illumination devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle.",
+    "label": "4.5.2.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.7.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "If the outer lens of the lamp is made of plastic material tests shall be done according to the requirements in Annex 8.",
+    "label": "4.7.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.16",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted shall be white for all lamps.",
+    "label": "4.16"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The maximum value (Imax) shall not exceed 2.15∙10⁵ cd in any direction.",
+    "label": "5.1.4.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4. Table 5",
+    "page": 16,
+    "raw_pages": [
+      16,
+      37,
+      38,
+      48
+    ],
+    "verdict": "ok",
+    "exact": "H-3L",
+    "label": "5.1.4. Table 5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6",
+    "page": 16,
+    "raw_pages": [
+      15,
+      17,
+      20,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "B50L",
+    "label": "5.2.2. Table 6"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6",
+    "page": 17,
+    "raw_pages": [
+      14,
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Zone III",
+    "label": "5.2.2. Table 6"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6",
+    "page": 16,
+    "raw_pages": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Imax",
+    "label": "5.2.2. Table 6"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.4.3.3. Table 16",
+    "page": 26,
+    "raw_pages": [
+      26,
+      29
+    ],
+    "verdict": "ok",
+    "exact": "Zone 2",
+    "label": "5.4.3.3. Table 16"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.4.3.3. Table 16",
+    "page": 26,
+    "raw_pages": [
+      26,
+      27,
+      29,
+      30
+    ],
+    "verdict": "ok",
+    "exact": "P3",
+    "label": "5.4.3.3. Table 16"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.4.4.1",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "the luminous intensity values shall not exceed 9.00∙10² cd in the zone extending from H-H to 15°U and from V-V to 10°L",
+    "label": "5.4.4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 5 3.2.1.1",
+    "page": 57,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "the horizontal part of the \"cut-off\" is moved upward from below line B and adjusted to its nominal position one per cent (0.57°) below the H-H line",
+    "label": "Annex 5 3.2.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 2.2.2",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "The value of G shall not be less than:",
+    "label": "Annex 6 2.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 2.2.3.1",
+    "page": 60,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "the part of the horizontal \"cut-off\" that serves for vertical adjustment shall be horizontal between 1.5° and 3.5° from the V-V line",
+    "label": "Annex 6 2.2.3.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 3.",
+    "page": 45,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "no node"
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.1.1.",
+    "page": 4,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.1.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The visual warning shall be so located as to be readily visible and recognisable in the daylight and at night time by the driver and distinguishable from other alerts.",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.1.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The visual warning shall be a steady or flashing tell-tale.",
+    "label": "5.2.1.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.2.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The audible warning shall consist of a continuous or an intermittent (pauses shall not exceed 1 second) sound signal or of continuous vocal information.",
+    "label": "5.2.2.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.2.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Audible warning shall be easily recognized by the driver.",
+    "label": "5.2.2.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.3.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The first level warning shall be at least a visual warning activated for 30 seconds or longer for seating positions covered by paragraph 5.1.1.",
+    "label": "5.2.3.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.3.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "If the vehicle master control switch has been activated remotely, the first level warning shall be (re-)initiated once the driver has entered the vehicle or driver presence is detected.",
+    "label": "5.2.3.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.3.2.",
+    "page": 5,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The second level warning shall be a visual and audible signal activated for at least 30 seconds not counting periods in which the warning may stop for up to 3 seconds",
+    "label": "5.2.4.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The second level warning shall supersede the first level warning when the first level warning is still active.",
+    "label": "5.2.4.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.1.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The distance driven greater than the distance threshold. The threshold shall not exceed 500 m. The distance driven when the vehicle is not in normal operation shall be excluded.",
+    "label": "5.2.4.1.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.1.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle speed greater than the speed threshold. The threshold shall not exceed 25 km/h.",
+    "label": "5.2.4.1.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.1.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The duration time (engine running, propulsion system activated, etc.) is greater than the duration time threshold. The threshold shall not exceed 60 seconds.",
+    "label": "5.2.4.1.3"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The thresholds to trigger safety belt reminder listed in paragraphs 5.2.4.1.1. to 5.2.4.1.3., may be reset when: (a) Any of the doors have been opened while the vehicle is not in normal operation",
+    "label": "5.2.4.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The second level warning may be discontinued when: (a) None of the safety-belts which triggered the warning are unfastened",
+    "label": "5.2.4.3"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.4.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The second level warning shall be resumed for the remainder of the required duration when one or any combination of the conditions",
+    "label": "5.2.4.4"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.2.4.5.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For the condition that a safety belt becomes unfastened pursuant to paragraphs 5.3.3. and 5.4.5., the thresholds set out in paragraphs 5.2.4.1.1. to 5.2.4.1.3. shall be measured from the point in time at which unfastening occurs.",
+    "label": "5.2.4.5"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.3.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Safety-belt reminders for driver and occupants of seats in the same row as the driver shall fulfil the requirements set out in paragraph 5.2.",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.3.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The colour and symbol of the visual warning shall be as defined in item 21 in Table 1 of UN Regulation No. 121.",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.3.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The second level warning shall be activated when a safety-belt is or becomes unfastened while the vehicle is in normal operation",
+    "label": "5.3.3"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.5.1.",
+    "page": 5,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "it shall consist of an operation of specific controls that are not integrated in the safety-belt buckle) and this operation shall only be possible when the vehicle is stationary",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.5.1.",
+    "page": 5,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the ignition or vehicle master control switch is deactivated for more than 30 minutes and activated again, a short-term deactivated safety-belt reminder shall reactivate.",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.5.1.",
+    "page": 5,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "It shall not be possible to provide short-term deactivation of the relevant visual warning(s).",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.5.2.",
+    "page": 5,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "it shall require a sequence of operations to deactivate, that are detailed only in the manufacturer's technical manual and/or which requires the use of tools",
+    "label": "5.5.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.5.2.",
+    "page": 5,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "It shall not be possible to provide long-term deactivation of the relevant visual warning(s).",
+    "label": "5.5.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.6.1.1.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The connection shall be automatic when the seat is installed in the vehicle.",
+    "label": "5.6.1.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.6.2.4.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "In case a connector is misconnected or disconnected for removable seating positions covered by paragraph 5.1.1., a warning visible to the driver shall be activated for 30 seconds",
+    "label": "5.6.2.4"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.6.3.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The presence or absence of the removable seat shall not adversely affect the functioning of the safety-belt reminder system of other seating position.",
+    "label": "5.6.3"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "5.6.4.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The safety-belt reminder system of the removable seats shall not give any false indication of belt use, whether the seats are installed in the vehicle or not.",
+    "label": "5.6.4"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "Annex 3 1.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "A load of 40 kg is placed on each seat cushion in the same row as the driver's seat, or the state in which occupants are on board the vehicle is simulated",
+    "label": "Annex 3 1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "Annex 3 2.1.1.1.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Accelerate the test vehicle to 25 -0/+10 km/h from a halt and continue on at the same speed.",
+    "label": "Annex 3 2.1.1.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "Annex 3 2.1.2.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The safety-belt of the driver’s seat is unbuckled; (d) The test vehicle is driven, at the choice of the manufacturer, under one of the conditions in paragraphs 2.1.2.1. to 2.1.2.3.",
+    "label": "Annex 3 2.1.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "Annex 3 2.2.1.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "A load of 40 kg is applied to the seat(s) in the same row as the driver's seat, or the state in which occupants are on board the vehicle is simulated by a method specified by the manufacturer",
+    "label": "Annex 3 2.2.1"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "Annex 3 2.2.2.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "A load of 40 kg is applied to the seat(s) in the same row as the driver's seat, or the state in which occupants are on board the vehicle is simulated",
+    "label": "Annex 3 2.2.2"
+  },
+  {
+    "regulation": "UN R174",
+    "paragraph": "Annex 3 3.",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The second level warning test may be initiated after completion of the first level warning test. However, it shall also be ensured that the second level warning supersedes the first level warning when the first level warning is still active.",
+    "label": "Annex 3 3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2.",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2.",
+    "page": 11,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9. Table 3b",
+    "page": 12,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  }
+]

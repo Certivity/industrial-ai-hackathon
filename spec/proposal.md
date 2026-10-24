@@ -1,6 +1,6 @@
 # Proposal: grounded regulation index and versioned requirement mapping
 
-Status: proposal, 2026-10-24. Updated with `spec/finding/mapping-simulation.md` (regulation and section choice, supersession, cost of errors). The changes listed in `spec/finding/finding.md` section 3 and `spec/testing/report.md` section 6 are not merged here yet.
+Status: proposal, 2026-10-24. Updated with `spec/finding/mapping-simulation.md` (regulation and section choice, supersession, cost of errors) and `spec/finding/parser-weak-points.md` (A1, the build order, verification and risks now carry the parser rules of `spec/finding/finding.md` section 3 and the weak points of the parser). Those weak points were fixed the same day, and A1, the code layout, the build order, verification and risks say what is built now (`spec/finding/parser-weak-points.md` section 6, `spec/testing/report.md` section 11). The rest of `finding.md` section 3 (REFERS_TO grammar, B1 matching order, sub-goal) and `spec/testing/report.md` section 6 are not merged here yet.
 
 ## Context
 
@@ -35,18 +35,22 @@ This design addresses two problems:
 
 ### A1. Parse each PDF into a node tree
 
-Use PyMuPDF, which gives text plus font and position information.
+Built in `src/regcomp/parse.py` with PyMuPDF (text plus font and position). The rules and their reasons are in `spec/finding/finding.md` sections 2-4; the weak points of the current parser are in `spec/finding/parser-weak-points.md`.
 
-- **Detect structure.** Paragraph starts match `^\d+(\.\d+)*\.\s`. Also detect `Annex N`, `Part N`, `Appendix N` and `Table X` headers. Strip running headers and footers (E/ECE/… document IDs, printed page numbers). Keep list items such as (a) and (i) inside their paragraph.
-- **What each node stores:**
-  - `label` in the gold format;
-  - a `path` breadcrumb, e.g. `R48 › 6 › 6.10 Rear position lamps › 6.10.4.2`;
-  - `text` and `text_hash`;
-  - `page_start..page_end`;
-  - character offsets plus a char→page map, so any quoted span resolves to its exact page.
-- **Tables** become child nodes, one per row, labelled `<para>. Table N`.
-- **Sanity check.** Numbering must go to a sibling, child or parent's sibling in order; log anything else.
-- **Test against ground truth.** The 190 gold anchors and the 94 anchors in R175 `requirements_old.json` give (regulation, paragraph, page) triples. Target: at least 98% of them found, with the page inside the node's range ±1.
+- **Detect structure.**
+  - **Footer:** one regex, `UN R.., version .. | page N of M`. N is the physical page, which is the page the gold cites. There are no running headers to strip.
+  - **Scope headings** (`Annex 4`, `Annex 2A`, `Annex 4 - Appendix 1`, `Appendix 1`, `Part 1 - …`, `Part A:`; a top-level `Part I` or a GTR's roman part): bold and at least 1.15 times the document's dominant font size, case-insensitive. The renderer scales pages, so never hard-code a size. Numbering restarts inside every scope. **Built:** the size test was a single point of failure (R101 Annex 7 Appendix 3 is bold at body size and was labelled `Annex 7 Appendix 2`), so a bold, short, titled, regex-matching line at body size or above that fails it also opens a scope when the numbering restarts after it or its id follows the scope it sits in, never when it repeats that id (R49's `Appendix 3 - Item N` labels). A top-level `Part I` whose numbers carry on from the paragraphs before it (R67, R89, R163) is a divider and opens no scope: its paragraphs are cited as printed (`21.1.2.1`, not `Part III 21.1.2.1`); one that starts the numbering over is a scope.
+  - **Paragraph starts:** dotted `^\d+(\.\d+)*\.\s` (the space may be missing: `5.1.2.An immobilizer`, R162 and R48), and dotless headings (`5.7 Title`, `1 Scope`) when nested or styled. Per scope, keep the **longest strictly increasing chain** of numbers, not a successor check, which cascades on a gap (R148 4 of 40, R48 23 of 35). A numbered line after "…paragraph" is a wrapped reference. Left-out lines are logged.
+  - **Keep list items** such as (a) and (i) inside their paragraph. **Built:** `Node.structured` keeps their line breaks, and those of footnotes, for the extractor.
+- **What each node stores.**
+  - *Built:* `label` in the gold format (`<scope> <number>`, `<owner>. Table N`), `kind`, `scope`, `num`, `page_start..page_end`, the node's own lines with the page of each (`page_of(quote)` resolves a quoted span to its page), `grid`, `figure_refs`.
+  - *Built since (moved in from the eval scripts, which now read them):* `parent` and `children` (indexes; the store's `parent_id` is made from them), `heading`, a `path` breadcrumb such as `6 Specifications › 6.10 Rear position lamps › 6.10.4.2` (inside an annex the scope's heading comes first; the regulation id is the caller's to put in front), `structured` (line breaks before list items and footnotes), `model_text` (the lines outside the ruled tables, then each table once as its grid), `note` (which lines are footnote text) and `text_hash`. The hash is of the body without its number, footnote text included because it is binding; the footnote's number and the raised mark that cites it are ignored because they renumber between versions, an exponent is kept (`10²` stays); line breaks and whether a list is set inline or one item to a line do not count (a layout change must not become a "modified" flag).
+- **Tables** are not one node per row. A table node (caption `Table N`, label `<owner>. Table N`, the caption page) carries a markdown grid built from the cell rectangles of `find_tables()` and the spans inside them (`Table.extract()` loses spaces, exponents and signs; `use_layout=False` keeps the result machine-independent). The grid goes to the node whose text lies inside the table, so an uncaptioned table (R10 6.9.1) is found too. Splitting a table into requirements is the extractor's job. Only ruled tables are found; `eval/health.py` counts captioned tables against gridded ones per PDF and flags a PDF only when fewer than half have a grid. A fallback for the 2% without one was tried and dropped: `find_tables(strategy="text")` on R171 Table 1 returns a grid of the whole page (83 rows by 12 columns), and the other five captioned tables of the base versions without a grid are a caption with nothing under it (drawn as images, or text the parser keeps in another node). `Node.model_text` shows a gridded table once instead of twice.
+- **Parser health.** `eval/health.py` reports, per PDF: nodes per page, left-out lines that carry a sentence, orphan paragraphs, footer mismatches, captioned tables against gridded ones, and two signals for what the style gate cannot see: `scope-rej` (a bold line that reads as an Annex or Appendix heading, is short, titled and at body size or above, and shows neither a restart nor a successor id) and `restart` (a left-out `1.` with a sentence after it, once the chain had passed 1: numbering started over under a heading the parser does not know, as in R13H Annex 4's plain `A.` and `B.`).
+- **Test against ground truth.**
+  - *Labels and pages:* `eval/anchors.py`, 193 distinct anchors (121 gold paragraphs of the dev case, 57 paragraphs behind the 94 R175 `requirements_old` entries, 15 new-version `source` (page, paragraph) pairs of `subgoal/dev/expected.json`, checked against R175's latest version), found when a node has the same label under `_paragraph_key` and the gold page lies inside its range. Required: 193 of 193 after every parser change.
+  - *Text:* `eval/fidelity.py` (the numbers of the expert requirements are in their node's text, its family or its grids).
+  - *Beyond the five regulations with anchors:* the gate says nothing about the other 51. `eval/health.py` and the model-authored cases are the checks there: `eval/xprovider.py author` writes a case, `ground` triages it, `regrade` grounds the saved cases again with the current parser and shows which verdicts moved. 24 DeepSeek cases cover 32 regulations, 28 of them without anchors; they found one real defect that passed every other gate (R101 Annex 7 Appendix 3, which the probes of `parser-weak-points.md` had also found), one source quirk (R162 and R48 print `5.1.2.An` with no space after the number, so the paragraph was inside its neighbour) and one label convention that no gold settles (the `Part` prefix of R67, R89 and R163, dropped because their numbering carries on and the model and the printed number both cite without it). What they still list is the triage list for the next parse of an unanchored regulation. Treat the first parse of any regulation without anchors as unverified.
 
 ### A2. Edges
 
@@ -197,7 +201,8 @@ New code:
 
 ```
 src/regcomp/
-  parse.py        # A1  PDF → nodes (PyMuPDF)
+  corpus.py       # where regulations/index.json and the fetched PDFs are
+  parse.py        # A1  PDF → nodes, tree (parent, path), hash and table grids (PyMuPDF); built
   graph.py        # A2  edges, supersession table, SQLite/NetworkX
   obligations.py  # A3  extraction + quote verification (batch)
   profile.py      # A4.1 spec + vision → profile
@@ -206,7 +211,10 @@ src/regcomp/
   propagate.py    # B2–B5 provenance, staleness, triggers
   app.py          # Streamlit demo: spec → requirements (breadcrumb, PDF page link/highlight), coverage table, change view
 eval/
-  anchors.py      # parser test vs gold + requirements_old anchors
+  anchors.py      # parser gate: labels and pages vs gold, requirements_old and the new-version sources of the sub-goal (193/193)
+  fidelity.py     # parser gate: numbers of the expert requirements are in the parsed text
+  health.py       # parser health over every fetched PDF (no gold needed; flags scope-rej and restart for what the style gate cannot see)
+  xprovider.py    # second-provider benchmark: select / author / agree / ground / regrade (DeepSeek through --provider llm); 24 cases in spec/testing/cases/ds-*
   simulate_mapping.py  # graph of 10 regulations, lexical selectors and oracle ceilings vs the gold; --selection scores a model's picks
   judge.py        # local LLM 1:1 requirement matcher (approximates the platform), stage-wise recall, F2
 ```
@@ -221,8 +229,8 @@ Reused from the package:
 
 The held-out cases are released Sunday at 08:00, uploads close at 13:00, and the platform accepts 5 uploads per hour.
 
-1. **Fetch the PDFs and inspect them:** text layer, headers, tables, annex numbering. **Check whether the gold `page` is the physical PDF page index or the printed page number.**
-2. **Parser and anchor test (A1)** until at least 98% of anchors are found.
+1. **Fetch the PDFs and inspect them:** done for all 92 (`spec/finding/finding.md` section 2). The gold `page` is the physical PDF page, confirmed by the footer on every page.
+2. **Parser and anchor test (A1):** done, 193 of 193 anchors and all 92 PDFs parse. The weak points of `spec/finding/parser-weak-points.md` section 4 are fixed (section 6 there): scope headings on restart evidence, top-level parts that carry the numbering on, the two health signals, the new-version anchors in the gate, the tree and the hash in `parse.py`; the table fallback was tried and dropped. Open: a label convention for the appendices of an annex that are headed `Appendix N` alone (R131, R157, R171), and R13H Annex 4's plain `A.`/`B.` headings.
 3. **Obligation extraction (A3)** for all base versions plus R175 latest, via batch. Check extraction recall against the 94 R175 `requirements_old` entries, which are an independent, expert-written requirement set.
 4. **Main pipeline (A4)** on dev-rear-lamp, iterating on the stage-wise metrics below. Upload one dev file to the platform to calibrate the local judge.
 5. **Diff and sub-goal (B1/B3)** on `subgoal/dev`.
@@ -230,7 +238,7 @@ The held-out cases are released Sunday at 08:00, uploads close at 13:00, and the
 
 ## Verification
 
-- **Parser:** anchor hit rate (the paragraph exists and the gold page is within its range ±1) over the 190 + 94 anchors.
+- **Parser:** `python eval/anchors.py` must stay at 193 of 193 (a node with the gold's label exists and the gold page is inside its range); `python eval/fidelity.py` for the text; `python eval/health.py --baseline spec/testing/parse-health.csv` after every change, to see what it did to the other 91 PDFs. A label diff over the 92 parses against the committed parser is the acceptance test for any rule that opens or closes a scope (the restart rule changed R101 and no other PDF). Outside the five regulations with anchors these are signals, not proof: R101 passed all three and had a mislabelled appendix. `python eval/xprovider.py regrade` re-grounds the saved DeepSeek cases with the parser as it is and prints which verdicts moved; it needs no model call.
 - **Stage-wise recall on the dev case.** This shows where the pipeline is weak, which the brief asks teams to present in the pitch.
   - Regulation level: `python tools/score_local.py out.json`.
   - Section recall: the share of gold paragraphs inside the chosen subtrees.
@@ -248,7 +256,8 @@ The held-out cases are released Sunday at 08:00, uploads close at 13:00, and the
 
 ## Risks and assumptions
 
-- **Page numbering is unverified.** Until the PDFs are fetched, we don't know whether pages are physical or printed.
+- **Parser accuracy is verified by expert anchors on 5 of 56 regulations, and by a second model's cases on 28 more.** Four of the five are in-sample (the rules were generalised after R148 and R48 failed), R175 is the one hold-out, and the held-out main case has no anchors. The one confirmed defect that passed every gate (R101 Annex 7 Appendix 3, labelled as Appendix 2 because scope headings were recognised by font size and bold alone) is fixed; 96.2% of the 1,461 requirements DeepSeek wrote for 32 regulations now ground in a node with the label it gave, against 84.3% before the fixes, and the rest is a model's own labels, quotes it did not copy, and the open cases above. That is a second writer's opinion of what the labels should be, not the platform's gold: labels no gold settles (the `Part` prefix, appendices of an annex) stay unverified.
+- **Tables:** only ruled tables get a grid (8 of 426 captioned tables have none); the unit of a requirement differs per table and the gold's table labels are inconsistent, so the caption page is a hedge, not a certainty.
 - **Overfitting.** There is only one dev case, so selection rules could overfit to the rear lamp. Keep them generic: supersession, dropping admin obligations, filtering table rows by colour or vehicle category.
 - **Supersession** is read from the introductions of R148, R149 and R150 and agrees with the former hand-written table for the regulations in the index. A regulation without such an introduction is not covered.
 - **The dev numbers are in-sample for the design.** The derived electronics item, the category facet and the section kinds were chosen knowing the dev gold, and the regulation and section steps have only been run with BM25 (`spec/finding/mapping-simulation.md` §7). A model's picks have to be scored without the gold in its context.

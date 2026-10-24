@@ -1,0 +1,335 @@
+[
+  {
+    "regulation": "UN R32",
+    "paragraph": "5.1.",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "the displacement referred to in annex 4, paragraph 3, to this Regulation shall not exceed 75 mm",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 3.1.",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "the amount of longitudinal displacement of the vertical projection of the floor of the \"R\" point of the vehicle's rearmost seat",
+    "label": "Annex 4 3.1"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "5.2.",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "After the test, no rigid component in the passenger compartment shall constitute a risk of serious injury to the vehicle's occupants.",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "5.3.",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "In addition, the side doors of the vehicle shall not open under the effect of the impact.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "5.4.",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "the opening of a number of doors sufficient to enable all the occupants to emerge shall, after the impact, continue to be possible without the use of tools",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.4.2.",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The velocity of impact shall be between 35 and 38 km/h.",
+    "label": "Annex 4 2.4.2"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.4.3.",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The aggregate weight (mass) of carriage and impactor shall be 1,100 ± 20 kg.",
+    "label": "Annex 4 2.4.3"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.2.2.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The impacting surface shall be flat, not less than 2,500 mm wide, and 800 mm high",
+    "label": "Annex 4 2.2.2"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.2.3.4.",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "the ground clearance of the lower edge of the impacting surface shall be 175 ± 25 mm.",
+    "label": "Annex 4 2.2.3.4"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.2.3.1.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the impacting surface shall be vertical and perpendicular to the median longitudinal plane of the impacted vehicle;",
+    "label": "Annex 4 2.2.3.1"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.7.2.",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The fuel tank must be filled to at least 90 % of its capacity with a liquid having a density close to that of the fuel normally used.",
+    "label": "Annex 4 2.7.2"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.7.1.",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle under test shall either be fitted with all the normal components and equipment included in its unladen kerb weight",
+    "label": "Annex 4 2.7.1"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.8.",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The instruments used to record the speed referred to in paragraph 2.4.2. and 2.5.4. above shall be accurate to within 1 %.",
+    "label": "Annex 4 2.8"
+  },
+  {
+    "regulation": "UN R32",
+    "paragraph": "Annex 4 2.1.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "shall be horizontal, flat and smooth and have a coefficient of friction of not less than 0.5",
+    "label": "Annex 4 2.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The external surface of vehicles shall not exhibit, directed outwards, any pointed or sharp parts or any projections",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.3.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The external surface of vehicles shall not exhibit, directed outwards, any part likely to catch on pedestrians, cyclists or motor cyclists.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.4.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "No protruding part of the external surface shall have a radius of curvature less than 2.5 mm.",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.5.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Protruding parts of the external surface, made of a material of hardness not exceeding 60 shore A, may have a radius of curvature less than 2.5 mm.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "5.1.1"
+    ]
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.1.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The ends of the bumpers shall be turned in towards the external surface in order to minimize the risk of fouling.",
+    "label": "6.5.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.2.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "that surface shall have a minimum radius of curvature of 5 mm at all its points lying from the contour line to 20 mm inward",
+    "label": "6.5.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.3.",
+    "page": 6,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "which have a projection of less than 5 mm, with special reference to joint covers and jets for headlamp washers",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.6.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The projection shall not exceed 40 mm in the case of door or luggage compartment handles and 30 mm in all other cases.",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.8.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Sheet-metal edges, such as gutter edges and the rails of sliding doors, shall not be permitted unless they are folded back or are fitted with a shield",
+    "label": "6.8.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.9.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Folds in body panels may have a radius of curvature of less than 2.5 mm provided that it is not less than one-tenth of the height \"H\" of the projection",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.11.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The jacking brackets and exhaust pipe(s) shall not project more than 10 mm beyond the vertical projection of the floor line lying vertically above them.",
+    "label": "6.11.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.15.1.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Supporting brackets provided by the vehicle manufacturer for registration plates shall comply with the requirements of paragraph 5.4. of this Regulation",
+    "label": "6.15.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "4.1.6.",
+    "page": 3,
+    "raw_pages": [
+      3,
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and be indelible.",
+    "label": "4.1.6"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "4.1.7.",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer.",
+    "label": "4.1.7"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "Annex 2 Model A",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "a= 8 mm min",
+    "label": "Annex 2",
+    "read": "without the trailing words"
+  }
+]

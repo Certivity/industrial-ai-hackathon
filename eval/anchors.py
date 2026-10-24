@@ -7,6 +7,10 @@
 An anchor is found when a node of the regulation's base PDF has the same label (compared with the platform's own
 tools/score_local._paragraph_key) and the anchor's page lies inside the node's page range. Exit status 1 if any is missed.
 The sources are globbed, so the held-out sub-goal's requirements_old.json joins the gate as soon as it is pulled.
+
+The new-version side of a sub-goal is checked the same way: the `source` (page, paragraph) of every change in
+subgoal/*/expected.json points into the new PDF, which is the regulation's latest version (the folder's requirements_old.json names
+the regulation). The held-out sub-goal has no expected.json, so there this side is empty.
 Needs PyMuPDF and the base PDFs: python tools/fetch_regulations.py --role base --out regulations/data
 """
 
@@ -27,6 +31,7 @@ from regcomp.parse import parse_pdf  # noqa: E402
 from score_local import _paragraph_key  # noqa: E402
 
 SOURCES = sorted(ROOT.glob("cases/*/expected.json")) + sorted(ROOT.glob("subgoal/*/requirements_old.json"))
+NEW_SIDE = sorted(ROOT.glob("subgoal/*/expected.json"))
 
 
 def load_requirements() -> list[dict]:
@@ -46,11 +51,29 @@ def load_anchors() -> dict[str, set[tuple[int, str]]]:
     return anchors
 
 
-def check(regulation: str, anchors: set[tuple[int, str]]) -> list[tuple[int, str, list[tuple[str, int, int]]]]:
+def load_new_anchors() -> dict[str, set[tuple[int, str]]]:
+    """(page, paragraph) of the new version, from the `source` of each change of a sub-goal's expected.json, by regulation."""
+    anchors: dict[str, set[tuple[int, str]]] = defaultdict(set)
+    for path in NEW_SIDE:
+        old = path.with_name("requirements_old.json")
+        if not old.is_file():
+            continue
+        data = json.loads(old.read_text(encoding="utf-8"))
+        regulations = {r["source"]["regulation"] for r in (data["requirements"] if isinstance(data, dict) else data)}
+        if len(regulations) != 1:  # the new PDF cannot be told from the folder when it has several regulations
+            continue
+        for change in json.loads(path.read_text(encoding="utf-8")).get("changes", []):
+            source = change.get("source")
+            if source:
+                anchors[next(iter(regulations))].add((source["page"], source.get("paragraph", "")))
+    return anchors
+
+
+def check(regulation: str, anchors: set[tuple[int, str]], role: str = "base") -> list[tuple[int, str, list[tuple[str, int, int]]]]:
     """The anchors of one regulation that were not found, each with the nodes that carry its label (if any)."""
-    pdf = corpus.pdf_path(corpus.entry_for(regulation), "base")
+    pdf = corpus.pdf_path(corpus.entry_for(regulation), role)
     if pdf is None:
-        raise SystemExit(f"error: the base PDF of {regulation} is not in regulations/data; run tools/fetch_regulations.py")
+        raise SystemExit(f"error: the {role} PDF of {regulation} is not in regulations/data; run tools/fetch_regulations.py")
     by_label: dict[str | None, list] = defaultdict(list)
     for node in parse_pdf(pdf, grids=False).nodes:
         by_label[_paragraph_key(node.label)].append(node)
@@ -68,13 +91,14 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     found = total = 0
-    for regulation, anchors in load_anchors().items():
-        misses = check(regulation, anchors)
-        found, total = found + len(anchors) - len(misses), total + len(anchors)
-        print(f"{regulation:<10}{len(anchors) - len(misses):>4}/{len(anchors)}")
-        if args.misses:
-            for page, paragraph, nodes in misses:
-                print(f"    MISS p{page} {paragraph!r}: {nodes or 'no node with that label'}")
+    for role, sources in (("base", load_anchors()), ("latest", load_new_anchors())):
+        for regulation, anchors in sources.items():
+            misses = check(regulation, anchors, role)
+            found, total = found + len(anchors) - len(misses), total + len(anchors)
+            print(f"{regulation:<10}{len(anchors) - len(misses):>4}/{len(anchors)}" + ("   (new version of the sub-goal)" if role == "latest" else ""))
+            if args.misses:
+                for page, paragraph, nodes in misses:
+                    print(f"    MISS p{page} {paragraph!r}: {nodes or 'no node with that label'}")
     print(f"{'total':<10}{found:>4}/{total}")
     return 0 if found == total else 1
 

@@ -1,0 +1,553 @@
+[
+  {
+    "regulation": "UN R89",
+    "paragraph": "5.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The speed limitation must be such that the vehicle in normal use, despite the vibrations to which it may be subjected, complies with the provisions of Part I of this Regulation.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "5.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "the vehicle's SLD must be so designed, constructed and assembled as to resist corrosion and ageing phenomena to which it may be exposed and to resist tempering",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.1.2.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The set speed Vset must not, in any case, be capable of being increased or removed temporarily or permanently on vehicles in use.",
+    "label": "21.1.2.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.1.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The SLD and the connections necessary for its operation, except those essential for the running of the vehicle, shall be capable of being protected from any unauthorized adjustments or the interruption of its energy supply",
+    "label": "21.1.2.2"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.1.3",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The SLD shall not actuate the vehicle's service braking system. A permanent brake {e.g. retarder) may be actuated only if it operates after the speed limitation device has restricted the fuel feed to the minimum fuel position.",
+    "label": "21.1.3"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The SLD must be such that it does not affect the vehicle’s road speed if a positive action on the accelerator is applied when the vehicle is running at its set speed.",
+    "label": "21.1.4"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.1.5",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The SLD may allow normal accelerator control for the purposes of gear changing.",
+    "label": "21.1.5"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.1.6",
+    "page": 12,
+    "raw_pages": [
+      4,
+      12
+    ],
+    "verdict": "ok",
+    "exact": "No malfunction or unauthorized interference shall result in an increase in engine power above that demanded by the position of the driver’s accelerator.",
+    "label": "21.1.6"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.1.7",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The SLD shall operate satisfactorily in its electromagnetic environment without unacceptable electromagnetic disturbance for anything in this environment.",
+    "label": "21.1.7"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.3.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The speed limitation tests to which the SLD presented for approval is submitted as well as the performances required are described in annex 5 to this Regulation.",
+    "label": "21.3.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle running at a speed which is 10 km/h below the set speed shall be accelerated as much as possible using a fully positive action on the accelerator control.",
+    "label": "Annex 5 1.1.4.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.2.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The stabilized speed reached by the vehicle shall not exceed the set speed (Vstab ≤ Vset). However, a tolerance of 5% of the Vset value, or 5 km/h, whichever is the greater, is acceptable;",
+    "label": "Annex 5 1.1.4.2.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.2.2.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Vmax shall not exceed Vstab by more than 5%;",
+    "label": "Annex 5 1.1.4.2.2.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.2.2.2",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 5 1.1.4.2.2.1"
+    ]
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.2.2.3",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "the stabilized speed conditions specified in paragraph 1.1.4.2.3. shall be attained within 10 s of first reaching Vstab;",
+    "label": "Annex 5 1.1.4.2.2.3"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.2.3.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "speed shall not vary by more than 4% of Vstab or 2 km/h whichever is greater;",
+    "label": "Annex 5 1.1.4.2.3.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.2.3.2",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "the rate of change of speed shall not exceed 0.2 m/s² when measured on a period greater than 0.1 s;",
+    "label": "Annex 5 1.1.4.2.3.2"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.4.2.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Tests in acceleration shall be carried out and the acceptance criteria verified for each gear ratio allowing in theory the set speed to be exceeded.",
+    "label": "Annex 5 1.1.4.2.4"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.5.2.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "On each test run Vstab shall not exceed Vset. However, a tolerance of 5% of the Vset value, or 5 km/h, whichever is the greater, is acceptable;",
+    "label": "Annex 5 1.1.5.2.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 1.1.5.2.2",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The difference between the stabilization speeds obtained during each test run shall be equal to or less than 3 km/h;",
+    "label": "Annex 5 1.1.5.2.2"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.2.1",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Conditioning 1: tests at ambient temperature (20° C ± 2° C) Number of cycles: 50,000",
+    "label": "Annex 5 2.2.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.2.2.1",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "The components shall be cycled in a climatic chamber A temperature of 65° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+    "label": "Annex 5 2.2.2.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.2.2.2",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "The components shall be cycled in a climatic chamber. A temperature of 100° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+    "label": "Annex 5 2.2.2.2"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.2.3",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "In the climatic chamber used for conditioning 2, a temperature of -20° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+    "label": "Annex 5 2.2.3"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.2.4",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The device shall be cycled in a salted atmosphere chamber. The concentration of sodium chloride is of 5% and internal temperature of the climatic chamber is of 35° C ± 2° C. Number of cycles: 12,500.",
+    "label": "Annex 5 2.2.4"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.2.5.2.1",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "First test: frequency range 10-24 Hz, amplitude ± 2 mm;",
+    "label": "Annex 5 2.2.5.2.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.2.5.2.2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Second test: frequency range 24-1,000 Hz for chassis and cab-mounted components, input 2.5 g. For engine-mounted components, input 5 g.",
+    "label": "Annex 5 2.2.5.2.2"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "Annex 5 2.3.1",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "At the end of the endurance tests, no modification of the device’s performances shall be observed regarding the set speed;",
+    "label": "Annex 5 2.3.1"
+  },
+  {
+    "regulation": "UN R89",
+    "paragraph": "21.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The effectiveness of the speed limitation function shall not be adversely affected by magnetic or electric fields.",
+    "label": "21.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1. Table 1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "If measurements are made using the method described in Annex 7, the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band",
+    "label": "6.5.2.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1. Table 1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 12,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "1 -75 V -450 V 500 pulses III III 2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2b +10 V +20 V 10 pulses II III 3a -112 V -150 V 1 h I III 3b +75 V +150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases) C (for other ESA)",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Functional status classification for ESA: 12 V system 24 V system Related to immunity related functions Not related to immunity related functions B D",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall identify and manage, for the vehicle type being approved, supplier-related risks.",
+    "label": "7.3.2"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall identify the critical elements of the vehicle type and perform an exhaustive risk assessment for the vehicle type and shall treat/manage the identified risks appropriately.",
+    "label": "7.3.3"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall protect the vehicle type against risks identified in the vehicle manufacturer’s risk assessment. Proportionate mitigations shall be implemented to protect the vehicle type.",
+    "label": "7.3.4"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. M22",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to external interfaces",
+    "label": "Annex 5 Part B 4. Table B4",
+    "read": "table of the paragraph"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 5. M7",
+    "page": 20,
+    "raw_pages": [
+      20,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Access control techniques and designs shall be applied to protect system data/code.",
+    "label": "Annex 5 Part B 5. Table B5",
+    "read": "table of the paragraph"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. M10",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall verify the authenticity and integrity of messages it receives",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "table of the paragraph"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. M15",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect malicious internal messages or activity should be considered",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "table of the paragraph"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall implement measures for the vehicle type to: (a) Detect and prevent cyber-attacks against vehicles of the vehicle type;",
+    "label": "7.3.7"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.6",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall perform, prior to type approval, appropriate and sufficient testing to verify the effectiveness of the security measures implemented.",
+    "label": "7.3.6"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards.",
+    "label": "7.3.8"
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-airbag-module",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The replacement driver airbag module shall be designed so that interference from magnetic fields does not disrupt the operation of the airbag system.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The replacement driver airbag module shall be part of a complete system that comprises a device alerting the user if the airbag system is not in working order as designed.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The category A replacement driver airbag module shall be so designed that, in the static deployment test of paragraph 5.2.2.7., the airbag may be pushed aside manually after full deployment.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The replacement driver airbag module shall release, on deployment, gases and solid particles whose nature, concentration and temperature are not liable to injure seriously the vehicle occupants, as stated in the certificate presented for it.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The replacement driver airbag module shall comply with ISO 12097-2:1996-08-00 to guarantee its operating safety.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The replacement driver airbag module shall pass a mechanical impact test where the reduced test programme of paragraph 5.2.2. is applied instead of the ISO 12097-2 programme.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.2.2.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The replacement driver airbag module shall pass a simultaneous vibration temperature test where the reduced test programme of paragraph 5.2.2. is applied instead of the ISO 12097-2 programme.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.2.2.3"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The replacement driver airbag module shall pass a thermal humidity cycling test where the reduced test programme of paragraph 5.2.2. is applied instead of the ISO 12097-2 programme.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.2.2.4"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The replacement driver airbag module shall pass a solar radiation simulation test where the reduced test programme of paragraph 5.2.2. is applied instead of the ISO 12097-2 programme.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.2.2.5"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The replacement driver airbag module shall pass a temperature shock test where the reduced test programme of paragraph 5.2.2. is applied instead of the ISO 12097-2 programme.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.2.2.6"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The replacement driver airbag module shall pass a static deployment test where the reduced test programme of paragraph 5.2.2. is applied instead of the ISO 12097-2 programme.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 6,
+        "paragraph": "5.2.2.7"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The replacement driver airbag module shall be clearly and indelibly marked with the manufacturer's trade name or mark and an approval mark consisting of the E-circle, the approval number and the additional category symbol.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "4.1.4"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The replacement driver airbag module shall carry an additional symbol indicating its airbag module category A.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "4.1.4.3"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The approval mark and the additional category symbol on the replacement driver airbag module shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "4.1.5"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The cover of the replacement driver airbag module shall carry the inscription \"AIRBAG\" durably affixed and easily visible.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 11,
+        "paragraph": "7.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Where the replacement driver airbag module is part of a frontal protection airbag system intended for use in any passenger seating position, a permanently attached warning label shall be provided on the visible surface of the cover of the airbag module in the language(s) of the country of sale, with a minimum size of 60 x 120 mm.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 11,
+        "paragraph": "7.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The replacement driver airbag module, when installed in the steering wheel of an M1 vehicle, shall be such that the vehicle fulfils the head, neck, thorax and femur criteria of paragraphs 5.2.1.1. to 5.2.1.5. of UN Regulation No. 94, 01 series of amendments, in the frontal impact test.",
+      "source": {
+        "regulation": "UN R114",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "5.3.5"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The replacement driver airbag module, as deployed in the frontal impact test of the vehicle, shall keep the driver head performance criterion (HPC) at or below 1,000 and the resultant head acceleration at or below 80 g for more than 3 ms.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The replacement driver airbag module, as deployed in the frontal impact test of the vehicle, shall keep the driver Thorax Compression Criterion (ThCC) at or below 42 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.4"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The replacement driver airbag module, as deployed in the frontal impact test of the vehicle, shall keep the thorax viscous criterion (V*C) at or below 1.0 m/s.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.5"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The replacement driver airbag module, as installed in the steering wheel subject to the frontal impact test, shall leave a residual steering wheel displacement at the hub centre not exceeding 80 mm upwards vertically and 100 mm rearward horizontally.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The replacement driver airbag module, as an ESA performing an immunity related function, shall be designed so that deployment control is not degraded by electromagnetic disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 2,
+        "paragraph": "2.12"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The replacement driver airbag module shall show no degradation of its immunity related airbag function when tested to the immunity levels of Table 2a over 90 per cent and Table 2b over the whole 20 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The replacement driver airbag module shall emit broadband radiated electromagnetic interference below the limits of 62 to 52 dB microvolts/m in the 30 to 75 MHz band, 52 to 63 dB microvolts/m in the 75 to 400 MHz band and 63 dB microvolts/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The replacement driver airbag module shall emit narrowband radiated electromagnetic interference below the limits of 52 to 42 dB microvolts/m in the 30 to 75 MHz band, 42 to 53 dB microvolts/m in the 75 to 400 MHz band and 53 dB microvolts/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The replacement driver airbag module shall meet the functional performance status classification given in Tables 3a and 3b for an ESA related to immunity related functions when tested with the starting profile and pulses 1, 2a, 2b, 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The replacement driver airbag module, as an ESA approved under UN Regulation No. 10, shall be affixed with the international approval mark of paragraph 5.3. in a conspicuous and easily accessible place.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    }
+  ]
+}

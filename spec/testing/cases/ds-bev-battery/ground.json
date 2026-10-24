@@ -1,0 +1,742 @@
+[
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "For high voltage live parts inside the passenger compartment, or luggage compartment, or trailer load compartment, the protection degree IPXXD shall be provided.",
+    "label": "5.1.1.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "For high voltage live parts in areas other than the passenger compartment, or luggage compartment or trailer load compartment, the protection degree IPXXB shall be provided.",
+    "label": "5.1.1.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.4.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The symbol shown in Figure 2 shall be present on or near the REESS having high voltage capability. The symbol background shall be yellow, the bordering and the arrow shall be black.",
+    "label": "5.1.1.4.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.4.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The symbol shall also be visible on enclosures and electrical protection barriers, which, when removed, expose live parts of high voltage circuits.",
+    "label": "5.1.1.4.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.1.4.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Cables for high voltage buses which are not located within enclosures shall be identified by having an outer covering with the colour orange.",
+    "label": "5.1.1.4.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The resistance between all exposed conductive parts and the electrical chassis shall be lower than 0.1 ohm when there is current flow of at least 0.2 amperes.",
+    "label": "5.1.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.3.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "isolation resistance between the high voltage bus and the electrical chassis shall have a minimum value of 100 Ω/volt of the working voltage for DC buses",
+    "label": "5.1.3.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.1.3.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "If AC high voltage buses and DC high voltage buses are galvanically connected, isolation resistance between the high voltage bus and the electrical chassis shall have a minimum value of 500 Ω/volt of the working voltage.",
+    "label": "5.1.3.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.2.2.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Smoke caused by thermal propagation shall not be released into the passenger compartment.",
+    "label": "5.2.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "5.2.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall provide a warning to the driver when the vehicle is in active driving possible mode in the event specified in paragraphs 6.13. to 6.15.",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.2.2.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "During the test, there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS (s) only); (c) Venting",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.2.2.2",
+    "page": 13,
+    "raw_pages": [
+      13,
+      14,
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt.",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.3.2.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "During the test, there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS (s) only); (c) Venting",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.3.2.2",
+    "page": 14,
+    "raw_pages": [
+      13,
+      14,
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt.",
+    "label": "6.3.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.4.1.3",
+    "page": 14,
+    "raw_pages": [
+      14,
+      16
+    ],
+    "verdict": "ok",
+    "exact": "During the test there shall be no evidence of: (a) Fire; (b) Explosion;",
+    "label": "6.4.1.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.4.1.3",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "After the component based test (paragraph 6.4.1.2.) the Tested-Device shall be retained by its mounting and its components shall remain inside its boundaries.",
+    "label": "6.4.1.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.4.1.3",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS the isolation resistance of the Tested-Device shall ensure at least 100 Ω/Volt for the whole REESS measured after the test",
+    "label": "6.4.1.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.4.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "This test applies only to a REESS intended for installation in vehicles of categories M1 and N1.",
+    "label": "6.4.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.4.2.3",
+    "page": 16,
+    "raw_pages": [
+      14,
+      16
+    ],
+    "verdict": "ok",
+    "exact": "During the test there shall be no evidence of: (a) Fire; (b) Explosion;",
+    "label": "6.4.2.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.4.2.3",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance of the Tested-Device shall ensure at least 100 Ω/Volt for the whole REESS measured in accordance with Annex 5A or Annex 5B",
+    "label": "6.4.2.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.5.3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "During the test, the tested-device shall exhibit no evidence of explosion.",
+    "label": "6.5.3.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.6.2.1",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "During the test there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS(s) only); (c) Venting",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.6.2.2",
+    "page": 17,
+    "raw_pages": [
+      13,
+      14,
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt.",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.7.2.1",
+    "page": 18,
+    "raw_pages": [
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "During the test there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS(s) only); (c) Venting",
+    "label": "6.7.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.7.2.2",
+    "page": 18,
+    "raw_pages": [
+      13,
+      14,
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt.",
+    "label": "6.7.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.8.2.1",
+    "page": 18,
+    "raw_pages": [
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "During the test there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS(s) only); (c) Venting",
+    "label": "6.8.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.8.2.2",
+    "page": 19,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt.",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.9.2.1",
+    "page": 18,
+    "raw_pages": [
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "During the test there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS(s) only); (c) Venting",
+    "label": "6.9.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.9.2.2",
+    "page": 19,
+    "raw_pages": [
+      13,
+      14,
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/Volt.",
+    "label": "6.9.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.10",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "This test is required for REESS intended for use on vehicles of categories M1 and N1 that have the capability of charging by DC external electricity supply.",
+    "label": "6.10"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.10.2.1",
+    "page": 19,
+    "raw_pages": [
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "During the test there shall be no evidence of: (a) Electrolyte leakage; (b) Rupture (applicable to high voltage REESS(s) only); (c) Venting",
+    "label": "6.10.2.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.10.2.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The overcurrent protection control of the REESS shall terminate charging or the temperature measured on the casing of the REESS shall be stabilized, such that the temperature gradient varies by less than 4 °C through 2 hours after the maximum overcurrent charging level is reached.",
+    "label": "6.10.2.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.10.2.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "For a high voltage REESS, the isolation resistance measured after the test in accordance with Annex 5B to this Regulation shall not be less than 100 Ω/V.",
+    "label": "6.10.2.3"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.12.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Under vehicle operation including the operation with a failure, the vehicle occupants shall not be exposed to any hazardous environment caused by emissions from REESS.",
+    "label": "6.12.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.13",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The REESS or vehicle system shall provide a signal to activate the warning specified in paragraph 5.2.3. in the event of operational failure of the vehicle controls",
+    "label": "6.13"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.14",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The REESS or vehicle system shall provide a signal to activate the warning specified in paragraph 5.2.3. in the case of a thermal event in the REESS (as specified by the manufacturer).",
+    "label": "6.14"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.15",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "the vehicle occupants shall not be exposed to any hazardous environment caused by thermal propagation which is triggered by an internal short circuit leading to a single cell thermal runaway",
+    "label": "6.15"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.15.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The REESS or vehicle system shall provide a signal to activate the warning specified in paragraph 5.2.3. in the event of a thermal propagation",
+    "label": "6.15.1"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.15.2",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The REESS or vehicle system shall have functions or characteristics in the cell, REESS or vehicle intended to protect vehicle occupants",
+    "label": "6.15.2"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.15.3.4",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "For 5 minutes following the signal to activate the warning indication, none of the following hazardous situations caused by thermal propagation shall occur: (a) Fire; (b) Explosion; (c) Smoke release into the passenger compartment.",
+    "label": "6.15.3.4"
+  },
+  {
+    "regulation": "UN R100",
+    "paragraph": "6.16",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "REESS and vehicle shall be compatible with regard to their communication.",
+    "label": "6.16"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "If measurements are made using the method described in Annex 7, the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "If measurements are made using the method described in Annex 8, the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 12,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test severity in over 90 per cent of the 20 to 6,000 MHz frequency band are given in Table 2a.",
+    "label": "6.8.2.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.7.2.1",
+    "page": 18,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+    "label": "7.7.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.7.2.2",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "there shall be no degradation of performance of \"immunity related functions\", according to paragraph 2.2. of Annex 6.",
+    "label": "7.7.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.13.2.1",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "the limits on AC power lines are those defined in IEC 61000-6-3 and given in Table 16",
+    "label": "7.13.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "7.13.2.2",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "the limits on DC power lines are those defined in IEC 61000-6-3 and given in Table 17",
+    "label": "7.13.2.2"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B1 M10",
+    "page": 8,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "wrong page",
+    "exact": "The vehicle shall verify the authenticity and integrity of messages it receives",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B1 M11",
+    "page": 8,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "wrong page",
+    "exact": "Security controls shall be implemented for storing cryptographic keys (e.g., use of Hardware Security Modules)",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B1 M12",
+    "page": 20,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "wrong page",
+    "exact": "Confidential data transmitted to or from the vehicle shall be protected",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B1 M13",
+    "page": 18,
+    "raw_pages": [
+      18,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect and recover from a denial of service attack shall be employed",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B1 M15",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect malicious internal messages or activity should be considered",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B4 M20",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to systems that have remote access",
+    "label": "Annex 5 Part B 4. Table B4",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B4 M21",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Software shall be security assessed, authenticated and integrity protected.",
+    "label": "Annex 5 Part B 4. Table B4",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B4 M22",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to external interfaces",
+    "label": "Annex 5 Part B 4. Table B4",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B5 M7",
+    "page": 21,
+    "raw_pages": [
+      17,
+      20,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Access control techniques and designs shall be applied to protect system data/code",
+    "label": "Annex 5 Part B 5. Table B5",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4. Table B6 M23",
+    "page": 22,
+    "raw_pages": [
+      21,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Cybersecurity best practices for software and hardware development shall be followed",
+    "label": "Annex 5 Part B 6. Table B6",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "A29.2",
+    "page": 32,
+    "raw_pages": [
+      17,
+      22
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 5 Part A 4.3.7",
+      "Annex 5 Part B 6. Table B6"
+    ]
+  }
+]

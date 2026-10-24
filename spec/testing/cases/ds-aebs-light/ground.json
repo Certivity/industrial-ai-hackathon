@@ -1,0 +1,646 @@
+[
+  {
+    "regulation": "UN R152",
+    "paragraph": "Introduction",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Introduction",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Introduction",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Introduction",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The effectiveness of AEBS shall not be adversely affected by magnetic or electrical fields.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Conformity with the safety aspects of electronic control systems shall be shown by meeting the requirements of Annex 3.",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.4.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "A failure warning when there is a failure in the AEBS that prevents the requirements of this Regulation of being met.",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.4.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "There shall not be an appreciable time interval between each AEBS self-check, and subsequently there shall not be a delay in illuminating the warning signal",
+    "label": "5.1.4.1.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.4.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Upon detection of any non-electrical failure condition (e.g. sensor blindness or sensor misalignment), the warning signal as defined in paragraph 5.1.4.1. shall be illuminated.",
+    "label": "5.1.4.1.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.4.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "If the system has not been initialised after a cumulative driving time of 15 seconds above a speed of 10km/h, information of this status shall be indicated to the driver.",
+    "label": "5.1.4.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.4.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "A deactivation warning, if the vehicle is equipped with a means to deactivate the AEBS, shall be given when the system is deactivated.",
+    "label": "5.1.4.3"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "the system shall provide emergency braking interventions described in paragraphs 5.2.1.2., 5.2.2.2. and 5.2.3.2.",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be designed to minimise the generation of collision warning signals and to avoid advanced emergency braking in situations where there is no risk of an imminent collision.",
+    "label": "5.1.6"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.1.7",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Any vehicle fitted with an AEBS shall meet the performance requirements of UN Regulation No. 13-H",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "a collision warning shall be provided as specified in paragraph 5.5.1., and shall be triggered at the latest 0.8 seconds before the start of emergency braking",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "in case the collision cannot be anticipated in time to give a collision warning 0.8 seconds ahead of an emergency braking a collision warning shall be provided",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.1.2",
+    "page": 5,
+    "raw_pages": [
+      5,
+      8
+    ],
+    "verdict": "ok",
+    "exact": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 5.0 m/s² to the service braking system of the vehicle.",
+    "label": "5.2.1.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.1.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be active at least within the vehicle speed range between 10 km/h and 60 km/h and at all vehicle load conditions",
+    "label": "5.2.1.3"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.1.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the AEBS shall be able to achieve a relative impact speed that is less or equal to the maximum relative impact speed as shown in the following table",
+    "label": "5.2.1.4"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.1.4. Table",
+    "page": 6,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "For relative speeds between the listed values (e.g. 53 km/h), the maximum relative impact speed (i.e. 30/30 km/h) assigned to the next higher relative speed (i.e. 55 km/h) shall apply.",
+    "label": "5.2.1.4",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.2.1",
+    "page": 8,
+    "raw_pages": [
+      5,
+      8,
+      10
+    ],
+    "verdict": "ok",
+    "exact": "a collision warning shall be provided as specified in paragraph 5.5.1. and shall be provided no later than the start of emergency braking intervention",
+    "label": "5.2.2.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.2.2",
+    "page": 8,
+    "raw_pages": [
+      5,
+      8
+    ],
+    "verdict": "ok",
+    "exact": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 5.0 m/s2 to the service braking system of the vehicle.",
+    "label": "5.2.2.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.2.3",
+    "page": 8,
+    "raw_pages": [
+      8,
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle load conditions",
+    "label": "5.2.2.3"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.2.2.4. Table",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "For subject vehicle speeds between the listed values (e.g. 53 km/h), the maximum relative impact speed (i.e. 30/30 km/h) assigned to the next higher relative speed (i.e. 55 km/h) shall apply.",
+    "label": "5.2.2.4",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.3.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS shall provide the means for the driver to interrupt the collision warning and the emergency braking.",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.3.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "this interruption may be initiated by any positive action (e.g. kick-down. operating the direction indicator control) that indicates that the driver is aware of the emergency situation",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.4.1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS function shall be automatically reinstated at each initiation of the powertrain",
+    "label": "5.4.1.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.4.1.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS control shall be designed a in such a way that manual deactivation shall not be possible with less than two deliberate actions.",
+    "label": "5.4.1.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.4.1.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "It shall not be possible to manually deactivate the AEBS at a speed above 10 km/h.",
+    "label": "5.4.1.4"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.4.2.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The AEBS function shall be automatically reactivated as soon as the conditions that led to the automatic deactivation are not present anymore.",
+    "label": "5.4.2.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.4.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "A constant optical warning signal shall inform the driver that the AEBS function has been deactivated.",
+    "label": "5.4.3"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.5.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "shall be provided by at least two modes selected from acoustic, haptic or optical",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.5.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The failure warning referred to in paragraph 5.1.4.1. shall be a constant yellow optical warning signal.",
+    "label": "5.5.4"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.5.5",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Each AEBS optical warning signal shall be activated either when the ignition (start) switch is turned to the \"on\" (run) position",
+    "label": "5.5.5"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.5.6",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The optical warning signals shall be visible even by daylight; the satisfactory condition of the signals must be easily verifiable by the driver from the driver's seat.",
+    "label": "5.5.6"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.5.7",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "When the driver is provided with an optical warning signal to indicate that the AEBS is temporarily not available",
+    "label": "5.5.7"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "5.6.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "it shall be possible to confirm the correct operational status of the AEBS by a visible observation of the failure warning signal status",
+    "label": "5.6.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "6.3.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The target used for the vehicle detection tests shall be a regular high-volume series production passenger car of Category M1",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "6.3.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The target used for the pedestrian detection tests shall be a child \"articulated soft target\"",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "6.8.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The failure warning signal mentioned in paragraph 5.5.4. above shall be activated and remain activated not later than 10 s after the vehicle has been driven at a speed greater than 10 km/h",
+    "label": "6.8.2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "6.10.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "A test scenario shall be accounted as passed if the required performance is met in two test runs.",
+    "label": "6.10.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Annex 2",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "pursuant to UN Regulation No. 152 (marked with C for Car to Car. P for Car to Pedestrian. B for Car to Bicycle)",
+    "label": "Annex 2"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Annex 3 3.1",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The manufacturer shall provide a documentation package which gives access to the basic design of \"The System\" and the means by which it is linked to other vehicle systems",
+    "label": "Annex 3 3.1"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Annex 3 3.4.3",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "In case of a failure, the driver shall be warned for example by warning signal or message display.",
+    "label": "Annex 3 3.4.3"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Annex 3 3.4.3.3",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "all the corresponding output control signals associated with this function shall be inhibited, and in such a manner as to limit the transition disturbance",
+    "label": "Annex 3 3.4.3.3"
+  },
+  {
+    "regulation": "UN R152",
+    "paragraph": "Annex 3 3.4.4.2",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice the safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions",
+    "label": "Annex 3 3.4.4.2"
+  },
+  {
+    "regulation": "UN R13H",
+    "paragraph": "5.1.1.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The effectiveness of the braking equipment shall not be adversely affected by magnetic or electrical fields.",
+    "label": "5.1.1.4"
+  },
+  {
+    "regulation": "UN R13H",
+    "paragraph": "5.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The requirements of Annex 8 shall be applied to the safety aspects of all complex electronic vehicle control systems",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R13H",
+    "paragraph": "5.2.9",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Malfunctions of the electric control transmission shall not apply the brakes contrary to the intentions of the driver or ADS.",
+    "label": "5.2.9"
+  },
+  {
+    "regulation": "UN R13H",
+    "paragraph": "5.2.22.2. Table",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Deceleration demanded by an Automated Driving System, automatically commanded braking and/or regenerative braking",
+    "label": "5.2.22.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R13H",
+    "paragraph": "5.2.23.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The signal shall not be activated when the vehicle deceleration is below 6 m/s² but it may be generated at any deceleration at or above this value",
+    "label": "5.2.23.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test severity in over 90 per cent of the 20 to 6,000 MHz frequency band are given in Table 2a.",
+    "label": "6.8.2.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test severity for the minimum test Level over the whole 20 to 6,000 MHz frequency band given in Table 2b.",
+    "label": "6.8.2.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Maximum allowed pulse amplitude for Polarity of pulse amplitude Vehicles with 12 V systems Vehicles with 24 V systems",
+    "label": "6.7.1. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Immunity test level Number of pulses Functional status classification for ESA: 12 V system",
+    "label": "6.9.1",
+    "read": "without the table"
+  }
+]

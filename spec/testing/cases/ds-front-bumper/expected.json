@@ -1,0 +1,1096 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-front-bumper",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The front fog lamp shall clearly, legibly and indelibly bear the trade name or mark of the applicant.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The front fog lamp shall bear a marking indicating the class of the front fog lamp (B or F3).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The front fog lamp shall bear the LED module specific identification code where an LED module is used.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The front fog lamp shall comprise on the lens and on the main body spaces of sufficient size for the approval mark and the additional symbols.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The approval marking shall be placed on an inner or outer part of the device which cannot be separated from the transparent part of the device emitting light.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The marking shall be visible when the device is fitted on the vehicle, at least when a movable part such as the hood or boot lid or a door is opened.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The Class F3 front fog lamp with LED module(s) shall bear the marking of the rated voltage, rated wattage and the light source module specific identification code.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.4"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The LED module submitted with the lamp shall bear the trade name or mark of the applicant, clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.5.1"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The LED module submitted with the lamp shall bear the specific identification code of the module, clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.5.2"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "A light source control gear not part of the LED module shall be marked with its specific identification code(s), the rated input voltage and wattage.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 4,
+        "paragraph": "3.6"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The front fog lamp shall carry an approval mark as described in paragraphs 4.2. and 4.3., affixed in the spaces referred to in paragraph 3.2.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 5,
+        "paragraph": "4.1.5"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The front fog lamp shall bear the letter \"B\" (Class B) or the symbol \"F3\" (Class F3) as additional symbol of the approval mark.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 5,
+        "paragraph": "4.2.2.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The front fog lamp incorporating a lens of plastic material shall bear the group of letters \"PL\" affixed near the class symbol.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 5,
+        "paragraph": "4.2.2.2"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Where the front fog lamp is designed so that its light source shall not be lit simultaneously with a reciprocally incorporated function, an oblique stroke (/) shall be placed behind the symbol of that function in the approval mark.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 5,
+        "paragraph": "4.2.2.3.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The front fog lamp meeting Annex 5 requirements only at 6 V or 12 V shall bear, near the filament lamp holder, a symbol consisting of the number 24 crossed out by an oblique cross.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 5,
+        "paragraph": "4.2.2.3.3"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "A Class F3 front fog lamp with asymmetric light distribution that must not be indiscriminately mounted on either side shall bear an arrow pointing to the outside of the vehicle.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 5,
+        "paragraph": "4.2.2.5"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The approval marks and symbols shall be clearly legible and indelible even when the front fog lamp is fitted in the vehicle.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 5,
+        "paragraph": "4.2.2.7"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "Each sample of front fog lamp shall meet the photometric specifications set forth in paragraphs 6. and 7. of the Regulation.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The front fog lamp shall be so designed and constructed that in normal use, despite the vibrations to which it may then be subjected, its satisfactory operation continues to be ensured and it retains the characteristics prescribed by this Regulation.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The front fog lamp shall have the correct position of the lens clearly marked and the lens and reflector so secured as to prevent any rotation during use.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The front fog lamp shall be fitted with a device enabling it to be adjusted on the vehicle so as to comply with the rules applicable to it.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The front fog lamp shall show no excessive change in photometric performance in use when tested according to the requirements of Annex 5.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The front fog lamp with a lens of plastic material shall be tested according to the requirements of Annex 6.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "Where replaceable light sources are used, the light source's holder shall conform to the characteristics given in IEC Publication No. 60061 for the category used.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "Where replaceable light sources are used, the light source shall fit easily into the front fog lamp.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The design of the front fog lamp shall be such that the light source(s) can be fixed in no other position but the correct one.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The Class B front fog lamp shall be equipped with only one filament light source approved according to Regulation No. 37, even if the filament light source cannot be replaced.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The Class F3 front fog lamp shall be equipped only with light source(s) approved according to Regulation No. 37, provided that no restriction on their use is made.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.7.1.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The Class F3 front fog lamp may alternatively be equipped only with light source(s) approved according to Regulation No. 99.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.7.1.2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The Class F3 front fog lamp may be equipped with one or more LED modules, in which case the requirements of Annex 12 shall apply and compliance shall be tested.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 7,
+        "paragraph": "5.7.2"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The design of the LED module(s) or light generator(s) shall be such that they can be fitted in no position other than the correct one.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "5.8.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "Non-identical light source modules, if any, shall be non-interchangeable within the same lamp housing.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "5.8.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The LED module(s) shall be tamperproof.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "5.8.3"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "Light transmitting components located inside the front fog lamp and made of plastic material shall have their UV resistance tested according to Annex 6, paragraph 2.7.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "5.10.1"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The front fog lamp and its ballast system or light source control gear shall not generate radiated or power line disturbances which cause a malfunction of other electric/electronic systems of the vehicle.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "5.11"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The Class F3 front fog lamp shall have the sharpness and linearity of its cut-off tested according to the requirements of Annex 9.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "5.13"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The front fog lamp shall be so designed as to provide illumination with limited dazzle.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The luminous intensity of the front fog lamp shall be measurable at 25 m distance by means of a photoelectric cell having a useful area comprised within a square of 65 mm side.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 8,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The Class B front fog lamp beam shall produce on the aiming screen, over a width of not less than 5.0° on both sides of the line v, a symmetrical and substantially horizontal cut-off enabling visual vertical adjustment.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.3.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The Class B front fog lamp shall be so adjustable that the cut-off on the aiming screen is 1.15° below the line h.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.3.2"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The Class B front fog lamp shall emit light in either white or selective yellow, as prescribed by the manufacturer for use in normal service, and its luminous intensity shall be measured in that light.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The Class B front fog lamp shall not exceed 145 cd along line 1 (15° U to 60° U at 0° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The Class B front fog lamp shall produce at least 85 cd over the whole of Zone A (0° to 1.75° U, 5° L to 5° R).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The Class B front fog lamp shall not exceed 570 cd over the whole of Zone B (0° to 3.5° U, 26° L to 26° R).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The Class B front fog lamp shall not exceed 360 cd over the whole of Zone C (3.5° U to 15° U, 26° L to 26° R).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The Class B front fog lamp shall produce between 1,700 cd and 11,500 cd at at least one point on each vertical line within Zone D (1.75° D to 3.5° D, 12° L to 12° R).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The Class B front fog lamp shall produce between 810 cd and 11,500 cd at at least one point on each vertical line within Zone E (1.75° D to 3.5° D, 12° L to 22° L and 12° R to 22° R).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The Class B front fog lamp may have single narrow spots or stripes above 15° with not more than 230 cd only if they do not extend beyond a conical angle of 2° aperture or a width of 1°.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.6"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Where multiple spots or stripes are present in the Class B light distribution above 15°, they shall be separated by a minimum angle of 10°.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 9,
+        "paragraph": "6.3.6"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The Class F3 front fog lamp beam shall produce on the aiming screen, over a width of not less than 5.0 degrees on both sides of the line v, a symmetrical and substantially horizontal cut-off enabling visual vertical adjustment.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The Class F3 front fog lamp shall be adjusted so that the cut-off on the screen is 1° below the line h according to the requirements in paragraph 2 of Annex 9.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 10,
+        "paragraph": "6.4.2.3"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The Class F3 front fog lamp shall not exceed 85 cd at measuring points 1 and 2 (+60° vertical, ±45° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 10,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The Class F3 front fog lamp shall not exceed 130 cd along all of line 1 (+8° vertical, -26° to +26° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The Class F3 front fog lamp shall not exceed 150 cd along all of line 2 (+4° vertical, -26° to +26° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The Class F3 front fog lamp shall not exceed 245 cd along all of line 3 (+2° vertical, -26° to +26° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The Class F3 front fog lamp shall not exceed 360 cd along all of line 4 (+1° vertical, -26° to +26° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The Class F3 front fog lamp shall not exceed 485 cd along all of line 5 (0° vertical, -10° to +10° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The Class F3 front fog lamp shall produce at least 2,700 cd along all of line 6 (-2.5° vertical, -10° to +10° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The Class F3 front fog lamp shall produce less than 50 per cent of the maximum value on line 6 along all of line 7 (-6.0° vertical, -10° to +10° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The Class F3 front fog lamp shall produce at least 1,100 cd at one or more points on lines 8 L and R (-1.5° to -3.5° vertical, -22° and +22° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The Class F3 front fog lamp shall produce at least 450 cd at one or more points on lines 9 L and R (-1.5° to -4.5° vertical, -35° and +35° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The Class F3 front fog lamp shall not exceed 12,000 cd over the whole of Zone D (-1.5° to -3.5° vertical, -10° to +10° horizontal).",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The Class F3 front fog lamp shall show no variations in homogeneity detrimental to satisfactory visibility in the zone above line 5 from 10 degrees left to 10 degrees right.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The Class F3 front fog lamp beam pattern shall be substantially uniform inside the field between lines 1 to 5, with no discontinuities in intensities detrimental to satisfactory visibility between lines 6, 7, 8 and 9.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3.3"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The Class F3 front fog lamp may have single narrow spots or stripes with not more than 175 cd inside the area including measuring points 1 to 10 and line 1, or inside the area of lines 1 and 2, only if they do not extend beyond a conical angle of 2° aperture or a width of 1°.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 11,
+        "paragraph": "6.4.3.4"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The light emitted by the front fog lamp shall be either white or selective yellow, at the choice of the applicant.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 12,
+        "paragraph": "7"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "Where selective yellow is chosen, the colour of the beam shall be obtained by the colour of the light source, by the lens of the front fog lamp or by any other suitable means.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 12,
+        "paragraph": "7"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "Where the front fog lamp is part of more than one lighting function, the assembly shall be subjected to a repeated cycle of 15 minutes with the front fog lamp lit and 5 minutes with all light sources lit until the prescribed time is reached.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 27,
+        "paragraph": "Annex 5 1.1.1.2"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The front fog lamp with a non-replaceable light source operated directly under vehicle voltage system conditions shall be tested at 6.3 V, 13.2 V or 28.0 V, or at other voltages according to the vehicle voltage system as specified by the applicant.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 28,
+        "paragraph": "Annex 5 1.1.2"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The front fog lamp lens and the external lens, if any, shall show no noticeable distortion, deformation, cracking or change in colour after the stability test.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 28,
+        "paragraph": "Annex 5 1.1.3.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The photometric characteristics of the front fog lamp after the stability test shall not deviate from the values measured prior to the test by more than 10 per cent, including the tolerances of the photometric procedure.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 29,
+        "paragraph": "Annex 5 1.1.3.2"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The vertical drift of the cut-off line of the front fog lamp under the influence of heat, expressed as |r3 - r60|, shall not be more than 2 mrad.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 30,
+        "paragraph": "Annex 5 2.2.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The lens of plastic material shall show a variation between the photometric values measured before and after the temperature and humidity change test of not more than 10 per cent, including the tolerances of the photometric procedure.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 31,
+        "paragraph": "Annex 6 2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "After the resistance-to-atmospheric-agents test, the outer face of the plastic lens samples shall be free from cracks, scratches, chipping and deformation.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 32,
+        "paragraph": "Annex 6 2.2.3.1"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The mean variation in transmission of the plastic lens samples after the atmospheric-agents test shall not exceed 0.020.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 32,
+        "paragraph": "Annex 6 2.2.3.1"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "After the resistance-to-chemical-agents test, the plastic lens samples shall bear no traces of chemical staining likely to cause a variation of flux diffusion.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 32,
+        "paragraph": "Annex 6 2.2.3.2"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "After the resistance to detergents and hydrocarbons tests, the mean variation in transmission of the plastic lens samples shall not exceed 0.010.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 33,
+        "paragraph": "Annex 6 2.3.3"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "After the mechanical deterioration test, the plastic lens samples shall have a mean variation in transmission of not more than 0.010 and a mean variation in diffusion of not more than 0.050.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 33,
+        "paragraph": "Annex 6 2.4.2"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "Where the plastic lens carries a coating, the adhesion test shall leave no appreciable impairment of the grated area, with impairments at intersections and cut edges permitted only up to 15 per cent of the grated surface.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 33,
+        "paragraph": "Annex 6 2.5.3"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "After the mechanical deterioration test on the lens of the complete lamp, the photometric values in zone B (Class B) or on lines 2 and 5 (Class F3) shall not exceed the prescribed maximum values by more than 30 per cent.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 34,
+        "paragraph": "Annex 6 2.6.1.2"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "Plastic light transmitting components inside a front fog lamp with a gas-discharge light source shall, after 1,500 hours of continuous exposure, still meet the colorimetric specifications and show surfaces free of cracks, scratches, scaling or deformation.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 34,
+        "paragraph": "Annex 6 2.7.1.2"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The Class F3 front fog lamp shall provide a cut-off line with a horizontal line for vertical adjustment extending to 4° either side of the v-v line.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 41,
+        "paragraph": "Annex 9 2"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The Class F3 front fog lamp cut-off line shall have a sharpness factor G of not less than 0.08 when scanned vertically along vertical lines at ±1° from the v-v line.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 42,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "The part of the Class F3 cut-off line which serves vertical adjustment shall be horizontal from 3° left to 3° right of the v-v line, with inflection points not deviating by more than ±0.20°.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 42,
+        "paragraph": "Annex 9 4.1.3"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "Where LED modules are used in the front fog lamp, they shall be so designed as to remain in good working order in normal use and shall exhibit no fault in design or manufacture.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 45,
+        "paragraph": "Annex 12 1.2"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "A removable LED module in the front fog lamp shall, after its removal and replacement, still allow the photometric requirements of the front fog lamp to be met.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 45,
+        "paragraph": "Annex 12 1.4.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The front fog lamp with a gas-discharge light source shall reach at the point 0°, 2.5°D on line 6 at least 25 per cent of its objective luminous flux after 1 second and 80 per cent after 4 seconds.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 46,
+        "paragraph": "Annex 12 4.3.2"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The illuminance values of the front fog lamp with an LED module, measured after one minute and until photometric stability has occurred, shall comply with the minimum and maximum requirements.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 48,
+        "paragraph": "Annex 12 4.7.1.6"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The colour of the light emitted by the front fog lamp with an LED module shall be within the required colour boundaries both after 1 minute and after photometric stability has been obtained.",
+      "source": {
+        "regulation": "UN R19",
+        "version": "4.10.0",
+        "page": 48,
+        "paragraph": "Annex 12 4.7.2"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The external surface of the front bumper assembly shall not exhibit, directed outwards, any pointed or sharp parts or any projections of such shape, dimensions, direction or hardness as to be likely to increase the risk or seriousness of bodily injury to a person hit by the external surface or brushing against it in the event of a collision.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The external surface of the front bumper assembly shall not exhibit, directed outwards, any part likely to catch on pedestrians, cyclists or motor cyclists.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "No protruding part of the front bumper assembly external surface shall have a radius of curvature less than 2.5 mm, except parts protruding less than 5 mm whose outward facing angles shall be blunted unless they protrude less than 1.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "Protruding parts of the front bumper assembly external surface made of a material of hardness not exceeding 60 shore A may have a radius of curvature less than 2.5 mm, with hardness measured with the component as installed on the vehicle.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "The ends of the front bumper shall be turned in towards the external surface in order to minimize the risk of fouling.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The front bumper ends shall either be recessed or integrated within the bodywork, or be turned in so as not to be contactable by a 100 mm sphere, with a gap between the bumper end and the surrounding bodywork not exceeding 20 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "Where the front bumper contour line lies on a rigid surface, that surface shall have a minimum radius of curvature of 5 mm at all points from the contour line to 20 mm inward within the zone between the two vertical planes at 15° to the longitudinal plane of symmetry.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "In all other cases, the front bumper surface from the contour line to 20 mm inward shall have a minimum radius of curvature of 2.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "Parts on or of the front bumper and bumper insets with a projection of less than 5 mm need not meet the radius of curvature of paragraph 6.5.2.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The outward facing angles of front bumper parts and insets protruding less than 5 mm shall be blunted, unless they protrude less than 1.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The front bumper cover need not meet the radius of curvature of paragraph 6.5.2. but shall continue to meet the general specifications of paragraph 5.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.4"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The radius-of-curvature requirement of paragraph 5.4 shall not apply to gaps between the fixed or movable elements of the grille insert and air-deflector trim, provided the distance between consecutive elements does not exceed 40 mm and the grilles and gaps have a functional purpose.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The grille and air-deflector elements of the front bumper shall have radii of curvature of 1 mm or more where the gap is between 40 mm and 25 mm, and of not less than 0.5 mm on external faces where the gap is equal to or less than 25 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "The junction of the front with the side faces of each element of the grille insert and air-deflector trim shall be blunted.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The front bumper assembly and its parking sensors, fog lamps and wiring harness shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of Regulation No. 10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The narrowband electromagnetic radiation generated by the front bumper assembly's sensors, lamps and harness, measured on the vehicle representative of its type at 10.0 ± 0.2 m, shall be below 28 dB microvolts/m in the 30 to 230 MHz band and 35 dB microvolts/m in the 230 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.3"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The broadband electromagnetic radiation generated by the front bumper assembly's electrical/electronic systems, measured on the vehicle representative of its type, shall be below the type approval limits of 32 to 43 dB microvolts/m in the 30 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The front bumper assembly and its electrical/electronic systems shall show no degradation of performance of immunity related functions when the vehicle is subjected to the radiated field strengths of 30 V/m (20 to 2,000 MHz) and 10 V/m (2,000 to 6,000 MHz) according to Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The front fog lamp and parking sensor supply lines of the front bumper assembly shall not emit transient conducted disturbances on 12 V supply lines with a positive pulse amplitude above +75 V or a negative pulse amplitude below -100 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The parking sensor and fog lamp electronic sub-assemblies shall show no degradation of performance of immunity related functions when tested according to Annex 9 at the test levels of Table 2a and Table 2b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    }
+  ]
+}

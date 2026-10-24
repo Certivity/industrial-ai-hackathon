@@ -1,0 +1,576 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-close-coupling",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The close-coupling device shall be designed, constructed and assembled such that a vehicle fitted with it conforms to the requirements of UN R102 under normal conditions of road use.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The coupling device itself shall comply with the technical requirements of Regulation No. 55.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The close-coupling device shall be dimensioned to take into account the additional forces caused by the assembled CCD in operation.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The close-coupling device shall operate automatically.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The close-coupling device shall permit reverse movement of the close-coupled combination without any manual action at the CCD.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The close-coupling device shall be designed, constructed and assembled so as to be resistant to all stresses, corrosion and ageing to which it may be subjected, including vibration, humidity and extreme temperatures.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The close-coupling device shall enable the vehicles to travel in a straight line on a level road, forwards or in reverse, without abnormal effort on the steering control.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The close-coupling device shall, on any power system and/or control system failure while the vehicle is running, cause the coupling to extend and remain in that position.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.5.1"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The close-coupling device shall prevent separation of the towing vehicle and trailer by mechanical means under all conditions of use.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.5.1"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The close-coupling device shall indicate any power system and/or control system failure to the driver by an acoustic and an optical signal.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.5.2"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The close-coupling device shall exhibit no uncontrolled movement when the vehicles are stationary, under any circumstances including long-term uphill parking.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The close-coupling device shall permit non-automatic movement only while the towing vehicle is stationary.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "An instruction to apply the parking brake of the towing vehicle shall be permanently attached to the CCD control unit.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Non-automatic movement of the close-coupling device shall be controlled by means of a dual control unit.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.7.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The dual control unit shall be fitted outside the driver's cabin, positioned so that the operator is not endangered by trailer movement and can see the danger area between the vehicles at a glance.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.7.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The control unit shall be designed so that it cannot be locked in the operating position and cannot be operated unintentionally.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.7.3"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The close-coupling device shall move the trailer without jolting at a speed of not more than 50 mm/s.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.7.4"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "Release of a control shall stop movement of the close-coupling device immediately.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.7.5"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The close-coupling device shall prevent forward movement of the towing vehicle from resulting in rearward movement of the trailer relative to the road surface, except for rearward movement of not more than 30 mm for switch and react purposes.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.8"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The close-coupling device shall return to its shortest normal straight-ahead operating position following relative angular movement between towing vehicle and trailer, in accordance with Annex 4.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The close-coupling device shall not interfere with the dynamic stability of the combination, as checked in the Annex 4 tests.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The close-coupling device shall be designed to enable the vehicles to be coupled and uncoupled.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "All coupling operations of the close-coupling device, including the mechanical controls and the parts subject to towing and/or steering forces, shall be automatic.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The close-coupling device shall indicate correct engagement of the positive locking system, or make it easily visible from the side of the vehicle alongside the coupling device, otherwise by a remote indication in the driver's cabin.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "Where control and power supply lines are coupled manually, their connections shall be readily accessible from a standing position and the combination shall be safely drivable without these lines connected.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The close-coupling device when engaged shall itself provide at least ±60° horizontal, ±20° vertical and ±15° axial angular movement for a full trailer.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.12"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "Where the close-coupling device is hydraulic or pneumatic, it shall provide an optical signal indicating that the CCD is about to reach its maximum extension.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.13"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The close-coupling device shall be designed so that coupling at an angle different from the uncoupling angle causes no unintentional trailer movement and no incorrect functioning of the CCD.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.14"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "A plate specifying the maximum mass of the towing vehicle and trailer, all lubrication points and the lubrication frequency shall be affixed to the close-coupling device so as to be clearly visible even when the trailer is coupled.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 4,
+        "paragraph": "5.1.15"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "An international approval mark shall be securely affixed to every close-coupling device conspicuously and in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 2,
+        "paragraph": "4.5"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country granting approval.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 2,
+        "paragraph": "4.5.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number, placed to the right of the circle.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 2,
+        "paragraph": "4.5.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The approval mark on the close-coupling device shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 3,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The characters of the approval mark affixed to the close-coupling device shall have a height of at least 8 mm.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 12,
+        "paragraph": "Annex 3"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The close-coupling device shall fully retract within 150 m from the acceleration start position when the combination, previously turned through 90° on a 12.5 m outside radius bend, is accelerated to 30 ± 2 km/h, in both left and right directions.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 12,
+        "paragraph": "Annex 4 1.1"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The close-coupling device shall exhibit some retraction at all times while the towing vehicle is moving forward.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 12,
+        "paragraph": "Annex 4 1.2"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The close-coupling device shall keep the combination aligned at a test speed of 85 +5/-0 km/h without unusual steering correction by the driver.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 13,
+        "paragraph": "Annex 4 2.2.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The close-coupling device shall allow emergency straight-line braking from 60 km/h to rest at a mean fully developed deceleration of at least 4 m/s² without the combination deviating outside a 3.5 m wide lane.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 13,
+        "paragraph": "Annex 4 2.2.2"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The close-coupling device shall limit movement between the vehicles during a forward acceleration of at least 2 m/s² from rest to a degree that does not cause the driver difficulty in controlling the combination.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 13,
+        "paragraph": "Annex 4 2.2.3"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The close-coupling device shall suffer no permanent deformation during the straight-line stability tests.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 13,
+        "paragraph": "Annex 4 2.2.4"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The close-coupling device shall allow a simulated overtaking manoeuvre at progressively increasing speed up to 80 km/h without causing the driver difficulty in controlling the combination.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 13,
+        "paragraph": "Annex 4 2.3.1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The close-coupling device shall suffer no damage and permit no contact between the vehicles when, at 20 km/h on a 10 m wide track, the steering wheel is turned as fast and as far as possible at least 3 times alternately.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 14,
+        "paragraph": "Annex 4 2.3.2"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The close-coupling device shall permit the combination to be driven from rest and straight ahead around a 25 m radius curve to 20 km/h at 2 ± 10% m/s² without movement between the vehicles that would cause the driver difficulty in controlling the combination.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 14,
+        "paragraph": "Annex 4 3.1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The close-coupling device shall keep the rearmost outer edge of the trailer, at 25 km/h ± 1 km/h, within 0.70 m of the circle described at a constant 5 km/h when the front outside edge of the towing vehicle describes a 25 m radius circle.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 14,
+        "paragraph": "Annex 4 3.2"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The close-coupling device shall keep every part of the trailer within 0.5 m beyond the tangent to the 25 m radius circle from the point the tangent meets the circle to 40 m along it, when the towing vehicle leaves the circular path at 25 km/h.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 14,
+        "paragraph": "Annex 4 3.3"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The close-coupling device shall allow the combination in motion to turn within a swept circle of 12.50 m outer radius and 5.30 m inner radius in both left and right directions.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 15,
+        "paragraph": "Annex 4 3.4"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The close-coupling device shall ensure that no part of the combination penetrating the swept circle from a tangent overlaps that tangent by more than 0.8 m beyond the point of intersection.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 15,
+        "paragraph": "Annex 4 3.4"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The close-coupling device shall cause no unintentional contact between any part of the towing device and the towing vehicle or trailer when the vehicles are positioned at a relative vertical angle of 6°.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 16,
+        "paragraph": "Annex 4 4.1.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The close-coupling device shall ensure that no contact occurs between the bodies of the towing vehicle and trailer at a relative vertical angle of 5°.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 16,
+        "paragraph": "Annex 4 4.1.2"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The close-coupling device shall fulfil the requirements of Section I paragraph 5.1, excluding 5.1.12, when fitted to the N3 vehicle, despite any influences caused by operation of the vehicle.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The close-coupling device in use shall not impede the movement of the vehicles to which it is fitted, as verified by the Annex 4 test requirements.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.2"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The acoustic warning device of the close-coupling device shall be located in the driver's cabin and be easily audible by the driver under all circumstances in normal use.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.3.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The optical warning signal of the close-coupling device shall be red and located on the instrument panel in the driver's direct field of vision, easily visible even in daylight.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.3.2"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The close-coupling device shall permit coupling and uncoupling at coupling angles up to 50° horizontally left and right, up to 10° vertically up and down with full trailers, and up to 7° axially in both directions.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.4"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "Where the final coupling action of the close-coupling device is operated manually, the space between the vehicles shall be at least 500 mm.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.4"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The close-coupling device shall allow one person, from a standing position and without tools, to position the coupling devices prior to coupling, including connection and disconnection of the braking and electrical lines.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.5"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The drawbar eye shall be vertically adjustable to the centre height of the coupling device under all usual traffic and operational conditions to allow automatic coupling.",
+      "source": {
+        "regulation": "UN R102",
+        "version": "0.0.0",
+        "page": 7,
+        "paragraph": "13.6"
+      }
+    }
+  ]
+}

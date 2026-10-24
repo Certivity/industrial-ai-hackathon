@@ -1,0 +1,632 @@
+[
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall be so designed, constructed and assembled such that a vehicle fitted with the CCD conforms to the requirements of this Regulation",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The coupling devices themselves must comply with the technical requirements of Regulation No. 55.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Additional forces which may be caused by the assembled CCD in operation shall be taken into account.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The operation of the CCD shall be automatic.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Even the reverse movement of the close-coupled combination must be possible without any manual action at the CCD.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "the CCD shall be so designed, constructed and assembled so as to be resistant to all stresses, corrosion and ageing to which it may be subjected",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall enable vehicles to travel in a straight line on a level road, without any abnormal effort being applied to the steering control",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Any power system failure and/or control system failure of the CCD, while the vehicle is running, shall cause the coupling to extend and remain in that position.",
+    "label": "5.1.5.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Separation of the towing vehicle and trailer must be prevented by mechanical means under all conditions of use.",
+    "label": "5.1.5.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.5.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Any power system and/or control system failure must be indicated to the driver by an acoustic and an optical signal.",
+    "label": "5.1.5.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.6",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "When the vehicles are stationary no uncontrolled movement of the CCD may occur under any circumstances including long term uphill parking.",
+    "label": "5.1.6"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Non-automatic movement of the CCD may be possible only while the towing vehicle is stationary.",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "An instruction to apply the parking brake of the towing vehicle shall be permanently attached to the control unit.",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "This operation shall be controlled by means of a dual control unit.",
+    "label": "5.1.7.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "This control unit must be fitted outside the driver's cabin and shall be situated in such a position that the operator is not endangered by the movement of the trailer",
+    "label": "5.1.7.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "It must not be possible to lock the control unit in the operating position or operate it unintentionally.",
+    "label": "5.1.7.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The movement of the trailer shall take place without jolting, at a speed of not more than 50 mm/sec.",
+    "label": "5.1.7.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.5",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Release of a control must stop the movement immediately.",
+    "label": "5.1.7.5"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.8",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Forward movement of the towing vehicle shall not result in rearward movement of the trailer in relation to the road surface.",
+    "label": "5.1.8"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.9",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The CCD must return to its shortest normal straight ahead operating position following relative angular movement between towing vehicle and trailer, in accordance with annex 4.",
+    "label": "5.1.9"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.10",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Operation of the CCD shall not interfere with the dynamic stability of the combination.",
+    "label": "5.1.10"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall be designed so as to enable the vehicles to be coupled or uncoupled.",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "All coupling operations shall be automatic, including the mechanical controls and the parts subject to towing and/or steering forces.",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Correct engagement of the positive locking system must be indicated or be easily visible from the side of the vehicle alongside the coupling device.",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Manual coupling of control and power supply lines is permitted provided the connections are readily accessible from a standing position and the combination can be safely driven, without these lines being connected.",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.12. Table 5.1.12",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The CCD when engaged must itself provide at least the following angular movement",
+    "label": "5.1.12",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.13",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "For hydraulic or pneumatic CCD's, an optical signal shall indicate that the CCD is about to reach its maximum extension.",
+    "label": "5.1.13"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.14",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall be designed such that when coupling at an angle between the towing vehicle and trailer different from that when uncoupled, unintentional movement of the trailer or incorrect functioning of the CCD does not occur.",
+    "label": "5.1.14"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.15",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "A plate specifying the maximum mass of the towing vehicle and the trailer, all lubrication points and the frequency of lubrication shall be affixed",
+    "label": "5.1.15"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.5",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "There shall be securely affixed to every CCD conforming to a vehicle type approved under this Regulation, conspicuously and in a readily accessible place",
+    "label": "4.5"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.5.1",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.5.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.5.2",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+    "label": "4.5.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.6",
+    "page": 3,
+    "raw_pages": [
+      3,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and shall be indelible.",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 3 a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "a = 8 mm min",
+    "label": "Annex 3",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 1.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Full retraction of the CCD must have taken place within 150 metres from the acceleration start position",
+    "label": "Annex 4 1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 1.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The technical service shall verify that some retraction of the CCD takes place all the time the towing vehicle is moving forward.",
+    "label": "Annex 4 1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Vehicles shall be tested at a speed of 85 +5/-0 km/h and remain aligned.",
+    "label": "Annex 4 2.2.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "An emergency straight line braking test from a speed of 60 km/h to rest at a mean fully developed deceleration of at least 4 m/s² shall not cause the combination to deviate outside a lane 3.5 metres wide.",
+    "label": "Annex 4 2.2.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Starting from rest, a forward acceleration of at least 2 m/s² shall not cause any movement between the vehicles of a degree likely to cause the driver difficulty in controlling the vehicle combination.",
+    "label": "Annex 4 2.2.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "No permanent deformation shall take place during the above tests.",
+    "label": "Annex 4 2.2.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.3.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "A simulated overtaking manoeuvre, as defined in the appendix, conducted at a progressively increasing speed up to 80 km/h, shall not cause the driver any difficulty in controlling the combination.",
+    "label": "Annex 4 2.3.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "At a speed of 20 km/h steering from one side of the track to the other alternately at least 3 times by turning the steering wheel as fast and as far as possible, no contact between the vehicles or damage to the CCD shall occur",
+    "label": "Annex 4 2.3.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Starting from rest and a straight ahead position, the combination shall be driven around a curve of 25 m radius to a speed of 20 km/h at an acceleration of 2 ± 10% m/s².",
+    "label": "Annex 4 3.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the rearmost outer edge of the trailer, travelling at a speed of 25 km/h ± 1 km/h, shall not move outside the circle described during the manoeuvre at a constant speed of 5 km/h by more than 0.70 m",
+    "label": "Annex 4 3.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.3",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "No part of the trailer must move more than 0.5 m beyond the tangent to a circle with a radius of 25 m when towed by a vehicle leaving the circular path along the tangent",
+    "label": "Annex 4 3.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Any motor vehicle or combined vehicle which is in motion must be able to turn within a swept circle having an outer radius of 12.50 m and an inner radius of 5.30 m.",
+    "label": "Annex 4 3.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "No part of the combination, where it penetrates the circle from a tangent, may overlap that tangent by more than 0.8 m beyond the point of intersection",
+    "label": "Annex 4 3.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 4.1.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no unintentional contact between any part of the towing device and the towing vehicle or trailer when the vehicles are positioned at a relative vertical angle of 6°.",
+    "label": "Annex 4 4.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 4.1.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "No contact shall occur between the bodies of the towing vehicle and trailer at a relative vertical angle of 5°.",
+    "label": "Annex 4 4.1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The requirements of Section I, paragraph 5.1., excluding paragraph 5.1.12. have to be fulfilled when the CCD is fitted to the vehicle",
+    "label": "13.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The CCD in use shall not impede the movement of the vehicles to which it is fitted.",
+    "label": "13.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.3.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The acoustic device must be located in the driver's cabin and must be easily audible by the driver under all circumstances, when the vehicle is in normal use.",
+    "label": "13.3.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.3.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The optical signal shall be red in colour and located on the instrument panel in the direct field of vision of the driver and must be easily visible even in daylight.",
+    "label": "13.3.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Coupling and uncoupling must be possible with coupling angles of up to 50° horizontally both to the right and left, up to 10° vertically both upward and downward with full trailers",
+    "label": "13.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "If the final action is operated manually the space between the vehicles must be at least 500 mm.",
+    "label": "13.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "It must be possible from the standing position for one person to position the coupling devices prior to the coupling procedure without the use of tools.",
+    "label": "13.5"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.6",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "To allow automatic coupling, the drawbar eye must be adjustable vertically to the centre height of the coupling device under all usual traffic and operational conditions.",
+    "label": "13.6"
+  }
+]

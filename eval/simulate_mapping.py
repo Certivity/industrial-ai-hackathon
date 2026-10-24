@@ -175,32 +175,15 @@ def _numbers(first: str, rest: str) -> list[tuple[int, ...]]:
     return [tuple(int(x) for x in s.split(".")) for s in [first, *re.findall(NUM, rest or "")]]
 
 
-def _scope_parent(scope: str) -> str:
-    pieces = re.findall(r"(?:Annex|Appendix|Part) \S+", scope)
-    return " ".join(pieces[:-1])
-
-
 def build_graph(reg: str, role: str = "base") -> Graph:
     entry = corpus.entry_for(reg)
     doc = parse_pdf(corpus.pdf_path(entry, role), grids=False)
     nodes = doc.nodes
     by_key: dict = {}
-    scope_head: dict[str, int] = {}
     for i, n in enumerate(nodes):
-        if n.kind in ROOT_KIND:
-            scope_head.setdefault(n.scope, i)
-        elif n.kind == "para":
+        if n.kind == "para":
             by_key.setdefault((n.scope, n.num), i)
-    parent = [-1] * len(nodes)
-    for i, n in enumerate(nodes):
-        if n.kind in ROOT_KIND:
-            parent[i] = scope_head.get(_scope_parent(n.scope), -1)
-        elif n.kind == "para":
-            up = next((by_key[(n.scope, n.num[:k])] for k in range(len(n.num) - 1, 0, -1) if by_key.get((n.scope, n.num[:k]), i) < i), -1)
-            parent[i] = up if up != -1 else scope_head.get(n.scope, -1)
-        else:  # a table hangs under the paragraph that names it
-            owner = by_key.get((n.scope, n.num)) if n.num else None
-            parent[i] = owner if owner is not None and owner < i else scope_head.get(n.scope, -1)
+    parent = [n.parent for n in nodes]  # the tree is the parser's (Node.parent), no longer derived here
     graph = Graph(reg, corpus.version_label(entry, role), doc, parent, by_key, [], [])
     for i in graph.content():
         body, claimed = nodes[i].body, []

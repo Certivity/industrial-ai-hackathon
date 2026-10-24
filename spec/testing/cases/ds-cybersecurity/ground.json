@@ -1,0 +1,722 @@
+[
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above.",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "and 52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "and 42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      9,
+      10,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m.",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 12,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level above 2 GHz Not applicable Not applicable Not applicable 10 V/m 7 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Test level above 2 GHz Not applicable Not applicable Not applicable 8 V/m 6 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases) C (for other ESA)",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "1 -75 V -450 V 500 pulses III III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2b +10 V +20 V 10 pulses II III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3b +75 V +150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission",
+    "label": "6.10.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.7",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "RF transmitters shall be tested in the transmit mode. Wanted emissions (e.g. from RF transmitting systems) within the necessary bandwidth and out of band emissions are disregarded",
+    "label": "6.10.7"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.7",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Spurious emissions are subject to this Regulation.",
+    "label": "6.10.7"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "9.3.1",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "if the levels measured do not exceed by more than 4 dB (60 per cent) the reference limits prescribed in paragraphs 6.2.2.1., 6.2.2.2., 6.3.2.1., 6.3.2.2.",
+    "label": "9.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "9.3.3",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "the component or STU shows no degradation of performance of \"immunity related functions\" up to levels given in paragraph 6.9.1.",
+    "label": "9.3.3"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "4.3",
+    "page": 2,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and shall be indelible.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall protect the vehicle type against risks identified in the vehicle manufacturer’s risk assessment. Proportionate mitigations shall be implemented to protect the vehicle type.",
+    "label": "7.3.4"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall implement measures for the vehicle type to: (a) Detect and prevent cyber-attacks against vehicles of the vehicle type;",
+    "label": "7.3.7"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "(c) Provide data forensic capability to enable analysis of attempted or successful cyber-attacks.",
+    "label": "7.3.7"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "7.3.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards.",
+    "label": "7.3.8"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1 M10",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall verify the authenticity and integrity of messages it receives",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1 M11",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be implemented for storing cryptographic keys (e.g., use of Hardware Security Modules)",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1 M7",
+    "page": 17,
+    "raw_pages": [
+      17,
+      20,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Access control techniques and designs shall be applied to protect system data/code",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1 M12",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Confidential data transmitted to or from the vehicle shall be protected",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1 M13",
+    "page": 18,
+    "raw_pages": [
+      18,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect and recover from a denial of service attack shall be employed",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1 M9",
+    "page": 18,
+    "raw_pages": [
+      18,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Measures to prevent and detect unauthorized access shall be employed",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 1. Table B1 M15",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Measures to detect malicious internal messages or activity should be considered",
+    "label": "Annex 5 Part B 1. Table B1",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 2. Table B2 M16",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Secure software update procedures shall be employed",
+    "label": "Annex 5 Part B 2. Table B2",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. Table B4 M20",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to systems that have remote access",
+    "label": "Annex 5 Part B 4. Table B4",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 4. Table B4 M22",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Security controls shall be applied to external interfaces",
+    "label": "Annex 5 Part B 4. Table B4",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 6. Table B6 M23",
+    "page": 22,
+    "raw_pages": [
+      21,
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Cybersecurity best practices for software and hardware development shall be followed",
+    "label": "Annex 5 Part B 6. Table B6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R155",
+    "paragraph": "Annex 5 Part B 6. Table B6 M23",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Cybersecurity testing with adequate coverage",
+    "label": "Annex 5 Part B 6. Table B6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The authenticity and integrity of software updates shall be protected to reasonably prevent their compromise and reasonably prevent invalid updates.",
+    "label": "7.2.1.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.1",
+    "page": 6,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Each RXSWIN shall be uniquely identifiable.",
+    "label": "7.2.1.2.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.2",
+    "page": 6,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Each RXSWIN shall be easily readable in a standardized way via the use of an electronic communication interface, at least by the standard interface (OBD port).",
+    "label": "7.2.1.2.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.1.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall protect the RXSWINs and/or software version(s) on a vehicle against unauthorised modification.",
+    "label": "7.2.1.2.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall ensure that the vehicle is able to restore systems to their previous version in case of a failed or interrupted update or that the vehicle can be placed into a safe state after a failed or interrupted update.",
+    "label": "7.2.2.1.1"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall ensure that software updates can only be executed when the vehicle has enough power to complete the update process",
+    "label": "7.2.2.1.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the execution of an update may affect the safety of the vehicle, the vehicle manufacturer shall demonstrate how the update will be executed safely.",
+    "label": "7.2.2.1.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle manufacturer shall demonstrate that the vehicle user is able to be informed about an update before the update is executed.",
+    "label": "7.2.2.2"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "In the situation where the execution of an update whilst driving may not be safe, the vehicle manufacturer shall demonstrate how they will: (a) Ensure the vehicle cannot be driven during the execution of the update;",
+    "label": "7.2.2.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "(b) Ensure that the driver is not able to use any functionality of the vehicle that would affect the safety of the vehicle or the successful execution of the update.",
+    "label": "7.2.2.3"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "After the execution of an update the vehicle manufacturer shall demonstrate how the following will be implemented: (a) The vehicle user is able to be informed of the success (or failure) of the update;",
+    "label": "7.2.2.4"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "(b) The vehicle user is able to be informed about the changes implemented and any related updates to the user manual (if applicable).",
+    "label": "7.2.2.4"
+  },
+  {
+    "regulation": "UN R156",
+    "paragraph": "7.2.2.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall ensure that preconditions have to be met before the software update is executed.",
+    "label": "7.2.2.5"
+  }
+]

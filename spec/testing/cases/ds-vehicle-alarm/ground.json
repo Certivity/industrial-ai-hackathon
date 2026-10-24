@@ -1,0 +1,898 @@
+[
+  {
+    "regulation": "UN R163",
+    "paragraph": "5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "VAS shall, in the event of intrusion into or interference with a vehicle, provide a warning signal.",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "5.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "VASs shall be designed, constructed and installed in such a way that the vehicle when equipped shall continue to comply with the relevant technical requirements",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "5.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The installation of a VAS in a vehicle shall not be capable of influencing the vehicle's performance (in the unset state), or its safe operation.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "5.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The VAS and components thereof shall not activate inadvertently, particularly whilst the engine is in its running mode.",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "5.5",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Failure of the VAS, or failure of its electrical supply shall not affect the safe operation of the vehicle.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "5.6",
+    "page": 3,
+    "raw_pages": [
+      3,
+      12
+    ],
+    "verdict": "ok",
+    "exact": "as to minimize the risk for anyone to make them inoperable or to destroy them rapidly and without calling attention",
+    "label": "5.6"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "5.8",
+    "page": 4,
+    "raw_pages": [
+      4,
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The system shall be so arranged that the shorting out of any warning signal circuit shall not render inoperative any aspects of the alarm system, other than the circuit which is shorted out.",
+    "label": "5.8"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The VAS shall at least detect and signal the opening of any vehicle door, engine bonnet and luggage compartment.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.1.1",
+    "page": 4,
+    "raw_pages": [
+      4,
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The failure or switching off of light sources, e.g. passenger compartment light, shall not impair the control operation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "the alarm signal, activated by one of the above-mentioned sensors, shall be activated not more than 10 times within the same activation period of the VAS",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "In this case, separate deliberate action shall be taken each time before the VAS is set. It shall not be possible to deactivate the sensors while the alarm system is in a set state.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.1.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "It shall be ensured that the VAS both in set and unset conditions, cannot cause the alarm signal to sound unnecessarily",
+    "label": "6.1.2.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.1",
+    "page": 5,
+    "raw_pages": [
+      5,
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The warning signal shall be clearly audible and recognizable and shall differ significantly from the other audible signals used in road traffic.",
+    "label": "6.2.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "a separate audible warning device may be fitted in the area of the vehicle which is controlled by the VAS, where it shall be protected against easy, rapid access by persons",
+    "label": "6.2.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Minimum:........................................................25 s Maximum:.......................................................... 30 s",
+    "label": "6.2.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.2",
+    "page": 5,
+    "raw_pages": [
+      5,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The audible signal may sound again only after the next interference with the vehicle, i.e. after the above-mentioned time span",
+    "label": "6.2.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.2",
+    "page": 5,
+    "raw_pages": [
+      5,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Unsetting of the alarm system shall immediately cut the signal.",
+    "label": "6.2.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.3.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Trigger frequency ..............................................(2 ± 1) Hz On time = off time ± 10 per cent",
+    "label": "6.2.3.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.3.2",
+    "page": 5,
+    "raw_pages": [
+      5,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "equal passage of a significant frequency range within the above-mentioned range (1,800 through 3,550 Hz) in both directions.",
+    "label": "6.2.3.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.2.3.3",
+    "page": 5,
+    "raw_pages": [
+      5,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "in the case of a different sound source from the original equipment audible warning device, the minimum sound level may be reduced to 100 dB(A)",
+    "label": "6.2.3.3"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.3.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In the event of intrusion into or interference with the vehicle, the device shall activate an optical signal as specified in paragraphs 6.3.2. and 6.3.3. below.",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.3.2",
+    "page": 6,
+    "raw_pages": [
+      6,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The optical signal shall have a duration between 25 s and 5 minutes after the alarm has been activated. The unsetting of the alarm system shall immediately stop the signal.",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.3.3",
+    "page": 6,
+    "raw_pages": [
+      6,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Flashing of all direction indicators and/or passenger compartment light of the vehicle, including all lamps in the same electrical circuit.",
+    "label": "6.3.3"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.5.1",
+    "page": 6,
+    "raw_pages": [
+      6,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "When the engine is in its running mode, deliberate or inadvertent setting of the alarm system shall be impossible.",
+    "label": "6.5.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.6.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Any suitable means of setting of the VAS is allowed, provided that such means does not inadvertently cause false alarms.",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.6.2.2",
+    "page": 6,
+    "raw_pages": [
+      6,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Electrical/electronic device, e.g. remote control, with at least 50,000 variants and shall incorporate rolling codes and/or have a minimum scan time of ten days",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.7",
+    "page": 6,
+    "raw_pages": [
+      6,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "It shall be possible for the exit delay to be set to between 15 seconds and 45 seconds after the switch has been operated.",
+    "label": "6.7"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.8",
+    "page": 6,
+    "raw_pages": [
+      6,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "a delay of 5 seconds minimum and 15 seconds maximum shall be allowed before the activation of the audible and optical signals",
+    "label": "6.8"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.9.1",
+    "page": 6,
+    "raw_pages": [
+      6,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Any optical signal or any use of lighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of UN Regulation No. 48.",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.9.2",
+    "page": 7,
+    "raw_pages": [
+      7,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "provided that the duration of the optical indication by the direction indicators does not exceed 3 seconds.",
+    "label": "6.9.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.10",
+    "page": 7,
+    "raw_pages": [
+      7,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Where provided, an additional rechargeable or non-rechargeable battery may be used. These batteries shall by no means supply energy to other parts of the vehicle electrical system.",
+    "label": "6.10"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "6.11.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "On setting the VAS, irregular situations, e.g. open doors, etc., can be detected by a self-check function (plausibility control), and this situation is indicated.",
+    "label": "6.11.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "-40°C to +85°C for parts to be fitted in the passenger or luggage compartment",
+    "label": "7.1.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.1.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "IP 40 for parts to be fitted in the passenger compartment;",
+    "label": "7.1.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.1.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The VAS manufacturer shall specify in the installation instructions any restrictions on the positioning of any part of the installation with respect to dust, water and temperature.",
+    "label": "7.1.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.1.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "7 days according to IEC 68-2-30-1980.",
+    "label": "7.1.3"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.1.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Operation supply voltage range: from 9 V to 15 V in the temperature range according to paragraph 7.1.1.",
+    "label": "7.1.4"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.1.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "U = 18 V, max. 1 hours U = 24 V, max. 1 minute",
+    "label": "7.1.4"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Alarm duration according to paragraphs 6.2.2. and 6.3.2; Frequency and on/off ratio according to paragraphs 6.3.3. and 6.2.3.1. or 6.2.3.2. respectively;",
+    "label": "7.2.1.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.2.4",
+    "page": 9,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The VAS, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+    "label": "7.2.2.4"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.2.5",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The VAS, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute.",
+    "label": "7.2.2.5"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.4",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "After a resistance-to-humidity test to be carried out according to IEC 68 2 30 (1980) the operation tests according to paragraph 7.2.1. shall be repeated.",
+    "label": "7.2.4"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.5",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The VAS and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min.",
+    "label": "7.2.5"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.6",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "All electrical connections of the VAS shall be short-circuit proof against earth, max. 13 V and/or fused.",
+    "label": "7.2.6"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.7",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "shall not exceed 20 mA on average for the complete alarm system including status display.",
+    "label": "7.2.7"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.8.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+    "label": "7.2.8.2.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.8.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "After the vibration test the operation tests according to paragraph 7.2.1. shall be repeated.",
+    "label": "7.2.8.4"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.9",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "triggering of 300 complete alarm cycles (audible and/or optical) with a rest time of the audible device of 5 min.",
+    "label": "7.2.9"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.11",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The alarm shall be activated, when a vertical panel of 0.2 x 0.15 m is inserted for 0.3 m",
+    "label": "7.2.11"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.12",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The VAS shall be submitted to the tests described in Annex 7.",
+    "label": "7.2.12"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.13",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "an impact of up to 4.5 Joules of a hemispherical body with 165 mm in diameter and 70 ± 10 Shore A applied anywhere to the vehicle bodywork or glazing with its curved surface does not cause false alarms",
+    "label": "7.2.13"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.14",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "slow reduction of the main battery voltage by continuous discharge of 0.5 V per hour down to 3 V does not cause false alarms",
+    "label": "7.2.14"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.15",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The system, installed according to the manufacturer's instructions, shall not be triggered when subjected 5 times to the test described in paragraph 7.2.13. above at intervals of 0.5 s.",
+    "label": "7.2.15"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "7.2.15",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The presence of a person touching or moving around the outside of the vehicle (windows closed) shall not cause any false alarm.",
+    "label": "7.2.15"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "8.1.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The list of vehicles and vehicle models for which the device is intended.",
+    "label": "8.1.1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "8.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The method of installation illustrated by photographs and/or very clear drawings.",
+    "label": "8.1.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "8.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "A blank installation certificate, an example of which is given in Annex 5.",
+    "label": "8.2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "8.6",
+    "page": 12,
+    "raw_pages": [
+      12,
+      16
+    ],
+    "verdict": "ok",
+    "exact": "A general warning regarding the danger of making any alterations or additions to the system",
+    "label": "8.6"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "8.7",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Indication of the location(s) of the international approval mark mentioned in paragraph 4.4.",
+    "label": "8.7"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Maximum allowed pulse amplitude for Polarity of pulse amplitude Vehicles with 12 V systems",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases)",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "1 -75 V -450 V 500 pulses III III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3b +75 V +150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R161",
+    "paragraph": "5.1.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "shall be so designed that it cannot rapidly and without attracting attention be opened, rendered ineffective or destroyed",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R161",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Devices to prevent unauthorized use shall be such as to exclude any risk of accidental operating failure while the engine is running, particularly in the case of blockage likely to compromise safety.",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "Annex 7 1.",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "The VAS/AS shall be tested in unset state and in set state.",
+    "label": "Annex 7 1"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "Annex 7 2. Table 1",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "VAS/AS in unset state Unexpected activation of the VAS/AS",
+    "label": "Annex 7 2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "Annex 7 2. Table 1",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "VAS/AS in set state Unexpected deactivation of the VAS/AS",
+    "label": "Annex 7 2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "Annex 7 3. Table 2",
+    "page": 23,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "Annex 7 3. Table 2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "Annex 7 3. Table 2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge",
+    "label": "Annex 7 3. Table 2"
+  },
+  {
+    "regulation": "UN R163",
+    "paragraph": "Annex 7 4.",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The VAS/AS shall be in set state.",
+    "label": "Annex 7 4"
+  }
+]

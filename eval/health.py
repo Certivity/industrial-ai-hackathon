@@ -18,13 +18,22 @@ A PDF is flagged when
   grid-err   find_tables() raised on a page
   no-grid    fewer than half of the captioned tables got a grid (3 or more of them): drawn as images, or the rulings are unusual
   no-1       the body has no section numbered 1 (usually the scope heading was not recognised)
-A flag means "look at a page or two", not "wrong". The remaining orphans are mostly not lost headings: numbers in table and
+  scope-rej  a bold line that reads as an Annex or Appendix heading, is short, has a title and sits at body size or above, differs in
+             id from the scope it sits in, and still was not taken for a heading: neither the numbering restarts after it nor does
+             its id follow the scope's (the restart rule of parse.py takes in the ones that do: R101 Annex 7 Appendix 3)
+A flag means "look at a page or two", not "wrong". The `restarts` column (the `rst` column of the table) is a count, not a flag: a "1."
+left out of the chain, with a sentence after it, after the chain had passed 1, and a "2." or "1.1." behind it, so numbering started over
+under a heading the parser does not know (R13H Annex 4: plain "A." and "B." headings over paragraphs 1, 2, 3; R49's "Item N"). The text
+stays in the neighbouring node and the page stays right; the label does not. Over the 92 PDFs it is mostly not a defect (a
+communication form's "1. Additional information: see addendum" in R107 and R116, the items of a table in R171, a list in R101, a figure
+note in R48), which is why it does not raise a flag; read it where `lost` or `orphans` is also set.
+The remaining orphans are mostly not lost headings: numbers in table and
 form cells ("1.1." on a line of its own), headings the source leaves unnumbered ("Scenario 1" over R131's 1.1., 1.2.), a typo of
 the source (R13H "5.2.1.24.16."), and one heading glued to the end of the previous sentence (R67 17.10). The first run flagged "left-out" (more than 5% of the numbered lines not
 accepted); that turned out to count table cells and figure legends as much as lost text (R51's symbol table), so `lost`
 replaced it and `left_out_pct` stays in the table for information. `wrapped` counts numbered lines that only continue a
 reference ("... in paragraph" / "6.4. of this Regulation"); they are not candidates. --baseline compares nodes, tables, lost,
-orphans and wrapped with an earlier CSV of this script, so a rule written for one PDF shows what it did to the other 91.
+orphans, wrapped, scope_rejects, scope_open, restarts and the grid counts with an earlier CSV of this script, so a rule written for one PDF shows what it did to the other 91.
 `grids` is the number of nodes that got a grid, `table_grids` how many of the `tables` (captioned) are among them, `loose_grids` the
 ruled tables on no node's text.
 """
@@ -46,7 +55,7 @@ from regcomp.parse import ParsedDocument, parse_pdf  # noqa: E402
 
 MODAL = re.compile(r"\b(shall|must|should|is required|are required)\b", re.I)
 COLUMNS = ["regulation", "role", "version", "pages", "chars", "nodes", "tables", "scopes", "nodes_per_page", "candidates",
-           "left_out", "left_out_pct", "lost", "lost_pct", "orphans", "wrapped", "grids", "table_grids", "loose_grids", "grid_errors", "gaps", "max_gap", "footers", "footer_mismatches", "image_pages", "image_pct",
+           "left_out", "left_out_pct", "lost", "lost_pct", "orphans", "wrapped", "scope_rejects", "scope_open", "restarts", "grids", "table_grids", "loose_grids", "grid_errors", "gaps", "max_gap", "footers", "footer_mismatches", "image_pages", "image_pct",
            "front_chars", "sections", "modal_pct", "seconds", "flags"]
 
 
@@ -73,6 +82,9 @@ def measure(regulation: str, role: str, path: Path, grids: bool = True) -> dict:
         "lost_pct": round(100 * len(doc.lost_starts) / max(1, doc.candidates), 1),
         "orphans": len(doc.orphans),
         "wrapped": len(doc.wrapped),
+        "scope_rejects": len(doc.scope_rejects),
+        "scope_open": len(doc.unexplained_rejects),
+        "restarts": len(doc.restarts),
         "grids": doc.grids if grids else "",
         "table_grids": sum(1 for n in content if n.kind == "table" and n.grid) if grids else "",
         "loose_grids": doc.loose_grids if grids else "",
@@ -105,6 +117,8 @@ def measure(regulation: str, role: str, path: Path, grids: bool = True) -> dict:
         flags.append("no-1")
     if row["orphans"] > 0.03 * max(1, sum(1 for n in content if n.kind == "para")):
         flags.append("orphans")
+    if doc.unexplained_rejects:
+        flags.append("scope-rej")
     if grids and doc.grid_errors:
         flags.append("grid-err")
     if grids and row["tables"] >= 3 and row["table_grids"] < 0.5 * row["tables"]:
@@ -117,7 +131,7 @@ def compare(rows: list[dict], baseline: str) -> None:
     """Print the PDFs whose counts differ from an earlier run (a column the earlier CSV lacks shows as '?')."""
     with open(baseline, newline="", encoding="utf-8") as handle:
         before = {(r["regulation"], r["role"]): r for r in csv.DictReader(handle)}
-    fields = ("nodes", "tables", "lost", "orphans", "wrapped", "grids", "table_grids", "loose_grids")
+    fields = ("nodes", "tables", "lost", "orphans", "wrapped", "scope_rejects", "scope_open", "restarts", "grids", "table_grids", "loose_grids")
     changed = []
     for row in rows:
         old = before.get((row["regulation"], row["role"]), {})
@@ -142,13 +156,13 @@ def main(argv: list[str] | None = None) -> int:
         print("error: no PDFs found; run tools/fetch_regulations.py --out regulations/data", file=sys.stderr)
         return 2
     print(f"{'regulation':<10}{'role':<7}{'pages':>5}{'nodes':>6}{'n/pg':>6}{'cand':>6}{'left%':>6}{'lost':>5}{'lost%':>6}{'orph':>5}"
-          f"{'gaps':>5}{'tbl':>5}{'grid':>5}{'img%':>5}{'front':>6}{'sect':>5}{'modal%':>7}  flags")
+          f"{'rej':>4}{'rst':>4}{'gaps':>5}{'tbl':>5}{'grid':>5}{'img%':>5}{'front':>6}{'sect':>5}{'modal%':>7}  flags")
     rows = []
     for regulation, role, path in pdfs:
         row = measure(regulation, role, path, grids=not args.no_grids)
         rows.append(row)
         print(f"{row['regulation']:<10}{row['role']:<7}{row['pages']:>5}{row['nodes']:>6}{row['nodes_per_page']:>6}"
-              f"{row['candidates']:>6}{row['left_out_pct']:>6}{row['lost']:>5}{row['lost_pct']:>6}{row['orphans']:>5}{row['gaps']:>5}"
+              f"{row['candidates']:>6}{row['left_out_pct']:>6}{row['lost']:>5}{row['lost_pct']:>6}{row['orphans']:>5}{row['scope_open']:>4}{row['restarts']:>4}{row['gaps']:>5}"
               f"{row['tables']:>5}{row['table_grids']:>5}{row['image_pct']:>5}{row['front_chars']:>6}{row['sections']:>5}{row['modal_pct']:>7}  {row['flags']}", flush=True)
     flagged = [r for r in rows if r["flags"]]
     print(f"\n{len(rows)} PDFs, {len(flagged)} flagged: " + (", ".join(f"{r['regulation']} {r['role']} [{r['flags']}]" for r in flagged) or "none"))

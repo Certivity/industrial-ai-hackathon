@@ -1,0 +1,317 @@
+[
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Interference from magnetic fields shall not disrupt the operation of the airbag system.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "A complete system shall comprise a device alerting the user if the airbag system is not in working order as designed.",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Airbag modules for replacement airbag system of category A shall be so designed that, when they are submitted to a test in accordance with the requirements of paragraph 5.2.2.7., static deployment test, the airbag may be pushed aside manually after full deployment.",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "A certificate shall be presented stating that the nature, concentration and temperature of the gases and solid particles released on deployment of an airbag are not such as to be liable to injure seriously the occupants of the vehicle.",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Each airbag module shall comply with the requirements of the \"International Standard ISO 12097-2 ROAD VEHICLES-AIRBAG COMPONENT TESTING-PART 2: Testing of Airbag Modules\" version: 1996-08-00, to guarantee the operating safety of the airbag modules.",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Mechanical impact test",
+    "label": "5.2.2.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Simultaneous vibration temperature test",
+    "label": "5.2.2.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Thermal humidity cycling test",
+    "label": "5.2.2.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Solar radiation simulation test",
+    "label": "5.2.2.5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Temperature shock test",
+    "label": "5.2.2.6"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.7",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Static deployment test",
+    "label": "5.2.2.7"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.1.4",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The samples of airbag modules for a replacement airbag system shall be clearly and indelibly marked with the manufacturer's trade name or mark and an approval mark consisting of:",
+    "label": "4.1.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.1.4.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "an additional symbol, indicating the airbag module category (see paragraph 2.6. above).",
+    "label": "4.1.4.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.1.5",
+    "page": 4,
+    "raw_pages": [
+      4,
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark and the additional symbol shall be clearly legible and indelible.",
+    "label": "4.1.5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Airbag systems with airbag modules of category A, B, C or D shall carry the inscription \"AIRBAG\" located in the interior of the circumference of the replacement steering wheel or on the cover of the airbag module; this inscription shall be durably affixed and easily visible.",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "In addition, in the case of a frontal protection airbag system intended for use in any passenger seating position, the following label shall be permanently attached to the visible surface of the cover of the airbag module (the text information shown is a minimum).",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.5",
+    "page": 7,
+    "raw_pages": [
+      7,
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Replacement steering wheels equipped with airbag modules of an approved type shall be such that, when installed in a vehicle, this vehicle fulfils the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4. and 5.2.1.5. of Regulation No. 94, 01 series of amendments.",
+    "label": "5.3.5"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The head performance criterion (HPC) shall not exceed 1,000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms.",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The Thorax Compression Criterion (ThCC) shall not exceed 42 mm;",
+    "label": "5.2.1.4"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The viscous criterion (V * C) for the thorax shall not exceed 1,0 m/s;",
+    "label": "5.2.1.5"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Following the test the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "2.12",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "(b) Functions related to driver, passenger and other road user protection: (i) E.g. airbag and safety restraint systems, emergency calling systems;",
+    "label": "2.12"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 10,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "wrong page",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, as described in Annex 10, with the test levels given in Tables 3a and 3b.",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  }
+]

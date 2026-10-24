@@ -35,9 +35,8 @@ def load_nodes(regulation: str) -> dict[str | None, Node]:
     if pdf is None:
         raise SystemExit(f"error: the base PDF of {regulation} is not in regulations/data; run tools/fetch_regulations.py")
     nodes: dict[str | None, Node] = {}
-    for node in parse_pdf(pdf, grids=False).nodes:
-        if node.kind in ("para", "table"):
-            nodes.setdefault(_paragraph_key(node.label), node)
+    for node in parse_pdf(pdf, grids=False).nodes:  # every kind: an annex heading carries text too (a form, the model of a mark)
+        nodes.setdefault(_paragraph_key(node.label), node)
     return nodes
 
 

@@ -1,0 +1,576 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-afs-headlamp",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The AFS headlamp shall be designed and constructed so that its satisfactory operation and the characteristics prescribed by UN R149 remain assured under normal conditions of use, including the vibrations to which it is subjected.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The AFS headlamp shall give adequate illumination without dazzle when emitting the passing-beam and good illumination when emitting the driving-beam.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The AFS headlamp shall be fitted with a device enabling it to be adjusted on the vehicle so as to comply with the applicable aiming rules.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The AFS headlamp shall be equipped only with replaceable light sources approved under UN Regulations Nos. 37, 99 and/or 128, and/or light source modules, and/or non-replaceable light sources.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.1"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "Where replaceable UN approved light sources are used, the lamp design shall ensure that each light source can be fixed in no position other than the correct one.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The AFS headlamp and its control electronics shall not generate radiated or power-line disturbances that cause a malfunction of other electric/electronic systems of the vehicle.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "Replaceable light source modules of the AFS headlamp shall be designed so that they can only be fitted in the designated correct position and only removed with the use of tools.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.4"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "Replaceable light source modules of the AFS headlamp shall be tamperproof.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.4"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "When a light source module is replaced by another module from the applicant bearing the same identification code, the AFS system shall still meet the photometric requirements.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.2.4"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The total objective luminous flux of all light sources producing the principal passing-beam of the AFS shall be at least 1.00·10³ lm for a Class AFS-C passing-beam.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.3.2"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "Where the AFS lighting units producing the basic passing-beam exceed 2.00·10³ lumen per side, a reference to this shall be made in the communication form in Annex 1.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.5.3.6"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "All photometric and colorimetric measurements on the AFS shall be made with the light source modules or non-replaceable light sources present in the lamp.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "During photometric measurements on the AFS, stray reflections shall be avoided by appropriate masking.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1.4"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Unless otherwise specified, the AFS shall be tested with a supply voltage of 13.2 V for the 12 V system of the M1 vehicle.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The AFS, controlled by its electronic light source control gear, shall be operated for testing as specified by the applicant.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.2.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Where the outer lens of the AFS headlamp is made of plastic material, it shall be tested according to the requirements of Annex 8.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.1"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The sharpness and linearity of the passing-beam cut-off of the AFS shall be tested according to Annex 6.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.8"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The AFS shall be subjected to the complementary tests of Annex 7 to ensure that in use there is no excessive change in photometric performance.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.9"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The mechanical, electromechanical or other devices of the AFS used to provide alternately driving-beam and passing-beam or bend lighting shall withstand 50,000 operations under normal conditions of use.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.11.1"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "Except in the case of adaptation of the driving-beam, the AFS shall always obtain either the passing-beam or the driving-beam, with no possibility of remaining in an intermediate or undefined state.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.11.4.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "In the case of failure of the AFS, it shall be possible to obtain automatically a passing-beam, or a state not exceeding 1.30·10³ cd in Zone III b and at least 3.40·10³ cd in a point of Zone Imax.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.11.4.2"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The AFS shall be designed such that the user cannot, with ordinary tools, change the shape or position of the moving parts or influence the switching device.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.11.5"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "Where a specific lighting function of the AFS is realised with more than one element for visible radiation wired so that a failure of one does not stop all of them, a failure signal shall be provided.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.13.1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The colour of the light emitted by the AFS shall be white.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.16"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The AFS shall provide a Class C passing-beam according to paragraph 5.3.2.4. plus one or more passing-beams of additional classes.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.3.1.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The AFS shall provide automatic modifications of its beam such that good road illumination is achieved and no discomfort is caused to the driver or to other road users.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.3.1.2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The AFS shall, prior to the test procedures, be set to the neutral state emitting the Class C passing-beam.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The passing-beam of the AFS in its neutral state shall produce, from at least one lighting unit on each side, a cut-off as defined in Annex 5.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "When emitting a specified mode of the passing-beam, the AFS shall meet the photometric values of the respective section (C, V, E, W) of Part A of Table 7 and the Imax and cut-off positions of Table 8.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.4"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "When emitting a bending mode, the AFS shall meet Part B of Table 7 and item B of Table 8 for the category (1 or 2) of bending mode for which approval is sought.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.5.1"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "When the T-signal corresponds to the smallest turn radius to the left or right, the AFS contributors on that side shall provide at least 2.50·10³ cd at one or more points in the zone from H-H to 2° below H-H and 10° to 45° left or right.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.5.2"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "For a category 1 bending mode, a failure affecting the lateral movement or modification of the illumination shall automatically give either the paragraph 5.3.2.4. photometric conditions or a state not exceeding 1.30·10³ cd in Zone III b and at least 3.40·10³ cd in a point of Zone Imax.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.5.4"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "Where the AFS is designed for both right-hand and left-hand traffic, it shall meet the corresponding direction-of-traffic requirements in each of the two setting positions.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.7"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "Any specified passing-beam mode of the AFS, other than the Class V modes, shall provide at least 2.50·10³ cd at point 50V from each side of the system.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.8.1"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The driving-beam of the AFS shall meet the Class B luminous intensity requirements of Table 5 and the maximum value of paragraph 5.1.4.2. when measured per paragraph 5.1.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 23,
+        "paragraph": "5.3.3.2"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The AFS shall be made so that the lighting units of the right side and of the left side each provide at least 1.60·10⁴ cd at point HV.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 23,
+        "paragraph": "5.3.3.4"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The AFS shall be tested in the neutral state and in the states corresponding to the smallest turn radius of the vehicle in both directions, using the signal generator.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 25,
+        "paragraph": "5.3.4.1.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The cornering lamp of the AFS shall, when installed on the goniometer per Annex 5 paragraph 3.5., meet the minimum and maximum luminous intensities of Table 18 at the specified points and zones.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 29,
+        "paragraph": "5.6.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The AFS shall be manufactured so as to conform to the approved type by meeting the requirements of paragraphs 4.16. and 5. and of Annex 8 paragraph 4.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 29,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "For conformity of production, no AFS photometric value, measured and corrected per paragraph 4.6., shall deviate unfavourably from the value in column B of the applicable table among Tables 21 to 36.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 31,
+        "paragraph": "6.2.1.1.4"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The AFS shall perform the changes within and between its lighting classes and modes automatically, without causing discomfort, distraction or glare to the driver or other road users.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 71,
+        "paragraph": "6.22.7.4"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The AFS shall activate the Class C passing-beam mode when no mode of another passing-beam class is activated.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 72,
+        "paragraph": "6.22.7.4.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The motorway (Class E) passing-beam mode of the AFS shall not operate unless the vehicle speed exceeds 60 km/h and motorway road characteristics are detected or the speed exceeds 110 km/h.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 72,
+        "paragraph": "6.22.7.4.3"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The AFS shall not modify a Class C, V, E or W passing-beam mode into a bending mode unless the steering lock angle or the trajectory of the centre of gravity of the vehicle is evaluated.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 72,
+        "paragraph": "6.22.7.4.5"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The AFS shall allow a horizontal sideways movement of the asymmetric cut-off only when the vehicle is in forward motion, and such that the elbow kink plane does not intersect the centre-of-gravity trajectory beyond 100 times the lighting unit mounting height.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 72,
+        "paragraph": "6.22.7.4.5"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The AFS shall always allow the driver to set the system to the neutral state and to return it to automatic operation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 73,
+        "paragraph": "6.22.7.5"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The AFS shall provide a mandatory non-flashing visual failure tell-tale, activated on detection of a failure of the AFS control signals or receipt of a failure signal, remaining active while the failure is present.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 73,
+        "paragraph": "6.22.8.2"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The AFS shall be installed only in conjunction with headlamp cleaning devices according to UN Regulation No. 45 for the lighting units contributing to the Class C passing beam whose total objective luminous flux exceeds 2,000 lm on at least one side.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 73,
+        "paragraph": "6.22.9.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Where a levelling device is necessary for the AFS to meet the cut-off inclination limits, the levelling device shall be automatic.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 70,
+        "paragraph": "6.22.6.2.1"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "In the event of failure of the AFS levelling device, the basic passing-beam shall not assume a position less downward than at the moment of failure.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 70,
+        "paragraph": "6.22.6.2.2"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The cornering lamps shall be connected so that they cannot be switched ON unless the driving-beam or passing-beam headlamps are switched ON at the same time.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.7"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The cornering lamp on one side shall only be switched ON automatically when the direction indicators on that side are switched ON and/or the steering angle is turned from straight-ahead toward that side, and shall switch OFF automatically when they cease.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.20.7.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The cornering lamps shall not be switched ON at vehicle speeds above 40 km/h.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.20.9"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The cornering lamps shall be mounted not less than 250 mm and not more than 900 mm above the ground, and no point of their apparent surface shall be higher than the highest point of the passing-beam headlamp apparent surface.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.4.3"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The AFS shall be installed as an optional device on the M1 motor vehicle and shall not be installed on trailers.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 67,
+        "paragraph": "6.22.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "For each passing-beam mode, the outer edge of the apparent surface of at least one AFS lighting unit on each side shall be not more than 400 mm from the extreme outer edge of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 68,
+        "paragraph": "6.22.4.1.4"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "On each side of the vehicle, the geometric visibility angles of paragraphs 6.1.5. and 6.2.5. shall be met for each AFS lighting function and mode by at least one of the lighting units simultaneously energized for that function.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 70,
+        "paragraph": "6.22.5"
+      }
+    }
+  ]
+}

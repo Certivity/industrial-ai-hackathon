@@ -1,0 +1,389 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R131",
+      "page": 1,
+      "paragraph": "0.",
+      "quote": "The system shall automatically detect a potential forward collision with another vehicle and with a pedestrian crossing the path of the vehicle",
+      "text": "The AEBS shall automatically detect a potential forward collision with another vehicle and with a pedestrian crossing the path of the vehicle."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 1,
+      "paragraph": "0.",
+      "quote": "The system shall only operate in driving situations where braking will avoid or mitigate the severity of an accident and shall avoid intervening in uncritical driving situations.",
+      "text": "The AEBS shall only intervene in driving situations where braking will avoid or mitigate the severity of an accident and shall avoid intervening in uncritical driving situations."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 1,
+      "paragraph": "0.",
+      "quote": "In the case of a failure in the system, the safe operation of the vehicle shall not be endangered.",
+      "text": "The AEBS shall be designed so that, in the case of a failure in the system, the safe operation of the vehicle is not endangered."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 1,
+      "paragraph": "0.",
+      "quote": "The system shall provide as a minimum an acoustic or haptic warning, which may also be a sharp deceleration, so that an inattentive driver is made aware",
+      "text": "The AEBS shall provide as a minimum an acoustic or haptic warning, which may also be a sharp deceleration, so that an inattentive driver is made aware of a critical situation."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 1,
+      "paragraph": "0.",
+      "quote": "During any action taken by the system (the warning and emergency braking phases), the driver can, at any time through a conscious action like an accelerator kick-down",
+      "text": "The AEBS shall allow the driver to take control and override the system at any time during the warning and emergency braking phases through a conscious action such as an accelerator kick-down or a swerving action."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.2",
+      "quote": "The effectiveness of AEBS shall not be adversely affected by magnetic or electrical fields. This shall be demonstrated by compliance with the 05 or later series of amendments",
+      "text": "The effectiveness of the AEBS shall not be adversely affected by magnetic or electrical fields, as demonstrated by compliance with UN Regulation No. 10, 05 or later series of amendments."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.4.1",
+      "quote": "A failure warning when there is a failure in the AEBS that prevents the requirements of this Regulation of being met.",
+      "text": "The AEBS shall provide a failure warning when there is a failure in the AEBS that prevents the requirements of this Regulation from being met."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.4.1.1",
+      "quote": "There shall not be an appreciable time interval between each AEBS self-check, and subsequently there shall not be a delay in illuminating the warning signal",
+      "text": "The AEBS shall perform self-checks with no appreciable time interval between them and shall illuminate the failure warning signal without delay in the case of an electrically detectable failure."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.4.1.2",
+      "quote": "Upon detection of any non-electrical failure condition (e.g. sensor blindness or sensor misalignment), the warning signal as defined in paragraph 5.1.4.1. shall be illuminated",
+      "text": "The AEBS shall illuminate the failure warning signal upon detection of any non-electrical failure condition such as sensor blindness or sensor misalignment."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.4.2",
+      "quote": "If the system has not been initialised after a cumulative driving time of 15 seconds above a speed of 10 km/h, information of this status shall be indicated to the driver.",
+      "text": "The AEBS shall indicate to the driver that it has not been initialised if it has not been initialised after a cumulative driving time of 15 seconds above a speed of 10 km/h, and that indication shall persist until initialisation succeeds."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.4.3",
+      "quote": "A deactivation warning, if the vehicle is equipped with a means to deactivate the AEBS, shall be given when the system is deactivated.",
+      "text": "The AEBS shall give a deactivation warning when the system is deactivated, where a means of deactivation is fitted."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.5",
+      "quote": "the system shall provide emergency braking interventions described in paragraphs 5.2.1.2. and 5.2.2.2. having the purpose of significantly decreasing the speed of the subject vehicle.",
+      "text": "The AEBS shall provide emergency braking interventions that significantly decrease the speed of the subject vehicle."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.6",
+      "quote": "The system shall be designed to minimise the generation of collision warning signals and to avoid advanced emergency braking in situations where there is no risk of an imminent collision.",
+      "text": "The AEBS shall be designed to minimise the generation of collision warnings and to avoid advanced emergency braking in situations where there is no risk of an imminent collision, including the scenarios listed in Appendix 2 of Annex 3."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 5,
+      "paragraph": "5.1.7",
+      "quote": "Any vehicle fitted with an AEBS shall meet the performance requirements of UN Regulation No. 13 in its 11 series of amendments for vehicles of Category M2, M3, N2, N3",
+      "text": "The N3 vehicle fitted with the AEBS shall meet the performance requirements of UN Regulation No. 13, 11 series of amendments, and be equipped with an anti-lock system in accordance with Annex 13 to that Regulation."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 6,
+      "paragraph": "5.2.1.1",
+      "quote": "a collision warning shall be provided as specified in paragraph 5.5.1., and shall be triggered at the latest 0.8 seconds before the start of emergency braking.",
+      "text": "The AEBS shall provide a collision warning, triggered at the latest 0.8 seconds before the start of emergency braking, when an imminent collision with a preceding M, N or O category vehicle in the same lane is detected."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 6,
+      "paragraph": "5.2.1.1",
+      "quote": "in case the collision cannot be anticipated in time to give a collision warning 0.8 seconds ahead of an emergency braking, a collision warning as specified in paragraph 5.5.1. shall be provided no later than the start of the emergency braking.",
+      "text": "Where the collision cannot be anticipated in time for a 0.8 s early warning, the AEBS shall provide the collision warning no later than the start of the emergency braking."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 6,
+      "paragraph": "5.2.1.2",
+      "quote": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 4 m/s² to the service braking system of the vehicle.",
+      "text": "The AEBS shall issue a braking demand of at least 4 m/s² to the service braking system when it has detected the possibility of an imminent collision with a vehicle."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 6,
+      "paragraph": "5.2.1.2",
+      "quote": "The emergency braking may be aborted, or the deceleration demand reduced below the threshold above (as relevant), if the conditions prevailing a collision are no longer present",
+      "text": "The AEBS shall abort the emergency braking or reduce the deceleration demand when the conditions for a collision are no longer present or the collision risk has decreased."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 6,
+      "paragraph": "5.2.1.3",
+      "quote": "The system shall be active at least within the vehicle speed range between 10 km/h and the maximum design speed of the vehicle and at all vehicle load conditions",
+      "text": "The AEBS shall be active at least within the vehicle speed range between 10 km/h and the maximum design speed of the vehicle and at all vehicle load conditions, unless deactivated by the driver."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 6,
+      "paragraph": "5.2.1.4",
+      "quote": "the AEBS shall be able to achieve a relative impact speed that is less or equal to the maximum relative impact speed as shown in the following table",
+      "text": "The AEBS shall achieve a relative impact speed less than or equal to the maximum relative impact speed in Table 1 for the applicable N3 column under the stated road, vehicle and sensing conditions, in the absence of driver interruption."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 7,
+      "paragraph": "5.2.1.4. Table 1",
+      "quote": "70 37 0 50 0 80 49 28 61 28 90 60 42 71 42 100 71 54 82 54",
+      "text": "For an N3 vehicle with pneumatic braking, the AEBS shall not exceed a maximum relative impact speed of 0 km/h at relative speeds up to 40 km/h, 28 km/h at 80 km/h, 42 km/h at 90 km/h and 54 km/h at 100 km/h, with the value for the next higher listed relative speed applying between listed values."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 7,
+      "paragraph": "5.2.1.4",
+      "quote": "When conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the control strategy.",
+      "text": "The AEBS shall not deactivate or unreasonably switch its control strategy when the road, vehicle or sensing conditions deviate from those specified in paragraph 5.2.1.4."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 8,
+      "paragraph": "5.2.1.4",
+      "quote": "for those vehicles driving in urban areas where the speed is limited to 60kph or below, the speed reduction shall be at least 40 km/h",
+      "text": "The AEBS shall provide a speed reduction of at least 40 km/h when the vehicle is driven in urban areas where the speed is limited to 60 km/h or below."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 8,
+      "paragraph": "5.2.2.1",
+      "quote": "a collision warning as specified in paragraph 5.5.1. shall be provided no later than the start of the emergency braking.",
+      "text": "The AEBS shall provide a collision warning no later than the start of emergency braking when it detects a possible collision with a pedestrian crossing the road at a constant speed of not more than 5 km/h."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 8,
+      "paragraph": "5.2.2.2",
+      "quote": "When the system has detected the possibility of an imminent collision, there shall be a braking demand of at least 4 m/s² to the service braking system of the vehicle.",
+      "text": "The AEBS shall issue a braking demand of at least 4 m/s² to the service braking system when it has detected the possibility of an imminent collision with a pedestrian."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 8,
+      "paragraph": "5.2.2.3",
+      "quote": "The system shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle load conditions.",
+      "text": "The AEBS shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle load conditions, unless deactivated by the driver."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 8,
+      "paragraph": "5.2.2.4",
+      "quote": "the AEBS shall be able to achieve an impact speed that is less or equal to the maximum relative impact speed as shown in the following table",
+      "text": "The AEBS shall achieve an impact speed less than or equal to the maximum impact speed in Table 2 for the applicable N3 pneumatic braking column, for a pedestrian crossing perpendicularly with a lateral speed of not more than 5 km/h, in the absence of driver interruption."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 9,
+      "paragraph": "5.2.2.4. Table 2",
+      "quote": "40 24 29 29 29 50 35 39 39 39 60 46 49 49 49",
+      "text": "For an N3 vehicle with pneumatic braking, the AEBS shall not exceed a maximum impact speed of 0 km/h at 20 km/h subject vehicle speed, 18 km/h at 30 km/h, 29 km/h at 40 km/h, 39 km/h at 50 km/h and 49 km/h at 60 km/h."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 9,
+      "paragraph": "5.2.2.4",
+      "quote": "When conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the control strategy.",
+      "text": "The AEBS shall not deactivate or unreasonably switch its control strategy when the conditions deviate from those specified in paragraph 5.2.2.4."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 10,
+      "paragraph": "5.3.1",
+      "quote": "The AEBS shall provide appropriate and robust means for the driver to interrupt the collision warning and the emergency braking.",
+      "text": "The AEBS shall provide appropriate and robust means for the driver to interrupt both the collision warning and the emergency braking."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 10,
+      "paragraph": "5.4.1.1",
+      "quote": "The AEBS function shall be automatically reinstated at each initiation of the powertrain",
+      "text": "The AEBS function shall be automatically reinstated at each initiation of the powertrain after manual deactivation."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 10,
+      "paragraph": "5.4.1.2",
+      "quote": "The AEBS deactivation control shall be designed a in such a way that manual deactivation shall not be possible with less than two deliberate actions.",
+      "text": "The AEBS deactivation control shall be designed so that manual deactivation is not possible with fewer than two deliberate actions."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 10,
+      "paragraph": "5.4.1.3",
+      "quote": "The location of AEBS deactivation control shall comply with the relevant requirements and transitional provisions of UN Regulation No. 121",
+      "text": "The location of the AEBS deactivation control shall comply with the relevant requirements of UN Regulation No. 121, 01 series of amendments or later."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 10,
+      "paragraph": "5.4.1.4",
+      "quote": "AEBS shall be automatically reinstated latest after 15 minutes. Additionally, it shall be possible for the driver to reactivate AEBS at any time, including whilst driving.",
+      "text": "The AEBS shall be automatically reinstated at the latest 15 minutes after every manual deactivation requested by the driver, and the driver shall be able to reactivate it at any time, including whilst driving."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 10,
+      "paragraph": "5.4.2.2",
+      "quote": "The AEBS function shall be automatically reactivated as soon as the conditions that led to the automatic deactivation are not present anymore.",
+      "text": "The AEBS function shall be automatically reactivated as soon as the conditions that led to its automatic deactivation are no longer present."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 10,
+      "paragraph": "5.4.2.3",
+      "quote": "Where automatic deactivation of the AEBS function is a consequence of the driver manually switching off the vehicle stability function of the vehicle, this deactivation of the AEBS shall require at least two deliberate actions",
+      "text": "Where automatic AEBS deactivation results from the driver manually switching off the vehicle stability function, that deactivation shall require at least two deliberate actions by the driver."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 11,
+      "paragraph": "5.4.4",
+      "quote": "A constant optical warning signal shall inform the driver that the AEBS function has been deactivated.",
+      "text": "The AEBS shall inform the driver with a constant optical warning signal that the AEBS function has been deactivated."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 11,
+      "paragraph": "5.5.1",
+      "quote": "The collision warning referred to in paragraphs 5.2.1.1. and 5.2.2.1. shall be provided by at least two modes selected from acoustic, haptic or optical.",
+      "text": "The AEBS collision warning shall be provided by at least two modes selected from acoustic, haptic and optical."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 11,
+      "paragraph": "5.5.4",
+      "quote": "The failure warning referred to in paragraph 5.1.4.1. shall be a constant yellow optical warning signal.",
+      "text": "The AEBS failure warning shall be a constant yellow optical warning signal."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 11,
+      "paragraph": "5.5.5",
+      "quote": "Each AEBS optical warning signal shall be activated either when the ignition (start) switch is turned to the \"on\" (run) position",
+      "text": "Each AEBS optical warning signal shall be activated when the ignition switch is turned to the on (run) position or to the designated check position, except for signals shown in a common space."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 11,
+      "paragraph": "5.5.6",
+      "quote": "The optical warning signals shall be visible even by daylight; the satisfactory condition of the signals must be easily verifiable by the driver from the driver's seat.",
+      "text": "The AEBS optical warning signals shall be visible even by daylight and their satisfactory condition shall be easily verifiable by the driver from the driver's seat."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 11,
+      "paragraph": "5.5.7",
+      "quote": "When the driver is provided with an optical warning signal to indicate that the AEBS is temporarily not available, for example due to inclement weather conditions, the signal shall be constant.",
+      "text": "When the AEBS is temporarily unavailable, for example due to inclement weather, the optical warning signal given to the driver shall be constant."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 11,
+      "paragraph": "5.6.1",
+      "quote": "it shall be possible to confirm the correct operational status of the AEBS by a visible observation of the failure warning signal status. following a \"power-ON\" and any bulb check.",
+      "text": "The AEBS shall allow confirmation of its correct operational status at a periodic technical inspection by visible observation of the failure warning signal status following a power-ON and any bulb check."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 15,
+      "paragraph": "6.7.2",
+      "quote": "The failure warning signal mentioned in paragraph 5.5.4. above shall be activated and remain activated not later than 10 s after the vehicle has been driven at a speed greater than 10 km/h",
+      "text": "The AEBS failure warning signal shall be activated and remain activated not later than 10 s after the vehicle has been driven at a speed greater than 10 km/h with a simulated electrical failure, and be reactivated immediately after a subsequent ignition off/on cycle while the failure exists."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 15,
+      "paragraph": "6.8.1",
+      "quote": "Turn the ignition (start) switch to the \"off\" position. Again, turn the ignition (start) switch to the \"on\" (run) position and verify that the previously activated warning signal is not reactivated",
+      "text": "After manual deactivation and an ignition off/on cycle, the AEBS shall be reinstated so that the deactivation warning is not reactivated, without removing the key when a key is used."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 16,
+      "paragraph": "6.10.3",
+      "quote": "The AEBS shall not provide a collision warning and shall not initiate the emergency braking phase.",
+      "text": "The AEBS shall not provide a collision warning and shall not initiate emergency braking when the vehicle passes centrally at 50 ± 2 km/h between two stationary vehicles spaced 4.5 m apart."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 20,
+      "paragraph": "Annex 3 3.1",
+      "quote": "The manufacturer shall provide a documentation package which gives access to the basic design of \"The System\" and the means by which it is linked to other vehicle systems",
+      "text": "The AEBS documentation package shall give access to the basic design of the system, the means by which it is linked to other vehicle systems, its functions, safety concept, and how its operational status can be checked for periodic technical inspection."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 22,
+      "paragraph": "Annex 3 3.4.3",
+      "quote": "In case of a failure, the driver shall be warned for example by warning signal or message display. When the system is not deactivated by the driver",
+      "text": "The AEBS shall warn the driver of a failure by a warning signal or message display, and the warning shall be present as long as the fault condition persists unless the system is deactivated by the driver."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 22,
+      "paragraph": "Annex 3 3.4.3.3",
+      "quote": "If the chosen provision selects the removal of the Higher Level Function, all the corresponding output control signals associated with this function shall be inhibited, and in such a manner as to limit the transition disturbance.",
+      "text": "Where the AEBS safety concept removes the higher level function on failure, all output control signals associated with that function shall be inhibited in a manner that limits transition disturbance."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 23,
+      "paragraph": "Annex 3 3.4.4.1",
+      "quote": "This documentation shall itemize the parameters being monitored and shall set out, for each fault condition of the type defined in paragraph 3.4.4. of this annex, the warning signal to be given to the driver",
+      "text": "The AEBS safety documentation shall itemise the parameters monitored and specify, for each fault condition, the warning signal given to the driver and/or inspection personnel."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 23,
+      "paragraph": "Annex 3 3.4.4.2",
+      "quote": "This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice the safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions",
+      "text": "The AEBS documentation shall describe the measures ensuring the system does not prejudice safe vehicle operation when its performance is affected by environmental conditions such as climatic conditions, temperature, dust, water ingress or ice packing."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 24,
+      "paragraph": "Annex 3 Appendix 2 1.",
+      "quote": "For each type of scenario, the vehicle manufacturer shall explain the principle strategies implemented to ensure safety.",
+      "text": "For each false-reaction scenario type of Appendix 2 of Annex 3, the AEBS shall implement strategies whose principles are explained, with evidence such as simulation results, real-world data or track test data of the system's behaviour."
+    },
+    {
+      "regulation": "UN R131",
+      "page": 19,
+      "paragraph": "Annex 2",
+      "quote": "The above approval mark affixed to a vehicle shows that the vehicle type concerned has been approved in Belgium (E 6) with regard to the Advanced Emergency Braking Systems (AEBS)",
+      "text": "The vehicle shall bear an approval mark, minimum 8 mm in size, consisting of a circle enclosing E and the country number, with the number of this Regulation followed by R, a dash and the approval number, marked with C for vehicle-to-vehicle and P for vehicle-to-pedestrian."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 7,
+      "paragraph": "5.1.4.5.1",
+      "quote": "it shall be possible at a periodic technical inspection to confirm the correct operational status by visual observation of the warning signals following a power-on.",
+      "text": "For the electronic control system governing the AEBS braking intervention, it shall be possible at a periodic technical inspection to confirm its correct operational status by visual observation of the warning signals following a power-on."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.2",
+      "quote": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "The vehicle's AEBS braking and warning functions, as immunity related functions, shall show no degradation of performance when the vehicle is exposed to the radiated immunity test levels of 30 V/m over 90 per cent of 20 to 2,000 MHz and 10 V/m over 90 per cent of 2,000 to 6,000 MHz."
+    }
+  ]
+}

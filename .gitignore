@@ -33,3 +33,8 @@ dist-ssr
 #### Others
 artifact/
 **/pdf/
+
+# agent runs: artifacts, replay cache of model calls, cached regulation cards
+runs/
+
+__pycache__/

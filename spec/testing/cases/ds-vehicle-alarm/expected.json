@@ -1,0 +1,776 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ds-vehicle-alarm",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The vehicle alarm system shall provide an audible warning signal in the event of intrusion into or interference with the vehicle, and may additionally provide optical warning devices.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The vehicle alarm system shall be designed, constructed and installed so that the vehicle, when equipped with it, continues to comply with the relevant technical requirements, especially electromagnetic compatibility.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The vehicle alarm system shall not influence the vehicle's performance when unset, nor its safe operation.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The vehicle alarm system and its components shall not activate inadvertently, in particular while the engine is running.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The vehicle alarm system shall be designed so that failure of the system or of its electrical supply does not affect the safe operation of the vehicle.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The vehicle alarm system, its components and the parts controlled by them shall be designed, built and installed to minimise the risk of anyone making them inoperable or destroying them rapidly and without attracting attention.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The vehicle alarm system shall be arranged so that shorting out any warning signal circuit does not render inoperative any aspect of the alarm system other than the shorted circuit.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.8"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The vehicle alarm system shall at least detect and signal the opening of any vehicle door, the engine bonnet and the luggage compartment.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The vehicle alarm system shall keep its control operation unimpaired when light sources such as the passenger compartment light fail or are switched off.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The vehicle alarm system shall activate the alarm signal triggered by its additional sensors, such as the ultrasonic interior sensors, not more than 10 times within the same activation period, the activation period being limited by the authorised unsetting of the system.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The vehicle alarm system shall require a separate deliberate action each time before setting in order to deactivate the optional sensors, and shall make it impossible to deactivate the sensors while the system is set.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The vehicle alarm system shall be designed so that, both in set and unset conditions, it cannot cause the alarm signal to sound unnecessarily on impact on the vehicle, under electromagnetic compatibility testing, on reduction of battery voltage by continuous discharge and on false alarm of the passenger compartment control.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.2.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The audible warning signal of the vehicle alarm system shall be clearly audible and recognisable and shall differ significantly from the other audible signals used in road traffic.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Where the vehicle alarm system uses a separate siren, that siren shall be fitted in the area controlled by the system and protected against easy, rapid access by persons.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "Each audible alarm cycle of the vehicle alarm system shall last a minimum of 25 s and a maximum of 30 s.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The vehicle alarm system shall sound the audible signal again only after the next interference with the vehicle and after the minimum time span has elapsed.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The vehicle alarm system shall immediately cut the audible signal when the system is unset.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "Where the vehicle alarm system uses an intermittent audible signal, the signal shall have a trigger frequency of (2 ± 1) Hz with on time equal to off time ± 10 per cent.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.3.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "Where the vehicle alarm system uses a frequency-modulated audible signal device, the signal shall pass a significant frequency range within 1,800 through 3,550 Hz equally in both directions at a passage frequency of (2 ± 1) Hz.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.3.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The siren of the vehicle alarm system, being a different sound source from the original equipment audible warning device, shall produce a minimum sound level of 100 dB(A) measured under the conditions of UN Regulation No. 28, Part I, and otherwise meet paragraphs 6.1. and 6.2. of that regulation.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.3.3"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The vehicle alarm system shall activate an optical signal on intrusion into or interference with the vehicle, as specified for duration and type of signal.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The optical alarm signal of the vehicle alarm system shall have a duration between 25 s and 5 minutes after the alarm has been activated, and unsetting shall immediately stop it.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The optical alarm signal of the vehicle alarm system shall be produced by flashing all direction indicators and/or the passenger compartment light, including all lamps in the same electrical circuit, at a trigger frequency of (2 ± 1) Hz with on time equal to off time ± 10 per cent.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.3.3"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The vehicle alarm system shall make deliberate or inadvertent setting impossible when the engine is in its running mode.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The means of setting the vehicle alarm system shall not inadvertently cause false alarms.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The electrical/electronic unsetting device of the vehicle alarm system, i.e. the remote key control, shall have at least 50,000 variants and incorporate rolling codes and/or have a minimum scan time of ten days.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "Where the switching device for setting the vehicle alarm system is fitted within the protected area, the system shall provide an exit delay adjustable to between 15 s and 45 s after the switch has been operated.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.7"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "Where the device for unsetting the vehicle alarm system is fitted within the protected area, the system shall allow a delay of minimum 5 s and maximum 15 s before activation of the audible and optical signals.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.8"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "Any optical status signal of the vehicle alarm system using lighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of UN Regulation No. 48.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "Where the vehicle alarm system indicates short-term dynamic processes optically by simultaneous operation of the direction indicators, the duration of that indication by the direction indicators shall not exceed 3 s.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.9.2"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The backup battery of the vehicle alarm system siren shall not supply energy to any other part of the vehicle electrical system.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.10"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "On setting, the vehicle alarm system shall detect irregular situations such as open doors by a self-check plausibility control and shall indicate that situation.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.11.1"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "All components of the vehicle alarm system fitted in the passenger or luggage compartment shall operate without any failure at ambient temperatures from -40 °C to +85 °C.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "7.1.1"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "Components of the vehicle alarm system fitted in the passenger compartment shall provide degree of protection IP 40 in accordance with IEC Publication 529 1989, and all other parts IP 54.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The installation instructions of the vehicle alarm system shall specify any restrictions on the positioning of any part of the installation with respect to dust, water and temperature.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The components of the vehicle alarm system shall withstand a weatherability test of 7 days according to IEC 68-2-30-1980.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.1.3"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The vehicle alarm system shall operate at a rated supply voltage of 12 V over a supply voltage range from 9 V to 15 V within the specified temperature range.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.1.4"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The vehicle alarm system shall tolerate excess voltages of 18 V for maximum 1 hour and 24 V for maximum 1 minute at 23 °C.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.1.4"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The vehicle alarm system shall be verified to comply with the specified alarm duration, the frequency and on/off ratio of the audible and optical signals, the number of alarm cycles and the alarm system setting lock.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.2.1.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The vehicle alarm system shall withstand, in both set and unset state, an excess voltage of (18 ± 0.2) V for 1 hour.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The vehicle alarm system shall withstand, in both set and unset state, an excess voltage of (24 ± 0.2) V for 1 minute.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.2.5"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The vehicle alarm system shall continue to pass the operation tests after a resistance-to-humidity test carried out according to IEC 68 2 30 (1980).",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.4"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The vehicle alarm system and its components shall not be destroyed by reversed polarity up to 13 V during 2 min, and shall pass the operation tests afterwards.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.5"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "All electrical connections of the vehicle alarm system shall be short-circuit proof against earth at maximum 13 V and/or fused, and shall pass the operation tests afterwards.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.6"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The energy consumption of the complete vehicle alarm system including the status display shall not exceed 20 mA on average in the set condition under the normal test conditions.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.7"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The vehicle alarm system components mounted on the vehicle shall be subjected to a sinusoidal vibration with frequency variable from 10 Hz to 500 Hz at a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak), at 1 octave/min over 10 cycles along each of the 3 axes.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.8.2.1"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The vehicle alarm system shall continue to pass the operation tests after the vibration test.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.8.4"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The vehicle alarm system shall withstand a durability test of 300 complete alarm cycles (audible and/or optical) with a rest time of the audible device of 5 min under the normal test conditions.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.9"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The vehicle alarm system with passenger compartment protection shall activate the alarm when a vertical panel of 0.2 x 0.15 m is inserted for 0.3 m through an open front door window into the passenger compartment at 0.4 m/s and at an angle of 45° to the longitudinal median plane.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.11"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The vehicle alarm system shall be submitted to the electromagnetic compatibility tests described in Annex 7 of UN R163, in unset and in set state.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.12"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The vehicle alarm system shall not cause false alarms when a hemispherical body of 165 mm diameter and 70 ± 10 Shore A, with an impact energy up to 4.5 J, is applied with its curved surface anywhere to the vehicle bodywork or glazing.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.13"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The vehicle alarm system shall not cause false alarms when the main battery voltage is slowly reduced by continuous discharge of 0.5 V per hour down to 3 V.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.14"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The ultrasonic passenger compartment protection of the vehicle alarm system shall not be triggered when subjected 5 times at intervals of 0.5 s to the impact test of paragraph 7.2.13.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.15"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The ultrasonic passenger compartment protection of the vehicle alarm system shall not cause any false alarm due to the presence of a person touching or moving around the outside of the vehicle with windows closed.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.15"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The vehicle alarm system shall be accompanied by installation instructions giving the list of vehicles and vehicle models for which the device is intended.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "8.1.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The vehicle alarm system shall be accompanied by installation instructions giving the method of installation illustrated by photographs and/or very clear drawings.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "8.1.2"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The vehicle alarm system shall be accompanied by a blank installation certificate as shown in Annex 5 of UN R163.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "8.2"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The vehicle alarm system shall be accompanied by a general warning regarding the danger of making any alterations or additions to the system.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 12,
+        "paragraph": "8.6"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The vehicle alarm system shall be accompanied by an indication of the location(s) of the international approval mark and/or certificate of conformity.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 12,
+        "paragraph": "8.7"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The alarm control unit, as an electrical/electronic sub-assembly, shall bear the international approval mark of UN R10 affixed in a conspicuous and easily accessible place, legible and indelible.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The alarm control unit shall be tested as an ESA for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The broadband radiated emissions of the alarm control unit shall remain below the ESA type approval limits throughout the 30 to 1,000 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The narrowband radiated emissions of the alarm control unit shall remain below the ESA type approval limits throughout the 30 to 1,000 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The transient conducted disturbances emitted by the alarm control unit on the 12 V supply line shall not exceed +75 V for positive pulses and -100 V for negative pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The alarm control unit shall show no degradation of performance of its immunity related functions, including the anti-theft alarm function, during the radiated immunity tests of Annex 9 of UN R10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The alarm control unit shall meet functional status classification II for the starting profile immunity test on the 12 V supply line.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "The alarm control unit shall meet functional status classification III for test pulse 1 at -75 V, 500 pulses, on the 12 V supply line.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The alarm control unit shall meet functional status classification I for test pulse 2a at +37 V, 500 pulses, on the 12 V supply line.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The alarm control unit shall meet functional status classification I for test pulse 3a at -112 V for 1 h on the 12 V supply line.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The alarm control unit shall meet functional status classification I for test pulse 3b at +75 V for 1 h on the 12 V supply line.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The theft-deterrent device acting on the vehicle together with the alarm system shall be designed so that it cannot be opened, rendered ineffective or destroyed rapidly and without attracting attention using low-cost, easily concealed tools.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The theft-deterrent device shall exclude any risk of accidental operating failure while the engine is running, particularly blockage likely to compromise safety.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The vehicle alarm system shall be tested for immunity against disturbances conducted along supply lines in unset state and in set state according to UN Regulation No. 10, 06 series of amendments.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 7 1"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The vehicle alarm system, in unset state with key ON or vehicle at 50 km/h, shall not show unexpected activation during the vehicle radiated immunity test.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 7 2"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The vehicle alarm system, in set state with key OFF, shall not show unexpected deactivation during the vehicle radiated immunity test.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 7 2"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The electrostatic discharge testing of the vehicle alarm system shall be performed with 3 discharges at a minimum interval of 5 s between each discharge.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 24,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The vehicle alarm system shall be in set state when tested for radiated emissions according to UN Regulation No. 10, 06 series of amendments.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 24,
+        "paragraph": "Annex 7 4"
+      }
+    }
+  ]
+}

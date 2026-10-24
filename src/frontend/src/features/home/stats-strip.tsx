@@ -14,7 +14,7 @@ export function StatsStrip() {
       <Reveal>
         <dl className="mx-auto grid max-w-4xl grid-cols-1 divide-y divide-border rounded-2xl border bg-card/60 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
           <Stat value={stats?.requirements ?? null} label="Requirements extracted" />
-          <Stat value={stats?.regulations ?? null} label="UN regulations covered" />
+          <Stat value={stats?.regulations ?? null} label="Regulations covered" />
           <Stat value={stats?.products ?? null} label="Products available to browse" />
         </dl>
       </Reveal>

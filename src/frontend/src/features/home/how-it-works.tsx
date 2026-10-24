@@ -16,7 +16,7 @@ const steps: Step[] = [
   },
   {
     icon: Scale,
-    title: 'Analyse against UN regulations',
+    title: 'Analyse against regulations',
     body: 'The documentation is checked against the applicable requirements, one atomic requirement at a time.',
   },
   {

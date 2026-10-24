@@ -34,7 +34,7 @@ export function HeroSection({ onNavigate }: { onNavigate: (route: Route) => void
           className="animate-fade-up mt-5 max-w-md text-base text-pretty text-foreground/70 sm:text-lg"
           style={stagger(200)}
         >
-          Check a component's technical documentation against UN regulations and see the unmet
+          Check a component's technical documentation against regulations and see the unmet
           requirements, with citations, before approval does.
         </p>
         <div

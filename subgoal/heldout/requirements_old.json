@@ -1,0 +1,1055 @@
+[
+  {
+    "id": "R-001",
+    "text": "The Driver Control Assistance Systems (DCAS) support shall not adversely impact road safety and driver control over the vehicle behaviour.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 1,
+      "paragraph": "2"
+    }
+  },
+  {
+    "id": "R-002",
+    "text": "The DCAS shall aim to prevent reasonably foreseeable risks of driver’s misuse or abuse.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "10"
+    }
+  },
+  {
+    "id": "R-003",
+    "text": "The DCAS shall provide sufficient information to enable the driver to supervise the assistance provided.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "10"
+    }
+  },
+  {
+    "id": "R-004",
+    "text": "The DCAS shall be designed to avoid drivers undertaking activities other than driving over and above those permitted for manual driving before this UN Regulation enters into force as DCAS require the driver to remain engaged with the driving task.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "11"
+    }
+  },
+  {
+    "id": "R-005",
+    "text": "The DCAS shall have means to evaluate continuous driver involvement in and supervision of the vehicle operation.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "11"
+    }
+  },
+  {
+    "id": "R-006",
+    "text": "The DCAS shall monitor the driver engagement (ensuring hands-on wheel or eyes-on road or even both).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "11"
+    }
+  },
+  {
+    "id": "R-007",
+    "text": "The DCAS shall evaluate the driver’s involvement.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "11"
+    }
+  },
+  {
+    "id": "R-008",
+    "text": "When there is a lack of the driver’s engagement, the DCAS shall respond appropriately by giving distinct warnings to the driver.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "11"
+    }
+  },
+  {
+    "id": "R-009",
+    "text": "When the driver has not responded to the system’s warnings and has not taken necessary control actions, the DCAS shall bring the vehicle to a complete stop.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "11"
+    }
+  },
+  {
+    "id": "R-010",
+    "text": "The DCAS shall monitor for signs of driver disengagement utilizing a driver monitoring system.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 2,
+      "paragraph": "11"
+    }
+  },
+  {
+    "id": "R-011",
+    "text": "The documentation presented to the Type Approval Authority shall describe in detail transitions between DCAS and other assistance or automation systems, prioritization of one over the other, and any suppression or deactivation of other assistance systems which are intended to ensure the safe and nominal operation of the vehicle.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 7,
+      "paragraph": "5.2.2"
+    }
+  },
+  {
+    "id": "R-012",
+    "text": "While DCAS or a feature of DCAS is in ‘on’ mode, the DCAS shall aim to detect the applicable system boundaries.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 8,
+      "paragraph": "5.3.5.1"
+    }
+  },
+  {
+    "id": "R-013",
+    "text": "If the DCAS identifies that the system or feature boundary is exceeded, then the DCAS shall transition into ‘stand-by’ mode.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 8,
+      "paragraph": "5.3.5.1"
+    }
+  },
+  {
+    "id": "R-014",
+    "text": "If the DCAS identifies that the system or feature boundary is exceeded, then the DCAS shall immediately notify the driver in accordance to the strategies described by the manufacturer as outlined in paragraph 5.3.5.2. and according to the HMI requirements defined in paragraph 5.5.4.1.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 8,
+      "paragraph": "5.3.5.1"
+    }
+  },
+  {
+    "id": "R-015",
+    "text": "If the DCAS identifies that the system or feature boundary is exceeded, then the DCAS shall terminate assistance to the driver provided by the affected feature or the system in a controllable way.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 8,
+      "paragraph": "5.3.5.1"
+    }
+  },
+  {
+    "id": "R-016",
+    "text": "The assistance termination strategy for when the DCAS identifies that the system or feature boundary is exceeded shall be described by the vehicle manufacturer and assessed according to Annex 3.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 8,
+      "paragraph": "5.3.5.1"
+    }
+  },
+  {
+    "id": "R-017",
+    "text": "The activated feature shall at any time, within the boundary conditions, ensure that the vehicle does not unintentionally cross a lane marking for lateral accelerations values to be specified by the manufacturer which shall not exceed 3 m/s² for M1 and N1 category vehicles and 2.5 m/s² for M2, M3, N2 and N3 category vehicles.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 9,
+      "paragraph": "5.3.7.1.2"
+    }
+  },
+  {
+    "id": "R-018",
+    "text": "The activated feature shall not deactivate or unreasonably switch the control strategy in conditions where the maximum lateral acceleration values specified by the vehicle manufacturer may not be achievable (e.g., inclement weather, different tyres fitted to the vehicle, laterally sloped roads).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 9,
+      "paragraph": "5.3.7.1.2"
+    }
+  },
+  {
+    "id": "R-019",
+    "text": "While the activated feature is in operation, the system shall not exceed the specified value of maximum lateral acceleration by more than 0.3 m/s2, while not exceeding 3 m/s² for M1 and N1 category vehicles and 2.5 m/s² for M2, M3, N2 and N3 category vehicles.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 9,
+      "paragraph": "5.3.7.1.2"
+    }
+  },
+  {
+    "id": "R-020",
+    "text": "When the activated feature is in operation, the system shall not exceed the specified value of maximum lateral acceleration by more than 40 per cent for time periods of not more than 2 seconds, while not exceeding 3 m/s² for M1 and N1 category vehicles and 2.5 m/s² for M2, M3, N2 and N3 category vehicles by more than 0.3 m/s2.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 9,
+      "paragraph": "5.3.7.1.2"
+    }
+  },
+  {
+    "id": "R-021",
+    "text": "When the driver is not detected to be disengaged, and (a) has commanded the system to perform the manoeuvre for a driver-initiated manoeuvre; or (b) has acknowledged the system’s intention as needed for a driver-confirmed manoeuvre; or (c) is given sufficient notice to react for a system-initiated manoeuvre, the system shall initiate a manoeuvre, except that motoric disengagement may not be considered when HORs are being withheld by the system.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 10,
+      "paragraph": "5.3.7.2.1.1"
+    }
+  },
+  {
+    "id": "R-022",
+    "text": "The manoeuvre shall aim to not cause a collision with another detected vehicle or road user in the predicted path of the vehicle during the manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 10,
+      "paragraph": "5.3.7.2.1.12"
+    }
+  },
+  {
+    "id": "R-023",
+    "text": "The system shall apply the requirements outlined in paragraph 5.5.4.1.8. and subparagraphs.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 10,
+      "paragraph": "5.3.7.2.3.1"
+    }
+  },
+  {
+    "id": "R-024",
+    "text": "The system shall be designed to ensure that the driver has sufficient time to confirm that the system may proceed with the manoeuvre, as appropriate.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 10,
+      "paragraph": "5.3.7.2.3.1"
+    }
+  },
+  {
+    "id": "R-025",
+    "text": "When the system has presented an EOR to the driver in the 7 seconds leading up to the initiation of the manoeuvre, the system shall prevent the initiation of a manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 11,
+      "paragraph": "5.3.7.2.4.2"
+    }
+  },
+  {
+    "id": "R-026",
+    "text": "The system shall implement further strategies to ensure appropriate driver engagement prior to the initiation of the manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 11,
+      "paragraph": "5.3.7.2.4.2.1"
+    }
+  },
+  {
+    "id": "R-027",
+    "text": "The further strategies implemented to ensure appropriate driver engagement prior to the initiation of the manoeuvre shall be documented and explained.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 11,
+      "paragraph": "5.3.7.2.4.2.1"
+    }
+  },
+  {
+    "id": "R-028",
+    "text": "When the driver is detected to be disengaged during a manoeuvre, the manufacturer shall describe in the safety concept the system behaviour (e.g., initiation of a risk mitigation function, full execution of the manoeuvre, stop the vehicle).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 11,
+      "paragraph": "5.3.7.2.4.3"
+    }
+  },
+  {
+    "id": "R-029",
+    "text": "The system shall only perform a manoeuvre if there is a justifiable reason for said manoeuvre (e.g., pursuing a set destination, following traffic flow, safety-relevant manoeuvres, etc.).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 11,
+      "paragraph": "5.3.7.2.4.4"
+    }
+  },
+  {
+    "id": "R-030",
+    "text": "The manufacturer shall explain in the documentation the traffic situations where the system may initiate manoeuvres.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 11,
+      "paragraph": "5.3.7.2.4.4"
+    }
+  },
+  {
+    "id": "R-031",
+    "text": "When the conditions outlined in paragraph 5.3.7.2.3.5. are not met, the system shall not initiate the manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 11,
+      "paragraph": "5.3.7.2.4.5"
+    }
+  },
+  {
+    "id": "R-032",
+    "text": "The system shall aim to not initiate a manoeuvre if it would cause other road users to unreasonably or unmanageably decelerate or evade the vehicle as a consequence of the manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.6"
+    }
+  },
+  {
+    "id": "R-033",
+    "text": "The system shall aim to not initiate a manoeuvre if it would violate applicable instruction by relevant signage or performance requirements as specified in paragraph 6.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.7"
+    }
+  },
+  {
+    "id": "R-034",
+    "text": "The system shall not initiate a manoeuvre if it would lead the vehicle to cross lane markings which are not permitted to be crossed.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.8"
+    }
+  },
+  {
+    "id": "R-035",
+    "text": "The system shall aim not to violate appropriate right-of-way rules applicable in the country of operation where relevant to the manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.9"
+    }
+  },
+  {
+    "id": "R-036",
+    "text": "While the vehicle is located on a highway (including highway slip roads) and the system is not withholding HORs, the system shall only initiate a manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.10"
+    }
+  },
+  {
+    "id": "R-037",
+    "text": "While the vehicle is in a stopped position, the vehicle shall give a request for the driver to acknowledge that they have read and understood the driver information material outlined in paragraph 5.6.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.11"
+    }
+  },
+  {
+    "id": "R-038",
+    "text": "The vehicle shall give a request for the driver to acknowledge that they have read and understood the driver information material outlined in paragraph 5.6 at least once every month, except that if the vehicle utilises a means of differentiating between users, this may be extended to three months for a given user.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.11"
+    }
+  },
+  {
+    "id": "R-039",
+    "text": "The vehicle shall give a request for the driver to acknowledge that they have read and understood the driver information material outlined in paragraph 5.6 at least once every month, except that if the vehicle can identify that a driver has previously acknowledged this request it does not need to be given again for that driver.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.11"
+    }
+  },
+  {
+    "id": "R-040",
+    "text": "When the vehicle can identify that the current driver has not acknowledged the request to acknowledge that they have read and understood the driver information material outlined in paragraph 5.6 before, the vehicle shall give the request in the current drive cycle.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.4.11"
+    }
+  },
+  {
+    "id": "R-041",
+    "text": "While in highway operation, the system shall aim to respond to work zones, lane reductions, lane closures, toll stations and end of highways (e.g., by notifying the driver, issuing a DCA, or continuing operation if capable).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 12,
+      "paragraph": "5.3.7.2.5.3.1"
+    }
+  },
+  {
+    "id": "R-042",
+    "text": "The system shall be able to recognize lane markings as outlined in Annex 3 of the 01 or later series of amendments to UN Regulation No. 130, as relevant to the countries in which the system can be activated.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 13,
+      "paragraph": "5.3.7.2.5.3"
+    }
+  },
+  {
+    "id": "R-043",
+    "text": "The system shall comply with the technical requirements and transitional provisions of the 04 or later series of amendments to UN Regulation No. 79 with respect to the Risk Mitigation Function (RMF).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 13,
+      "paragraph": "5.3.7.3.1"
+    }
+  },
+  {
+    "id": "R-044",
+    "text": "When the driver has been determined to be unavailable following a driver disengagement warning escalation sequence as defined in paragraph 5.5.4.2.6., the system shall appropriately activate the Risk Mitigation Function in order to come to a safe stop.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 13,
+      "paragraph": "5.3.7.3.1"
+    }
+  },
+  {
+    "id": "R-045",
+    "text": "Where the system is equipped with a driver-confirmed or system-initiated lane change feature, the RMF shall be capable of performing lane changes, in compliance with the technical requirements for systems with the purpose of bringing the vehicle to a safe stop outside its own lane of travel of the 04 or later series of amendments to UN Regulation No. 79, during an intervention on a highway to bring the vehicle towards a target stop area in a slower or emergency lane.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 13,
+      "paragraph": "5.3.7.3.3"
+    }
+  },
+  {
+    "id": "R-046",
+    "text": "The system shall continuously display the system-determined road speed limit to the driver.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 13,
+      "paragraph": "5.3.7.4.2"
+    }
+  },
+  {
+    "id": "R-047",
+    "text": "The system shall provide a means for the driver to set a driver-set maximum speed within the system’s designed speed range.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 13,
+      "paragraph": "5.3.7.4.7"
+    }
+  },
+  {
+    "id": "R-048",
+    "text": "When a system-initiated change in vehicle speed occurs due to a changed system-determined road speed limit, the system shall be controllable to the driver.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 14,
+      "paragraph": "5.3.7.4.8"
+    }
+  },
+  {
+    "id": "R-049",
+    "text": "The system shall not enable the driver to set a default offset by which the current maximum speed is supposed to exceed the system-determined road speed limit.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 14,
+      "paragraph": "5.3.7.4.9"
+    }
+  },
+  {
+    "id": "R-050",
+    "text": "If a failure affects the entire system, then the system shall switch to ‘off’ mode upon termination of assistance.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 14,
+      "paragraph": "5.4.2.1"
+    }
+  },
+  {
+    "id": "R-051",
+    "text": "If a failure affects the entire system, then the system shall provide at least an optical failure warning signal to the driver for an appropriate duration.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 14,
+      "paragraph": "5.4.2.1"
+    }
+  },
+  {
+    "id": "R-052",
+    "text": "The manufacturer shall describe which features are able to operate independently from one another if the system is able to provide continued assistance in the case of a failure disabling a given feature.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 15,
+      "paragraph": "5.4.4.2"
+    }
+  },
+  {
+    "id": "R-053",
+    "text": "The manufacturer's description of which features are able to operate independently from one another shall be assessed according to Annex 3 if the system is able to provide continued assistance in the case of a failure disabling a given feature.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 15,
+      "paragraph": "5.4.4.2"
+    }
+  },
+  {
+    "id": "R-054",
+    "text": "While the DCAS is in ‘active’ mode, the DCAS shall prevent sustained longitudinal and lateral control assistance from being provided by any other system other than DCAS, unless an intervention of an emergency safety system is deemed necessary as specified in paragraph 5.2.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 15,
+      "paragraph": "5.5.2.3"
+    }
+  },
+  {
+    "id": "R-055",
+    "text": "When the driver switches the system or one of its features off, the system or feature respectively shall go to ‘off’ mode.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 16,
+      "paragraph": "5.5.3.3.2"
+    }
+  },
+  {
+    "id": "R-056",
+    "text": "When a driver input to the control of any braking system (e.g., service brake, parking brake) in order to maintain the vehicle at standstill occurs, the system shall override the longitudinal control assistance performed by the system.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.3.4.1.2"
+    }
+  },
+  {
+    "id": "R-057",
+    "text": "The system shall inform or warn the driver about the status of the system or feature: ‘stand-by’ mode (if applicable), ‘active’ mode.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.4.1.1"
+    }
+  },
+  {
+    "id": "R-058",
+    "text": "The system shall inform or warn the driver about the status of an ongoing manoeuvre (e.g., initiation, cancellation or if it will be recommenced after the vehicle is forced to come to a stop during the manoeuvre).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.4.1.1"
+    }
+  },
+  {
+    "id": "R-059",
+    "text": "The system shall inform or warn the driver about the need for the driver to perform a specific action (e.g. apply control, check indirect vision devices).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.4.1.1"
+    }
+  },
+  {
+    "id": "R-060",
+    "text": "When the system has detected to have reached a currently relevant system boundary while in ‘active’ mode, the system shall inform or warn the driver, unless already indicated by the status of the system or feature.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.4.1.1"
+    }
+  },
+  {
+    "id": "R-061",
+    "text": "When the system detects an upcoming system boundary, the system shall inform or warn the driver.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.4.1.1"
+    }
+  },
+  {
+    "id": "R-062",
+    "text": "If the system is not in ‘off’ mode, then the system shall inform or warn the driver about detected failures affecting the system or its features.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.4.1.1"
+    }
+  },
+  {
+    "id": "R-063",
+    "text": "The system shall inform or warn the driver about intended driver-confirmed or system-initiated manoeuvres.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 17,
+      "paragraph": "5.5.4.1.1"
+    }
+  },
+  {
+    "id": "R-064",
+    "text": "The system shall aim to provide information ahead of the initiation of a relevant intended manoeuvre with sufficient notice to allow the driver to comprehend the manoeuvre and the traffic situation, taking into account the complexity of the manoeuvre and amount of other road users present.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 18,
+      "paragraph": "5.5.4.1.9.2"
+    }
+  },
+  {
+    "id": "R-065",
+    "text": "When there is a risk of imminent collision or it would conflict with the information about an ongoing manoeuvre, the system shall visually inform the driver as far in advance as possible; however, the time may be reduced.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 18,
+      "paragraph": "5.5.4.1.9.2"
+    }
+  },
+  {
+    "id": "R-066",
+    "text": "When a lane change procedure is initiated, the system shall announce the initiation by another modality unless the system has assessed that the driver has observed the visual information.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 18,
+      "paragraph": "5.5.4.1.9.2"
+    }
+  },
+  {
+    "id": "R-067",
+    "text": "The warning shall guide the driver on the required actions in order to support appropriate engagement in the driving task.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 18,
+      "paragraph": "5.5.4.2.2.1"
+    }
+  },
+  {
+    "id": "R-068",
+    "text": "The system’s warning and escalation strategy shall consider for and prioritize warning strategies of simultaneously activated emergency assistance systems (e.g. AEBS).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 18,
+      "paragraph": "5.5.4.2.2.3"
+    }
+  },
+  {
+    "id": "R-069",
+    "text": "The EOR shall be a continual visual information in combination with at least one other modality which are clear and easily perceptible, unless it can be ensured that the driver has observed the visual information.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 19,
+      "paragraph": "5.5.4.2.3.2.1"
+    }
+  },
+  {
+    "id": "R-070",
+    "text": "The driver shall be deemed to be visually disengaged when the driver’s eye gaze and/or head posture, as relevant, is directed away from any currently driving task relevant area.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 19,
+      "paragraph": "5.5.4.2.5.2"
+    }
+  },
+  {
+    "id": "R-071",
+    "text": "The manufacturer shall specify an outline of the driving task relevant areas, and when they are relevant, in the documentation provided to the Type Approval Authority.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 19,
+      "paragraph": "5.5.4.2.5.2"
+    }
+  },
+  {
+    "id": "R-072",
+    "text": "For the purpose of the assessment of visual disengagement, the dashboard and instrument panel shall not be considered as a driving task relevant area.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 19,
+      "paragraph": "5.5.4.2.5.2"
+    }
+  },
+  {
+    "id": "R-073",
+    "text": "When either eye gaze or head posture are re-directed towards any currently driving task relevant area for a sufficient duration depending on the situation, the system shall deem the driver to be visually engaged or reengaged following an aversion of eye gaze or head posture.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 19,
+      "paragraph": "5.5.4.2.5.2.1"
+    }
+  },
+  {
+    "id": "R-074",
+    "text": "The duration for which the driver's eye gaze or head posture are re-directed towards any currently driving task relevant area to be deemed visually engaged or reengaged shall be at least 200 milliseconds.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 19,
+      "paragraph": "5.5.4.2.5.2.1"
+    }
+  },
+  {
+    "id": "R-075",
+    "text": "When continued visual disengagement occurs, the Emergency Off-Road (EOR) warning shall be escalated at the latest 3 seconds after the initial EOR warning according to the warning strategy with increased intensity.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 20,
+      "paragraph": "5.5.4.2.6.2.3"
+    }
+  },
+  {
+    "id": "R-076",
+    "text": "When continued visual disengagement occurs, the escalated Emergency Off-Road (EOR) warning shall always contain acoustic and/or haptic information.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 20,
+      "paragraph": "5.5.4.2.6.2.3"
+    }
+  },
+  {
+    "id": "R-077",
+    "text": "The manufacturer shall describe in detail, as part of the documentation required for section 9, the boundary conditions under which Hands-On Requests (HORs) can be withheld when the vehicle is located on a “Highway” and is operated at a speed up to 130 km/h, as outlined in paragraph 5.3.5.2.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 20,
+      "paragraph": "5.5.4.2.6.5"
+    }
+  },
+  {
+    "id": "R-078",
+    "text": "While the system has the ability to suppress accelerator input in order to avoid exceeding the system boundaries, the driver shall be able to override this suppression of accelerator input.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 21,
+      "paragraph": "5.5.4.2.6.5.3"
+    }
+  },
+  {
+    "id": "R-079",
+    "text": "When the driver has been deemed visually disengaged for the relevant time period according to the table below (3.5 s for a vehicle speed of 130 km/h, and 5.0 s for vehicle speeds from 10 km/h to 60 km/h), the EOR shall be given at the latest, notwithstanding paragraph 5.5.4.2.6.2.1.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 21,
+      "paragraph": "5.5.4.2.6.5.4"
+    }
+  },
+  {
+    "id": "R-080",
+    "text": "While vehicle speeds values are between 60 km/h and 130 km/h, the system shall use a linear interpolation to calculate the corresponding EOR timing.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 21,
+      "paragraph": "5.5.4.2.6.5.4"
+    }
+  },
+  {
+    "id": "R-081",
+    "text": "When no driver input has been determined over prolonged periods (e.g. through a negative determination of driver drowsiness), the driver state monitoring system shall be equipped with strategies to assess whether the driver is disengaged.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 21,
+      "paragraph": "5.5.4.2.7"
+    }
+  },
+  {
+    "id": "R-082",
+    "text": "When no driver input has been determined over prolonged periods (e.g. through a negative determination of driver drowsiness), the driver state monitoring system shall implement appropriate countermeasures.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 21,
+      "paragraph": "5.5.4.2.7"
+    }
+  },
+  {
+    "id": "R-083",
+    "text": "While the powertrain is active, when the driver is detected to have insufficient engagement, the system shall be disabled for a period of at least 30 minutes.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 21,
+      "paragraph": "5.5.4.2.8.1"
+    }
+  },
+  {
+    "id": "R-084",
+    "text": "When the system is disabled due to insufficient engagement by the driver, at the latest upon the deactivation of the powertrain, the system shall request that the driver reads the driver information material as outlined in paragraph 5.6.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 21,
+      "paragraph": "5.5.4.2.8.4"
+    }
+  },
+  {
+    "id": "R-085",
+    "text": "The manufacturer shall demonstrate how the provisions of paragraph 6.1.1.1. are implemented in the system design to the Type Approval Authority.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 23,
+      "paragraph": "6.1.1.2"
+    }
+  },
+  {
+    "id": "R-086",
+    "text": "While the system has sufficient information about its surrounding to the front, side and rear in order to assess the criticality of that lane change, the system shall perform a lane change.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 23,
+      "paragraph": "6.2.1"
+    }
+  },
+  {
+    "id": "R-087",
+    "text": "The lane change system shall not perform a lane change towards a lane intended for traffic moving in the opposite direction.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 23,
+      "paragraph": "6.2.2"
+    }
+  },
+  {
+    "id": "R-088",
+    "text": "When a vehicle in the target lane is not forced to unmanageably decelerate due to the lane change of the vehicle, the system shall only start a lane change manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 23,
+      "paragraph": "6.2.4"
+    }
+  },
+  {
+    "id": "R-089",
+    "text": "When there is an approaching vehicle, the DCAS system shall be designed to not make an approaching vehicle decelerate at a higher level than 3.0 m/s² in order to ensure that the distance between the two vehicles is never less than that which the DCAS vehicle travels in 1 second.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 23,
+      "paragraph": "6.2.4.1"
+    }
+  },
+  {
+    "id": "R-090",
+    "text": "The DCAS shall perform the assessment of the approaching vehicle's deceleration with the assumptions that the approaching vehicle begins its deceleration 1.4 seconds after the system starts the lateral movement of the lane change procedure.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 23,
+      "paragraph": "6.2.4.1"
+    }
+  },
+  {
+    "id": "R-091",
+    "text": "The assessment of the approaching vehicle's deceleration shall be performed with the assumptions that the approaching vehicle begins its deceleration either: (i) 0.4 seconds after the system starts the lane change manoeuvre, provided that the approaching vehicle was detected by the DCAS vehicle for a duration of at least 1.0 seconds immediately before the lane change manoeuvre starts; or (ii) 1.4 seconds after the system starts the lane change manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 23,
+      "paragraph": "6.2.4.1"
+    }
+  },
+  {
+    "id": "R-092",
+    "text": "The system shall aim to detect restricted lanes of travel which restrict access to specific vehicle road users (e.g., bus, bike or taxi lanes).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 25,
+      "paragraph": "6.2.9.2.2"
+    }
+  },
+  {
+    "id": "R-093",
+    "text": "The system shall aim to refrain from initiating lane changes to restricted lanes of travel which restrict access to specific vehicle road users (e.g., bus, bike or taxi lanes).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 25,
+      "paragraph": "6.2.9.2.2"
+    }
+  },
+  {
+    "id": "R-094",
+    "text": "When assisting lane changes on roads where pedestrians and/or bicycles are not prohibited, the system shall only be permitted to perform a lane change on roads with pedestrians and cyclists if the system is able to avoid causing risk of a collision with any vulnerable road user (such as pedestrians and cyclists).",
+    "source": {
+      "regulation": "UN R171",
+      "page": 25,
+      "paragraph": "6.2.9.4"
+    }
+  },
+  {
+    "id": "R-095",
+    "text": "The system shall be designed to safely and cautiously navigate hillcrests where this is deemed relevant for the controllability the given manoeuvre.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 25,
+      "paragraph": "6.3.4"
+    }
+  },
+  {
+    "id": "R-096",
+    "text": "When the manoeuvre would potentially lead the system to cross paths with vulnerable road users crossing the lane of travel (e.g., bike path, crosswalk), the system shall be designed to respond appropriately to the road users and infrastructure.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 25,
+      "paragraph": "6.3.5"
+    }
+  },
+  {
+    "id": "R-097",
+    "text": "When the system is able to determine the position and movement of other road users to the front, side and rear where relevant to the specific manoeuvre, and that there is adequate distance to them to perform the manoeuvre, the system shall allow navigating around an obstruction.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 26,
+      "paragraph": "6.3.9.2"
+    }
+  },
+  {
+    "id": "R-098",
+    "text": "The manufacturer shall maintain processes to monitor safety-critical occurrences caused by the operation of the system.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 26,
+      "paragraph": "7.1.1"
+    }
+  },
+  {
+    "id": "R-099",
+    "text": "When the initial notification as per paragraph 7.2.1. has occurred, the manufacturer shall investigate whether the incident was related to DCAS operation.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.2.1"
+    }
+  },
+  {
+    "id": "R-100",
+    "text": "When the initial notification as per paragraph 7.2.1. has occurred, the manufacturer shall inform the Type Approval Authority of the results of the investigation into whether the incident was related to DCAS operation as soon as possible.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.2.1"
+    }
+  },
+  {
+    "id": "R-101",
+    "text": "When the operation of the DCAS was likely one of the causes of the incident, the manufacturer shall inform the Type Approval Authority of intended remedial action(s) addressing DCAS design, if applicable, in addition to informing the Type Approval Authority of the results of the investigation.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.2.1"
+    }
+  },
+  {
+    "id": "R-102",
+    "text": "When remedial action addressing DCAS design is to be taken by the manufacturer, the Type Approval Authority shall upload the information received from the manufacturer in the English language to the secure internet database \"DETA\", established by the United Nations Economic Commission for Europe, without undue delay but no later than 14 days after receipt, to communicate this information to all Type Approval Authorities.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.2.2"
+    }
+  },
+  {
+    "id": "R-103",
+    "text": "When remedial action addressing DCAS design is to be taken by the manufacturer, the information received from the manufacturer and uploaded by the Type Approval Authority to the secure internet database \"DETA\" shall be sufficient to understand the incident, the cause of the incident and the remedial action.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.2.2"
+    }
+  },
+  {
+    "id": "R-104",
+    "text": "The manufacturer shall report at least once a year to the Type Approval Authority on the information deemed to be proper evidence of the intended operation collected through the monitoring program and safety of the system in the field until the production is definitively discontinued according to paragraph 14.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.3.1"
+    }
+  },
+  {
+    "id": "R-105",
+    "text": "The manufacturer shall report at least the information listed in the table below, which can be shared in confidence with other Type Approval Authorities on request, and be notified in this case.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.3.1"
+    }
+  },
+  {
+    "id": "R-106",
+    "text": "When the system was subject to significant changes relevant to the reported information during the reporting period, the report shall differentiate the changes of the system.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 27,
+      "paragraph": "7.2.3.1"
+    }
+  },
+  {
+    "id": "R-107",
+    "text": "The manufacturer shall provide the following data, together with the documentation package required in Annex 3 of this UN Regulation, to the Type Approval Authority at the time of type-approval.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 29,
+      "paragraph": "9.1"
+    }
+  },
+  {
+    "id": "R-108",
+    "text": "The vehicle manufacturer shall implement an R171SWIN for the purpose of ensuring the software of the System can be identified.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 31,
+      "paragraph": "10.1"
+    }
+  },
+  {
+    "id": "R-109",
+    "text": "Where R171SWIN is not held on the vehicle, the vehicle manufacturer shall declare the software version(s) of the vehicle or single ECUs with the connection to the relevant type approvals to the Type Approval Authority.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 31,
+      "paragraph": "10.1"
+    }
+  },
+  {
+    "id": "R-110",
+    "text": "The vehicle manufacturer shall declare the information provided in the communication form of the related Regulation, consisting of a list of the relevant parameters that will allow the identification of those vehicles that can be updated with the software represented by the R171SWIN.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 31,
+      "paragraph": "10.4"
+    }
+  },
+  {
+    "id": "R-111",
+    "text": "The Type Approval Authority shall be permitted to not verify the information provided by the vehicle manufacturer in the communication form of the related Regulation, consisting of a list of the relevant parameters that will allow the identification of those vehicles that can be updated with the software represented by the R171SWIN.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 31,
+      "paragraph": "10.4"
+    }
+  },
+  {
+    "id": "R-112",
+    "text": "A vehicle approved pursuant to this UN Regulation shall be so manufactured as to conform to the type approved by meeting the requirements of paragraph 5. above.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 32,
+      "paragraph": "12.2"
+    }
+  },
+  {
+    "id": "R-113",
+    "text": "The manufacturer shall declare the capability of the system and its features according to the classification of paragraph 6 based on the following criteria.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 47,
+      "paragraph": "tb:678427e5ef7cb6895725d6bf"
+    }
+  },
+  {
+    "id": "R-114",
+    "text": "When the system is able to demonstrate the required behaviour in at least 90% of the corresponding tests, the system shall be considered to possess a capability as declared according to the classification of paragraph 6.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 47,
+      "paragraph": "tb:678427e5ef7cb6895725d6bf"
+    }
+  },
+  {
+    "id": "R-115",
+    "text": "The manufacturer shall provide evidence of the capability of the system and its features to the Type Approval Authority via appropriate documentation.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 47,
+      "paragraph": "tb:678427e5ef7cb6895725d6bf"
+    }
+  },
+  {
+    "id": "R-116",
+    "text": "When conditions deviate from those specified for the corresponding test, the system shall not unreasonably switch its control strategy.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 47,
+      "paragraph": "tb:678427e5ef7cb6895725d6bf"
+    }
+  },
+  {
+    "id": "R-117",
+    "text": "The manufacturer shall demonstrate to the Type Approval Authority in accordance to Annex 4 that the system does not unreasonably switch its control strategy when conditions deviate from those specified for the corresponding test.",
+    "source": {
+      "regulation": "UN R171",
+      "page": 47,
+      "paragraph": "tb:678427e5ef7cb6895725d6bf"
+    }
+  }
+]

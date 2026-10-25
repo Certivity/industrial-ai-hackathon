@@ -1,0 +1,16 @@
+[
+  {
+    "name": "old.pdf",
+    "title": "Old version (the requirements were derived from this one)",
+    "pdf_url": "https://storage.googleapis.com/certivity-ind-ai-hackathon-regulations-public/regulations/UN_R171/base/UN_R171_base.pdf",
+    "sha256": "6d245c806a63c4654e3026c2070bababca2be0066000dbb97146c36dc2b972b4",
+    "size_bytes": 2957580
+  },
+  {
+    "name": "new.pdf",
+    "title": "New version",
+    "pdf_url": "https://storage.googleapis.com/certivity-ind-ai-hackathon-regulations-public/regulations/UN_R171/latest/UN_R171_latest.pdf",
+    "sha256": "5ba88306b26eddb0a7453cdefe947d55cb18cfb26ee9d6c6ffe994c8089222be",
+    "size_bytes": 2346986
+  }
+]

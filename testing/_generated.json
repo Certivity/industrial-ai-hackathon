@@ -123,5 +123,431 @@
       "ok": 123
     },
     "grounding_rate": 0.954
+  },
+  {
+    "case": "ts-motorcycle-led-headlamp",
+    "dir": "testing/ts-motorcycle-led-headlamp",
+    "spec": "testing/ts-motorcycle-led-headlamp/technical_spec.md",
+    "expected": "testing/ts-motorcycle-led-headlamp/expected.json",
+    "regulations": {
+      "UN R149": 131,
+      "UN R53": 48,
+      "UN R128": 32,
+      "UN R10": 30
+    },
+    "requirements": 241,
+    "paragraphs": 197,
+    "provider_wrote": 249,
+    "verdicts": {
+      "ok": 234,
+      "wrong page": 7,
+      "spans nodes": 1,
+      "other node": 3,
+      "hallucinated": 4
+    },
+    "grounding_rate": 0.968
+  },
+  {
+    "case": "ts-l5-tricycle-lighting",
+    "dir": "testing/ts-l5-tricycle-lighting",
+    "spec": "testing/ts-l5-tricycle-lighting/technical_spec.md",
+    "expected": "testing/ts-l5-tricycle-lighting/expected.json",
+    "regulations": {
+      "UN R148": 89,
+      "UN R53": 55,
+      "UN R150": 47,
+      "UN R10": 25
+    },
+    "requirements": 216,
+    "paragraphs": 169,
+    "provider_wrote": 218,
+    "verdicts": {
+      "ok": 216,
+      "hallucinated": 1,
+      "other node": 1
+    },
+    "grounding_rate": 0.991
+  },
+  {
+    "case": "ts-m1-adaptive-headlamp",
+    "dir": "testing/ts-m1-adaptive-headlamp",
+    "spec": "testing/ts-m1-adaptive-headlamp/technical_spec.md",
+    "expected": "testing/ts-m1-adaptive-headlamp/expected.json",
+    "regulations": {
+      "UN R149": 70,
+      "UN R48": 45,
+      "UN R148": 26,
+      "UN R10": 16
+    },
+    "requirements": 157,
+    "paragraphs": 144,
+    "provider_wrote": 159,
+    "verdicts": {
+      "ok": 155,
+      "other node": 1,
+      "spans nodes": 1,
+      "wrong page": 2
+    },
+    "grounding_rate": 0.987
+  },
+  {
+    "case": "ts-m1-cybersecurity-ota",
+    "dir": "testing/ts-m1-cybersecurity-ota",
+    "spec": "testing/ts-m1-cybersecurity-ota/technical_spec.md",
+    "expected": "testing/ts-m1-cybersecurity-ota/expected.json",
+    "regulations": {
+      "UN R10": 62,
+      "UN R155": 45,
+      "UN R156": 21
+    },
+    "requirements": 128,
+    "paragraphs": 87,
+    "provider_wrote": 142,
+    "verdicts": {
+      "ok": 126,
+      "hallucinated": 2,
+      "other node": 12,
+      "wrong page": 2
+    },
+    "grounding_rate": 0.901
+  },
+  {
+    "case": "ts-m1-lane-keeping",
+    "dir": "testing/ts-m1-lane-keeping",
+    "spec": "testing/ts-m1-lane-keeping/technical_spec.md",
+    "expected": "testing/ts-m1-lane-keeping/expected.json",
+    "regulations": {
+      "UN R157": 171,
+      "UN R79": 85,
+      "UN R10": 43,
+      "UN R155": 13
+    },
+    "requirements": 312,
+    "paragraphs": 255,
+    "provider_wrote": 336,
+    "verdicts": {
+      "ok": 312,
+      "spans nodes": 7,
+      "other node": 16,
+      "hallucinated": 1
+    },
+    "grounding_rate": 0.929
+  },
+  {
+    "case": "ts-m1-frontal-crash",
+    "dir": "testing/ts-m1-frontal-crash",
+    "spec": "testing/ts-m1-frontal-crash/technical_spec.md",
+    "expected": "testing/ts-m1-frontal-crash/expected.json",
+    "regulations": {
+      "UN R94": 39,
+      "UN R137": 37,
+      "UN R10": 31,
+      "UN R26": 27
+    },
+    "requirements": 134,
+    "paragraphs": 126,
+    "provider_wrote": 139,
+    "verdicts": {
+      "ok": 133,
+      "hallucinated": 2,
+      "spans nodes": 2,
+      "wrong page": 1,
+      "other node": 1
+    },
+    "grounding_rate": 0.964
+  },
+  {
+    "case": "ts-m1-windscreen",
+    "dir": "testing/ts-m1-windscreen",
+    "spec": "testing/ts-m1-windscreen/technical_spec.md",
+    "expected": "testing/ts-m1-windscreen/expected.json",
+    "regulations": {
+      "UN R43": 156,
+      "UN R10": 54
+    },
+    "requirements": 210,
+    "paragraphs": 178,
+    "provider_wrote": 214,
+    "verdicts": {
+      "ok": 209,
+      "no node": 1,
+      "wrong page": 1,
+      "spans nodes": 1,
+      "other node": 2
+    },
+    "grounding_rate": 0.981
+  },
+  {
+    "case": "ts-m1-airbag-module",
+    "dir": "testing/ts-m1-airbag-module",
+    "spec": "testing/ts-m1-airbag-module/technical_spec.md",
+    "expected": "testing/ts-m1-airbag-module/expected.json",
+    "regulations": {
+      "UN R114": 61,
+      "UN R137": 42,
+      "UN R10": 34,
+      "UN R79": 19
+    },
+    "requirements": 156,
+    "paragraphs": 120,
+    "provider_wrote": 164,
+    "verdicts": {
+      "ok": 154,
+      "spans nodes": 4,
+      "hallucinated": 3,
+      "other node": 1,
+      "wrong page": 2
+    },
+    "grounding_rate": 0.951
+  },
+  {
+    "case": "ts-m1-power-steering-b",
+    "dir": "testing/ts-m1-power-steering-b",
+    "spec": "testing/ts-m1-power-steering-b/technical_spec.md",
+    "expected": "testing/ts-m1-power-steering-b/expected.json",
+    "regulations": {
+      "UN R79": 75,
+      "UN R10": 54,
+      "UN R155": 33,
+      "UN R156": 28
+    },
+    "requirements": 190,
+    "paragraphs": 138,
+    "provider_wrote": 201,
+    "verdicts": {
+      "ok": 190,
+      "other node": 11
+    },
+    "grounding_rate": 0.945
+  },
+  {
+    "case": "ts-m1-replacement-catalyst",
+    "dir": "testing/ts-m1-replacement-catalyst",
+    "spec": "testing/ts-m1-replacement-catalyst/technical_spec.md",
+    "expected": "testing/ts-m1-replacement-catalyst/expected.json",
+    "regulations": {
+      "UN R10": 50,
+      "UN R103": 44,
+      "UN R83": 39
+    },
+    "requirements": 133,
+    "paragraphs": 101,
+    "provider_wrote": 138,
+    "verdicts": {
+      "ok": 130,
+      "other node": 5,
+      "wrong page": 3
+    },
+    "grounding_rate": 0.964
+  },
+  {
+    "case": "ts-m1-braking-system",
+    "dir": "testing/ts-m1-braking-system",
+    "spec": "testing/ts-m1-braking-system/technical_spec.md",
+    "expected": "testing/ts-m1-braking-system/expected.json",
+    "regulations": {
+      "UN R13H": 109,
+      "UN R10": 34,
+      "UN R79": 30
+    },
+    "requirements": 173,
+    "paragraphs": 159,
+    "provider_wrote": 187,
+    "verdicts": {
+      "ok": 171,
+      "spans nodes": 3,
+      "hallucinated": 5,
+      "wrong page": 2,
+      "other node": 6
+    },
+    "grounding_rate": 0.925
+  },
+  {
+    "case": "ts-m3-speed-limiter-b",
+    "dir": "testing/ts-m3-speed-limiter-b",
+    "spec": "testing/ts-m3-speed-limiter-b/technical_spec.md",
+    "expected": "testing/ts-m3-speed-limiter-b/expected.json",
+    "regulations": {
+      "UN R89": 56,
+      "UN R10": 40,
+      "UN R39": 33,
+      "UN R107": 24
+    },
+    "requirements": 153,
+    "paragraphs": 130,
+    "provider_wrote": 154,
+    "verdicts": {
+      "ok": 150,
+      "other node": 1,
+      "wrong page": 3
+    },
+    "grounding_rate": 0.994
+  },
+  {
+    "case": "ts-m3-bus-signal-lamps",
+    "dir": "testing/ts-m3-bus-signal-lamps",
+    "spec": "testing/ts-m3-bus-signal-lamps/technical_spec.md",
+    "expected": "testing/ts-m3-bus-signal-lamps/expected.json",
+    "regulations": {
+      "UN R148": 81,
+      "UN R48": 64,
+      "UN R150": 46,
+      "UN R10": 30
+    },
+    "requirements": 221,
+    "paragraphs": 189,
+    "provider_wrote": 225,
+    "verdicts": {
+      "ok": 207,
+      "hallucinated": 2,
+      "wrong page": 14,
+      "spans nodes": 1,
+      "other node": 1
+    },
+    "grounding_rate": 0.982
+  },
+  {
+    "case": "ts-n1-van-rear-lamps",
+    "dir": "testing/ts-n1-van-rear-lamps",
+    "spec": "testing/ts-n1-van-rear-lamps/technical_spec.md",
+    "expected": "testing/ts-n1-van-rear-lamps/expected.json",
+    "regulations": {
+      "UN R38": 46,
+      "UN R48": 38,
+      "UN R23": 37,
+      "UN R10": 30
+    },
+    "requirements": 151,
+    "paragraphs": 138,
+    "provider_wrote": 158,
+    "verdicts": {
+      "ok": 148,
+      "other node": 6,
+      "wrong page": 3,
+      "hallucinated": 1
+    },
+    "grounding_rate": 0.956
+  },
+  {
+    "case": "ts-n1-spare-wheel",
+    "dir": "testing/ts-n1-spare-wheel",
+    "spec": "testing/ts-n1-spare-wheel/technical_spec.md",
+    "expected": "testing/ts-n1-spare-wheel/expected.json",
+    "regulations": {
+      "UN R10": 72,
+      "UN R64": 54,
+      "UN R39": 43
+    },
+    "requirements": 169,
+    "paragraphs": 122,
+    "provider_wrote": 169,
+    "verdicts": {
+      "ok": 169
+    },
+    "grounding_rate": 1.0
+  },
+  {
+    "case": "ts-n1-speedometer",
+    "dir": "testing/ts-n1-speedometer",
+    "spec": "testing/ts-n1-speedometer/technical_spec.md",
+    "expected": "testing/ts-n1-speedometer/expected.json",
+    "regulations": {
+      "UN R10": 48,
+      "UN R39": 42
+    },
+    "requirements": 90,
+    "paragraphs": 62,
+    "provider_wrote": 90,
+    "verdicts": {
+      "ok": 90
+    },
+    "grounding_rate": 1.0
+  },
+  {
+    "case": "ts-n2-truck-aebs",
+    "dir": "testing/ts-n2-truck-aebs",
+    "spec": "testing/ts-n2-truck-aebs/technical_spec.md",
+    "expected": "testing/ts-n2-truck-aebs/expected.json",
+    "regulations": {
+      "UN R13H": 76,
+      "UN R131": 70,
+      "UN R10": 35
+    },
+    "requirements": 181,
+    "paragraphs": 159,
+    "provider_wrote": 194,
+    "verdicts": {
+      "ok": 180,
+      "other node": 10,
+      "spans nodes": 3,
+      "wrong page": 1
+    },
+    "grounding_rate": 0.933
+  },
+  {
+    "case": "ts-n3-o4-coupling",
+    "dir": "testing/ts-n3-o4-coupling",
+    "spec": "testing/ts-n3-o4-coupling/technical_spec.md",
+    "expected": "testing/ts-n3-o4-coupling/expected.json",
+    "regulations": {
+      "UN R102": 62,
+      "UN R10": 60
+    },
+    "requirements": 122,
+    "paragraphs": 97,
+    "provider_wrote": 132,
+    "verdicts": {
+      "ok": 122,
+      "no node": 1,
+      "hallucinated": 8,
+      "spans nodes": 1
+    },
+    "grounding_rate": 0.924
+  },
+  {
+    "case": "ts-n3-direction-indicators",
+    "dir": "testing/ts-n3-direction-indicators",
+    "spec": "testing/ts-n3-direction-indicators/technical_spec.md",
+    "expected": "testing/ts-n3-direction-indicators/expected.json",
+    "regulations": {
+      "UN R148": 78,
+      "UN R6": 60,
+      "UN R48": 57,
+      "UN R10": 25
+    },
+    "requirements": 220,
+    "paragraphs": 151,
+    "provider_wrote": 227,
+    "verdicts": {
+      "ok": 219,
+      "spans nodes": 3,
+      "hallucinated": 4,
+      "wrong page": 1
+    },
+    "grounding_rate": 0.969
+  },
+  {
+    "case": "ts-o3-trailer-conspicuity",
+    "dir": "testing/ts-o3-trailer-conspicuity",
+    "spec": "testing/ts-o3-trailer-conspicuity/technical_spec.md",
+    "expected": "testing/ts-o3-trailer-conspicuity/expected.json",
+    "regulations": {
+      "UN R150": 81,
+      "UN R48": 54,
+      "UN R104": 51,
+      "UN R10": 37
+    },
+    "requirements": 223,
+    "paragraphs": 196,
+    "provider_wrote": 232,
+    "verdicts": {
+      "ok": 222,
+      "wrong page": 1,
+      "hallucinated": 3,
+      "spans nodes": 3,
+      "other node": 2,
+      "no node": 1
+    },
+    "grounding_rate": 0.961
   }
 ]

@@ -1,0 +1,1549 @@
+[
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The \"H\" point for each seat shall be determined in accordance with the procedure described in Annex 6",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the protective system for the front seating positions includes belts, the belt components shall meet the requirements of Regulation No. 16",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Seating positions where a dummy is installed and the protective system includes belts, shall be provided with anchorage points conforming to Regulation No. 14",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The head performance criterion (HPC) shall not exceed 1,000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The Injury Criteria for the neck (NIC) shall not exceed the values shown in Figures 1 and 2",
+    "label": "5.2.1.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The neck bending moment about the y axis shall no exceed 57 Nm in extension",
+    "label": "5.2.1.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The Thorax Compression Criterion (ThCC) shall not exceed 42 mm",
+    "label": "5.2.1.4"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The viscous criterion (V * C) for the thorax shall not exceed 1,0 m/s",
+    "label": "5.2.1.5"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.6",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed the force-time performance criterion shown in Figure 3",
+    "label": "5.2.1.6"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.7",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The tibia compression force criterion (TCFC) shall not exceed 8 kN",
+    "label": "5.2.1.7"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.8",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The tibia index (TI), measured at the top and bottom of each tibia, shall not exceed 1,3 at either location",
+    "label": "5.2.1.8"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.1.9",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The movement of the sliding knee joints shall not exceed 15 mm",
+    "label": "5.2.1.9"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "During the test no door shall open",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "After the impact, the side doors shall be unlocked",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.4.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In the case of vehicles equipped with an automatically activated door locking system, the doors shall be locked before the moment of impact and be unlocked after the impact",
+    "label": "5.2.4.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.5.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "To open at least one door per row of seats",
+    "label": "5.2.5.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.5.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "To release the dummies from their restraint system which, if locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control",
+    "label": "5.2.5.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.5.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "To remove the dummies from the vehicle without adjustment of the seats",
+    "label": "5.2.5.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "5.2.6.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "If there is continuous leakage of liquid from the fuel-feed installation after the collision, the rate of leakage shall not exceed 30 g/min",
+    "label": "5.2.6.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "4.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation, an international approval mark",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "4.4.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.4.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "4.4.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of the circle prescribed in paragraph 4.4.1. above",
+    "label": "4.4.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "4.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and be indelible",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "4.7",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer",
+    "label": "4.7"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 2 Model A",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "a = 8 mm min.",
+    "label": "Annex 2",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 1.3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall overlap the barrier face by 40 per cent ± 20 mm",
+    "label": "Annex 3 1.3.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 4.",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle speed at the moment of impact shall be 56 -0/+1 km/h",
+    "label": "Annex 3 4"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 2.1.1",
+    "page": 19,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 5.2.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The acceleration (a) referring to the centre of gravity is calculated from the triaxial components of the acceleration measured with a CFC of 1,000",
+    "label": "Annex 3 5.2.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 5.2.2.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The bending moment about a lateral axis at the neck/head interface are measured with a CFC of 600",
+    "label": "Annex 3 5.2.2.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 5.2.3",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The chest deflection between the sternum and the spine is measured with a CFC of 180",
+    "label": "Annex 3 5.2.3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 5.2.4.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The axial compressive force and the bending moments are measured with a CFC of 600",
+    "label": "Annex 3 5.2.4.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 3 6.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "the deceleration time history of the structure shall be determined on the basis of the value of the longitudinal accelerometers at the base of the \"B\" pillar on the struck side of the vehicle with a CFC of 180",
+    "label": "Annex 3 6.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 5 2.8",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The temperature of the dummy and the system of measuring instruments shall be stabilized before the test and maintained so far as possible within a range between 19 °C and 22.2 °C",
+    "label": "Annex 5 2.8"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 5 3.",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "Apply a 9 to 18 N tension load to the lap belt",
+    "label": "Annex 5 3"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 8 2.1",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "The absolute value of the linearity error of a data channel at any frequency in the CFC, shall be equal to or less than 2.5 per cent of the value of the CAC, over the whole measurement range",
+    "label": "Annex 8 2.1"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 8 2.4.2",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "The relative time delay between the signal of two or more data channels, regardless of their frequency class, must not exceed 1 ms excluding delay caused by phase shift",
+    "label": "Annex 8 2.4.2"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 8 2.5",
+    "page": 29,
+    "raw_pages": [
+      29
+    ],
+    "verdict": "ok",
+    "exact": "The transducer cross sensitivity shall be less than 5 per cent in any direction",
+    "label": "Annex 8 2.5"
+  },
+  {
+    "regulation": "UN R94",
+    "paragraph": "Annex 8 4.2.1",
+    "page": 30,
+    "raw_pages": [
+      30
+    ],
+    "verdict": "ok",
+    "exact": "The sampling frequency should be equal to at least 8 FH",
+    "label": "Annex 8 4.2.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "When the protective system for the front seating positions includes belts, the belt components shall meet the requirements of Regulation No. 16",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Seating positions where a dummy is installed and the protective system includes belts, shall be provided with anchorage points conforming to Regulation No. 14",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.1",
+    "page": 6,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The head performance criterion (HPC) shall not exceed 1000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms",
+    "label": "5.2.1.1.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The axial tensile neck force shall not exceed 3.3 kN",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The fore/aft shear forces at the head/neck interface shall not exceed 3.1 kN",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The thorax compression criterion (ThCC) shall not exceed 42 mm",
+    "label": "5.2.1.1.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.4",
+    "page": 6,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The viscous criterion (V * C) for the thorax shall not exceed 1.0 m/s",
+    "label": "5.2.1.1.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed 9.07 kN",
+    "label": "5.2.1.1.5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The axial tensile neck force shall not exceed 2.9 kN",
+    "label": "5.2.1.2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The fore/aft shear forces at the head/neck interface shall not exceed 2.7 kN",
+    "label": "5.2.1.2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "34 mm in the case of vehicles of category M1",
+    "label": "5.2.1.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.4",
+    "page": 7,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The viscous criterion (V * C) for the thorax shall not exceed 1.0 m/s",
+    "label": "5.2.1.2.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed 7 kN",
+    "label": "5.2.1.2.5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.2.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction",
+    "label": "5.2.2.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "During the test no door shall open",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "After the impact, the side doors shall be unlocked",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.5.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "To open at least one door per row of seats",
+    "label": "5.2.5.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.5.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "To release the dummies from their restraint system which, locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control",
+    "label": "5.2.5.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.5.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "To remove the dummies from the vehicle without adjustment of the seats",
+    "label": "5.2.5.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation, an international approval mark",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.4.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.4.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.4.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of the circle prescribed in paragraph 4.4.1. above",
+    "label": "4.4.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and be indelible",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.7",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer",
+    "label": "4.7"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 2 Model A",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "a = 8 mm min.",
+    "label": "Annex 2",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 1.3.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "the maximum lateral misalignment tolerated between the vertical median line of the front of the vehicle and the vertical median line of the collision wall is ± 30 cm",
+    "label": "Annex 3 1.3.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 4.",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle speed at the moment of impact shall be 50 -0/ +1 km/h",
+    "label": "Annex 3 4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 2.1.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 2.1.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 5.2.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The acceleration (a) referring to the centre of gravity is calculated from the triaxial components of the acceleration measured with a CFC of 1000",
+    "label": "Annex 3 5.2.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 5.2.2.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The bending moment about a lateral axis at the neck/head interface are measured with a CFC of 600",
+    "label": "Annex 3 5.2.2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 5.2.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The chest deflection between the sternum and the spine is measured with a CFC of 180",
+    "label": "Annex 3 5.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 5.2.4.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The axial compressive force is measured with a CFC of 600",
+    "label": "Annex 3 5.2.4.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 4 5.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The maximum value of ∂t shall be 1.25 x 10⁻⁴ seconds",
+    "label": "Annex 4 5.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 5 2.8",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "The temperature of the dummy and the system of measuring instruments shall be stabilized before the test and maintained so far as possible within a range between 19 °C and 22.2 °C",
+    "label": "Annex 5 2.8"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 5 3.4.3.2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "the angle measured from the horizontal on the 76.2 mm (3 inch) flat surface of the gauge shall be 20 degrees plus or minus 2.5 degrees",
+    "label": "Annex 5 3.4.3.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 5 4.",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "Apply a 9 to 18 N tension load to the lap belt",
+    "label": "Annex 5 4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 8 2.2",
+    "page": 29,
+    "raw_pages": [
+      29
+    ],
+    "verdict": "ok",
+    "exact": "The frequency response of a data channel shall lie within the limiting curves given in Figure 1 of this annex",
+    "label": "Annex 8 2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 8 3.",
+    "page": 31,
+    "raw_pages": [
+      31
+    ],
+    "verdict": "ok",
+    "exact": "Any mounting having a lowest resonance frequency equal to at least 5 times the frequency FH of the data channel considered shall be considered valid",
+    "label": "Annex 8 3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The external surface of vehicles shall not exhibit, directed outwards, any pointed or sharp parts or any projections of such shape, dimensions, direction or hardness as to be likely to increase the risk or seriousness of bodily injury",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The external surface of vehicles shall not exhibit, directed outwards, any part likely to catch on pedestrians, cyclists or motor cyclists",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.4",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "No protruding part of the external surface shall have a radius of curvature less than 2.5 mm",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.4",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "This requirement shall not apply to parts of the external surface which protrude less than 5 mm, but the outward facing angles of such parts shall be blunted, save where such parts protrude less than 1.5 mm",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.5",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Protruding parts of the external surface, made of a material of hardness not exceeding 60 shore A, may have a radius of curvature less than 2.5 mm",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Added ornaments which project more than 10 mm from their support shall retract, become detached or bend over under a force of 10 daN exerted at their most salient point",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.1.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "After the ornaments are retracted, detached or bent over, the remaining projections shall not project more than 10 mm",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.1.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Protective strips or shielding on the external surface shall not be subject to the requirements of paragraph 6.1.1. above; however, they shall be firmly secured to the vehicle",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.6.1",
+    "page": 5,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "wrong page",
+    "exact": "The projection shall not exceed 40 mm in the case of door or luggage compartment handles and 30 mm in all other cases",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the end of the bumper is turned in so that it is not contactable by a 100 mm sphere and the gap between the bumper end and the surrounding bodywork does not exceed 20 mm",
+    "label": "6.5.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "that surface shall have a minimum radius of curvature of 5 mm at all its points lying from the contour line to 20 mm inward",
+    "label": "6.5.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.5.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The requirement of paragraph 6.5.2. above does not apply to the bumper cover",
+    "label": "6.5.4"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.8.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Sheet-metal edges, such as gutter edges and the rails of sliding doors, shall not be permitted unless they are folded back or are fitted with a shield meeting the requirements of this Regulation",
+    "label": "6.8.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.9.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Folds in body panels may have a radius of curvature of less than 2.5 mm provided that it is not less than one-tenth of the height \"H\" of the projection",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.11.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The jacking brackets and exhaust pipe(s) shall not project more than 10 mm beyond the vertical projection of the floor line lying vertically above them",
+    "label": "6.11.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.11.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "an exhaust pipe may project more than 10 mm beyond the vertical projection of the floor line, so long as it terminates in rounded edges, the minimum radius of curvature being 2.5 mm",
+    "label": "6.11.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "6.12.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. above in all positions of use",
+    "label": "6.12.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "At a height of more than 2 metres",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "5.1.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "So located that, in their static condition as well as when in operation, they cannot be contacted by a sphere 100 mm in diameter",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "4.1.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation an international approval mark",
+    "label": "4.1.4"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "4.1.4.1",
+    "page": 3,
+    "raw_pages": [
+      3,
+      4
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "4.1.4",
+      "4.2.4.1"
+    ]
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "4.1.4.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle prescribed in paragraph 4.1.4.1. above",
+    "label": "4.1.4.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "4.1.6",
+    "page": 3,
+    "raw_pages": [
+      3,
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and be indelible",
+    "label": "4.1.6"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "4.1.7",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer",
+    "label": "4.1.7"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "Annex 2 Model A",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "a= 8 mm min",
+    "label": "Annex 2",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "Annex 3 2.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "it shall be determined by the maximum variation of the distance of the centre of a 100 mm diameter sphere from the nominal line of the panel",
+    "label": "Annex 3 2.2"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "Annex 3 4.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The dimension of a gap or space between elements of a grille shall be determined by the distance between two planes passing through the points of contact of the sphere",
+    "label": "Annex 3 4.1"
+  },
+  {
+    "regulation": "UN R26",
+    "paragraph": "Annex 3 1.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The height H of a projection is determined graphically by reference to the circumference of a 165 mm diameter circle",
+    "label": "Annex 3 1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle shall be tested for radiated emissions and for immunity to radiated disturbances",
+    "label": "6.1.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 43 dB microvolts/m",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.2",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.3",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "On the vehicle representative of its type, the measured values, expressed in dB microvolts/m shall be below the type approval limits",
+    "label": "6.2.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10,
+      12,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 42 to 53 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Test level above 2 GHz Not applicable Not applicable Not applicable 8 V/m 6 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      10,
+      12,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 1 Model A",
+    "page": 44,
+    "raw_pages": [
+      44,
+      45
+    ],
+    "verdict": "ok",
+    "exact": "a = 6 mm min",
+    "label": "Annex 1",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.2",
+    "page": 57,
+    "raw_pages": [
+      57
+    ],
+    "verdict": "ok",
+    "exact": "If peak detectors are used, a correction factor of 20 dB as defined in CISPR 12 shall be applied",
+    "label": "Annex 4 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.1",
+    "page": 57,
+    "raw_pages": [
+      57,
+      68
+    ],
+    "verdict": "ok",
+    "exact": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or an outdoor test site (OTS)",
+    "label": "Annex 4 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 5 4.2",
+    "page": 68,
+    "raw_pages": [
+      68,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be performed with an average detector",
+    "label": "Annex 5 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 4.1",
+    "page": 79,
+    "raw_pages": [
+      79
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency ranges in vertical polarization",
+    "label": "Annex 6 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+    "label": "Annex 7 3.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 3.3",
+    "page": 96,
+    "raw_pages": [
+      96
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.6.2.1. of this Regulation",
+    "label": "Annex 8 3.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 3.",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Measurement according to the International Standard ISO 7637-2 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines",
+    "label": "Annex 10 3"
+  }
+]

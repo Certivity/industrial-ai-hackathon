@@ -1,0 +1,1286 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-m1-cybersecurity-ota",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The vehicle shall bear an international approval mark affixed conspicuously in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The approval mark shall show the number of the Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1.2"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The vehicle shall be designed so that supplier-related risks for the vehicle type are identified and managed, including for the telematics unit, gateway and update host.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The vehicle shall have its critical elements identified and an exhaustive risk assessment performed, with the identified risks treated and managed appropriately.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The vehicle's risk assessment shall consider the individual elements of the vehicle type and their interactions.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The vehicle's risk assessment shall consider interactions with external systems, including back-end servers and update delivery systems.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The vehicle's risk assessment shall consider the risks related to all threats referred to in Annex 5, Part A, as well as any other relevant risk.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The vehicle shall be protected against the risks identified in the risk assessment by proportionate mitigations implemented on the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The vehicle shall implement all mitigations referred to in Annex 5, Parts B and C that are relevant for the risks identified.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Where a mitigation from Annex 5, Part B or C is not relevant or not sufficient for an identified risk, the vehicle shall implement another appropriate mitigation.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Where dedicated environments for storage and execution of aftermarket software, services, applications or data are provided, the vehicle shall protect them with appropriate and proportionate measures.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.5"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "Cryptographic modules used in the vehicle for cyber security purposes shall be in line with consensus standards.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.8"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The vehicle shall be so constructed that the documented cyber security measures can be verified by testing by sampling, focused on the risks assessed as high.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The vehicle shall verify the authenticity and integrity of messages it receives.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The vehicle shall implement security controls for storing cryptographic keys, such as hardware security modules.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The vehicle's systems shall implement security by design to minimise risks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The vehicle shall apply access control techniques and designs to protect system data and code.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "Confidential data transmitted to or from the vehicle shall be protected.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "Through system design and access control, the vehicle shall prevent unauthorised personnel from accessing personal or system-critical data.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The vehicle shall employ measures to detect and recover from a denial of service attack.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The vehicle shall employ measures to prevent and detect unauthorised access.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The vehicle shall consider measures protecting its systems against embedded viruses and malware.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The vehicle shall consider measures to detect malicious internal messages or activity on its in-vehicle network.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The vehicle shall employ secure software update procedures, including for over-the-air updates.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The vehicle shall implement security controls for storing the cryptographic keys used for software updates.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "Where back-end servers are critical to the provision of update services, security controls and recovery measures for system outage shall be applied to those systems.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The vehicle shall implement measures defining and controlling user roles and access privileges on the principle of least access privilege.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 3. Table B3"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The vehicle shall log actions and access related to the management of its security functions.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 3. Table B3"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The vehicle shall apply security controls to systems that have remote access, including the telematics control unit.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "Software hosted on the vehicle shall be security assessed, authenticated and integrity protected.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The vehicle shall apply security controls to minimise the risk from third-party software intended or foreseeable to be hosted on it.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The vehicle shall apply security controls to its external interfaces, including USB, OBD and diagnostic ports.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The vehicle shall be developed following cybersecurity best practices for software and hardware development.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 21,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The vehicle shall be designed and integrated following cybersecurity best practices for system design and system integration.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 22,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The vehicle shall follow best practices for the protection of data integrity and confidentiality when storing personal data.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 22,
+        "paragraph": "Annex 5 Part B 7. Table B7"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The vehicle shall employ measures to prevent and detect unauthorised physical access and hardware manipulation.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 22,
+        "paragraph": "Annex 5 Part B 8. Table B8"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "Security controls shall be applied to the vehicle manufacturer's back-end systems to minimise the risk of insider attack.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 23,
+        "paragraph": "Annex 5 Part C 1. Table C1"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "Security controls shall be applied to back-end systems to minimise unauthorised access affecting the vehicle.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 23,
+        "paragraph": "Annex 5 Part C 1. Table C1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "Security controls and recovery measures for system outage shall be applied where back-end servers are critical to services relied on by the vehicle.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 23,
+        "paragraph": "Annex 5 Part C 1. Table C1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "Security controls shall be applied to minimise risks associated with cloud computing used for vehicle data.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 23,
+        "paragraph": "Annex 5 Part C 1. Table C1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "Security controls shall be applied to back-end systems to prevent breaches of vehicle-related data.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 23,
+        "paragraph": "Annex 5 Part C 1. Table C1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "Best practices for the protection of data integrity and confidentiality shall be followed for personal data stored for or by the vehicle.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 24,
+        "paragraph": "Annex 5 Part C 3. Table C3"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The vehicle shall bear an international approval mark for its software update approval, affixed conspicuously at a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The software update approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.1.1"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The software update approval mark shall show the number of the Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.1.2"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The software update approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The software update approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The vehicle shall protect the authenticity and integrity of software updates to reasonably prevent their compromise and invalid updates.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.1"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "Each RXSWIN held for the vehicle shall be uniquely identifiable.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "Each RXSWIN shall be easily readable in a standardised way via an electronic communication interface, at least through the OBD port.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The vehicle shall protect the RXSWINs and/or software versions held on it against unauthorised modification.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.1.2.3"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The vehicle shall be able to restore systems to their previous version after a failed or interrupted update, or be placed into a safe state.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The vehicle shall execute a software update only when it has enough power to complete the update, including any recovery to the previous version or placement into a safe state.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.2"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "When execution of an update may affect vehicle safety, the vehicle shall execute it safely by technical means ensuring the vehicle is in a state where the update can be executed safely.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.3"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The vehicle shall inform the vehicle user about an update before it is executed.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The vehicle shall ensure that preconditions are met before a software update is executed.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.5"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The vehicle shall be configured so that compatibility of a software update with the target vehicle configuration is confirmed before the update is issued.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.7"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The vehicle shall support informing the vehicle user about updates.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.11"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The vehicle shall provide unique identification of the hardware and software, including software versions, of its type-approved systems and relevant vehicle or system parameters.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.2.2"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The vehicle shall protect software updates to reasonably prevent their manipulation before the update process is initiated.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.3.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The vehicle's update processes, including the update delivery system, shall be protected to reasonably prevent them being compromised.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.3.2"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The vehicle shall assess that over-the-air updates conducted during driving will not impact safety.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.4.1"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "Where an over-the-air update requires a specific skilled or complex action to complete, the vehicle shall allow the update to proceed only when a person skilled to perform that action is present or in control of the process.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.4.2"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "The vehicle shall bear the EMC approval mark described in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The EMC approval mark shall be affixed in a conspicuous and easily accessible place specified on the approval communication form.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The EMC approval mark shall comprise a circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The EMC approval mark shall show the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The vehicle and its electrical/electronic systems shall be designed, constructed and fitted so that, in normal conditions of use, the vehicle complies with the EMC requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The vehicle shall be so built that it can be tested for radiated emissions and for immunity to radiated disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The vehicle's broadband radiated emissions, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "For measurements at a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the vehicle's broadband emissions shall be at most 32 dB microvolts/m from 30 to 75 MHz and 32 to 43 dB microvolts/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "For measurements at 10.0 ± 0.2 m, the vehicle's broadband emissions from 400 to 1,000 MHz shall not exceed 43 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "For measurements at a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the vehicle's broadband emissions shall be at most 42 dB microvolts/m from 30 to 75 MHz and 42 to 53 dB microvolts/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "For measurements at a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the vehicle's narrowband emissions shall be at most 28 dB microvolts/m from 30 to 230 MHz and 35 dB microvolts/m from 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "For measurements at a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the vehicle's narrowband emissions shall be at most 38 dB microvolts/m from 30 to 230 MHz and 45 dB microvolts/m from 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The vehicle's narrowband radiated emissions, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.3"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The vehicle shall be immune to a field strength of 30 V/m over at least 90 per cent of the 20 to 2,000 MHz band and at least 25 V/m over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The vehicle shall be immune to a field strength of 10 V/m over at least 90 per cent of the 2,000 to 6,000 MHz band and at least 8 V/m over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "Under BCI testing, the vehicle shall be immune to 60 mA over at least 90 per cent of the 20 to 2,000 MHz band and at least 50 mA over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "During immunity testing the vehicle shall show no degradation of performance of its immunity related functions, including data-bus functionality and functions affecting the driver and other road users.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "For ESAs of the vehicle measured under Annex 7, broadband emissions shall be 62 to 52 dB microvolts/m from 30 to 75 MHz, decreasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "For ESAs, broadband emissions from 75 to 400 MHz shall be 52 to 63 dB microvolts/m, increasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "For ESAs, broadband emissions from 400 to 1,000 MHz shall not exceed 63 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "For ESAs measured under Annex 8, narrowband emissions shall be 52 to 42 dB microvolts/m from 30 to 75 MHz, decreasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "For ESAs, narrowband emissions from 75 to 400 MHz shall be 42 to 53 dB microvolts/m, increasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The narrowband radiated emissions of the ESAs, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "For a 12 V system, transient conducted emissions of ESAs on the supply lines shall not exceed +75 V for positive pulses and -100 V for negative pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "For ESAs below 2 GHz, immunity shall be demonstrated at 60 V/m (stripline), 75 V/m (TEM cell), 60 mA (BCI), 30 V/m (ALSE) or 21 V/m (reverberation chamber).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "For ESAs above 2 GHz, immunity shall be demonstrated at 10 V/m in an ALSE or 7 V/m in a reverberation chamber over the 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "During ESA immunity tests under Annex 9, the ESAs shall show no degradation of performance of immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "For a 12 V system, immunity of ESAs related to immunity related functions shall meet test pulse levels of -75 V (pulse 1, 500 pulses), +37 V (pulse 2a, 500 pulses), +10 V (pulse 2b, 10 pulses), -112 V (pulse 3a, 1 h) and +75 V (pulse 3b, 1 h).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "ESAs operational during engine start shall be tested for the starting profile at level II for 10 pulses and classified to functional status C.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "Where the vehicle or an ESA contains no electronic oscillator operating above 9 kHz, it shall be deemed to comply with the narrowband emission requirements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "Vehicles without electrical/electronic systems having immunity related functions need not be tested for immunity to radiated disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.2"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The vehicle's RF transmitters, including the telematics unit, shall be tested in the transmit mode.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "Spurious emissions of the vehicle's RF transmitters shall comply with this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The vehicle shall be documented with a statement of frequency bands, power levels, antenna positions and installation provisions for radio frequency transmitters.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 5,
+        "paragraph": "3.1.8"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The vehicle shall be shown not to have its performance adversely affected by the installed radio frequency transmitters.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 5,
+        "paragraph": "3.1.8"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The vehicle shall be capable of being tested under a test plan defining its mode of operation, stimulated and monitored functions, pass/fail criteria and intended emissions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "Where peak detectors are used for broadband emission measurement, a correction factor of 20 dB as defined in CISPR 12 shall be applied to the vehicle's readings.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.2"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The vehicle's broadband emissions shall be measured at the CISPR 12 intervals over the whole 30 to 1,000 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.4"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The vehicle shall be measured on both its left and right sides for broadband emissions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The same antenna positions shall be used for the vehicle's horizontal and vertical polarisation measurements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "For narrowband emission measurement, all of the vehicle's electronic systems shall be in normal operating mode with the vehicle stationary.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2.2"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The vehicle's narrowband emissions shall be measured with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.2"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "Where a narrowband emission limit is exceeded, the vehicle shall be investigated to confirm the exceedance is due to the vehicle and not to background radiation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.4"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "For immunity testing in the 50 km/h mode, the vehicle shall drive its wheels at a steady speed of 50 km/h with speed variation not exceeding ±10 per cent.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "During the 50 km/h immunity test, the vehicle's dipped beams shall be ON in manual mode and shall not switch off.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "During the 50 km/h immunity test, the front wiper shall run at maximum speed and shall not come to a complete stop.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "During the 50 km/h immunity test, the instrument cluster shall operate in normal mode without unexpected warnings or inconsistent odometer variation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "During the 50 km/h immunity test, the airbag and safety restraint systems shall remain operational without unexpected activation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "During the 50 km/h immunity test, the driver's side direction indicator shall flash within 0.75 to 2.25 Hz and a duty cycle of 25 to 75 per cent.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The vehicle shall be immune when exposed to electromagnetic radiation over 20 to 6,000 MHz in vertical polarisation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The vehicle's immunity test signal shall be amplitude modulated with 1 kHz and 80 per cent modulation depth from 20 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The vehicle's immunity test signal shall be pulse modulated type 3 with 500 µs on-time and 1,000 µs period from 380 to 2,700 MHz and 3,100 to 6,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "Only non-perturbing equipment shall be used to monitor the vehicle during its immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.3"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "Where the vehicle is equipped with an accident emergency call system, it shall be tested over the air for transmission of the Minimum Set of Data and voice call before and after the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.6"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "For narrowband ESA emission measurement, the ambient extraneous noise shall be at least 6 dB below the limits of paragraph 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The vehicle's ESAs shall comply with the immunity requirements through any combination of the absorber chamber, TEM cell, BCI, stripline or reverberation chamber test methods covering the full frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "For absorber chamber ESA testing, the substitution method shall be used to establish the test field conditions according to ISO 11452-2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "For BCI ESA testing, an injection probe positioned 150 mm from the ESA shall be used with the substitution method.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The ESAs' narrowband emissions shall be measured with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.2"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "The vehicle's radiofrequency conducted disturbances on charging power lines shall meet the limits over the 0.15 to 30 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 122,
+        "paragraph": "Annex 13 4.1"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "The vehicle shall withstand electrical fast transient/burst disturbances conducted along AC and DC power lines at the levels of paragraph 7.8.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 4.3"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "In charging mode, the vehicle shall be immune to electrical fast transients of ±2 kV in open circuit with a rise time of 5 ns, hold time 50 ns and repetition rate 5 kHz for at least 1 minute.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 19,
+        "paragraph": "7.8.2.1"
+      }
+    }
+  ]
+}

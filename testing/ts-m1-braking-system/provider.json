@@ -1,0 +1,1313 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R13H",
+      "page": 5,
+      "paragraph": "5.1.1.1",
+      "quote": "The braking equipment shall be so designed, constructed and fitted as to enable the vehicle in normal use",
+      "text": "The braking equipment shall be designed, constructed and fitted so that the vehicle in normal use complies with the provisions of UN R13H despite the vibration to which it may be subjected."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 5,
+      "paragraph": "5.1.1.2",
+      "quote": "the braking equipment shall be so designed, constructed and fitted as to be able to resist the corroding and ageing phenomena",
+      "text": "The braking equipment shall be designed, constructed and fitted to resist the corroding and ageing phenomena to which it is exposed."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 5,
+      "paragraph": "5.1.1.3",
+      "quote": "Brake linings shall not contain asbestos.",
+      "text": "The brake linings of the service and parking brakes shall not contain asbestos."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 5,
+      "paragraph": "5.1.1.4",
+      "quote": "The effectiveness of the braking equipment shall not be adversely affected by magnetic or electrical fields.",
+      "text": "The effectiveness of the braking equipment shall not be adversely affected by magnetic or electrical fields, demonstrated by fulfilling the requirements of UN Regulation No. 10, 03 series of amendments for vehicles without a charging coupling system."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 6,
+      "paragraph": "5.1.1.5",
+      "quote": "A failure detection signal may interrupt momentarily (< 10 ms) the demand signal in the control transmission",
+      "text": "Where a failure detection signal interrupts the demand signal in the control transmission, the interruption shall last less than 10 ms and shall not reduce braking performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 6,
+      "paragraph": "5.1.2.1",
+      "quote": "The service braking system shall make it possible to control the movement of the vehicle and to halt it safely",
+      "text": "The service braking system shall make it possible to control the movement of the vehicle and halt it safely, speedily and effectively at any speed and load and on any up or down gradient, with graduated braking action achievable from the driving seat without removing the hands from the steering control."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 6,
+      "paragraph": "5.1.2.2",
+      "quote": "The secondary braking system shall make it possible by application of the service brake control to halt the vehicle",
+      "text": "The secondary braking system shall halt the vehicle within a reasonable distance by application of the service brake control in the event of failure of the service braking system, with graduated action obtainable from the driving seat without removing the hands from the steering control."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 6,
+      "paragraph": "5.1.2.3",
+      "quote": "The parking braking system shall make it possible to hold the vehicle stationary on an up or down gradient even in the absence of the driver",
+      "text": "The parking braking system shall hold the vehicle stationary on an up or down gradient even in the absence of the driver, with the working parts held in the locked position by a purely mechanical device, actuable from the driving seat."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 6,
+      "paragraph": "5.1.3",
+      "quote": "The requirements of Annex 8 shall be applied to the safety aspects of all complex electronic vehicle control systems",
+      "text": "The safety aspects of the electronic stability control and integrated brake control system, which forms part of the control transmission of the braking function and performs automatically commanded and selective braking, shall comply with Annex 8."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 6,
+      "paragraph": "5.1.4.1",
+      "quote": "It shall be possible to assess the wear condition of the components of the service brake that are subject to wear",
+      "text": "It shall be possible to assess the wear condition of the friction linings and discs or drums of the service brake as defined in paragraph 5.2.11.2."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 6,
+      "paragraph": "5.1.4.2",
+      "quote": "It shall be possible to generate maximum braking forces under static conditions on a rolling road or roller brake tester.",
+      "text": "It shall be possible to generate maximum braking forces under static conditions on a rolling road or roller brake tester."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 7,
+      "paragraph": "5.1.4.4.1.1",
+      "quote": "It shall be possible to evaluate the relationship between the brake demand value(s) and the measured braking force on a roller brake tester.",
+      "text": "It shall be possible to evaluate the relationship between the brake demand values and the measured braking force on a roller brake tester, with the brake demand value displayed on the vehicle and readable from the driver's seat."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 7,
+      "paragraph": "5.1.4.5",
+      "quote": "It shall be possible to verify, in a frequent and simple way, the correct operational status of those complex electronic systems",
+      "text": "It shall be possible to verify in a frequent and simple way the correct operational status of the complex electronic brake and stability control systems, with any special information made freely available."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 7,
+      "paragraph": "5.1.4.5.1",
+      "quote": "it shall be possible at a periodic technical inspection to confirm the correct operational status by visual observation of the warning signals",
+      "text": "Where the operational status is indicated by warning signals, it shall be possible at a periodic technical inspection to confirm the correct operational status by visual observation of the warning signals following a power-on."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.1",
+      "quote": "There shall be at least two controls, independent of each other and readily accessible to the driver from his normal driving position.",
+      "text": "There shall be at least two controls, independent of each other and readily accessible from the normal driving position, and every brake control other than a mechanically locked parking brake control shall return to the fully off position when released."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.2",
+      "quote": "The control of the service braking system shall be independent of the control of the parking braking system",
+      "text": "The control of the service braking system shall be independent of the control of the parking braking system."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.3",
+      "quote": "The effectiveness of the linkage between the control of the service braking system and the different components of the transmission systems shall not be liable to diminish",
+      "text": "The effectiveness of the linkage between the service brake control and the components of the transmission shall not be liable to diminish after a certain period of use."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.4",
+      "quote": "The parking braking system shall be so designed that it can be actuated when the vehicle is in motion.",
+      "text": "The parking braking system shall be designed so that it can be actuated when the vehicle is in motion, which may be met by partial actuation of the service braking system through an auxiliary control."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.5",
+      "quote": "the service braking system and the parking braking system may use common components in their transmission(s)",
+      "text": "Where the service and parking braking systems share components in their transmissions, the secondary braking requirements shall still be ensured in the event of a failure in any part of the transmission."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.6",
+      "quote": "that part of the service braking system which is not affected by the failure, shall be able to bring the vehicle to a halt",
+      "text": "In the event of breakage of any component other than the brakes or of any other service braking system failure, the unaffected part of the service braking system shall bring the vehicle to a halt under the conditions prescribed for secondary braking."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.7",
+      "quote": "secondary braking shall, in the event of failure of that assistance, be capable of being ensured by the driver's muscular energy",
+      "text": "Where service braking relies on driver muscular energy assisted by energy reserves, secondary braking shall be ensured by muscular energy assisted by unaffected energy reserves in the event of assistance failure, without exceeding the prescribed maximum control force."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.8",
+      "quote": "there shall be at least two completely independent energy reserves, each provided with its own transmission",
+      "text": "Where service braking force and transmission depend exclusively on an energy reserve, at least two completely independent energy reserves, each with its own independent transmission and each acting on two or more selected wheels, shall be provided, each equipped with a warning device."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.2.10",
+      "quote": "shall be made of metal or of a material with equivalent characteristics and shall not undergo notable distortion in normal operation",
+      "text": "Parts whose failure would make it impossible to brake with at least secondary braking effectiveness shall be made of metal or an equivalent material and shall not undergo notable distortion in normal brake system operation."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 8,
+      "paragraph": "5.2.3",
+      "quote": "The failure of a part of a hydraulic transmission system shall be signalled to the driver by a device comprising a red tell-tale signal",
+      "text": "A failure of a part of the hydraulic transmission shall be signalled by a red tell-tale lighting up before or upon a differential pressure of not more than 15.5 bar between the active and failed brake equipment, remaining lit while the failure persists and the ignition is on."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 9,
+      "paragraph": "5.2.3",
+      "quote": "The tell-tale signal shall be visible even by daylight; the satisfactory condition of the signal shall be easily verifiable by the driver",
+      "text": "The red tell-tale shall be visible even by daylight, its satisfactory condition shall be easily verifiable from the driver's seat, and the failure of a component of the device shall not entail total loss of braking effectiveness; application of the parking brake shall also be indicated to the driver."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 9,
+      "paragraph": "5.2.4.1",
+      "quote": "the feed to the part not affected by the failure shall continue to be ensured if required for the purpose of halting the vehicle",
+      "text": "In the event of failure in any part of a braking system transmission, the feed to the unaffected part shall continue to be ensured if required to halt the vehicle with secondary braking effectiveness."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 9,
+      "paragraph": "5.2.4.2",
+      "quote": "after four full-stroke actuations of the service brake control, under the conditions prescribed in paragraph 1.2. of Annex 4",
+      "text": "Energy storage devices located down-circuit shall be such that, after a failure in the energy supply and four full-stroke actuations of the service brake control, the vehicle can still be halted at the fifth application with secondary braking effectiveness."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 9,
+      "paragraph": "5.2.6",
+      "quote": "The service braking system shall act on all wheels of the vehicle and shall distribute its action appropriately among the axles.",
+      "text": "The service braking system shall act on all four wheels of the vehicle and shall distribute its action appropriately among the axles."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 10,
+      "paragraph": "5.2.8",
+      "quote": "The action of the service braking system shall be distributed between the wheels of one and the same axle symmetrically",
+      "text": "The action of the service braking system shall be distributed symmetrically between the wheels of one and the same axle in relation to the longitudinal median plane, with any compensation or anti-lock deviations declared."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 10,
+      "paragraph": "5.2.8.1",
+      "quote": "Compensation by the electric control transmission for deterioration or defect within the braking system shall be indicated to the driver",
+      "text": "Compensation by the electric control transmission for deterioration or defect within the braking system shall be indicated to the driver by the yellow warning signal when the prescribed transverse pressure or compensating limits are exceeded."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 10,
+      "paragraph": "5.2.8.2",
+      "quote": "Compensation as defined above, is permitted only when the initial brake application is made at vehicle speeds greater than 10 km/h.",
+      "text": "Compensation of transverse braking pressure differences or compensating values per axle shall be permitted only when the initial brake application is made at vehicle speeds greater than 10 km/h."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 10,
+      "paragraph": "5.2.9",
+      "quote": "Malfunctions of the electric control transmission shall not apply the brakes contrary to the intentions of the driver or ADS.",
+      "text": "Malfunctions of the electric control transmission shall not apply the brakes contrary to the intentions of the driver or an ADS."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 10,
+      "paragraph": "5.2.10",
+      "quote": "The service, secondary and parking braking systems shall act on braking surfaces connected to the wheels through components of adequate strength.",
+      "text": "The service, secondary and parking braking systems shall act on braking surfaces connected to the wheels through components of adequate strength."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 10,
+      "paragraph": "5.2.10",
+      "quote": "After complete engagement of the parking braking system, containing a park lock device, it shall be ensured, that the affected wheels of the vehicle do not move.",
+      "text": "Where the parking braking system uses a park lock device, that device shall consist of components of adequate strength and, after complete engagement, the affected wheels shall not move."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 11,
+      "paragraph": "5.2.11",
+      "quote": "Wear of the brakes shall be capable of being easily taken up by means of a system of manual or automatic adjustment.",
+      "text": "Brake wear shall be capable of being easily taken up by a manual or automatic adjustment system, and the control, transmission and brakes shall possess a reserve of travel such that effective braking is ensured after heating or lining wear."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 11,
+      "paragraph": "5.2.11.1",
+      "quote": "Wear adjustment shall be automatic for the service brakes.",
+      "text": "Wear adjustment shall be automatic for the service brakes, and effective braking shall still be ensured after heating followed by cooling of the brakes."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 11,
+      "paragraph": "5.2.11.2.1",
+      "quote": "It shall be possible to easily assess this wear on service brake linings from the outside or underside of the vehicle, without the removal of the wheels",
+      "text": "It shall be possible to easily assess service brake lining wear from outside or underneath the vehicle without removing the wheels, or alternatively a sensing device per wheel shall warn the driver at the driving position when lining replacement is necessary."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 11,
+      "paragraph": "5.2.12",
+      "quote": "the receptacles containing the reserve fluid shall be so designed and constructed that the level of the reserve fluid can be easily checked",
+      "text": "The hydraulic fluid reservoir filling ports shall be readily accessible and the reservoir shall be designed so that the reserve fluid level can be easily checked without opening it, with a minimum capacity equivalent to the displacement of all calliper pistons from new to fully worn."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 11,
+      "paragraph": "5.2.13",
+      "quote": "The type of fluid to be used in hydraulic transmission braking systems shall be identified by the symbol in accordance with Figure 1 or 2 of Standard ISO 9128:2006",
+      "text": "The hydraulic fluid type shall be identified by the ISO 9128:2006 symbol and the appropriate DOT marking, affixed visibly and indelibly within 100 mm of the filling ports of the fluid reservoirs."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 11,
+      "paragraph": "5.2.14.1",
+      "quote": "be provided with a warning device, in addition to an indication of the available energy (e.g. a pressure gauge) where fitted",
+      "text": "A vehicle whose stored-energy service brake cannot achieve secondary performance without the stored energy shall be provided with a warning device giving an optical signal at the latest when the stored energy falls to the critical level."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 12,
+      "paragraph": "5.2.14.1",
+      "quote": "This warning device shall be directly and permanently connected to the circuit. The red warning signal specified in paragraph 5.2.21.1.1. shall be used",
+      "text": "The energy warning device shall be directly and permanently connected to the circuit and shall use the red warning signal of paragraph 5.2.21.1.1."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 12,
+      "paragraph": "5.2.14.1",
+      "quote": "under normal operating conditions and there are no faults in the braking system, as is the case in approval tests for this type, the warning device shall give no signal",
+      "text": "When the engine is running and there are no faults in the braking system, the warning device shall give no signal except during the time required for charging the energy reserve after each new engine start."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 12,
+      "paragraph": "5.2.14.4",
+      "quote": "any vehicle equipped with an electrical transmission braking system shall have an indicator reflecting the effect of ageing on each of the electrical storage devices",
+      "text": "Any vehicle equipped with an electrical transmission braking system shall have an indicator reflecting the effect of ageing on each electrical storage device, visible to the driver on manual demand whenever the ignition is in the on position and providing at least four different levels of ageing."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 13,
+      "paragraph": "5.2.15",
+      "quote": "where an auxiliary source of energy is essential to the functioning of a braking system, the reserve of energy shall be such as to ensure",
+      "text": "Where an auxiliary energy source is essential to the functioning of the braking system, the reserve of energy shall ensure that braking performance remains adequate to halt the vehicle in the prescribed conditions if the engine stops or the energy source drive fails."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 13,
+      "paragraph": "5.2.16",
+      "quote": "the operation of the auxiliary equipment cannot cause the reserves of energy (i.e. reserve within reservoir, accumulator, or electrical storage devices) feeding the braking systems to fall below the level",
+      "text": "Auxiliary equipment shall be supplied with energy so that, during its operation, the prescribed decelerations can be reached and damage to the energy source cannot cause the energy reserves feeding the braking systems to fall below the warning level."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 14,
+      "paragraph": "5.2.19.1",
+      "quote": "In the case of a failure within the electric transmission, any unintended actuation of the parking braking system shall be prevented",
+      "text": "In the case of a failure within the electric transmission, unintended actuation of the electric parking braking system shall be prevented."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 14,
+      "paragraph": "5.2.19.2",
+      "quote": "it shall remain possible to apply the parking braking system from the driver's seat and thereby be capable of holding the laden vehicle stationary on an 8 per cent up or down gradient",
+      "text": "In the case of an electrical failure in the control or a break in the wiring of the electric parking brake control transmission, it shall remain possible to apply the parking brake from the driver's seat and hold the laden vehicle on an 8 per cent gradient, or an automatic actuation on standstill shall hold the vehicle and stay engaged independently of the ignition."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 14,
+      "paragraph": "5.2.19.2.1",
+      "quote": "A break in the wiring within the electrical transmission, or an electrical failure in the control of the parking braking system shall be signaled to the driver by the yellow warning signal",
+      "text": "A break in the wiring within the parking brake electrical transmission or an electrical failure in its control shall be signalled to the driver by the yellow warning signal, and by flashing the red warning signal as long as the ignition is on."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 15,
+      "paragraph": "5.2.19.4",
+      "quote": "After the ignition/start switch which controls the electrical energy for the braking equipment has been switched off and/or the key removed, it shall remain possible to apply the parking braking system",
+      "text": "After the ignition switch controlling the braking equipment electrical energy has been switched off and/or the key removed, it shall remain possible to apply the parking braking system, while release shall be prevented."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 15,
+      "paragraph": "5.2.20.1",
+      "quote": "With the parking brake released, the service braking system shall be able to fulfil the following requirements",
+      "text": "With the parking brake released and the propulsion system on, the service braking system shall generate a static total braking force at least equivalent to the Type-0 service braking performance, and after deactivation three brake applications shall still generate that force."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 15,
+      "paragraph": "5.2.20.1",
+      "quote": "After the period mentioned above, or as from the fourth brake application within the 60 second period, whichever occurs first, generate a static total braking force at least equivalent to that required by the Type-0 test for secondary braking",
+      "text": "After the 60 second period following propulsion deactivation, or from the fourth brake application within that period, the service braking system shall generate a static total braking force at least equivalent to the Type-0 secondary braking performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 15,
+      "paragraph": "5.2.20.2",
+      "quote": "In the case of a single temporary failure (< 40 ms) within the electric control transmission, excluding its energy supply",
+      "text": "In the case of a single temporary failure of less than 40 ms within the electric control transmission, excluding its energy supply, there shall be no distinguishable effect on the service braking performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 15,
+      "paragraph": "5.2.20.3",
+      "quote": "A failure within the electric control transmission, not including its energy reserve, that affects the function and performance of systems addressed in this Regulation shall be indicated to the driver",
+      "text": "A failure within the electric control transmission affecting the function and performance of the braking system shall be indicated to the driver by the red or yellow warning signal as appropriate, and loss of electrical continuity shall be signalled as soon as it occurs while secondary braking performance is maintained."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 16,
+      "paragraph": "5.2.20.4",
+      "quote": "starting from the nominal value of the energy level, the full control range of the service braking system shall be guaranteed after twenty consecutive full stroke actuations",
+      "text": "In the event of a failure of the energy source of the electric control transmission, the full control range of the service braking system shall be guaranteed after twenty consecutive full stroke actuations, each applied for 20 seconds and released for 5 seconds."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 16,
+      "paragraph": "5.2.20.5",
+      "quote": "When the battery voltage falls below a value nominated by the manufacturer at which the prescribed service braking performance can no longer be guaranteed",
+      "text": "When the battery voltage falls below the manufacturer-nominated value at which service braking performance can no longer be guaranteed, the red warning signal shall be activated and at least secondary braking performance shall remain obtainable."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 16,
+      "paragraph": "5.2.20.6",
+      "quote": "If auxiliary equipment is supplied with energy from the same reserve as the electric control transmission, it shall be ensured that",
+      "text": "Where auxiliary equipment is supplied from the same reserve as the electric control transmission, the energy supply shall be sufficient to fulfil the prescribed deceleration values with all auxiliary equipment functioning, or pre-selected auxiliary equipment shall be switched off above the critical voltage."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 16,
+      "paragraph": "5.2.21.1.1",
+      "quote": "A red warning signal, indicating failures defined elsewhere in this Regulation within the vehicle braking equipment which preclude achievement of the prescribed service braking performance",
+      "text": "The vehicle shall provide a red warning signal indicating failures within the braking equipment which preclude achievement of the prescribed service braking performance and/or the functioning of at least one of two independent service braking circuits."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 16,
+      "paragraph": "5.2.21.1.2",
+      "quote": "a yellow warning signal indicating an electrically detected defect within the vehicle braking equipment, which is not indicated by the red warning signal",
+      "text": "The vehicle shall provide a yellow warning signal indicating an electrically detected defect within the braking equipment which is not indicated by the red warning signal."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 16,
+      "paragraph": "5.2.21.1.3",
+      "quote": "The warning signals required by this paragraph shall employ the brake system malfunction symbol listed in UN Regulation No. 121.",
+      "text": "The brake failure and defect warning signals shall employ the brake system malfunction symbol listed in UN Regulation No. 121."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 16,
+      "paragraph": "5.2.21.2",
+      "quote": "The warning signals shall be visible, even by daylight; the satisfactory condition of the signals shall be easily verifiable by the driver from the driver's seat",
+      "text": "The warning signals shall be visible even by daylight, their satisfactory condition shall be easily verifiable from the driver's seat, and the failure of a warning device component shall not entail any loss of braking system performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 17,
+      "paragraph": "5.2.21.3.1",
+      "quote": "A specified failure or defect shall be signalled to the driver by the above-mentioned warning signal(s) not later than on actuation of the relevant braking control",
+      "text": "A specified failure or defect shall be signalled to the driver by the appropriate warning signal not later than on actuation of the relevant braking control."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 17,
+      "paragraph": "5.2.21.3.2",
+      "quote": "The warning signal(s) shall remain displayed as long as the failure/defect persists and the ignition (start) switch is in the \"On\" (run) position",
+      "text": "The warning signal shall remain displayed as long as the failure or defect persists and the ignition switch is in the on (run) position, and shall be constant and not flashing."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 17,
+      "paragraph": "5.2.21.4",
+      "quote": "The warning signal(s) mentioned above shall light up when the electrical equipment of the vehicle (and the braking system) is energised.",
+      "text": "The warning signals shall light up when the vehicle electrical equipment is energised, and with the vehicle stationary the braking system shall verify that none of the specified failures or defects are present before extinguishing the signals."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 17,
+      "paragraph": "5.2.22.1",
+      "quote": "Activation of the service braking system by the driver shall generate a signal that will be used to illuminate the stop lamps.",
+      "text": "Activation of the service braking system by the driver shall generate a signal that will be used to illuminate the stop lamps."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 17,
+      "paragraph": "5.2.22.2. Table",
+      "quote": "Deceleration demanded by an Automated Driving System, automatically commanded braking and/or regenerative braking",
+      "text": "Automatically commanded braking producing a deceleration demand above 1.3 m/s² shall generate the stop lamp signal, and once generated the signal shall be kept as long as the deceleration demand persists."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 17,
+      "paragraph": "5.2.22.3",
+      "quote": "Activation of part of the service braking system by \"selective braking\" or by functions whose primary intention is not to decelerate the vehicle",
+      "text": "Activation of part of the service braking system by selective braking or by functions whose primary intention is not to decelerate the vehicle shall not generate the stop lamp signal."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 18,
+      "paragraph": "5.2.23.1",
+      "quote": "The signal shall not be activated when the vehicle deceleration is below 6 m/s² but it may be generated at any deceleration at or above this value",
+      "text": "The emergency braking signal shall not be activated below 6 m/s² deceleration, may be activated at or above that value, and shall be de-activated at the latest when deceleration falls below 2.5 m/s²."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 19,
+      "paragraph": "5.2.24.5",
+      "quote": "If the energy in an electrical storage device falls to a value at which the function or performance of a control transmission will be affected",
+      "text": "Where the energy in an electrical storage device falls to a value affecting control transmission function or performance, the control transmission shall be provided with power directly from the electrical supply device automatically no later than on actuation of the control, and this condition shall be signalled by the red warning signal."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 19,
+      "paragraph": "5.2.24.6",
+      "quote": "A warning signal shall be displayed no later than when the effect of ageing on the electrical storage device(s) is such that its performance is not sufficient",
+      "text": "A yellow warning signal shall be displayed no later than when ageing of the electrical storage devices renders their performance insufficient to fulfil the energy requirements of Annex 4 Part B paragraph 1.2.1."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 19,
+      "paragraph": "5.2.24.7",
+      "quote": "A warning signal shall be displayed no later than when the state of the electrical storage device(s) is insufficient for more than 60 seconds to fulfil the prescribed braking performance",
+      "text": "A yellow warning signal shall be displayed no later than when the state of the electrical storage devices is insufficient for more than 60 seconds to fulfil the prescribed braking performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 19,
+      "paragraph": "5.2.24.8",
+      "quote": "There shall be an energy management system for the electrical storage devices of the transmission.",
+      "text": "There shall be an energy management system for the electrical storage devices of the transmission."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 19,
+      "paragraph": "5.2.24.8.1",
+      "quote": "The energy management system shall be capable of continuously assessing the electrical storage devices, to determine their ability to deliver to the brake transmission the needed power",
+      "text": "The energy management system shall continuously assess the electrical storage devices to determine their ability to deliver the needed power over time and, where appropriate, activate the required warning signals."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 19,
+      "paragraph": "5.2.24.8.1",
+      "quote": "If the assessment is not complete at the time that the start/run switch is moved to the on (run) position, a red warning signal shall be activated",
+      "text": "If the assessment is not complete at the time the start/run switch is moved to the on (run) position, a red warning signal shall be activated and remain active until the safe status of the electrical transmission braking system has been confirmed, including after maintenance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 20,
+      "paragraph": "5.2.24.8.4",
+      "quote": "a red visual warning signal, accompanied by an audible signal, shall be activated at the moment of the detection of the failure",
+      "text": "In the event of a failure of the energy management system or an input channel preventing assessment of the energy storage device state, a red visual warning signal accompanied by an audible signal shall be activated at the moment of detection, with the visual warning remaining active as long as the failure persists."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 20,
+      "paragraph": "5.2.24.9",
+      "quote": "a power warning (Pw) to the driver shall be activated no later than 5.0 s after the appearance/detection",
+      "text": "Where the power requested by the electrical transmission cannot be met by the electrical supply, a power warning to the driver shall be activated no later than 5.0 s after the appearance or detection, using the yellow warning signal."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 21,
+      "paragraph": "5.2.24.11",
+      "quote": "The red warning signal specified in paragraph 5.2.21.1.1. shall be activated when the service braking performance is not anymore ensured",
+      "text": "The red warning signal shall be activated when service braking performance is no longer ensured by at least two independent service braking circuits each achieving the prescribed secondary braking performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 21,
+      "paragraph": "5.2.24.13",
+      "quote": "A failure within the electric transmission, that affects the function and performance of systems addressed in this Regulation shall be indicated to the driver",
+      "text": "A failure within the electric transmission affecting the function and performance of the braking system shall be indicated to the driver by the red or yellow warning signal as appropriate, with loss of electrical continuity signalled as soon as it occurs."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 21,
+      "paragraph": "5.2.24.14",
+      "quote": "In the case of a single temporary failure (< 40 ms) within the electric control transmission, excluding its energy supply",
+      "text": "In the case of a single temporary failure of less than 40 ms within the electric control transmission, excluding its energy supply, there shall be no distinguishable effect on the service braking performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 30,
+      "paragraph": "Annex 3 1.2.7",
+      "quote": "The prescribed performance shall be obtained without locking of the wheels at speeds exceeding 15 km/h, without deviation of the vehicle from a 3.5 m wide lane",
+      "text": "During braking performance tests the prescribed performance shall be obtained without wheel locking above 15 km/h, without deviation from a 3.5 m wide lane, without exceeding a yaw angle of 15° and without abnormal vibrations."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 30,
+      "paragraph": "Annex 3 1.2.3",
+      "quote": "During the tests, the force applied to the brake control in order to obtain the prescribed performance shall not exceed the maximum force laid down",
+      "text": "During the braking tests the force applied to the brake control to obtain the prescribed performance shall not exceed the maximum force laid down in Annex 3."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 30,
+      "paragraph": "Annex 3 1.4.2",
+      "quote": "Type-0 test with engine disconnected, service braking in accordance with paragraph 2.1.1.(A) of this annex.",
+      "text": "The service braking system shall be tested in the Type-0 test with the engine disconnected at the prescribed speed and attain the prescribed minimum performance."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 32,
+      "paragraph": "Annex 3 1.5.1.1. Table",
+      "quote": "The service brakes of all vehicles shall be tested by successively applying and releasing the brakes a number of times, the vehicle being laden",
+      "text": "In the Type-I fade test the service brakes shall be subjected to 15 successive brake applications from 80 per cent of maximum speed (not exceeding 120 km/h) down to half that speed with a 45 second cycle, the vehicle being laden."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 32,
+      "paragraph": "Annex 3 1.5.1.3",
+      "quote": "the force applied to the control shall be so adjusted as to attain a mean deceleration of 3 m/s2 during every brake application",
+      "text": "During the Type-I heating procedure the force applied to the control shall be adjusted to attain a mean deceleration of 3 m/s² during every brake application."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 33,
+      "paragraph": "Annex 3 1.5.2.2",
+      "quote": "This hot performance shall not be less than 75 per cent of that prescribed, nor less than 60 per cent of the figure recorded in the Type-0 test",
+      "text": "The hot performance of the service braking system shall not be less than 75 per cent of the prescribed performance and not less than 60 per cent of the figure recorded in the Type-0 test with the engine disconnected."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 34,
+      "paragraph": "Annex 3 1.5.4",
+      "quote": "This recovery performance shall not be less than 70 per cent, nor more than 150 per cent, of the figure recorded in the Type-0 test",
+      "text": "The recovery performance shall be not less than 70 per cent and not more than 150 per cent of the figure recorded in the Type-0 test with the engine disconnected, measured with a control force not exceeding that used in the corresponding Type-0 test."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 34,
+      "paragraph": "Annex 3 2.1.1. Table",
+      "quote": "Type-0 test with engine disconnected",
+      "text": "In the Type-0 test with engine disconnected, at 100 km/h test speed, the service brake shall attain a stopping distance not exceeding 0.1v + 0.0060v² (m) and a mean fully developed deceleration not less than 6.43 m/s²."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 34,
+      "paragraph": "Annex 3 2.1.1. Table",
+      "quote": "Type-0 test with engine connected",
+      "text": "In the Type-0 test with engine connected, at 80 per cent of maximum speed not exceeding 160 km/h, the service brake shall attain a stopping distance not exceeding 0.1v + 0.0067v² (m) and a mean fully developed deceleration not less than 5.76 m/s² with a control force between 6.5 and 50 daN."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 35,
+      "paragraph": "Annex 3 2.2.1",
+      "quote": "The performance of the secondary braking system shall be tested by the Type-0 test with the engine disconnected from an initial vehicle speed of 100 km/h",
+      "text": "The secondary braking system shall be tested by the Type-0 test with the engine disconnected from 100 km/h with a force on the service brake control between 6.5 and 50 daN."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 35,
+      "paragraph": "Annex 3 2.2.2",
+      "quote": "The secondary braking system shall give a stopping distance not exceeding the following value: 0.1 v + 0.0158 v2 (m)",
+      "text": "The secondary braking system shall give a stopping distance not exceeding 0.1v + 0.0158v² (m) and a mean fully developed deceleration not less than 2.44 m/s²."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 35,
+      "paragraph": "Annex 3 2.2.3",
+      "quote": "The secondary braking effectiveness test shall be conducted by simulating the actual failure conditions in the service braking system.",
+      "text": "The secondary braking effectiveness test shall be conducted by simulating the actual failure conditions in the service braking system."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 35,
+      "paragraph": "Annex 3 2.3.1",
+      "quote": "The parking braking system shall be capable of holding the laden vehicle stationary on a 20 per cent up or down gradient.",
+      "text": "The parking braking system shall be capable of holding the laden vehicle stationary on a 20 per cent up or down gradient."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 35,
+      "paragraph": "Annex 3 2.3.3",
+      "quote": "If the control device is manual, the force applied to it shall not exceed 40 daN.",
+      "text": "Where the parking brake control device is manual, the force applied to it shall not exceed 40 daN, or 50 daN for a foot control device."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 36,
+      "paragraph": "Annex 3 2.3.6",
+      "quote": "a Type-0 test shall be carried out, with the engine disconnected, at an initial test speed of 30 km/h",
+      "text": "For the dynamic parking brake check a Type-0 test shall be carried out with the engine disconnected at 30 km/h, the mean fully developed deceleration on application of the parking brake and immediately before stopping being not less than 1.5 m/s²."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 36,
+      "paragraph": "Annex 3 3.1.1",
+      "quote": "the time elapsing between the moment when the control device begins to be actuated and the moment when the braking force on the least favourable placed axle reaches the level",
+      "text": "In an emergency manoeuvre the time between the start of control actuation and the braking force on the least favourable axle reaching the level corresponding to the prescribed performance shall not exceed 0.6 seconds."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 36,
+      "paragraph": "Annex 3 3.1.3",
+      "quote": "in an emergency manoeuvre, the deceleration of the vehicle at the least favourable brake, reaches a level corresponding to the prescribed performance within 0.6 second",
+      "text": "For an electrical transmission braking system the response time requirement is deemed satisfied if in an emergency manoeuvre the deceleration at the least favourable brake reaches the prescribed performance level within 0.6 second."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 37,
+      "paragraph": "Annex 4 A 1.2.1",
+      "quote": "After eight full-stroke actuations of the service brake control, it shall still be possible to achieve, on the ninth application, the performance prescribed for the secondary braking system",
+      "text": "For a hydraulic braking system with stored energy, after eight full-stroke actuations of the service brake control it shall still be possible on the ninth application to achieve the performance prescribed for secondary braking."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 38,
+      "paragraph": "Annex 4 A 2.1.3.1",
+      "quote": "In the case of all vehicles, the time t shall not exceed 20 seconds.",
+      "text": "The time required for the energy source pressure to rise from p2 to p1 without brake application shall not exceed 20 seconds."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 38,
+      "paragraph": "Annex 4 B 1.2.1",
+      "quote": "after eight full actuations of the service braking system control (as described in paragraph 1.2.3.3. below) the performance (at the ninth braking) at least fulfils the requirements specified for secondary braking",
+      "text": "The performance of the electrical storage devices shall be such that after eight full actuations of the service brake control the ninth braking at least fulfils the secondary braking requirements, and the prescribed service braking performance is achieved on at least the first actuation."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 39,
+      "paragraph": "Annex 4 B 1.2.3.3",
+      "quote": "Each actuation shall cause a demand (aref) on the brake actuators necessary to deliver the maximum possible deceleration designed to be delivered by the system in the Type 0 condition",
+      "text": "Each full actuation of the service brake control in the electrical storage device capacity test shall cause a brake demand necessary to deliver the maximum possible Type-0 deceleration, limited to 8.0 m/s², with the duration extended according to T = aref/areduced × 8 seconds where a reduced demand is used."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 41,
+      "paragraph": "Annex 5 3.1.(A)",
+      "quote": "For all states of load of the vehicle, the adhesion utilization curve of the rear axle shall not be situated above that for the front axle",
+      "text": "For all states of load, the adhesion utilization curve of the rear axle shall not be situated above that of the front axle for all braking rates between 0.15 and 0.8."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 41,
+      "paragraph": "Annex 5 3.1.(B)",
+      "quote": "For k values between 0.2 and 0.82: z ≥ 0.1 + 0.7 (k - 0.2)",
+      "text": "For k values between 0.2 and 0.82 the braking rate of the vehicle shall satisfy z ≥ 0.1 + 0.7 (k - 0.2)."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 42,
+      "paragraph": "Annex 5 4.",
+      "quote": "it shall be possible, in the event of the failure of its control, (e.g. by disconnecting the control linkage), to stop the vehicle under the conditions of the Type-0 test with the engine disconnected",
+      "text": "Where the braking distribution requirements are fulfilled by a special device, in the event of failure of its control the vehicle shall stop with a stopping distance not exceeding 0.1v + 0.0100v² (m) and a mean fully developed deceleration not less than 3.86 m/s²."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 43,
+      "paragraph": "Annex 5 Appendix 1 4.(a)",
+      "quote": "Both rear wheels shall not reach a locked condition prior to both front wheels being locked",
+      "text": "In the wheel-lock sequence test, both rear wheels shall not reach a locked condition prior to both front wheels being locked at vehicle braking rates between 0.15 and 0.8."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 43,
+      "paragraph": "Annex 5 Appendix 1 3.(a)",
+      "quote": "Initial brake temperature: Between 65 °C and 100 °C average on the hottest axle",
+      "text": "In the wheel-lock sequence test the initial brake temperature shall be between 65 °C and 100 °C average on the hottest axle."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 44,
+      "paragraph": "Annex 5 Appendix 2 3.(h)",
+      "quote": "All data acquisition and recording equipment shall support a minimum sample rate of 40 Hz on all channels",
+      "text": "All data acquisition and recording equipment used in the torque wheel test shall support a minimum sample rate of 40 Hz on all channels."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 46,
+      "paragraph": "Annex 6 4.1",
+      "quote": "Any electrical failure or sensor anomaly that affects the system with respect to the functional and performance requirements in this annex, including those in the supply of electricity",
+      "text": "Any electrical failure or sensor anomaly affecting the anti-lock system with respect to the functional and performance requirements shall be signalled to the driver by the yellow warning signal."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 47,
+      "paragraph": "Annex 6 4.1.1",
+      "quote": "Sensor anomalies, which cannot be detected under static conditions, shall be detected not later than when the vehicle speed exceed 10 km/h",
+      "text": "Sensor anomalies which cannot be detected under static conditions shall be detected not later than when the vehicle speed exceeds 10 km/h, or 15 km/h where wheel non-rotation prevents a vehicle speed output."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 47,
+      "paragraph": "Annex 6 4.2",
+      "quote": "the subsequent service braking performance shall not be less than 80 per cent of the prescribed performance according to the Type-0 test with the engine disconnected",
+      "text": "In the event of a single electrical functional failure affecting only the anti-lock function, the subsequent service braking performance shall not be less than 80 per cent of the Type-0 performance with the engine disconnected, corresponding to a stopping distance of 0.1v + 0.0075v² (m) and a deceleration of 5.15 m/s²."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 47,
+      "paragraph": "Annex 6 4.3",
+      "quote": "The operation of the anti-lock system shall not be adversely affected by magnetic or electrical fields.",
+      "text": "The operation of the anti-lock system shall not be adversely affected by magnetic or electrical fields, demonstrated by compliance with UN Regulation No. 10."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 47,
+      "paragraph": "Annex 6 4.4",
+      "quote": "A manual device may not be provided to disconnect or change the control mode of the anti-lock system.",
+      "text": "No manual device may be provided to disconnect or change the control mode of the anti-lock system."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 48,
+      "paragraph": "Annex 6 5.1.1.2",
+      "quote": "From an initial speed of not less than 50 km/h, on a surface with a coefficient of adhesion of 0.36 or less, the brakes of the laden vehicle shall be fully applied",
+      "text": "In the anti-lock energy consumption test, from an initial speed of not less than 50 km/h on a surface with adhesion of 0.36 or less, the brakes of the laden vehicle shall be fully applied for the calculated time with all directly controlled wheels remaining under anti-lock control."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 48,
+      "paragraph": "Annex 6 5.1.1.5",
+      "quote": "When the brakes are applied for the fifth time, it shall be possible to brake the vehicle with at least the performance prescribed for secondary braking of the laden vehicle.",
+      "text": "When the brakes are applied for the fifth time after the energy supply is cut off and four full actuations are made, it shall be possible to brake the laden vehicle with at least the performance prescribed for secondary braking."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 48,
+      "paragraph": "Annex 6 5.2.1",
+      "quote": "The anti-lock system shall be deemed to be satisfactory when the condition ε ≥ 0.75 is satisfied",
+      "text": "The anti-lock system shall be deemed satisfactory when the adhesion utilized ε ≥ 0.75 is satisfied."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 48,
+      "paragraph": "Annex 6 5.2.2",
+      "quote": "The adhesion utilization ε shall be measured on road surfaces with a coefficient of adhesion of 0.36 or less, and of about 0.8 (dry road), with an initial speed of 50 km/h.",
+      "text": "The adhesion utilization ε shall be measured on road surfaces with a coefficient of adhesion of 0.36 or less and of about 0.8, with an initial speed of 50 km/h."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 49,
+      "paragraph": "Annex 6 5.3.1",
+      "quote": "The wheels directly controlled by an anti-lock system shall not lock when the full force is suddenly applied on the control device",
+      "text": "The wheels directly controlled by the anti-lock system shall not lock when full force is suddenly applied to the control device on the specified road surfaces at 40 km/h and at a high initial speed of 0.8 vmax not exceeding 120 km/h."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 49,
+      "paragraph": "Annex 6 5.3.2",
+      "quote": "When an axle passes from a high-adhesion surface (kH) to a low-adhesion surface (kL), where kH ≥ 0.5 and kH / kL ≥ 2",
+      "text": "When an axle passes from a high-adhesion surface to a low-adhesion surface with kH ≥ 0.5 and kH/kL ≥ 2 with full control force applied, the directly controlled wheels shall not lock."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 50,
+      "paragraph": "Annex 6 5.3.3",
+      "quote": "the deceleration of the vehicle shall rise to the appropriate high value within a reasonable time and the vehicle shall not deviate from its initial course",
+      "text": "When passing from a low-adhesion to a high-adhesion surface with full force applied, the vehicle deceleration shall rise to the appropriate high value within a reasonable time and the vehicle shall not deviate from its initial course."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 50,
+      "paragraph": "Annex 6 5.3.4",
+      "quote": "When the right and left wheels of the vehicle are situated on surfaces with differing coefficients of adhesion",
+      "text": "When the right and left wheels are on surfaces with differing adhesion coefficients where kH ≥ 0.5 and kH/kL ≥ 2, the directly controlled wheels shall not lock when full force is suddenly applied at 50 km/h."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 50,
+      "paragraph": "Annex 6 5.3.6",
+      "quote": "wheel-locking is permitted when the vehicle speed is less than 15 km/h",
+      "text": "Brief periods of wheel locking are allowed during the additional anti-lock checks, wheel locking is permitted below 15 km/h, and locking of indirectly controlled wheels is permitted provided stability and steerability are maintained and the yaw angle does not exceed 15° or the vehicle deviate from a 3.5 m wide lane."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 53,
+      "paragraph": "Annex 6 Appendix 2 1.2.2",
+      "quote": "From an initial vehicle speed of 55 km/h, the maximum braking rate (zAL) shall be measured with full cycling of the anti-lock braking system and based on the average value of three tests",
+      "text": "The maximum braking rate zAL shall be measured from an initial vehicle speed of 55 km/h with full cycling of the anti-lock system, based on the average value of three tests."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 7,
+      "paragraph": "5.1.4.3.1",
+      "quote": "The data of the electrical transmission braking system for the functional and efficiency test shall be specified at the vehicle in a visible position in indelible form",
+      "text": "The data of the electrical transmission braking system for the functional and efficiency test shall be specified at the vehicle in a visible position in indelible form or made freely available another way."
+    },
+    {
+      "regulation": "UN R13H",
+      "page": 14,
+      "paragraph": "5.2.19.3",
+      "quote": "Auxiliary equipment may be supplied with energy from the electric transmission of the parking braking system provided that the supply of energy is sufficient",
+      "text": "Auxiliary equipment may be supplied with energy from the electric transmission of the parking braking system only where the supply is sufficient to allow actuation of the parking brake in addition to the vehicle electrical load under non-fault conditions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+      "text": "The electronic control unit and hydraulic modulator ESA shall bear the approval mark described in paragraph 5.3 affixed in a conspicuous and easily accessible place."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+      "text": "The international approval mark shall comprise a circle containing the letter E with the distinguishing number of the approving country and the number of this Regulation followed by R, a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+      "text": "The approval markings on the electronic control unit and hydraulic modulator need not be visible once the ESA is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply",
+      "text": "The brake system electrical/electronic systems and ESAs shall be designed, constructed and fitted so that the vehicle complies with the electromagnetic compatibility requirements in normal conditions of use."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "The electronic control unit, hydraulic modulator and EPB actuators as ESAs shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.1",
+      "quote": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "With a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the vehicle broadband radiated emissions shall not exceed 32 dBµV/m in the 30 to 75 MHz band, a logarithmically increasing 32 to 43 dBµV/m in the 75 to 400 MHz band, and 43 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.2",
+      "quote": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "With a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the vehicle broadband radiated emissions shall not exceed 42 dBµV/m in the 30 to 75 MHz band, a logarithmically increasing 42 to 53 dBµV/m in the 75 to 400 MHz band, and 53 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.3.2.1",
+      "quote": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+      "text": "With a 10.0 ± 0.2 m antenna spacing, the vehicle narrowband radiated emissions shall not exceed 28 dBµV/m in the 30 to 230 MHz band and 35 dBµV/m in the 230 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.3.2.2",
+      "quote": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+      "text": "With a 3.0 ± 0.05 m antenna spacing, the vehicle narrowband radiated emissions shall not exceed 38 dBµV/m in the 30 to 230 MHz band and 45 dBµV/m in the 230 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.1",
+      "quote": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m",
+      "text": "The vehicle shall withstand, without degradation of immunity related functions, a field strength of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole 20 to 2,000 MHz band, and 10 V/m over 90 per cent and a minimum of 8 V/m over the 2,000 to 6,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.1",
+      "quote": "in accordance with ISO 11451-4 BCI the current shall be 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band",
+      "text": "When tested by the ISO 11451-4 bulk current injection method, the vehicle shall withstand a current of 60 mA over 90 per cent and a minimum of 50 mA over the whole 20 to 2,000 MHz frequency band without degradation of immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.2",
+      "quote": "there shall be no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6",
+      "text": "During the vehicle immunity tests there shall be no degradation of performance of the immunity related functions, including braking, stop lamps and warning indicators."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The ESA broadband radiated emissions shall not exceed 62 to 52 dBµV/m in the 30 to 75 MHz band decreasing logarithmically, 52 to 63 dBµV/m in the 75 to 400 MHz band increasing logarithmically, and 63 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The ESA narrowband radiated emissions shall not exceed 52 to 42 dBµV/m in the 30 to 75 MHz band decreasing logarithmically, 42 to 53 dBµV/m in the 75 to 400 MHz band increasing logarithmically, and 53 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Maximum allowed pulse amplitude",
+      "text": "The transient conducted disturbances emitted by the ESA on 12 V supply lines shall not exceed a maximum allowed pulse amplitude of +75 V for positive polarity and -100 V for negative polarity."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+      "text": "The ESA shall withstand, over 90 per cent of the 20 to 6,000 MHz band, test levels of 60 V/m in stripline, 75 V/m in a TEM cell, 60 mA bulk current injection, 30 V/m in ALSE and 21 V/m in a reverberation chamber below 2 GHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.2",
+      "quote": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "During the ESA immunity tests there shall be no degradation of performance of the immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "Test pulse number 1 -75 V -450 V 500 pulses III III",
+      "text": "The ESA shall withstand ISO 7637-2 test pulse 1 at -75 V for 12 V systems, 500 pulses, with functional performance status class III for immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "2a +37 V +37 V 500 pulses I III",
+      "text": "The ESA related to immunity related functions shall withstand ISO 7637-2 test pulse 2a at +37 V, 500 pulses, with functional performance status class I."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "3a -112 V -150 V 1 h I III",
+      "text": "The ESA related to immunity related functions shall withstand ISO 7637-2 test pulse 3a at -112 V for one hour with functional performance status class I."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3a",
+      "quote": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases)",
+      "text": "The ESA that shall be operational during engine start phases shall withstand the ISO 16750-2 starting profile with functional performance status class B over 10 pulses."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 68,
+      "paragraph": "Annex 5 4.2",
+      "quote": "Measurements shall be performed with an average detector.",
+      "text": "Vehicle narrowband emission measurements shall be performed with an average detector over the 30 to 1,000 MHz range."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 68,
+      "paragraph": "Annex 5 2.1",
+      "quote": "The ignition switch shall be switched on. The engine shall not be operating.",
+      "text": "During narrowband emission measurement the ignition switch shall be on, the engine not operating, and the vehicle electronic systems in normal operating mode with the vehicle stationary."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 79,
+      "paragraph": "Annex 6 4.1",
+      "quote": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency ranges in vertical polarization.",
+      "text": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz range in vertical polarization, with amplitude modulation of 1 kHz and 80 per cent depth from 20 to 400 MHz and pulse modulation above."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 73,
+      "paragraph": "Annex 6 2.1.1.2. Table",
+      "quote": "Brake pedal not depressed Unexpected activation of brake and unexpected activation of stop lights",
+      "text": "During the vehicle immunity test in 50 km/h mode with the brake pedal not depressed, unexpected activation of the brake and of the stop lights shall be treated as a failure."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 74,
+      "paragraph": "Annex 6 2.1.1.2. Table",
+      "quote": "Vehicle in a state that allows the braking system to operate normally, parking brake released, vehicle speed 0 km/h.",
+      "text": "In the brake mode of the vehicle immunity test the vehicle shall be in a state allowing the braking system to operate normally with the parking brake released and vehicle speed 0 km/h, with the brake pedal depressed, and stop lights inactivated or loss of brake function with warning light on shall be treated as failures."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 92,
+      "paragraph": "Annex 7 3.4",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1.",
+      "text": "Before or after the ESA broadband emission test, extraneous ambient noise shall be at least 6 dB below the interference limits given in paragraph 6.5.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 97,
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "text": "ESA immunity measurements shall be made over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1 and the specified signal modulations."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 2.2",
+      "quote": "The ESA under test shall be switched on and shall be stimulated to be in normal operation condition.",
+      "text": "The ESA under test shall be switched on and stimulated to be in normal operation condition with interconnecting cables arranged as far as possible as intended for use in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 100,
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "Bulk current injection testing shall be performed according to ISO 11452-4 with the substitution method and the injection probe at 150 mm from the ESA, or with the closed loop method and the probe at 900 mm."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 121,
+      "paragraph": "Annex 13 3.5. Table 1",
+      "quote": "0.15 to 30 9/10 kHz 10 s/MHz 9 kHz 200 s/MHz 9/10 kHz 10 s/MHz",
+      "text": "Conducted emission measurement on AC or DC power lines shall cover 0.15 to 30 MHz using a spectrum analyser with a 9 kHz quasi-peak resolution bandwidth and a minimum scan time of 200 s/MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 122,
+      "paragraph": "Annex 13 4.1",
+      "quote": "The limits apply throughout the frequency range 0.15 to 30 MHz for measurements performed in a shielded enclosure",
+      "text": "The radiofrequency conducted disturbance limits apply throughout the 0.15 to 30 MHz frequency range for measurements performed in a shielded enclosure, ALSE or OATS."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 19,
+      "paragraph": "7.8.2.1",
+      "quote": "the immunity test levels, for AC or DC power lines, shall be: ±2 kV test voltage in open circuit, with a rise time (Tr) of 5 ns",
+      "text": "The vehicle shall withstand, on AC or DC power lines, electrical fast transient/burst disturbances of ±2 kV open circuit voltage with 5 ns rise time, 50 ns hold time and 5 kHz repetition rate for at least 1 minute without degradation of immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 19,
+      "paragraph": "7.9.2.1",
+      "quote": "For AC power lines: ±2 kV test voltage in open circuit between line and earth and ±1 kV between lines",
+      "text": "The vehicle shall withstand surge test voltages of ±2 kV line-to-earth and ±1 kV between lines on AC power lines, and ±0.5 kV on DC power lines, without degradation of immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.1.2",
+      "quote": "Before testing, the Technical Service shall prepare a test plan in conjunction with the manufacturer, which contains at least mode of operation",
+      "text": "Before electromagnetic compatibility testing a test plan shall define the mode of operation, stimulated and monitored functions, pass/fail criteria, intended emissions and the minimum number of steady-state operating conditions of the vehicle."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.5",
+      "quote": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields.",
+      "text": "The steering equipment and its electrical control lines shall not have their effectiveness adversely affected by magnetic or electric fields, demonstrated by fulfilling UN Regulation No. 10."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.1",
+      "quote": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed",
+      "text": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed and exhibit a tendency to self-centre when tested with the intact steering equipment."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.2",
+      "quote": "It shall be possible to travel along a straight section of road without unusual steering correction by the driver",
+      "text": "It shall be possible to travel along a straight road section at maximum design speed without unusual steering correction by the driver and without unusual vibration in the steering system."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.3",
+      "quote": "there shall be a continuous relationship between the steering control deflection and the steering angle",
+      "text": "The direction of steering control operation shall correspond to the intended change of direction of the vehicle with a continuous relationship between steering control deflection and steering angle, which need not apply to corrective steering interventions or ESC-controlled systems."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.4",
+      "quote": "The steering equipment shall be designed, constructed and fitted in such a way that it is capable of withstanding the stresses arising during normal operation of the vehicle",
+      "text": "The steering equipment shall be designed, constructed and fitted to withstand the stresses arising during normal vehicle operation, and the maximum steering angle shall not be limited by parts of the steering transmission not designed for that purpose."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 16,
+      "paragraph": "5.3.1.5",
+      "quote": "In the case where the braking system of the vehicle shares the same energy supply as the steering system and there is a failure in the energy supply, the steering system shall have priority",
+      "text": "Where the braking system shares the same energy supply as the steering system and the energy supply fails, the steering system shall have priority and the braking performance on the first subsequent application shall comply with paragraph 3 of Annex 3 to UN R79."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 16,
+      "paragraph": "5.3.1.6",
+      "quote": "the braking system is such that in the absence of any energy reserve it is possible with the service brake control to achieve the safety requirement for the secondary braking system",
+      "text": "The steering priority braking performance requirements of Annex 3 to UN R79 need not apply where, in the absence of any energy reserve, the service brake control achieves the secondary braking requirement specified in paragraph 2.2 of Annex 3 to UN R13-H for M1 vehicles."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.1.1",
+      "quote": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver of the vehicle.",
+      "text": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.1.2",
+      "quote": "Optical warning signals shall be visible, even by daylight and distinguishable from other alerts",
+      "text": "Optical warning signals shall be visible even by daylight, distinguishable from other alerts, with their satisfactory condition easily verifiable from the driver's seat and no loss of steering performance on failure of a warning device component."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.1.4",
+      "quote": "If the same energy source is used to supply the steering system and other systems, an acoustic or optical warning shall be given to the driver",
+      "text": "If the same energy source supplies the steering system and other systems, an acoustic or optical warning shall be given when the stored energy or fluid drops to a level liable to cause an increase in steering effort, which may be combined with the brake failure warning."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 21,
+      "paragraph": "5.5.2",
+      "quote": "It shall be possible to verify in a simple way the correct operational status of those Electronic Systems, which have control over steering.",
+      "text": "It shall be possible to verify in a simple way the correct operational status of the electronic systems which have control over steering, with any special information made freely available."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.3. Table 1",
+      "quote": "Maximum value for the specified maximum lateral acceleration 3 m/s² 3 m/s² 3 m/s² 3 m/s²",
+      "text": "For M1 vehicles the specified maximum lateral acceleration of a lane keeping ACSF shall not exceed 3 m/s² in any speed range above 10 km/h and shall not be below 0.5 m/s² in the 60 to 100 km/h range."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.3",
+      "quote": "The moving average over half a second of the lateral jerk generated by the system shall not exceed 5 m/s³.",
+      "text": "The moving average over half a second of the lateral jerk generated by the lane keeping system shall not exceed 5 m/s³."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.3",
+      "quote": "The steering control effort necessary to override the directional control provided by the system shall not exceed 50 N",
+      "text": "The steering control effort necessary to override the directional control provided by the steering assistance function shall not exceed 50 N."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.2",
+      "quote": "It shall be possible to deactivate the system at any time by a single action of the driver.",
+      "text": "The vehicle shall be equipped with a means for the driver to activate and deactivate the lane keeping system, and it shall be possible to deactivate it at any time by a single action, after which reactivation requires a deliberate action."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 24,
+      "paragraph": "5.6.2.2.5",
+      "quote": "it shall provide a means of detecting that the driver is holding the steering control",
+      "text": "While the lane keeping system is active, it shall provide a means of detecting that the driver is holding the steering control and, if the driver is not holding it after no longer than 15 seconds, provide an optical warning signal."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 25,
+      "paragraph": "5.6.2.2.5",
+      "quote": "The system shall be automatically deactivated at the latest 30 seconds after the acoustic warning signal has started.",
+      "text": "The lane keeping system shall be automatically deactivated at the latest 30 seconds after the acoustic warning signal has started and shall then give an acoustic emergency signal for at least five seconds distinct from the previous warning."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 25,
+      "paragraph": "5.6.2.2.6",
+      "quote": "the optical signals described in paragraph 5.6.2.2. shall all be different from each other",
+      "text": "The optical signals for active, standby, boundary, failure and hands-off conditions shall all be different from each other, for example by different symbol, colour, blinking or text."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 48,
+      "paragraph": "Annex 6 3.1",
+      "quote": "For periodic technical inspections, the documentation shall describe how the current operational status of \"The System\" can be checked.",
+      "text": "The documentation package of the electronic steering control system shall describe how the current operational status of the system can be checked for periodic technical inspections."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 50,
+      "paragraph": "Annex 6 3.4.3",
+      "quote": "In case of a failure, the driver shall be warned for example by warning signal or message display.",
+      "text": "In case of a failure in the electronic steering control system, the driver shall be warned, and where the system is not deactivated by the driver the warning shall be present as long as the fault condition persists."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 51,
+      "paragraph": "Annex 6 3.4.4.2",
+      "quote": "This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice the safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions",
+      "text": "The documentation shall describe the measures in place to ensure the electronic steering control system does not prejudice safe vehicle operation when affected by environmental conditions such as climatic, temperature, dust ingress, water ingress and ice packing."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 51,
+      "paragraph": "Annex 6 4.1.2",
+      "quote": "The reaction of \"The System\" shall be checked under the influence of a failure in any individual unit by applying corresponding output signals",
+      "text": "The reaction of the electronic steering control system shall be checked under the influence of a failure in an individual unit by applying corresponding output signals to simulate internal faults, including effects on controllability and user information."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 55,
+      "paragraph": "Annex 8 2.",
+      "quote": "The tests shall be performed on a flat, dry asphalt or concrete surface affording good adhesion. The ambient temperature shall be between 0 °C and 45 °C.",
+      "text": "Steering function tests shall be performed on a flat, dry asphalt or concrete surface affording good adhesion with an ambient temperature between 0 °C and 45 °C."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 55,
+      "paragraph": "Annex 8 2.4",
+      "quote": "The sampling rate shall be at least 100 Hz.",
+      "text": "Lateral acceleration and lateral jerk data shall be sampled at a rate of at least 100 Hz, with the raw lateral acceleration filtered by a fourth order Butterworth filter with a 0.5 Hz cut-off."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 55,
+      "paragraph": "Annex 8 2.1",
+      "quote": "The width of the lane shall be minimum 3.5 m, for the purpose of the tests of this annex.",
+      "text": "During steering function tests the lane shall be at least 3.5 m wide with lane markings in line with those of Annex 3 of UN Regulation No. 130."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 56,
+      "paragraph": "Annex 8 3.1.2.2",
+      "quote": "the force applied by the driver on the steering control to override the intervention does not exceed 50 N",
+      "text": "In the overriding force test, the force applied by the driver on the steering control to override the corrective steering intervention shall not exceed 50 N."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 57,
+      "paragraph": "Annex 8 3.2.1.2",
+      "quote": "No outside edge of the tyre tread of the vehicle’s front wheel does cross the outside edge of any lane marking.",
+      "text": "In the lane keeping functional test, no outside edge of the tyre tread of the vehicle's front wheel shall cross the outside edge of any lane marking."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 58,
+      "paragraph": "Annex 8 3.2.4.2",
+      "quote": "the optical warning signal was given at the latest 15 s after the steering control has been released",
+      "text": "In the hands-on test, the optical warning signal shall be given at the latest 15 s after the steering control has been released and remain until the lane keeping system is deactivated."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 65,
+      "paragraph": "Annex 8 2.5",
+      "quote": "Differences shall be less than or equal to 3 N.",
+      "text": "Where overriding force is measured by the internal driver torque signal, it shall be verified by an external measurement device that the difference between the two measured values is less than or equal to 3 N."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.2.1.3",
+      "quote": "If a symbol is used, it shall comply with symbol J 04, ISO/IEC registration number 7000-2441 as defined in ISO 2575:2000",
+      "text": "Where a symbol is used for the steering failure warning signal, it shall comply with symbol J 04, ISO/IEC registration number 7000-2441 as defined in ISO 2575:2000."
+    }
+  ]
+}

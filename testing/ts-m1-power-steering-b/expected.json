@@ -1,0 +1,1906 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-m1-power-steering-b",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The electric power steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The electric power steering system shall show a tendency to self-centre when tested in accordance with paragraph 6.2 with the steering equipment intact.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The vehicle shall be able to travel along a straight section of road without unusual steering correction by the driver and without unusual vibration in the steering system at the maximum design speed.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The direction of operation of the steering control shall correspond to the intended change of direction of the vehicle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The steering equipment shall be designed, constructed and fitted so that it can withstand the stresses arising during normal operation of the vehicle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The maximum steering angle shall not be limited by any part of the steering transmission unless that part is specifically designed for the purpose.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 9,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The corrective steering function shall not cause any deterioration in the performance of the basic steering system.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The corrective steering function shall be designed such that the driver may, at any time and by deliberate action, override the function.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "Every intervention of the corrective steering function shall immediately be indicated to the driver by an optical warning signal displayed for at least 1 s or for as long as the intervention exists, whichever is longer.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6.1.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "Where the corrective steering function warning uses a flashing mode, a lighting phase shall be visible at the end of the intervention or later.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6.1.1"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "For an intervention of the lane-marking-based corrective steering function longer than 10 s on an M1 vehicle, an acoustic warning signal shall be provided until the end of the intervention.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6.1.2.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Where two or more consecutive corrective steering interventions occur within a rolling interval of 180 seconds without driver steering input, an acoustic warning signal shall be provided during the second and any further intervention.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6.1.2.2"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Starting with the third and subsequent corrective steering interventions, the acoustic warning signal shall continue for at least 10 seconds longer than the previous warning signal.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6.1.2.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The steering control effort necessary to override the directional control provided by the corrective steering function shall not exceed 50 N over the whole range of its operations.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 10,
+        "paragraph": "5.1.6.1.3"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Where the steering system shares its energy supply with other systems, steering shall be ensured in accordance with the failure conditions of paragraph 5.3 when a failure occurs in any of those systems.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The safety aspects of the electronic control unit and its software forming part of the steering control transmission shall meet the requirements of Annex 6.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection is established between the adjustable components by appropriate locking devices.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.8.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The steered wheels shall not be solely the rear wheels.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 15,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "Any steering part whose failure would likely result in loss of control shall be made of metal or a material with equivalent characteristics and shall not be subject to significant distortion in normal operation.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.1.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The requirements of paragraphs 5.1.2, 5.1.3 and 6.2.1 shall also be satisfied with a failure in the steering equipment as long as the vehicle can be driven at the speeds required in those paragraphs.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.1.2"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "Any failure in the electric transmission shall clearly be brought to the attention of the vehicle driver as given in paragraph 5.4.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.1.3"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "When the engine stops or a part of the transmission other than those in paragraph 5.3.1.1 fails, there shall be no immediate change in steering angle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.2.1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "As long as the vehicle can be driven at a speed greater than 10 km/h, the requirements of paragraph 6 relating to a system with a failure shall be met.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 16,
+        "paragraph": "5.3.2.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "Any fault impairing the steering function that is not mechanical in nature shall be signalled clearly to the driver of the vehicle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 19,
+        "paragraph": "5.4.1.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "Optical warning signals shall be visible even by daylight and distinguishable from other alerts.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The satisfactory condition of the warning signals shall be easily verifiable by the driver from the driver's seat.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The failure of a component of the warning devices shall not entail any loss of the steering system's performance.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "Acoustic warning signals shall be by continuous or intermittent sound signal or by vocal information and shall be easily recognized by the driver.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.1.3"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "A red warning signal shall be provided for failures within the main steering equipment where a single additional failure could result in a complete loss of steering function.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.2.1.1"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "A yellow warning signal shall indicate an electrically detected defect within the steering equipment that is not indicated by the red warning signal.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.2.1.2"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "Where a symbol is used for the steering failure warning, it shall comply with symbol J 04, ISO/IEC registration number 7000-2441 as defined in ISO 2575:2000.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.2.1.3"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The warning signals shall light up when the electrical equipment of the vehicle and the steering system is energised.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.2.1.4"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "With the vehicle stationary, the steering system shall verify that none of the specified failures or defects is present before extinguishing the warning signal.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.2.1.4"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "Specified failures or defects not detected under static conditions shall be stored upon detection and displayed at start-up and at all times when the ignition switch is in the on position, as long as the failure persists.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.2.1.4"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "Where the corrective steering function has generated a steering angle that has not been returned to the normal driving position, a warning signal shall be given to the driver.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 20,
+        "paragraph": "5.4.3"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The steering equipment and its installation shall be designed so that, without disassembly, its operation can be checked with commonly used measuring instruments, methods or test equipment.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 21,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "It shall be possible to verify in a simple way the correct operational status of the electronic control unit that has control over steering.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 21,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The means implemented to protect against simple unauthorised modification to the operation of the chosen verification means shall be outlined.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 21,
+        "paragraph": "5.5.2.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The steering performance tests shall be conducted on a level surface affording good adhesion.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "During the tests the vehicle shall be loaded to its technically permissible maximum mass and its technically permissible maximum load on the steered axle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "Before the test begins, the tyre pressures shall be as prescribed by the manufacturer for the mass specified in paragraph 6.1.2 when the vehicle is stationary.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "All performance tests shall be carried out under actual or simulated electrical load of all essential systems sharing the same energy supply, comprising at least lighting, windscreen wipers, engine management and braking systems.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "It shall be possible to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment at 50 km/h for the M1 vehicle.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "When the vehicle is driven in a circle with its steered wheels at approximately half lock and at a constant speed of at least 10 km/h, the turning circle shall remain the same or become larger if the steering control is released.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "During measurement of steering control effort, forces with a duration of less than 0.2 seconds shall not be taken into account.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The vehicle shall be driven from straight ahead into a spiral at a speed of 10 km/h for the steering effort measurement.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The steering wheel control effort shall be measured at the nominal radius of the steering control until its position corresponds to the turning radius in Table 2, with one steering movement to the right and one to the left.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 36,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "With intact steering equipment, the M1 vehicle shall achieve a turning radius of 12 m within a maximum steering time of 4 s and with a maximum steering control effort of 15 daN.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 37,
+        "paragraph": "6.2.4.2"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "With a failure in the steering equipment, the M1 vehicle shall achieve a turning radius of 20 m within a maximum steering time of 4 s and with a maximum steering control effort of 30 daN.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 37,
+        "paragraph": "6.2.5.2"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The corrective steering function tests shall be performed on a flat, dry asphalt or concrete surface with good adhesion and at an ambient temperature between 0 °C and 45 °C.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The lane used for the corrective steering function tests shall be at least 3.5 m wide.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The lane markings used for the tests shall be in line with one of those described in Annex 3 of UN Regulation No. 130 (00 series) and in good condition.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2.1"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "All vehicle speeds specified for the tests shall be met within a tolerance of ±2 km/h.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2.2"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The vehicle shall be tested in a load condition agreed with the Technical Service, with no load alteration once the test procedure has begun.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2.3.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The vehicle shall be tested at the tyre pressures recommended by the vehicle manufacturer.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2.3.2"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The raw lateral acceleration data shall be sampled at a rate of at least 100 Hz.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2.4"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "To determine the lateral acceleration, the raw data shall be filtered with a fourth order Butterworth filter having a cut-off frequency of 0.5 Hz.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 55,
+        "paragraph": "Annex 8 2.4"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "To determine the lateral jerk, the 500 ms moving average of the time derivative of the filtered lateral acceleration shall be used.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 56,
+        "paragraph": "Annex 8 2.4"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "Before the overriding force test using the internal driver torque signal, an external measurement device shall confirm that differences between the two measured values are less than or equal to 3 N.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 56,
+        "paragraph": "Annex 8 2.5"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The overriding force test on the corrective steering function is passed if the force applied by the driver on the steering control to override the intervention does not exceed 50 N.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 57,
+        "paragraph": "Annex 8 3.1.2.2"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "For the corrective steering warning test, the vehicle shall be driven with the corrective steering function activated on a road with lane markings on each side of the lane.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 56,
+        "paragraph": "Annex 8 3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The vehicle shall be driven such that it attempts to leave the lane and maintains the corrective steering intervention for a period longer than 10 s.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 56,
+        "paragraph": "Annex 8 3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The warning test is passed if the relevant acoustic or haptic warning is provided no later than 10 s after the beginning of the intervention.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 56,
+        "paragraph": "Annex 8 3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "For the repeated-intervention warning test, the vehicle shall be driven such that it causes at least three corrective steering interventions within a rolling interval of 180 s.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 56,
+        "paragraph": "Annex 8 3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The relevant acoustic or haptic warning signal at the third intervention shall be at least 10 s longer than the one at the second intervention.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 56,
+        "paragraph": "Annex 8 3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "The electronic steering control system shall be designed to operate, under non-fault and fault conditions, in such a way that it does not induce safety critical risks.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 48,
+        "paragraph": "Annex 6 3.1"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The electronic steering control system shall respect, under non-fault and fault conditions, all the appropriate performance requirements specified in UN R79.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 48,
+        "paragraph": "Annex 6 3.1"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The safety concept of the electric power steering ECU shall provide for fall-back to partial operation or to a back-up system for the assist function.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 47,
+        "paragraph": "Annex 6 2.2"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "In case of a failure, the driver shall be warned by a warning signal or message display, present as long as the fault condition persists unless the system is deactivated by the driver.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 50,
+        "paragraph": "Annex 6 3.4.3"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "Where the safety concept removes the corrective steering function on failure, all output control signals associated with that function shall be inhibited in a manner that limits the transition disturbance.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 50,
+        "paragraph": "Annex 6 3.4.3.3"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "Priorities of signals on the vehicle network where multiplexed data paths are used shall be stated wherever priority may affect steering performance or safety.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 49,
+        "paragraph": "Annex 6 3.3.4"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "Each unit of the electronic steering control system, including the ECU and its software, shall be clearly and unambiguously identifiable by marking.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 49,
+        "paragraph": "Annex 6 3.3.5"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The reaction of the steering control system under a failure in any individual unit shall be checked by applying corresponding output signals to electrical units or mechanical elements to simulate internal faults.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 51,
+        "paragraph": "Annex 6 4.1.2"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The system documentation shall describe the measures ensuring the steering control system does not prejudice safe operation when its performance is affected by environmental conditions such as temperature, dust ingress, water ingress or ice packing.",
+      "source": {
+        "regulation": "UN R79",
+        "version": "4.11.0",
+        "page": 51,
+        "paragraph": "Annex 6 3.4.4.2"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The electric power steering system and its electrical/electronic components shall be designed, constructed and fitted so that the vehicle complies with the EMC requirements of UN R10 in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The vehicle fitted with the electric power steering system shall be tested for radiated emissions and immunity to radiated disturbances, without vehicle-level conducted emission or immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The steering ECU as an ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "At a 10 m antenna distance, the vehicle broadband radiated emissions shall not exceed 32 dBµV/m in the 30 to 75 MHz band and 32 to 43 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "At a 10 m antenna distance, the vehicle broadband radiated emissions in the 400 to 1,000 MHz band shall not exceed 43 dBµV/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "At a 3 m antenna distance, the vehicle broadband radiated emissions shall not exceed 42 dBµV/m in the 30 to 75 MHz band and 42 to 53 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "At a 10 m antenna distance, the vehicle narrowband radiated emissions shall not exceed 28 dBµV/m in the 30 to 230 MHz band and 35 dBµV/m in the 230 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "At a 3 m antenna distance, the vehicle narrowband radiated emissions shall not exceed 38 dBµV/m in the 30 to 230 MHz band and 45 dBµV/m in the 230 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "The vehicle shall be immune to a field strength of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole of the 20 to 2,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The vehicle shall be immune to a field strength of 10 V/m over 90 per cent and a minimum of 8 V/m over the whole of the 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "Under the ISO 11451-4 BCI method, the vehicle shall be immune to a current of 60 mA over 90 per cent and a minimum of 50 mA over the whole of the 20 to 2,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "During the vehicle immunity tests there shall be no degradation of performance of immunity related functions, including active steering and steering wheel positioning.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The steering ECU as an ESA shall not exceed broadband radiated emissions of 62 to 52 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The steering ECU shall not exceed broadband radiated emissions of 52 to 63 dBµV/m in the 75 to 400 MHz band, increasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The steering ECU shall not exceed broadband radiated emissions of 63 dBµV/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The steering ECU shall not exceed narrowband radiated emissions of 52 to 42 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The steering ECU shall not exceed narrowband radiated emissions of 42 to 53 dBµV/m in the 75 to 400 MHz band, increasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "The steering ECU shall not exceed narrowband radiated emissions of 53 dBµV/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "The steering ECU shall be immune to radiated fields at a test level of 60 V/m in the stripline, 75 V/m in the TEM cell, 60 mA in BCI, 30 V/m in ALSE and 21 V/m in the reverberation chamber over 90 per cent of the frequency band below 2 GHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The steering ECU shall be immune to a minimum test level of 50 V/m in the stripline, 62.5 V/m in the TEM cell, 50 mA in BCI, 25 V/m in ALSE and 18 V/m in the reverberation chamber over the whole 20 MHz to 2 GHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The steering ECU shall be immune to a minimum test level of 8 V/m in ALSE and 6 V/m in the reverberation chamber over the 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "During the ESA immunity tests there shall be no degradation of performance of the immunity related steering functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The steering ECU shall be tested for immunity to conducted transients on the 12 V supply lines using the ISO 16750-2 starting profile and ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "Every steering ECU conforming to a type approved under UN R10 shall be affixed with the international approval mark described in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The international EMC approval mark shall be affixed in a conspicuous and easily accessible place specified on the approval communication form on each vehicle conforming to the type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The EMC approval mark shall comprise a circle containing the letter E followed by the distinguishing number of the country granting approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The EMC approval mark shall include the number of UN R10 followed by the letter R, a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "The approval mark on the steering ECU need not be visible once the ECU is installed in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "Each steering ECU sample submitted for approval shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "During the vehicle immunity test the vehicle shall be driven at a steady speed of 50 km/h on a dynamometer or on insulated axle stands.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "During the immunity test the vehicle speed shall not vary by more than ±10 per cent of the nominal speed.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The steering wheel shall remain in its medium position during the immunity test without unexpected variation greater than 10 per cent of total range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "During the immunity test in 50 km/h mode the dipped beams shall be on in manual mode and shall not switch off.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "During the immunity test the front wiper shall run at maximum speed in manual mode without a complete stop.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The driver's side direction indicator frequency during the immunity test shall not change to lower than 0.75 Hz or greater than 2.25 Hz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "In brake mode the brake pedal shall be depressed to activate the brake function and stop lights without any dynamic cycle, and the stop lights shall not be inactivated.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 74,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "During the immunity test all equipment that can be switched on permanently by the driver or passenger shall be in normal operation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.3"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "All other systems affecting the driver's control of the vehicle, including the electric power steering, shall be on as in normal operation during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.1.4"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "Only non-perturbing equipment shall be used while monitoring the vehicle during immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.3"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "The vehicle shall be exposed to electromagnetic radiation over the 20 to 6,000 MHz frequency range in vertical polarization.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The immunity test signal shall use AM modulation with 1 kHz and 80 per cent modulation depth in the 20 to 400 MHz range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The immunity test signal shall use PM3 modulation with Ton 500 µs and period 1,000 µs in the 380 to 2,700 MHz and 3,100 to 6,000 MHz ranges.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "Ambient extraneous noise during the broadband ESA emission measurement shall be at least 6 dB below the interference limits of paragraph 6.5.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "The ESA broadband emission limits apply throughout the 30 to 1,000 MHz frequency range for measurements in an ALSE or OATS.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.1"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "For the ESA broadband emission measurement, the spectrum analyser shall use a 100/120 kHz RBW with 100 ms/MHz scan time for peak detection and 120 kHz RBW with 20 s/MHz for quasi-peak detection.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.3. Table 1"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The steering ECU shall be in normal operation mode, preferably at maximum load, during the emission measurements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "Ambient extraneous noise during the narrowband ESA emission measurement shall be at least 6 dB below the limits of paragraph 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The steering ECU narrowband emission measurements shall be performed with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.2"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The steering ECU immunity measurements shall be made over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "During calibration for the ESA immunity test, no extraneous equipment shall be closer than 1 m from the reference point.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.4"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "For the steering ECU test the interconnecting cables shall be the wiring harnesses as intended for use in the vehicle, terminated as realistically as possible with real loads and actuators.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.6"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "The steering ECU may comply with the immunity requirements through any combination of absorber chamber, TEM cell, bulk current injection, stripline or reverberation chamber tests covering the full frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "Where the BCI test method with substitution is used for the steering ECU, the injection probe shall be positioned at 150 mm distance from the ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "Where the BCI test method with closed loop is used for the steering ECU, the injection probe shall be positioned at 900 mm distance from the ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "An international cyber security approval mark shall be affixed conspicuously and in a readily accessible place specified on the approval form to every vehicle conforming to the type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "The cyber security approval mark shall consist of a circle surrounding the letter E followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1.1"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "The cyber security approval mark shall include the number of UN R155 followed by the letter R, a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "4.1.2"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "The cyber security approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "The cyber security approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "The manufacturer shall operate processes within its organisation to manage cyber security covering the development, production and post-production phases of the steering system.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "The manufacturer's processes for identification of risks shall consider the threats in Annex 5 Part A and other relevant threats to the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "The manufacturer shall operate processes for the assessment, categorisation and treatment of the identified cyber security risks of the steering system.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "The manufacturer shall operate processes for testing the cyber security of the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "The manufacturer shall operate processes to monitor for, detect and respond to cyber-attacks, cyber threats and vulnerabilities on the vehicle type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "The continuous monitoring shall include the capability to analyse and detect cyber threats, vulnerabilities and cyber-attacks from vehicle data and vehicle logs.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "The manufacturer shall identify and manage supplier-related cyber security risks for the steering ECU and its software supply chain.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.2"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "The manufacturer shall identify the critical elements of the steering system and perform an exhaustive risk assessment, treating the identified risks appropriately.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.3"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "The manufacturer shall implement proportionate mitigations protecting the steering system against the risks identified in its risk assessment, including all relevant mitigations of Annex 5 Parts B and C.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.4"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "The manufacturer shall perform appropriate and sufficient testing to verify the effectiveness of the security measures implemented in the steering system before type approval.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.6"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "The vehicle type shall implement measures to detect and prevent cyber-attacks against vehicles of the type.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "The vehicle type shall implement measures providing data forensic capability to enable analysis of attempted or successful cyber-attacks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.7"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "Cryptographic modules used in the steering system for cyber security shall be in line with consensus standards.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "7.3.8"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "The steering ECU shall verify the authenticity and integrity of the messages it receives over the vehicle network.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "Security controls shall be implemented for storing the cryptographic keys used by the steering ECU.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "The steering ECU shall implement security by design to minimise cyber security risks.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "Access control techniques and designs shall be applied to protect the steering system data and code, including the assist and correction logic.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 17,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0152",
+      "text": "Confidential data transmitted to or from the steering system shall be protected against interception.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0153",
+      "text": "Through system design and access control it shall not be possible for unauthorised personnel to access system critical steering data.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0154",
+      "text": "Measures to detect and recover from a denial of service attack on the vehicle network shall be employed by the steering system.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0155",
+      "text": "Measures to prevent and detect unauthorised access to the steering system shall be employed.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0156",
+      "text": "Measures to protect the steering ECU against embedded viruses and malware shall be considered and implemented.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0157",
+      "text": "Measures to detect malicious internal CAN messages or activity affecting the steering system shall be implemented.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 18,
+        "paragraph": "Annex 5 Part B 1. Table B1"
+      }
+    },
+    {
+      "id": "G-0158",
+      "text": "Secure software update procedures shall be employed for updating the steering ECU software.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 2. Table B2"
+      }
+    },
+    {
+      "id": "G-0159",
+      "text": "Measures shall be implemented to define and control user roles and access privileges for the steering system based on the principle of least access privilege.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 19,
+        "paragraph": "Annex 5 Part B 3. Table B3"
+      }
+    },
+    {
+      "id": "G-0160",
+      "text": "Security controls shall be applied to the external interfaces, including the OBD port, through which the steering ECU can be accessed.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 20,
+        "paragraph": "Annex 5 Part B 4. Table B4"
+      }
+    },
+    {
+      "id": "G-0161",
+      "text": "Cyber security best practices for software and hardware development shall be followed in developing the steering ECU.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 21,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0162",
+      "text": "Cyber security testing with adequate coverage shall be performed on the steering system software.",
+      "source": {
+        "regulation": "UN R155",
+        "version": "0.2.0",
+        "page": 22,
+        "paragraph": "Annex 5 Part B 6. Table B6"
+      }
+    },
+    {
+      "id": "G-0163",
+      "text": "The authenticity and integrity of software updates for the steering ECU shall be protected to reasonably prevent their compromise and to prevent invalid updates.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.1"
+      }
+    },
+    {
+      "id": "G-0164",
+      "text": "Where the steering software relevant to type approval is modified, the RXSWIN shall be updated if this leads to a type approval extension or a new type approval.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.1"
+      }
+    },
+    {
+      "id": "G-0165",
+      "text": "The RXSWIN of the steering system shall be easily readable in a standardised way via an electronic communication interface, at least through the OBD port.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0166",
+      "text": "The steering system software version identifiers shall be protected against unauthorised modification.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.1.2.3"
+      }
+    },
+    {
+      "id": "G-0167",
+      "text": "The steering system shall be able to restore its previous software version after a failed or interrupted update, or the vehicle shall be placed into a safe state.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.1"
+      }
+    },
+    {
+      "id": "G-0168",
+      "text": "Steering system software updates shall only be executed when the vehicle has enough power to complete the update, including any recovery to the previous version.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.2"
+      }
+    },
+    {
+      "id": "G-0169",
+      "text": "Where executing a steering software update may affect vehicle safety, technical means shall ensure the vehicle is in a state where the update can be executed safely.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.1.3"
+      }
+    },
+    {
+      "id": "G-0170",
+      "text": "Where the update execution while driving is not safe, the vehicle shall not be drivable during execution of the steering software update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "G-0171",
+      "text": "During execution of a steering software update the driver shall not be able to use any vehicle functionality that would affect vehicle safety or the successful execution of the update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "G-0172",
+      "text": "The vehicle shall ensure that defined preconditions are met before the steering software update is executed.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.5"
+      }
+    },
+    {
+      "id": "G-0173",
+      "text": "The vehicle user shall be informed about a steering software update before it is executed, including its purpose, any changes to vehicle functions and the expected time to complete.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.2"
+      }
+    },
+    {
+      "id": "G-0174",
+      "text": "After execution of a steering software update, the vehicle user shall be informed of the success or failure of the update.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 6,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0175",
+      "text": "The manufacturer shall use a process ensuring that steering software updates are protected to reasonably prevent manipulation before the update process is initiated.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.3.1"
+      }
+    },
+    {
+      "id": "G-0176",
+      "text": "The update processes used for the steering system shall be protected to reasonably prevent them being compromised, including the update delivery system.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.3.2"
+      }
+    },
+    {
+      "id": "G-0177",
+      "text": "The manufacturer shall demonstrate the processes used to assess that over-the-air updates of the steering system will not impact safety if conducted during driving.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.4.1"
+      }
+    },
+    {
+      "id": "G-0178",
+      "text": "The manufacturer shall use a process to confirm the compatibility of a steering software update with the target vehicle configuration before it is issued, including the last known software/hardware configuration.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.7"
+      }
+    },
+    {
+      "id": "G-0179",
+      "text": "The manufacturer shall use a process to assess, identify and record whether a steering software update will affect any type approved system or its parameters.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.8"
+      }
+    },
+    {
+      "id": "G-0180",
+      "text": "The manufacturer shall operate a process whereby the vehicle user is able to be informed about steering software updates.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.11"
+      }
+    },
+    {
+      "id": "G-0181",
+      "text": "For each steering software update the manufacturer shall document how the update may be executed and under what conditions.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.2.5"
+      }
+    },
+    {
+      "id": "G-0182",
+      "text": "For each steering software update the manufacturer shall document confirmation that the update will be conducted safely and securely.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 5,
+        "paragraph": "7.1.2.5"
+      }
+    },
+    {
+      "id": "G-0183",
+      "text": "An international software update approval mark shall be affixed conspicuously and in a readily accessible place specified on the approval form to every vehicle conforming to the type.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0184",
+      "text": "The software update approval mark shall consist of a circle surrounding the letter E followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.1.1"
+      }
+    },
+    {
+      "id": "G-0185",
+      "text": "The software update approval mark shall include the number of UN R156 followed by the letter R, a dash and the approval number.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.1.2"
+      }
+    },
+    {
+      "id": "G-0186",
+      "text": "The software update approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0187",
+      "text": "The software update approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 2,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0188",
+      "text": "The manufacturer shall use a process whereby all initial and updated software versions of the steering ECU, including integrity validation data and relevant hardware components, can be uniquely identified.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.2"
+      }
+    },
+    {
+      "id": "G-0189",
+      "text": "The manufacturer shall use a process whereby interdependencies of the updated steering system with other vehicle systems can be identified.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.5"
+      }
+    },
+    {
+      "id": "G-0190",
+      "text": "The manufacturer shall use a process to assess, identify and record whether a steering software update affects any other system required for safe and continued operation of the vehicle.",
+      "source": {
+        "regulation": "UN R156",
+        "version": "0.1.0",
+        "page": 4,
+        "paragraph": "7.1.1.10"
+      }
+    }
+  ]
+}

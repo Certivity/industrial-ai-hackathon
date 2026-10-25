@@ -1,0 +1,44 @@
+{
+  "case": "ts-n3-o4-coupling",
+  "agent_exit": 0,
+  "agent_seconds": 6,
+  "run": "runs/ts-n3-o4-coupling/c2-v3c-vet1",
+  "spent_usd": 0.0,
+  "replayed_usd": 0.149,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "n_submitted": 0,
+      "n_expected": 2,
+      "n_matched": 0,
+      "f2": 0.0
+    },
+    "page_level": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "n_submitted": 0,
+      "n_expected": 37,
+      "n_matched": 0,
+      "f2": 0.0
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R102"
+  ],
+  "run_regulations": [],
+  "n_gold": 122,
+  "n_upper_bound": 0,
+  "funnel": {
+    "gold_requirements": 122,
+    "reachable": 0,
+    "recall": 0.0,
+    "selected_nodes": 0,
+    "gold_nodes": 95,
+    "gold_nodes_reached": 0,
+    "unanchored": 2
+  }
+}

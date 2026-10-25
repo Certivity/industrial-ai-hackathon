@@ -1,0 +1,546 @@
+{
+  "case_id": "ts-n1-speedometer",
+  "regulation": "UN R39",
+  "requirements": [
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.1",
+      "quote": "An onboard speedometer and odometer complying with the requirements of this Regulation shall be fitted to the vehicle to be approved",
+      "text": "The speedometer and odometer unit shall be an onboard device complying with all requirements of UN R39 when fitted to the N1 vehicle."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.1",
+      "quote": "If more than one onboard speedometer or odometer is fitted to the vehicle, all these speedometers and odometers shall comply with all the requirements of this Regulation when displayed",
+      "text": "The speedometer and odometer unit shall comply with all requirements of UN R39 where more than one speedometer or odometer is fitted to the vehicle."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.1",
+      "quote": "Additional graduations and numerical values are not permitted",
+      "text": "The speedometer dial shall not carry additional graduations or numerical values beyond those permitted by UN R39."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2",
+      "quote": "The display of the speedometer shall be located within the direct field of view of the driver and must be clearly legible both day and night",
+      "text": "The speedometer display shall be located within the direct field of view of the driver and be clearly legible both day and night."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2",
+      "quote": "The range of speeds displayed must be sufficiently wide to include the maximum speed of this type of vehicle as stated by the manufacturer",
+      "text": "The speedometer scale shall have a range wide enough to include the maximum speed of the N1 vehicle type as stated by the manufacturer."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "In the case of speedometers intended for vehicles of Categories M, N, and L3, L4, L5, and L7 the graduation shall be 1, 2, 5 or 10 km/h",
+      "text": "For the N1 vehicle, the speedometer graduation shall be 1, 2, 5 or 10 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "when the highest value on the display does not exceed 200 km/h, speed values shall be indicated at intervals not exceeding 20 km/h",
+      "text": "The speedometer shall indicate numerical speed values at intervals not exceeding 20 km/h where the highest value on the display does not exceed 200 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "When the maximum value on the display exceeds 200 km/h, then the speed values shall be indicated at intervals not exceeding 30 km/h",
+      "text": "The speedometer shall indicate numerical speed values at intervals not exceeding 30 km/h where the maximum value on the display exceeds 200 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "If a setting makes it possible for the driver to choose between the speed in km/h and mph (miles per hour), then the speed may be displayed only in either km/h or mph at any one time",
+      "text": "Where the unit provides a km/h-mph selection, the speedometer shall display speed in only one of km/h or mph at any one time."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "The corresponding unit shall permanently be displayed",
+      "text": "The speedometer shall permanently display the unit of the speed shown."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.5",
+      "quote": "45 < Vmax ≤ 100 40 km/h and 80 % Vmax (if the resulting speed is ≥ 55 km/h)",
+      "text": "For a vehicle whose maximum design speed Vmax lies between 45 and 100 km/h, the speedometer shall be tested at 40 km/h and at 80 % of Vmax where that speed is at least 55 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.5",
+      "quote": "100 < Vmax ≤ 150 40 km/h, 80 km/h and 80 % Vmax (if the resulting speed is ≥ 100 km/h)",
+      "text": "For a vehicle whose maximum design speed Vmax lies between 100 and 150 km/h, the speedometer shall be tested at 40 km/h, 80 km/h and at 80 % of Vmax where that speed is at least 100 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.6",
+      "quote": "The test instrumentation used for measuring the true vehicle speed shall be accurate to ± 0.5 per cent",
+      "text": "The test instrumentation used for measuring true vehicle speed shall be accurate to ±0.5 %."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.6.1",
+      "quote": "The surface of a test track when used shall be flat, and provide sufficient adhesion",
+      "text": "Where a test track is used for the speedometer test, its surface shall be flat and provide sufficient adhesion."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.6.2",
+      "quote": "If a roller dynamometer is used for the test, the diameter of the roller should be at least 0.4 m",
+      "text": "Where a roller dynamometer is used for the speedometer test, the roller diameter shall be at least 0.4 m."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.4",
+      "quote": "The speed indicated shall not be less than the true speed of the vehicle",
+      "text": "The speed indicated by the speedometer shall not be less than the true speed of the vehicle."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.4",
+      "quote": "At the test speeds specified in paragraph 5.3.5. above, there shall be the following relationship between the speed displayed (V1) and the true speed (V2). 0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h",
+      "text": "At each test speed specified in paragraph 5.3.5, the speedometer shall satisfy 0 ≤ (V1 − V2) ≤ 0.1 V2 + 4 km/h between displayed speed V1 and true speed V2."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5",
+      "quote": "The display of the odometer shall be visible or accessible to the driver",
+      "text": "The odometer display shall be visible or accessible to the driver."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5",
+      "quote": "The odometer shall display at least an integer number composed of a minimum of 6 numerals for the vehicles of categories M and N",
+      "text": "The odometer of the N1 vehicle shall display at least an integer number composed of a minimum of 6 numerals."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5.2",
+      "quote": "The odometer shall display the distance in the unit corresponding to that of the predominant speedometer scale",
+      "text": "The odometer shall display distance in the unit corresponding to that of the predominant speedometer scale."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5.2",
+      "quote": "If a setting makes it possible for the driver to select the odometer display distance in km or miles independently of the speedometer, the odometer shall identify the unit used",
+      "text": "Where the driver can select km or miles for the odometer independently of the speedometer, the odometer shall identify the unit used."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.8",
+      "quote": "The total distance indicated shall not deviate by more than ±4.0 per cent from the true distance travelled as determined in paragraph 5.7",
+      "text": "The odometer shall not deviate by more than ±4.0 % from the true distance travelled as determined under paragraph 5.7."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.9",
+      "quote": "these values shall not deviate from the (rounded) total distance indicated",
+      "text": "Where total distance values are provided via the serial data port on the standardized data link connector, the odometer shall output values that do not deviate from the rounded total distance indicated."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.10",
+      "quote": "Total distance values and the total distance indicated shall have a resolution better than or equal to 1 km or 1 mile, as appropriate",
+      "text": "The odometer shall have a resolution of total distance values and total distance indicated better than or equal to 1 km or 1 mile as appropriate."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.11",
+      "quote": "In the case of an electrically detectable failure preventing the odometer requirements of this UN Regulation from being met, a malfunction indication shall be provided to the driver",
+      "text": "Where an electrically detectable failure prevents the odometer from meeting the requirements of UN R39, the unit shall provide a malfunction indication to the driver."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.11.1",
+      "quote": "The malfunction indication shall be active when the malfunction occurs and shall remain active as long as the malfunction persists",
+      "text": "The odometer malfunction indication shall be active when the malfunction occurs and remain active as long as the malfunction persists."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.11.1",
+      "quote": "It may be temporarily cancelled, but shall be repeated each time the ignition or the vehicle master control switch is activated",
+      "text": "The odometer malfunction indication shall be repeated each time the ignition or vehicle master control switch is activated after being cancelled."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.12",
+      "quote": "The total distance indicated and total distance values shall be protected against manipulation",
+      "text": "The odometer shall protect the total distance indicated and total distance values against manipulation."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.12",
+      "quote": "proportionate mitigations are implemented, including, or equivalent to, mitigation 7 referred to in Annex 5, Part B, Table B5 of UN Regulation No. 155",
+      "text": "The odometer shall implement proportionate anti-tampering mitigations including, or equivalent to, mitigation 7 of Annex 5, Part B, Table B5 of UN R155."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.2",
+      "quote": "In the case of vehicles of Categories M, N, and L3, L4, L5, and L7 manufactured for sale in any country where imperial units are used, the speedometer shall also be marked in miles per hour (mph); the graduations shall be of 1, 2, 5 or 10 mph",
+      "text": "Where the N1 vehicle is sold in a country using imperial units, the speedometer shall also be marked in mph with graduations of 1, 2, 5 or 10 mph."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.2",
+      "quote": "The numerical values of the speed shall be indicated on the display at intervals not exceeding 20 mph and commencing at 10 or 20 mph",
+      "text": "Where the speedometer is marked in mph, numerical speed values shall be indicated at intervals not exceeding 20 mph and commencing at 10 or 20 mph."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5.1",
+      "quote": "In the case of vehicles manufactured for sale in any country where imperial units are used, the odometer shall be marked in miles",
+      "text": "Where the N1 vehicle is sold in a country using imperial units, the odometer shall be marked in miles."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.4",
+      "quote": "To every vehicle conforming to a vehicle type approved under this Regulation there shall be affixed in a conspicuous and easily accessible position, specified on the approval form, an international approval mark",
+      "text": "The vehicle shall carry an international approval mark in a conspicuous and easily accessible position specified on the approval form."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.4.1",
+      "quote": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+      "text": "The approval mark shall comprise a circle surrounding the letter \"E\" followed by the distinguishing number of the approving country."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.4.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle described in paragraph 4.4.1",
+      "text": "The approval mark shall show the number of this Regulation, the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and shall be indelible",
+      "text": "The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.7",
+      "quote": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 3 2",
+      "quote": "In the case of vehicles of categories M and N: 0 ≤ (V1 - V2) ≤ 0.1 V2 + 6 km/h",
+      "text": "For conformity of production of the N1 vehicle, the speedometer shall satisfy 0 ≤ (V1 − V2) ≤ 0.1 V2 + 6 km/h between indicated speed V1 and actual speed V2."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 4 1.1.3",
+      "quote": "The reference temperature at the odometer shall be 23 ± 5 °C, if relevant for the test to the discretion of the Technical Service responsible for carrying out the test",
+      "text": "Where relevant for the odometer accuracy test, the reference temperature at the odometer shall be 23 ± 5 °C."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 4 1.1.5",
+      "quote": "The test instrumentation used for measuring the true distance travelled shall be accurate to ± 0.5 per cent",
+      "text": "The test instrumentation used for measuring true distance travelled in the odometer test shall be accurate to ±0.5 %."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 4 1.1.6",
+      "quote": "The vehicle is tested at a speed which may vary between 0 and 100 km/h",
+      "text": "The odometer accuracy test shall be conducted at a test speed between 0 and 100 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 4 1.1.8",
+      "quote": "The vehicle is driven for a minimum of 10 kilometres or 7 miles as indicated on the odometer and the true value is read from the instrumentation",
+      "text": "The odometer accuracy test shall cover a distance of at least 10 km or 7 miles as indicated on the odometer."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation",
+      "text": "The speedometer and odometer electronic module shall be designed and constructed so that the vehicle, in normal conditions of use, complies with UN R10."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances",
+      "text": "The speedometer and odometer module, as an ESA, shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The module shall keep broadband radiated emissions between 62 and 52 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+      "text": "The module shall keep broadband radiated emissions between 52 and 63 dBµV/m in the 75 to 400 MHz band, increasing logarithmically above 75 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m",
+      "text": "The module shall keep broadband radiated emissions at or below 63 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.2",
+      "quote": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits",
+      "text": "The measured broadband emission values of the module shall be below the type approval limits in dBµV/m."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The module shall keep narrowband radiated emissions between 52 and 42 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+      "text": "The module shall keep narrowband radiated emissions between 42 and 53 dBµV/m in the 75 to 400 MHz band, increasing logarithmically above 75 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m",
+      "text": "The module shall keep narrowband radiated emissions at or below 53 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.2",
+      "quote": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits",
+      "text": "The measured narrowband emission values of the module shall be below the type approval limits in dBµV/m."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Positive +75 V +150 V Negative -100 V -450 V",
+      "text": "For a 12 V system, the transient pulses emitted by the module on the supply lines shall not exceed +75 V (positive) and −100 V (negative)."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+      "text": "The module shall withstand, over 90 % of the 20 to 6,000 MHz band below 2 GHz, test levels of 60 V/m (stripline), 75 V/m (TEM cell), 60 mA (BCI), 30 V/m (ALSE) and 21 V/m (reverberation chamber)."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level above 2 GHz Not applicable Not applicable Not applicable 10 V/m 7 V/m",
+      "text": "The module shall withstand, above 2 GHz, test levels of 10 V/m in the ALSE method and 7 V/m in the reverberation chamber method."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+      "text": "The module shall withstand, over the whole 20 to 6,000 MHz band below 2 GHz, minimum test levels of 50 V/m (stripline), 62.5 V/m (TEM cell), 50 mA (BCI), 25 V/m (ALSE) and 18 V/m (reverberation chamber)."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.2",
+      "quote": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "The module shall show no degradation of performance of its immunity related functions during the immunity tests of Annex 9."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "1 -75 V -450 V 500 pulses III III",
+      "text": "For a 12 V system, the module shall withstand test pulse 1 at −75 V for 500 pulses at functional performance status III for both related and non-related immunity functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "2a +37 V +37 V 500 pulses I III",
+      "text": "For a 12 V system, the module shall withstand test pulse 2a at +37 V for 500 pulses at FPSC I for immunity related functions and FPSC III for non-related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "3a -112 V -150 V 1 h I III",
+      "text": "For a 12 V system, the module shall withstand test pulse 3a at −112 V for 1 hour at FPSC I for immunity related functions and FPSC III for non-related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "3b +75 V +150 V 1 h I III",
+      "text": "For a 12 V system, the module shall withstand test pulse 3b at +75 V for 1 hour at FPSC I for immunity related functions and FPSC III for non-related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases) C (for other ESA)",
+      "text": "Where the module is required to operate during engine start phases, it shall meet functional status B under the starting profile with 10 pulses."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.10.1",
+      "quote": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+      "text": "Where the module contains no electronic oscillator operating above 9 kHz, it shall be deemed to comply with the narrowband emission requirements of paragraph 6.6.2."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.10.5",
+      "quote": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission and shall be deemed to comply with paragraph 6.7",
+      "text": "Where the module is not switched, contains no switches and includes no inductive load, it shall be deemed to comply with the transient conducted emission requirements of paragraph 6.7."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation",
+      "text": "The speedometer and odometer module shall carry the approval mark described in paragraph 5.3 when it conforms to a type approved under UN R10."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3",
+      "quote": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation",
+      "text": "The module shall carry the international approval mark in a conspicuous and easily accessible place specified on the approval communication form."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval",
+      "text": "The module's approval mark shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the country granting approval."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1",
+      "text": "The module's approval mark shall show the number of this Regulation, the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle",
+      "text": "The module's approval marking need not be visible once the module is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "3.2.6",
+      "quote": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation",
+      "text": "Each sample module submitted for testing shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 1",
+      "quote": "a = 6 mm min",
+      "text": "The dimension of the approval mark affixed to the module shall be at least 6 mm."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Cluster operate in normal mode Unexpected warning Inconsistent variation of the odometer",
+      "text": "When the instrument cluster is in normal operating mode during the 50 km/h immunity test, unexpected warnings and inconsistent variation of the odometer shall be treated as a failure of the module."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Vehicle speed 50 km/h (respectively 25 km/h for L1, L2 vehicles) ±20 per cent (vehicle driving the rollers).",
+      "text": "During the immunity test the module's indicated vehicle speed shall stay within ±20 % of the 50 km/h nominal test speed."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 2.1",
+      "quote": "The ESA under test shall be in normal operation mode, preferably in maximum load",
+      "text": "During the broadband emission test, the module shall be operated in normal operation mode, preferably at maximum load."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 3.4",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+      "text": "The ambient noise during the module's broadband emission test shall be at least 6 dB below the limits of paragraph 6.5.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.2",
+      "quote": "If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied",
+      "text": "Where peak detectors are used for the module's emission measurements, a 20 dB correction factor as defined in CISPR 12 shall be applied."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 2.2",
+      "quote": "The ESA under test shall be switched on and shall be stimulated to be in normal operation condition",
+      "text": "During the immunity tests, the module shall be switched on and stimulated into its normal operating condition."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1",
+      "text": "The module's immunity shall be tested over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+      "text": "In the 20 to 400 MHz range, the immunity test signal shall be amplitude modulated at 1 kHz with 80 % modulation depth."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "PM2 (pulse modulation type 2), Ton 3 µs, period 3,333 µs in the 2,700 to 3,100 MHz frequency range",
+      "text": "In the 2,700 to 3,100 MHz range, the immunity test signal shall use pulse modulation type 2 with 3 µs on-time and 3,333 µs period."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "PM3 (pulse modulation type 3), Ton 500 µs, period 1,000 µs in the 380 to 2,700 MHz and the 3,100 to 6,000 MHz frequency ranges",
+      "text": "In the 380 to 2,700 MHz and 3,100 to 6,000 MHz ranges, the immunity test signal shall use pulse modulation type 3 with 500 µs on-time and 1,000 µs period."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.1.2",
+      "quote": "The \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2. The test shall be performed with vertical polarization",
+      "text": "The module's absorber chamber immunity test shall use the substitution method per ISO 11452-2 with vertical polarization."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "The module's bulk current injection test shall use the substitution method with the injection probe positioned 150 mm from the module."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 10 2",
+      "quote": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 to the supply lines as well as to other connections of ESAs",
+      "text": "Test pulses 1, 2a, 2b, 3a and 3b per ISO 7637-2 shall be applied to the module's supply lines and to other connections operationally connected to supply lines."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 10 2",
+      "quote": "ESAs that are exclusively reserved for mounting on electric vehicles (vehicles without 12V/24V starter motor) are not subject to starting profile",
+      "text": "Where the module is exclusively reserved for mounting on vehicles without a 12 V/24 V starter motor, it is not subject to the starting profile test."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 10 3",
+      "quote": "Measurement according to the International Standard ISO 7637-2 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines",
+      "text": "The module's transient conducted emissions shall be measured per ISO 7637-2 on its supply lines and on other connections operationally connected to supply lines."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Appendix 2",
+      "quote": "E = 32 E = 32 + 15.13 log (F/75) E = 43",
+      "text": "For the vehicle-level broadband emission test at 10 m antenna distance, the module's contribution shall keep the vehicle within limits E = 32 dBµV/m (30–75 MHz), E = 32 + 15.13 log(F/75) (75–400 MHz) and E = 43 dBµV/m (400–1,000 MHz)."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Appendix 4",
+      "quote": "E = 28 E = 35",
+      "text": "For the vehicle-level narrowband emission test at 10 m antenna distance, the module's contribution shall keep the vehicle within 28 dBµV/m (30–230 MHz) and 35 dBµV/m (230–1,000 MHz)."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Appendix 6",
+      "quote": "E = 62 - 25.13 log (F/30)",
+      "text": "For the module as an ESA, the broadband emission limit below 75 MHz shall follow E = 62 − 25.13 log(F/30) dBµV/m with a 120 kHz bandwidth."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Appendix 7",
+      "quote": "E = 52 - 25.13 log (F/30)",
+      "text": "For the module as an ESA, the narrowband emission limit below 75 MHz shall follow E = 52 − 25.13 log(F/30) dBµV/m with a 120 kHz bandwidth."
+    }
+  ]
+}

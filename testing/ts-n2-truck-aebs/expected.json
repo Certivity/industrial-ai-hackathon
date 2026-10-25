@@ -1,0 +1,1816 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-n2-truck-aebs",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The AEBS shall meet the performance requirements when activated and operated within the prescribed speed ranges.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The AEBS shall not have its effectiveness adversely affected by magnetic or electrical fields.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The AEBS shall provide a failure warning when there is a failure in the AEBS that prevents the requirements of this Regulation from being met.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The AEBS shall not have an appreciable time interval between each self-check and shall not delay illuminating the warning signal in the case of an electrically detectable failure.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.4.1.1"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The AEBS shall illuminate the failure warning signal upon detection of any non-electrical failure condition such as sensor blindness or sensor misalignment.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.4.1.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The AEBS shall indicate its non-initialised status to the driver if the system has not been initialised after a cumulative driving time of 15 seconds above a speed of 10 km/h, and this information shall exist until successful initialisation.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.4.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The AEBS shall give a deactivation warning when the system is deactivated, where the vehicle is equipped with a means to deactivate the AEBS.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.4.3"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The AEBS shall provide emergency braking interventions having the purpose of significantly decreasing the speed of the subject vehicle.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The AEBS shall be designed to minimise the generation of collision warning signals and to avoid emergency braking in situations where there is no risk of an imminent collision.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The vehicle fitted with the AEBS shall be equipped with an anti-lock system in accordance with the performance requirements of Annex 13 to UN Regulation No. 13 in its 11 series of amendments.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 5,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The AEBS shall provide a collision warning when an imminent collision with a preceding vehicle of Category M, N or O is detected in the same lane with a relative speed above that speed up to which the subject vehicle is able to avoid the collision, within the conditions specified in paragraph 5.2.1.4.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The collision warning shall be triggered at the latest 0.8 seconds before the start of emergency braking.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Where the collision cannot be anticipated in time to give a collision warning 0.8 seconds ahead of emergency braking, the AEBS shall provide the collision warning no later than the start of the emergency braking.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The AEBS shall issue a braking demand of at least 4 m/s² to the service braking system of the vehicle when it has detected the possibility of an imminent collision.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 6,
+        "paragraph": "5.2.1.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The AEBS shall abort the emergency braking or reduce the deceleration demand below the threshold where the conditions prevailing a collision are no longer present or the risk of a collision has decreased.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 6,
+        "paragraph": "5.2.1.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The AEBS shall be active at least within the vehicle speed range between 10 km/h and the maximum design speed of the vehicle and at all vehicle load conditions, unless deactivated as per paragraph 5.4.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 6,
+        "paragraph": "5.2.1.3"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The AEBS shall, in absence of driver's input leading to interruption, achieve a relative impact speed less than or equal to the maximum relative impact speed shown in Table 1.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 6,
+        "paragraph": "5.2.1.4"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "For an N2 vehicle with a maximum mass above 8 t and pneumatic braking, the AEBS shall achieve a maximum relative impact speed of 0 km/h at relative speeds of 10 to 60 km/h, 25 km/h at 70 km/h and 37 km/h at 80 km/h.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 7,
+        "paragraph": "5.2.1.4. Table 1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The AEBS shall not deactivate or unreasonably switch the control strategy when conditions deviate from those listed in paragraph 5.2.1.4.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 7,
+        "paragraph": "5.2.1.4"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "Where the vehicle is driven in urban areas where the speed is limited to 60 km/h or below, the AEBS shall provide a speed reduction of at least 40 km/h.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 8,
+        "paragraph": "5.2.1.4. Table 1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The AEBS shall provide a collision warning no later than the start of the emergency braking when it has detected the possibility of a collision with a pedestrian crossing the road at a constant speed of not more than 5 km/h within the conditions specified in paragraph 5.2.2.4.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 8,
+        "paragraph": "5.2.2.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The AEBS shall issue a braking demand of at least 4 m/s² to the service braking system of the vehicle when the system has detected the possibility of an imminent collision with a pedestrian.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 8,
+        "paragraph": "5.2.2.2"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The AEBS shall be active at least within the vehicle speed range between 20 km/h and 60 km/h and at all vehicle load conditions, unless deactivated as per paragraph 5.4.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 8,
+        "paragraph": "5.2.2.3"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "For an N2 vehicle with a maximum mass above 8 t and pneumatic braking, the AEBS shall achieve a maximum impact speed in the direction of travel of 0 km/h at 20 km/h subject speed, 13 km/h at 26 km/h, 18 km/h at 30 km/h, 29 km/h at 40 km/h, 39 km/h at 50 km/h and 49 km/h at 60 km/h.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 9,
+        "paragraph": "5.2.2.4"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The AEBS shall provide appropriate and robust means for the driver to interrupt the collision warning and the emergency braking.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 10,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The AEBS shall allow interruption of the collision warning and emergency braking by any positive action such as kick-down or a swerving action resulting in enough change of direction to not hit the target.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 10,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The AEBS function shall be automatically reinstated at each initiation of the powertrain where a means to manually deactivate the AEBS function is provided.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 10,
+        "paragraph": "5.4.1.1"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The AEBS deactivation control shall be designed so that manual deactivation is not possible with less than two deliberate actions.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 10,
+        "paragraph": "5.4.1.2"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The AEBS shall be automatically reinstated latest after 15 minutes for every manual deactivation requested by the driver, and it shall be possible for the driver to reactivate it at any time including whilst driving.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 10,
+        "paragraph": "5.4.1.4"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The AEBS shall inform the driver with a constant optical warning signal that the AEBS function has been deactivated.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.4.4"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The collision warning shall be provided by at least two modes selected from acoustic, haptic or optical.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "Where an optical means is used as part of the collision warning, the optical signal may be the flashing of the failure warning signal specified in paragraph 5.5.4.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.5.3"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The AEBS failure warning shall be a constant yellow optical warning signal.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.5.4"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "Each AEBS optical warning signal shall be activated when the ignition switch is turned to the on (run) position or to the check position between on and start.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.5.5"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The AEBS optical warning signals shall be visible even by daylight and their satisfactory condition shall be easily verifiable by the driver from the driver's seat.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.5.6"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The optical warning signal indicating that the AEBS is temporarily not available, for example due to inclement weather conditions, shall be constant.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.5.7"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The AEBS shall allow confirmation of its correct operational status at a Periodic Technical Inspection by visible observation of the failure warning signal status following a power-ON and any bulb check.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "5.6.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The AEBS shall be tested on a flat, dry, concrete or asphalt road affording good adhesion.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 11,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The AEBS shall be tested at an ambient temperature between 0 °C and 45 °C.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 12,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The AEBS vehicle-to-vehicle tests shall be performed at a homogeneous natural ambient illumination in excess of 1000 lux, and vehicle-to-pedestrian tests in excess of 2000 lux.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 12,
+        "paragraph": "6.1.5"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The AEBS test vehicle shall maintain a fuel level never below 50 per cent during the series of test runs.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 12,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The service brakes of the AEBS test vehicle shall be below 100 °C on the hottest axle prior to each test run.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 12,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The vehicle target used for the AEBS vehicle detection tests shall be a regular high-volume series production passenger car of Category M1 or a soft target representative of a passenger vehicle according to ISO 19206-3:2021.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 12,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The target used for the AEBS pedestrian detection tests shall be a child articulated soft target representative of the human attributes applicable to the sensor system according to ISO 19206-2:2018.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 13,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The AEBS test vehicle shall approach the stationary target in a straight line for at least two seconds prior to the functional part of the test with a subject vehicle to target centreline offset of not more than 0.2 m.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 13,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The AEBS stationary vehicle target tests shall be conducted at 20 km/h, at the maximum required impact avoidance speed and at that speed plus 8 km/h or the maximum design speed, whichever is lower, with a tolerance of ± 2 km/h.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 13,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The functional part of the stationary vehicle target test shall start at a distance corresponding to a time to collision of at least 4 seconds from the target.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 13,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The AEBS moving vehicle target test shall be performed with the subject vehicle and the moving target travelling in a straight line in the same direction for at least two seconds prior to the functional part of the test with a centreline offset of not more than 0.2 m.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 13,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The moving target in the AEBS moving vehicle target test shall travel at 20 km/h with a tolerance of +0/-2 km/h.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 13,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The pedestrian target shall travel in a straight line perpendicular to the subject vehicle's direction of travel at a constant speed of 5 km/h +0/-0.4 km/h, starting not before the functional part of the test has started.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 14,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The pedestrian target shall be positioned so that its impact point on the front of the subject vehicle is on the longitudinal centreline with a tolerance of not more than 0.1 m if the subject vehicle would remain at the prescribed test speed and not brake.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 14,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The AEBS pedestrian tests shall be conducted at 20 km/h, at the maximum required collision avoidance speed and at that speed plus 8 km/h or the maximum design speed, whichever is lower, with a tolerance of ± 2 km/h.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 14,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The AEBS shall be subjected to a simulated electrical failure by disconnecting the power source to any AEBS component or any electrical connection between AEBS components.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 15,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The AEBS failure warning signal shall be activated and remain activated not later than 10 s after the vehicle has been driven at a speed greater than 10 km/h following a simulated failure.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 15,
+        "paragraph": "6.7.2"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The AEBS deactivation warning signal shall be activated when the AEBS is deactivated with the ignition switch in the on (run) position.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 15,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "Each AEBS test scenario shall be performed two times, and a scenario shall be accounted as passed if the required performance is met in two test runs.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 15,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The number of failed test runs within the Vehicle to Vehicle category shall not exceed 10.0 per cent of the performed test runs.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 15,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The AEBS false reaction test vehicle shall travel for a distance of at least 60 m at a constant speed of 50 ± 2 km/h to pass centrally between the two stationary vehicles.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 16,
+        "paragraph": "6.10.2"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The AEBS shall not provide a collision warning and shall not initiate the emergency braking phase when passing between two stationary vehicles in the false reaction test.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 16,
+        "paragraph": "6.10.3"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "At least 30 per cent of the required AEBS tests shall be performed physically, including at least one test of each scenario variant described in paragraphs 6.4 to 6.6 relevant for the approval.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 16,
+        "paragraph": "6.11.3"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The AEBS shall bear the approval mark showing the circle surrounding the letter E, the Regulation number followed by R and the approval number, with C for Vehicle to Vehicle and P for Vehicle to Pedestrian.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 19,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "Each AEBS unit shall be clearly and unambiguously identifiable by marking for hardware and marking or software output for software content.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 21,
+        "paragraph": "Annex 3 3.3.5"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The AEBS unit identification shall define the hardware and software version and shall be changed where the software changes alter the function of the unit.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.3.5.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The AEBS shall be designed with a strategy that will not, under non-fault conditions, prejudice the safe operation of the vehicle.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.4.1"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The AEBS shall warn the driver by warning signal or message display in case of a failure.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.4.3"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The AEBS failure warning shall be present as long as the fault condition persists when the system is not deactivated by the driver.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.4.3"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "Where the AEBS safety concept removes the higher level function, all its corresponding output control signals shall be inhibited in a manner that limits the transition disturbance.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.4.3.3"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The AEBS shall be provided with measures ensuring it does not prejudice the safe operation of the vehicle when its performance is affected by environmental conditions such as climatic, temperature, dust ingress, water ingress or ice packing.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 23,
+        "paragraph": "Annex 3 3.4.4.2"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "Where virtual testing is used for the AEBS, the credibility of the toolchain shall be demonstrated considering capability, accuracy, correctness, fit for purpose and usability.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 29,
+        "paragraph": "Annex 4 2.1.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The virtual testing toolchain and its components shall be capable of accurately representing the relevant aspects of the physical AEBS being modelled.",
+      "source": {
+        "regulation": "UN R131",
+        "version": "2.3.0",
+        "page": 30,
+        "paragraph": "Annex 4 2.4.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The AEBS service brake interface shall be so designed, constructed and fitted as to enable the vehicle in normal use, despite vibration, to comply with the braking requirements.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 5,
+        "paragraph": "5.1.1.1"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The braking equipment actuated by the AEBS shall be so designed, constructed and fitted as to resist the corroding and ageing phenomena to which it is exposed.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 5,
+        "paragraph": "5.1.1.2"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The brake linings of the vehicle fitted with the AEBS shall not contain asbestos.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 5,
+        "paragraph": "5.1.1.3"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The effectiveness of the braking equipment commanded by the AEBS shall not be adversely affected by magnetic or electrical fields, demonstrated by fulfilling the technical requirements of Regulation No. 10.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 5,
+        "paragraph": "5.1.1.4"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "A failure detection signal of the AEBS may interrupt momentarily (< 10 ms) the demand signal in the control transmission only if the braking performance is thereby not reduced.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 6,
+        "paragraph": "5.1.1.5"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The service braking system commanded by the AEBS shall make it possible to control the movement of the vehicle and halt it safely, speedily and effectively whatever its speed and load on any up or down gradient.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 6,
+        "paragraph": "5.1.2.1"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The secondary braking system shall halt the vehicle within a reasonable distance by application of the service brake control in the event of failure of the service braking system.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 6,
+        "paragraph": "5.1.2.2"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The service brake components commanded by the AEBS shall allow assessment of their wear condition, for friction linings and drums/discs, at periodic technical inspection.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 6,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The braking system commanded by the AEBS shall allow generation of maximum braking forces under static conditions on a rolling road or roller brake tester.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 6,
+        "paragraph": "5.1.4.2"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "That part of the service braking system not affected by a single failure shall be able to bring the vehicle to a halt in the conditions prescribed for secondary braking.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 8,
+        "paragraph": "5.2.2.6"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "Components of the service brake control whose failure would prevent secondary braking shall be made of metal or of a material with equivalent characteristics and shall not undergo notable distortion in normal operation.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 8,
+        "paragraph": "5.2.2.10"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The AEBS hydraulic brake interface shall signal a failure of a hydraulic transmission part to the driver by a red tell-tale lighting up before or upon application of a differential pressure of not more than 15.5 bar.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 8,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The brake failure tell-tale signal shall be visible even by daylight and its satisfactory condition easily verifiable by the driver from the driver's seat.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 9,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "Any intrinsic variations in the torque output of a regenerative braking system shall be automatically compensated so that the braking rate remains related to the driver's braking demand.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 9,
+        "paragraph": "5.2.7.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The action of the service braking system commanded by the AEBS shall be distributed between the wheels of one and the same axle symmetrically in relation to the longitudinal median plane of the vehicle.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 10,
+        "paragraph": "5.2.8"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The AEBS shall indicate compensation by the electric control transmission for deterioration or defect within the braking system to the driver by means of the yellow warning signal when the compensation exceeds the specified limits.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 10,
+        "paragraph": "5.2.8.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "Malfunctions of the electric control transmission shall not apply the brakes contrary to the intentions of the driver.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 10,
+        "paragraph": "5.2.9"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The brakes commanded by the AEBS shall have wear capable of being easily taken up by a system of manual or automatic adjustment, with sufficient reserve of travel.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 11,
+        "paragraph": "5.2.11"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "Wear adjustment shall be automatic for the service brakes, and effective braking shall still be ensured after heating followed by cooling of the brakes.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 11,
+        "paragraph": "5.2.11.1"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The wear of service brake linings shall be easily assessable from the outside or underside of the vehicle without removal of the wheels by appropriate inspection holes or by some other means.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 11,
+        "paragraph": "5.2.11.2.1"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The AEBS vehicle shall be fitted with a sensing device per wheel warning the driver at his driving position when lining replacement is necessary, or with inspection holes allowing wear assessment.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 11,
+        "paragraph": "5.2.11.2.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The hydraulic transmission braking system shall identify the type of fluid by the ISO 9128:2006 symbol and the appropriate DOT marking affixed visibly and indelibly within 100 mm of the filling ports.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 11,
+        "paragraph": "5.2.13"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "The AEBS vehicle with a service brake actuated from an energy reserve shall be provided with a warning device giving an optical or acoustic signal at the latest when the stored energy falls to the specified level.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 11,
+        "paragraph": "5.2.14.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "The energy reserve warning device shall be directly and permanently connected to the circuit and use the red warning signal specified in paragraph 5.2.21.1.1. as its optical signal.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 12,
+        "paragraph": "5.2.14.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The AEBS braking system shall have an energy reserve ensuring that, if the engine stops or the means driving the energy source fails, the braking performance remains adequate to bring the vehicle to a halt.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 13,
+        "paragraph": "5.2.15"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The auxiliary equipment supplied from the same energy source as the braking system shall be supplied with energy such that the prescribed deceleration values can be reached during its operation.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 13,
+        "paragraph": "5.2.16"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The AEBS vehicle shall have no distinguishable effect on the service braking performance in the case of a single temporary failure (< 40 ms) within the electric control transmission excluding its energy supply.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 15,
+        "paragraph": "5.2.20.2"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "A failure within the electric control transmission not including its energy reserve that affects the function and performance of the braking system shall be indicated to the driver by the red or yellow warning signal as appropriate.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 15,
+        "paragraph": "5.2.20.3"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The AEBS shall provide a red warning signal indicating failures within the vehicle braking equipment which preclude achievement of the prescribed service braking performance or functioning of at least one of two independent service braking circuits.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 16,
+        "paragraph": "5.2.21.1.1"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The AEBS shall provide a yellow warning signal indicating an electrically detected defect within the vehicle braking equipment which is not indicated by the red warning signal.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 16,
+        "paragraph": "5.2.21.1.2"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The brake failure and defect warning signals shall employ the brake system malfunction symbol listed in UN Regulation No. 121.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 16,
+        "paragraph": "5.2.21.1.3"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The brake warning signals shall be visible even by daylight and easily verifiable by the driver from the driver's seat, and failure of a warning device component shall not entail loss of braking system performance.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 16,
+        "paragraph": "5.2.21.2"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "A specified failure or defect shall be signalled to the driver by the warning signal not later than on actuation of the relevant braking control.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 17,
+        "paragraph": "5.2.21.3.1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The brake warning signal shall remain displayed as long as the failure or defect persists and the ignition switch is in the On (run) position.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 17,
+        "paragraph": "5.2.21.3.2"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The brake warning signal shall be constant and not flashing.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 17,
+        "paragraph": "5.2.21.3.3"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The brake warning signals shall light up when the electrical equipment of the vehicle and the braking system is energised, and the system shall verify before extinguishing the signals that none of the specified failures or defects are present.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 17,
+        "paragraph": "5.2.21.4"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The AEBS shall generate the stop lamp signal when the braking it commands exceeds 1.3 m/s², and this signal shall be kept as long as a deceleration demand persists.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 17,
+        "paragraph": "5.2.22.2"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The AEBS shall implement an appropriate measure such as switch-off-hysteresis, averaging or time delay to avoid fast changes of the stop lamp signal causing flicker.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 17,
+        "paragraph": "5.2.22.2"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "Activation of part of the service braking system by selective braking or by functions whose primary intention is not to decelerate the vehicle shall not generate the stop lamp signal.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 17,
+        "paragraph": "5.2.22.3"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The emergency braking signal shall not be activated when the vehicle deceleration is below 6 m/s² but may be generated at any deceleration at or above this value.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 18,
+        "paragraph": "5.2.23.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "The emergency braking signal shall be de-activated at the latest when the deceleration has fallen below 2.5 m/s².",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 18,
+        "paragraph": "5.2.23.1"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The braking system shall transmit detected faults to the automated driving system whilst the ADS is active.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 22,
+        "paragraph": "5.3.3"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The vehicle shall bear the braking approval mark with a minimum dimension a = 8 mm showing the circle with the letter E, the Regulation number followed by R and the approval number.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 29,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The AEBS braking tests shall start with cold tyres at the pressure prescribed for the load actually borne by the wheels.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 30,
+        "paragraph": "Annex 3 1.2.6"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "The AEBS shall achieve the prescribed braking performance without wheel locking at speeds exceeding 15 km/h, without deviation from a 3.5 m wide lane, without exceeding a yaw angle of 15° and without abnormal vibrations.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 30,
+        "paragraph": "Annex 3 1.2.7"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The service brakes shall be between 65 and 100 °C on the hottest axle prior to any brake application in the Type-0 test.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 31,
+        "paragraph": "Annex 3 1.4.1.1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The AEBS Type-0 test shall be conducted with the vehicle laden and its mass distributed among the axles as stated by the manufacturer.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 31,
+        "paragraph": "Annex 3 1.4.1.2.1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The service brakes shall be tested in the Type-I fade test by successively applying and releasing the brakes 15 times with the vehicle laden at 80 per cent of maximum speed, not exceeding 120 km/h, with a cycle duration of 45 s.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 32,
+        "paragraph": "Annex 3 1.5.1.1"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "The control force in the Type-I heating procedure shall be adjusted to attain a mean deceleration of 3 m/s² during every brake application.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 32,
+        "paragraph": "Annex 3 1.5.1.3"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "The hot performance of the service braking system shall not be less than 60 per cent of the figure recorded in the Type-0 test with the engine disconnected.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 33,
+        "paragraph": "Annex 3 1.5.2.2"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The recovery performance of the service braking system shall not be less than 70 per cent nor more than 150 per cent of the figure recorded in the Type-0 test with the engine disconnected.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 34,
+        "paragraph": "Annex 3 1.5.4"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The service brakes shall achieve at the Type-0 test with engine disconnected a stopping distance of not more than 0.1 v + 0.0060 v² and a mean fully developed deceleration of at least 6.43 m/s² from 100 km/h.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 34,
+        "paragraph": "Annex 3 2.1.1"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The secondary braking system shall give a stopping distance not exceeding 0.1 v + 0.0158 v² and a mean fully developed deceleration not less than 2.44 m/s².",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 35,
+        "paragraph": "Annex 3 2.2.2"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The parking braking system shall hold the laden vehicle stationary on a 20 per cent up or down gradient.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 35,
+        "paragraph": "Annex 3 2.3.1"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "Where the parking brake control device is manual, the force applied to it shall not exceed 40 daN.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 35,
+        "paragraph": "Annex 3 2.3.3"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "Where the parking brake control device is a foot control, the force exerted on the control shall not exceed 50 daN.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 35,
+        "paragraph": "Annex 3 2.3.4"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "In an emergency manoeuvre, the time between actuation of the control device and the braking force on the least favourable placed axle reaching the level corresponding to the prescribed performance shall not exceed 0.6 seconds.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 36,
+        "paragraph": "Annex 3 3.1.1"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "In the event of failure of the braking distribution control, the vehicle shall stop under Type-0 conditions with engine disconnected with a stopping distance not exceeding 0.1 v + 0.0100 v² and a mean fully developed deceleration not less than 3.86 m/s².",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 42,
+        "paragraph": "Annex 5 4"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "The wheel-lock sequence test shall be conducted with an initial brake temperature between 65 °C and 100 °C average on the hottest axle.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 43,
+        "paragraph": "Annex 5 Appendix 1 3"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The wheel-lock sequence test shall be conducted at 65 km/h for a braking rate ≤ 0.50 and at 100 km/h for a braking rate > 0.50.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 43,
+        "paragraph": "Annex 5 Appendix 1 3"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "All data acquisition and recording equipment for the torque wheel test shall support a minimum sample rate of 40 Hz on all channels.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 45,
+        "paragraph": "Annex 5 Appendix 2 3"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "Sensor anomalies of the anti-lock system which cannot be detected under static conditions shall be detected not later than when the vehicle speed exceeds 10 km/h.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 47,
+        "paragraph": "Annex 6 4.1.1"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "In the event of a single electrical functional failure affecting only the anti-lock function, the subsequent service braking performance shall not be less than 80 per cent of the prescribed Type-0 performance, corresponding to a mean fully developed deceleration of 5.15 m/s².",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 47,
+        "paragraph": "Annex 6 4.2"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "The operation of the anti-lock system used by the AEBS shall not be adversely affected by magnetic or electrical fields, demonstrated by compliance with Regulation No. 10.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 47,
+        "paragraph": "Annex 6 4.3"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "The anti-lock system shall be deemed satisfactory when the adhesion utilized ε is at least 0.75.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 48,
+        "paragraph": "Annex 6 5.2.1"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "The wheels directly controlled by the anti-lock system shall not lock when full force is suddenly applied at an initial speed of 40 km/h and at a high initial speed of 0.8 vmax ≤ 120 km/h.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 49,
+        "paragraph": "Annex 6 5.3.1"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "When an axle passes from a high-adhesion surface to a low-adhesion surface where kH ≥ 0.5 and kH / kL ≥ 2 with full force applied, the directly controlled wheels shall not lock.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 49,
+        "paragraph": "Annex 6 5.3.2"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "During the additional anti-lock checks, brief periods of wheel-locking shall be allowed and wheel-locking is permitted when the vehicle speed is less than 15 km/h, provided stability and steerability are not affected and the yaw angle does not exceed 15°.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 50,
+        "paragraph": "Annex 6 5.3.6"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "The adhesion utilized value ε shall be rounded to two decimal places.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 54,
+        "paragraph": "Annex 6 Appendix 2 1.2.4"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "The inertia dynamometer for brake lining comparison shall be set within ±5 per cent of the rotary inertia equivalent to that part of the total inertia of the vehicle braked by the appropriate wheels.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 55,
+        "paragraph": "Annex 7 3.1"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "The cooling air flowing over the brake during the dynamometer test shall have a velocity not greater than 10 km/h and a temperature equal to ambient temperature.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 56,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "Five sample sets of the brake lining shall be subjected to the comparison test, compared with five sets of linings conforming to the original components.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 56,
+        "paragraph": "Annex 7 4.1"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "The mean braking torque of the tested brake linings in the cold performance test shall, for the same input measurement, be within ±15 per cent of that of the original linings.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 56,
+        "paragraph": "Annex 7 4.3.3"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "Each braking system unit shall be clearly and unambiguously identifiable by marking for hardware and marking or software output for software content.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 59,
+        "paragraph": "Annex 8 3.3.5"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "The braking system shall warn the driver by warning signal or message display in case of a failure.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 60,
+        "paragraph": "Annex 8 3.4.3"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "The braking system reaction shall be checked under the influence of a failure in any individual unit by applying corresponding output signals to electrical units or mechanical elements to simulate internal faults.",
+      "source": {
+        "regulation": "UN R13H",
+        "version": "2.1.0",
+        "page": 61,
+        "paragraph": "Annex 8 4.1.2"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "The AEBS electrical/electronic sub-assembly sample shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "The AEBS electrical/electronic sub-assembly shall bear an approval mark described in paragraph 5.3 affixed to every ESA conforming to a type approved under this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "The EMC approval mark on the AEBS ESA shall comprise a circle containing the letter E followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "The EMC approval marking on the AEBS ESA need not be visible when the ESA is installed in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "The AEBS and its electrical/electronic sub-assemblies shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the EMC requirements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0152",
+      "text": "The vehicle fitted with the AEBS shall not exceed a broadband radiated emission of 32 dBµV/m from 30 to 75 MHz, 32 to 43 dBµV/m from 75 to 400 MHz increasing logarithmically, and 43 dBµV/m from 400 to 1000 MHz at a 10 m antenna spacing.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0153",
+      "text": "The vehicle fitted with the AEBS shall not exceed a narrowband radiated emission of 28 dBµV/m from 30 to 230 MHz and 35 dBµV/m from 230 to 1000 MHz at a 10 m antenna spacing.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0154",
+      "text": "The vehicle fitted with the AEBS shall withstand a radiated immunity field strength of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole 20 to 2000 MHz band, and 10 V/m over 90 per cent and a minimum of 8 V/m over the whole 2000 to 6000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0155",
+      "text": "The AEBS shall show no degradation of performance of its immunity related functions during the radiated immunity tests performed in accordance with Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0156",
+      "text": "The AEBS ESA shall not exceed a broadband radiated emission of 62 to 52 dBµV/m from 30 to 75 MHz decreasing logarithmically, 52 to 63 dBµV/m from 75 to 400 MHz increasing logarithmically and 63 dBµV/m from 400 to 1000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0157",
+      "text": "The AEBS ESA shall not exceed a narrowband radiated emission of 52 to 42 dBµV/m from 30 to 75 MHz decreasing logarithmically, 42 to 53 dBµV/m from 75 to 400 MHz increasing logarithmically and 53 dBµV/m from 400 to 1000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0158",
+      "text": "The AEBS ESA on a 24 V supply system shall not exceed a positive transient pulse amplitude of +150 V and a negative transient pulse amplitude of −450 V on its supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0159",
+      "text": "The AEBS ESA shall withstand radiated immunity test levels of 60 V/m in stripline, 75 V/m in TEM cell, 60 mA in BCI and 30 V/m in ALSE over 90 per cent of the frequency range below 2 GHz, and 10 V/m in ALSE above 2 GHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0160",
+      "text": "The AEBS ESA shall show no degradation of performance of its immunity related functions during the radiated immunity tests performed in accordance with Annex 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0161",
+      "text": "The AEBS ESA shall withstand test pulse 1 at −450 V for 500 pulses with functional status classification III, and test pulses 2a at +37 V, 2b at +20 V, 3a at −150 V and 3b at +150 V with the functional performance status classifications specified for a 24 V system.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0162",
+      "text": "The AEBS ESA shall be deemed to comply with the narrowband emission limits where it does not include an electronic oscillator with an operating frequency greater than 9 kHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0163",
+      "text": "The EMC approval mark on the AEBS ESA shall have a minimum dimension a = 6 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0164",
+      "text": "The broadband radiated emission limits shall apply throughout the frequency range 30 to 1000 MHz for measurements performed in an absorber lined shielded enclosure or an outdoor test site.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.1"
+      }
+    },
+    {
+      "id": "G-0165",
+      "text": "The emission measurement spectrum analyser shall use a resolution bandwidth of 100/120 kHz at −3 dB with a minimum scan time of 100 ms/MHz for peak detection and 120 kHz at −6 dB with 20 s/MHz for quasi-peak detection in the 30 to 1000 MHz range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.3. Table 1"
+      }
+    },
+    {
+      "id": "G-0166",
+      "text": "The radiated emission measurements of the AEBS vehicle shall be made on the left and right sides of the vehicle, with the antenna positions documented in the test report.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "G-0167",
+      "text": "For the narrowband emission measurement, all AEBS electronic systems shall be in normal operating mode with the vehicle stationary and the ignition switch on.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2.2"
+      }
+    },
+    {
+      "id": "G-0168",
+      "text": "The narrowband radiated emission measurements of the vehicle shall be performed with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.2"
+      }
+    },
+    {
+      "id": "G-0169",
+      "text": "The AEBS vehicle immunity test shall be run in the 50 km/h mode with the vehicle speed at 50 km/h ±20 per cent on the dynamometer, with the speed maintained without deactivation where a cruise control is used.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0170",
+      "text": "During the 50 km/h immunity mode, depression of the brake pedal and unexpected activation of the stop lights shall constitute a failure criterion for the AEBS vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0171",
+      "text": "The instrument cluster of the AEBS vehicle shall operate in normal mode during the immunity test, and unexpected warning or inconsistent variation of the odometer shall constitute a failure.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0172",
+      "text": "The AEBS vehicle immunity test shall be monitored with only non-perturbing equipment, with the vehicle exterior and passenger compartment monitored by video camera or microphone.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 75,
+        "paragraph": "Annex 6 2.1.3"
+      }
+    },
+    {
+      "id": "G-0173",
+      "text": "The AEBS vehicle shall be exposed to electromagnetic radiation in the 20 to 6000 MHz frequency range in vertical polarization.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0174",
+      "text": "The immunity test signal shall be amplitude modulated with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range and pulse modulated with PM2 in 2700 to 3100 MHz and PM3 in 380 to 2700 MHz and 3100 to 6000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0175",
+      "text": "The AEBS ESA under broadband emission test shall be in normal operation mode, preferably in maximum load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "G-0176",
+      "text": "The ambient extraneous noise or signal during the AEBS ESA emission measurement shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0177",
+      "text": "The AEBS ESA under narrowband emission test shall be in normal operation mode, preferably in maximum load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 2"
+      }
+    },
+    {
+      "id": "G-0178",
+      "text": "The AEBS ESA under immunity test shall be switched on and stimulated to be in normal operation condition.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "G-0179",
+      "text": "The AEBS ESA immunity measurements shall be made in the 20 to 6000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0180",
+      "text": "The AEBS ESA shall be subjected to test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 on its supply lines and on other connections operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "G-0181",
+      "text": "The AEBS ESA shall be subjected to the starting profile according to ISO 16750-2 on its supply lines where it may be installed in a vehicle with a 12 V/24 V starter motor.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    }
+  ]
+}

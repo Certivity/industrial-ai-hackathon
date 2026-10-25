@@ -1,0 +1,52 @@
+{
+  "case": "dev-rear-lamp",
+  "agent_exit": 0,
+  "agent_seconds": 25,
+  "run": "runs/dev-rear-lamp/c2-vet2",
+  "spent_usd": 0.04,
+  "replayed_usd": 0.393,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "n_submitted": 5,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 0.9524
+    },
+    "page_level": {
+      "precision": 0.4380165289256198,
+      "recall": 1.0,
+      "f1": 0.6091954022988505,
+      "n_submitted": 121,
+      "n_expected": 53,
+      "n_matched": 53,
+      "f2": 0.7958
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+  ],
+  "n_gold": 190,
+  "n_upper_bound": 936,
+  "funnel": {
+    "gold_requirements": 190,
+    "reachable": 190,
+    "recall": 1.0,
+    "selected_nodes": 936,
+    "gold_nodes": 121,
+    "gold_nodes_reached": 121,
+    "unanchored": 0
+  }
+}

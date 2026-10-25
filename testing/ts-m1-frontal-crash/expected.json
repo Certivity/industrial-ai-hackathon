@@ -1,0 +1,1346 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-m1-frontal-crash",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The front-seat restraint system shall be dimensioned around an H point for each front seat determined in accordance with the Annex 6 procedure.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "Where the front-seat protective system includes belts, the belt webbing, retractors, pretensioners and load limiters shall meet the requirements of UN Regulation No. 16.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The front seat frames with belt anchorages shall provide anchorage points conforming to UN Regulation No. 14 at every front seating position equipped with a belt.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The front structure, airbag modules and steering column shall limit the head performance criterion of the front outboard dummies to not more than 1,000 and the resultant head acceleration to not more than 80 g for more than 3 ms, calculated cumulatively excluding rebound.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The front airbag modules and belt load limiters shall limit the neck injury criteria of the front outboard dummies to the values shown in Figures 1 and 2 of UN R94.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The front airbag modules shall limit the neck bending moment about the y axis of the front outboard dummies to not more than 57 Nm in extension.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The front seat belt load limiters and airbag modules shall limit the thorax compression criterion of the front outboard dummies to not more than 42 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.4"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The restraint system shall limit the viscous criterion for the thorax of the front outboard dummies to not more than 1.0 m/s.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.5"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The front structure and restraint system shall limit the femur force criterion of the front outboard dummies to the force-time performance shown in Figure 3 of UN R94.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.6"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The front structure shall limit the tibia compression force criterion of the front outboard dummies to not more than 8 kN.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.7"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The front structure and footwell shall limit the tibia index of the front outboard dummies to not more than 1.3 at both the top and bottom of each tibia.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.8"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The front structure shall limit the movement of the sliding knee joints of the front outboard dummies to not more than 15 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.9"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The steering column with its energy-absorbing deformation element shall limit the residual steering wheel displacement, measured at the hub centre, to not more than 80 mm upwards and 100 mm rearwards after the impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The body-in-white and door retention shall keep every door closed during the frontal impact test.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The door locking system shall leave the side doors unlocked after the impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Where an automatically activated door locking system is fitted, the doors shall be locked before the moment of impact and unlocked after the impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.4.1"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The structure and restraint system shall allow at least one door per row of seats to be opened after the impact without the use of tools.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.5.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The seat belt buckle release control shall release the locked restraint system with a maximum force of 60 N applied at its centre after the impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.5.2"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The front seat frames and restraint system shall allow the occupants to be removed from the vehicle without adjustment of the seats after the impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.5.3"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "Where continuous leakage of liquid from the fuel-feed installation occurs after the collision, the leakage rate shall not exceed 30 g/min.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 9,
+        "paragraph": "5.2.6.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The vehicle shall carry an international approval mark affixed conspicuously and in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 5,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which granted approval.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 5,
+        "paragraph": "4.4.1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the E circle.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 5,
+        "paragraph": "4.4.2"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 5,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 5,
+        "paragraph": "4.7"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The characters of the approval mark shall have a height of at least 8 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 16,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The front-end structure shall be designed to be evaluated with the vehicle overlapping the deformable barrier face by 40 per cent ± 20 mm, first contact on the steering-column side.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 17,
+        "paragraph": "Annex 3 1.3.1"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The front structure and restraint system shall withstand a frontal impact at a vehicle speed of 56 -0/+1 km/h at the moment of impact.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 19,
+        "paragraph": "Annex 3 4"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The head acceleration channel used to judge the restraint system shall be recorded with a CFC of 1,000.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 20,
+        "paragraph": "Annex 3 5.2.1"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The neck bending moment channel used to judge the restraint system shall be recorded with a CFC of 600.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 20,
+        "paragraph": "Annex 3 5.2.2.2"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The chest deflection channel used to judge the thorax criterion shall be recorded with a CFC of 180.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 20,
+        "paragraph": "Annex 3 5.2.3"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The femur and tibia force and bending moment channels used to judge the restraint system shall be recorded with a CFC of 600.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 20,
+        "paragraph": "Annex 3 5.2.4.1"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The front-end structure shall provide a deceleration time history measurable at the base of the struck-side B pillar with a CFC of 180.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 20,
+        "paragraph": "Annex 3 6.1"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The restraint system test shall be conducted with dummy and instrumentation temperature stabilised within 19 °C to 22.2 °C.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 24,
+        "paragraph": "Annex 5 2.8"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "For the restraint system adjustment, a tension load of 9 to 18 N shall be applied to the lap belt.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 25,
+        "paragraph": "Annex 5 3"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The linearity error of each data channel used for the restraint system measurements shall not exceed 2.5 per cent of the CAC over the whole measurement range.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 28,
+        "paragraph": "Annex 8 2.1"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The relative time delay between any two data channels shall not exceed 1 ms excluding phase-shift delay.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 28,
+        "paragraph": "Annex 8 2.4.2"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The cross sensitivity of every transducer in the crash measurement chain shall be less than 5 per cent in any direction.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 29,
+        "paragraph": "Annex 8 2.5"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The data acquisition shall sample each channel at a frequency of at least 8 FH.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 30,
+        "paragraph": "Annex 8 4.2.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "Where the front-seat protective system includes belts, the belt webbing, retractors, pretensioners and load limiters shall meet the requirements of UN Regulation No. 16.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The front seat frames with belt anchorages shall provide anchorage points conforming to UN Regulation No. 14 at the front seating positions.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The restraint system shall limit the HPC of the 50th percentile driver dummy to not more than 1000 and the resultant head acceleration to not more than 80 g for more than 3 ms.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The restraint system shall limit the axial tensile neck force of the 50th percentile driver dummy to not more than 3.3 kN.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The restraint system shall limit the fore/aft shear forces at the head/neck interface of the 50th percentile driver dummy to not more than 3.1 kN.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The front seat belt load limiters and airbags shall limit the thorax compression criterion of the 50th percentile driver dummy to not more than 42 mm.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.3"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The restraint system shall limit the viscous criterion for the thorax of the 50th percentile driver dummy to not more than 1.0 m/s.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.4"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The front structure and restraint system shall limit the femur force criterion of the 50th percentile driver dummy to not more than 9.07 kN.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.2.1.1.5"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The restraint system shall limit the axial tensile neck force of the 5th percentile passenger dummy to not more than 2.9 kN.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The restraint system shall limit the fore/aft shear forces at the head/neck interface of the 5th percentile passenger dummy to not more than 2.7 kN.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The passenger airbag module and belt load limiter shall limit the thorax compression criterion of the 5th percentile female passenger dummy to not more than 34 mm in the M1 vehicle.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.3"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The restraint system shall limit the viscous criterion for the thorax of the 5th percentile passenger dummy to not more than 1.0 m/s.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.4"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The front structure and restraint system shall limit the femur force criterion of the 5th percentile passenger dummy to not more than 7 kN.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.1.2.5"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The steering column with its energy-absorbing deformation element shall limit the residual steering wheel displacement at the hub centre to not more than 80 mm upwards and 100 mm rearwards after the test.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.2.1"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The body-in-white and door retention shall keep every door closed during the full-width rigid barrier test.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The door locking system shall leave the side doors unlocked after the impact.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The structure shall allow at least one door per row of seats to be opened after the impact without the use of tools.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.2.5.1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The seat belt buckle release control shall release the locked restraint system with a maximum force of 60 N applied at its centre after the impact.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.2.5.2"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The front seat frames and restraint system shall allow the dummies to be removed from the vehicle without adjustment of the seats.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.2.5.3"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The vehicle shall carry an international approval mark affixed conspicuously and in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country granting approval.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "4.4.1"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the E circle.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "4.4.2"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "4.7"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The characters of the approval mark shall have a height of at least 8 mm.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The front-end structure shall withstand a full-width rigid barrier test with a lateral misalignment between the vehicle front centreline and the wall centreline of not more than ± 30 cm.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "Annex 3 1.3.1"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The front structure and restraint system shall withstand a full-width rigid barrier impact at a vehicle speed of 50 -0/+1 km/h.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "Annex 3 4"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "The head acceleration channel used to judge the restraint system shall be recorded with a CFC of 1000.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 18,
+        "paragraph": "Annex 3 5.2.1"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The neck bending moment channel used to judge the restraint system shall be recorded with a CFC of 600.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "Annex 3 5.2.2.2"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The chest deflection channel used to judge the thorax criterion shall be recorded with a CFC of 180.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "Annex 3 5.2.3"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The femur axial compressive force channel used to judge the restraint system shall be recorded with a CFC of 600.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 19,
+        "paragraph": "Annex 3 5.2.4.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The sternum deflection data used to calculate the viscous criterion shall be sampled with a maximum time interval of 1.25 x 10-4 seconds.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 20,
+        "paragraph": "Annex 4 5.2"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The restraint system test shall be conducted with dummy and instrumentation temperature stabilised within 19 °C to 22.2 °C.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 23,
+        "paragraph": "Annex 5 2.8"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The passenger seat cushion shall allow the 5th percentile female dummy to be set at a pelvic angle of 20 degrees ± 2.5 degrees.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 24,
+        "paragraph": "Annex 5 3.4.3.2"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "For the restraint system adjustment, a tension load of 9 to 18 N shall be applied to the lap belt.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 26,
+        "paragraph": "Annex 5 4"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The frequency response of each data channel used for the restraint system measurements shall lie within the limiting curves of Figure 1 of Annex 8.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 29,
+        "paragraph": "Annex 8 2.2"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The mounting of each transducer shall have a lowest resonance frequency of at least 5 times the FH of its data channel.",
+      "source": {
+        "regulation": "UN R137",
+        "version": "4.0.0",
+        "page": 31,
+        "paragraph": "Annex 8 3"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The external surface of the front-end structure, including the bumper beam and its cover, shall not exhibit outward-directed pointed or sharp parts or projections likely to increase the risk or seriousness of pedestrian injury.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The front bumper and body panels shall not exhibit any outward-directed part likely to catch on pedestrians, cyclists or motor cyclists.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "Every protruding part of the external front surface shall have a radius of curvature of at least 2.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "Parts of the external front surface protruding less than 5 mm shall have their outward facing angles blunted, except where they protrude less than 1.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "Protruding parts of the external front surface made of a material of hardness not exceeding 60 Shore A may have a radius of curvature below 2.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "An ornament on the front external surface projecting more than 10 mm shall retract, detach or bend over under a 10 daN force exerted at its most salient point in any direction parallel to the mounting surface.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "After the ornament test, the remaining projections on the front external surface shall not project more than 10 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "Protective strips or shielding on the front external surface shall be firmly secured to the vehicle.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "Handles, hinges, push-buttons and fuel filler caps and covers on the vehicle shall not project more than 40 mm for door or luggage compartment handles and 30 mm in all other cases.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The ends of the front bumper shall be turned in so that they are not contactable by a 100 mm sphere and the gap to the surrounding bodywork does not exceed 20 mm, or the bumper shall be recessed or integrated in the bodywork.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "Where the bumper outline contour lies on a rigid surface, that surface shall have a minimum radius of curvature of 5 mm from the contour line to 20 mm inward.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The bumper cover shall be exempt from the bumper radius requirement but shall still comply with the general external surface requirements.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.4"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "Sheet-metal edges of the front-end structure shall be folded back or fitted with a shield meeting the requirements of UN R26.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "Folds in the front body panels may have a radius of curvature below 2.5 mm provided it is not less than one-tenth of the projection height H.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "Jacking brackets and exhaust pipes shall not project more than 10 mm beyond the vertical projection of the floor line lying above them.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.11.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "An exhaust pipe may project more than 10 mm beyond the floor line only if it terminates in rounded edges of at least 2.5 mm radius.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.11.1"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "Air intake and outlet flaps on the front external surface shall meet the general requirements of paragraphs 5.2, 5.3 and 5.4 in all positions of use.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.12.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "Parts of the external front surface at a height of more than 2 m in the laden condition shall be exempt from the external projection requirements.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "Parts of the external front surface that cannot be contacted by a 100 mm diameter sphere in static or operating condition shall be exempt from the external projection requirements.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The vehicle shall carry an international approval mark affixed conspicuously and in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 3,
+        "paragraph": "4.1.4"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the E circle.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 3,
+        "paragraph": "4.1.4.2"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 3,
+        "paragraph": "4.1.6"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 3,
+        "paragraph": "4.1.7"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The characters of the approval mark shall have a height of at least 8 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The projection dimension of a component mounted on a non-convex front surface shall be determined using the 100 mm diameter sphere method of Annex 3 paragraph 2.2.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "Annex 3 2.2"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The gap dimension between elements of a front grille shall be determined by the distance between two planes through the sphere contact points perpendicular to the line joining them.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "Annex 3 4.1"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "The height H of a fold in a front body panel shall be determined graphically against a 165 mm diameter circle internally tangential to the external outline.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The airbag control unit, belt pretensioners and their wiring shall be designed, constructed and fitted so that the vehicle complies with UN R10 in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The vehicle with its airbag and pretensioner electronics shall be tested for radiated emissions and for immunity to radiated disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "At a 10 m antenna spacing, the broadband radiated emission of the vehicle shall not exceed 32 dB microvolts/m from 30 to 75 MHz and 32 to 43 dB microvolts/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "At a 10 m antenna spacing, the broadband radiated emission of the vehicle shall not exceed 43 dB microvolts/m from 400 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "At a 3 m antenna spacing, the broadband radiated emission of the vehicle shall not exceed 42 dB microvolts/m from 30 to 75 MHz and 42 to 53 dB microvolts/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The measured broadband emission values of the vehicle shall remain below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "At a 10 m antenna spacing, the narrowband radiated emission from the vehicle electronics shall not exceed 28 dB microvolts/m from 30 to 230 MHz and 35 dB microvolts/m from 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "At a 3 m antenna spacing, the narrowband radiated emission from the vehicle electronics shall not exceed 38 dB microvolts/m from 30 to 230 MHz and 45 dB microvolts/m from 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The restraint system electronics shall be immune to a field strength of 30 V/m over 90 per cent of the 20 to 2,000 MHz band and at least 25 V/m over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The restraint system electronics shall be immune to a field strength of 10 V/m over 90 per cent of the 2,000 to 6,000 MHz band and at least 8 V/m over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "During radiated immunity testing of the vehicle, the airbag and safety restraint functions shall show no degradation of performance.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "The broadband radiated emission of the airbag control unit as an ESA shall not exceed 62 to 52 dB microvolts/m from 30 to 75 MHz (decreasing logarithmically) and 52 to 63 dB microvolts/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The narrowband radiated emission of the airbag control unit as an ESA shall not exceed 52 to 42 dB microvolts/m from 30 to 75 MHz (decreasing logarithmically) and 42 to 53 dB microvolts/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The airbag control unit as an ESA shall be immune to test levels of 60 V/m (stripline), 75 V/m (TEM cell), 60 mA (BCI), 30 V/m (ALSE) and 21 V/m (reverberation chamber) over 90 per cent of the 20 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The airbag control unit as an ESA shall be immune to at least 8 V/m (ALSE) and 6 V/m (reverberation chamber) over the whole 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "During ESA radiated immunity testing, the airbag and restraint functions shall show no degradation of performance.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "The airbag control unit as an ESA shall withstand test pulse 3a of -112 V on 12 V supply lines for 1 h at functional performance status class I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The airbag control unit as an ESA shall withstand test pulse 2a of +37 V for 500 pulses at functional performance status class I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "Every ESA such as the airbag control unit approved under UN R10 shall carry the approval mark described in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The approval mark of the vehicle or ESA shall contain a circle with the letter \"E\" followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the E circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The approval marking on the airbag control unit need not be visible after installation in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "The characters of the UN R10 approval mark shall have a height of at least 6 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "When the vehicle broadband emission is measured with peak detectors, a correction factor of 20 dB shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.2"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "The radiated broadband emission limits shall apply over the whole 30 to 1,000 MHz range in an ALSE or outdoor test site.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.1"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "The narrowband radiated emission of the vehicle shall be measured with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.2"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The vehicle shall be exposed to vertically polarised electromagnetic radiation over the 20 to 6,000 MHz frequency range during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "The ambient noise during ESA broadband emission testing shall be at least 6 dB below the emission limits of paragraph 6.5.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "The ambient noise during ESA narrowband emission testing shall be at least 6 dB below the emission limits of paragraph 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "The immunity of the airbag control unit shall be measured over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "The transient conducted emission of the airbag control unit shall be measured according to ISO 7637-2 on its supply lines and on other connections that may be operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 3"
+      }
+    }
+  ]
+}

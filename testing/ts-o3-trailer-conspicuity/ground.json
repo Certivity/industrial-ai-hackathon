@@ -1,0 +1,2566 @@
+[
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective devices shall be so constructed that they function satisfactorily and will continue to do so in normal use.",
+    "label": "4.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "they must not have any defect in design or manufacture that is detrimental to their efficient operation or to their maintenance in good condition",
+    "label": "4.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The components of retro-reflective devices or parts thereof shall not be capable of being easily dismantled.",
+    "label": "4.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The means of attachment of the retro-reflective marking materials shall be durable and stable.",
+    "label": "4.1.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The outer surface of retro-reflective devices shall be easy to clean.",
+    "label": "4.1.4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The surface shall therefore not be rough and any protuberances they may exhibit shall not prevent easy cleaning.",
+    "label": "4.1.4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.5",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no access to the inner surface of the retro-reflectors when in normal use.",
+    "label": "4.1.5"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.6.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflectors may consist of a combined retro-reflecting optical unit and filter, which must be so designed that they cannot be separated under normal conditions of use.",
+    "label": "4.1.6.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.6.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The colouring of retro-reflecting optical units and filters by means of paint or varnish is not permitted.",
+    "label": "4.1.6.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.1.2",
+    "page": 10,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "wrong page",
+    "exact": "All markings shall be clearly legible and indelible.",
+    "label": "3.3.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Every device belonging to an approved type shall comprise a space of sufficient size for the Unique Identifier",
+    "label": "3.3.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.2.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark, i.e. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+    "label": "3.3.2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The four to six-digit sequential number being part of the approval number prescribed in paragraph 3.2.3.2. This sequential number shall be placed close to the approval mark.",
+    "label": "3.3.2.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The symbols identifying the retro-reflective device prescribed in paragraph 3.2.5.",
+    "label": "3.3.2.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.2.4",
+    "page": 7,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.1.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.4.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective devices shall bear the trade name or mark of the applicant.",
+    "label": "3.3.4.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.4.2.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "in case of a retro-reflector of Class IA, IIIA, IB, IIIB or IVA, the word “TOP” inscribed horizontally on the highest part of the illuminating surface",
+    "label": "3.3.4.2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.4.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "in case of retro-reflective marking material of Class C, D, E or F an orientation mark \"TOP\" on any marking material whose retro-reflective system is not omni-rotational.",
+    "label": "3.3.4.2.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.4.2.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "on the plates whose retro-reflective system is not omni-rotational, the word \"TOP\" inscribed horizontally on the part of the plates which is intended to be the highest part",
+    "label": "3.3.4.2.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.5.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking or the Unique Identifier and the markings in paragraphs 3.3.4. shall be clearly legible on the retroreflective device.",
+    "label": "3.3.5.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.5.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In case of retro-reflective marking material of Class C, D, E or F. These markings shall be positioned on the outside at least once:",
+    "label": "3.3.5.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking as defined in paragraph 3.3.2. may be replaced by the Unique Identifier, if available.",
+    "label": "3.3.3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.2.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the device shall be illuminated by CIE Standard Illuminant A, with an angle of divergence of 1/3° and an illumination angle of β1= β2= 0°",
+    "label": "4.2.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.2.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The trichromatic coordinates of the reflected luminous intensity shall be within the limits for the night-time colour of the light retro-reflected from that device",
+    "label": "4.2.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.2.1.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the trichromatic coordinates \"x\" and \"y\" of Standard Illuminant \"A\" used to illuminate the retro-reflective device must not undergo a change of more than 0.01 after reflection",
+    "label": "4.2.1.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.2.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "For testing the daytime colour, the material shall be illuminated by the CIE Standard Illuminant D65",
+    "label": "4.2.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.4.4.1. Table 3",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "the RI values for red retro-reflectors must be equal to or greater than those in Table 3, expressed in millicandelas per lux",
+    "label": "5.1.4.4.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.4.4.1. Table 3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "RI values lower than those shown in the last two columns of Table 3 are not permissible within the solid angle",
+    "label": "5.1.4.4.1. Table 3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.5.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The trichromatic coordinates of the reflected luminous flux must be within the limits for the night-time colours red, amber or white",
+    "label": "5.1.5.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 2.1",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "The illuminating surfaces of retro-reflective devices of Classes IIIA and IIIB must have the shape or an equilateral triangle.",
+    "label": "Annex 5 2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 2.1",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "If the word “TOP” is inscribed in one corner, the apex of that corner must be directed upwards.",
+    "label": "Annex 5 2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 2.3",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "In any case, the shortest distance between two adjacent retro-reflecting optical units must not exceed 15 mm.",
+    "label": "Annex 5 2.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 2.5",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "If the illuminated surface is not continuous, the number of separate retro-reflecting optical units including the corner units shall not be less than four on each side of the triangle.",
+    "label": "Annex 5 2.5"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 2.6",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "The outside edges of the illuminating surfaces of triangular retro-reflective devices of Classes IIIA and IIIB shall be between 150 and 200 mm long.",
+    "label": "Annex 5 2.6"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 2.6",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "In the case of devices of hollow-triangle type, the width of the sides, measured at right angles to the latter, shall be equal to at least 20 per cent of the effective length",
+    "label": "Annex 5 2.6"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 4.2.1",
+    "page": 34,
+    "raw_pages": [
+      34
+    ],
+    "verdict": "ok",
+    "exact": "The width of a retro-reflective marking material shall be 50 mm +10/-0 mm",
+    "label": "Annex 5 4.2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 4.2.2",
+    "page": 34,
+    "raw_pages": [
+      34
+    ],
+    "verdict": "ok",
+    "exact": "The minimum length of an element of a retro-reflective marking material shall be such that at least one approval mark is visible.",
+    "label": "Annex 5 4.2.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 5.2.1",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "Class F and Class 5 retro-reflective markings shall consist of red and white diagonal stripes downwards at 45° ± 1°",
+    "label": "Annex 5 5.2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 5.2.1",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "The basic standard area is a square of 141 mm ± 1 mm in length subdivided diagonally into a white half and red half",
+    "label": "Annex 5 5.2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 5.2.2",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "The minimum length of an element of a retro-reflective marking material or plate shall incorporate a minimum of 9 standard areas",
+    "label": "Annex 5 5.2.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.1",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "The plates shall be rectangular in shape for mounting at the rear of vehicles.",
+    "label": "Annex 5 6.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.2",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "For mounting on trailers and semi-trailers, the plates shall have a yellow retro-reflective background with a red fluorescent or retro-reflective border;",
+    "label": "Annex 5 6.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.3",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "The minimum total summarized length of a set of rear marking plates consisting only of one, two or four marking plates with retro-reflective and fluorescent materials shall be 1,130 mm",
+    "label": "Annex 5 6.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.3",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "the maximum total length shall be 2,300 mm.",
+    "label": "Annex 5 6.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.3.1",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "For trailers and semi‑trailers: 200 +30/-5 mm.",
+    "label": "Annex 5 6.3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.3.3",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "The width of the red fluorescent border of the rear marking plates for trailers and semi-trailers shall be 40 mm ± 1 mm.",
+    "label": "Annex 5 6.3.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.3.4",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "The slope of the oblique stripes of the chevron band shall be 45º ± 5º. The width of the stripes shall be 100 mm ± 2.5 mm.",
+    "label": "Annex 5 6.3.4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 6.3.5",
+    "page": 37,
+    "raw_pages": [
+      37
+    ],
+    "verdict": "ok",
+    "exact": "Rear marking plates supplied in sets shall form matching pairs.",
+    "label": "Annex 5 6.3.5"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.5.1. Table 6",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "the coefficient of retro-reflection RA in candelas per m² per lux (cd/m²/lux) of the retro-reflective areas in new condition shall be at least as indicated in Table 6",
+    "label": "5.2.5.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.5.1. Table 6",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Yellow 3.00∙10² -- 1.30∙10² 7.5∙10¹ 1.0∙10¹",
+    "label": "5.2.5.1. Table 6"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.5.2. Table 7",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "For Classes D and E retro-reflective marking materials the maximum values of the coefficient of retro-reflection are less or equal to the value defined in Table 7",
+    "label": "5.2.5.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.5.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The subtended angle at the sample shall not be larger than 80'.",
+    "label": "5.2.5.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.6.2",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The trichromatic coordinates of the reflected luminous intensity must be within the limits for the night-time colours red, amber or white",
+    "label": "5.2.6.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.6.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "for red colour shall be βv,R ≥ 0.03, for yellow colour shall be βv,R ≥ 0.16, for white colour, it shall be βv,R ≥ 0.25.",
+    "label": "5.2.6.4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.5.1.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "After performing the test to the resisting to weathering as described in Part 6 of Annex 6, the retro-reflective marking shall be measured",
+    "label": "5.2.5.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 2 1.1",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "immersed for 10 minutes in water at a temperature of 50 °C ± 5 °C, the highest point of the upper part of the illuminating surface being 20 mm below the surface of the water",
+    "label": "Annex 6 Part 2 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 2 1.2",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "No water shall penetrate to the reflecting surface of the retro-reflecting optical unit.",
+    "label": "Annex 6 Part 2 1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 1 3",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "After this test, no cracking or appreciable distortion of the retro-reflective device and, in particular, of its optical component must be visible.",
+    "label": "Annex 6 Part 1 3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 1 2",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "A section of a sample unit not less than 300 mm long shall be kept for 12 hours in a dry atmosphere at a temperature of 65 °C ± 2 ºC",
+    "label": "Annex 6 Part 1 2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 3 3.1",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 6 Part 2 3.1"
+    ]
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 3 3.1",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 6 Part 2 3.1"
+    ]
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 4 2",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "subjected to the action of a saline mist for a period of 50 hours, comprising two periods of exposure of 24 hours each, separated by an interval of two hours",
+    "label": "Annex 6 Part 4 2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 4 4.1",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "Immediately after completion of the test, the sample shall not show signs of excessive corrosion liable to impair the efficiency of the device.",
+    "label": "Annex 6 Part 4 4.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 6 1.1.1",
+    "page": 46,
+    "raw_pages": [
+      46
+    ],
+    "verdict": "ok",
+    "exact": "The water spray system shall be capable to spray a minimum of 0.3 ml/cm² within 5 minutes.",
+    "label": "Annex 6 Part 6 1.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 6 3.1",
+    "page": 46,
+    "raw_pages": [
+      46
+    ],
+    "verdict": "ok",
+    "exact": "in case of retro-reflective devices for a period of 500 hours,",
+    "label": "Annex 6 Part 6 3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 7 Part 1 1.1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "The outer surface of the retro-reflective device and, in particular, of the illuminating surface, shall be lightly wiped with a cotton cloth soaked in the test mixture.",
+    "label": "Annex 7 Part 1 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 7 Part 1 1.1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "After about five minutes, the surface shall be inspected visually. It must not show any apparent surface changes, except that slight surface cracks will not be objected to.",
+    "label": "Annex 7 Part 1 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 7 Part 2 1.1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "The outer surface of the retro-reflective device and, in particular, the illuminating surface, shall be lightly wiped with a cotton cloth soaked in a detergent lubricating oil.",
+    "label": "Annex 7 Part 2 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 1 2",
+    "page": 48,
+    "raw_pages": [
+      48
+    ],
+    "verdict": "ok",
+    "exact": "a test sample shall show no damage to the retro-reflective surface or delamination from the substrate or separation from the sample mounting surface",
+    "label": "Annex 8 Part 1 2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 2 1.3",
+    "page": 48,
+    "raw_pages": [
+      48
+    ],
+    "verdict": "ok",
+    "exact": "The retro-reflective material shall need a force of at least 10 N per 25 mm width at a constant speed of 300 mm per minute to be removed from their substrate.",
+    "label": "Annex 8 Part 2 1.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 3 1.1",
+    "page": 48,
+    "raw_pages": [
+      48
+    ],
+    "verdict": "ok",
+    "exact": "A specimen of the sample unit that measures 50 mm by 300 mm shall be bent once lengthwise, around a 3.2 mm mandrel",
+    "label": "Annex 8 Part 3 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 3 2",
+    "page": 48,
+    "raw_pages": [
+      48
+    ],
+    "verdict": "ok",
+    "exact": "After this test, the specimen shall not have cracking of the surface and shall not show any visible change that would reduce its effective performance.",
+    "label": "Annex 8 Part 3 2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 4 1",
+    "page": 48,
+    "raw_pages": [
+      48
+    ],
+    "verdict": "ok",
+    "exact": "When a 25 mm diameter solid steel ball is dropped from a height of 2 m onto the retro-reflective and fluorescent surfaces of a supported plate",
+    "label": "Annex 8 Part 4 1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 5 1.2",
+    "page": 49,
+    "raw_pages": [
+      49
+    ],
+    "verdict": "ok",
+    "exact": "the maximum deflection of the plate under the test load shall not exceed one twentieth of the distance between the supports",
+    "label": "Annex 8 Part 5 1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 5 1.2",
+    "page": 49,
+    "raw_pages": [
+      49
+    ],
+    "verdict": "ok",
+    "exact": "the residual deflection after removal of the load shall not exceed one fifth of the measured deflection under load.",
+    "label": "Annex 8 Part 5 1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.3.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "in the case of planes, at least a square of 500 mm x 500 mm shall be provided.",
+    "label": "5.2.3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.3.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "Test samples of retro-reflective marking materials shall be applied to edged and degreased aluminium panels of 2 mm thickness",
+    "label": "5.2.3.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.2.4.2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "A specimen of a complete plate shall be subjected to a test of rigidity of plates as specified in Part 5 of Annex 8.",
+    "label": "5.2.4.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "2.3.2.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The coefficient of retro-reflection RA is expressed in candelas per m² per lx (cd∙m⁻²∙lx⁻¹)",
+    "label": "2.3.2.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 4 Part 1 3.4",
+    "page": 30,
+    "raw_pages": [
+      30
+    ],
+    "verdict": "ok",
+    "exact": "Angular diameter of the illuminated area - η≤80'",
+    "label": "Annex 4 Part 1 3.4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 4 Part 1 3.6",
+    "page": 30,
+    "raw_pages": [
+      30
+    ],
+    "verdict": "ok",
+    "exact": "The measuring distance shall be chosen in such an order that at least the limits for the angles δ, γ and η given above and illustrated in Figure A4-III are respected, but not lower than 10 m.",
+    "label": "Annex 4 Part 1 3.6"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 4 Part 1 3.7",
+    "page": 30,
+    "raw_pages": [
+      30
+    ],
+    "verdict": "ok",
+    "exact": "The variation in the value of the illuminance shall then comply with the condition: max/min ≤ 1.05",
+    "label": "Annex 4 Part 1 3.7"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 4 Part 1 3.8.1",
+    "page": 31,
+    "raw_pages": [
+      31
+    ],
+    "verdict": "ok",
+    "exact": "The photometer head shall be corrected to the spectral luminous efficiency for the CIE standard photometric observer in photopic vision.",
+    "label": "Annex 4 Part 1 3.8.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The applicant shall submit ten samples for approval which shall be tested in the chronological order as indicated in paragraph 5.1.7.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "1",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "This Regulation applies to retro-reflective markings for vehicles of category M2, M3, N, O2, O3 and O4.",
+    "label": "1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective marking materials shall be that way constructed that they function satisfactorily and will continue to do so in normal use.",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "they shall not have any defect in design or manufacture that is detrimental to their efficient operation or to their maintenance in good condition",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "6.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective marking materials or parts thereof shall not be capable of being easily dismantled.",
+    "label": "6.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "6.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The means of attachment of the marking materials shall be durable and stable.",
+    "label": "6.3"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "6.4",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The outer surface of the retro-reflective marking materials shall be easy to be cleaned.",
+    "label": "6.4"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "6.4",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The surface shall therefore not be rough and any protuberances they may exhibit shall not prevent easy cleaning.",
+    "label": "6.4"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "7.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective marking materials shall also satisfy the conditions as to shape and dimensions, and the colorimetric, photometric, physical and mechanical requirements set forth in Annexes 5 to 8",
+    "label": "7.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "4.1.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "4.1.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "An orientation mark \"TOP\" which must be inscribed on any marking material whose retro-reflective system is not omnirotational at least:",
+    "label": "4.1.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "4.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The marks shall be clearly legible on the outside of the marking material and shall be indelible.",
+    "label": "4.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "5.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Every marking material conforming to a type approved under this Regulation shall bear, in addition to the marks prescribed in paragraph 4.1., a clearly legible and indelible international approval mark",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "5.4.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+    "label": "5.4.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "5.4.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number according to paragraph 5.2.",
+    "label": "5.4.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "5.4.3.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "\"C\" for material for contour/strip marking;",
+    "label": "5.4.3.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "5.4.3.5",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "\"F\" for materials for extremities marking with red and white retro-reflective alternative stripes.",
+    "label": "5.4.3.5"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "5.5",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be visible and clearly legible on the outside of the marking material and shall be indelible and positioned at least once",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "a = 12 mm min.",
+    "label": "Annex 3"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 5 1.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The width of a side and/or rear marking material shall be 50 mm +10/-0 mm.",
+    "label": "Annex 5 1.2.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 5 1.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The minimum length of an element of a retro-reflective marking material shall be such that at least one approval mark is visible.",
+    "label": "Annex 5 1.2.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 5 2.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Class F retro-reflective materials shall consist of red and white diagonal stripes each 100 mm wide sloping outwards and downwards at 45 ̊.",
+    "label": "Annex 5 2.2.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 5 2.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The basic standard area is a square of 141 mm in length subdivided diagonally into a white half and red half",
+    "label": "Annex 5 2.2.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 5 2.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The minimum length of an element of a retro-reflective marking material shall incorporate a minimum of 9 standard areas",
+    "label": "Annex 5 2.2.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 6 1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective marking materials (class C) shall be white, yellow or red.",
+    "label": "Annex 6 1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 6 1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective marking materials (class F) shall be white and red.",
+    "label": "Annex 6 1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 6 2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "illuminated by the CIE Standard Illuminant A at an entrance angle β1 = β2 = 0º or, if this produces a colourless surface reflection, an angle β1 = ± 5º, β2 = 0º, and measured at an observation angle of = 20’",
+    "label": "Annex 6 2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 6 2. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the colour of the material in new condition shall be within the limits according to paragraph 2.30. of Regulation No.48.",
+    "label": "Annex 6 2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 6 3.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Luminance factor for red colour shall be ≥ 0.03. For white colour, it shall be ≥ 0.25.",
+    "label": "Annex 6 3.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 7 1. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the coefficient of retro-reflection R' in candelas per m² per lux (cd/m²/lux) of the retro-reflective areas in new condition shall be at least as indicated in table 1",
+    "label": "Annex 7 1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 7 1. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "White 450 -- 200 95 16",
+    "label": "Annex 7 1.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 7 TABLE 2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 1.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "No area of the exposed specimen shall show any evidence of cracking, scaling, splitting, blistering, delamination, distortion, chalking, staining or corrosion.",
+    "label": "Annex 8 1.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 1.4.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The coefficient of retro-reflection of the exposed specimen when dry shall be not less than 80 per cent of the value in Annex 7, tables 1 and 2.",
+    "label": "Annex 8 1.4.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 2.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "subjected to the action of a saline mist for 48 hours comprising two periods of exposure of 24 hours each, separated by an interval of 2 hours",
+    "label": "Annex 8 2.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Immediately after completion of the test, the sample shall show no sign of corrosion liable to impair the efficiency of the marking.",
+    "label": "Annex 8 2.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "A section of a sample unit not less than 300 mm long shall be immersed in a mixture of n-heptane and toluol, 70 per cent and 30 per cent by volume, for one minute.",
+    "label": "Annex 8 3"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "the surface shall be wiped dry with a soft cloth and shall not show any visible change which would reduce its effective performance.",
+    "label": "Annex 8 3"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 4.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "A section of a sample unit not less than 300 mm long shall be kept for 12 hours (in the case of moulded plastics reflectors this time shall be 48 hours) in a dry atmosphere at a temperature of 65 ± 2°C",
+    "label": "Annex 8 4.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 4.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "After this test, no cracking or appreciable distortion of the surface particularly of the optical units, shall be evident.",
+    "label": "Annex 8 4.3"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 5.1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "A test sample smeared with a mixture of detergent lubricating oil and graphite shall be easily cleaned without damage to the retro-reflective surface",
+    "label": "Annex 8 5.1.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 5.2.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "subjected to a continuous spraying action for 60 seconds on the test component in its normal mounting conditions, a test sample shall show no damage to the retro-reflective surface",
+    "label": "Annex 8 5.2.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 7.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Sample unit of retro-reflective marking shall be immersed for 10 minutes in water at a temperature of 50 ± 5 °C",
+    "label": "Annex 8 7.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 7.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "No water must penetrate to the reflecting surface of the sample unit.",
+    "label": "Annex 8 7.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 8.3",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The retro-reflective materials shall need a force of at least 10 N per 25 mm width at a constant speed of 300 mm per minute to be removed from their substrate.",
+    "label": "Annex 8 8.3"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 9.1.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "A specimen of the sample unit that measures 50 mm by 300 mm shall be bent once lengthwise, around a 3.2 mm mandrel with adhesive contacting the mandrel for a period of 1 second.",
+    "label": "Annex 8 9.1.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 8 9.1.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "After this test, specimen shall not have cracking of the surface and shall not show any visible change that would reduce its effective performance.",
+    "label": "Annex 8 9.1.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 4 1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "In the case of strips, at least a length of 3 meters shall be provided; in the case of planes, at least a surface of 500 mm x 500 mm shall be provided.",
+    "label": "Annex 4 1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "Annex 4 2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Test samples of retro-reflective marking materials shall be applied to edged and degreased aluminum panels of 2 mm thickness",
+    "label": "Annex 4 2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "7.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "It may consist of marking materials of class \"D\" if the total retro-reflective area is less than 2 m²",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "7.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "if the total retro-reflective area is at least 2 m² class \"E\" shall be used.",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "7.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For class \"D\" marking materials the maximum values of the coefficient of retro-reflection are less or equal to the value defined in Annex 7, table 2",
+    "label": "7.2.1"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "7.2.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For class \"E\" marking materials the maximum values of the coefficient of retro-reflection are less or equal to 33 per cent of the values defined in Annex 7, table 2.",
+    "label": "7.2.2"
+  },
+  {
+    "regulation": "UN R104",
+    "paragraph": "7.2.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "White retro-reflective marking materials intended as base or background in printing processes for fully coloured logos and markings of class \"E\" in use, without unprinted blank areas, may fulfil the requirements in Annex 7, table 2, for class \"D\" materials and must be marked as class \"D/E\".",
+    "label": "7.2.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.14.1",
+    "page": 55,
+    "raw_pages": [
+      55
+    ],
+    "verdict": "ok",
+    "exact": "Provided that they are grouped together with the other rear light-signalling devices, optional on trailers.",
+    "label": "6.14.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.1",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory on trailers. Prohibited on motor vehicles.",
+    "label": "6.15.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.2",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Two, type-approved according to the requirements concerning Class IIIA or Class IIIB retro-reflectors",
+    "label": "6.15.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.3",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "The apex of the triangle shall be directed upwards.",
+    "label": "6.15.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.4.1",
+    "page": 56,
+    "raw_pages": [
+      55,
+      56,
+      57
+    ],
+    "verdict": "ok",
+    "exact": "that point on the illuminating surface which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle",
+    "label": "6.15.4.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.4.1",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "The inner edges of the retro-reflectors shall not be less than 600 mm apart.",
+    "label": "6.15.4.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.4.2",
+    "page": 56,
+    "raw_pages": [
+      55,
+      56
+    ],
+    "verdict": "ok",
+    "exact": "In height: Above the ground, not less than 250 mm nor more than 900 mm (not more than 1,200 mm if grouped with any rear lamp(s)",
+    "label": "6.15.4.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.4.3",
+    "page": 56,
+    "raw_pages": [
+      52,
+      55,
+      56
+    ],
+    "verdict": "ok",
+    "exact": "In length: at the rear of the vehicle.",
+    "label": "6.15.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.5",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 30° inwards and outwards. Vertical angle: 15° above and below the horizontal.",
+    "label": "6.15.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.5",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 15° may be reduced to 5°.",
+    "label": "6.15.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.6",
+    "page": 56,
+    "raw_pages": [
+      51,
+      52,
+      53,
+      54
+    ],
+    "verdict": "ok",
+    "exact": "Rearwards.",
+    "label": "6.15.6"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.15.7",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "The illuminating surface of the retro-reflector may have parts in common with the apparent surface of any other lamp situated at the rear.",
+    "label": "6.15.7"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.17.1",
+    "page": 57,
+    "raw_pages": [
+      57
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory: On all motor vehicles the length of which exceeds 6 m. On all trailers.",
+    "label": "6.17.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.17.4.2",
+    "page": 58,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "In height: Above the ground, not less than 250 mm nor more than 900 mm (not more than 1,200 mm if grouped with any lamp(s)",
+    "label": "6.17.4.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.17.4.3",
+    "page": 58,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "at least one side retro-reflector shall be fitted to the middle third of the vehicle",
+    "label": "6.17.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.17.4.3",
+    "page": 58,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "The distance between two adjacent side retro-reflectors shall not exceed 3 m.",
+    "label": "6.17.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.17.4.3",
+    "page": 58,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "The distance between the rearmost side retro-reflector and the rear of the vehicle shall not exceed 1 m.",
+    "label": "6.17.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.17.5",
+    "page": 58,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 45° to the front and to the rear. Vertical angle: 10° above and below the horizontal.",
+    "label": "6.17.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.17.6",
+    "page": 58,
+    "raw_pages": [
+      58,
+      59
+    ],
+    "verdict": "ok",
+    "exact": "Towards the side.",
+    "label": "6.17.6"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.1.2.1",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "Full contour marking on vehicles exceeding 2,100 mm in width of the following categories:",
+    "label": "6.21.1.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.1.2.2.1",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "Partial contour marking on vehicles exceeding 6,000 mm in length (including the drawbar for trailers)",
+    "label": "6.21.1.2.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.1.2.3",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "A line marking may be installed instead of the mandatory contour marking if the shape, structure, design or operational requirements of the vehicle make it impossible",
+    "label": "6.21.1.2.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.3",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "The conspicuity markings shall be as close as practicable to horizontal and vertical, compatible with the shape, structure, design and operational requirements of the vehicle",
+    "label": "6.21.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.4.1.1",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "The conspicuity marking shall be as close as practicable to the edge of the vehicle.",
+    "label": "6.21.4.1.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.4.1.2",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "The cumulative horizontal length of the conspicuity marking elements, as mounted on the vehicle, shall equate to at least 70 per cent of the overall width of the vehicle",
+    "label": "6.21.4.1.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.4.2.1",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "The conspicuity marking shall be as close as practicable to the ends of the vehicle and reach to within 600 mm of each end of the vehicle.",
+    "label": "6.21.4.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.4.2.2.2",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "For trailers, the overall length of the vehicle (excluding the drawbar).",
+    "label": "6.21.4.2.2.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.4.3.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "Minimum: not less than 250 mm above the ground. Maximum: not more than 1,500 mm above the ground.",
+    "label": "6.21.4.3.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.4.3.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "a maximum mounting height of 2,500 mm may be accepted where the shape, structure, design or operational conditions of the vehicle prevent compliance with the maximum value of 1,500 mm",
+    "label": "6.21.4.3.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.4.3.2",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "Contour markings upper element(s): As high as practicable, but within 400 mm of the upper extremity of the vehicle.",
+    "label": "6.21.4.3.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.5",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "at least 70 per cent of the illuminating surface of the installed marking is visible when viewed by an observer positioned at any point within the observation planes",
+    "label": "6.21.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.5.1.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "In height, by two horizontal planes 1 m and 3.0 m respectively above the ground;",
+    "label": "6.21.5.1.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.5.2.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "In height, by two horizontal planes 1.0 m and 1.5 m respectively above the ground;",
+    "label": "6.21.5.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.6.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "As close as practicable to being parallel to the median longitudinal plane of the vehicle",
+    "label": "6.21.6.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.6.2",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "As close as practicable to being parallel to the transverse plane of the vehicle",
+    "label": "6.21.6.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.7.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "Conspicuity markings shall be considered continuous if the distance between adjacent elements are as small as possible and do not exceed 50 per cent of the shortest adjacent element length.",
+    "label": "6.21.7.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.7.2",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "each upper corner shall be described by two lines at 90°, to each other and each at least 250 mm in length",
+    "label": "6.21.7.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.7.3",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "The distance between the conspicuity marking fitted to the rear of a vehicle and each mandatory stop lamp should be greater than 200 mm.",
+    "label": "6.21.7.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.7.5",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "The locations on the vehicle designated for conspicuity markings shall allow for the installation of markings of at least 60 mm in width.",
+    "label": "6.21.7.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.1.2.4",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "this line marking shall be installed on (a) rigid part(s) of the vehicle.",
+    "label": "6.21.1.2.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.21.1.3.2",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "To the front: Line marking on vehicles of categories O2, O3 and O4.",
+    "label": "6.21.1.3.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.15",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.15",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Conspicuity marking: White to the front; White or yellow to the side; Red or yellow to the rear.",
+    "label": "5.15"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "any specific instructions as regards fitting laid down by the manufacturer shall be complied with.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.5.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Be fitted to the vehicle symmetrically in relation to the median longitudinal plane",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.5.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Satisfy the same colorimetric requirements.",
+    "label": "5.5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.5.4",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Have substantially identical photometric characteristics.",
+    "label": "5.5.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.28.1",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity.",
+    "label": "5.28.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.28.4",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "When the vertical angle of geometric visibility below the horizontal may be reduced to 5º (lamp at less than 750 mm above the ground",
+    "label": "5.28.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.30",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "All lamps (devices) shall, where applicable, be type approved according to the corresponding device Regulations as specified in the relevant subparagraphs of paragraph 6",
+    "label": "5.30"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.21",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "The apparent surface in the direction of the reference axis of front and rear position lamps, front and rear direction-indicator lamps and retro-reflectors shall not be hidden more than 50 per cent by any movable component",
+    "label": "5.21"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.22",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "With the exception of retro-reflectors, a lamp even bearing an approval mark is deemed not to be present when it cannot be made to operate by the sole installation of a light source and/or a fuse.",
+    "label": "5.22"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.10.4.2",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "there shall be no direct visibility of the apparent surface of a white lamp if viewed by an observer moving within Zone 2 in a transverse plane situated 25 m behind the vehicle",
+    "label": "5.10.4.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "Annex 4",
+    "page": 107,
+    "raw_pages": [
+      107
+    ],
+    "verdict": "ok",
+    "exact": "In height, by two horizontal planes 1 m and 2.2 m respectively above the ground;",
+    "label": "Annex 4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 8,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      9,
+      10,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m.",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Maximum allowed pulse amplitude for Polarity of pulse amplitude Vehicles with 12 V systems Vehicles with 24 V systems Positive +75 V +150 V Negative -100 V -450 V",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test severity in over 90 per cent of the 20 to 6,000 MHz frequency band are given in Table 2a.",
+    "label": "6.8.2.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile shall be tested according to the functional status classification as defined in ISO 16750-1.",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz",
+    "label": "6.10.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.5",
+    "page": 12,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission",
+    "label": "6.10.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above.",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 1 Model A",
+    "page": 44,
+    "raw_pages": [
+      44,
+      45
+    ],
+    "verdict": "ok",
+    "exact": "a = 6 mm min",
+    "label": "Annex 1",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.2",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "If measurements are made using the method described in Annex 5 using a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band.",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.3",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified the length of the Low Voltage (LV) harness and the HV harness parallel to the front edge of the ground plane shall be 1,500 mm (±75 mm).",
+    "label": "Annex 7 3.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "All of the harnesses shall be placed on a non-conductive, low relative permittivity material (εr ≤ 1.4), at 50 mm (±5 mm) above the ground plane.",
+    "label": "Annex 7 3.2.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1.",
+    "label": "Annex 7 3.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 4.2",
+    "page": 92,
+    "raw_pages": [
+      92,
+      122,
+      142
+    ],
+    "verdict": "ok",
+    "exact": "If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+    "label": "Annex 7 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 3.3",
+    "page": 96,
+    "raw_pages": [
+      96
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.6.2.1.",
+    "label": "Annex 8 3.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 4.2",
+    "page": 96,
+    "raw_pages": [
+      68,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be performed with an average detector.",
+    "label": "Annex 8 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.1.2",
+    "page": 99,
+    "raw_pages": [
+      99
+    ],
+    "verdict": "ok",
+    "exact": "The \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2. The test shall be performed with vertical polarization.",
+    "label": "Annex 9 4.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.3.2",
+    "page": 100,
+    "raw_pages": [
+      100
+    ],
+    "verdict": "ok",
+    "exact": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+    "label": "Annex 9 4.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 to the supply lines as well as to other connections of ESAs",
+    "label": "Annex 10 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are exclusively reserved for mounting on electric vehicles (vehicles without 12V/24V starter motor) are not subject to starting profile.",
+    "label": "Annex 10 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 3",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Measurement according to the International Standard ISO 7637-2 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines.",
+    "label": "Annex 10 3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.2",
+    "page": 8,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "9.3.1",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "the levels measured do not exceed by more than 4 dB (60 per cent) the reference limits prescribed",
+    "label": "9.3.1"
+  }
+]

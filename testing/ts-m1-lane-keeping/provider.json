@@ -1,0 +1,2356 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "5.1.1",
+      "quote": "The activated system shall perform the DDT shall manage all situations including failures, and shall be free of unreasonable risks",
+      "text": "The activated ALKS shall perform the DDT and manage all situations including failures without unreasonable risk for the vehicle occupants or any other road users."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "5.1.1",
+      "quote": "The activated system shall not cause any collisions that are reasonably foreseeable and preventable.",
+      "text": "The activated ALKS shall not cause any collisions that are reasonably foreseeable and preventable."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "5.1.1.1",
+      "quote": "The ALKS shall respond whilst active to any collision which requires a response according to national traffic rules",
+      "text": "The ALKS shall respond whilst active to any collision which requires a response according to national traffic rules and which a competent and careful human driver could be expected to recognise, giving a transition demand in that case."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "5.1.1.2",
+      "quote": "The system shall demonstrate anticipatory behaviour in interaction with other road user(s), in order to ensure stable, low-dynamic, longitudinal behaviour",
+      "text": "The ALKS shall demonstrate anticipatory behaviour in interaction with other road users to ensure stable, low-dynamic longitudinal behaviour and risk-minimising behaviour when critical situations could become imminent."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "5.1.2",
+      "quote": "The activated system shall comply with traffic rules relating to the DDT in the country of operation, including responding to emergency/enforcement vehicles.",
+      "text": "The activated ALKS shall comply with traffic rules relating to the DDT in the country of operation, including responding to emergency and enforcement vehicles."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "5.1.3",
+      "quote": "The activated system shall exercise control over systems required to support the driver in resuming manual control at any time",
+      "text": "The activated ALKS shall exercise control over the systems required to support the driver in resuming manual control at any time, such as demist, windscreen wipers and lights."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "5.1.4",
+      "quote": "A transition demand shall not endanger the safety of the vehicle occupants or other road users.",
+      "text": "A transition demand issued by the ALKS shall not endanger the safety of the vehicle occupants or other road users."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.1.5",
+      "quote": "If the driver fails to resume control of the DDT during the transition phase, the system shall perform a minimum risk manoeuvre.",
+      "text": "Where the driver fails to resume control of the DDT during the transition phase, the ALKS shall perform a minimum risk manoeuvre."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.1.5",
+      "quote": "During a minimum risk manoeuvre, the system shall minimise risks to safety of the vehicle occupants and other road users.",
+      "text": "During a minimum risk manoeuvre the ALKS shall minimise risks to the safety of the vehicle occupants and other road users."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.1.6",
+      "quote": "The system shall perform self-checks to detect the occurrence of failures and to confirm system performance at all times",
+      "text": "The ALKS shall perform self-checks to detect the occurrence of failures and to confirm system performance at all times, including after vehicle start detecting at least once an object at the declared detection range."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.1.7",
+      "quote": "The effectiveness of the system shall not be adversely affected by magnetic or electrical fields.",
+      "text": "The effectiveness of the ALKS shall not be adversely affected by magnetic or electrical fields, demonstrated by fulfilling UN Regulation No. 10, 07 or later series of amendments."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.1.8",
+      "quote": "The manufacturer shall take measures to guard against reasonably foreseeable misuse by the driver and tampering of the system.",
+      "text": "The ALKS shall incorporate measures guarding against reasonably foreseeable misuse by the driver and tampering of the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.1.9",
+      "quote": "When the system can no longer meet the requirements of this Regulation, it shall not be possible to activate the system.",
+      "text": "Where the ALKS can no longer meet the requirements of the Regulation, activation of the system shall be prevented."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.2.1",
+      "quote": "The activated system shall keep the vehicle inside its lane of travel and ensure that the vehicle does not unintentionally cross any lane marking",
+      "text": "The activated ALKS shall keep the vehicle inside its lane of travel and ensure the vehicle does not unintentionally cross any lane marking, measured from outer edge of the front tyre to outer edge of the lane marking."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.2.1",
+      "quote": "The system shall aim to keep the vehicle in a stable lateral and longitudinal motion inside the lane of travel to avoid confusing other road users.",
+      "text": "The ALKS shall aim to keep the vehicle in a stable lateral and longitudinal motion inside the lane of travel to avoid confusing other road users."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.2.1",
+      "quote": "The system shall aim to recover the original safe state of motion after disturbances not requiring an emergency manoeuvre.",
+      "text": "The ALKS shall aim to recover the original safe state of motion after disturbances not requiring an emergency manoeuvre."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 6,
+      "paragraph": "5.2.1.2.1",
+      "quote": "The ALKS shall only leave its current lane of travel to form an access corridor for emergency and enforcement vehicles where this is required",
+      "text": "The ALKS shall only leave its current lane of travel to form an access corridor for emergency and enforcement vehicles where this is required according to national traffic rules or common practice."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.1.2.2",
+      "quote": "The ALKS shall ensure sufficient lateral and longitudinal distance to road boundaries, vehicles and other road users.",
+      "text": "When forming an access corridor, the ALKS shall ensure sufficient lateral and longitudinal distance to road boundaries, vehicles and other road users."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.1.2.3",
+      "quote": "The vehicle shall return completely to its original lane of travel once the situation that required this access corridor has passed.",
+      "text": "The vehicle shall return completely to its original lane of travel once the situation that required the access corridor has passed."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.1.3.1",
+      "quote": "The ALKS shall only respond to an obstacle by entering partly into the adjacent lane if a regular lane change out of its current lane of travel is not possible",
+      "text": "The ALKS shall only respond to an obstacle by entering partly into the adjacent lane where a regular lane change out of its current lane is not possible and the behaviour does not increase the risk."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.1.3.2",
+      "quote": "The vehicle shall aim at returning completely to its original lane of travel once the situation that required this manoeuvre has passed.",
+      "text": "The vehicle shall aim at returning completely to its original lane of travel once the situation that required the obstacle-avoidance manoeuvre has passed."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.1.3.3",
+      "quote": "aiming not to exceed a lateral acceleration of 1.0 m/s2 in addition to the lateral acceleration generated by the lane curvature",
+      "text": "When crossing a lane marking to drive around an obstacle, the ALKS shall aim not to exceed a lateral acceleration of 1.0 m/s2 in addition to the lateral acceleration generated by the lane curvature."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.2",
+      "quote": "The activated system shall detect a vehicle driving beside as defined in paragraph 7.1.2. and, if necessary, adjust the speed and/or the lateral position",
+      "text": "The activated ALKS shall detect a vehicle driving beside it and, if necessary, adjust the speed and/or the lateral position of the vehicle within its lane."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.3.1",
+      "quote": "The manufacturer shall declare the specified maximum speed based on the forward detection range of the system",
+      "text": "The ALKS shall have a specified maximum speed declared on the basis of the forward detection range of the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.3.1",
+      "quote": "The maximum speed up to which the system is permitted to operate is 130 km/h.",
+      "text": "The ALKS shall not operate above a maximum speed of 130 km/h."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.3.1",
+      "quote": "A specified maximum speed of more than 60 km/h shall be permitted only if the ALKS is capable of performing an MRM lane change",
+      "text": "The ALKS shall be permitted a specified maximum speed above 60 km/h only where it is capable of performing an MRM lane change."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.3.2",
+      "quote": "The activated system shall adapt the vehicle speed to infrastructural and environmental conditions (e.g. narrow curve radii, inclement weather).",
+      "text": "The activated ALKS shall adapt the vehicle speed to infrastructural and environmental conditions such as narrow curve radii and inclement weather."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.3.3",
+      "quote": "The activated system shall detect the distance to the next vehicle in front as defined in paragraph 7.1.1. and shall adapt the vehicle speed to adjust a safe following distance",
+      "text": "The activated ALKS shall detect the distance to the next vehicle in front and shall adapt the vehicle speed to adjust a safe following distance in order to avoid a collision."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.3.3",
+      "quote": "While the ALKS vehicle is not at standstill and operating in speed range up to 60 km/h, the system shall adapt the speed to adjust the distance",
+      "text": "While the ALKS vehicle is not at standstill and operates at speeds up to 60 km/h, the system shall adapt the speed so that the distance to a vehicle in front in the same lane is equal to or greater than the minimum following distance of the table."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 8,
+      "paragraph": "5.2.3.3. Table",
+      "quote": "For speed values up to 60 km/h which are not mentioned in the table, linear interpolation shall be applied.",
+      "text": "For speed values up to 60 km/h not listed in the minimum following distance table, the ALKS shall apply linear interpolation."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 8,
+      "paragraph": "5.2.3.3",
+      "quote": "the minimum following distance shall never be less than 2 m for M1, N1 and 2.4 m for M2, M3, N2, N3.",
+      "text": "For present speeds below 2 m/s the ALKS in an M1 vehicle shall never set a minimum following distance of less than 2 m."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 7,
+      "paragraph": "5.2.3.3",
+      "quote": "the vehicle shall readjust the following distance at the next available opportunity without any harsh braking implementing strategies aiming to address significant string instability",
+      "text": "Where the following distance is temporarily disrupted, the vehicle shall readjust the following distance at the next available opportunity without harsh braking and with strategies addressing significant string instability."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 8,
+      "paragraph": "5.2.4",
+      "quote": "The activated system shall be able to bring the vehicle to a complete stop behind a stationary vehicle, a stationary road user or a blocked lane of travel",
+      "text": "The activated ALKS shall be able to bring the vehicle to a complete stop behind a stationary vehicle, a stationary road user or a blocked lane of travel up to the maximum operational speed."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 8,
+      "paragraph": "5.2.5",
+      "quote": "The activated system shall detect the risk of collision in particular with another road user ahead or beside the vehicle",
+      "text": "The activated ALKS shall detect the risk of collision with another road user ahead or beside the vehicle, due to a decelerating lead vehicle, a cutting-in vehicle or a suddenly appearing obstacle, and perform appropriate manoeuvres."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 8,
+      "paragraph": "5.2.5.1",
+      "quote": "The activated system shall avoid a collision with a leading vehicle which decelerates up to its full braking performance",
+      "text": "The activated ALKS shall avoid a collision with a leading vehicle which decelerates up to its full braking performance, provided there was no undercut of the minimum following distance."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 8,
+      "paragraph": "5.2.5.2",
+      "quote": "The activated system shall avoid a collision with a cutting-in vehicle,",
+      "text": "The activated ALKS shall avoid a collision with a cutting-in vehicle that maintains a lower longitudinal speed, whose lateral movement has been visible for at least 0.72 seconds, when TTCLaneIntrusion > vrel / (2×6 m/s2) + 0.35 s."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 9,
+      "paragraph": "5.2.5.3",
+      "quote": "The activated system shall avoid a collision with an unobstructed crossing pedestrian in front of the vehicle.",
+      "text": "The activated ALKS shall avoid a collision with an unobstructed crossing pedestrian in front of the vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 9,
+      "paragraph": "5.2.5.3",
+      "quote": "the activated ALKS shall avoid a collision up to 60 km/h.",
+      "text": "In a scenario with an unobstructed pedestrian crossing laterally at not more than 5 km/h with the anticipated impact point displaced by not more than 0.2 m, the activated ALKS shall avoid a collision up to 60 km/h."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 9,
+      "paragraph": "5.2.5.3",
+      "quote": "At higher speeds, upon detection of pedestrians crossing the carriageway the ALKS shall implement strategies to reduce the potential for a collision.",
+      "text": "At speeds above 60 km/h, upon detection of pedestrians crossing the carriageway, the ALKS shall implement strategies to reduce the potential for a collision."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 9,
+      "paragraph": "5.2.5.4",
+      "quote": "the system shall not deactivate or unreasonably switch the control strategy in these other conditions.",
+      "text": "In conditions other than those specified for collision avoidance, the system shall not deactivate or unreasonably switch the control strategy."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.1",
+      "quote": "An Emergency Manoeuvre shall be carried out in case of an imminent collision risk.",
+      "text": "The ALKS shall carry out an emergency manoeuvre in case of an imminent collision risk."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.1.1",
+      "quote": "Any longitudinal deceleration demand of more than 5.0 m/s² of the system shall be considered to be an emergency manoeuvre.",
+      "text": "The ALKS shall treat any longitudinal deceleration demand of more than 5.0 m/s² as an emergency manoeuvre."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.2",
+      "quote": "This manoeuvre shall decelerate the vehicle up to its full braking performance if necessary and/or may perform an automatic evasive manoeuvre, when appropriate.",
+      "text": "The emergency manoeuvre shall decelerate the vehicle up to its full braking performance if necessary and/or perform an automatic evasive manoeuvre when appropriate."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.2",
+      "quote": "During the evasive manoeuvre the ALKS vehicle shall not cross the lane marking (outer edge of the front tyre to outer edge of the lane marking)",
+      "text": "During an evasive manoeuvre the ALKS vehicle shall not cross the lane marking unless the system is capable of fulfilling the evasive lane crossing provisions of paragraph 5.3.5."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.2",
+      "quote": "If failures are affecting the braking or steering performance of the system, the manoeuvre shall be carried out with consideration for the remaining performance.",
+      "text": "Where failures affect the braking or steering performance of the system, the emergency manoeuvre shall be carried out with consideration for the remaining performance."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.3",
+      "quote": "An emergency manoeuvre shall not be terminated, unless the imminent collision risk disappeared, or the driver deactivated the system.",
+      "text": "The ALKS shall not terminate an emergency manoeuvre unless the imminent collision risk has disappeared or the driver has deactivated the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.3.1",
+      "quote": "After an emergency manoeuvre is terminated the system shall continue to operate.",
+      "text": "After an emergency manoeuvre is terminated the ALKS shall continue to operate."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.3.2",
+      "quote": "If the emergency manoeuvre results in the vehicle being at standstill, the signal to activate the hazard warning lights shall be generated.",
+      "text": "Where the emergency manoeuvre results in the vehicle being at standstill, the ALKS shall generate the signal to activate the hazard warning lights."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.3.2",
+      "quote": "If the vehicle automatically drives off again, the signal to deactivate the hazard warning lights shall be generated automatically.",
+      "text": "Where the vehicle drives off again automatically, the ALKS shall automatically generate the signal to deactivate the hazard warning lights."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.4",
+      "quote": "The vehicle shall implement a logic signal indicating emergency braking as specified in UN Regulation No. 13-H or 13, as appropriate.",
+      "text": "The vehicle shall implement a logic signal indicating emergency braking as specified in UN Regulation No. 13-H or 13 as appropriate."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.5.2",
+      "quote": "the ALKS shall ensure that it is at least as safe to the vehicle occupants and other road users as avoiding the imminent collision risk by braking.",
+      "text": "Where an evasive lane crossing is used as part of an emergency manoeuvre, the ALKS shall ensure it is at least as safe as avoiding the imminent collision risk by braking."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.5.4",
+      "quote": "The system shall not cause a collision with another vehicle or road user in the predicted path of the vehicle when performing an evasive lane crossing.",
+      "text": "The system shall not cause a collision with another vehicle or road user in the predicted path of the vehicle when performing an evasive lane crossing."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.5.5",
+      "quote": "The vehicle shall only perform an evasive lane crossing if another vehicle in the evading lane is not forced to unmanageably decelerate",
+      "text": "The vehicle shall only perform an evasive lane crossing where another vehicle in the evading lane is not forced to unmanageably decelerate due to that manoeuvre."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.3.5.7",
+      "quote": "when initiating an evasive lane crossing that intends to cross into the evading lane by more than 30cm, the system shall indicate its intention",
+      "text": "When initiating an evasive lane crossing intended to cross into the evading lane by more than 30 cm, the system shall indicate its intention by generating the signal to activate the direction indicator."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.1",
+      "quote": "The activated system shall recognise all situations in which it needs to transition the control back to the driver.",
+      "text": "The activated ALKS shall recognise all situations in which it needs to transition control back to the driver."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.2",
+      "quote": "The initiation of the transition demand shall be such that sufficient time is provided for a safe transition to manual driving.",
+      "text": "The ALKS shall initiate the transition demand such that sufficient time is provided for a safe transition to manual driving."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.2.1",
+      "quote": "In case of a planned event that would prevent the ALKS from continuing the operation, a transition demand shall be given early enough",
+      "text": "In case of a planned event that would prevent the ALKS from continuing operation, a transition demand shall be given early enough to bring the vehicle to standstill before the planned event if the driver does not resume control."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.2.2",
+      "quote": "In case of an unplanned event, a transition demand shall be given upon detection.",
+      "text": "In case of an unplanned event, the ALKS shall give a transition demand upon detection."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.2.3",
+      "quote": "In case of any failure affecting the ability of the system to meet the requirements of this Regulation, the system shall immediately initiate a transition demand upon detection.",
+      "text": "In case of any failure affecting the ability of the system to meet the requirements of the Regulation, the system shall immediately initiate a transition demand upon detection."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.3",
+      "quote": "During the transition phase the system shall continue to operate.",
+      "text": "During the transition phase the system shall continue to operate and may reduce speed to ensure safe operation."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.3.1",
+      "quote": "Once in standstill the vehicle may remain in this condition and shall generate the signal to activate the hazard warning lights within 5 s.",
+      "text": "Once in standstill the vehicle shall generate the signal to activate the hazard warning lights within 5 s."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.3.2",
+      "quote": "During the transition phase, the transition demand shall be escalated latest after 4 s after the start of the transition demand.",
+      "text": "During the transition phase the ALKS shall escalate the transition demand latest 4 s after the start of the transition demand."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 14,
+      "paragraph": "5.4.4",
+      "quote": "A transition demand shall only be terminated once the system is deactivated or a minimum risk manoeuvre has started.",
+      "text": "The ALKS shall terminate a transition demand only once the system is deactivated or a minimum risk manoeuvre has started."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.4.4.1",
+      "quote": "a minimum risk manoeuvre shall be started, earliest 10 s after the start of the transition demand.",
+      "text": "Where the driver does not respond to a transition demand by deactivating the system, a minimum risk manoeuvre shall be started earliest 10 s after the start of the transition demand."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.4.4.1.1",
+      "quote": "a minimum risk manoeuvre may be initiated immediately in case of a severe ALKS or severe vehicle failure.",
+      "text": "In case of a severe ALKS failure or severe vehicle failure, a minimum risk manoeuvre may be initiated immediately."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.1",
+      "quote": "The minimum risk manoeuvre shall bring the vehicle to standstill unless the system is deactivated by the driver during the manoeuvre.",
+      "text": "The minimum risk manoeuvre shall bring the vehicle to standstill unless the system is deactivated by the driver during the manoeuvre."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.1",
+      "quote": "This shall be in a target stop area considered to be the greatest minimisation of risk achievable under the given circumstances",
+      "text": "The minimum risk manoeuvre shall bring the vehicle to standstill in a target stop area considered to offer the greatest minimisation of risk under the given circumstances, otherwise within its current lane or along an appropriate trajectory."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.2",
+      "quote": "During the minimum risk manoeuvre the vehicle shall be slowed down with an aim of achieving a deceleration demand not greater than 4.0 m/s².",
+      "text": "During the minimum risk manoeuvre the vehicle shall be slowed down with an aim of achieving a deceleration demand not greater than 4.0 m/s²."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.2",
+      "quote": "the signal to activate the hazard warning lights shall be generated with the start of the minimum risk manoeuvre but suspended during a LCP.",
+      "text": "The signal to activate the hazard warning lights shall be generated with the start of the minimum risk manoeuvre but suspended during an LCP."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.3",
+      "quote": "A minimum risk manoeuvre shall only be terminated once the system is deactivated or the system has brought the vehicle to a standstill.",
+      "text": "The minimum risk manoeuvre shall only be terminated once the system is deactivated or has brought the vehicle to a standstill."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.4",
+      "quote": "The system shall be deactivated at the end of any minimum risk manoeuvre.",
+      "text": "The ALKS shall be deactivated at the end of any minimum risk manoeuvre."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.4",
+      "quote": "The hazard warning lights shall remain activated unless deactivated manually and the vehicle shall not move away after standstill without manual input.",
+      "text": "At the end of a minimum risk manoeuvre the hazard warning lights shall remain activated unless deactivated manually, and the vehicle shall not move away after standstill without manual input."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "5.5.5",
+      "quote": "Reactivation of the system after the end of any minimum risk manoeuvre shall only be possible after a new initiation of the powertrain",
+      "text": "Reactivation of the ALKS after the end of any minimum risk manoeuvre shall only be possible after a new initiation of the powertrain."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "6.1.1",
+      "quote": "The system shall comprise a driver availability recognition system.",
+      "text": "The ALKS shall comprise a driver availability recognition system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 15,
+      "paragraph": "6.1.1",
+      "quote": "The driver availability recognition system shall detect if the driver is present in a driving position, if the safety belt of the driver is fastened and if the driver is available",
+      "text": "The driver availability recognition system shall detect whether the driver is present in a driving position, whether the driver's safety belt is fastened and whether the driver is available to take over."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 16,
+      "paragraph": "6.1.2",
+      "quote": "When the driver is detected not to be in the seat for a period of more than one second; or",
+      "text": "A transition demand shall be initiated when the driver is detected not to be in the seat for a period of more than one second."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 16,
+      "paragraph": "6.1.2",
+      "quote": "When the driver’s safety belt is unbuckled.",
+      "text": "A transition demand shall be initiated when the driver's safety belt is unbuckled."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 16,
+      "paragraph": "6.1.3",
+      "quote": "The system shall detect if the driver is available and in an appropriate driving position to respond to a transition demand by monitoring the driver.",
+      "text": "The system shall detect whether the driver is available and in an appropriate driving position to respond to a transition demand by monitoring the driver."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 16,
+      "paragraph": "6.1.3.1",
+      "quote": "The driver shall be deemed to be unavailable unless at least two availability criteria have individually determined that the driver is available in the last 30 seconds.",
+      "text": "The system shall deem the driver unavailable unless at least two availability criteria have individually determined that the driver is available in the last 30 seconds."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 16,
+      "paragraph": "6.1.3.1",
+      "quote": "the system shall immediately provide a distinctive warning until appropriate actions of the driver are detected or until a transition demand is initiated.",
+      "text": "As soon as the driver is deemed unavailable, or fewer than two availability criteria can be monitored, the system shall immediately provide a distinctive warning until appropriate driver actions are detected or a transition demand is initiated."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 16,
+      "paragraph": "6.1.3.1",
+      "quote": "At the latest, a transition demand shall be initiated according to paragraph 5.4. if this warning continues for 15s.",
+      "text": "At the latest, the system shall initiate a transition demand if the availability warning continues for 15 s."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 16,
+      "paragraph": "6.1.3.1",
+      "quote": "the time interval required for any availability criteria shall not exceed 30 seconds.",
+      "text": "The time interval used for any availability criterion shall not exceed 30 seconds."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.1.4",
+      "quote": "Other activities than driving\" through on-board displays available upon activation of the ALKS shall be automatically suspended",
+      "text": "On-board displays used for other activities than driving shall be automatically suspended as soon as the system issues a transition demand or the system is deactivated, whichever comes first."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.1",
+      "quote": "The vehicle shall be equipped with dedicated means for the driver to activate (active mode) and deactivate (off mode) the system.",
+      "text": "The vehicle shall be equipped with dedicated means for the driver to activate (active mode) and deactivate (off mode) the ALKS."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.1",
+      "quote": "When the ALKS is activated, the means to deactivate ALKS shall be permanently visible to the driver.",
+      "text": "When the ALKS is activated, the means to deactivate the system shall be permanently visible to the driver."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.2",
+      "quote": "The default status of the system shall be the off mode at the initiation of thepowertrain",
+      "text": "The default status of the ALKS shall be the off mode at each initiation of the powertrain."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.3",
+      "quote": "The system shall become active only upon a deliberate action by the driver and if all the following conditions are met",
+      "text": "The system shall become active only upon a deliberate action by the driver and only where all the listed activation conditions are met, including driver present and belted, driver available, no failure, DSSAD operational and valid environment."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.3",
+      "quote": "The vehicle is on roads where pedestrians and cyclists are prohibited and which, by design, are equipped with a physical separation",
+      "text": "The system shall only become active where the vehicle is on roads where pedestrians and cyclists are prohibited and which by design have a physical separation dividing traffic moving in opposite directions."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.3",
+      "quote": "If any of the above conditions is no longer fulfilled, the system shall immediately initiate a transition demand unless specified differently in this Regulation.",
+      "text": "If any activation condition is no longer fulfilled, the system shall immediately initiate a transition demand unless specified differently in the Regulation."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.4",
+      "quote": "It shall be possible to manually deactivate (off-mode) the system by an intentional action of the driver using the same means as to activate the system",
+      "text": "It shall be possible to manually deactivate the system by an intentional action of the driver using the same means as to activate the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.4",
+      "quote": "The means of deactivating shall provide protection against unintentional manual deactivation for example by requiring a single input exceeding a certain threshold",
+      "text": "The means of deactivating shall provide protection against unintentional manual deactivation, for example by requiring a single input exceeding a time threshold, a double press or two simultaneous inputs."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.4",
+      "quote": "Additionally, it shall be ensured the driver is in lateral control of the vehicle at the time of the deactivation",
+      "text": "The system shall ensure the driver is in lateral control of the vehicle at the time of deactivation, e.g. by placing the deactivation means on the steering control or confirming the driver is holding it."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 17,
+      "paragraph": "6.2.5.1",
+      "quote": "The system shall be deactivated when at least one of the following conditions is met",
+      "text": "The system shall be deactivated when the driver overrides the system by steering while holding the steering control and the override is not suppressed, or when holding the steering control and overriding by braking or accelerating."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.2.5.3",
+      "quote": "In case of an ongoing emergency manoeuvre, the deactivation of the system may be delayed until the imminent collision risk disappeared.",
+      "text": "In case of an ongoing emergency manoeuvre, deactivation of the system may be delayed until the imminent collision risk has disappeared."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.2.6",
+      "quote": "On deactivation of the system, there shall not be an automatic transition to any function, which provides continuous longitudinal and/or lateral movement",
+      "text": "On deactivation of the system there shall be no automatic transition to any function providing continuous longitudinal and/or lateral movement of the vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.2.6",
+      "quote": "any other safety system delivering longitudinal or lateral support in imminent collision situations shall not be deactivated in case of deactivation of ALKS.",
+      "text": "Safety systems delivering longitudinal or lateral support in imminent collision situations, such as AEBS, ESC, BAS or ESF, shall not be deactivated on deactivation of ALKS."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.2.7",
+      "quote": "Any deactivation shall be indicated to the driver as defined in paragraph 6.4.2.3.",
+      "text": "Any deactivation of the ALKS shall be indicated to the driver."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.3.1",
+      "quote": "A driver input to the steering control shall override the lateral control function of the system when the input exceeds a reasonable threshold",
+      "text": "A driver input to the steering control shall override the lateral control function of the system when the input exceeds a reasonable threshold designed to prevent unintentional override, comprising a specified force and duration."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.3.1.1",
+      "quote": "The system shall detect if the driver is attentive.",
+      "text": "The system shall detect whether the driver is attentive, deeming the driver attentive when at least one of the specified gaze or head movement criteria is met."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.3.2",
+      "quote": "A driver input to the braking control resulting in a higher deceleration than that induced by the system shall override the longitudinal control function of the system.",
+      "text": "A driver input to the braking control resulting in a higher deceleration than that induced by the system, or maintaining the vehicle in standstill, shall override the longitudinal control function of the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 18,
+      "paragraph": "6.3.3",
+      "quote": "A driver input to the accelerator control may override the longitudinal control function of the system.",
+      "text": "A driver input to the accelerator control may override the longitudinal control function of the system without causing the system to cease meeting the requirements of the Regulation."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.3.4",
+      "quote": "Any driver input to the accelerator or brake control shall immediately initiate a transition demand as specified in paragraph 5.4.",
+      "text": "Any driver input to the accelerator or brake control exceeding a reasonable threshold shall immediately initiate a transition demand."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.3.5",
+      "quote": "Any driver activation of the direction indicator shall initiate a transition demand as specified in paragraph 5.4.",
+      "text": "Any driver activation of the direction indicator exceeding a reasonable threshold shall initiate a transition demand."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.3.6",
+      "quote": "the effect of the driver input on any control may be reduced or suppressed by the system in case the system has detected an imminent collision risk due to this driver input.",
+      "text": "The system may reduce or suppress the effect of a driver input on any control where it has detected an imminent collision risk due to that driver input."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.1",
+      "quote": "Any failure affecting the ability of the system to meet the requirements of this Regulation with at least an optical signal unless the system is deactivated",
+      "text": "The ALKS shall indicate to the driver any failure affecting its ability to meet the Regulation with at least an optical signal unless the system is deactivated."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.1",
+      "quote": "Transition demand by at least an optical and in addition an acoustic and/or haptic warning signal.",
+      "text": "The ALKS shall indicate a transition demand by at least an optical and in addition an acoustic and/or haptic warning signal."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.1",
+      "quote": "At the latest 4 s after the initiation of the transition demand, the transition demand shall:",
+      "text": "At the latest 4 s after the initiation of the transition demand, the transition demand shall contain a constant or intermittent haptic warning unless the vehicle is at standstill and shall be escalated."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.1",
+      "quote": "Minimum risk manoeuvre by at least an optical signal and in addition an acoustic and/or a haptic warning signal",
+      "text": "The ALKS shall indicate a minimum risk manoeuvre by at least an optical signal and in addition an acoustic and/or haptic warning signal."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.1",
+      "quote": "Emergency manoeuvre by an optical signal",
+      "text": "The ALKS shall indicate an emergency manoeuvre by an optical signal."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.1",
+      "quote": "A LCP, if the ALKS is capable of performing a LCP, by at least an optical signal.",
+      "text": "Where the ALKS is capable of performing an LCP, an LCP shall be indicated by at least an optical signal."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.1",
+      "quote": "The optical signals above shall be adequate in size and contrast. The acoustic signals above shall be loud and clear.",
+      "text": "The optical signals of the ALKS shall be adequate in size and contrast, and the acoustic signals shall be loud and clear."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.2.1",
+      "quote": "In case activation of the system following the deliberate action of the driver is denied by the system due to system unavailability, this shall be at least visually displayed to the driver.",
+      "text": "Where activation of the system is denied due to system unavailability, this shall be at least visually displayed to the driver."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.2.2",
+      "quote": "Upon activation the system status (active mode) shall be displayed by a dedicated optical signal to the driver.",
+      "text": "Upon activation the system status (active mode) shall be displayed to the driver by a dedicated optical signal containing an unambiguous indication including a steering control or vehicle with an additional \"A\" or \"AUTO\"."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.2.2",
+      "quote": "An easily perceptible indication in the peripheral field of vision and located near the direct line of driver’s sight to the outside in front of the vehicle",
+      "text": "The active-mode optical signal shall contain an easily perceptible indication in the peripheral field of vision located near the direct line of the driver's sight to the outside in front of the vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 19,
+      "paragraph": "6.4.2.2",
+      "quote": "The optical signal shall be constant while the system is in regular operation and with the initiation of a transition demand at least the indication according to (b) shall change its characteristics",
+      "text": "The active-mode optical signal shall be constant during regular operation and, with the initiation of a transition demand, at least the peripheral indication shall change its characteristics, e.g. to intermittent or a different colour."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 20,
+      "paragraph": "6.4.2.3",
+      "quote": "Upon deactivation when the system status changes from active mode to off mode this shall be indicated to the driver by at least an optical warning signal.",
+      "text": "Upon deactivation when the system status changes from active mode to off mode, this shall be indicated to the driver by at least an optical warning signal realised by non-displaying the active-mode signal."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 20,
+      "paragraph": "6.4.2.3",
+      "quote": "Additionally, an acoustic warning signal shall be provided unless the system is deactivated following a transition demand which contained an acoustic signal.",
+      "text": "On deactivation an acoustic warning signal shall be provided unless the system is deactivated following a transition demand which contained an acoustic signal."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 20,
+      "paragraph": "6.4.3.1",
+      "quote": "the system shall instruct the driver in an intuitive and unambiguous way to take over manual control of the vehicle.",
+      "text": "During the transition phase and the MRM the system shall instruct the driver in an intuitive and unambiguous way to take over manual control, including a pictorial information showing hands and the steering control."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 20,
+      "paragraph": "6.4.3.2",
+      "quote": "With the start of the minimum risk manoeuvre, the given signal shall change its characteristics to emphasize the urgency of an action by the driver.",
+      "text": "With the start of the minimum risk manoeuvre the take-over instruction shall change its characteristics to emphasise the urgency of driver action, e.g. by red flashing."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 20,
+      "paragraph": "6.4.5",
+      "quote": "The warnings of an ALKS during a transition phase, an MRM or an EM may be prioritized over other warnings in the vehicle.",
+      "text": "The warnings of the ALKS during a transition phase, an MRM or an EM may be prioritised over other warnings in the vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 20,
+      "paragraph": "7.1",
+      "quote": "The ALKS vehicle shall be equipped with a sensing system such that, it can at least determine the driving environment (e.g. road geometry ahead, lane markings) and the traffic dynamics",
+      "text": "The ALKS vehicle shall be equipped with a sensing system able to determine at least the driving environment and the traffic dynamics across the full width of its own lane and the adjacent lanes up to the forward detection range."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 21,
+      "paragraph": "7.1",
+      "quote": "a sensing system shall be able to determine the traffic dynamics at a width of at least 9m to each side, measured from the centre of the ALKS vehicle",
+      "text": "Where the ALKS is capable of performing an LCP, the sensing system shall determine the traffic dynamics at a width of at least 9 m to each side measured from the centre of the ALKS vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 21,
+      "paragraph": "7.1.1",
+      "quote": "This declared value shall be at least 46 metres for a specified maximum speed of 60 km/h.",
+      "text": "The declared forward detection range, measured from the forward most point of the vehicle, shall be at least 46 m for a specified maximum speed of 60 km/h."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 21,
+      "paragraph": "7.1.1",
+      "quote": "A specified maximum speed above 60 km/h shall only be declared by the manufacturer, if the declared forward detection range fulfils the corresponding minimum value",
+      "text": "A specified maximum speed above 60 km/h shall only be declared where the declared forward detection range fulfils the corresponding minimum value of the table based on a deceleration of 5 m/s²."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 21,
+      "paragraph": "7.1.1",
+      "quote": "The system shall implement control strategies to adapt its maximum speed due the actual detection range and the actual deceleration capability",
+      "text": "The system shall implement control strategies to adapt its maximum speed to the actual detection range and the actual deceleration capability in order to comply with the stop-behind requirement."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 21,
+      "paragraph": "7.1.1.1",
+      "quote": "The declared range in paragraph 7.1.1. shall be sufficient to cover at least an area 9m to the side(s) to which the ALKS performs an LCP",
+      "text": "Where the ALKS is capable of performing an LCP, the declared forward detection range shall be sufficient to cover at least an area 9 m to the side(s) to which the ALKS performs an LCP, measured from the vehicle centreline."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 21,
+      "paragraph": "7.1.2",
+      "quote": "The declared range shall be sufficient to cover the full width of the lane immediately to the left and of the lane immediately to the right of the vehicle.",
+      "text": "The declared lateral detection range shall be sufficient to cover the full width of the lane immediately to the left and of the lane immediately to the right of the vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 22,
+      "paragraph": "7.1.2.1",
+      "quote": "The manufacturer shall also declare the lateral detection range that shall be sufficient to cover at least an area 9m to the side(s)",
+      "text": "Where the ALKS is capable of performing an LCP, the declared lateral detection range shall be sufficient to cover at least an area 9 m to the side(s) to which the ALKS performs an LCP, measured from the vehicle centreline."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 22,
+      "paragraph": "7.1.3",
+      "quote": "This declared range shall be sufficient to cover at least an area 9m to the side(s) to which the ALKS performs an LCP",
+      "text": "Where the ALKS is capable of performing an LCP, the declared rearward detection range, measured from the most rearward point of the vehicle, shall cover at least an area 9 m to the side(s) to which the ALKS performs an LCP."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 22,
+      "paragraph": "7.1.4",
+      "quote": "The manufacturer shall declare the area, if any, within the PVPA in which the system is able to assess the status of other vehicle’s direction indicators.",
+      "text": "The manufacturer shall declare the area within the PVPA in which the system is able to assess the status of other vehicles' direction indicators, accounting for the different direction indicator positions."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 22,
+      "paragraph": "7.1.5",
+      "quote": "The ALKS shall implement strategies to detect and compensate for environmental conditions that reduce the detection range",
+      "text": "The ALKS shall implement strategies to detect and compensate for environmental conditions that reduce the detection range, such as preventing enabling, disabling the system, transferring control or reducing speed."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 22,
+      "paragraph": "7.1.6",
+      "quote": "the effects of wear and ageing do not reduce the performance of the sensing system below the minimum required values specified in paragraph 7.1.",
+      "text": "The sensing system shall be designed such that the effects of wear and ageing do not reduce its performance below the minimum required detection values over the lifetime of the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 22,
+      "paragraph": "7.1.8",
+      "quote": "A single perception malfunction without failure should not induce hazardous event.",
+      "text": "The ALKS shall be designed so that a single perception malfunction without failure does not induce a hazardous event."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 22,
+      "paragraph": "8.1",
+      "quote": "Each vehicle equipped with ALKS (the system) shall be fitted with a DSSAD that meets the requirements specified below.",
+      "text": "Each vehicle equipped with ALKS shall be fitted with a DSSAD meeting the data storage requirements of the Regulation."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 23,
+      "paragraph": "8.2.1",
+      "quote": "Each vehicle equipped with a DSSAD shall at least record an entry for each of the following occurrences upon activation of the system",
+      "text": "The DSSAD shall record at least an entry for activation and deactivation of the system, including deactivation by dedicated means, steering override, accelerator override and braking override."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 23,
+      "paragraph": "8.2.1",
+      "quote": "Transition Demand by the system, due to:",
+      "text": "The DSSAD shall record an entry for each transition demand, including its reason such as a planned event, unplanned event, driver unavailability, driver not present or unbuckled, system failure or system override."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 23,
+      "paragraph": "8.2.1",
+      "quote": "Start of Emergency Manoeuvre;",
+      "text": "The DSSAD shall record an entry for the start and the end of an emergency manoeuvre."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 23,
+      "paragraph": "8.2.1",
+      "quote": "Minimum Risk Manoeuvre engagement by the system;",
+      "text": "The DSSAD shall record an entry for the engagement of a minimum risk manoeuvre by the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 23,
+      "paragraph": "8.2.2",
+      "quote": "Occurrences flags for paragraph 8.2.1 (l) and (o) are only required to be stored if they happen either within 30 seconds before the following occurrences",
+      "text": "The DSSAD shall store the occurrence flags for the start of an LCP and the start of an intentional lane crossing only where they occur within 30 seconds before an emergency manoeuvre, a detected collision, an aborted LCM or an EDR trigger, or within 5 seconds before a system override."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 24,
+      "paragraph": "8.3.1",
+      "quote": "the DSSAD shall at least record the following data elements in a clearly identifiable way",
+      "text": "For each recorded event the DSSAD shall record in a clearly identifiable way the occurrence flag, the reason, the date and the timestamp with an accuracy of +/- 1.0 s."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 24,
+      "paragraph": "8.3.2",
+      "quote": "the R157SWIN for ALKS, or the software versions relevant to ALKS, indicating the software that was present at the time when the event occurred, shall be clearly identifiable.",
+      "text": "For each recorded event the R157SWIN for ALKS, or the relevant ALKS software versions present at the time of the event, shall be clearly identifiable in the DSSAD."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 24,
+      "paragraph": "8.4.2",
+      "quote": "Once the storage limits of the DSSAD are achieved, existing data shall only be overwritten following a first in first out procedure",
+      "text": "Once the storage limits of the DSSAD are reached, existing data shall only be overwritten following a first-in-first-out procedure."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 24,
+      "paragraph": "8.4.3.1",
+      "quote": "the data elements listed in paragraph 8.3.1. shall be retrievable even after an impact of a severity level set by UN Regulations Nos. 94, 95 or 137",
+      "text": "For M1 vehicles the DSSAD data elements shall remain retrievable even after an impact of a severity level set by UN Regulations Nos. 94, 95 or 137 as applicable."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "8.4.3.3",
+      "quote": "If the main on-board vehicle power supply is not available, it shall still be possible to retrieve all data recorded on the DSSAD",
+      "text": "Where the main on-board vehicle power supply is not available, it shall still be possible to retrieve all data recorded on the DSSAD."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "8.4.4",
+      "quote": "Data stored in the DSSAD shall be easily readable in a standardized way via the use of an electronic communication interface, at least through the standard interface (OBD port).",
+      "text": "Data stored in the DSSAD shall be easily readable in a standardised way via an electronic communication interface, at least through the OBD port."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "8.4.5.1",
+      "quote": "it shall be possible to retrieve through the standard interface (OBD port) the DSSAD data elements as referred to in paragraphs 8.3.1(a) and 8.3.1.(b)",
+      "text": "For vehicles fitted with an EDR in accordance with UN Regulation 160, the DSSAD occurrence and reason elements recorded for at least the last 30 seconds before the EDR trigger shall be retrievable through the OBD port."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "8.5.1",
+      "quote": "It shall be ensured that there is adequate protection against manipulation (e.g. data erasure) of stored data such as anti-tampering design.",
+      "text": "The DSSAD shall provide adequate protection against manipulation of stored data, such as an anti-tampering design."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "8.6.1",
+      "quote": "DSSAD shall be able to communicate with the system to inform that the DSSAD is operational.",
+      "text": "The DSSAD shall be able to communicate with the ALKS to inform it that the DSSAD is operational."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "9.1",
+      "quote": "The effectiveness of the system shall not be adversely affected by cyber-attacks, cyber threats and vulnerabilities.",
+      "text": "The effectiveness of the ALKS shall not be adversely affected by cyber-attacks, cyber threats and vulnerabilities."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "9.2",
+      "quote": "If the system permits software updates, the effectiveness of the software update procedures and processes shall be demonstrated by compliance with UN Regulation No. 156.",
+      "text": "Where the system permits software updates, the effectiveness of the software update procedures shall be demonstrated by compliance with UN Regulation No. 156."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 25,
+      "paragraph": "9.3.1.1",
+      "quote": "for the purpose of ensuring the software of the System can be identified, an R157SWIN shall be used.",
+      "text": "An R157SWIN shall be used to identify the software of the system, held on the vehicle or declared by the manufacturer if not held on the vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "4.4",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation, an international approval mark",
+      "text": "Every vehicle conforming to a type approved under this Regulation shall bear an international approval mark affixed conspicuously in a readily accessible place specified on the approval form."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "4.4.1",
+      "quote": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval;",
+      "text": "The approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "4.4.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+      "text": "The approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "4.4.3.1",
+      "quote": "\"LC\" in the case of a ALKS capable of an LCP.",
+      "text": "Where the ALKS is capable of an LCP, the approval mark shall include the additional symbol \"LC\" after the letter \"R\"."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and be indelible.",
+      "text": "The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 5,
+      "paragraph": "4.7",
+      "quote": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 33,
+      "paragraph": "Annex 2 Model A",
+      "quote": "a = 8 mm min",
+      "text": "The character size of the approval mark shall be at least 8 mm."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 64,
+      "paragraph": "Annex 5 3.1",
+      "quote": "The system shall be verified on a closed-access area with various scenario elements to test the capabilities and functioning of an ALKS.",
+      "text": "The ALKS shall be verified on a closed-access area with various scenario elements to test its capabilities and functioning."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 64,
+      "paragraph": "Annex 5 3.2.4",
+      "quote": "The test surface shall afford at least the adhesion required by the scenario in order to achieve the expected test result.",
+      "text": "The ALKS track test shall be performed on a test surface affording at least the adhesion required by the scenario in order to achieve the expected test result."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 64,
+      "paragraph": "Annex 5 3.2.5.1",
+      "quote": "The subject vehicle shall be tested in a load condition agreed between the manufacturer and the type-approval authority.",
+      "text": "The subject vehicle shall be tested in a load condition agreed between the manufacturer and the type-approval authority with no load alteration once the test has begun."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 64,
+      "paragraph": "Annex 5 3.2.5.2",
+      "quote": "The subject vehicle shall be tested at the tyre pressure recommended by the vehicle manufacturer.",
+      "text": "The subject vehicle shall be tested at the tyre pressure recommended by the vehicle manufacturer."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 65,
+      "paragraph": "Annex 5 4.1.1",
+      "quote": "The test shall demonstrate that the ALKS does not leave its lane and maintains a stable motion inside its ego lane across the speed range and different curvatures",
+      "text": "The lane keeping test shall demonstrate that the ALKS does not leave its lane and maintains a stable motion inside its ego lane across the speed range and different curvatures within its system boundaries."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 65,
+      "paragraph": "Annex 5 4.1.2",
+      "quote": "5 minutes for systems limited to 60 km/h operational speed;",
+      "text": "The lane keeping test shall be executed with a minimum test duration of 5 minutes for systems limited to 60 km/h operational speed."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 65,
+      "paragraph": "Annex 5 4.1.2",
+      "quote": "With a passenger car target as well as a PTW target as the lead vehicle / other vehicle;",
+      "text": "The lane keeping test shall be executed with a passenger car target as well as a PTW target as the lead vehicle or other vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 65,
+      "paragraph": "Annex 5 4.1.2",
+      "quote": "With a lead vehicle swerving in the lane; and",
+      "text": "The lane keeping test shall be executed with a lead vehicle swerving in the lane."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 66,
+      "paragraph": "Annex 5 4.2.1",
+      "quote": "The test shall demonstrate that the ALKS avoids a collision with a stationary vehicle, road user or fully or partially blocked lane up to the maximum specified speed",
+      "text": "The test shall demonstrate that the ALKS avoids a collision with a stationary vehicle, road user or fully or partially blocked lane up to the maximum specified speed of the system."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 66,
+      "paragraph": "Annex 5 4.2.2",
+      "quote": "With a pedestrian target crossing the lane with a speed of 5 km/h for speeds of the ALKS vehicle up to 60km/h;",
+      "text": "The blocked-lane collision avoidance test shall be executed with a pedestrian target crossing the lane at 5 km/h for ALKS speeds up to 60 km/h."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 66,
+      "paragraph": "Annex 5 4.2.2",
+      "quote": "With multiple consecutive obstacles blocking the lane (e.g. in the following order: ALKS vehicle - PTW - car);",
+      "text": "The blocked-lane collision avoidance test shall be executed with multiple consecutive obstacles blocking the lane, e.g. ALKS vehicle - PTW - car."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 66,
+      "paragraph": "Annex 5 4.3.1",
+      "quote": "The test shall demonstrate that the ALKS is able to maintain and restore the required safety distance to a vehicle in front",
+      "text": "The following test shall demonstrate that the ALKS maintains and restores the required safety distance to a vehicle in front and avoids a collision with a lead vehicle decelerating up to its maximum deceleration."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 66,
+      "paragraph": "Annex 5 4.3.2",
+      "quote": "With a deceleration of the lead vehicle of at least 6 m/s2 mean fully developed deceleration until standstill.",
+      "text": "The following test shall be executed with a deceleration of the lead vehicle of at least 6 m/s² mean fully developed deceleration until standstill."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 66,
+      "paragraph": "Annex 5 4.4.2",
+      "quote": "The criticality of the cut-in manoeuvre shall be determined according to TTC, longitudinal distance between rear-most point of the cutting in vehicle and front-most point of the ALKS vehicle",
+      "text": "The criticality of the cut-in manoeuvre in the test shall be determined according to TTC, longitudinal distance, lateral velocity and longitudinal movement of the cutting-in vehicle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 67,
+      "paragraph": "Annex 5 4.6.1",
+      "quote": "The test shall demonstrate that the ALKS is capable of detecting another road user within the forward detection area up to the declared forward detection range",
+      "text": "The field of view test shall demonstrate that the ALKS detects another road user within the forward detection area up to the declared forward detection range and a vehicle beside within the lateral detection area up to at least the full width of the adjacent lane."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 68,
+      "paragraph": "Annex 5 4.8.1",
+      "quote": "The test shall demonstrate that the ALKS vehicle is not initiating an emergency manoeuvre with a deceleration demand greater than 5 m/s2 due to a passable object in the lane",
+      "text": "The test shall demonstrate that the ALKS vehicle does not initiate an emergency manoeuvre with a deceleration demand greater than 5 m/s² due to a passable object in the lane."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 68,
+      "paragraph": "Annex 5 5.2",
+      "quote": "Off mode after new engine start/run",
+      "text": "The ALKS shall be verified to be in off mode after a new engine start or run cycle."
+    },
+    {
+      "regulation": "UN R157",
+      "page": 69,
+      "paragraph": "Annex 5 5.2",
+      "quote": "Means of deactivation is protected against unintentional action",
+      "text": "The ALKS means of deactivation shall be verified to be protected against unintentional action."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.1",
+      "quote": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed",
+      "text": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed, with a tendency to self-centre when tested with intact steering equipment."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.2",
+      "quote": "It shall be possible to travel along a straight section of road without unusual steering correction by the driver and without unusual vibration",
+      "text": "It shall be possible to travel along a straight section of road without unusual steering correction by the driver and without unusual vibration in the steering system at the maximum design speed."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.4",
+      "quote": "The steering equipment shall be designed, constructed and fitted in such a way that it is capable of withstanding the stresses arising during normal operation of the vehicle",
+      "text": "The steering equipment shall be designed, constructed and fitted to withstand the stresses arising during normal operation of the vehicle or combination of vehicles."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "5.1.5",
+      "quote": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields.",
+      "text": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields, demonstrated by fulfilling UN Regulation No. 10."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 10,
+      "paragraph": "5.1.6",
+      "quote": "the function does not cause any deterioration in the performance of the basic steering system. In addition they shall be designed such that the driver may, at any time and by deliberate action, override the function.",
+      "text": "The advanced driver assistance steering function shall not cause deterioration of the basic steering system and shall be designed such that the driver may at any time and by deliberate action override the function."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 10,
+      "paragraph": "5.1.6.1.3",
+      "quote": "The steering control effort necessary to override the directional control provided by the system shall not exceed 50 N in the whole range of CSF operations.",
+      "text": "The steering control effort necessary to override the directional control provided by a CSF shall not exceed 50 N in the whole range of CSF operations."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 11,
+      "paragraph": "5.1.6.2.7",
+      "quote": "A system failure shall be indicated to the driver with an optical warning signal.",
+      "text": "A system failure of an ESF shall be indicated to the driver with an optical warning signal, except that the indication may be suppressed when manually deactivated."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 12,
+      "paragraph": "5.1.6.3.6",
+      "quote": "During the RMF intervention the vehicle shall slow down with a deceleration demand not greater than 4m/s², unless required by the surrounding traffic",
+      "text": "During an RMF intervention the vehicle shall slow down with a deceleration demand not greater than 4 m/s², unless required by the surrounding traffic or for very short haptic warning durations."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 12,
+      "paragraph": "5.1.6.3.7",
+      "quote": "Once the RMF has brought the vehicle to a safe stop in the target stop area, the vehicle shall not move away without manual input.",
+      "text": "Once the RMF has brought the vehicle to a safe stop in the target stop area, the vehicle shall not move away without manual input."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 12,
+      "paragraph": "5.1.6.3.4",
+      "quote": "The signal to activate the hazard warning lights shall be generated with the start of the intervention.",
+      "text": "The signal to activate the hazard warning lights shall be generated with the start of the RMF intervention."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 13,
+      "paragraph": "5.1.6.3.9.3",
+      "quote": "A lane change procedure shall not start within the first 5s following the start of the RMF intervention.",
+      "text": "A lane change procedure during an RMF intervention shall not start within the first 5 s following the start of the RMF intervention."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 14,
+      "paragraph": "5.1.6.3.9.12.4",
+      "quote": "When bringing the vehicle to a stop beside the road the vehicle speed shall not exceed 10 km/h.",
+      "text": "When bringing the vehicle to a stop beside the road the vehicle speed shall not exceed 10 km/h."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 15,
+      "paragraph": "5.1.8.1",
+      "quote": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection can be established between the adjustable components by appropriate locking devices.",
+      "text": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection can be established between the adjustable components by appropriate locking devices."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 15,
+      "paragraph": "5.1.9",
+      "quote": "The steered wheels shall not be solely the rear wheels.",
+      "text": "The steered wheels shall not be solely the rear wheels."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 15,
+      "paragraph": "5.1.10",
+      "quote": "in the case of a failure in any system which shares the same energy supply steering shall be ensured in accordance with the relevant failure conditions of paragraph 5.3.",
+      "text": "Where a system shares the same energy supply as the steering equipment, steering shall be ensured in accordance with the relevant failure conditions of paragraph 5.3."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 16,
+      "paragraph": "5.3.1.1",
+      "quote": "Where the failure of any such part would be likely to result in loss of control of the vehicle, that part shall be made of metal or of a material with equivalent characteristics",
+      "text": "Where the failure of a steering part would likely result in loss of control, that part shall be made of metal or of a material with equivalent strength and fatigue life characteristics and not be subject to significant distortion."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 16,
+      "paragraph": "5.3.1.3",
+      "quote": "Any failure in a transmission other than purely mechanical shall clearly be brought to the attention of the vehicle driver",
+      "text": "Any failure in a transmission other than purely mechanical shall clearly be brought to the attention of the vehicle driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 16,
+      "paragraph": "5.3.2.1",
+      "quote": "Should the engine stop or a part of the transmission fail, there shall be no immediate changes in steering angle.",
+      "text": "Should the engine stop or a part of the transmission fail, there shall be no immediate changes in steering angle."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 16,
+      "paragraph": "5.3.3.1",
+      "quote": "The system shall be designed such that the vehicle cannot be driven indefinitely at speeds above 10 km/h where there is any fault requiring operation of the warning signal",
+      "text": "The full power steering system shall be designed such that the vehicle cannot be driven indefinitely at speeds above 10 km/h where there is any fault requiring the warning signal."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 17,
+      "paragraph": "5.3.3.3",
+      "quote": "it shall be possible to carry out at least 24 \"figure of eight\" manoeuvres, where each loop of the figure is 40 m diameter at 10 km/h speed",
+      "text": "In the event of a failure of the energy source, electrical supply or control transmission, it shall be possible to carry out at least 24 figure-of-eight manoeuvres with each loop 40 m diameter at 10 km/h."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 17,
+      "paragraph": "5.3.3.6.3",
+      "quote": "The amount of energy is deemed sufficient if it is possible to perform 18 subsequent lane changes for vehicles of Categories M1 and N1",
+      "text": "After failure occurrence sufficient energy shall be available to perform 18 subsequent lane changes for M1 and N1 vehicles within a maximum time of 90 s at 20 km/h ± 2 km/h."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 18,
+      "paragraph": "5.3.3.6.4",
+      "quote": "The maximum deceleration demand to reach the condition as per paragraph 5.3.3.6.1. shall not exceed 2 m/s².",
+      "text": "The maximum deceleration demand to reach the reduced-speed or standstill condition after an energy failure shall not exceed 2 m/s², except up to 4 m/s² where necessary under specified conditions."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 18,
+      "paragraph": "5.3.3.6.6",
+      "quote": "Upon reaching standstill the vehicle shall be prevented from rolling away either automatically or by requesting an action by the driver.",
+      "text": "Upon reaching standstill after an energy failure the vehicle shall be prevented from rolling away either automatically or by requesting an action by the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 19,
+      "paragraph": "5.4.1.1",
+      "quote": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver of the vehicle.",
+      "text": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.1.2",
+      "quote": "Optical warning signals shall be visible, even by daylight and distinguishable from other alerts",
+      "text": "Optical warning signals shall be visible even by daylight, distinguishable from other alerts, and their satisfactory condition easily verifiable by the driver from the driver's seat."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.2.1.1",
+      "quote": "A red warning signal, indicating failures defined in paragraph 5.3.1.3. within the main steering equipment",
+      "text": "A red warning signal shall indicate failures within the main steering equipment if a single additional failure could result in a complete loss of steering function."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.2.1.3",
+      "quote": "If a symbol is used, it shall comply with symbol J 04, ISO/IEC registration number 7000-2441 as defined in ISO 2575:2000;",
+      "text": "Where a symbol is used for the steering failure warning, it shall comply with symbol J 04, ISO/IEC registration number 7000-2441 as defined in ISO 2575:2000."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 20,
+      "paragraph": "5.4.2.1.4",
+      "quote": "The warning signal(s) mentioned above shall light up when the electrical equipment of the vehicle (and the steering system) is energised.",
+      "text": "The steering warning signal(s) shall light up when the electrical equipment of the vehicle and the steering system is energised and be extinguished only after verifying no specified failure is present with the vehicle stationary."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 21,
+      "paragraph": "5.5.1",
+      "quote": "the steering equipment and its installation shall be so designed that, without disassembly, its operation can be checked with, if necessary, commonly used measuring instruments",
+      "text": "The steering equipment and its installation shall be designed so that, without disassembly, its operation can be checked with commonly used measuring instruments, methods or test equipment."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 21,
+      "paragraph": "5.5.2",
+      "quote": "It shall be possible to verify in a simple way the correct operational status of those Electronic Systems, which have control over steering.",
+      "text": "It shall be possible to verify in a simple way the correct operational status of those electronic systems which have control over steering."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.1",
+      "quote": "The activated system shall at any time, within the boundary conditions, ensure that the vehicle does not cross a lane marking",
+      "text": "The activated ACSF of Category B1 shall at any time, within the boundary conditions, ensure the vehicle does not cross a lane marking for lateral accelerations below the specified maximum aysmax."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.1",
+      "quote": "The system may exceed the specified value aysmax by not more than 0.3 m/s2",
+      "text": "The system may exceed the specified maximum lateral acceleration aysmax by not more than 0.3 m/s² without exceeding the maximum value of the table."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.1",
+      "quote": "for time periods of not more than 2 s the lateral acceleration of the system may exceed the specified value aysmax by not more than 40 per cent",
+      "text": "For time periods of not more than 2 s the lateral acceleration of the system may exceed the specified value aysmax by not more than 40 per cent without exceeding the table maximum by more than 0.3 m/s²."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.3",
+      "quote": "The steering control effort necessary to override the directional control provided by the system shall not exceed 50 N;",
+      "text": "The steering control effort necessary to override the directional control provided by an ACSF of Category B1 shall not exceed 50 N."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.3",
+      "quote": "The moving average over half a second of the lateral jerk generated by the system shall not exceed 5 m/s³.",
+      "text": "The moving average over half a second of the lateral jerk generated by the system shall not exceed 5 m/s³."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.3. Table 1",
+      "quote": "Maximum value for the specified maximum lateral acceleration",
+      "text": "For an M1 vehicle the specified maximum lateral acceleration aysmax shall not exceed 3 m/s² in any of the 10-60, >60-100, >100-130 and >130 km/h speed ranges."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 23,
+      "paragraph": "5.6.2.1.3. Table 1",
+      "quote": "Minimum value for the specified maximum lateral acceleration",
+      "text": "For an M1 vehicle the specified maximum lateral acceleration aysmax shall be at least 0 m/s² in the 10-60 km/h range and at least 0.5, 0.8 and 0.3 m/s² in the higher speed ranges respectively."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 24,
+      "paragraph": "5.6.2.2.1",
+      "quote": "If the system is active an optical signal shall be provided to the driver.",
+      "text": "When an ACSF of Category B1 is active an optical signal shall be provided to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 24,
+      "paragraph": "5.6.2.2.2",
+      "quote": "When the system is in standby mode, an optical signal shall be provided to the driver.",
+      "text": "When the system is in standby mode an optical signal shall be provided to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 24,
+      "paragraph": "5.6.2.2.3",
+      "quote": "the system shall avoid sudden loss of steering support by continuing to provide assistance to the extent possible",
+      "text": "When the system reaches its boundary conditions with no driver steering input and a front tyre starts to cross a lane marking, the system shall avoid sudden loss of steering support and inform the driver by an optical and additionally an acoustic or haptic warning."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 24,
+      "paragraph": "5.6.2.2.5",
+      "quote": "it shall provide a means of detecting that the driver is holding the steering control.",
+      "text": "When the system is active in the speed range between 10 km/h or Vsmin and Vsmax, it shall provide a means of detecting that the driver is holding the steering control."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 24,
+      "paragraph": "5.6.2.2.5",
+      "quote": "If, after a period of no longer than 15 seconds the driver is not holding the steering control, an optical warning signal shall be provided.",
+      "text": "If after no longer than 15 seconds the driver is not holding the steering control, an optical warning signal showing hands and the steering control shall be provided."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 24,
+      "paragraph": "5.6.2.2.5",
+      "quote": "If, after a period of no longer than 30 seconds the driver is not holding the steering control, at least the hands or steering control in the pictorial information shall be shown in red and an acoustic warning signal shall be provided.",
+      "text": "If after no longer than 30 seconds the driver is not holding the steering control, at least the hands or steering control in the pictorial information shall be shown in red and an acoustic warning signal shall be provided."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 25,
+      "paragraph": "5.6.2.2.5",
+      "quote": "The system shall be automatically deactivated at the latest 30 seconds after the acoustic warning signal has started.",
+      "text": "The system shall be automatically deactivated at the latest 30 seconds after the acoustic warning signal has started and then clearly inform the driver with a different acoustic emergency signal for at least five seconds."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 25,
+      "paragraph": "5.6.2.2.6",
+      "quote": "the optical signals described in paragraph 5.6.2.2. shall all be different from each other (e.g. different symbol, colour, blinking, text).",
+      "text": "The optical signals described for the Category B1 system shall all be different from each other, e.g. by different symbol, colour, blinking or text."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 25,
+      "paragraph": "5.6.4.2.1",
+      "quote": "The default status of the system shall be the off mode at the initiation of the powertrain",
+      "text": "The default status of the ACSF of Category C shall be the off mode at the initiation of the powertrain."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 26,
+      "paragraph": "5.6.4.2.3",
+      "quote": "Activation by the driver shall only be possible on roads where pedestrians and cyclists are prohibited and which, by design, are equipped with a physical separation",
+      "text": "Activation of the ACSF of Category C shall only be possible on roads where pedestrians and cyclists are prohibited, which have a physical separation dividing opposing traffic and at least two lanes in the driving direction, ensured by at least two independent means."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 26,
+      "paragraph": "5.6.4.2.4",
+      "quote": "It shall be possible to deactivate the system (off mode) at any time by a single action of the driver.",
+      "text": "It shall be possible to deactivate the ACSF of Category C at any time by a single action of the driver, after which reactivation requires a deliberate action."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 26,
+      "paragraph": "5.6.4.3",
+      "quote": "A steering input by the driver shall override the steering action of the system. The steering control effort necessary to override the directional control provided by the system shall not exceed 50 N.",
+      "text": "A steering input by the driver shall override the steering action of the system, with the steering control effort necessary to override not exceeding 50 N."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 26,
+      "paragraph": "5.6.4.4",
+      "quote": "Shall not exceed 1 m/s² in addition to the lateral acceleration generated by the lane curvature, and",
+      "text": "The lateral acceleration induced by the system during a lane change manoeuvre shall not exceed 1 m/s² in addition to the lateral acceleration generated by the lane curvature."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 26,
+      "paragraph": "5.6.4.5.2",
+      "quote": "When the system is in standby mode (i.e. ready to intervene), an optical signal shall be provided to the driver.",
+      "text": "When the ACSF of Category C is in standby mode an optical signal shall be provided to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 27,
+      "paragraph": "5.6.4.5.3",
+      "quote": "When the lane change procedure is ongoing an optical signal shall be provided to the driver.",
+      "text": "When the lane change procedure is ongoing an optical signal shall be provided to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 27,
+      "paragraph": "5.6.4.5.4",
+      "quote": "the system shall clearly inform the driver about this system status by an optical warning signal and additionally by an acoustic or haptic warning signal.",
+      "text": "When the lane change procedure is suppressed the system shall inform the driver by an optical warning signal and additionally by an acoustic or haptic warning signal, unless the suppression was initiated by the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 27,
+      "paragraph": "5.6.4.5.5",
+      "quote": "A system failure shall be signalled immediately to the driver by an optical warning signal.",
+      "text": "A system failure shall be signalled immediately to the driver by an optical warning signal, and, if occurring during a lane change manoeuvre, additionally by an acoustic or haptic warning."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 27,
+      "paragraph": "5.6.4.5.6",
+      "quote": "If, after a period of no longer than 3s after the initiation of the lane change procedure and before the start of the lane change manoeuvre, the driver is not holding the steering control, an optical warning signal shall be provided.",
+      "text": "If within no longer than 3 s after initiation of the lane change procedure and before the start of the manoeuvre the driver is not holding the steering control, an optical warning signal shall be provided."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 27,
+      "paragraph": "5.6.4.6.1",
+      "quote": "The initiation of a lane change procedure of an ACSF of Category C shall only be possible if an ACSF of Category B1 is already active.",
+      "text": "The initiation of a lane change procedure of the ACSF of Category C shall only be possible where an ACSF of Category B1 is already active."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 27,
+      "paragraph": "5.6.4.6.4",
+      "quote": "The lateral movement of the vehicle towards the intended lane shall not start earlier than 1.0 second after the start of the lane change procedure.",
+      "text": "The lateral movement of the vehicle towards the intended lane shall not start earlier than 1.0 second after the start of the lane change procedure."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 27,
+      "paragraph": "5.6.4.6.4.1",
+      "quote": "In case of an automatic initiation the lane change manoeuvre shall commence between 3.0 seconds and 5.0 seconds after the manual activation of the procedure",
+      "text": "Where the lane change manoeuvre is initiated automatically, it shall commence between 3.0 and 5.0 seconds after the manual activation of the procedure."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 28,
+      "paragraph": "5.6.4.6.4.2",
+      "quote": "the lane change manoeuvre shall commence between 3.0 and 7.0 seconds after the manual activation of the procedure",
+      "text": "Where the lane change manoeuvre is initiated by a second deliberate action, it shall commence between 3.0 and 7.0 seconds after the manual activation of the procedure and at the latest 3.0 seconds after the second deliberate action."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 28,
+      "paragraph": "5.6.4.6.4.2",
+      "quote": "The control to operate the second deliberate action shall be located in the steering control area.",
+      "text": "The control to operate the second deliberate action shall be located in the steering control area."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 28,
+      "paragraph": "5.6.4.6.5",
+      "quote": "The lane change manoeuvre shall be completed in less than:",
+      "text": "The lane change manoeuvre shall be completed in less than 5 seconds for M1 and N1 vehicles."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 29,
+      "paragraph": "5.6.4.6.6",
+      "quote": "Once the lane change manoeuvre has completed, ACSF of Category B1 lane keeping function shall resume automatically.",
+      "text": "Once the lane change manoeuvre has completed, the ACSF of Category B1 lane keeping function shall resume automatically."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 29,
+      "paragraph": "5.6.4.6.7",
+      "quote": "The direction indicator shall remain active throughout the whole period of the lane change manoeuvre and shall be automatically deactivated by the system no later than 0.5 seconds after the resumption",
+      "text": "The direction indicator shall remain active throughout the lane change manoeuvre and, where the manoeuvre is initiated automatically and the indicator is not latched, be automatically deactivated no later than 0.5 seconds after resumption of B1."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 29,
+      "paragraph": "5.6.4.6.8.1",
+      "quote": "The lane change procedure shall be suppressed automatically by the system when at least one of the following situations occurs before the lane change manoeuvre has started",
+      "text": "The lane change procedure shall be suppressed automatically by the system when a critical situation, an override or switch-off, a boundary, a hands-off condition, a manual indicator deactivation or a timing expiry occurs before the manoeuvre starts."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 29,
+      "paragraph": "5.6.4.6.8.2",
+      "quote": "Manual deactivation of the lane change procedure, using the manual control of the direction indicator, shall be possible for the driver at any time.",
+      "text": "Manual deactivation of the lane change procedure using the manual control of the direction indicator shall be possible for the driver at any time."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 29,
+      "paragraph": "5.6.4.7",
+      "quote": "A situation is deemed to be critical when, at the time a lane change manoeuvre starts, an approaching vehicle in the target lane would have to decelerate at a higher level than 3m/s²",
+      "text": "A situation shall be deemed critical when, at the start of a lane change manoeuvre, an approaching vehicle in the target lane would have to decelerate at more than 3 m/s² to keep a gap of 1 second, and shall be calculated with the Scritical formula."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 30,
+      "paragraph": "5.6.4.8.1.1",
+      "quote": "The minimum distance Srear shall be declared by the vehicle manufacturer. The declared value shall not be less than 55 m.",
+      "text": "The rear detection minimum distance Srear shall be declared by the manufacturer and shall not be less than 55 m for the ACSF of Category C."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 31,
+      "paragraph": "5.6.4.8.3",
+      "quote": "the ACSF of Category C function shall be prevented by the power-driven vehicle from performing a lane change manoeuvre until the system has detected, at least once, a moving object at a distance greater than the minimum distance Srear",
+      "text": "After each initiation of the powertrain the ACSF of Category C shall be prevented from performing a lane change manoeuvre until the system has detected at least once a moving object at a distance greater than Srear."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 31,
+      "paragraph": "5.6.4.8.4",
+      "quote": "The ACSF of Category C shall be able to detect blindness of the sensor (e.g. due to accumulation of dirt, ice or snow).",
+      "text": "The ACSF of Category C shall be able to detect blindness of the sensor, e.g. due to dirt, ice or snow, and be prevented from performing a lane change manoeuvre upon detection, with the status signalled to the driver no later than on initiation."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 36,
+      "paragraph": "6.1.1",
+      "quote": "The test shall be conducted on a level surface affording good adhesion.",
+      "text": "The steering verification test shall be conducted on a level surface affording good adhesion."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 36,
+      "paragraph": "6.1.2",
+      "quote": "During the test(s), the vehicle shall be loaded to its technically permissible maximum mass and its technically permissible maximum load on the steered axle(s).",
+      "text": "During the steering tests the vehicle shall be loaded to its technically permissible maximum mass and its technically permissible maximum load on the steered axle(s)."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 36,
+      "paragraph": "6.1.4",
+      "quote": "all performance tests shall be carried out under conditions of actual or simulated electrical load of all essential systems or systems components which share the same energy supply.",
+      "text": "For systems using electrical energy, all steering performance tests shall be carried out under actual or simulated electrical load of all essential systems sharing the same energy supply."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 36,
+      "paragraph": "6.2.1",
+      "quote": "It shall be possible to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment",
+      "text": "It shall be possible to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment at 50 km/h for category M1 vehicles."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 36,
+      "paragraph": "6.2.3",
+      "quote": "During the measurement of control effort, forces with a duration of less than 0.2 seconds shall not be taken into account.",
+      "text": "During measurement of steering control effort, forces with a duration of less than 0.2 seconds shall not be taken into account."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 37,
+      "paragraph": "6.2.4.2. Table 2",
+      "quote": "Table 2 Steering control effort requirements",
+      "text": "With intact steering the M1 vehicle shall not require a maximum steering control effort above 15 daN to reach a 12 m turning radius within 4 s."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 37,
+      "paragraph": "6.2.4.2. Table 2",
+      "quote": "Maximum permitted steering time and the maximum permitted steering control effort with a failure in the steering equipment are given in the table below",
+      "text": "With a failure in the steering equipment the M1 vehicle shall reach a 20 m turning radius with a maximum steering control effort of 30 daN within 4 s."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 55,
+      "paragraph": "Annex 8 2",
+      "quote": "The tests shall be performed on a flat, dry asphalt or concrete surface affording good adhesion. The ambient temperature shall be between 0 °C and 45 °C.",
+      "text": "The ACSF tests shall be performed on a flat, dry asphalt or concrete surface affording good adhesion with an ambient temperature between 0 °C and 45 °C."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 55,
+      "paragraph": "Annex 8 2.1",
+      "quote": "The width of the lane shall be minimum 3.5 m, for the purpose of the tests of this annex.",
+      "text": "For the ACSF tests the lane width shall be a minimum of 3.5 m, unless a narrower lane is agreed and correct function on wider lanes is demonstrated."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 55,
+      "paragraph": "Annex 8 2.2",
+      "quote": "All vehicle speeds specified for the tests described in this annex shall be met within a tolerance of ±2 km/h.",
+      "text": "All vehicle speeds specified for the ACSF tests shall be met within a tolerance of ±2 km/h."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 55,
+      "paragraph": "Annex 8 2.4",
+      "quote": "The sampling rate shall be at least 100 Hz.",
+      "text": "The raw lateral acceleration data at the vehicle centre of gravity shall be measured with a sampling rate of at least 100 Hz."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 57,
+      "paragraph": "Annex 8 3.2.1.2",
+      "quote": "No outside edge of the tyre tread of the vehicle’s front wheel does cross the outside edge of any lane marking.",
+      "text": "In the ACSF Category B1 lane keeping functional test, no outside edge of the tyre tread of the vehicle's front wheel shall cross the outside edge of any lane marking."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 58,
+      "paragraph": "Annex 8 3.2.4.2",
+      "quote": "During both tests, the optical warning signal was given at the latest 15 s after the steering control has been released and remains until ACSF is deactivated.",
+      "text": "In the hands-on transition test the optical warning signal shall be given at the latest 15 s after the steering control is released and remain until the ACSF is deactivated."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 58,
+      "paragraph": "Annex 8 3.2.4.2",
+      "quote": "During the lower speed test the acoustic warning signal was given at the latest 30 s after the steering control has been released and remains until ACSF is deactivated.",
+      "text": "In the lower speed hands-on test the acoustic warning signal shall be given at the latest 30 s after the steering control is released and remain until the ACSF is deactivated."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 61,
+      "paragraph": "Annex 8 3.5.1.2",
+      "quote": "The recorded lateral acceleration does not exceed 1m/s²,",
+      "text": "In the Category C lane change functional test the recorded lateral acceleration shall not exceed 1 m/s²."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 63,
+      "paragraph": "Annex 8 3.5.3.2",
+      "quote": "The test requirements are fulfilled if the measured overriding force does not exceed 50 N, as specified in paragraph 5.6.4.3. above.",
+      "text": "In the Category C overriding test the measured force applied by the driver to override the system shall not exceed 50 N."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 63,
+      "paragraph": "Annex 8 3.5.5.2",
+      "quote": "The requirements of the test are fulfilled if the system detects the approaching vehicle no later than at the distance declared by the vehicle manufacturer (Srear)",
+      "text": "In the Category C sensor performance test the system shall detect the approaching L3 motorcycle no later than at the declared rear detection distance Srear."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 8,
+      "paragraph": "4.4",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation, an international approval mark",
+      "text": "Every vehicle conforming to a type approved under this Regulation shall bear an international approval mark affixed conspicuously in a readily accessible place specified on the approval form."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "4.4.3",
+      "quote": "A letter “X” preceding the approval number in the case when either:",
+      "text": "The approval mark shall show a letter \"X\" preceding the approval number where the steering system exhibits functionality defined as ACSF of Category B2, D or E, or where ACSF of Categories A, B1 or C have been exempted from technical requirements."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and shall be indelible.",
+      "text": "The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 9,
+      "paragraph": "4.7",
+      "quote": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer.",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "regulation": "UN R79",
+      "page": 43,
+      "paragraph": "Annex 2",
+      "quote": "a = 8 mm min",
+      "text": "The character size of the steering approval mark shall be at least 8 mm."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.2.1",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every vehicle conforming to a type approved under this Regulation.",
+      "text": "An international approval mark shall be affixed to every vehicle conforming to a type approved under this Regulation with regard to electromagnetic compatibility."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "text": "The electromagnetic compatibility approval mark shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the country granting approval."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+      "text": "Markings on an ESA conforming to the approval mark requirements need not be visible when the ESA is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 44,
+      "paragraph": "Annex 1",
+      "quote": "a = 6 mm min",
+      "text": "The character size of the EMC approval mark shall be at least 6 mm."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements",
+      "text": "The vehicle and its electrical/electronic systems or ESAs shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the EMC requirements of this Regulation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1.1",
+      "quote": "A vehicle shall be tested for radiated emissions and for immunity to radiated disturbances.",
+      "text": "The vehicle shall be tested for radiated emissions and for immunity to radiated disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "The ESAs of the ALKS shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.1",
+      "quote": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "When measured at a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the vehicle broadband radiated emission shall not exceed 32 dBµV/m in the 30 to 75 MHz band, increase logarithmically to 43 dBµV/m in the 75 to 400 MHz band and remain 43 dBµV/m up to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.2",
+      "quote": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "When measured at a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the vehicle broadband radiated emission shall not exceed 42 dBµV/m in the 30 to 75 MHz band, increase to 53 dBµV/m over 75 to 400 MHz and remain 53 dBµV/m up to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.3",
+      "quote": "On the vehicle representative of its type, the measured values, expressed in dB microvolts/m shall be below the type approval limits.",
+      "text": "On the vehicle representative of its type the measured broadband emission values expressed in dBµV/m shall be below the type approval limits."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.3.2.1",
+      "quote": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "text": "When measured at 10.0 ± 0.2 m, the vehicle narrowband radiated emission shall not exceed 28 dBµV/m in the 30 to 230 MHz band and 35 dBµV/m in the 230 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.3.2.2",
+      "quote": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "text": "When measured at 3.0 ± 0.05 m, the vehicle narrowband radiated emission shall not exceed 38 dBµV/m in the 30 to 230 MHz band and 45 dBµV/m in the 230 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.1",
+      "quote": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+      "text": "The vehicle shall withstand an immunity field strength of 30 V/m over more than 90 per cent of the 20 to 2,000 MHz band with a minimum of 25 V/m throughout, and 10 V/m over more than 90 per cent of the 2,000 to 6,000 MHz band with a minimum of 8 V/m."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.2",
+      "quote": "there shall be no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6.",
+      "text": "During the immunity tests there shall be no degradation of performance of the immunity related functions, including the direct control of the vehicle and the driver warning functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The ESA broadband radiated emission shall not exceed 62 to 52 dBµV/m over 30 to 75 MHz, decrease to 52 dBµV/m by 75 MHz, rise to 63 dBµV/m over 75 to 400 MHz and remain 63 dBµV/m up to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The ESA narrowband radiated emission shall not exceed 52 to 42 dBµV/m over 30 to 75 MHz, rise to 53 dBµV/m over 75 to 400 MHz and remain 53 dBµV/m up to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Maximum allowed pulse amplitude for",
+      "text": "For a 12 V system the transient conducted disturbances generated by the ESA on the supply lines shall not exceed a positive pulse amplitude of +75 V and a negative pulse amplitude of -100 V."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test Level in over 90 per cent of the 20 to 6,000 MHz frequency band",
+      "text": "The ESA shall withstand, over more than 90 per cent of the 20 to 6,000 MHz band, a test level of 60 V/m in stripline, 75 V/m in TEM cell, 60 mA in BCI, 30 V/m in ALSE below 2 GHz, and 10 V/m in ALSE from 2,000 to 6,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Minimum Test Level over the whole 20 to 6,000 MHz frequency band",
+      "text": "The ESA shall withstand, over the whole 20 to 6,000 MHz band, a minimum test level of 50 V/m in stripline, 62.5 V/m in TEM cell, 50 mA in BCI, 25 V/m in ALSE below 2 GHz and 8 V/m in ALSE from 2,000 to 6,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.2",
+      "quote": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance",
+      "text": "The ESA shall be considered as complying with the immunity requirements where during the tests performed according to Annex 9 there is no degradation of performance of immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "Immunity of ESA",
+      "text": "For a 12 V system the ESA related to immunity related functions shall withstand pulse 1 at -75 V for 500 pulses with functional status III and pulse 2a at +37 V for 500 pulses with functional status I."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "Test duration / number of pulses",
+      "text": "For a 12 V system the ESA related to immunity related functions shall withstand pulses 3a at -112 V and 3b at +75 V each for 1 hour with functional status I."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 13,
+      "paragraph": "6.10.1",
+      "quote": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply",
+      "text": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with the narrowband emission requirements."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 13,
+      "paragraph": "6.10.3",
+      "quote": "ESAs with no immunity related functions need not be tested for immunity to radiated disturbances and shall be deemed to comply",
+      "text": "ESAs with no immunity related functions need not be tested for immunity to radiated disturbances and shall be deemed to comply with the radiated immunity requirements."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 13,
+      "paragraph": "6.10.7",
+      "quote": "RF transmitters shall be tested in the transmit mode.",
+      "text": "RF transmitters fitted to the vehicle shall be tested in the transmit mode, with wanted emissions within the necessary bandwidth disregarded and spurious emissions subject to the Regulation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 57,
+      "paragraph": "Annex 4 4.1",
+      "quote": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or an outdoor test site (OTS).",
+      "text": "The vehicle broadband emission limits shall apply throughout the 30 to 1,000 MHz frequency range for measurements performed in an ALSE or an outdoor test site."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 57,
+      "paragraph": "Annex 4 4.2",
+      "quote": "If peak detectors are used, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "text": "Where peak detectors are used for the broadband emission measurement, a correction factor of 20 dB as defined in CISPR 12 shall be applied."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 57,
+      "paragraph": "Annex 4 4.3. Table 1",
+      "quote": "RBW at",
+      "text": "The spectrum analyser used for the vehicle broadband emission measurement shall use a 100/120 kHz resolution bandwidth with a minimum scan time of 100 ms/MHz for peak detection and 120 kHz with 20 s/MHz for quasi-peak detection."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 58,
+      "paragraph": "Annex 4 4.6",
+      "quote": "Measurements shall be made on the left and right sides of the vehicle.",
+      "text": "Vehicle broadband emission measurements shall be made on the left and right sides of the vehicle, in both horizontal and vertical polarisation, at the documented antenna positions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 67,
+      "paragraph": "Annex 5 2.1",
+      "quote": "The ignition switch shall be switched on. The engine shall not be operating.",
+      "text": "For the vehicle narrowband emission measurement the ignition switch shall be switched on and the engine shall not be operating."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 68,
+      "paragraph": "Annex 5 4.2",
+      "quote": "Measurements shall be performed with an average detector.",
+      "text": "Vehicle narrowband emission measurements shall be performed with an average detector."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 72,
+      "paragraph": "Annex 6 2.1.1.1",
+      "quote": "The engine shall normally turn the driving wheels at a steady speed of 50 km/h",
+      "text": "During the vehicle immunity test the engine shall normally turn the driving wheels at a steady speed of 50 km/h, unless a different condition is agreed."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 73,
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "ADS shall be operational (1)",
+      "text": "During the vehicle immunity test in 50 km/h mode the ADS shall be operational and shall remain in a failure safe mode or expected failure operational mode, with no unexpected warning and no unexpected activation of brake, horn or restraint systems."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 74,
+      "paragraph": "Annex 6 2.1.1.5",
+      "quote": "the immunity test shall demonstrate the vehicle stays in a failure safe mode or expected failure operational mode during the test in 50km/h mode or Brake mode.",
+      "text": "Where the vehicle is equipped with an ADS, the immunity test shall demonstrate that the vehicle stays in a failure safe mode or expected failure operational mode during the 50 km/h mode or Brake mode test."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 75,
+      "paragraph": "Annex 6 2.1.3",
+      "quote": "Only non-perturbing equipment shall be used while monitoring the vehicle.",
+      "text": "Only non-perturbing equipment shall be used while monitoring the vehicle during the immunity test, with the vehicle exterior and passenger compartment monitored by video camera and microphone."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 79,
+      "paragraph": "Annex 6 4.1",
+      "quote": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency ranges in vertical polarization.",
+      "text": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency range in vertical polarisation during the immunity test."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 79,
+      "paragraph": "Annex 6 4.1",
+      "quote": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range;",
+      "text": "The test signal for the vehicle immunity test shall use AM with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz range, PM2 in the 2,700 to 3,100 MHz range and PM3 in the other prescribed ranges."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 92,
+      "paragraph": "Annex 7 3.4",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+      "text": "Before or after the main ESA broadband emission test, the measured extraneous noise or signal shall be at least 6 dB below the applicable interference limits."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 96,
+      "paragraph": "Annex 8 2",
+      "quote": "The ESA under test shall be in normal operation mode, preferably in maximum load.",
+      "text": "During the ESA narrowband emission test the ESA under test shall be in normal operation mode, preferably at maximum load."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 2.4",
+      "quote": "No extraneous equipment shall be closer than 1 m from the reference point during calibration.",
+      "text": "During calibration of the ESA immunity setup no extraneous equipment shall be closer than 1 m from the reference point."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "text": "ESA immunity measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 100,
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "When the bulk current injection method is used, the injection probe shall be positioned at 150 mm distance to the ESA with the substitution method, or at 900 mm with the closed loop method."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 108,
+      "paragraph": "Annex 10 2",
+      "quote": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 to the supply lines",
+      "text": "Test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 shall be applied to the ESA supply lines and to other connections that may be operationally connected to supply lines."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 2,
+      "paragraph": "4.1",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation an international approval mark",
+      "text": "Every vehicle conforming to a type approved under this Regulation shall bear an international approval mark affixed conspicuously in a readily accessible place specified on the approval form."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 2,
+      "paragraph": "4.1.1",
+      "quote": "A circle surrounding the Letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+      "text": "The cyber security approval mark shall comprise a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 2,
+      "paragraph": "4.1.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+      "text": "The approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 3,
+      "paragraph": "4.3",
+      "quote": "The approval mark shall be clearly legible and shall be indelible.",
+      "text": "The cyber security approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 3,
+      "paragraph": "4.4",
+      "quote": "The approval mark shall be placed on or close to the vehicle data plate affixed by the Manufacturer.",
+      "text": "The cyber security approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 11,
+      "paragraph": "Annex 3",
+      "quote": "a = 8 mm min.",
+      "text": "The character size of the cyber security approval mark shall be at least 8 mm."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 7,
+      "paragraph": "7.3.3",
+      "quote": "The vehicle manufacturer shall identify the critical elements of the vehicle type and perform an exhaustive risk assessment for the vehicle type and shall treat/manage the identified risks appropriately.",
+      "text": "An exhaustive risk assessment shall be performed for the vehicle type, considering the individual elements and their interactions and the threats listed in Annex 5 Part A, and the identified risks shall be treated and managed appropriately."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 7,
+      "paragraph": "7.3.4",
+      "quote": "Proportionate mitigations shall be implemented to protect the vehicle type. The mitigations implemented shall include all mitigations referred to in Annex 5, Part B and C which are relevant for the risks identified.",
+      "text": "Proportionate mitigations shall be implemented to protect the vehicle type against the risks identified in the risk assessment, including all relevant mitigations referred to in Annex 5 Part B and C or another appropriate mitigation."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 7,
+      "paragraph": "7.3.5",
+      "quote": "The vehicle manufacturer shall put in place appropriate and proportionate measures to secure dedicated environments on the vehicle type (if provided) for the storage and execution of aftermarket software",
+      "text": "Appropriate and proportionate measures shall secure any dedicated environments on the vehicle type for the storage and execution of aftermarket software, services, applications or data."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 7,
+      "paragraph": "7.3.6",
+      "quote": "The vehicle manufacturer shall perform, prior to type approval, appropriate and sufficient testing to verify the effectiveness of the security measures implemented.",
+      "text": "Appropriate and sufficient testing shall be performed prior to type approval to verify the effectiveness of the implemented cyber security measures."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 7,
+      "paragraph": "7.3.7",
+      "quote": "Detect and prevent cyber-attacks against vehicles of the vehicle type;",
+      "text": "The vehicle type shall implement measures to detect and prevent cyber-attacks against vehicles of the vehicle type."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 7,
+      "paragraph": "7.3.7",
+      "quote": "Provide data forensic capability to enable analysis of attempted or successful cyber-attacks.",
+      "text": "The vehicle type shall implement measures to provide data forensic capability enabling analysis of attempted or successful cyber-attacks."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 7,
+      "paragraph": "7.3.8",
+      "quote": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards.",
+      "text": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards, or their use shall be justified by the manufacturer."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 17,
+      "paragraph": "Annex 5 Part B M10",
+      "quote": "The vehicle shall verify the authenticity and integrity of messages it receives",
+      "text": "The vehicle shall verify the authenticity and integrity of messages it receives, to protect against spoofing, man-in-the-middle and replay attacks on the communication channels."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 17,
+      "paragraph": "Annex 5 Part B M11",
+      "quote": "Security controls shall be implemented for storing cryptographic keys (e.g., use of Hardware Security Modules)",
+      "text": "Security controls shall be implemented for storing cryptographic keys, e.g. Hardware Security Modules, protecting against their extraction."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 17,
+      "paragraph": "Annex 5 Part B M6",
+      "quote": "Systems shall implement security by design to minimize risks",
+      "text": "Systems shall implement security by design to minimise the risks of code injection and manipulation of vehicle-held data."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 18,
+      "paragraph": "Annex 5 Part B M12",
+      "quote": "Confidential data transmitted to or from the vehicle shall be protected",
+      "text": "Confidential data transmitted to or from the vehicle shall be protected against interception and monitoring."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 18,
+      "paragraph": "Annex 5 Part B M13",
+      "quote": "Measures to detect and recover from a denial of service attack shall be employed",
+      "text": "Measures to detect and recover from a denial-of-service attack shall be employed to protect vehicle functions communicating over the vehicle networks."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 18,
+      "paragraph": "Annex 5 Part B M15",
+      "quote": "Measures to detect malicious internal messages or activity should be considered",
+      "text": "Measures to detect malicious internal messages or activity, such as on the CAN bus, should be considered."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 19,
+      "paragraph": "Annex 5 Part B M16",
+      "quote": "Secure software update procedures shall be employed",
+      "text": "Secure software update procedures shall be employed for over-the-air and local physical software updates of the ALKS."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 20,
+      "paragraph": "Annex 5 Part B M22",
+      "quote": "Security controls shall be applied to external interfaces",
+      "text": "Security controls shall be applied to external interfaces such as the OBD port and other diagnostic or USB interfaces against code injection and manipulation."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 20,
+      "paragraph": "Annex 5 Part B M21",
+      "quote": "Software shall be security assessed, authenticated and integrity protected.",
+      "text": "Software hosted on the vehicle shall be security assessed, authenticated and integrity protected, with controls minimising the risk from third-party software."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 20,
+      "paragraph": "Annex 5 Part B M20",
+      "quote": "Security controls shall be applied to systems that have remote access",
+      "text": "Security controls shall be applied to the vehicle systems that have remote access, protecting against manipulation of remotely operated functions."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 21,
+      "paragraph": "Annex 5 Part B M7",
+      "quote": "Access control techniques and designs shall be applied to protect system data/code",
+      "text": "Access control techniques and designs shall be applied to protect system data and code, including event logs and diagnostic data, against unauthorised modification or erasure."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 22,
+      "paragraph": "Annex 5 Part B M23",
+      "quote": "Cybersecurity best practices for software and hardware development shall be followed",
+      "text": "Cybersecurity best practices for software and hardware development shall be followed, including cybersecurity testing with adequate coverage and no debug ports or development credentials left in production."
+    },
+    {
+      "regulation": "UN R155",
+      "page": 22,
+      "paragraph": "Annex 5 Part B M24",
+      "quote": "Best practices for the protection of data integrity and confidentiality shall be followed for storing personal data.",
+      "text": "Best practices for the protection of data integrity and confidentiality shall be followed for storing personal data in the vehicle."
+    }
+  ]
+}

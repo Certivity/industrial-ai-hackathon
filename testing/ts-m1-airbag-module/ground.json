@@ -1,0 +1,1827 @@
+[
+  {
+    "regulation": "UN R114",
+    "paragraph": "1.1",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "to airbag modules for replacement airbag systems intended to be installed on motor vehicles",
+    "label": "1.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "1.2",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "to replacement steering wheels for vehicles of categories M1 and N1, equipped with an airbag module of an approved type",
+    "label": "1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "2.6.1",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "Category A: Device intended to protect the driver of a vehicle in the event of a frontal collision",
+    "label": "2.6.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.2.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The samples of the replacement airbag steering wheel and the hub (adapters) shall be clearly and indelibly marked with the manufacturer's trade name or mark",
+    "label": "4.2.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.2.4.1",
+    "page": 5,
+    "raw_pages": [
+      4,
+      5
+    ],
+    "verdict": "ok",
+    "exact": "a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.2.4.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.2.4.2",
+    "page": 5,
+    "raw_pages": [
+      4,
+      5
+    ],
+    "verdict": "ok",
+    "exact": "an approval number",
+    "label": "4.2.4.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.2.4.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "an additional symbol, indicating the airbag module category (see paragraph. 2.6. above)",
+    "label": "4.2.4.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.2.5",
+    "page": 5,
+    "raw_pages": [
+      4,
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark and the additional symbol shall be clearly legible and indelible",
+    "label": "4.2.5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.2.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed on the replacement steering wheel and on the hub (adapter).",
+    "label": "4.2.6"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "4.2.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "If the replacement steering wheel and hub are in one piece, one approval mark and one mark with the manufacturer's trade name or mark is sufficient.",
+    "label": "4.2.6"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Interference from magnetic fields shall not disrupt the operation of the airbag system",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "A complete system shall comprise a device alerting the user if the airbag system is not in working order as designed",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Airbag modules for replacement airbag system of category A shall be so designed that, when they are submitted to a test in accordance with",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the airbag may be pushed aside manually after full deployment",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.1.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "A certificate shall be presented stating that the nature, concentration and temperature of the gases and solid particles released on deployment of an airbag are not such as",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Each airbag module shall comply with the requirements of the \"International Standard ISO 12097-2 ROAD VEHICLES-AIRBAG COMPONENT TESTING-PART 2: Testing of Airbag Modules\"",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Drop test",
+    "label": "5.2.2.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Mechanical impact test",
+    "label": "5.2.2.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Simultaneous vibration temperature test",
+    "label": "5.2.2.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Thermal humidity cycling test",
+    "label": "5.2.2.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Solar radiation simulation test",
+    "label": "5.2.2.5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Temperature shock test",
+    "label": "5.2.2.6"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.2.2.7",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Static deployment test",
+    "label": "5.2.2.7"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a heat test of the replacement steering wheel (all parts except the airbag module), as described in paragraph 6.2.1.1., to guarantee a cohesion of all materials",
+    "label": "5.3.1.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.1.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a bending test, as described in paragraph 6.2.1.2., to guarantee a minimum deformation of the steering wheel rim",
+    "label": "5.3.1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.1.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a torque test, as described in paragraph 6.2.1.3., to guarantee a sufficient stiffness when the replacement steering wheel is loaded tangentially to the steering wheel rim",
+    "label": "5.3.1.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.1.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a fatigue test, as described in paragraph 6.2.1.4., to guarantee a sufficient lifetime",
+    "label": "5.3.1.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "This requirement is deemed fulfilled when the effective diameter of the replacement steering wheel is not less than 0.9 times the effective diameter of the steering wheel used by the vehicle manufacturer",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The size and fitting of the replacement steering wheel to the steering column must be within the dimensions and tolerances specified by the vehicle manufacturer",
+    "label": "5.3.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "5.3.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The replacement steering wheel shall allow the drivers a direct view to all important instruments and indicators such as",
+    "label": "5.3.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The replacement steering wheel (except the airbag module) is exposed to the following temperature carried out in one circle",
+    "label": "6.2.1.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "This test must leave no permanent deformation over and above the design tolerances, or any cracks or fractures",
+    "label": "6.2.1.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The replacement steering wheel is exposed to a temperature of at least - 15°C ± 2°C for 16 hours",
+    "label": "6.2.1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the steering wheel rim is subjected to a static loading of 70 daN ± 0.5 daN acting perpendicular to the plane of the rim",
+    "label": "6.2.1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "This test may not leave any permanent deformation on the rim of the replacement steering wheel that would be greater than 8 per cent of the steering wheel diameter",
+    "label": "6.2.1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "There must be no signs of any cracks or fractures, which will affect the operational safety of the steering wheel",
+    "label": "6.2.1.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "subjected statically to a test load of 70 daN ± 0.5 daN applied tangentially to the steering wheel rim",
+    "label": "6.2.1.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The permanent deformation resulting from this test may not exceed 1 degree in the direction of rotation",
+    "label": "6.2.1.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The steering wheel rim is then subjected to a tangential load corresponding to a torque or 22 daNm ± 0.5 daNm",
+    "label": "6.2.1.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "subjected to a approximate sinusoidal endurance load cycle test with a torque of 14 daNm ± 0.5 daNm at a frequency of 1.5 Hz ± 0.25 Hz",
+    "label": "6.2.1.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.1.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The replacement steering wheel must withstand at least 1 x 10⁵ load cycles without showing any signs of cracks or fractures which might affect its operational safety",
+    "label": "6.2.1.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The visibility is assessed by means of a comparative evaluation of photographs taken of the instrument panel of the vehicle under test equipped with a replacement steering wheel",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "A 35 mm camera inclined by 15° towards the horizontal plane is used to simulate binocular viewing and photos are taken from each of the eye points",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the measure \"a\" with a limitation of a minimum 30 mm refers to the control element with the smallest distance to the replacement steering wheel",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The measure \"b\" with a limitation of a maximum value of 130 mm denotes the distance from the centre of the direction indicator control element and the front plane of the steering wheel rim facing the driver",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.2.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the function of the audible warning device and the function of the airbag tell tale are considered in the examination",
+    "label": "6.2.2.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.2.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The fitting dimensions (e.g. toothing of the steering shaft) are compared with the dimensions as provided by the manufacturer using a profile projector",
+    "label": "6.2.2.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.2.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The strength of the replacement adapters is checked by tightening the fixing nut/screw applying twice the tightening torque specified by the vehicle manufacturer but not more than 85 Nm",
+    "label": "6.2.2.4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "6.2.3",
+    "page": 10,
+    "raw_pages": [
+      7,
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Replacement steering wheels equipped with airbag modules of an approved type shall be such that, when installed in a vehicle, this vehicle fulfils the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4. and 5.2.1.5. of Regulation No. 94",
+    "label": "6.2.3"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Airbag systems with airbag modules of category A, B, C or D shall carry the inscription \"AIRBAG\" located in the interior of the circumference of the replacement steering wheel or on the cover of the airbag module",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "this inscription shall be durably affixed and easily visible",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the following label shall be permanently attached to the visible surface of the cover of the airbag module (the text information shown is a minimum)",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "This label shall be provided in the language(s) of the country where the device is sold",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "7.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Label minimum size: 60 x 120 mm",
+    "label": "7.2"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "Annex 4",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The approval number and additional symbol(s) must be placed close to the circle and either above or below the \"E\" or to the left or right of that letter",
+    "label": "Annex 4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "Annex 4",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The digits of the approval number must be on the same side of the \"E\" and oriented in the same direction",
+    "label": "Annex 4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "Annex 4",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The additional symbol(s) must be diametrically opposite the approval number",
+    "label": "Annex 4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "Annex 4",
+    "page": 17,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "a = 5 mm min",
+    "label": "Annex 4"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "Annex 5",
+    "page": 18,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The approval number and additional symbol(s) must be placed close to the circle and either above or below the \"E\" or to the left or right of that letter",
+    "label": "Annex 5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "Annex 5",
+    "page": 18,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The digits of the approval number must be on the same side of the \"E\" and oriented in the same direction",
+    "label": "Annex 5"
+  },
+  {
+    "regulation": "UN R114",
+    "paragraph": "Annex 5",
+    "page": 18,
+    "raw_pages": [
+      17,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The additional symbol(s) must be diametrically opposite the approval number",
+    "label": "Annex 5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.1",
+    "page": 6,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The head performance criterion (HPC) shall not exceed 1000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms",
+    "label": "5.2.1.1.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The axial tensile neck force shall not exceed 3.3 kN",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The fore/aft shear forces at the head/neck interface shall not exceed 3.1 kN",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.2",
+    "page": 6,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The neck bending moment about the y axis shall not exceed 57 Nm in extension",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The thorax compression criterion (ThCC) shall not exceed 42 mm",
+    "label": "5.2.1.1.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.4",
+    "page": 6,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The viscous criterion (V * C) for the thorax shall not exceed 1.0 m/s",
+    "label": "5.2.1.1.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.1.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed 9.07 kN",
+    "label": "5.2.1.1.5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.1",
+    "page": 7,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The head performance criterion (HPC) shall not exceed 1000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms",
+    "label": "5.2.1.2.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The axial tensile neck force shall not exceed 2.9 kN",
+    "label": "5.2.1.2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The fore/aft shear forces at the head/neck interface shall not exceed 2.7 kN",
+    "label": "5.2.1.2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "34 mm in the case of vehicles of category M1",
+    "label": "5.2.1.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.4",
+    "page": 7,
+    "raw_pages": [
+      6,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The viscous criterion (V * C) for the thorax shall not exceed 1.0 m/s",
+    "label": "5.2.1.2.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.1.2.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The femur force criterion (FFC) shall not exceed 7 kN",
+    "label": "5.2.1.2.5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.2.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction",
+    "label": "5.2.2.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation, an international approval mark",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.4.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.4.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.4.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of the circle prescribed in paragraph 4.4.1. above",
+    "label": "4.4.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and be indelible",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "4.7",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer",
+    "label": "4.7"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle which, in agreement with the Technical Service, is considered as having the worst case effect on the result of the injury criteria specified in paragraph 5.2.1. shall be selected for this test",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "During the test no door shall open",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "After the impact, the side doors shall be unlocked",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.5.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "To open at least one door per row of seats",
+    "label": "5.2.5.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.5.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "To release the dummies from their restraint system which, locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control",
+    "label": "5.2.5.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.5.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "To remove the dummies from the vehicle without adjustment of the seats",
+    "label": "5.2.5.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "5.2.6",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a vehicle propelled by liquid fuel, no more than slight leakage of liquid from the fuel feed installation shall occur on collision",
+    "label": "5.2.6"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 1.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The barrier shall consist of a block of reinforced concrete not less than 3 m wide in front and not less than 1.5 m high",
+    "label": "Annex 3 1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 1.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "It shall be covered with plywood boards 20 ± 2 mm thick, in good condition",
+    "label": "Annex 3 1.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 1.3.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "the maximum lateral misalignment tolerated between the vertical median line of the front of the vehicle and the vertical median line of the collision wall is ± 30 cm",
+    "label": "Annex 3 1.3.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 1.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The last part of the track, for at least 5 m before the barrier, shall be horizontal, flat and smooth",
+    "label": "Annex 3 1.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 1.4.3.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The steering wheel, if adjustable, shall be placed in the normal position indicated by the manufacturer",
+    "label": "Annex 3 1.4.3.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 1.4.3.5",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The doors shall be closed but not locked",
+    "label": "Annex 3 1.4.3.5"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 4.",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle speed at the moment of impact shall be 50 -0/ +1 km/h",
+    "label": "Annex 3 4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 2.1.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 2.1.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 5.2.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The acceleration (a) referring to the centre of gravity is calculated from the triaxial components of the acceleration measured with a CFC of 1000",
+    "label": "Annex 3 5.2.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 5.2.2.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The bending moment about a lateral axis at the neck/head interface are measured with a CFC of 600",
+    "label": "Annex 3 5.2.2.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 3 5.2.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "The chest deflection between the sternum and the spine is measured with a CFC of 180",
+    "label": "Annex 3 5.2.3"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 4 1.2.4",
+    "page": 19,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Values of HPC for which the time interval (t1 - t2) is greater than 36 ms are ignored for the purposes of calculating the maximum value",
+    "label": "Annex 4 1.2.4"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 4 5.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The sternum deflection response is filtered once at CFC 180",
+    "label": "Annex 4 5.2"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 5 2.4.3.1",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The \"H\" point of the driver test dummy shall coincide within 13 mm in the vertical dimension and 13 mm in the horizontal dimension",
+    "label": "Annex 5 2.4.3.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 5 2.8",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "The temperature of the dummy and the system of measuring instruments shall be stabilized before the test and maintained so far as possible within a range between 19 °C and 22.2 °C",
+    "label": "Annex 5 2.8"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 5 2.3.1",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "if the hand of the test dummy is pushed upward by a force of not less than 9 N and not more than 22 N, the tape shall release the hand from the steering wheel rim",
+    "label": "Annex 5 2.3.1"
+  },
+  {
+    "regulation": "UN R137",
+    "paragraph": "Annex 6",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "The procedure is described in Addendum 6 of Mutual Resolution No. 1 (M.R.1)",
+    "label": "Annex 6"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.1.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "It shall be possible to travel along a straight section of road without unusual steering correction by the driver and without unusual vibration in the steering system at the maximum design speed of the vehicle",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.1.3",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The direction of operation of the steering control shall correspond to the intended change of direction of the vehicle and there shall be a continuous relationship between the steering control deflection and the steering angle",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.1.4",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The steering equipment shall be designed, constructed and fitted in such a way that it is capable of withstanding the stresses arising during normal operation of the vehicle",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.1.5",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields",
+    "label": "5.1.5"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.1.8.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection can be established between the adjustable components by appropriate locking devices",
+    "label": "5.1.8.1"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.3.1.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "that part shall be made of metal or of a material with equivalent characteristics (e.g. similar strength and fatigue life attributes) and shall not be subject to significant distortion in normal operation of the steering system",
+    "label": "5.3.1.1"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.4.1.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver of the vehicle",
+    "label": "5.4.1.1"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.4.1.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Optical warning signals shall be visible, even by daylight and distinguishable from other alerts",
+    "label": "5.4.1.2"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "5.5.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "the steering equipment and its installation shall be so designed that, without disassembly, its operation can be checked with, if necessary, commonly used measuring instruments, methods or test equipment",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.1.1",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "The test shall be conducted on a level surface affording good adhesion",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.1.2",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "During the test(s), the vehicle shall be loaded to its technically permissible maximum mass and its technically permissible maximum load on the steered axle(s)",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.1.3",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "the tyre pressures shall be as prescribed by the manufacturer for the mass specified in paragraph 6.1.2. when the vehicle is stationary",
+    "label": "6.1.3"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.2.1",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "It shall be possible to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment at the following speed: Category M1 vehicles: 50 km/h",
+    "label": "6.2.1"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.2.2",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "When the vehicle is driven in a circle with its steered wheels at approximately half lock and a constant speed of at least 10 km/h, the turning circle shall remain the same or become larger if the steering control is released",
+    "label": "6.2.2"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.2.3",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "During the measurement of control effort, forces with a duration of less than 0.2 seconds shall not be taken into account",
+    "label": "6.2.3"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.2.4. Table 2",
+    "page": 37,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.2.4. Table 2",
+    "page": 37,
+    "raw_pages": [
+      37
+    ],
+    "verdict": "ok",
+    "exact": "M1 15 4 12 30 4 20",
+    "label": "6.2.5.2. Table 2",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "6.2.5. Table 2",
+    "page": 37,
+    "raw_pages": [
+      37
+    ],
+    "verdict": "ok",
+    "exact": "M1 15 4 12 30 4 20",
+    "label": "6.2.5.2. Table 2",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "Annex 2",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "ok",
+    "exact": "The above approval mark affixed to a vehicle shows that the vehicle type concerned has, with regard to steering equipment, been approved in the Netherlands (E 4) pursuant to UN Regulation No. 79",
+    "label": "Annex 2"
+  },
+  {
+    "regulation": "UN R79",
+    "paragraph": "Annex 2",
+    "page": 43,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Before testing, the Technical Service shall prepare a test plan in conjunction with the manufacturer, which contains at least mode of operation, stimulated function(s), monitored function(s), pass/fail criterion(criteria) and intended emissions",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      9,
+      10,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Positive +75 V",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Negative -100 V",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "The immunity to electromagnetic radiation of the ESA representative of its type shall be tested by the method(s) chosen from those described in Annex 9",
+    "label": "6.8.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 60 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11,
+      24
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "7.18.2.1. Table 19a"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "30 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Minimum Test Level over the whole 20 to 6,000 MHz frequency band",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b",
+    "label": "6.9.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "-75 V -450 V 500 pulses III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "+37 V +37 V 500 pulses I",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "-112 V -150 V 1 h I",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "+75 V +150 V 1 h I",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+    "label": "6.10.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "ESAs with no immunity related functions need not be tested for immunity to radiated disturbances and shall be deemed to comply with paragraph 6.8. and with Annex 9 to this Regulation",
+    "label": "6.10.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission",
+    "label": "6.10.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 4.1",
+    "page": 95,
+    "raw_pages": [
+      92,
+      96
+    ],
+    "verdict": "wrong page",
+    "exact": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS)",
+    "label": "Annex 7 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 4.4",
+    "page": 95,
+    "raw_pages": [
+      93
+    ],
+    "verdict": "wrong page",
+    "exact": "The phase centre of the antenna shall be in line with the centre of the longitudinal part of the wiring harnesses for frequencies up to 1,000 MHz",
+    "label": "Annex 7 4.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 2.1",
+    "page": 91,
+    "raw_pages": [
+      91,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "The ESA under test shall be in normal operation mode, preferably in maximum load",
+    "label": "Annex 7 2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 1.2.1",
+    "page": 97,
+    "raw_pages": [
+      97
+    ],
+    "verdict": "ok",
+    "exact": "ESAs may comply with the requirements of any combination of the following test methods at the manufacturer's discretion provided that these results in the full frequency range specified",
+    "label": "Annex 9 1.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.3.2",
+    "page": 99,
+    "raw_pages": [
+      100
+    ],
+    "verdict": "ok",
+    "exact": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+    "label": "Annex 9 4.3.2"
+  }
+]

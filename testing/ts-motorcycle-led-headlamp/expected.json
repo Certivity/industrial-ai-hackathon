@@ -1,0 +1,2416 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-motorcycle-led-headlamp",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The headlamp shall be aimed according to Annex 5, paragraph 3.1, including the allowed specific tolerances of paragraph 4, when its driving-beam luminous intensity is measured.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "Where more than one light source is used to provide the driving-beam, the headlamp shall operate these light sources simultaneously to determine the maximum value of the luminous intensity (Imax).",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The headlamp shall meet the photometric coordinates of every measuring point, line and zone within a 0.25° tolerance allowed independently at each test point, unless indicated otherwise.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The driving-beam shall provide at least 1.00·10³ cd at point 2U-V when the headlamp is of Class A.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4. Table 5"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The driving-beam shall provide at least 1.70·10³ cd at point 2U-V when the headlamp is of Class B.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4. Table 5"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The driving-beam shall provide at least 1.20·10⁴ cd at points H-3L and H-3R when the headlamp is of Class A.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4. Table 5"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The driving-beam shall provide at least 1.75·10⁴ cd at points H-3L and H-3R when the headlamp is of Class B.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4. Table 5"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The driving-beam shall provide at least 0.8 x Imax at point H-V when the headlamp is of Class A or Class B.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4. Table 5"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "Where the headlamp forms part of a matched pair, its contribution at point H-V shall not be less than 40 per cent of the relevant beam class minimum Imax required.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4. Table 5"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The point of intersection (HV) of lines H-H and V-V of the driving-beam shall be situated within the isocandela 80 per cent of maximum luminous intensity (Imax).",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The maximum luminous intensity (Imax) of the headlamp shall not exceed 2.15·10⁵ cd in any direction.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4.2"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The reference mark (I′M) of the maximum luminous intensity shall be obtained by the ratio Imax/4,300.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4.2.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The reference mark value shall be rounded off to one of 2.5, 5, 7.5, 10, 12.5, 17.5, 20, 25, 27.5, 30, 37.5, 40, 45 or 50.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.1.4.2.1"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The passing-beam shall be aimed according to Annex 5, paragraph 3.2, including the allowed specific tolerances of paragraph 4.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "Where the headlamp is intended to provide both a passing-beam and a driving-beam, it shall comply with the requirements of paragraphs 5.2.2 and 5.1 when so aimed.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The passing-beam shall not exceed 6.25·10² cd in Zone III as specified in Part C of Table 6, for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The passing-beam shall not exceed 1.75·10³ cd at point BR (1°U, 2.5°R), for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The passing-beam shall not exceed 3.50·10² cd at point B50L (0.57°U, 3.43°L), for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The passing-beam shall provide at least 1.21·10⁴ cd at point 75R (0.57°D, 1.15°R), for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The passing-beam shall provide at least 5.00·10³ cd at point 50L (0.86°D, 3.43°L) and not exceed 3.70·10⁴ cd there, for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The passing-beam shall provide at least 5.10·10³ cd at point 50V (0.86°D, 0°), for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The passing-beam shall provide at least 1.01·10⁴ cd at point 50R (0.86°D, 1.72°R), for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The passing-beam shall provide at least 2.50·10³ cd at point 25V (1.72°D, 0°), for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The passing-beam shall not exceed a maximum luminous intensity (Imax) of 4.41·10⁴ cd, for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The passing-beam shall not exceed 6.25·10² cd in Zone III as specified in Part C of Table 6, for Class V.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The passing-beam shall provide at least 3.55·10³ cd at point 50L (0.86°D, 3.43°L) and not exceed 3.70·10⁴ cd there, for Class V.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The passing-beam shall provide at least 5.10·10³ cd at point 50V (0.86°D, 0°), for Class V.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 17,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "Where the headlamp forms part of a matched pair, its contribution at points 50L and 50V shall not be less than 50 per cent of the required minimum value.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.2.2. Table 6"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The passing-beam shall show no lateral variations detrimental to good visibility in Zone III.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "Where the headlamp is designed to meet the requirements of both right-hand and left-hand traffic, it shall meet the passing-beam requirements in each of the two setting positions for the corresponding direction of traffic.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "In the event of failure of one or more additional light sources used for bend lighting or infrared radiation, the headlamp shall continue to fulfil the passing-beam requirements.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 18,
+        "paragraph": "5.2.8"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The headlamp shall be so designed and constructed that under normal conditions of use and notwithstanding vibrations, its satisfactory operation remains assured and it retains the prescribed characteristics.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The headlamp shall be so made that it gives adequate illumination without dazzle when emitting the passing-beam and good illumination when emitting the driving-beam.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.2"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The headlamp shall be fitted with a device enabling it to be adjusted on the vehicle so as to comply with the applicable rules.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The adjusting device need not be fitted where the reflector and diffusing lens of the sealed unit cannot be separated, provided the unit is confined to vehicles whose lamp setting can be adjusted by other means.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "Where a passing-beam and a driving-beam, each with its own light sources, are assembled to form one unit, the adjusting device shall enable the principal passing-beam and the driving-beam to be adjusted individually, unless the optical units are indivisible.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The headlamp shall be equipped only with replaceable light sources approved according to UN Regulations Nos. 37, 99 and/or 128, light source modules and/or non-replaceable light sources.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The headlamp shall not generate radiated or power line disturbances that cause a malfunction of other electric/electronic systems of the vehicle.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.3"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "Where the headlamp uses replaceable light source modules, each module shall be designed so that it can only be fitted in the designated and correct position and can only be removed with the use of tool(s).",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.4"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "Where the headlamp uses replaceable light source modules, each module shall be tamperproof.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.5.2.4"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "When a light source module is replaced by another module bearing the same identification code, the photometric requirements of the headlamp shall still be met.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.2.4"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "For the principal passing-beam, the total objective luminous flux of all light sources producing it shall be equal to or greater than 1.00·10³ lm for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.3.2"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "As an alternative, the luminous flux in the principal passing-beam shall meet the minimum of 4.00·10² lm in Zone I and 2.00·10² lm in Zone II as specified in Table 3b for Class C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.3.2. Table 3a"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "All photometric and colorimetric measurements of the headlamp shall be made under the conditions of paragraph 4.6 and Annex 4.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "In the case of the lamp equipped with light source modules or non-replaceable light sources, all measurements shall be made with the light sources present in the lamp.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1.2"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "During photometric measurements, stray reflections of the headlamp shall be avoided by appropriate masking.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1.4"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "Unless otherwise specified, the headlamp shall be tested at a supply voltage of 6.3 V, 13.2 V or 28.0 V according to the vehicle voltage system.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.2"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "Where the headlamp is controlled by an electronic light source control gear, it shall be operated for measurement as specified by the applicant.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.2.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Tests of the headlamp for compliance of luminous intensities and colorimetric characteristics shall be carried out according to Annex 10.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.6.3"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "Where the outer lens of the headlamp is made of plastic material, tests shall be done according to the requirements of Annex 8.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The sharpness and linearity of the dipped-beam cut-off shall be tested according to the requirements of Annex 6.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.8"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "Complementary tests of the headlamp shall be done according to Annex 7 to ensure that in use there is no excessive change in photometric performance.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.9"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "Where the headlamp is adaptable for both traffic systems, only two clearly distinct settings shall be possible and the design shall preclude inadvertent shifting between them or setting in an intermediate position.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.10"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "Where the headlamp is designed to provide alternately a driving-beam and a passing-beam, any mechanical or electromechanical device incorporated for these purposes shall be constructed to satisfy the durability and failure requirements of paragraph 4.11.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.11"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The beam-switching device shall be robust enough to withstand 50,000 operations under normal conditions of use.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.11.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "For a headlamp of Class C or V with a failure-condition beam, the luminous intensity above the line H-H shall not exceed the passing-beam values of paragraph 5.2.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.11.2"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "Either the principal passing-beam or the driving-beam shall always be obtained without any possibility of the mechanism stopping between two positions.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.11.2.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The design of the headlamp shall ensure that the user cannot, with ordinary tools, change the shape or position of moving parts or influence the switching device.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.11.5"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "Where required by the pertinent installation Regulation, the headlamp shall be so made that, if a light source or light source module has failed, a signal indicating the failure is provided.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.13"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "Where a function is realised with more than one element for visible radiation wired so that a failure of one does not extinguish all, a failure signal shall be provided according to one or more of the listed options.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.13.1"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The colour of the light emitted by the headlamp shall be white.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.16"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "A matched pair shall be allowed for passing-beams of class C or V and driving-beams of class A or B.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.18"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "Where the applicant requests the visibility test, the headlamp shall show a maximum luminous intensity of not more than 2.5·10⁻¹ cd towards the rear in the angular field from 165° to 180° outboard and -2.5° to +5° in vertical direction.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.19"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "Where the total objective luminous flux of the light sources producing the principal passing-beam exceeds 2.00·10³ lm, a reference shall be made in the communication form.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.5.3.5"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "Where the headlamp is designed for traffic moving on one side of the road only, measures shall be provided to prevent discomfort to road users in a country where traffic moves on the opposite side.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.12.1"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "With the anti-dazzle measure applied to a right-hand-traffic passing-beam, the headlamp shall provide at least 2.50·10³ cd at 0.86°D - 1.72°L with the adjustment left unchanged.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.12.2.1"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "With the anti-dazzle measure applied to a right-hand-traffic passing-beam, the headlamp shall not exceed 8.80·10² cd at 0.57°U - 3.43°R with the adjustment left unchanged.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.12.2.1"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "Where the headlamp is designed for both right-hand and left-hand traffic, it shall meet the requirements for the corresponding direction of traffic in each of the two setting positions.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 19,
+        "paragraph": "5.3.2.7"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The headlamp shall comprise a space of sufficient size for the Unique Identifier or the approval marking and the other markings defined in paragraph 3.3.4.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "All markings on the headlamp shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "Where the headlamp marking is applied to plastic material, the value for “a” in part 1 of Annex 13 shall be at least 5 mm.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1.2.1"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The headlamp approval marking shall include a circle surrounding the letter “E” followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.2.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The headlamp approval marking shall include the four to six-digit sequential number being part of the approval number.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.2.2"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The headlamp approval marking shall include the number of this Regulation followed by “R” and the two digits of the series of amendments in force at the time of issue.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.2.3"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The headlamp shall bear the function symbol(s) according to Table 1, and if applicable the additional symbols of paragraph 3.3.2.4.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.2.4"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "A passing-beam headlamp of Class C shall be marked with the symbol “C”, or “YC” where it is part of a matched pair.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 4,
+        "paragraph": "3.2.5. Table 1"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "A driving-beam headlamp of Class B shall be marked with the symbol “HR”, or “YHR” where it is part of a matched pair.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 4,
+        "paragraph": "3.2.5. Table 1"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "Where the headlamp meets left-hand traffic requirements only, it shall bear a horizontal arrow pointing to the right of an observer facing the headlamp.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.4.1"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "Where the headlamp is designed to meet the requirements of both traffic systems, it shall bear a horizontal arrow with a head on each end pointing respectively left and right.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.4.2"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "Where the headlamp incorporates an outer lens of plastic material, the group of letters “PL” shall be affixed near the symbols identifying the function(s).",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.4.4"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "Where the headlamp meets the driving-beam requirements, an indication of the maximum luminous intensity expressed by the reference mark (I′M) shall be placed near the circle surrounding the letter “E”.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.4.5"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "Where the headlamp meets the requirements for a Class C passing beam and a Class B driving beam, “HCR” may be marked as the symbols for both beams.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.4.8"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The approval number and the symbols of the headlamp shall be placed close to the circle and either above or below the letter “E”, or to the right or left of that letter.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "Where the Unique Identifier is available, it may replace the approval marking of paragraph 3.3.2 on the headlamp.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.3.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The headlamp shall bear the approval marking or Unique Identifier, the trade name or mark of the applicant and the markings of paragraph 3.3.4.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.4"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "Where the headlamp includes a passing-beam satisfying both right-hand and left-hand traffic requirements, it shall bear the letters “R/D” for the right-hand-traffic position and “L/G” for the left-hand-traffic position.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.4.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "Where the headlamp has non-replaceable light source modules, it shall bear a marking indicating the rated voltage(s) or the range of voltage.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.3"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "Where the headlamp uses replaceable light source modules, each module shall bear the specific identification code comprising “MD” followed by the markings of paragraphs 3.3.2.1 (without the circle) and 3.3.2.2.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.4"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "Where an electronic light source control gear is part of the lamp but not included in the lamp body, it shall be marked with its specific identification code and the rated input voltage or range of voltage.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.5"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "Where the headlamp meets the requirements of Annex 7 only when supplied with 12 V, it shall bear near the light source holders the marking consisting of the number 24 crossed out by an oblique cross.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.6"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The Unique Identifier or approval marking shall be placed on an inner or outer part of the headlamp.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.5.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The Unique Identifier or approval marking of the headlamp shall be visible when the lamp is fitted on the vehicle.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.5.2"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "Where the outer lens of the headlamp is designed to be separated from the main body, the Unique Identifier or approval marking shall be placed on both the detachable lens and the main body.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.5.3"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "The headlamp may bear on its light-emitting surface a centre of reference as shown in Annex 11.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.8"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The luminous intensity of the headlamp shall be determined with a photoreceptor contained within a square of 65 mm side, set up at least 25 m forward of the centre of reference.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 51,
+        "paragraph": "Annex 4 1.1.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "An aiming screen shall be used for the photometric measurements and may be located at a shorter distance than the photoreceptor.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 51,
+        "paragraph": "Annex 4 1.3"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "Where a matched pair is tested at the applicant's request, the photometric requirements for each measuring point, segment or zone shall apply to half of the sum of the measured values from both lamps together.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 51,
+        "paragraph": "Annex 4 1.5"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The sharpness of the cut-off shall be determined by vertically scanning through its horizontal part in angular steps of 0.05° at a measurement distance of 10 m or 25 m.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 60,
+        "paragraph": "Annex 6 2.2"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The sharpness factor G of the asymmetric cut-off line shall not be less than 0.13 at 2.5° from the V-V line.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 60,
+        "paragraph": "Annex 6 2.2.2"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The sharpness factor G of the asymmetric cut-off line shall not be greater than 0.40 at 2.5° from the V-V line.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 60,
+        "paragraph": "Annex 6 2.2.2"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The part of the horizontal cut-off that serves for vertical adjustment shall be horizontal between 1.5° and 3.5° from the V-V line.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 61,
+        "paragraph": "Annex 6 2.2.3.1"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The maximum vertical distance between the inflection points of the cut-off gradient at 1.5°, 2.5° and 3.5° shall not exceed 0.2° for an asymmetric cut-off.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 61,
+        "paragraph": "Annex 6 2.2.3.1"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "For vertical aiming of the passing-beam, the horizontal part of the cut-off shall be adjusted to its nominal position 0.57° below the H-H line.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 58,
+        "paragraph": "Annex 5 3.2.1.1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "For horizontal aiming of the passing-beam, the kink of the elbow shall be located within ±0.5° to the left or right of the V-V line.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 59,
+        "paragraph": "Annex 5 3.2.1.2"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "Where an aimed headlamp does not meet the photometric requirements, its alignment may be changed by not more than 0.75° horizontally and 0.25° vertically.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 59,
+        "paragraph": "Annex 5 4.1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The stability of photometric performance tests shall be carried out in a dry and still atmosphere at an ambient temperature of 23 °C ± 5 °C with the sample mounted to represent the correct installation on the vehicle.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 63,
+        "paragraph": "Annex 7 1.3"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The clean headlamp shall be operated for 12 hours as described in paragraph 2.1.1 and then checked as prescribed in paragraph 2.1.2.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 64,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "After the stability test, no distortion, deformation, cracking or change in colour of the headlamp lens or external lens shall be noticeable on visual inspection.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 65,
+        "paragraph": "Annex 7 2.1.2.1"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "After the stability test of an asymmetrical passing-beam, the photometric values at the measured points shall not differ by more than 10 per cent from the values measured prior to the test, except at point B50L.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 65,
+        "paragraph": "Annex 7 2.1.2.2.1"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "After the stability test, the value at point B50L shall not exceed the pre-test value by more than 1.70·10² cd.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 65,
+        "paragraph": "Annex 7 2.1.2.2.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "For the dirty-headlamp test, the test mixture shall be uniformly applied to the entire light-emitting surface of the headlamp and left to dry until illumination drops to 15-20 per cent of the initial values.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 66,
+        "paragraph": "Annex 7 2.2.1.2"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The absolute cut-off drift Δr1 of the headlamp under the influence of heat shall be not more than 1.0 mrad upward and not more than 2.0 mrad downward.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 67,
+        "paragraph": "Annex 7 3.2.1"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "Three new plastic lens samples shall be subjected to five cycles of temperature and humidity change according to the programme of Annex 8, paragraph 3.1.1.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 69,
+        "paragraph": "Annex 8 3.1.1"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The variation between the photometric values of each plastic lens sample before and after the temperature-change test shall not exceed 10 per cent.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 70,
+        "paragraph": "Annex 8 3.1.2.3"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "The plastic lens samples shall be exposed to an energetic illumination of 1,200 W/m² ± 200 W/m² until they receive a luminous energy of 4,500 MJ/m² ± 200 MJ/m².",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 70,
+        "paragraph": "Annex 8 3.2.1"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "For the chemical resistance test, the test mixture shall be applied for 10 minutes to the outer face of the sample at a pressure of 50 N/cm².",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 70,
+        "paragraph": "Annex 8 3.2.2.2"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "After the atmospheric-agents test, the mean variation in transmission of the three plastic lens samples shall not exceed 0.020.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 71,
+        "paragraph": "Annex 8 3.2.3.1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "After the chemical-agents test, the mean variation in diffusion of the three plastic lens samples shall not exceed 0.020.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 71,
+        "paragraph": "Annex 8 3.2.3.2"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "After 1,500 hours of continuous exposure to the light source radiation, the internal plastic samples shall meet the colorimetric requirements and show no cracks, scratches, scalings or deformation.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 71,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "After the detergent and hydrocarbon tests performed successively, the mean variation in transmission of the three plastic lens samples shall not exceed 0.010.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 71,
+        "paragraph": "Annex 8 3.4.3"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "After the mechanical deterioration test, the mean variation in diffusion of the three plastic lens samples shall not exceed 0.050.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 72,
+        "paragraph": "Annex 8 3.5.2"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "After the mechanical deterioration test of the complete headlamp lens, the photometric values shall not exceed the maximum at B50L by more than 30 per cent nor fall below the minimum at 75R by more than 10 per cent.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 72,
+        "paragraph": "Annex 8 3.7.1.2.1"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The LED modules of the headlamp shall be so designed as to remain in good working order when in normal use and exhibit no fault in design or manufacture.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 76,
+        "paragraph": "Annex 9 1.2"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The fixation elements of the LED module shall be strong and firmly secured to the LEDs and the module.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 76,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The LED module shall be measured electrically and photometrically in a dry and still atmosphere at an ambient temperature of 23 °C ± 5 °C.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 76,
+        "paragraph": "Annex 9 3.2.2"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "Before the luminous flux test, each LED module shall be aged for at least seventy-two hours under the same conditions as in the corresponding headlamp application.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 77,
+        "paragraph": "Annex 9 5.2"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "Where an integrating sphere is used for the LED module flux measurement, the sphere shall have a minimum diameter of one metre and at least ten times the maximum dimension of the LED module, whichever is the largest.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 77,
+        "paragraph": "Annex 9 5.2"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "For the LED headlamp, the luminous intensities measured after 1 minute and after photometric stability shall comply with the minimum and maximum requirements.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 78,
+        "paragraph": "Annex 10 1.2.2"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "Where the headlamp uses LED technology only, it shall be deemed to comply with the intensity requirements at all points in time if the values measured at 1 minute after activation and after photometric stability are compliant.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 78,
+        "paragraph": "Annex 10 2.1.3"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "For the passing-beam, the luminous intensity at point 25V measured 1 second after activation shall be at least 25 per cent of the requirement.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 78,
+        "paragraph": "Annex 10 2.1. Table A10-1"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "Where the optional centre-of-reference mark is used on the headlamp lens, its dimension “a” shall be at least 2 mm.",
+      "source": {
+        "regulation": "UN R149",
+        "version": "1.6.0",
+        "page": 79,
+        "paragraph": "Annex 11"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "Each LED light source fitted in the headlamp shall be of a standardised category designated by its specific designation.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 1,
+        "paragraph": "2.1.1"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "Each LED light source submitted for approval shall bear on the cap the trade name or mark of the applicant.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.1"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "Each LED light source shall bear on the cap its rated voltage.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.2"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "Each LED light source shall bear on the cap the designation of its relevant category.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.3"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "Each LED light source shall bear on the cap a space of sufficient size to accommodate the approval mark.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.1.4"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "Inscriptions other than those required by paragraphs 2.3.1 and 2.4.4 may be affixed to the LED light source only if they do not adversely affect its luminous characteristics.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.3.3"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "Every LED light source conforming to an approved type shall bear the international approval mark affixed in the space referred to in paragraph 2.3.1.4.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.4.4"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "The LED light source approval mark shall consist of a truncated circle surrounding the letter “E” followed by the distinguishing number of the approving country.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 2,
+        "paragraph": "2.4.4.1"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "The approval code of the LED light source shall be placed close to the truncated circle.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 3,
+        "paragraph": "2.4.4.2"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "The marks and inscriptions on the LED light source shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 3,
+        "paragraph": "2.4.6"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "Each LED light source sample submitted shall conform to the relevant specifications of this Regulation.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.1"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "The LED light sources shall be so designed as to remain in good working order when in normal use and shall exhibit no fault in design or manufacture.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.2"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "The LED light sources shall exhibit no scores or spots on their optical surfaces that might impair their efficiency and optical performance.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.3"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "The LED light sources shall be equipped with standard caps complying with the IEC Publication 60061 cap data sheets specified on the individual data sheets of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.4"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "The cap of the LED light source shall be strong and firmly secured to the rest of the light source.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.5"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "The LED light source shall be subjected to a visual inspection, a dimension check and, where necessary, a trial fitting into the holder as specified in IEC publication 60061.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "The solid state junctions and any fluorescence-conversion elements shall be the only elements of the LED light source that generate and emit light when energized.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.2.7"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "The LED light source shall first be aged at its test voltage for at least forty-eight hours, each function being aged separately.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.3.1"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "Electrical measurements of the LED light source shall be carried out with instruments of at least class 0.2 (0.2 per cent full scale accuracy).",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.3.3"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "The position and dimensions of the LED light-source light emitting area shall conform to the requirements given on the relevant data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.4.1"
+      }
+    },
+    {
+      "id": "G-0152",
+      "text": "When measured according to Annex 4, the luminous flux of the LED light source shall be within the limits given on the relevant data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.5.1"
+      }
+    },
+    {
+      "id": "G-0153",
+      "text": "When measured under the test conditions of Annex 4, the normalized luminous intensity distribution and cumulative luminous flux distribution of the LED light source shall be within the data sheet limits.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 4,
+        "paragraph": "3.6.1"
+      }
+    },
+    {
+      "id": "G-0154",
+      "text": "The measured integral value of the chromaticity coordinates of the light emitted by the LED light source shall lie within the required chromaticity area.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 5,
+        "paragraph": "3.7.2"
+      }
+    },
+    {
+      "id": "G-0155",
+      "text": "For white LED light sources used in forward lighting, each measured chromaticity value shall lie within a tolerance area of 0.025 units in x and 0.050 units in y containing the measured integral value.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 5,
+        "paragraph": "3.7.2.1"
+      }
+    },
+    {
+      "id": "G-0156",
+      "text": "The UV-radiation of the LED light source shall be such that the light source is of the low UV type complying with the weighting requirement of paragraph 3.8.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 5,
+        "paragraph": "3.8"
+      }
+    },
+    {
+      "id": "G-0157",
+      "text": "Where a maximum test temperature is specified, the luminous flux values of the LED light source at elevated temperatures shall be within the limits given in the relevant data sheet.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 6,
+        "paragraph": "3.10.1"
+      }
+    },
+    {
+      "id": "G-0158",
+      "text": "Where a maximum test temperature is specified, the colour variation of the LED light source at elevated temperatures shall not exceed 0.010.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 6,
+        "paragraph": "3.10.1"
+      }
+    },
+    {
+      "id": "G-0159",
+      "text": "After the elevated-temperature measurement, the LED light source shall be continuously operated during 1000 h at the relevant test voltage(s).",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 6,
+        "paragraph": "3.10.2"
+      }
+    },
+    {
+      "id": "G-0160",
+      "text": "After the 1000 h endurance operation, the luminous flux of the LED light source at elevated temperatures shall not deviate by more than ±10 per cent from its values measured before.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 7,
+        "paragraph": "3.10.3"
+      }
+    },
+    {
+      "id": "G-0161",
+      "text": "After the 1000 h endurance operation, the colour variation of the LED light source shall not deviate from its pre-test values by more than ±0.010.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 7,
+        "paragraph": "3.10.3"
+      }
+    },
+    {
+      "id": "G-0162",
+      "text": "The luminance contrast value of the LED light-source light emitting area shall be within the limits given on the relevant data sheet of Annex 1.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 7,
+        "paragraph": "3.11.2.1"
+      }
+    },
+    {
+      "id": "G-0163",
+      "text": "The luminance deviation ΔL across the subdivided light emitting area of the LED light source shall not exceed ±20 per cent.",
+      "source": {
+        "regulation": "UN R128",
+        "version": "0.11.0",
+        "page": 7,
+        "paragraph": "3.11.3.4"
+      }
+    },
+    {
+      "id": "G-0164",
+      "text": "A motorcycle with a cylinder capacity above 125 cm³ or a maximum power above 11 kW shall be fitted with one or two driving-beam headlamps type-approved according to Class A, B or DS of the 01 or subsequent series of amendments to UN R149.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0165",
+      "text": "A motorcycle having a cylinder capacity of 125 cm³ or less and a maximum power of 11 kW or less shall be fitted with one or two driving-beam headlamps type-approved according to Class A, B, CS or DS of the 01 or subsequent series of UN R149.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 10,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0166",
+      "text": "A motorcycle with a cylinder capacity above 125 cm³ or a maximum power above 11 kW shall be fitted with one or two passing-beam headlamps type-approved according to Class C or DS of the 01 or subsequent series of UN R149.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "6.2.1.2"
+      }
+    },
+    {
+      "id": "G-0167",
+      "text": "A motorcycle having a cylinder capacity of 125 cm³ or less and a maximum power of 11 kW or less shall be fitted with one or two passing-beam headlamps type-approved according to Class C, CS or DS of the 01 or subsequent series of UN R149.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "6.2.1.1"
+      }
+    },
+    {
+      "id": "G-0168",
+      "text": "The headlamp shall be fitted so that in normal conditions of use, and notwithstanding vibrations, it retains the prescribed characteristics and the vehicle complies with this Regulation.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0169",
+      "text": "It shall not be possible for the fitted headlamp to be inadvertently maladjusted.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0170",
+      "text": "The headlamp shall be installed so that correct adjustment of its orientation can easily be carried out.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0171",
+      "text": "The height and orientation of the headlamp shall be verified with the vehicle unladen on a flat horizontal surface, its median longitudinal plane vertical and the handlebars in the straight-ahead position.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0172",
+      "text": "Where a single headlamp is fitted, its centre of reference shall lie in the median longitudinal plane of the vehicle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0173",
+      "text": "The distance between the edge of the illuminating surface of any independent driving lamp and the ground shall be from 500 mm to 1,300 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.3.3"
+      }
+    },
+    {
+      "id": "G-0174",
+      "text": "The visibility of the driving-beam illuminating surface shall be ensured within a divergent space forming an angle of not less than 5° with the axis of reference of the headlamp.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "G-0175",
+      "text": "The headlamp shall be orientated forwards and may move with the steering angle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.5.1"
+      }
+    },
+    {
+      "id": "G-0176",
+      "text": "The passing-beam of the headlamp may remain switched on together with the driving-beam.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 11,
+        "paragraph": "6.1.6.1"
+      }
+    },
+    {
+      "id": "G-0177",
+      "text": "The motorcycle shall have a mandatory “circuit-closed” tell-tale consisting of a non-flashing blue signal lamp for the driving-beam.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 12,
+        "paragraph": "6.1.7.1"
+      }
+    },
+    {
+      "id": "G-0178",
+      "text": "The aggregate maximum intensity of the driving-beam headlamps that can be switched on simultaneously shall not exceed 430,000 cd (reference number 100).",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 12,
+        "paragraph": "6.1.8.1"
+      }
+    },
+    {
+      "id": "G-0179",
+      "text": "The passing-beam headlamp shall be fitted at a height between 500 mm and 1,200 mm above the ground.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "6.2.3.2"
+      }
+    },
+    {
+      "id": "G-0180",
+      "text": "Where two headlamps produce the principal passing-beam, the distance separating their illuminating surfaces shall not exceed 200 mm.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "6.2.3.4"
+      }
+    },
+    {
+      "id": "G-0181",
+      "text": "The geometric visibility of the passing-beam headlamp shall be ensured at angles α of 15° upwards and 10° downwards.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "G-0182",
+      "text": "Where a single passing-beam headlamp is fitted, its geometric visibility shall be ensured at angles β of 45° to the left and to the right.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "G-0183",
+      "text": "Partitions or other items of equipment near the passing-beam headlamp shall not give rise to secondary effects causing discomfort to other road users.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.4"
+      }
+    },
+    {
+      "id": "G-0184",
+      "text": "The vertical inclination of the principal passing-beam headlamp shall remain between -0.5 and -2.5 per cent, except where an external adjusting device is present.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.2"
+      }
+    },
+    {
+      "id": "G-0185",
+      "text": "Where the principal passing-beam headlamp has a light source with an objective luminous flux exceeding 2,000 lm, its vertical inclination shall remain between -0.5 and -2.5 per cent, using an automatic headlamp levelling device where fitted.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.3"
+      }
+    },
+    {
+      "id": "G-0186",
+      "text": "In the rider-alone loading condition, a mass of 75 kg ± 1 kg simulating the rider shall be placed on the vehicle to reproduce the declared axle loads.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.4"
+      }
+    },
+    {
+      "id": "G-0187",
+      "text": "In condition A, the initial vertical inclination of the principal passing-beam headlamp shall be set between -1.0 and -1.5 per cent following the manufacturer's instructions.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.4"
+      }
+    },
+    {
+      "id": "G-0188",
+      "text": "Where a HIAS is installed for the passing-beam, it shall not adjust the horizontal inclination by more than the vehicle's bank angle.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "6.2.5.5"
+      }
+    },
+    {
+      "id": "G-0189",
+      "text": "The illumination provided by any bend lighting of the headlamp shall not extend above the horizontal plane containing the reference axis of the principal passing-beam for all bank angles specified by the manufacturer.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 16,
+        "paragraph": "6.2.5.7"
+      }
+    },
+    {
+      "id": "G-0190",
+      "text": "The control for changing over to the passing-beam shall switch off the driving-beam simultaneously.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 16,
+        "paragraph": "6.2.6"
+      }
+    },
+    {
+      "id": "G-0191",
+      "text": "Additional light sources or lighting units used to produce bend lighting shall be connected so that they cannot be activated unless the principal passing-beam or driving-beam is also activated.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 16,
+        "paragraph": "6.2.6.1"
+      }
+    },
+    {
+      "id": "G-0192",
+      "text": "The additional light sources or lighting units producing bend lighting shall not be activated when the bank angle is less than three degrees.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 16,
+        "paragraph": "6.2.6.1"
+      }
+    },
+    {
+      "id": "G-0193",
+      "text": "A mandatory flashing amber “HIAS failure” tell-tale shall be activated whenever a failure is detected with respect to the HIAS signals and shall remain activated while the failure is present.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 16,
+        "paragraph": "6.2.7.2"
+      }
+    },
+    {
+      "id": "G-0194",
+      "text": "In the event of a control system failure, the additional light sources or lighting units producing bend lighting shall be switched off automatically.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 17,
+        "paragraph": "6.2.7.3"
+      }
+    },
+    {
+      "id": "G-0195",
+      "text": "The reference axis of the headlamp when fitted shall be parallel to the bearing plane of the vehicle on the road, with a tolerance of ±3° in each direction.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0196",
+      "text": "Where fitting specifications are provided by the manufacturer for the headlamp, they shall be complied with.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0197",
+      "text": "The photometric and colorimetric requirements of the headlamp shall be fulfilled when all other functions with which it is grouped, combined or reciprocally incorporated are switched off.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "5.6.1.1"
+      }
+    },
+    {
+      "id": "G-0198",
+      "text": "The headlamp shall emit no red light that could give rise to confusion in a forward direction and no white light that could give rise to confusion in a rearward direction.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.9"
+      }
+    },
+    {
+      "id": "G-0199",
+      "text": "The driving-beam and passing-beam headlamps shall not be switchable on unless the lamps referred to in paragraph 5.10 (position lamps, rear registration plate lamp) are likewise switched on.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.11"
+      }
+    },
+    {
+      "id": "G-0200",
+      "text": "Where no daytime running lamp is installed, the headlamp shall automatically be on when the engine is running.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.11.2"
+      }
+    },
+    {
+      "id": "G-0201",
+      "text": "Where daytime running lamps whose maximum luminous intensity exceeds 700 cd are fitted, the passing beam shall be switched on and off automatically relative to the ambient light conditions.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "5.11.1.1"
+      }
+    },
+    {
+      "id": "G-0202",
+      "text": "Every tell-tale lamp associated with the headlamp functions shall be readily visible to a driver in the normal driving position.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.12.1"
+      }
+    },
+    {
+      "id": "G-0203",
+      "text": "The colour of the light emitted by the driving-beam headlamp shall be white.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.13"
+      }
+    },
+    {
+      "id": "G-0204",
+      "text": "The colour of the light emitted by the passing-beam headlamp shall be white.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "5.13"
+      }
+    },
+    {
+      "id": "G-0205",
+      "text": "Headlamps type-approved for four-wheeled vehicles of categories M1 and N1 may also be fitted to motorcycles.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "5.18"
+      }
+    },
+    {
+      "id": "G-0206",
+      "text": "There shall be no obstacle inside the angles of geometric visibility to the propagation of light from any part of the apparent surface of the headlamp observed from infinity.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 10,
+        "paragraph": "5.20.1"
+      }
+    },
+    {
+      "id": "G-0207",
+      "text": "Where part of the headlamp apparent surface is hidden when installed, proof shall be furnished that the unhidden part still conforms to the prescribed photometric values.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 10,
+        "paragraph": "5.20.3"
+      }
+    },
+    {
+      "id": "G-0208",
+      "text": "For the bank-angle test of the bend lighting, the bend lighting may be activated by means of a signal generator provided by the manufacturer.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 16,
+        "paragraph": "6.2.5.8"
+      }
+    },
+    {
+      "id": "G-0209",
+      "text": "The initial downward inclination of the passing-beam cut-off shall be checked against the requirements of paragraph 6.2.5.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 41,
+        "paragraph": "Annex 5 1.3.1"
+      }
+    },
+    {
+      "id": "G-0210",
+      "text": "Where the passing beam is switched automatically, it shall switch on within no more than 2 seconds when the ambient light outside the vehicle is less than 1,000 lux.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 43,
+        "paragraph": "Annex 8"
+      }
+    },
+    {
+      "id": "G-0211",
+      "text": "The presence, number, colour, arrangement and, where applicable, the category of the headlamp shall be checked by visual inspection of the lamp and its markings.",
+      "source": {
+        "regulation": "UN R53",
+        "version": "4.0.0",
+        "page": 41,
+        "paragraph": "Annex 5 1.6"
+      }
+    },
+    {
+      "id": "G-0212",
+      "text": "The broadband electromagnetic radiation emitted by the headlamp ESA shall be 62 to 52 dBµV/m in the 30 to 75 MHz band and 52 to 63 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0213",
+      "text": "The broadband electromagnetic radiation emitted by the headlamp ESA shall remain at or below 63 dBµV/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0214",
+      "text": "The measured broadband emission values of the headlamp ESA, expressed in dBµV/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "G-0215",
+      "text": "The narrowband electromagnetic radiation emitted by the headlamp ESA shall be 52 to 42 dBµV/m in the 30 to 75 MHz band and 42 to 53 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0216",
+      "text": "The measured narrowband emission values of the headlamp ESA shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0217",
+      "text": "The transient conducted disturbances emitted by the headlamp ESA on 12 V supply lines shall not exceed a positive pulse amplitude of +75 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0218",
+      "text": "The transient conducted disturbances emitted by the headlamp ESA on 12 V supply lines shall not exceed a negative pulse amplitude of -100 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0219",
+      "text": "During the immunity tests, the headlamp ESA shall show no degradation of performance of its immunity related functions (dipped beam is listed among such functions).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0220",
+      "text": "The headlamp ESA shall withstand test pulse 2a with an immunity level of +37 V for 500 pulses, with functional status class I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0221",
+      "text": "The headlamp ESA shall withstand test pulse 3a with an immunity level of -112 V for 12 V systems for 1 h, with functional status class I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0222",
+      "text": "The headlamp ESA shall withstand test pulse 3b with an immunity level of +75 V for 12 V systems for 1 h, with functional status class I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0223",
+      "text": "The headlamp ESA shall withstand the starting profile with functional status class B, over 10 pulses, when it is required to be operational during engine start phases.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0224",
+      "text": "The headlamp, as an electrical/electronic sub-assembly, shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0225",
+      "text": "The headlamp shall be designed, constructed and fitted in such a way as to enable the motorcycle, in normal conditions of use, to comply with the requirements of UN R10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0226",
+      "text": "The headlamp test plan shall define at least the mode of operation, stimulated functions, monitored functions, pass/fail criteria and intended emissions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0227",
+      "text": "Every headlamp ESA conforming to a type approved under UN R10 shall bear the approval mark described in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0228",
+      "text": "The approval markings on the headlamp ESA need not be visible when the ESA is installed in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0229",
+      "text": "The headlamp ESA sample shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0230",
+      "text": "Where the headlamp ESA is part of a light source, the applicant shall specify its approval number according to UN R37, 99 or 128 or provide a test report that it is not mechanically interchangeable with any light source under those Regulations.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 7,
+        "paragraph": "3.2.10"
+      }
+    },
+    {
+      "id": "G-0231",
+      "text": "The ambient extraneous noise or signal during the headlamp ESA emission measurement shall be at least 6 dB below the interference limits of paragraph 6.5.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0232",
+      "text": "For the headlamp ESA broadband emission test, the length of the low voltage harness parallel to the front edge of the ground plane shall be 1,500 mm ± 75 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.2.3"
+      }
+    },
+    {
+      "id": "G-0233",
+      "text": "All harnesses of the headlamp ESA under test shall be placed on a non-conductive low-permittivity material at 50 mm ± 5 mm above the ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.2.4"
+      }
+    },
+    {
+      "id": "G-0234",
+      "text": "The headlamp ESA broadband emission limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an ALSE or OATS.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.1"
+      }
+    },
+    {
+      "id": "G-0235",
+      "text": "The narrowband radiated emissions of the headlamp ESA shall be measured with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.2"
+      }
+    },
+    {
+      "id": "G-0236",
+      "text": "The immunity of the headlamp ESA to electromagnetic radiation shall be measured in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0237",
+      "text": "For the headlamp ESA immunity test, the test signal shall be amplitude modulated with 1 kHz and 80 per cent modulation depth in the 20 to 400 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0238",
+      "text": "The absorber chamber immunity test of the headlamp ESA shall use the substitution method according to ISO 11452-2 and shall be performed with vertical polarization.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "G-0239",
+      "text": "For the bulk current injection immunity test of the headlamp ESA, the injection probe shall be positioned at 150 mm distance to the ESA when using the substitution method.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0240",
+      "text": "The headlamp ESA shall be subjected to test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 on its supply lines and on other connections operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "G-0241",
+      "text": "The headlamp ESA shall be subjected to the starting profile according to ISO 16750-2 on its supply lines and on other connections operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    }
+  ]
+}

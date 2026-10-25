@@ -1,0 +1,49 @@
+{
+  "case": "ts-m1-airbag-module",
+  "agent_exit": 0,
+  "agent_seconds": 40,
+  "run": "runs/ts-m1-airbag-module/c2-v3c",
+  "spent_usd": 0.215,
+  "replayed_usd": 0.065,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "n_submitted": 2,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.5556
+    },
+    "page_level": {
+      "precision": 0.5238095238095238,
+      "recall": 0.2558139534883721,
+      "f1": 0.34375,
+      "n_submitted": 21,
+      "n_expected": 43,
+      "n_matched": 11,
+      "f2": 0.285
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R114",
+    "UN R137",
+    "UN R79"
+  ],
+  "run_regulations": [
+    "UN R114",
+    "UN R79"
+  ],
+  "n_gold": 156,
+  "n_upper_bound": 146,
+  "funnel": {
+    "gold_requirements": 156,
+    "reachable": 56,
+    "recall": 0.359,
+    "selected_nodes": 146,
+    "gold_nodes": 116,
+    "gold_nodes_reached": 41,
+    "unanchored": 9
+  }
+}

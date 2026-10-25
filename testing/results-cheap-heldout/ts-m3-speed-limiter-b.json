@@ -1,0 +1,50 @@
+{
+  "case": "ts-m3-speed-limiter-b",
+  "agent_exit": 0,
+  "agent_seconds": 44,
+  "run": "runs/ts-m3-speed-limiter-b/c2-v3c",
+  "spent_usd": 0.191,
+  "replayed_usd": 0.094,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715,
+      "n_submitted": 3,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.5263
+    },
+    "page_level": {
+      "precision": 0.42857142857142855,
+      "recall": 0.5121951219512195,
+      "f1": 0.4666666666666667,
+      "n_submitted": 49,
+      "n_expected": 41,
+      "n_matched": 21,
+      "f2": 0.493
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R107",
+    "UN R39",
+    "UN R89"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R155",
+    "UN R89"
+  ],
+  "n_gold": 153,
+  "n_upper_bound": 352,
+  "funnel": {
+    "gold_requirements": 153,
+    "reachable": 85,
+    "recall": 0.5556,
+    "selected_nodes": 352,
+    "gold_nodes": 130,
+    "gold_nodes_reached": 69,
+    "unanchored": 0
+  }
+}

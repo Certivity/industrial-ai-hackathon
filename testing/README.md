@@ -70,3 +70,79 @@ The judge costs $0.46 and $0.27; the total Anthropic spend of this work is about
 ## Network note
 
 On the machine these cases were made on, a request over about 1 KB to DeepSeek was dropped after 19 s (packets sent back to back are lost). `eval/xprovider.py post` now falls back, after one dropped connection, to small writes with a 30 ms pause (`SmallSegmentsConnection`; `XPROVIDER_SMALL_SEGMENTS=1` starts there, `XPROVIDER_SEGMENT_PAUSE` sets the pause). Prompts of 380 KB to 1.07 MB went through that way. About 4.3 MB of prompt text (about 1.07M tokens at 4 characters) and 430 KB of reply text (about 110K tokens) went through the successful calls for the six cases, plus the prompts of failed attempts, whose billing is unknown. No usage figures are kept by `xprovider`.
+
+## Round 2: 20 more cases (2026-10-25)
+
+Twenty more cases with the command above (DeepSeek `deepseek-flash`, thinking off, `--max-regulations 4`, five calls in parallel; the whole run took about 25 minutes). Only the product and the vehicle category were in a brief, no regulation. The same caveat applies: the golds are DeepSeek's choice, not an expert's. Quality gate: a case was dropped when grounding (kept / written) was below 90% or `expected.json` had fewer than 40 requirements; all kept files pass `tools/validate.py --strict`.
+
+Briefs (case: brief):
+
+- `ts-motorcycle-led-headlamp`: LED headlamp with main and dipped beam for a motorcycle, L3e
+- `ts-l5-tricycle-lighting`: rear lighting and retro-reflectors of a motorised three-wheel tricycle, L5e
+- `ts-m1-adaptive-headlamp`: adaptive front lighting system with cornering function for a passenger car, M1
+- `ts-m1-cybersecurity-ota`: connected passenger car with cybersecurity management and over-the-air software update, M1
+- `ts-m1-lane-keeping`: automated lane keeping system for motorway driving of a passenger car, M1
+- `ts-m1-frontal-crash`: front structure and front-seat restraint system for frontal impact protection of a passenger car, M1
+- `ts-m1-windscreen`: laminated safety windscreen and side glazing of a passenger car, M1
+- `ts-m1-airbag-module`: replacement airbag module and steering wheel for a passenger car, M1
+- `ts-m1-power-steering-b`: electric power steering with steering column and corrective steering function, M1
+- `ts-m1-replacement-catalyst`: replacement catalytic converter for a petrol passenger car, M1
+- `ts-m1-braking-system`: service and parking brake system with electronic stability for a passenger car, M1
+- `ts-m3-speed-limiter-b`: speed limitation device for an urban bus, M3
+- `ts-m3-bus-signal-lamps`: front and rear signalling lamps and retro-reflectors of an intercity bus, M3
+- `ts-n1-van-rear-lamps`: rear fog lamp and reversing lamp of a light delivery van, N1
+- `ts-n1-spare-wheel`: temporary-use spare wheel and tyre unit for a light van, N1
+- `ts-n1-speedometer`: speedometer and odometer of a light commercial vehicle, N1
+- `ts-n2-truck-aebs`: advanced emergency braking system for a medium truck, N2
+- `ts-n3-o4-coupling`: close-coupling device between a tractor unit and a semi-trailer, N3 and O4
+- `ts-n3-direction-indicators`: direction indicator lamps and hazard warning of a heavy truck, N3
+- `ts-o3-trailer-conspicuity`: retro-reflective markings and rear retro-reflectors of a heavy goods trailer, O3 and O4
+
+| case | regulations in the gold (requirements) | written / kept | grounding | paragraphs |
+|---|---|---|---|---|
+| ts-motorcycle-led-headlamp | R149 131, R53 48, R128 32, R10 30 | 249 / 241 | 97% | 197 |
+| ts-l5-tricycle-lighting | R148 89, R53 55, R150 47, R10 25 | 218 / 216 | 99% | 169 |
+| ts-m1-adaptive-headlamp | R149 70, R48 45, R148 26, R10 16 | 159 / 157 | 99% | 144 |
+| ts-m1-cybersecurity-ota | R10 62, R155 45, R156 21 | 142 / 128 | 90% | 87 |
+| ts-m1-lane-keeping | R157 171, R79 85, R10 43, R155 13 | 336 / 312 | 93% | 255 |
+| ts-m1-frontal-crash | R94 39, R137 37, R10 31, R26 27 | 139 / 134 | 96% | 126 |
+| ts-m1-windscreen | R43 156, R10 54 | 214 / 210 | 98% | 178 |
+| ts-m1-airbag-module | R114 61, R137 42, R10 34, R79 19 | 164 / 156 | 95% | 120 |
+| ts-m1-power-steering-b | R79 75, R10 54, R155 33, R156 28 | 201 / 190 | 94% | 138 |
+| ts-m1-replacement-catalyst | R10 50, R103 44, R83 39 | 138 / 133 | 96% | 101 |
+| ts-m1-braking-system | R13H 109, R10 34, R79 30 | 187 / 173 | 92% | 159 |
+| ts-m3-speed-limiter-b | R89 56, R10 40, R39 33, R107 24 | 154 / 153 | 99% | 130 |
+| ts-m3-bus-signal-lamps | R148 81, R48 64, R150 46, R10 30 | 225 / 221 | 98% | 189 |
+| ts-n1-van-rear-lamps | R38 46, R48 38, R23 37, R10 30 | 158 / 151 | 96% | 138 |
+| ts-n1-spare-wheel | R10 72, R64 54, R39 43 | 169 / 169 | 100% | 122 |
+| ts-n1-speedometer | R10 48, R39 42 | 90 / 90 | 100% | 62 |
+| ts-n2-truck-aebs | R13H 76, R131 70, R10 35 | 194 / 181 | 93% | 159 |
+| ts-n3-o4-coupling | R102 62, R10 60 | 132 / 122 | 92% | 97 |
+| ts-n3-direction-indicators | R148 78, R6 60, R48 57, R10 25 | 227 / 220 | 97% | 151 |
+| ts-o3-trailer-conspicuity | R150 81, R48 54, R104 51, R10 37 | 232 / 223 | 96% | 196 |
+
+Dropped (moved to `testing/_dropped/`, not deleted), with written / kept and grounding:
+
+| case | written / kept | grounding | why |
+|---|---|---|---|
+| ts-l1-moped-reflectors | 156 / 153 | 98% | kept as a spare, 21st good case |
+| ts-m1-power-steering | 155 / 130 | 84% | below 90% grounding |
+| ts-m2-minibus-belt-reminder | 133 / 57 | 43% | below 90% grounding |
+| ts-m2-minibus-belt-reminder-b | 187 / 100 | 53% | below 90% grounding |
+| ts-m2-minibus-glazing | 255 / 202 | 79% | below 90% grounding (replacement brief) |
+| ts-m2-minibus-seat-belts | 359 / 190 | 53% | below 90% grounding (replacement brief) |
+| ts-m3-speed-limiter | 252 / 223 | 88% | below 90% grounding |
+| ts-moped-signal-lamps | 242 / 217 | 90% | below 90% grounding |
+| ts-moped-signal-lamps-b | 207 / 180 | 87% | below 90% grounding |
+| ts-n3-diesel-engine | 154 / 97 | 63% | below 90% grounding |
+| ts-n3-diesel-engine-b | 142 / 62 | 44% | below 90% grounding |
+
+Regeneration: the five cases under 90% on the first try (`ts-moped-signal-lamps`, `ts-m1-power-steering`, `ts-m2-minibus-belt-reminder`, `ts-m3-speed-limiter`, `ts-n3-diesel-engine`) were generated again with the same brief and the id suffix `-b`. Two of the repeats passed (`ts-m3-speed-limiter-b`, `ts-m1-power-steering-b`); the other three failed again (the minibus and diesel cases lost about half of what DeepSeek wrote because the quotes were not on the pages), so they were replaced by new products (`ts-m1-braking-system`, `ts-n3-direction-indicators`, `ts-m3-bus-signal-lamps`; `ts-m2-minibus-glazing`, `ts-m2-minibus-seat-belts` and `ts-l1-moped-reflectors` were tried as well and fail the gate or were surplus). Kept ids that end in `-b` are the second tries. Dropping a brief after a failed grounding is a choice of the briefs, not of the evaluation data: nothing was fitted to an agent result (no agent has run on these cases).
+
+Regulations in no earlier case: R148, R149, R150, R128, R155, R156, R157, R79, R94, R137, R114, R43 as a main regulation, R13H, R131, R89, R39, R64, R102, R103, R6, R23, R38, R104 (R174, R49 and R107-related minibus and diesel cases were dropped). R10 is in all 20 kept golds. Lighting regulations (R148, R149, R150, R48) are in seven of the cases.
+
+Volume: the prompts of the 62 successful calls of round 2 (two per case, 31 cases written including regenerations and drops) came to about 5.4M tokens (4 characters each) and the replies to about 0.5M; one extra call with an empty brief (a shell mistake: the second-round id list was empty) went through and its output was deleted. No usage figures are kept by `xprovider`, so the bill is estimated only. Nothing from `cases/` was sent.
+
+### Split (`testing/_split.json`)
+
+Decided before any benchmark of the new cases, seed 2026, by a seeded shuffle within the vehicle-category groups L, M1, M2-M3, N and O (group sizes 2, 9, 2, 6, 1; ceil(n/2) per group to tune, the single O case held out). Tune: `ts-m1-adaptive-headlamp`, `ts-m1-braking-system`, `ts-m1-cybersecurity-ota`, `ts-m1-power-steering-b`, `ts-m1-windscreen`, `ts-m3-bus-signal-lamps`, `ts-motorcycle-led-headlamp`, `ts-n1-van-rear-lamps`, `ts-n2-truck-aebs`, `ts-n3-o4-coupling`. Held out: the other ten new cases and the six cases above. `cases/dev-rear-lamp` stays the independent yardstick. Rules and prompts may be tuned on the tune half only; report held-out and dev separately with P/R/F1/F2.

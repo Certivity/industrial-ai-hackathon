@@ -1,0 +1,51 @@
+{
+  "case": "ts-pedestrian-front-end",
+  "agent_exit": 0,
+  "agent_seconds": 13,
+  "run": "runs/ts-pedestrian-front-end/c2-base",
+  "spent_usd": 0.0,
+  "replayed_usd": 0.271,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_submitted": 4,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 1.0
+    },
+    "page_level": {
+      "precision": 0.3522727272727273,
+      "recall": 0.8857142857142857,
+      "f1": 0.5040650406504065,
+      "n_submitted": 88,
+      "n_expected": 35,
+      "n_matched": 31,
+      "f2": 0.6798
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+  ],
+  "n_gold": 125,
+  "n_upper_bound": 578,
+  "funnel": {
+    "gold_requirements": 125,
+    "reachable": 109,
+    "recall": 0.872,
+    "selected_nodes": 578,
+    "gold_nodes": 86,
+    "gold_nodes_reached": 75,
+    "unanchored": 4
+  }
+}

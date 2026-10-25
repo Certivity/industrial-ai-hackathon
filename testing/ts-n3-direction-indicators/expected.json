@@ -1,0 +1,2206 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-n3-direction-indicators",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The direction indicator and hazard warning lamp system shall bear the trade name or mark of the applicant, clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "Where a replaceable light source is used, the lamp shall bear a clearly legible and indelible marking indicating the category or categories of light source(s) prescribed.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "3.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The lamp housing shall comprise a space of sufficient size for the approval marking and the additional symbols prescribed in paragraph 4.2.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The lamp shall bear the marking of the rated voltage or range of voltage where it has an electronic light source control gear, non-replaceable light sources or light source modules.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "3.4"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "Where the flasher/control unit is part of the lamp but not included in the lamp body, it shall bear the name of the manufacturer and its identification number.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "3.6"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The approval mark on each lamp shall comprise a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "4.2.1.1"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The approval mark shall include the approval number prescribed in paragraph 4.1.3.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "4.2.1.2"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The approval mark shall include the category number (1, 1a, 1b, 2a, 2b, 5 or 6) appropriate to the direction indicator lamp category.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "4.2.2.1"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "Where the lamp cannot be mounted on either side of the vehicle indiscriminately, it shall bear a horizontal arrow showing in which position it is to be mounted.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "4.2.2.2"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "Where the lamp may be used as part of an assembly of two lamps, the additional letter \"D\" shall be marked to the right side of the category symbol.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "4.2.2.3"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "Where the lamp may be used as part of an interdependent lamps system, the additional letter \"Y\" shall be marked to the right side of the category symbol.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "4.2.2.3"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The approval mark and symbols shall be clearly legible and indelible even when the lamp is fitted in the vehicle.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "4.2.2.6"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The approval marking shall be placed on an inner or outer part of the device that cannot be separated from the transparent part emitting the light, and shall be visible when fitted on the vehicle.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The direction indicator lamps shall be so designed and constructed that, under normal conditions of use and notwithstanding vibrations, their satisfactory operation remains assured and they retain the prescribed characteristics.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "Where light source modules are used, each module shall be fittable only in the designated and correct position and removable only with the use of tools.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Where light source modules are used, the light source module(s) shall be tamperproof.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "Where the variable intensity control of a category 2b rear indicator fails while emitting more than the category 2a maximum, the steady luminous intensity requirements of category 2a shall be fulfilled automatically.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "Where replaceable light sources are used, the system shall be equipped only with light sources approved according to UN Regulation No. 37 and/or UN Regulation No. 128.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "Where replaceable light sources are used, the design of the lamp shall be such that the light source cannot be fixed in any other position but the correct one.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "Where replaceable light sources are used, the light source holder shall conform to the characteristics given in IEC Publication 60061.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "5.5.3"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "Where the flash is produced by sequential activation of the light sources, the lamp shall meet the sequential activation conditions of paragraph 5.7.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "Where sequential activation is used, each light source shall remain lit until the end of the ON cycle after its activation.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "Where sequential activation is used, the sequence shall produce a signal that proceeds uniformly from inboard towards the outboard edge of the light emitting surface.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "Where sequential activation is used, the distance between two adjacent distinct parts of the light emitting surface shall not exceed 50 mm measured perpendicularly to the reference axis.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "Where sequential activation is used, the variation shall finish no more than 200 ms after the beginning of the ON cycle.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "Where an interdependent lamp system is used, it shall meet the requirements when all its interdependent lamps are operated together.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "5.8"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The light emitted by each of the two supplied front direction indicator lamps (category 1, 1a or 1b) shall be not less than the minimum intensity in the reference axis (175 cd, 250 cd or 400 cd respectively).",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The light emitted by each supplied direction indicator lamp in the reference axis shall not exceed the maximum intensity specified for its category (1000 cd or 1200 cd as a single lamp).",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "A category 2a rear direction indicator lamp shall emit not less than 50 cd and not more than 500 cd in the reference axis when used as a single lamp.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "A category 2b rear direction indicator lamp with variable luminous intensity shall emit not less than 50 cd and not more than 1000 cd in the reference axis when used as a single lamp.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "For an assembly of two or more direction indicator lamps, the total intensity shall not exceed the maximum value for the category.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "Where an assembly of two lamps marked \"D\" with the same function is deemed a single lamp, it shall comply with the maximum intensity requirement if all lamps together are lit.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "Where an assembly of two lamps marked \"D\" with the same function is deemed a single lamp, it shall comply with the minimum intensity requirement if one lamp has failed.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The direction indicator lamp shall produce the signal for activation of the tell-tale where any one light source has failed.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "For a lamp designed with only two light sources, the tell-tale signal shall be produced where the intensity in the reference axis is less than 50 per cent of the minimum intensity.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "Outside the reference axis, within the angular fields of Annex 1, the intensity in each direction of the luminous-intensity distribution table shall be not less than the minimum of paragraph 6.1 multiplied by the percentage for that direction.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The light emitted by each device shall not exceed the maximum specified in paragraph 6.1 in any direction within the area from which the indicator lamp is visible.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "Throughout the fields defined in the diagrams in Annex 1, the intensity emitted shall be not less than 0.7 cd for category 1b devices and not less than 0.3 cd for categories 1, 1a and 2a.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.3.3.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The direction indicator lamp shall observe the provisions of paragraph 2.2 of Annex 4 on local variations of intensity.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 8,
+        "paragraph": "6.3.3.2"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "Where replaceable filament lamps are used, the filament lamps shall be operated at reference luminous flux during on time for the intensity measurements.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 9,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "Where intensities are measured in flashing mode, the lamp shall be switched with a frequency of f = 1.5 ± 0.5 Hz and a pulse width greater than 0.3 s measured at 95 per cent peak light intensity.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 9,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "For category 2b devices, the time to reach 90 per cent of the lowest luminous intensity shall not exceed the time to reach 90 per cent of the highest luminous intensity.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 9,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The variable intensity control shall not generate signals which cause luminous intensities outside the range specified in paragraph 6.1.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 9,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The variable intensity control shall not generate signals causing luminous intensities exceeding the category 2a maximum for systems depending only on daytime and night-time conditions under night-time conditions.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 9,
+        "paragraph": "6.6.2"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "For a lamp with replaceable light source not supplied by electronic gear or a variable intensity control, all measurements shall be made with a standard light source of the prescribed category.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 9,
+        "paragraph": "7.1.1"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "For a lamp equipped with non-replaceable light sources, the measurements shall be made at 6.75 V, 13.5 V or 28.0 V respectively.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 9,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The limits of the apparent surface in the direction of the reference axis of the direction indicator shall be determined.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 10,
+        "paragraph": "7.5"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The colour of the light emitted inside the field of the light distribution grid defined in paragraph 2 of Annex 4 shall be amber.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 10,
+        "paragraph": "8"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Outside the field of the light distribution grid, no sharp variation of colour shall be observed.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 10,
+        "paragraph": "8"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The direction indicator lamps shall provide minimum vertical light distribution angles of 15° above and 15° below the horizontal.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 12,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "Where a direction indicator lamp is installed with its H plane at a mounting height of less than 750 mm above the ground, the minimum vertical angles shall be 15° above and 5° below the horizontal.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 12,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "Side direction indicator lamps of category 6 shall provide minimum vertical light distribution angles of 30° above and 5° below the horizontal.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 12,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "During photometric measurements of the lamps, stray reflections shall be avoided by appropriate masking.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 20,
+        "paragraph": "Annex 4 1.1"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The photometric measurement distance shall be such that the law of the inverse of the square of the distance is applicable.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 20,
+        "paragraph": "Annex 4 1.2.1"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The measuring equipment shall have an angular aperture of the receiver viewed from the reference centre between 10' and 1 degree.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 20,
+        "paragraph": "Annex 4 1.2.2"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "An intensity requirement for a direction shall be deemed satisfied if met in a direction deviating by not more than one-quarter of a degree.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 20,
+        "paragraph": "Annex 4 1.2.3"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "Where the device may be installed in more than one position, the photometric measurements shall be repeated for each position or for the extreme positions of the field of the reference axis.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 20,
+        "paragraph": "Annex 4 1.3"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The direction H = 0° and V = 0° shall correspond to the reference axis passing through the centre of reference.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 21,
+        "paragraph": "Annex 4 2.1"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "Within the light distribution grid, the light pattern of the lamp shall be substantially uniform in that each direction meets at least the lowest minimum value on the grid lines surrounding it.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 22,
+        "paragraph": "Annex 4 2.2"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "For any direction indicator lamp not equipped with filament lamps, the luminous intensities measured after one minute and after 30 minutes of operation in flashing mode (f = 1.5 Hz, duty factor 50 per cent) shall comply with the minimum and maximum requirements.",
+      "source": {
+        "regulation": "UN R6",
+        "version": "2.0.0",
+        "page": 22,
+        "paragraph": "Annex 4 3.3"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "Each direction indicator lamp shall comprise a space of sufficient size for the approval marking and other markings.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1.1"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "All markings on the direction indicator lamp system shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 6,
+        "paragraph": "3.3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The approval mark of each lamp shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which granted approval.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The approval marking shall include the four to six-digit sequential number placed close to the approval mark.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.2"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "Each lamp shall bear the symbol identifying its light signalling function as prescribed in paragraph 3.2.4 (1, 1a, 1b, 2a, 2b, 5 or 6 for direction indicators).",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.3"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The approval marking shall include the number of this Regulation followed by the letter 'R' and the two digits of the series of amendments in force.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.4"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "Where the lamp cannot be mounted on either side indiscriminately, the horizontal arrow shall be directed outwards from the vehicle for direction indicators of categories 1, 1a, 1b, 2a and 2b.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1.1"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "Where the lamp cannot be mounted on either side indiscriminately, the horizontal arrow shall be directed towards the front of the vehicle for direction indicators of categories 5 and 6.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1.2"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "For direction indicators of category 6, an indication \"R\" or \"L\" shall be shown on the lamp indicating the right or left side of the vehicle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1.3"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "Where the lamp may be used as part of an assembly of two independent lamps, the additional letter \"D\" shall be marked to the right side of the function symbol.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.2"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "Where the lamp is used as part of an interdependent lamps system, the additional letter \"Y\" shall be marked to the right side of the function symbol.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.2"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "Each direction indicator lamp shall bear the approval marking.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "Each lamp shall bear the trade name or mark of the applicant.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.2"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "Each lamp with replaceable light sources shall bear a marking indicating the category or categories of light source(s) prescribed.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.3"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The lamp shall bear the marking of the rated voltage(s) (6V, 12V or 24V) or the range of voltage where it has an electronic light source control gear, a variable luminous intensity control or non-replaceable light sources.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.4"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "Where replaceable light source modules are used, each module shall bear a specific identification code comprising the letters \"MD\" followed by the approval mark without the circle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.5"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "Where the flasher/control unit is part of the lamp but not included in the lamp body, it shall be marked with its identification number and the name of the manufacturer.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.3.6"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The approval marking shall be visible when the lamp is fitted on the vehicle or when a movable part such as a hood or door is opened.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.2"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "Where the outer lens is designed to be separated from the main body, the approval marking shall be placed on both the detachable lens and the main body.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 8,
+        "paragraph": "3.3.4.3"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The lamps shall be so designed and constructed that, in normal conditions of use and notwithstanding vibrations, their satisfactory operation remains assured and they retain the prescribed characteristics.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The direction indicator lamps may be approved as an assembly of two independent lamps marked \"D\".",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.4.1"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The direction indicator lamps may be approved as an interdependent lamp system marked \"Y\".",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 10,
+        "paragraph": "4.4.2"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The direction indicator lamps shall not incorporate a manufacturer logo.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.5.5"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "In a single lamp containing more than one light source, a group of sources wired so that failure of any one stops all of them shall be considered one light source.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.6.1.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "For direction indicator lamps of categories 1, 1a, 1b, 2a and 2b, a signal for activation of the tell-tale prescribed in paragraph 6.5.8 of UN Regulation No. 48 shall be produced on the basis of any of options a), b) or c) of paragraph 4.6.1.4.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 11,
+        "paragraph": "4.6.1.4"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "For a lamp designed for only two light sources, the tell-tale signal shall be produced where the intensity in the axis of reference is less than 50 per cent of the minimum intensity required.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1.4"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The tell-tale signal shall be produced where, as a consequence of failure of one or more light sources, the intensity in one of the directions of paragraph 2.1 of Annex 3 is less than the minimum required.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.1.4"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "Where the variable intensity control of a category 2b direction indicator emitting more than the category 2a maximum fails, the steady luminous intensity requirements of the respective category shall be fulfilled automatically.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.6.2"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "For replaceable UN approved light sources, the design of the lamp shall be such that the light source can be fixed in no other position but the correct one.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 12,
+        "paragraph": "4.7.2.2"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The light source holder shall conform to the characteristics given in IEC Publication 60061 for the category of light source prescribed.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.2.2"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The direction indicator and hazard warning lamp system shall not generate radiated or power line disturbances which cause a malfunction of other electric/electronic systems of the vehicle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.2.3"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "Where replaceable light source modules are used, each module shall be fittable only in the designated correct position and removable only with the use of tools.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.2.4"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "Where replaceable light source modules are used, each module shall be tamperproof.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.2.4"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "Where a light source module is replaced by another module of the same identification code, the photometric requirements of the device shall be met.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.7.2.4"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "Where replaceable light sources are controlled by an electronic control gear, the standard light source shall have a luminous flux not deviating more than 5 per cent from its reference luminous flux value at the test voltage.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.8.1.1.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "During photometric measurements, stray reflections shall be avoided by appropriate masking.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.8.1.4"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "Where the lamp may be installed in more than one position, the photometric measurements shall be repeated for each position or for the extreme positions of the field of the reference axis.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.8.1.5"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "Unless otherwise specified, the intensities of the lamps shall be measured with the light source continuously lit.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.1.7"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The measurement distance shall be such that the law of the inverse of the square of the distance is applicable.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.1.8.1"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The measuring equipment shall have an angular aperture of the receiver between 10' and 1 degree viewed from the reference centre of the light.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.1.8.2"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The limits of the apparent surface in the direction of the reference axis of each light-signalling lamp shall be determined.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.1.9"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "Unless otherwise specified, the lamp shall be supplied during testing at 6.75 V, 13.5 V or 28 V for 6, 12 or 24 Volt systems respectively.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.2"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "For lamps with multiple replaceable light sources, the sources shall be operated so that actual luminous fluxes do not deviate by more than 5 per cent from the average luminous flux.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 14,
+        "paragraph": "4.8.2.3.1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The light emitted by each of the two samples on the reference axis shall be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.8.3.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The light emitted by each sample shall not exceed, in any direction where the lamp is visible, the maximum specified in the table of the pertinent function in paragraph 5.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.8.3.1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "Where an assembly of two independent lamps marked \"D\" with the same function is deemed a single lamp, it shall comply with the maximum intensity requirement if all lamps together are lit and the minimum if either lamp has failed.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.8.3.2"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "Where an interdependent lamp system is used, it shall meet the requirements when all its interdependent lamps are operated together.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 15,
+        "paragraph": "4.8.3.3"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The colour of the light emitted by the direction indicator lamp shall be measured inside the field of the light distribution grid defined for the function in Annex 3.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "4.9"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "Outside the field of the light distribution grid, no sharp variation of colour shall be observed.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "4.9"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The light emitted by each of the two supplied direction indicator lamps shall meet the luminous intensity requirements of Table 8.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.6.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "For direction indicators of categories 1, 1a, 1b, 2a and 2b, the minimum luminous intensities of Table 8 shall be fulfilled in the reference axis.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.6.1"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "For side direction indicators of categories 5 and 6, the minimum luminous intensities of Table 8 shall be fulfilled in direction A according to Annex 2.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.6.1"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "A category 1 front direction indicator lamp shall emit not less than 175 cd and not more than 1200 cd in the reference axis when used as a single lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "A category 1a front direction indicator lamp shall emit not less than 250 cd and not more than 1200 cd in the reference axis when used as a single lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "A category 1b front direction indicator lamp shall emit not less than 400 cd and not more than 1200 cd in the reference axis when used as a single lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "A category 2a rear direction indicator lamp shall emit not less than 50 cd and not more than 500 cd in the reference axis when used as a single lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "A category 2b rear direction indicator lamp shall emit not less than 50 cd and not more than 1000 cd in the reference axis when used as a single lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "A category 5 side direction indicator lamp shall emit not less than 0.6 cd and not more than 280 cd when used as a single lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "A category 6 side direction indicator lamp shall emit not less than 50 cd and not more than 280 cd when used as a single lamp.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "A direction indicator lamp marked \"D\" used as part of an assembly of two lamps shall not exceed the \"D\" maximum intensity of Table 8 for its category.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 20,
+        "paragraph": "5.6.1. Table 8"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "In general, the intensities of the direction indicator lamps shall be measured with the light source(s) continuously alight.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.4"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "Where the lamp is measured in flashing mode, switching shall be at f = 1.5 ± 0.5 Hz with a pulse width greater than 0.3 s measured at 95 per cent peak light intensity.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.4"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "Where measurements are taken in flashing mode, the reported luminous intensity shall be represented by the maximum intensity.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.4"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "Where the flash is produced by sequential activation, each light source shall remain lit until the end of the ON cycle after its activation.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.5"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "Where sequential activation is used, the signal shall proceed in a uniform progressive manner from inboard towards the outboard edge of the light emitting surface.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 21,
+        "paragraph": "5.6.5"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "Where sequential activation is used, the distance between two adjacent distinct parts of the light emitting surface shall not exceed 50 mm measured perpendicularly to the reference axis.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 22,
+        "paragraph": "5.6.5"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "Where sequential activation is used, the variation shall finish no more than 200 ms after the beginning of the ON cycle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 22,
+        "paragraph": "5.6.5"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "Where sequential activation is used, the orthogonal projection of the light emitting surfaces shall be circumscribed by a rectangle whose horizontal to vertical side ratio is not less than 1.7.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 22,
+        "paragraph": "5.6.5"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "The colour of the light emitted by the direction indicator lamp shall be amber.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 22,
+        "paragraph": "5.6.7"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "Front direction indicator lamps of categories 1, 1a and 1b shall provide minimum horizontal angles of geometric visibility of 45° inboard and 80° outboard.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Annex 2 Part A. Table A2-1"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "Rear direction indicator lamps of categories 2a and 2b shall provide minimum horizontal angles of geometric visibility of 45° inboard and 80° outboard.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Annex 2 Part A. Table A2-1"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "Below the H-plane, for lamps mounted with the H-plane below 750 mm, the inboard angle of 45° may be reduced to 20°.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Annex 2 Part A. Table A2-1"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "Direction indicator lamps shall provide minimum vertical angles of geometric visibility of 15° above and 15° below the horizontal, reduced to 5° below where mounted with the H-plane below 750 mm.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Annex 2 Part A. Table A2-1"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "Optional rear direction indicator lamps installed with the H-plane above 2100 mm shall provide a minimum vertical angle of 5° above and 15° below.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 32,
+        "paragraph": "Annex 2 Part A. Table A2-1"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "Side direction indicator lamps of category 5 shall provide horizontal angles of geometric visibility of 5° and 55° applying to direction A.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 33,
+        "paragraph": "Annex 2 Part B. Table A2-2"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "Side direction indicator lamps of category 5 shall provide minimum vertical angles of 15° above and 15° below the horizontal, reduced to 5° below where mounted with the H-plane below 750 mm.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 33,
+        "paragraph": "Annex 2 Part B. Table A2-2"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "For the various directions of measurement, the minimum intensities shown in the light distribution figures shall apply as percentages of the minimum intensities required.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 35,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "Front and rear direction indicator lamps installed at a mounting height of 750 mm or less above the ground shall have their photometric intensity verified only up to an angle of 5° downwards.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 35,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "When fitted to the vehicle, the reference axis of each direction indicator lamp shall be parallel to the bearing plane of the vehicle on the road, with a tolerance of ±3°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "The reference axis of the direction indicator lamps shall be parallel to the median longitudinal plane of the vehicle, within a tolerance of ±3°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "Lamps constituting a pair shall be fitted to the vehicle symmetrically in relation to the median longitudinal plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "The paired lamps shall be symmetrical to one another in relation to the median longitudinal plane, except as regards the interior structure of the lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "The lamps constituting a pair shall satisfy the same colorimetric requirements.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.3"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "The lamps constituting a pair shall have substantially identical photometric characteristics.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.4"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "Where the direction indicator lamps are grouped, combined or reciprocally incorporated with other lamps, all requirements regarding colour, position, orientation, geometric visibility and electrical connections shall be fulfilled.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.7.1"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "The photometric and colorimetric requirements of the direction indicator lamp shall be fulfilled when all other functions with which it is grouped, combined or reciprocally incorporated are switched OFF.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.1.1"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "The direction indicator lamps shall not be reciprocally incorporated with stop lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.1.2"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "Where the apparent surface of the direction indicator lamp is composed of two or more distinct parts, the minimum distance between facing edges shall not exceed 75 mm measured perpendicularly to the reference axis.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.2.1"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "For the purpose of reducing the geometric visibility angles, the height of a direction indicator lamp above the ground shall be measured from the H plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.8.1"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "The direction indicator lamps and the hazard warning signal shall be flashing lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.9.1"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "The photometric characteristics of a direction indicator lamp of categories 1, 1a, 1b, 2a or 2b may vary during a flash only by sequential activation of light sources as specified in UN Regulation No. 6.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.9.3"
+      }
+    },
+    {
+      "id": "G-0152",
+      "text": "Red light emitted by a lamp fitted on the rear of the vehicle shall not be visible from the front of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.10.1"
+      }
+    },
+    {
+      "id": "G-0153",
+      "text": "In case of doubt, the red light emitted to the front or the white light emitted to the rear shall not exceed 0.25 cd per lamp considering the influence of the vehicle body.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.10.4.3"
+      }
+    },
+    {
+      "id": "G-0154",
+      "text": "The colour of the light emitted by the direction indicator lamp shall be amber.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0155",
+      "text": "The colour of the light emitted by the hazard warning signal shall be amber.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0156",
+      "text": "Where the rear direction indicator lamps are installed on movable components, they shall meet all position, geometric visibility, colorimetric and photometric requirements at all fixed positions of the movable components.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 25,
+        "paragraph": "5.18.1"
+      }
+    },
+    {
+      "id": "G-0157",
+      "text": "The direction indicator lamp shall be capable of being made to operate by the sole installation of a light source and/or a fuse.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 26,
+        "paragraph": "5.22"
+      }
+    },
+    {
+      "id": "G-0158",
+      "text": "Rear direction indicator lamps of category 2b with variable luminous intensity control responding to the conditions of paragraphs 5.26.1 and 5.26.2 shall comply with the conditions of paragraph 5.26 (a) and (b).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 26,
+        "paragraph": "5.26"
+      }
+    },
+    {
+      "id": "G-0159",
+      "text": "For rear direction indicator lamps of category 2b with variable luminous intensity, no sharp variation of intensity shall be observed during transition.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 27,
+        "paragraph": "5.26.4"
+      }
+    },
+    {
+      "id": "G-0160",
+      "text": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the direction indicator lamp observed from infinity.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 27,
+        "paragraph": "5.28.1"
+      }
+    },
+    {
+      "id": "G-0161",
+      "text": "Where an interdependent lamp system is used, the geometric visibility requirements shall be fulfilled when all its interdependent lamps are operated together.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 28,
+        "paragraph": "5.28.5"
+      }
+    },
+    {
+      "id": "G-0162",
+      "text": "The vehicle shall be fitted with two front direction indicator lamps of category 1, 1a or 1b according to the distance from the dipped-beam headlamp edge (at least 40 mm, between 20 and 40 mm, or equal to or less than 20 mm).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0163",
+      "text": "The vehicle shall be fitted with two rear direction indicator lamps of category 2a or 2b.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0164",
+      "text": "On vehicles of category N3, two optional rear direction indicator lamps of category 2a or 2b may be installed.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0165",
+      "text": "The vehicle shall be fitted with two side direction indicator lamps of category 5 or 6 as minimum requirement.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0166",
+      "text": "For all N2 and N3 vehicles, the side direction indicator lamps shall be of category 6.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0167",
+      "text": "Where the N3 vehicle exceeds 9 m in length, three additional category 5 side direction indicator devices distributed as evenly as practicable along each side shall be fitted.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.3.1"
+      }
+    },
+    {
+      "id": "G-0168",
+      "text": "The edge of the apparent surface of the mandatory direction indicator lamp farthest from the median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.4.1"
+      }
+    },
+    {
+      "id": "G-0169",
+      "text": "The distance between the inner edges of the two apparent surfaces of the direction indicator lamps shall not be less than 600 mm, or 400 mm where the overall width is less than 1300 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 41,
+        "paragraph": "6.5.4.1"
+      }
+    },
+    {
+      "id": "G-0170",
+      "text": "The height of the light-emitting surface of the side direction indicator lamps of categories 5 or 6 shall be not less than 500 mm for N3 vehicles, measured from the lowest point.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.4.2.1"
+      }
+    },
+    {
+      "id": "G-0171",
+      "text": "The height of the light-emitting surface of the side direction indicator lamps of categories 5 or 6 shall be not more than 1500 mm, measured from the highest point.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.4.2.1"
+      }
+    },
+    {
+      "id": "G-0172",
+      "text": "The height of the direction indicator lamps of categories 1, 1a, 1b, 2a and 2b, measured according to paragraph 5.8, shall be not less than 350 mm and not more than 1500 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.4.2.2"
+      }
+    },
+    {
+      "id": "G-0173",
+      "text": "Where the vehicle structure does not permit the upper limits and optional rear lamps are not installed, the height may be increased to 2300 mm for category 5 and 6 lamps and 2100 mm for categories 1, 1a, 1b, 2a and 2b.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.4.2.3"
+      }
+    },
+    {
+      "id": "G-0174",
+      "text": "The distance between the light-emitting surface of the side direction indicator lamp of categories 5 and 6 and the transverse plane marking the forward boundary of the vehicle's overall length shall not exceed 1800 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.4.3"
+      }
+    },
+    {
+      "id": "G-0175",
+      "text": "Where optional rear direction indicator lamps are installed, they shall be placed not less than 600 mm above the mandatory lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.4.2.4"
+      }
+    },
+    {
+      "id": "G-0176",
+      "text": "Direction indicator lamps of categories 1, 1a, 1b, 2a, 2b and 5 shall provide vertical geometric visibility angles of 15° above and below the horizontal.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.5.1"
+      }
+    },
+    {
+      "id": "G-0177",
+      "text": "Where a direction indicator lamp is mounted below 750 mm, the downward vertical angle of 15° may be reduced to 5°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.5.1"
+      }
+    },
+    {
+      "id": "G-0178",
+      "text": "Direction indicator lamps of category 6 shall provide vertical geometric visibility angles of 30° above and 5° below the horizontal.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.5.1"
+      }
+    },
+    {
+      "id": "G-0179",
+      "text": "For direction indicator lamps of categories 1, 1a, 1b, 2a and 2b mounted below 750 mm, the inward horizontal angle of 45° may be reduced to 20° under the H plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.5.1"
+      }
+    },
+    {
+      "id": "G-0180",
+      "text": "The direction indicator lamps shall switch ON independently of the other lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.7"
+      }
+    },
+    {
+      "id": "G-0181",
+      "text": "All direction indicator lamps on one side of the vehicle shall be switched ON and OFF by one control and shall flash in phase.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.7"
+      }
+    },
+    {
+      "id": "G-0182",
+      "text": "A direction indicator capable of being activated in static or sequential mode shall not switch between both modes once activated.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.7"
+      }
+    },
+    {
+      "id": "G-0183",
+      "text": "Where two optional rear direction indicator lamps are installed on an N3 vehicle, they shall be operated in the same mode (static or sequential) as the mandatory rear direction indicator lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.7"
+      }
+    },
+    {
+      "id": "G-0184",
+      "text": "An operating tell-tale, visual or auditory or both, shall be provided for direction indicator lamps of categories 1, 1a, 1b, 2a and 2b.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.8"
+      }
+    },
+    {
+      "id": "G-0185",
+      "text": "Where the tell-tale is visual, it shall be a flashing light which, in the event of malfunction of any of these direction indicator lamps, is extinguished, remains alight without flashing, or shows a marked change of frequency.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.8"
+      }
+    },
+    {
+      "id": "G-0186",
+      "text": "The direction indicator lamp shall be a flashing light flashing 90 ± 30 times per minute.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.9"
+      }
+    },
+    {
+      "id": "G-0187",
+      "text": "Operation of the light-signal control shall be followed within not more than one second by the emission of light and within not more than one and one-half seconds by its first extinction.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.9"
+      }
+    },
+    {
+      "id": "G-0188",
+      "text": "In the event of failure, other than short-circuit, of one direction indicator lamp, the other direction indicator lamps shall continue to flash.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.9"
+      }
+    },
+    {
+      "id": "G-0189",
+      "text": "The hazard warning signal shall be given by simultaneous operation of the direction indicator lamps in accordance with paragraph 6.5.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0190",
+      "text": "All front direction indicators activated simultaneously by the hazard warning signal shall operate in the same mode, static or sequential.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0191",
+      "text": "All rear direction indicators of category 2a or 2b activated simultaneously by the hazard warning signal shall operate in the same mode, static or sequential.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0192",
+      "text": "The hazard warning signal shall be operated by means of a separate manual control enabling all the direction indicator lamps to flash in phase.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.6.7.1"
+      }
+    },
+    {
+      "id": "G-0193",
+      "text": "A flashing closed-circuit tell-tale shall be provided for the hazard warning signal.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.6.8"
+      }
+    },
+    {
+      "id": "G-0194",
+      "text": "The hazard warning signal shall be able to function even if the device which starts or stops the propulsion system is in a position making propulsion impossible.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.6.9"
+      }
+    },
+    {
+      "id": "G-0195",
+      "text": "Where an emergency stop signal is provided, it shall be given by the simultaneous operation of all the stop lamps or direction indicator lamps fitted as described in paragraph 6.23.7.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 75,
+        "paragraph": "6.23.1"
+      }
+    },
+    {
+      "id": "G-0196",
+      "text": "An approval mark as described in paragraph 5.3 shall be affixed to every electrical/electronic sub-assembly (ESA) of the lamp system conforming to an approved type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0197",
+      "text": "The EMC approval mark on the ESA shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the country granting approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0198",
+      "text": "The EMC approval mark shall include the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0199",
+      "text": "The EMC markings on the ESA need not be visible when the ESA is installed in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0200",
+      "text": "The control unit and its electrical connections shall be designed, constructed and fitted so that, in normal conditions of use, the system complies with the electromagnetic compatibility requirements of UN Regulation No. 10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0201",
+      "text": "The electronic control unit ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0202",
+      "text": "At a 10.0 ± 0.2 m vehicle-to-antenna spacing, the broadband radiated emissions of the vehicle shall not exceed 32 dBµV/m in the 30 to 75 MHz band and 32 to 43 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0203",
+      "text": "At a 10.0 ± 0.2 m vehicle-to-antenna spacing, the broadband radiated emissions shall not exceed 43 dBµV/m in the 400 to 1000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0204",
+      "text": "At a 3.0 ± 0.05 m vehicle-to-antenna spacing, the broadband radiated emissions shall not exceed 42 dBµV/m in the 30 to 75 MHz band and 42 to 53 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0205",
+      "text": "At a 10.0 ± 0.2 m antenna spacing, the narrowband radiated emissions of the vehicle shall not exceed 28 dBµV/m in the 30 to 230 MHz band and 35 dBµV/m in the 230 to 1000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0206",
+      "text": "At a 3.0 ± 0.05 m antenna spacing, the narrowband radiated emissions shall not exceed 38 dBµV/m in the 30 to 230 MHz band and 45 dBµV/m in the 230 to 1000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0207",
+      "text": "The vehicle shall withstand a field strength of 30 V/m over 90 per cent of the 20 to 2000 MHz band and a minimum of 25 V/m over the whole band, tested according to Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0208",
+      "text": "During the immunity tests of Annex 6, there shall be no degradation of performance of the immunity related functions, including the correct operation of the direction indicators.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0209",
+      "text": "The broadband radiated emissions of the ESA shall not exceed 62 to 52 dBµV/m in the 30 to 75 MHz band and 52 to 63 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0210",
+      "text": "The broadband radiated emissions of the ESA shall not exceed 63 dBµV/m in the 400 to 1000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0211",
+      "text": "The narrowband radiated emissions of the ESA shall not exceed 52 to 42 dBµV/m in the 30 to 75 MHz band (decreasing logarithmically above 30 MHz).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0212",
+      "text": "The narrowband radiated emissions of the ESA shall not exceed 42 to 53 dBµV/m in the 75 to 400 MHz band and 53 dBµV/m in the 400 to 1000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0213",
+      "text": "The ESA immunity to radiated disturbances below 2 GHz shall be tested at 60 mA BCI and 30 V/m ALSE over 90 per cent of the 20 to 6000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0214",
+      "text": "For the ESA immunity test, a minimum test level of 50 mA BCI and 25 V/m ALSE shall be applied over the whole 20 to 6000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0215",
+      "text": "During the immunity tests of Annex 9, the ESA shall exhibit no degradation of performance of its immunity related functions, including the direction indicator control.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0216",
+      "text": "On a 24 V system, the ESA immunity to test pulse 1 shall be at -450 V for 500 pulses with functional status classification III for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0217",
+      "text": "The ESA immunity to test pulse 2a shall be at +37 V for 500 pulses with functional status classification I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0218",
+      "text": "On a 24 V system, the ESA immunity to test pulse 3a shall be at -150 V for 1 h with functional status classification I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0219",
+      "text": "On a 24 V system, the ESA immunity to test pulse 3b shall be at +150 V for 1 h with functional status classification I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0220",
+      "text": "The ESA shall be immune to the starting profile at level II for 10 pulses where it must remain operational during engine start phases.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    }
+  ]
+}

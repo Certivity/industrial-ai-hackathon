@@ -1,0 +1,1017 @@
+[
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "An onboard speedometer and odometer complying with the requirements of this Regulation shall be fitted to the vehicle to be approved",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "If more than one onboard speedometer or odometer is fitted to the vehicle, all these speedometers and odometers shall comply with all the requirements of this Regulation when displayed",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Additional graduations and numerical values are not permitted",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The display of the speedometer shall be located within the direct field of view of the driver and must be clearly legible both day and night",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The range of speeds displayed must be sufficiently wide to include the maximum speed of this type of vehicle as stated by the manufacturer",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "In the case of speedometers intended for vehicles of Categories M, N, and L3, L4, L5, and L7 the graduation shall be 1, 2, 5 or 10 km/h",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "when the highest value on the display does not exceed 200 km/h, speed values shall be indicated at intervals not exceeding 20 km/h",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "When the maximum value on the display exceeds 200 km/h, then the speed values shall be indicated at intervals not exceeding 30 km/h",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "If a setting makes it possible for the driver to choose between the speed in km/h and mph (miles per hour), then the speed may be displayed only in either km/h or mph at any one time",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The corresponding unit shall permanently be displayed",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.3.5. Table",
+    "page": 5,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "45 < Vmax ≤ 100 40 km/h and 80 % Vmax (if the resulting speed is ≥ 55 km/h)",
+    "label": "5.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.3.5. Table",
+    "page": 5,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "100 < Vmax ≤ 150 40 km/h, 80 km/h and 80 % Vmax (if the resulting speed is ≥ 100 km/h)",
+    "label": "5.3.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.3.6",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The test instrumentation used for measuring the true vehicle speed shall be accurate to ± 0.5 per cent",
+    "label": "5.3.6"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.3.6.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The surface of a test track when used shall be flat, and provide sufficient adhesion",
+    "label": "5.3.6.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.3.6.2",
+    "page": 5,
+    "raw_pages": [
+      5,
+      10
+    ],
+    "verdict": "ok",
+    "exact": "If a roller dynamometer is used for the test, the diameter of the roller should be at least 0.4 m",
+    "label": "5.3.6.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The speed indicated shall not be less than the true speed of the vehicle",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "At the test speeds specified in paragraph 5.3.5. above, there shall be the following relationship between the speed displayed (V1) and the true speed (V2). 0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The display of the odometer shall be visible or accessible to the driver",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The odometer shall display at least an integer number composed of a minimum of 6 numerals for the vehicles of categories M and N",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.5.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The odometer shall display the distance in the unit corresponding to that of the predominant speedometer scale",
+    "label": "5.5.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.5.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "If a setting makes it possible for the driver to select the odometer display distance in km or miles independently of the speedometer, the odometer shall identify the unit used",
+    "label": "5.5.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.8",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The total distance indicated shall not deviate by more than ±4.0 per cent from the true distance travelled as determined in paragraph 5.7",
+    "label": "5.8"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.9",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "these values shall not deviate from the (rounded) total distance indicated",
+    "label": "5.9"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.10",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Total distance values and the total distance indicated shall have a resolution better than or equal to 1 km or 1 mile, as appropriate",
+    "label": "5.10"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.11",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "In the case of an electrically detectable failure preventing the odometer requirements of this UN Regulation from being met, a malfunction indication shall be provided to the driver",
+    "label": "5.11"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.11.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The malfunction indication shall be active when the malfunction occurs and shall remain active as long as the malfunction persists",
+    "label": "5.11.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.11.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "It may be temporarily cancelled, but shall be repeated each time the ignition or the vehicle master control switch is activated",
+    "label": "5.11.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.12",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The total distance indicated and total distance values shall be protected against manipulation",
+    "label": "5.12"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.12",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "proportionate mitigations are implemented, including, or equivalent to, mitigation 7 referred to in Annex 5, Part B, Table B5 of UN Regulation No. 155",
+    "label": "5.12"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "In the case of vehicles of Categories M, N, and L3, L4, L5, and L7 manufactured for sale in any country where imperial units are used, the speedometer shall also be marked in miles per hour (mph); the graduations shall be of 1, 2, 5 or 10 mph",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.2.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The numerical values of the speed shall be indicated on the display at intervals not exceeding 20 mph and commencing at 10 or 20 mph",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "5.5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In the case of vehicles manufactured for sale in any country where imperial units are used, the odometer shall be marked in miles",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "4.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "To every vehicle conforming to a vehicle type approved under this Regulation there shall be affixed in a conspicuous and easily accessible position, specified on the approval form, an international approval mark",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "4.4.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.4.1"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "4.4.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle described in paragraph 4.4.1",
+    "label": "4.4.2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "4.6",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and shall be indelible",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "4.7",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer",
+    "label": "4.7"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "Annex 3 2.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the case of vehicles of categories M and N: 0 ≤ (V1 - V2) ≤ 0.1 V2 + 6 km/h",
+    "label": "Annex 3 2"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "Annex 4 1.1.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The reference temperature at the odometer shall be 23 ± 5 °C, if relevant for the test to the discretion of the Technical Service responsible for carrying out the test",
+    "label": "Annex 4 1.1.3"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "Annex 4 1.1.5",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The test instrumentation used for measuring the true distance travelled shall be accurate to ± 0.5 per cent",
+    "label": "Annex 4 1.1.5"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "Annex 4 1.1.6",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle is tested at a speed which may vary between 0 and 100 km/h",
+    "label": "Annex 4 1.1.6"
+  },
+  {
+    "regulation": "UN R39",
+    "paragraph": "Annex 4 1.1.8",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle is driven for a minimum of 10 kilometres or 7 miles as indicated on the odometer and the true value is read from the instrumentation",
+    "label": "Annex 4 1.1.8"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 9,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      9,
+      10,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Positive +75 V +150 V Negative -100 V -450 V",
+    "label": "6.7.1. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 12,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level above 2 GHz Not applicable Not applicable Not applicable 10 V/m 7 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 12,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "1 -75 V -450 V 500 pulses III III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3b +75 V +150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases) C (for other ESA)",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.1",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+    "label": "6.10.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission and shall be deemed to comply with paragraph 6.7",
+    "label": "6.10.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 1 Model A",
+    "page": 44,
+    "raw_pages": [
+      44,
+      45
+    ],
+    "verdict": "ok",
+    "exact": "a = 6 mm min",
+    "label": "Annex 1",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2. Table",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "Cluster operate in normal mode Unexpected warning Inconsistent variation of the odometer",
+    "label": "Annex 6 2.1.1.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2. Table",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle speed 50 km/h (respectively 25 km/h for L1, L2 vehicles) ±20 per cent (vehicle driving the rollers).",
+    "label": "Annex 6 2.1.1.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 2.1",
+    "page": 91,
+    "raw_pages": [
+      91,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "The ESA under test shall be in normal operation mode, preferably in maximum load",
+    "label": "Annex 7 2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+    "label": "Annex 7 3.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 4.2",
+    "page": 92,
+    "raw_pages": [
+      92,
+      122,
+      142
+    ],
+    "verdict": "ok",
+    "exact": "If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied",
+    "label": "Annex 7 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 2.2",
+    "page": 97,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "The ESA under test shall be switched on and shall be stimulated to be in normal operation condition",
+    "label": "Annex 9 2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "PM2 (pulse modulation type 2), Ton 3 µs, period 3,333 µs in the 2,700 to 3,100 MHz frequency range",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "PM3 (pulse modulation type 3), Ton 500 µs, period 1,000 µs in the 380 to 2,700 MHz and the 3,100 to 6,000 MHz frequency ranges",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.1.2",
+    "page": 99,
+    "raw_pages": [
+      99
+    ],
+    "verdict": "ok",
+    "exact": "The \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2. The test shall be performed with vertical polarization",
+    "label": "Annex 9 4.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.3.2",
+    "page": 100,
+    "raw_pages": [
+      100
+    ],
+    "verdict": "ok",
+    "exact": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+    "label": "Annex 9 4.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2.",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 to the supply lines as well as to other connections of ESAs",
+    "label": "Annex 10 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2.",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are exclusively reserved for mounting on electric vehicles (vehicles without 12V/24V starter motor) are not subject to starting profile",
+    "label": "Annex 10 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 3.",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Measurement according to the International Standard ISO 7637-2 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines",
+    "label": "Annex 10 3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 2",
+    "page": 29,
+    "raw_pages": [
+      30
+    ],
+    "verdict": "ok",
+    "exact": "E = 32 E = 32 + 15.13 log (F/75) E = 43",
+    "label": "Appendix 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 4",
+    "page": 31,
+    "raw_pages": [
+      31
+    ],
+    "verdict": "ok",
+    "exact": "E = 28 E = 35",
+    "label": "Appendix 4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 6",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "E = 62 - 25.13 log (F/30)",
+    "label": "Appendix 6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 7",
+    "page": 34,
+    "raw_pages": [
+      34
+    ],
+    "verdict": "ok",
+    "exact": "E = 52 - 25.13 log (F/30)",
+    "label": "Appendix 7"
+  }
+]

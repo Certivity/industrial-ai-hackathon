@@ -1,0 +1,67 @@
+{
+  "seed": 2026,
+  "method": "per vehicle-category group (L, M1, M2-M3, N, O; group of the case's vehicle category, a tractor-semi-trailer coupling counts as N) the ids sorted, shuffled with random.Random(2026), the first ceil(n/2) go to tune (O: floor, so the single O case is held out); the 6 old ts-* cases are all held out; decided before any agent benchmark of the new cases",
+  "groups": {
+    "L": [
+      "ts-motorcycle-led-headlamp",
+      "ts-l5-tricycle-lighting"
+    ],
+    "M1": [
+      "ts-m1-adaptive-headlamp",
+      "ts-m1-cybersecurity-ota",
+      "ts-m1-lane-keeping",
+      "ts-m1-frontal-crash",
+      "ts-m1-windscreen",
+      "ts-m1-airbag-module",
+      "ts-m1-power-steering-b",
+      "ts-m1-replacement-catalyst",
+      "ts-m1-braking-system"
+    ],
+    "M2-M3": [
+      "ts-m3-speed-limiter-b",
+      "ts-m3-bus-signal-lamps"
+    ],
+    "N": [
+      "ts-n1-van-rear-lamps",
+      "ts-n1-spare-wheel",
+      "ts-n1-speedometer",
+      "ts-n2-truck-aebs",
+      "ts-n3-o4-coupling",
+      "ts-n3-direction-indicators"
+    ],
+    "O": [
+      "ts-o3-trailer-conspicuity"
+    ]
+  },
+  "tune": [
+    "ts-m1-adaptive-headlamp",
+    "ts-m1-braking-system",
+    "ts-m1-cybersecurity-ota",
+    "ts-m1-power-steering-b",
+    "ts-m1-windscreen",
+    "ts-m3-bus-signal-lamps",
+    "ts-motorcycle-led-headlamp",
+    "ts-n1-van-rear-lamps",
+    "ts-n2-truck-aebs",
+    "ts-n3-o4-coupling"
+  ],
+  "heldout": [
+    "ts-l5-tricycle-lighting",
+    "ts-m1-airbag-module",
+    "ts-m1-frontal-crash",
+    "ts-m1-lane-keeping",
+    "ts-m1-replacement-catalyst",
+    "ts-m3-speed-limiter-b",
+    "ts-n1-spare-wheel",
+    "ts-n1-speedometer",
+    "ts-n3-direction-indicators",
+    "ts-o3-trailer-conspicuity",
+    "ts-coach-m3",
+    "ts-ev-sound",
+    "ts-lpg-conversion",
+    "ts-moto-antitheft",
+    "ts-motorcycle-silencer",
+    "ts-pedestrian-front-end"
+  ],
+  "dev_yardstick": "cases/dev-rear-lamp"
+}

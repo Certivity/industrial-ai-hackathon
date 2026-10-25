@@ -1,0 +1,50 @@
+{
+  "case": "ts-ev-sound",
+  "agent_exit": 0,
+  "agent_seconds": 59,
+  "run": "runs/ts-ev-sound/c2-v3c",
+  "spent_usd": 0.192,
+  "replayed_usd": 0.111,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715,
+      "n_submitted": 3,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.5263
+    },
+    "page_level": {
+      "precision": 0.35443037974683544,
+      "recall": 0.37333333333333335,
+      "f1": 0.3636363636363636,
+      "n_submitted": 79,
+      "n_expected": 75,
+      "n_matched": 28,
+      "f2": 0.3694
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R100",
+    "UN R48",
+    "UN R51"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R155",
+    "UN R51"
+  ],
+  "n_gold": 212,
+  "n_upper_bound": 608,
+  "funnel": {
+    "gold_requirements": 212,
+    "reachable": 92,
+    "recall": 0.434,
+    "selected_nodes": 608,
+    "gold_nodes": 162,
+    "gold_nodes_reached": 64,
+    "unanchored": 5
+  }
+}

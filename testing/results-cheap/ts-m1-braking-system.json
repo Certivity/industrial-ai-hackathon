@@ -1,0 +1,50 @@
+{
+  "case": "ts-m1-braking-system",
+  "agent_exit": 0,
+  "agent_seconds": 44,
+  "run": "runs/ts-m1-braking-system/c2-base",
+  "spent_usd": 0.293,
+  "replayed_usd": 0.0,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "n_submitted": 4,
+      "n_expected": 3,
+      "n_matched": 2,
+      "f2": 0.625
+    },
+    "page_level": {
+      "precision": 0.3728813559322034,
+      "recall": 0.7096774193548387,
+      "f1": 0.4888888888888889,
+      "n_submitted": 118,
+      "n_expected": 62,
+      "n_matched": 44,
+      "f2": 0.6011
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R13H",
+    "UN R79"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156"
+  ],
+  "n_gold": 173,
+  "n_upper_bound": 881,
+  "funnel": {
+    "gold_requirements": 173,
+    "reachable": 139,
+    "recall": 0.8035,
+    "selected_nodes": 881,
+    "gold_nodes": 159,
+    "gold_nodes_reached": 128,
+    "unanchored": 0
+  }
+}

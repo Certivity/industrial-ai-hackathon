@@ -1,0 +1,50 @@
+{
+  "case": "ts-n2-truck-aebs",
+  "agent_exit": 0,
+  "agent_seconds": 29,
+  "run": "runs/ts-n2-truck-aebs/c2-v3c-vet1",
+  "spent_usd": 0.0,
+  "replayed_usd": 0.317,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "n_submitted": 4,
+      "n_expected": 3,
+      "n_matched": 2,
+      "f2": 0.625
+    },
+    "page_level": {
+      "precision": 0.41975308641975306,
+      "recall": 0.4861111111111111,
+      "f1": 0.4505016089343176,
+      "n_submitted": 81,
+      "n_expected": 72,
+      "n_matched": 34,
+      "f2": 0.4712
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R131",
+    "UN R13H"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R131",
+    "UN R155",
+    "UN R156"
+  ],
+  "n_gold": 181,
+  "n_upper_bound": 576,
+  "funnel": {
+    "gold_requirements": 181,
+    "reachable": 95,
+    "recall": 0.5249,
+    "selected_nodes": 576,
+    "gold_nodes": 156,
+    "gold_nodes_reached": 81,
+    "unanchored": 3
+  }
+}

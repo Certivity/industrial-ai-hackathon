@@ -1,0 +1,2106 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-m1-windscreen",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The laminated windscreen and side glazing shall be designed so that, in the event of shattering, the danger of bodily injury is reduced as far as possible.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The glazing material shall be sufficiently resistant to the incidents likely to occur in normal traffic and to atmospheric and temperature conditions, chemical action, combustion and abrasion.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The safety glazing shall be sufficiently transparent and shall not cause any noticeable distortion of objects as seen through the windscreen.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The safety glazing shall not give rise to any confusion between the colours used in road-traffic signs and signals.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The laminated windscreen shall retain sufficient residual visibility after shattering that the driver can see the road clearly enough to brake and stop the vehicle safely.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "Every piece of safety glazing, including samples and test pieces, shall bear a trade name or mark of the manufacturer.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 5,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The manufacturer's trade name or mark on each piece of glazing shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 5,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "An international approval mark shall be affixed conspicuously to every piece of glazing conforming to the approved type.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 5,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The approval mark on the glazing shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which granted approval.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.4.1"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The approval mark shall show the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.4.2"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The ordinary laminated-glass windscreen shall bear the additional symbol II near the approval mark.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "Any glazing having a regular light transmittance less than 70 per cent shall bear the additional symbol V near the approval mark.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Laminated-glass side panes shall bear the additional symbol XI, and where they have enhanced mechanical properties the additional symbol /D.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 6,
+        "paragraph": "5.5.8"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The approval mark and the additional symbols shall be clearly legible and indelible and the additional symbols shall be combined within the approval marking.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 7,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The characters of the approval mark shall be at least 8 mm high.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 23,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The ordinary laminated-glass windscreen shall be subjected to the headform test of Annex 6 paragraph 3 and to the 2,260 g ball test of Annex 6 paragraph 4.2.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 10,
+        "paragraph": "8.2.1.1"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The toughened-glass side panes shall be subjected to the 227 g ball test of Annex 5 paragraph 3.1 and the fragmentation test of Annex 5 paragraph 2.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 10,
+        "paragraph": "8.2.1.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The windscreen and the side glazing shall be subjected to the light transmission measurement of Annex 3 paragraph 9.1.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 10,
+        "paragraph": "8.2.1.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The laminated windscreen shall be subjected to the secondary-image-separation test of Annex 3 paragraph 9.3.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 10,
+        "paragraph": "8.2.1.1"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The laminated windscreen shall be subjected to the optical distortion evaluation of Annex 3 paragraph 9.2.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 10,
+        "paragraph": "8.2.1.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The safety glazing shall meet all the requirements of the tests prescribed for its type in the applicable table before it is placed on the market.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 12,
+        "paragraph": "8.2.2"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "For the fragmentation test the toughened side pane shall be broken with a hammer of about 75 g whose point radius of curvature is 0.2 ± 0.05 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 31,
+        "paragraph": "Annex 3 1.2"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The tempered side-window pane under fragmentation test shall not be rigidly secured but may be taped all round the edge to an identical pane.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 31,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The fragmentation pattern of the tempered side pane shall be permanently recorded starting within 10 seconds and ending within 3 minutes after the impact.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 31,
+        "paragraph": "Annex 3 1.4"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The 227 g ball test shall be performed with a hardened-steel ball of mass 227 g ± 2 g and diameter approximately 38 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 31,
+        "paragraph": "Annex 3 2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "Where the ball is projected rather than dropped, the velocity tolerance shall be within ±1 per cent of the free-fall equivalent velocity.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 31,
+        "paragraph": "Annex 3 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The ball-impact support fixture shall have machined borders 15 mm wide faced with rubber gaskets about 3 mm thick, 15 mm wide and of hardness 50 IRHD.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 31,
+        "paragraph": "Annex 3 2.1.1.3"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The 227 g ball test on the glazing shall be conducted at 20 °C ± 5 °C, 860 to 1,060 mbar and 60 ± 20 per cent relative humidity.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.1.2"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The ball-test specimen shall be a flat square of side 300 +10/-0 mm or cut from the flattest part of the windscreen or other curved pane.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.1.3"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The glazing test piece shall be conditioned at the specified temperature for at least four hours immediately preceding the ball test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.1.4"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "During the 227 g ball test the plane of the test piece shall be perpendicular within 3° to the incident ball direction.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.1.4"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The ball shall strike within 25 mm of the geometric centre of the test piece when the drop height is 6 m or less.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.1.4"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "In the 227 g ball test the ball shall strike the face of the test piece representing the outside face of the glazing as mounted on the vehicle.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.1.4"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The ball shall be allowed to make only one impact on the test piece.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.1.4"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The 2,260 g ball test on the laminated windscreen shall be performed with a hardened-steel ball of mass 2,260 g ± 20 g and diameter approximately 82 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 32,
+        "paragraph": "Annex 3 2.2.1.1"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "In the 2,260 g ball test the ball shall strike the face of the test piece representing the inward face of the glazing as mounted on the vehicle.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 33,
+        "paragraph": "Annex 3 2.2.4"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The 2,260 g ball shall strike within 25 mm of the geometric centre of the test piece.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 33,
+        "paragraph": "Annex 3 2.2.4"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The headform weight used in the headform test shall have a total mass of 10 kg ± 0.2 kg.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 33,
+        "paragraph": "Annex 3 3.1.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The flat-test-piece headform support frames shall be faced with rubber gaskets about 3 mm thick, 15 mm ± 1 mm wide and of hardness 70 IRHD.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 34,
+        "paragraph": "Annex 3 3.1.3"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The flat headform test piece shall have a length of 1,100 +5/-2 mm and a width of 500 +5/-2 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 35,
+        "paragraph": "Annex 3 3.1.5.1"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The test piece shall be clamped in the headform support so that its movement during the test does not exceed 2 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 35,
+        "paragraph": "Annex 3 3.1.5.1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The headform weight shall strike within 40 mm of the geometric centre of the test piece on the face representing the inward face of the glazing.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 35,
+        "paragraph": "Annex 3 3.1.5.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The felt cover of the headform shall be replaced after every 12 impacts.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 35,
+        "paragraph": "Annex 3 3.1.5.1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The HIC measuring instrumentation shall use acceleration gauges and recording instruments of ISO 6487 channel-amplitude class CAC 5,000 m/s² and channel-frequency class CFC 1,000 Hz.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 39,
+        "paragraph": "Annex 3 3.2.2.1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The phantom head shall be calibrated and adjusted if necessary before each test series and no later than every 50 tests within a series.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 40,
+        "paragraph": "Annex 3 3.2.2.3"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "When dropped from 50, 100, 150 and 254 mm on the impact plate, the phantom head's greatest z-axis deceleration shall be 82 ± 8, 128 ± 8, 167 ± 10 and 227 ± 14 times g respectively.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 40,
+        "paragraph": "Annex 3 3.2.2.3"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "For the vertical headform impact the recorded lateral acceleration components ax and ay shall be less than 0.1 az.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 41,
+        "paragraph": "Annex 3 3.2.5"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The Taber abraser turntable shall revolve counter-clockwise at a fixed speed of 60 ± 2 rev/min or 72 ± 2 rev/min.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 41,
+        "paragraph": "Annex 3 4.1.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Each abrasive wheel shall rest on the test specimen under the pressure exerted by a mass of 500 g.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 41,
+        "paragraph": "Annex 3 4.1.1"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "Each abrasive wheel shall be 12.7 mm ± 0.3 mm wide with an external diameter less than 52.5 mm and not less than 44.4 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 42,
+        "paragraph": "Annex 3 4.1.2"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The abrasion test shall be conducted at 23 °C ± 2 °C, 860 to 1,060 mbar and 50 ± 5 per cent relative humidity.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 45,
+        "paragraph": "Annex 3 4.2"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The abrasion test pieces shall be flat squares of side 100 mm with both surfaces substantially plane and parallel.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 45,
+        "paragraph": "Annex 3 4.3"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The abrasion test shall be carried out on the surface of the test piece representing the outside face of the glazing as mounted on the vehicle.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 45,
+        "paragraph": "Annex 3 4.4"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "Abrasion test pieces shall be conditioned for at least 48 hours at 23 °C ± 2 °C and 50 ± 5 per cent relative humidity.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 45,
+        "paragraph": "Annex 3 4.4.2"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "In the haze measurement the angle between the normal to the test piece surface and the light beam axis shall not exceed 8°.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 45,
+        "paragraph": "Annex 3 4.4.3"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "For each type of safety glazing three abrasion tests shall be carried out with the same load.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 46,
+        "paragraph": "Annex 3 4.4.4"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The test piece shall be mounted on the abraser turntable at a 45° angle from the front of the machine.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 46,
+        "paragraph": "Annex 3 4.4.4"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "The sand drop test shall use natural quartz sand of grain size 0.50/0.70 mm with no oversize.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 48,
+        "paragraph": "Annex 3 4.7.2"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "In the sand drop test 3 kg of 0.50/0.70 mm quartz sand shall fall through a gravity tube from a height of 1,650 mm onto the sample.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 49,
+        "paragraph": "Annex 3 4.7.4"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "The car wash test brush shall rotate at 127 ± 5 rev/min.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 49,
+        "paragraph": "Annex 3 4.8.1.1"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The car wash test spray nozzles shall deliver a water flow rate of 2.2 ± 0.1 l/min at 300 ± 50 kPa.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 49,
+        "paragraph": "Annex 3 4.8.1.2"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The car wash test panel holder shall travel at a feed speed of 5 ± 0.2 m/min.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 50,
+        "paragraph": "Annex 3 4.8.1.3"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The car wash spray suspension shall contain 1.5 ± 0.05 g of silica micro-powder of mean particle size 24 μm per litre of tap water.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 50,
+        "paragraph": "Annex 3 4.8.2"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "Car wash test samples shall measure 50 mm x 100 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 50,
+        "paragraph": "Annex 3 4.8.3"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The wiper test apparatus shall provide a back-and-forth motion of 37 ± 2 cycles per minute with a stroke length of 130 ± 5 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 53,
+        "paragraph": "Annex 3 4.9.1.1"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The wiper blade holder shall apply a load of 15 ± 0.5 g/cm to the test sample.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 53,
+        "paragraph": "Annex 3 4.9.1.3"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "The wiper test aqueous suspension shall contain 195 ± 1 g of water with a hardness of less than 205 mg/l after evaporation.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 56,
+        "paragraph": "Annex 3 4.9.4"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The wiper test aqueous suspension shall contain 5 ± 0.2 g of ISO test dust A4 according to ISO 12103-1.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 56,
+        "paragraph": "Annex 3 4.9.4"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The wiper test shall be stopped after 10,000 cycles and the two sample boxes exchanged without turning them.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 57,
+        "paragraph": "Annex 3 4.9.5.3.6.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "Three samples or square test pieces of at least 300 mm x 300 mm cut from three windscreens shall be heated to 100 °C +0/-2 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 59,
+        "paragraph": "Annex 3 5.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The high-temperature test pieces shall be maintained at 100 °C for two hours and then allowed to cool to room temperature.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 59,
+        "paragraph": "Annex 3 5.1"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The windscreen shall pass the high-temperature test only if no bubbles or other defects form more than 15 mm from an uncut edge or 25 mm from a cut edge.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 59,
+        "paragraph": "Annex 3 5.3.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The radiation source shall be a mercury-vapour arc lamp of 300 mm ± 4 mm arc length operated at 750 W ± 50 W.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 60,
+        "paragraph": "Annex 3 6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The radiation test pieces shall be rotated at 1 to 5 rev/min about the centrally located radiation source.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 60,
+        "paragraph": "Annex 3 6.1.1.3"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "Radiation test pieces shall measure 76 mm x 300 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 60,
+        "paragraph": "Annex 3 6.1.2.1"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The temperature of the test pieces shall be maintained at 45 °C ± 5 °C throughout the radiation exposure.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 60,
+        "paragraph": "Annex 3 6.1.3"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The radiation exposure time shall be 100 hours for the specified lamp type.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 60,
+        "paragraph": "Annex 3 6.1.3"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "After irradiation the light transmittance of the glazing shall not fall below 95 per cent of the original value before irradiation.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 60,
+        "paragraph": "Annex 3 6.3.1.1"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "After irradiation the light transmittance of the windscreen and of glazing requisite for driving visibility shall not fall below 70 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 60,
+        "paragraph": "Annex 3 6.3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "During the dry portion of the weathering cycle the black standard temperature shall be 70 °C ± 3 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 61,
+        "paragraph": "Annex 3 6.4.1.3.3"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The relative humidity in the weathering apparatus shall be controlled at 50 ± 5 per cent during the dry portions of the cycle.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 62,
+        "paragraph": "Annex 3 6.4.1.3.4"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The water used for the weathering spray shall have a pH between 6.0 and 8.0 and a conductivity less than 5 microsiemens.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 62,
+        "paragraph": "Annex 3 6.4.1.3.6"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The simulated weathering cycle shall expose test pieces to light without water spray for 102 minutes and to light with water spray for 18 minutes.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 62,
+        "paragraph": "Annex 3 6.4.1.3.10"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "After simulated weathering the regular light transmittance shall not differ from the unexposed value by more than 5 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 62,
+        "paragraph": "Annex 3 6.4.1.5"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "Three samples or square test pieces of at least 300 mm x 300 mm shall be kept vertical for two weeks in a closed container.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.1"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The humidity test container shall be maintained at 50 °C ± 2 °C and 95 ± 4 per cent relative humidity.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The laminated glazing shall pass the humidity test only if no significant change is observed more than 10 mm from uncut edges and more than 15 mm from cut edges.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 63,
+        "paragraph": "Annex 3 7.3.1"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "Two test pieces of 300 mm x 300 mm shall be placed in an enclosure at -40 °C ± 5 °C for 6 hours.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 63,
+        "paragraph": "Annex 3 8.1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "After the cold phase the test pieces shall be placed in circulating air at 72 °C ± 2 °C for 3 hours.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 63,
+        "paragraph": "Annex 3 8.1"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The glazing shall show no cracking, clouding, separation of layers or other apparent deterioration after the temperature-change test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 63,
+        "paragraph": "Annex 3 8.3"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The light source for the light transmission test shall have a colour temperature of 2,856 K ± 50 K.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 63,
+        "paragraph": "Annex 3 9.1.1.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The light-transmission receiver and its indicating instrument shall be linear to better than 2 per cent of the effective part of the scale.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 64,
+        "paragraph": "Annex 3 9.1.1.3"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "In the light transmission measurement the angle of incidence of the light beam on the test piece shall be 0 ± 5°.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 64,
+        "paragraph": "Annex 3 9.1.2"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "For an M1 vehicle windscreen the light transmission test shall be carried out in Test Area B defined in Annex 21 paragraph 2.3, excluding any opaque obscuration impinging on it.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 64,
+        "paragraph": "Annex 3 9.1.2.2"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The regular light transmittance of the windscreen shall not be less than 70 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 65,
+        "paragraph": "Annex 3 9.1.4"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The slides used in the optical distortion test shall be of sufficient quality and contrast to allow measurement with an error of less than 5 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 66,
+        "paragraph": "Annex 3 9.2.1.2.2"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The windscreen shall be mounted on the optical distortion support stand at its designed rake angle.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 68,
+        "paragraph": "Annex 3 9.2.1.3.1"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The distance Δx used in the optical distortion evaluation shall be 4 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 69,
+        "paragraph": "Annex 3 9.2.1.6"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "Four windscreens shall be submitted for the optical distortion test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 69,
+        "paragraph": "Annex 3 9.2.4"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "For an M1 windscreen the optical distortion shall not exceed 2' of arc in extended test area A and 6' of arc in reduced test area B.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 71,
+        "paragraph": "Annex 3 9.2.6"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "No optical distortion measurement shall be made in the peripheral area 25 mm inboard of the design glass outline and of any opaque obscuration.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 71,
+        "paragraph": "Annex 3 9.2.6.1"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "In the target secondary-image test the distance from the windscreen to the target shall be at least 7 m.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 72,
+        "paragraph": "Annex 3 9.3.1.1.1"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "Before the collimation-telescope measurement the windscreen shall first be scanned to establish the area giving the strongest secondary image.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 74,
+        "paragraph": "Annex 3 9.3.1.2.3"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "Four windscreens shall be submitted for the secondary-image-separation test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 74,
+        "paragraph": "Annex 3 9.3.4"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "For an M1 windscreen the secondary-image separation shall not exceed 15' of arc in extended test area A and 25' of arc in reduced test area B.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 75,
+        "paragraph": "Annex 3 9.3.5"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The fire-resistance sample shall be held horizontally in a U-shaped holder and exposed to a defined low-energy flame for 15 seconds.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 76,
+        "paragraph": "Annex 3 10.3"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The combustion chamber shall be placed on four feet 10 mm high.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 76,
+        "paragraph": "Annex 3 10.4.1"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The lower side of the fire-resistance sample shall lie 178 mm above the floor plate of the chamber.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 77,
+        "paragraph": "Annex 3 10.4.2"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The ignition burner shall have an inside diameter of 9.5 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 77,
+        "paragraph": "Annex 3 10.4.3"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The fire-resistance sample thickness shall correspond to the product thickness and shall not exceed 13 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 80,
+        "paragraph": "Annex 3 10.5.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "At least five fire-resistance samples shall be taken from the material under test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 80,
+        "paragraph": "Annex 3 10.5.2"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "Fire-resistance samples shall be conditioned for at least 24 hours and not more than 7 days at 23 °C ± 2 °C and 50 ± 5 per cent relative humidity.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 81,
+        "paragraph": "Annex 3 10.5.3"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The gas flame shall be adjusted to a height of 38 mm with the burner air intake closed.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 81,
+        "paragraph": "Annex 3 10.6.3"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "Before each fire-resistance test the combustion chamber and sample holder shall be at a temperature not exceeding 30 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 81,
+        "paragraph": "Annex 3 10.6.8"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "The window-cleaning test solution shall be an aqueous solution of isopropanol and dipropylene glycol monomethyl ether at 5 to 10 per cent by weight each.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 82,
+        "paragraph": "Annex 3 11.1.2"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "Four samples of 180 mm x 25 mm shall be tested for each chemical in the resistance-to-chemicals test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 82,
+        "paragraph": "Annex 3 11.2.1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The chemical-resistance samples shall be completely immersed in the test fluid for one minute, then removed and immediately wiped dry with a clean absorbent cotton cloth.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 82,
+        "paragraph": "Annex 3 11.2.1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "In the chemicals test under load the applied load mass shall be 28.7 x t² g where t is the specimen thickness in mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 83,
+        "paragraph": "Annex 3 11.2.4.2"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "The glazing shall show no softening, tackiness, crazing or apparent loss of transparency after exposure to the test chemicals.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 83,
+        "paragraph": "Annex 3 11.2.6.1"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "The flexibility and fold test shall be conducted at 20 °C ± 2 °C and 60 ± 5 per cent relative humidity.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 84,
+        "paragraph": "Annex 3 12.3"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The cross-cut test shall cut through the coating to the substrate with 6 cuts and 6 perpendicular cuts forming a grid of 25 squares.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 85,
+        "paragraph": "Annex 3 13.3"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The cross-cut cutting tool shall be drawn steadily at 2 to 5 cm/s so that the cuts reach the substrate without penetrating too deeply.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 85,
+        "paragraph": "Annex 3 13.3"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "Before each test on the ordinary laminated windscreen the test pieces shall be stored for at least four hours at 23 °C ± 2 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 95,
+        "paragraph": "Annex 6 2.2"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The headform test on the complete laminated windscreen shall be performed with a drop height of 1.5 m +0/-5 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.2.2"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "On headform impact the laminated windscreen shall break with numerous circular cracks centred on the impact point, the nearest crack being not more than 80 mm from it.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.1"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "After the headform impact the glass layers of the windscreen shall remain adhering to the plastics interlayer.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.2"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "On the impact side of the windscreen the interlayer shall not be laid bare over an area exceeding 20 cm².",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.3.1"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "A tear in the windscreen interlayer of up to 35 mm in length shall be permitted.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 3.2.3.1.3.2"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "Twelve square test pieces of 300 mm +10/-0 mm side shall be subjected to the 2,260 g ball test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.2.1"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The 2,260 g ball shall be dropped from 4 m +25/-0 mm onto the laminated glazing test piece.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.2.2.2"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "The laminated glazing shall prevent the 2,260 g ball from passing through within five seconds after impact.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.2.3.1"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "The laminated windscreen shall pass the 2,260 g ball test when at least eleven of the twelve tests give a satisfactory result.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.2.3.2"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "Twenty square test pieces of 300 mm +10/-0 mm side shall be subjected to the 227 g ball test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.3.2"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "Ten of the 227 g ball test pieces shall be tested at +40 °C ± 2 °C and ten at -20 °C ± 2 °C.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 96,
+        "paragraph": "Annex 6 4.3.3.1"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "For a laminated windscreen of nominal thickness up to 4.5 mm the 227 g ball drop height shall be 9 m at +40 °C and 8.5 m at -20 °C with a maximum permitted fragment mass of 12 g.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.3.2"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "Where the interlayer of the windscreen is not torn, the weight of fragments detached from the side opposite the impact shall not exceed the specified maximum permitted mass.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 4.3.4.1"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "The light scatter of the laminated windscreen resulting from 1,000 abrasion cycles shall not exceed 2 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 5.1.2"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "The ordinary laminated windscreen shall be subjected to the resistance-to-humidity test requirements of Annex 3 paragraph 7.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 97,
+        "paragraph": "Annex 6 5.4"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "In the headform test on the /D laminated pane tears in the interlayer shall be permitted but the headform shall not pass through.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 98,
+        "paragraph": "Annex 7 3.4.1.2"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "The /D laminated pane shall prevent the 2,260 g ball from passing through within five seconds after impact.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 99,
+        "paragraph": "Annex 7 4.2.3.1"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "Eight flat samples of 300 mm x 300 mm cut from the flattest part of the pane shall be subjected to the 227 g ball test.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 99,
+        "paragraph": "Annex 7 4.3.1"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "The 227 g ball drop height for the laminated pane shall be 9 m +25/-0 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 99,
+        "paragraph": "Annex 7 4.3.2.2"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "On 227 g ball impact the laminated pane shall not break into separate pieces.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 99,
+        "paragraph": "Annex 7 4.3.4.1"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "The light scatter of the laminated pane after 1,000 abrasion cycles shall not exceed 2 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 100,
+        "paragraph": "Annex 7 5.1.2"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "Every windscreen type shall meet the optical quality requirements of Annex 3 paragraph 9.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 92,
+        "paragraph": "Annex 4 4"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "In the fragmentation test of the uniformly toughened pane the number of fragments in any 5 cm x 5 cm square shall not be less than 40.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 94,
+        "paragraph": "Annex 5 2.6.1.1"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "No fragment of the toughened pane larger than 3 cm² shall be allowed outside the excluded edge and impact areas.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 94,
+        "paragraph": "Annex 5 2.6.1.5"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "The 227 g ball drop height for the uniformly toughened glass pane shall be 2.0 m +5/-0 mm.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 94,
+        "paragraph": "Annex 5 3.1.3.2"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "The toughened pane shall pass the 227 g ball test when at least five of the six test pieces do not break.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 94,
+        "paragraph": "Annex 5 3.1.4.1"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "The nominal thickness of the laminated windscreen shall be held within ±0.2 x n mm of the nominal value, n being the number of glass layers.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 95,
+        "paragraph": "Annex 6 1.1.4"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "The windscreen and side glazing shall be fitted so that, despite the stresses of normal use, they remain in position and continue to afford visibility and safety to the occupants.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 153,
+        "paragraph": "Annex 24 3.1"
+      }
+    },
+    {
+      "id": "G-0152",
+      "text": "Each pane fitted to the vehicle shall bear the component type-approval mark of paragraph 5.4 and, where required, the additional symbol of paragraph 5.5.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 153,
+        "paragraph": "Annex 24 3.2"
+      }
+    },
+    {
+      "id": "G-0153",
+      "text": "The windscreen as fitted to the M1 vehicle shall have a regular light transmittance of not less than 70 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 153,
+        "paragraph": "Annex 24 4.1.1"
+      }
+    },
+    {
+      "id": "G-0154",
+      "text": "The windscreen shall be correctly fitted with reference to the vehicle driver's \"R\" point.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 153,
+        "paragraph": "Annex 24 4.1.3"
+      }
+    },
+    {
+      "id": "G-0155",
+      "text": "The M1 vehicle, whose maximum design speed exceeds 40 km/h, shall not be fitted with a toughened windscreen.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 153,
+        "paragraph": "Annex 24 4.1.4"
+      }
+    },
+    {
+      "id": "G-0156",
+      "text": "The side glazing through which the driver's forward field of vision is obtained shall have a regular light transmittance of at least 70 per cent.",
+      "source": {
+        "regulation": "UN R43",
+        "version": "1.12.0",
+        "page": 153,
+        "paragraph": "Annex 24 4.2.1.1"
+      }
+    },
+    {
+      "id": "G-0157",
+      "text": "Any electrical/electronic component of the glazing system (e.g. heated glazing or sensors bonded to the windscreen) shall be designed, constructed and fitted so that the vehicle complies with this Regulation in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0158",
+      "text": "An electrical/electronic sub-assembly fitted with the glazing shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0159",
+      "text": "At a 10.0 ± 0.2 m antenna-to-vehicle spacing the broadband radiation of the vehicle shall not exceed 32 dBµV/m in 30 to 75 MHz and 32 to 43 dBµV/m in 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0160",
+      "text": "Between 400 and 1,000 MHz the vehicle broadband radiation limit shall remain constant at 43 dBµV/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0161",
+      "text": "At a 3.0 ± 0.05 m antenna-to-vehicle spacing the broadband radiation of the vehicle shall not exceed 42 dBµV/m in 30 to 75 MHz and 42 to 53 dBµV/m in 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0162",
+      "text": "The broadband emission values measured on the representative vehicle shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "G-0163",
+      "text": "At a 10.0 ± 0.2 m spacing the narrowband radiation of the vehicle shall not exceed 28 dBµV/m in 30 to 230 MHz and 35 dBµV/m in 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0164",
+      "text": "At a 3.0 ± 0.05 m spacing the narrowband radiation of the vehicle shall not exceed 38 dBµV/m in 30 to 230 MHz and 45 dBµV/m in 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0165",
+      "text": "The vehicle shall withstand a radiated field of 30 V/m over 90 per cent of 20 to 2,000 MHz and a minimum of 25 V/m over the whole 20 to 2,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0166",
+      "text": "The vehicle shall withstand a radiated field of 10 V/m over 90 per cent of 2,000 to 6,000 MHz and a minimum of 8 V/m over the whole 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0167",
+      "text": "During the immunity tests there shall be no degradation of performance of the immunity-related functions, including driver visibility functions such as the windscreen wiper.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0168",
+      "text": "The broadband electromagnetic interference of the ESA shall not exceed 62 to 52 dBµV/m in 30 to 75 MHz, decreasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0169",
+      "text": "The broadband interference of the ESA shall comply with 52 to 63 dBµV/m in 75 to 400 MHz, increasing logarithmically above 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0170",
+      "text": "The ESA broadband interference limit shall remain constant at 63 dBµV/m between 400 and 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0171",
+      "text": "The narrowband electromagnetic interference of the ESA shall not exceed 52 to 42 dBµV/m in 30 to 75 MHz, decreasing logarithmically with frequency.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0172",
+      "text": "The ESA narrowband interference shall comply with 42 to 53 dBµV/m in 75 to 400 MHz, increasing logarithmically above 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0173",
+      "text": "The transient conducted disturbances emitted by the ESA on 12 V supply lines shall not exceed +75 V positive and -100 V negative, and on 24 V lines +150 V positive and -450 V negative.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0174",
+      "text": "Below 2 GHz the ESA shall withstand, over 90 per cent of the band, 60 V/m in stripline, 75 V/m in TEM cell, 60 mA BCI, 30 V/m ALSE and 21 V/m reverberation chamber.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0175",
+      "text": "Below 2 GHz the minimum ESA immunity level over the whole band shall be 50 V/m stripline, 62.5 V/m TEM cell, 50 mA BCI, 25 V/m ALSE and 18 V/m reverberation chamber.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0176",
+      "text": "During the ESA radiated-immunity tests there shall be no degradation of performance of the immunity-related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0177",
+      "text": "The ESA shall be tested for immunity to conducted transients using the ISO 16750-2 starting profile and ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0178",
+      "text": "Where the glazing-related electronic device contains no oscillator above 9 kHz it shall be deemed to comply with the narrowband emission limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0179",
+      "text": "The approval mark on the vehicle or ESA shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0180",
+      "text": "The approval mark shall include the number of this Regulation, the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0181",
+      "text": "An approval mark shall be affixed to every electrical/electronic sub-assembly conforming to an approved type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0182",
+      "text": "The ESA approval mark need not be visible once the ESA is installed in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0183",
+      "text": "The characters of the approval mark shall have a minimum dimension of 6 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0184",
+      "text": "The ESA sample shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0185",
+      "text": "During the broadband emission measurement the vehicle engine shall be in operation according to CISPR 12.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Annex 4 2.1.1"
+      }
+    },
+    {
+      "id": "G-0186",
+      "text": "All equipment capable of generating broadband emissions such as wiper motors shall be operated at maximum load during the measurement.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 53,
+        "paragraph": "Annex 4 2.1.2"
+      }
+    },
+    {
+      "id": "G-0187",
+      "text": "The vehicle broadband emission limits shall apply over the whole 30 to 1,000 MHz range when measured in an ALSE or OTS.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.1"
+      }
+    },
+    {
+      "id": "G-0188",
+      "text": "Where peak detectors are used for the emission measurement a 20 dB correction factor as defined in CISPR 12 shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.2"
+      }
+    },
+    {
+      "id": "G-0189",
+      "text": "Radiated emission measurements shall be made on both the left and right sides of the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "G-0190",
+      "text": "During the narrowband emission measurement the vehicle ignition shall be switched on and the engine shall not be operating.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 67,
+        "paragraph": "Annex 5 2.1"
+      }
+    },
+    {
+      "id": "G-0191",
+      "text": "Narrowband emission measurements shall be performed with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.2"
+      }
+    },
+    {
+      "id": "G-0192",
+      "text": "The vehicle shall be monitored during the immunity tests to detect any degradation of the immunity-related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0193",
+      "text": "In the 50 km/h immunity test mode the engine shall turn the driving wheels at a steady speed of 50 km/h.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0194",
+      "text": "During the 50 km/h immunity test the front wiper shall be ON in manual mode at maximum speed and a complete stop of the front wiper shall constitute a failure.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0195",
+      "text": "The vehicle shall be exposed to vertically polarised electromagnetic radiation over the 20 to 6,000 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0196",
+      "text": "In the 20 to 400 MHz range the immunity test signal shall be amplitude modulated with 1 kHz and 80 per cent modulation depth.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0197",
+      "text": "The ESA under test shall be in normal operation mode, preferably at maximum load, during the emission measurement.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "G-0198",
+      "text": "The ESA harnesses shall be placed on a non-conductive material with εr ≤ 1.4 at 50 ± 5 mm above the ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.2.4"
+      }
+    },
+    {
+      "id": "G-0199",
+      "text": "The ambient noise during the ESA emission measurement shall be at least 6 dB below the interference limits of paragraph 6.5.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0200",
+      "text": "The ESA immunity to electromagnetic radiation may be demonstrated by the absorber chamber test according to ISO 11452-2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      }
+    },
+    {
+      "id": "G-0201",
+      "text": "The ESA under test shall be switched on and stimulated to be in its normal operation condition during the immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "G-0202",
+      "text": "During calibration no extraneous equipment shall be closer than 1 m from the reference point.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.4"
+      }
+    },
+    {
+      "id": "G-0203",
+      "text": "The absorber chamber immunity test shall use the substitution method of ISO 11452-2 and shall be performed with vertical polarisation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "G-0204",
+      "text": "The bulk current injection test shall use the substitution method with the injection probe positioned 150 mm from the ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0205",
+      "text": "The ESA shall be immune to conducted transients on the vehicle power supply and shall limit the conducted transients it feeds back to the supply.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 1"
+      }
+    },
+    {
+      "id": "G-0206",
+      "text": "An ESA reserved exclusively for mounting on electric vehicles without a 12 V/24 V starter motor shall not be subject to the starting profile test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "G-0207",
+      "text": "For the electrical fast transient/burst test the vehicle shall be placed directly on the ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 127,
+        "paragraph": "Annex 15 4.2"
+      }
+    },
+    {
+      "id": "G-0208",
+      "text": "The electrical fast transient/burst shall be applied to the vehicle on its AC/DC power lines in common mode using a coupling/decoupling network.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 128,
+        "paragraph": "Annex 15 5.1.2"
+      }
+    },
+    {
+      "id": "G-0209",
+      "text": "The surge shall be applied to the vehicle on its AC/DC power lines between each line and earth and between lines using a coupling/decoupling network.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 134,
+        "paragraph": "Annex 16 5.1.2"
+      }
+    },
+    {
+      "id": "G-0210",
+      "text": "For conformity of production the measured emission levels shall not exceed the reference limits by more than 4 dB.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case": "ts-m1-frontal-crash",
+  "agent_exit": 0,
+  "agent_seconds": 33,
+  "run": "runs/ts-m1-frontal-crash/c2-base",
+  "spent_usd": 0.223,
+  "replayed_usd": 0.0,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "n_submitted": 2,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.5556
+    },
+    "page_level": {
+      "precision": 0.54,
+      "recall": 0.5510204081632653,
+      "f1": 0.5454545454545455,
+      "n_submitted": 50,
+      "n_expected": 49,
+      "n_matched": 27,
+      "f2": 0.5488
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R137",
+    "UN R26",
+    "UN R94"
+  ],
+  "run_regulations": [
+    "UN R137",
+    "UN R94"
+  ],
+  "n_gold": 134,
+  "n_upper_bound": 470,
+  "funnel": {
+    "gold_requirements": 134,
+    "reachable": 69,
+    "recall": 0.5149,
+    "selected_nodes": 470,
+    "gold_nodes": 122,
+    "gold_nodes_reached": 67,
+    "unanchored": 4
+  }
+}

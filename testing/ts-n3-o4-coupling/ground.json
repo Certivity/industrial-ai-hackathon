@@ -1,0 +1,1453 @@
+[
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall be so designed, constructed and assembled such that a vehicle fitted with the CCD conforms to the requirements of this Regulation",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The coupling devices themselves must comply with the technical requirements of Regulation No. 55. Additional forces which may be caused by the assembled CCD",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The operation of the CCD shall be automatic. Even the reverse movement of the close-coupled combination must be possible without any manual action at the CCD.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "the CCD shall be so designed, constructed and assembled so as to be resistant to all stresses, corrosion and ageing to which it may be subjected",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall enable vehicles to travel in a straight line on a level road, without any abnormal effort being applied to the steering control",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Any power system failure and/or control system failure of the CCD, while the vehicle is running, shall cause the coupling to extend and remain in that position",
+    "label": "5.1.5.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.5.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Separation of the towing vehicle and trailer must be prevented by mechanical means under all conditions of use.",
+    "label": "5.1.5.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.5.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Any power system and/or control system failure must be indicated to the driver by an acoustic and an optical signal.",
+    "label": "5.1.5.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.6",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "When the vehicles are stationary no uncontrolled movement of the CCD may occur under any circumstances including long term uphill parking.",
+    "label": "5.1.6"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Non-automatic movement of the CCD may be possible only while the towing vehicle is stationary.",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "An instruction to apply the parking brake of the towing vehicle shall be permanently attached to the control unit.",
+    "label": "5.1.7"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "This operation shall be controlled by means of a dual control unit.",
+    "label": "5.1.7.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "This control unit must be fitted outside the driver's cabin and shall be situated in such a position that the operator is not endangered",
+    "label": "5.1.7.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "It must not be possible to lock the control unit in the operating position or operate it unintentionally.",
+    "label": "5.1.7.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The movement of the trailer shall take place without jolting, at a speed of not more than 50 mm/sec.",
+    "label": "5.1.7.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.7.5",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Release of a control must stop the movement immediately.",
+    "label": "5.1.7.5"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.8",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Forward movement of the towing vehicle shall not result in rearward movement of the trailer in relation to the road surface.",
+    "label": "5.1.8"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.8",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Rearward movement of the trailer of not more than 30 mm is permitted only for switch and react purposes.",
+    "label": "5.1.8"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.9",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The CCD must return to its shortest normal straight ahead operating position following relative angular movement between towing vehicle and trailer, in accordance with annex 4.",
+    "label": "5.1.9"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.10",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Operation of the CCD shall not interfere with the dynamic stability of the combination. This requirement shall be checked during the tests described in annex 4.",
+    "label": "5.1.10"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall be designed so as to enable the vehicles to be coupled or uncoupled. All coupling operations shall be automatic, including the mechanical controls",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Correct engagement of the positive locking system must be indicated or be easily visible from the side of the vehicle alongside the coupling device.",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.11",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Manual coupling of control and power supply lines is permitted provided the connections are readily accessible from a standing position",
+    "label": "5.1.11"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.12. Table",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "no node"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.12. Table",
+    "page": 4,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.13",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "For hydraulic or pneumatic CCD's, an optical signal shall indicate that the CCD is about to reach its maximum extension.",
+    "label": "5.1.13"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.14",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The CCD shall be designed such that when coupling at an angle between the towing vehicle and trailer different from that when uncoupled",
+    "label": "5.1.14"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.15",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "A plate specifying the maximum mass of the towing vehicle and the trailer, all lubrication points and the frequency of lubrication shall be affixed",
+    "label": "5.1.15"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.5",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "There shall be securely affixed to every CCD conforming to a vehicle type approved under this Regulation, conspicuously and in a readily accessible place",
+    "label": "4.5"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.5.1",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.5.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.5.2",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+    "label": "4.5.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "4.6",
+    "page": 3,
+    "raw_pages": [
+      3,
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and shall be indelible.",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 3",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "a = 8 mm min",
+    "label": "Annex 3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 1.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Full retraction of the CCD must have taken place within 150 metres from the acceleration start position",
+    "label": "Annex 4 1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 1.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "This test shall be conducted in both left and right directions.",
+    "label": "Annex 4 1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 1.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The technical service shall verify that some retraction of the CCD takes place all the time the towing vehicle is moving forward.",
+    "label": "Annex 4 1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.1.1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The vehicles must be laden, the distribution of mass among the axles being that stated by the manufacturers of the vehicles",
+    "label": "Annex 4 2.1.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.1.1.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The height of the centre of gravity of the vehicles shall be at least 1.7 metres.",
+    "label": "Annex 4 2.1.1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.1.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The test must be carried out at the speeds prescribed for each type of test.",
+    "label": "Annex 4 2.1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.1.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.1.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "At the start of the tests, the tyres must be cold and at the pressure prescribed by the manufacturer of the vehicles or tyres",
+    "label": "Annex 4 2.1.5"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.1.6",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The prescribed performance must be obtained without self amplifying reactions, without deviation of the vehicles from their course, and without unusual vibration in the steering and coupling system.",
+    "label": "Annex 4 2.1.6"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Vehicles shall be tested at a speed of 85 +5/-0 km/h and remain aligned.",
+    "label": "Annex 4 2.2.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "An emergency straight line braking test from a speed of 60 km/h to rest at a mean fully developed deceleration of at least 4 m/s²",
+    "label": "Annex 4 2.2.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Starting from rest, a forward acceleration of at least 2 m/s² shall not cause any movement between the vehicles",
+    "label": "Annex 4 2.2.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "No permanent deformation shall take place during the above tests.",
+    "label": "Annex 4 2.2.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.3.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "A simulated overtaking manoeuvre, as defined in the appendix, conducted at a progressively increasing speed up to 80 km/h",
+    "label": "Annex 4 2.3.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 2.3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "At a speed of 20 km/h steering from one side of the track to the other alternately at least 3 times",
+    "label": "Annex 4 2.3.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the combination shall be driven around a curve of 25 m radius to a speed of 20 km/h at an acceleration of 2 ± 10% m/s²",
+    "label": "Annex 4 3.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the rearmost outer edge of the trailer, travelling at a speed of 25 km/h ± 1 km/h, shall not move outside the circle described",
+    "label": "Annex 4 3.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.3",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "No part of the trailer must move more than 0.5 m beyond the tangent to a circle with a radius of 25 m",
+    "label": "Annex 4 3.3"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Any motor vehicle or combined vehicle which is in motion must be able to turn within a swept circle having an outer radius of 12.50 m and an inner radius of 5.30 m.",
+    "label": "Annex 4 3.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 3.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "No part of the combination, where it penetrates the circle from a tangent, may overlap that tangent by more than 0.8 m",
+    "label": "Annex 4 3.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 4.1.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no unintentional contact between any part of the towing device and the towing vehicle or trailer when the vehicles are positioned at a relative vertical angle of 6°.",
+    "label": "Annex 4 4.1.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "Annex 4 4.1.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "No contact shall occur between the bodies of the towing vehicle and trailer at a relative vertical angle of 5°.",
+    "label": "Annex 4 4.1.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.3.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The acoustic device must be located in the driver's cabin and must be easily audible by the driver under all circumstances, when the vehicle is in normal use.",
+    "label": "13.3.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.3.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The optical signal shall be red in colour and located on the instrument panel in the direct field of vision of the driver",
+    "label": "13.3.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Coupling and uncoupling must be possible with coupling angles of up to 50° horizontally both to the right and left",
+    "label": "13.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "up to 7° when twisted axially in both directions",
+    "label": "13.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The temporary position must permit the combination to be safely manoeuvred.",
+    "label": "13.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "If the final action is operated manually the space between the vehicles must be at least 500 mm.",
+    "label": "13.4"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "It must be possible from the standing position for one person to position the coupling devices prior to the coupling procedure without the use of tools.",
+    "label": "13.5"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The requirements of Section I, paragraph 5.1., excluding paragraph 5.1.12. have to be fulfilled when the CCD is fitted to the vehicle",
+    "label": "13.1"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "13.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The CCD in use shall not impede the movement of the vehicles to which it is fitted.",
+    "label": "13.2"
+  },
+  {
+    "regulation": "UN R102",
+    "paragraph": "5.1.9",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "in accordance with annex 4",
+    "label": "5.1.9"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 8,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.2",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.3",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "On the vehicle representative of its type, the measured values, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.2.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "in accordance with ISO 11451-4 BCI the current shall be 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "there shall be no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6.",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 12,
+    "raw_pages": [
+      10,
+      11,
+      18,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "50 mA",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 12,
+    "raw_pages": [
+      11,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "25 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 1",
+    "page": 44,
+    "raw_pages": [
+      44,
+      45
+    ],
+    "verdict": "ok",
+    "exact": "a = 6 mm min",
+    "label": "Annex 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.1",
+    "page": 57,
+    "raw_pages": [
+      57,
+      68,
+      92,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE)",
+    "label": "Annex 4 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.3. Table 1",
+    "page": 57,
+    "raw_pages": [
+      57,
+      92
+    ],
+    "verdict": "ok",
+    "exact": "120 kHz 20 s/MHz",
+    "label": "Annex 4 4.3. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.3. Table 1",
+    "page": 57,
+    "raw_pages": [
+      57,
+      68,
+      92,
+      97
+    ],
+    "verdict": "ok",
+    "exact": "100/120 kHz 100 ms/MHz",
+    "label": "Annex 4 4.3. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.3. Table 2",
+    "page": 57,
+    "raw_pages": [
+      57,
+      68,
+      93,
+      97
+    ],
+    "verdict": "ok",
+    "exact": "120 kHz 60 kHz 5 ms",
+    "label": "Annex 4 4.3. Table 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.6",
+    "page": 58,
+    "raw_pages": [
+      58,
+      68
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made on the left and right sides of the vehicle.",
+    "label": "Annex 4 4.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 5 2.1",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "The ignition switch shall be switched on. The engine shall not be operating.",
+    "label": "Annex 5 2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 5 4.2",
+    "page": 68,
+    "raw_pages": [
+      68,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be performed with an average detector.",
+    "label": "Annex 5 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 4.1",
+    "page": 79,
+    "raw_pages": [
+      79
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency ranges in vertical polarization.",
+    "label": "Annex 6 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 4.1",
+    "page": 79,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+    "label": "Annex 6 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 4.1",
+    "page": 79,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "PM2 (pulse modulation type 2), Ton 3 µs, period 3,333 µs in the 2,700 to 3,100 MHz frequency range",
+    "label": "Annex 6 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.1",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "The engine shall normally turn the driving wheels at a steady speed of 50 km/h",
+    "label": "Annex 6 2.1.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle speed 50 km/h (respectively 25 km/h for L1, L2 vehicles) ±20 per cent",
+    "label": "Annex 6 2.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "Dipped beams ON (manual mode) Lighting OFF (front light and rear light)",
+    "label": "Annex 6 2.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "Direction indicator on driver's side ON",
+    "label": "Annex 6 2.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2",
+    "page": 74,
+    "raw_pages": [
+      74
+    ],
+    "verdict": "ok",
+    "exact": "Brake pedal depressed to activate the brake function and the stop lights without any dynamic cycle.",
+    "label": "Annex 6 2.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.3",
+    "page": 75,
+    "raw_pages": [
+      75,
+      77,
+      127,
+      133
+    ],
+    "verdict": "ok",
+    "exact": "Only non-perturbing equipment shall be used while monitoring the vehicle.",
+    "label": "Annex 6 2.1.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.3",
+    "page": 91,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the length of the Low Voltage (LV) harness and the HV harness parallel to the front edge of the ground plane shall be 1,500 mm (±75 mm)",
+    "label": "Annex 7 3.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.2",
+    "page": 92,
+    "raw_pages": [
+      91
+    ],
+    "verdict": "ok",
+    "exact": "DC HV supply shall be applied to the ESA via a 5 μH/50 Ω HV-AN",
+    "label": "Annex 7 3.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "All of the harnesses shall be placed on a non-conductive, low relative permittivity material (εr ≤ 1.4), at 50 mm (±5 mm) above the ground plane.",
+    "label": "Annex 7 3.2.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.6",
+    "page": 92,
+    "raw_pages": [
+      92,
+      99,
+      100
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified, the ESA case shall be connected to the ground plane either directly or via defined impedance.",
+    "label": "Annex 7 3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+    "label": "Annex 7 3.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 4.2",
+    "page": 96,
+    "raw_pages": [
+      68,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be performed with an average detector.",
+    "label": "Annex 8 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 1.2.1",
+    "page": 97,
+    "raw_pages": [
+      97
+    ],
+    "verdict": "ok",
+    "exact": "Absorber chamber test according to ISO 11452-2",
+    "label": "Annex 9 1.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.1.2",
+    "page": 99,
+    "raw_pages": [
+      99
+    ],
+    "verdict": "ok",
+    "exact": "The test shall be performed with vertical polarization.",
+    "label": "Annex 9 4.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.3.2",
+    "page": 100,
+    "raw_pages": [
+      100
+    ],
+    "verdict": "ok",
+    "exact": "injection probe positioned at 150 mm distance to the ESA",
+    "label": "Annex 9 4.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.3.2",
+    "page": 100,
+    "raw_pages": [
+      100
+    ],
+    "verdict": "ok",
+    "exact": "injection probe positioned at 900 mm distance to the ESA",
+    "label": "Annex 9 4.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2.",
+    "page": 107,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2",
+    "label": "Annex 10 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2.",
+    "page": 107,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Apply the starting profile according to the International Standard ISO 16750-2 to the supply lines",
+    "label": "Annex 10 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 1.",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "For an ESA powered by LV, a 5 µH / 50 Ω AN as defined in Figure 1 shall be used.",
+    "label": "Appendix 8 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 1.",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "The AN(s) shall be mounted directly on the ground plane. The grounding connection of the AN(s) shall be bonded to the ground plane.",
+    "label": "Appendix 8 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 1.",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "Measurement ports of AN(s) shall be terminated with a 50 Ω load.",
+    "label": "Appendix 8 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 2.",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "The HV-AN impedance ZPB (tolerance ± 20 %) in the measurement frequency range of 0,1 MHz to 100 MHz is shown in Figure 2.",
+    "label": "Appendix 8 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 4.",
+    "page": 40,
+    "raw_pages": [
+      40
+    ],
+    "verdict": "ok",
+    "exact": "For a vehicle/ESA in charging mode connected to an AC power mains, a 50 µH / 50 Ω-AMN as defined in CISPR 16-1-2 Clause 4.4 shall be used.",
+    "label": "Appendix 8 4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 5.3",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "ok",
+    "exact": "It provides a common mode impedance of 150 Ω ± 20 Ω (150 kHz to 30 MHz) on the control pilot line",
+    "label": "Appendix 8 5.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 2.3",
+    "page": 98,
+    "raw_pages": [
+      98,
+      144,
+      145
+    ],
+    "verdict": "ok",
+    "exact": "Temporary loss of charging function is allowed, provided that there is no incorrect charging condition",
+    "label": "Annex 9 2.3"
+  }
+]

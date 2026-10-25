@@ -1,0 +1,2438 @@
+[
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The lamps must be so designed and constructed that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected in such use, their satisfactory operation remains assured",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.5.3.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "in the case of a rear position lamp reciprocally incorporated with a stop lamp, these functions shall either:",
+    "label": "4.5.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.5.3.1",
+    "page": 10,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "be provided by multiple light sources (for instance, a double filament light source); or",
+    "label": "4.5.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.5.5",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the enclosed light emitting surface of the logo (incorporating transparent and non-transparent components of the logo) of such a lamp in the direction of the reference axis shall not exceed 100 cm²",
+    "label": "4.5.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.5.5",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamps, direction indicator lamps, and reversing lamps shall not incorporate a logo.",
+    "label": "4.5.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "In a single lamp containing more than one light source, a group of light sources, wired so that the failure of any one of them causes all of them to stop emitting light, shall be considered to be one light source.",
+    "label": "4.6.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "In case of failure of any one light source in a single lamp containing more than one light source, at least one of the following provisions shall apply:",
+    "label": "4.6.1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The light intensity complies with the minimum intensity required in the pertinent table of standard light distribution as shown in Annex 3 and when all light sources are illuminated the maximum intensities shall not be exceeded",
+    "label": "4.6.1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "A signal for activation of the tell-tale prescribed in paragraph 6.5.8. of Regulation No. 48 or paragraph 6.3.8. of Regulation No. 53 shall be produced",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a lamp designed for only two light sources, the intensity in the axis of reference is less than 50 per cent of the minimum intensity required",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.5",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The requirements of paragraph 4.6.1.2. do not apply to rear registration plate lamps. However, the requirements of paragraph 4.6.1.1. are still applicable.",
+    "label": "4.6.1.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.6",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The requirements of paragraph 4.6.1.2. (b) do not apply to stop- and position lamps for vehicles of category L.",
+    "label": "4.6.1.6"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In case of failure of the variable intensity control of:",
+    "label": "4.6.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The lamp shall only be equipped with:",
+    "label": "4.7.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "replaceable light source(s) approved according to UN Regulations Nos. 37, 99 and/or 128, provided that no restriction on the use is made at the time of application for type approval, and/or",
+    "label": "4.7.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The design of the lamp shall be such that the light source(s) can be fixed in no other position but the correct one;",
+    "label": "4.7.2.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Light Signalling Devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle.",
+    "label": "4.7.2.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "it can only be fitted in the designated and correct position and can only be removed with the use of tool(s); and",
+    "label": "4.7.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "it is tamperproof; and",
+    "label": "4.7.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "when the light source module is removed and replaced by another module provided by the applicant and bearing the same light source module identification code, the photometric requirements of device shall be met.",
+    "label": "4.7.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "the standard light source(s) shall have a luminous flux value that does not deviate more than 5 per cent from its reference/objective luminous flux value when test voltage is applied.",
+    "label": "4.8.1.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "During photometric measurements, stray reflections shall be avoided by appropriate masking.",
+    "label": "4.8.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "the photometric measurements shall be repeated for each position or for the extreme positions of the field of the reference axis specified by the manufacturer.",
+    "label": "4.8.1.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.8.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The measuring equipment shall be such that the angular aperture of the receiver viewed from the reference centre of the light is comprised between 10' and 1 degree;",
+    "label": "4.8.1.8.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified, the voltage supplied at the lamp shall be either 6.75 V (6 Volt-Systems), 13.5 V (12 Volt-Systems) or 28 V (24 Volt-Systems).",
+    "label": "4.8.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.1",
+    "page": 14,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in paragraph 5.;",
+    "label": "4.8.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function in paragraph 5.;",
+    "label": "4.8.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.1.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "the maximum intensity is not more than 2.5∙10⁻¹cd",
+    "label": "4.8.3.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.5",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "the ratio between the luminous intensities actually measured of the two lamps when turned on simultaneously at the intensity of the rear position lamp or end-outline marker lamp when turned on alone should be at least 5:1",
+    "label": "4.8.3.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.9",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted shall be measured inside the field of the light distribution grid defined for the specific function in the relevant paragraph of Annex 3.",
+    "label": "4.9"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.9",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "Outside this field no sharp variation of colour shall be observed.",
+    "label": "4.9"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.9.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "For lamps (functions) using different light source technologies, the colorimetric characteristics shall be checked for each light source technology separately",
+    "label": "4.9.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.2.1. Table 4",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "a luminous intensity of 6.0∙10¹ cd shall be permitted for rear position lamps reciprocally incorporated with stop lamps below a plane forming an angle of 5° with and downward from the horizontal plane.",
+    "label": "5.2.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.2.1. Table 4",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "R1, MR or RM1 (steady) 4∙10⁰ 1.7∙10¹ 8.5∙10⁰",
+    "label": "5.2.1. Table 4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.2.7",
+    "page": 17,
+    "raw_pages": [
+      17,
+      20,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The colour of light emitted shall be red.",
+    "label": "5.2.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.5.1. Table 7",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "MS (steady) 4.0∙10¹ 2.60∙10² 1.30∙10²",
+    "label": "5.5.1. Table 7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.5.4.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "For stop lamps pair (MS) the standard light distribution may be considered at the request of the applicant from VV line to the outboard only.",
+    "label": "5.5.4.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.5.7",
+    "page": 20,
+    "raw_pages": [
+      17,
+      20,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The colour of light emitted shall be red.",
+    "label": "5.5.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "12 5.0∙10¹ 5.00∙10² 2.50∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "This shall be achieved by switching with a frequency of f = 1.5 ± 0.5 Hz with the pulse width greater than 0.3 s, measured at 95 per cent peak light intensity.",
+    "label": "5.6.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Each light source, after its activation, shall remain lit until the end of the ON cycle;",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The sequence of activation of the light sources shall produce a signal which proceeds in a uniform progressive manner from inboard towards the outboard edge of the light emitting surface;",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The variation shall finish no more than 200ms after the beginning of the ON cycle;",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The ratio of the horizontal to the vertical sides shall not be less than 1.7.",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.7",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The colour of light emitted shall be amber.",
+    "label": "5.6.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.2",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "Category 2: illuminated area of at least 200 x 280 mm for use on a vehicle of category L (Figure A3-XV).",
+    "label": "5.11.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.2",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "For categories 1 and 2 equal to 2∙10⁰ cd/m².",
+    "label": "5.11.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.2",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "The gradient of the luminance between the values B1 and B2, measured at any two points 1 and 2 selected from among those mentioned above, shall not exceed 2 x Bo/cm, Bo being the minimum luminance measured at the various points",
+    "label": "5.11.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.4",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "The luminance measurements shall be made on a diffuse colourless surface with known diffuse reflection factor.",
+    "label": "5.11.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.4",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "Luminance measurements shall be made perpendicularly to the surface of the diffuse colourless surface with the tolerance of 5° in each direction at the points shown in paragraph 3. of Annex 3",
+    "label": "5.11.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.5.2",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "the angle of incidence of the light on the surface of the plate does not exceed 82° at any point on the surface to be illuminated",
+    "label": "5.11.5.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.5.2",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "The device must be so designed that no light is emitted directly towards the rear, with the exception of red light if the device is combined or grouped with a rear lamp.",
+    "label": "5.11.5.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.11.7",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted shall be sufficiently colourless not to cause any appreciable change in the colour of the registration plate.",
+    "label": "5.11.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Every device belonging to an approved type shall comprise a space of sufficient size for the approval marking and other markings as defined in paragraphs 3.3.3.2. to 3.3.3.6.",
+    "label": "3.3.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "All markings shall be clearly legible and indelible,",
+    "label": "3.3.1.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "With regard to the size of the approval marking the value for “a” shall be at least 5 mm.",
+    "label": "3.3.1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The four to six-digit sequential number, being part of the approval number prescribed in paragraph 3.2.3.2. This sequential number shall be placed close to the approval mark.",
+    "label": "3.3.2.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The symbols identifying the light signalling lamps prescribed in paragraph 3.2.4.",
+    "label": "3.3.2.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation followed by the letter 'R' and the two digits indicating the series of amendments in force at the time of issue of the approval.",
+    "label": "3.3.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "On lamps which cannot be mounted on either side of the vehicle indiscriminately, a horizontal arrow showing in which position the lamp is to be mounted.",
+    "label": "3.3.2.5.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The arrow shall be directed outwards from the vehicle in the case of:",
+    "label": "3.3.2.5.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.3",
+    "page": 7,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "On lamps with reduced light distribution, see paragraph 1.1. of Annex 3, a vertical arrow starting from a horizontal segment and directed downwards.",
+    "label": "3.3.2.5.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear the approval marking.",
+    "label": "3.3.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear the trade name or mark of the applicant",
+    "label": "3.3.3.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage",
+    "label": "3.3.3.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking shall be placed on an inner or outer part (transparent or not) of the lamp which is not designed to be separated from the transparent part of the lamp emitting the light.",
+    "label": "3.3.4.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the approval marking as well as the category or categories of LED substitute light source(s) prescribed, if any, shall be visible when the lamp is fitted on the vehicle or when a movable part such as the hood or boot lid or a door is opened.",
+    "label": "3.3.4.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "If the outer lens of a device is designed to be separated from the main body, the approval marking shall be placed on both, the detachable lens and the main body.",
+    "label": "3.3.4.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In case an outer lens is used for several devices and bearing different approval markings, the main body of each device shall bear only the approval marking of the function(s) of that device.",
+    "label": "3.3.4.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.5",
+    "page": 8,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking and the markings in paragraphs 3.3.3.2., 3.3.3.3., 3.3.3.4., 3.3.3.5. (b) and 3.3.3.6. shall be affixed on the lamp.",
+    "label": "3.3.4.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.5.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Where grouped, combined or reciprocally incorporated lamps have been found to comply with the requirements of several UN Regulations, a single approval mark with the four to six-digit sequential number may be affixed.",
+    "label": "3.3.5.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.5.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "No part of the grouped, combined or reciprocally incorporated lamps that transmits light can be removed without at the same time removing the approval mark.",
+    "label": "3.3.5.1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.5.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The size of the components of a single approval mark shall not be less than the minimum size required for the smallest of the individual marks by the pertinent UN Regulations under which approval has been granted.",
+    "label": "3.3.5.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "6.1.2",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "The minimum requirements for sampling by an inspector set forth in Annex 5 shall be complied with;",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "6.1.3",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "No measured value deviates unfavourably by more than 20 per cent from the values prescribed in this Regulation.",
+    "label": "6.1.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "6.1.3.2. Table 13",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "2.5 x Bo/cm comparable to 20 per cent 3.0 x Bo/cm comparable to 30 per cent",
+    "label": "6.1.3.2",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "Rear direction indicator (2a, 2b) 45°/80° (20°/80°) a 15°/15° (15°/5°) b",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "Front/rear position singular (MA, MR) 80°/80° 15°/10° (15°/5°) b",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "Stop singular (MS) 45°/45° 15°/10° (15°/5°) b",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 3 1.1",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "the photometric intensity is verified only up to an angle of 5° downwards",
+    "label": "Annex 3 1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 3 1.2",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "the light pattern should be substantially uniform, i.e. the light intensity in each direction of a part of the field formed by the grid lines shall meet at least the lowest minimum value being shown on the grid lines",
+    "label": "Annex 3 1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 3 3.6",
+    "page": 40,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "Figure A3-XIV Measuring points for plate size 240 x 130 mm",
+    "label": "Annex 3 3.6"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 6 3",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "After the lamp has been stabilized at the ambient temperature, no distortion, deformation, cracking or colour modification shall be perceptible.",
+    "label": "Annex 6 3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 8 1.2.2",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "For all other lamps, the luminous intensities measured after 1 min and either",
+    "label": "Annex 8 1.2.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 8 1.2.2",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "Operation of direction indicator lamps shall be done in flashing mode (f = 1.5 Hz, duty factor 50 per cent).",
+    "label": "Annex 8 1.2.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 8 Table A8-1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "Rear-registration plate illumination 4 any measurement point given in Annex 3",
+    "label": "Annex 8 2.1. Table A8-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 8 Table A8-1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "Direction Indicator Cat 1, 2, 11, 12 0.2 HV",
+    "label": "Annex 8 2.1. Table A8-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 8 Table A8-1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "Front and rear position 4 HV",
+    "label": "Annex 8 2.1. Table A8-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 8 Table A8-1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "Stop 0.2 HV",
+    "label": "Annex 8 2.1. Table A8-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "2.3.1.6",
+    "page": 3,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.4.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective devices shall bear the trade name or mark of the applicant.",
+    "label": "3.3.4.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.4.2.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the word “TOP” inscribed horizontally on the highest part of the illuminating surface, if such an indication is necessary to determine without ambiguity the angle or angles of rotation prescribed by the manufacturer",
+    "label": "3.3.4.2.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.5.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking or the Unique Identifier and the markings in paragraphs 3.3.4. shall be clearly legible on the retroreflective device.",
+    "label": "3.3.5.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.6.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Where grouped, combined or reciprocally incorporated lamps have been found to comply with the requirements of several UN Regulations, a single approval mark with the four to six-digit sequential number or Unique Identifier may be affixed.",
+    "label": "3.3.6.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.6.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "No part of the grouped, combined or reciprocally incorporated lamps that transmits light can be removed without at the same time removing the approval mark with the four to six-digit sequential number or the Unique Identifier.",
+    "label": "3.3.6.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "3.3.6.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The size of the components of a single approval mark shall not be less than the minimum size required for the smallest of the individual marks by the pertinent UN Regulations under which approval has been granted.",
+    "label": "3.3.6.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflective devices shall be so constructed that they function satisfactorily and will continue to do so in normal use.",
+    "label": "4.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In addition, they must not have any defect in design or manufacture that is detrimental to their efficient operation or to their maintenance in good condition.",
+    "label": "4.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The components of retro-reflective devices or parts thereof shall not be capable of being easily dismantled.",
+    "label": "4.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The outer surface of retro-reflective devices shall be easy to clean. The surface shall therefore not be rough and any protuberances they may exhibit shall not prevent easy cleaning.",
+    "label": "4.1.4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.5",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no access to the inner surface of the retro-reflectors when in normal use.",
+    "label": "4.1.5"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.6.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Retro-reflectors may consist of a combined retro-reflecting optical unit and filter, which must be so designed that they cannot be separated under normal conditions of use.",
+    "label": "4.1.6.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.1.6.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The colouring of retro-reflecting optical units and filters by means of paint or varnish is not permitted.",
+    "label": "4.1.6.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.2.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the device shall be illuminated by CIE Standard Illuminant A, with an angle of divergence of 1/3° and an illumination angle of β1= β2= 0°",
+    "label": "4.2.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.2.1.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the trichromatic coordinates \"x\" and \"y\" of Standard Illuminant \"A\" used to illuminate the retro-reflective device must not undergo a change of more than 0.01 after reflection by the retro-reflective device.",
+    "label": "4.2.1.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "4.2.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "For testing the daytime colour, the material shall be illuminated by the CIE Standard Illuminant D65 (ISO 11664-2:2007(E)/CIE S 014-2/E:2006) using geometry (45a:0) or (0:45a)",
+    "label": "4.2.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The photometric and colorimetric requirements as specified in paragraphs 5.1.4. to 5.1.5.; and",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The applicant shall submit ten samples for approval which shall be tested in the chronological order as indicated in paragraph 5.1.7.",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.3.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the ten samples shall be subjected to the heat resistance test described in Part 1 of Annex 6 and at least one hour after this test examined as to their colorimetric characteristics",
+    "label": "5.1.3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.3.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The two samples shall be subjected successively to the water penetration test (Part 2 of Annex 6) and then, if this test is satisfactory, to the tests for resistance to fuels and lubricants (Parts 1 and 2 of Annex 7).",
+    "label": "5.1.3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.3.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The two samples shall, if necessary, be subjected to the corrosion test in Part 4 of Annex 6, and then to the abrasive-strength test of the rear face of the retro-reflective device in Part 5 of Annex 6.",
+    "label": "5.1.3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.3.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The two samples shall be subjected to the resistance to weathering test (Part 6 of Annex 6).",
+    "label": "5.1.3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.4.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "When applying for approval, the applicant shall specify one or more or a range of axis of reference, corresponding to the illumination angle β1 = β2 = 0° in the table of coefficients of luminous intensity RI.",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.4.3",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "the illuminating surface itself shall be limited to 100 cm² though the surfaces of the retro-reflecting optical units need not necessarily attain this area",
+    "label": "5.1.4.3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.4.4.1. Table 3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Red 20' 3.00∙10² 2.00∙10² 1.00∙10²",
+    "label": "5.1.4.4.1. Table 3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.4.4.1. Table 3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "1°30' 5∙10⁰ 2.8∙10⁰ 2.5∙10⁰",
+    "label": "5.1.4.4.1. Table 3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.4.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "in the case where a retro-reflector of Class IA or Class IB, is intended to be installed with its H plane at a mounting height less than 750 mm above the ground, the RI values are verified only up to an angle of 5° downwards.",
+    "label": "5.1.4.5"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.5.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The trichromatic coordinates of the reflected luminous flux must be within the limits for the night-time colours red, amber or white as specified in UN Regulation No. 48.",
+    "label": "5.1.5.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.7. Table 4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Heat: 48 h at 65° ± 2°C",
+    "label": "5.1.7. Table 4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.7. Table 4",
+    "page": 14,
+    "raw_pages": [
+      14,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Water: 10 min. in normal position 10 min. in inverted position visual inspection",
+    "label": "5.1.7. Table 4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.7. Table 4",
+    "page": 14,
+    "raw_pages": [
+      14,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Motor fuels: 5 min. visual inspection",
+    "label": "5.1.7. Table 4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.7. Table 4",
+    "page": 14,
+    "raw_pages": [
+      14,
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Oils: 5 min. visual inspection",
+    "label": "5.1.7. Table 4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.7. Table 4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Corrosion: 24 hours 2 hours interval 24 hours visual inspection",
+    "label": "5.1.7. Table 4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "5.1.7. Table 4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Rear face: 1 min. visual inspection",
+    "label": "5.1.7. Table 4"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 5 1.1",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "The shape of the illuminating surfaces shall not be easily confused with the triangular shape, as prescribed for retro-reflectors mentioned in paragraph 2.1., from an observation distance of 10 metres.",
+    "label": "Annex 5 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 1 1",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "The retro-reflective device shall be kept for 48 consecutive hours in a dry atmosphere at a temperature of 65 °C ± 2 °C after which the sample shall be allowed to cool for 1 hour at 23 °C ± 2 ºC.",
+    "label": "Annex 6 Part 1 1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 1 3",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "After this test, no cracking or appreciable distortion of the retro-reflective device and, in particular, of its optical component must be visible.",
+    "label": "Annex 6 Part 1 3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 2 1.1",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "immersed for 10 minutes in water at a temperature of 50 °C ± 5 °C, the highest point of the upper part of the illuminating surface being 20 mm below the surface of the water",
+    "label": "Annex 6 Part 2 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 2 1.2",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "No water shall penetrate to the reflecting surface of the retro-reflecting optical unit. If visual inspection clearly reveals the presence of water, the device shall not be considered to have passed the test.",
+    "label": "Annex 6 Part 2 1.2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 4 2",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "The retro-reflective device, or the lamp if the device is combined with a light, shall be stripped of all removable parts and subjected to the action of a saline mist for a period of 50 hours",
+    "label": "Annex 6 Part 4 2"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 4 4.1",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "Immediately after completion of the test, the sample shall not show signs of excessive corrosion liable to impair the efficiency of the device.",
+    "label": "Annex 6 Part 4 4.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 6 3",
+    "page": 46,
+    "raw_pages": [
+      46
+    ],
+    "verdict": "ok",
+    "exact": "The samples shall be exposed in accordance with EN ISO 4892-2:2013 using the parameters given in Table A6-1:",
+    "label": "Annex 6 Part 6 3"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 6 Part 6 3.1",
+    "page": 46,
+    "raw_pages": [
+      46
+    ],
+    "verdict": "ok",
+    "exact": "in case of retro-reflective devices for a period of 500 hours,",
+    "label": "Annex 6 Part 6 3.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 7 Part 1 1.1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "The outer surface of the retro-reflective device and, in particular, of the illuminating surface, shall be lightly wiped with a cotton cloth soaked in the test mixture.",
+    "label": "Annex 7 Part 1 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 7 Part 1 1.1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "After about five minutes, the surface shall be inspected visually. It must not show any apparent surface changes, except that slight surface cracks will not be objected to.",
+    "label": "Annex 7 Part 1 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 7 Part 2 1.1",
+    "page": 47,
+    "raw_pages": [
+      47
+    ],
+    "verdict": "ok",
+    "exact": "The outer surface of the retro-reflective device and, in particular, the illuminating surface, shall be lightly wiped with a cotton cloth soaked in a detergent lubricating oil. After about 5 minutes, the surface shall be cleaned.",
+    "label": "Annex 7 Part 2 1.1"
+  },
+  {
+    "regulation": "UN R150",
+    "paragraph": "Annex 8 Part 4 2",
+    "page": 49,
+    "raw_pages": [
+      49
+    ],
+    "verdict": "ok",
+    "exact": "Drop a 13 mm diameter polished solid steel ball, once, vertically onto the central part of the lens from a height of 0.76 m.",
+    "label": "Annex 8 Part 4 2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The lighting and light-signalling devices shall be so fitted that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected, they retain the characteristics prescribed by this Regulation",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In particular, it shall not be possible for the lamps to be inadvertently maladjusted.",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For all light-signalling devices the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "it shall be perpendicular to the median longitudinal plane of the vehicle in the case of side retro-reflectors and parallel to that plane in the case of all light-signalling devices. A tolerance of ∀ 3° shall be allowed in each direction.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "5.5.2"
+    ]
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Be mounted symmetrically in relation to the median longitudinal plane;",
+    "label": "5.5.2.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Have identical nominal photometric characteristics;",
+    "label": "5.5.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Come on and go off simultaneously;",
+    "label": "5.5.2.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The photometric and colorimetric requirements of a lamp shall be fulfilled when all other functions with which this lamp is grouped, combined or reciprocally incorporated are switched OFF.",
+    "label": "5.6.1.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamps and direction indicator lamps are not permitted to be reciprocally incorporated.",
+    "label": "5.6.1.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.1.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "any horizontal or vertical straight line passing through the projections of the apparent surfaces of these functions on a plane perpendicular to the reference axis, shall not intersect more than two borderlines separating adjacent areas of different colour.",
+    "label": "5.6.1.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.2.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The minimum distance between the facing edges of two adjacent/tangential distinct parts shall not exceed 75 mm when measured perpendicularly to the reference axis.",
+    "label": "5.6.2.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In the absence of specific instructions, no lamps other than direction indicator lamps, the vehicle-hazard warning signal lamps and the emergency stop signal shall be flashing lamps.",
+    "label": "5.8"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "No red light which could give rise to confusion shall be emitted from a lamp as defined in paragraph 2.3. in a forward direction",
+    "label": "5.9"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "no white light which could give rise to confusion, shall be emitted from a lamp as defined in paragraph 2.3. in a rearward direction.",
+    "label": "5.9"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a red lamp shall not be directly visible to an observer moving in zone 1 of a transverse plane situated 25 m forward of the foremost point on the vehicle;",
+    "label": "5.9.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.10",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the front position lamp or the passing-beam headlamp, if there is no front position lamp, the rear position lamp and the rear-registration-plate illuminating device cannot be switched ON or OFF otherwise than simultaneously",
+    "label": "5.10"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.10.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In the case of an interdependent lamp system, all light sources shall be switched on and off simultaneously.",
+    "label": "5.10.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Rear-registration plate lamp: white",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Rear retro-reflector, non-triangular: red",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity.",
+    "label": "5.20.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "proof shall be furnished that the part of the lamp not hidden by obstacles still conforms to the photometric values prescribed for the approval of the device.",
+    "label": "5.20.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the photometric field of measurements of the installed optical unit may be reduced to 5 degrees below the horizontal.",
+    "label": "5.20.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.5",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the case of an interdependent lamp system the geometric visibility requirements shall be fulfilled when all its interdependent lamps are operated together.",
+    "label": "5.20.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "Two rear indicators, type-approved as category 2 according to the 01 or subsequent series of amendments to UN Regulation No. 6, or to the 00 or subsequent series of amendments to UN Regulation No. 148; or category 12",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.1",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "the clearance between the inner edges of the two illuminating surfaces shall be at least 180 mm on the condition that the prescriptions of paragraph 2.13. of UN Regulation No. 48 are applied even when the registration plate is mounted;",
+    "label": "6.3.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.2",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 350 mm nor more than 1,200 mm above the ground;",
+    "label": "6.3.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.3.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "In length: the forward distance between the centre reference of the rear indicators and the transverse plane which constitutes the rearmost limit of the vehicle's over-all length shall not exceed 300 mm.",
+    "label": "6.3.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angles: 20° inwards, 80° outwards.",
+    "label": "6.3.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Vertical angles: 15° above and below the horizontal. However, where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.7.), the downward angle of 15° may be reduced to 5°.",
+    "label": "6.3.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.6.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The direction indicator lamps shall switch on independently of the other lamps. All direction indicator lamps on one side of a vehicle shall be switched on and off by means of one control.",
+    "label": "6.3.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.7",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "This may be optical or auditory or both. If it is optical it shall be (a) flashing green lamp(s), which, in the event of defective operation of any of the direction indicators, is extinguished, remains alight without flashing, or shows a marked change of frequency.",
+    "label": "6.3.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The light flashing frequency shall be 90 ± 30 times per minute;",
+    "label": "6.3.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Operation of the light-signal control shall be followed within not more than one second by the appearance of the light and within not more than one-and-one half seconds by the first extinction of the light.",
+    "label": "6.3.8.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "In the event of failure, other than a short circuit, of one direction indicator lamp, the other(s) direction indicator lamp(s) indicating the same direction shall continue to flash or remain alight",
+    "label": "6.3.8.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.3.1",
+    "page": 19,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 250 mm nor more than 1,500 mm above the ground;",
+    "label": "6.4.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.3.1",
+    "page": 19,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In length: at the rear of the vehicle.",
+    "label": "6.4.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.4",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 45° to left and to right for a single lamp; 45° outwards and 10° inwards for each pair of lamps;",
+    "label": "6.4.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.6.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "All the stop lamps shall light up simultaneously when the braking system provides the braking signal defined in UN Regulation No. 78.",
+    "label": "6.4.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.5.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "One, type-approved as category 2 according to the 00 or subsequent series of amendments to UN Regulation Nos. 50 or 148.",
+    "label": "6.5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.5.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Such that the device illuminates the space reserved for the registration plate.",
+    "label": "6.5.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.5.3.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "In width: } Such that the device illuminates the space reserved for the registration plate.",
+    "label": "6.5.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.5.7",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "When the rear registration plate lamp is combined with the rear position lamp, reciprocally incorporated in the stop lamp or in the rear fog lamp, the photometric characteristics of the rear registration plate lamp may be modified during the illumination of the stop lamp or the rear fog lamp.",
+    "label": "6.5.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.3.1",
+    "page": 21,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "in height: not less than 250 mm nor more than 1,500 mm above the ground;",
+    "label": "6.7.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.3.2",
+    "page": 21,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "in length: at the rear of the vehicle.",
+    "label": "6.7.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 80 ° to left and to right for a single lamp: the horizontal angle may be 80° outwards and 20° inwards for each pair of lamps.",
+    "label": "6.7.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.5",
+    "page": 21,
+    "raw_pages": [
+      21,
+      22,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Rearwards.",
+    "label": "6.7.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.7",
+    "page": 21,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "If a rear position lamp is reciprocally incorporated with a direction indicator, the electrical connection of the rear position lamp on the relevant side of the vehicle or the reciprocally incorporated part of it may be such that it is switched OFF during the entire period (both ON and OFF cycle) of activation of the direction indicator lamp.",
+    "label": "6.7.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.1",
+    "page": 22,
+    "raw_pages": [
+      22,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved as Class IA or IB according to the 02 or subsequent series of amendments to UN Regulation No. 3, or to the 00 or subsequent series of amendments to UN Regulation No. 150.",
+    "label": "6.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.3",
+    "page": 22,
+    "raw_pages": [
+      22,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 250 mm nor more than 900 mm above the ground;",
+    "label": "6.8.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.4",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Horizontal angle: 30° to left and to right for a single reflector; 30° outwards and 10° inwards for each pair of reflectors;",
+    "label": "6.8.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.5",
+    "page": 22,
+    "raw_pages": [
+      21,
+      22,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Rearwards.",
+    "label": "6.8.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.10.6",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "May not be combined with any other front lamp.",
+    "label": "6.10.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.13.7.1",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "The rear position lamp shall be switched ON when the daytime running lamp(s) is/are switched ON.",
+    "label": "6.13.7.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 5 1.2.1",
+    "page": 40,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "The values measured for the angles shall be such that the individual specifications applicable to each lamp are fulfilled except that the limits of the angles may have an allowance corresponding to the ±3° variation permitted in paragraph 5.3.",
+    "label": "Annex 5 1.2.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 5 1.6",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+    "label": "Annex 5 1.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "2.12",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "Optical disturbances: incorrect operation of e.g. direction indicators, stop lamps, end outline marker lamps, rear position lamp, light bars for emergency system",
+    "label": "2.12"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above.",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 42 to 53 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      9,
+      10,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m.",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Positive +75 V +150 V Negative -100 V -450 V",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 12,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Frequency range above 2 GHz Not applicable Not applicable Not applicable 2,000 to 6,000 MHz 2,000 to 6,000 MHz Test level above 2 GHz Not applicable Not applicable Not applicable 10 V/m 7 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "1 -75 V -450 V 500 pulses III III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3b +75 V +150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2b +10 V +20 V 10 pulses II III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.1",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2. and with Annexes 5 and 8.",
+    "label": "6.10.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission and shall be deemed to comply with paragraph 6.7.",
+    "label": "6.10.5"
+  }
+]

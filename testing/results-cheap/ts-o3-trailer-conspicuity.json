@@ -1,0 +1,49 @@
+{
+  "case": "ts-o3-trailer-conspicuity",
+  "agent_exit": 0,
+  "agent_seconds": 41,
+  "run": "runs/ts-o3-trailer-conspicuity/c2-base",
+  "spent_usd": 0.279,
+  "replayed_usd": 0.0,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "n_submitted": 2,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.5556
+    },
+    "page_level": {
+      "precision": 0.5873015873015873,
+      "recall": 0.5538461538461539,
+      "f1": 0.5700834581639205,
+      "n_submitted": 63,
+      "n_expected": 65,
+      "n_matched": 37,
+      "f2": 0.5602
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R104",
+    "UN R150",
+    "UN R48"
+  ],
+  "run_regulations": [
+    "UN R150",
+    "UN R48"
+  ],
+  "n_gold": 223,
+  "n_upper_bound": 539,
+  "funnel": {
+    "gold_requirements": 223,
+    "reachable": 126,
+    "recall": 0.565,
+    "selected_nodes": 539,
+    "gold_nodes": 193,
+    "gold_nodes_reached": 113,
+    "unanchored": 3
+  }
+}

@@ -1,0 +1,2516 @@
+[
+  {
+    "regulation": "UN R6",
+    "paragraph": "3.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Bear the trade name or mark of the applicant; this marking shall be clearly legible and indelible",
+    "label": "3.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "3.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "With the exception of lamps with non-replaceable light sources, bear a clearly legible and indelible marking indicating: (a) The category or categories of light source(s) prescribed",
+    "label": "3.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "3.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Comprise a space of sufficient size for the approval marking and the additional symbols prescribed in paragraph 4.2. below",
+    "label": "3.3"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "3.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "In the case of lamps with an electronic light source control gear or a variable intensity control and/or non-replaceable light sources and/or light source module(s), bear the marking of the rated voltage or range of voltage",
+    "label": "3.4"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "3.6",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "An electronic light source control gear or a variable intensity control being part of the lamp but not included into the lamp body shall bear the name of the manufacturer and its identification number",
+    "label": "3.6"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.2.1.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "4.2.1.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.2.1.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The approval number prescribed in paragraph 4.1.3. above",
+    "label": "4.2.1.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.2.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "One or more of the numbers: 1, 1a, 1b, 2a, 2b, 5 or 6, according to whether the device belongs to one or more categories",
+    "label": "4.2.2.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.2.2.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "On devices which cannot be mounted on either side of the vehicle indiscriminately, a horizontal arrow showing in which position the device is to be mounted",
+    "label": "4.2.2.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.2.2.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The additional letter \"D\", on devices which may be used as part of an assembly of two lamps",
+    "label": "4.2.2.3"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.2.2.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The additional letter \"Y\", on devices which may be used as part of an interdependent lamps system",
+    "label": "4.2.2.3"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.2.2.6",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The marks and symbols referred to in paragraphs 4.2.1. and 4.2.2. above shall be clearly legible and be indelible even when the device is fitted in the vehicle",
+    "label": "4.2.2.6"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "4.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking shall be clearly legible and indelible. It may be placed on an inner or outer part (transparent or not) of the device",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The devices shall be so designed and constructed that under normal conditions of use and notwithstanding the vibrations to which they may be subjected in such use, their satisfactory operation remains assured",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.3.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "That each light source module can only be fitted in no other position than the designated and correct one and can only be removed with the use of tool(s)",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.3.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The light source module(s) shall be tamperproof",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.4",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "In case of failure of the variable intensity control of a direction indicator of category 2b emitting more than the maximum value of category 2a, requirements of steady luminous intensity of category 2a shall be fulfilled automatically",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.5.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The device shall only be equipped with light source(s) approved according to UN Regulation No. 37 and/or UN Regulation No. 128",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.5.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The design of the device shall be such that light source cannot be fixed in any other position but the correct one",
+    "label": "5.5.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.5.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The light source holder shall conform to the characteristics given in IEC Publication 60061",
+    "label": "5.5.3"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the flash may be produced by sequential activation of their light sources if the following conditions are met:",
+    "label": "5.7"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Each light source, after its activation, shall remain lit until the end of the ON cycle",
+    "label": "5.7"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The sequence of activation of the light sources shall produce a signal which proceeds in a uniform progressive manner from inboard towards the outboard edge of the light emitting surface",
+    "label": "5.7"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The distance between two adjacent/tangential distinct parts of the light emitting surface of the sequential direction indicator shall not exceed 50mm",
+    "label": "5.7"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.7",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The variation shall finish no more than 200ms after the beginning of the ON cycle",
+    "label": "5.7"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "5.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "An interdependent lamp system shall meet the requirements when all its interdependent lamps are operated together",
+    "label": "5.8"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.1. Table",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The light emitted by each of the two lamps supplied must be in the case of direction indicators of categories 1, 1a, 1b, 2a, 2b, in the reference axes",
+    "label": "6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.1. Table",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "of not less than the minimum intensity and of not more than the maximum intensity specified below:",
+    "label": "6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.1. Table",
+    "page": 8,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "2a (steady) 50 500 250",
+    "label": "6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.1. Table",
+    "page": 8,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "2b (variable) 50 1000 500",
+    "label": "6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "For an assembly of two or more direction indicator lamps the total intensity shall not exceed the maximum value",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "When an assembly of two lamps marked \"D\" having the same function is deemed to be a single lamp, it shall comply with the requirements for:",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.1.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Minimum intensity if one lamp has failed",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A signal for activation of the tell-tale prescribed in paragraph 6.5.8. of UN Regulation No. 48 shall be produced if: (a) Any one light source has failed",
+    "label": "6.2.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a lamp designed for only two light sources, the intensity in the axis of reference is less than 50 per cent of the minimum intensity",
+    "label": "6.2.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "be not less than the minimum specified in paragraph 6.1. above multiplied by the percentage specified in the said table for the direction in question",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In no direction within the area from which the indicator lamp is visible, exceed the maximum specified in paragraph 6.1. above",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.3.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Throughout the fields defined in the diagrams in Annex 1, the intensity of the light emitted shall be not less than 0.7 cd for devices of category 1b",
+    "label": "6.3.3.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.3.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The provisions of paragraph 2.2. of Annex 4 to this Regulation on local variations of intensity shall be observed",
+    "label": "6.3.3.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.4",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "In the case of replaceable filament lamps, the filament lamps shall be operated at reference luminous flux during on time",
+    "label": "6.4"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.4",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "This shall be achieved by switching with a frequency of f = 1.5 ± 0.5 Hz with the pulse width greater than 0.3 s, measured at 95 per cent peak light intensity",
+    "label": "6.4"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.5",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The time measured to obtain the lowest luminous intensity shall not exceed the time measured to obtain the highest luminous intensity",
+    "label": "6.5"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.6.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Outside the range specified in paragraph 6.1. above and",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "6.6.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Exceeding the category 2a maximum specified in paragraph 6.1. above:",
+    "label": "6.6.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "7.1.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a lamp with replaceable light source, if not supplied by an electronic light source control gear or a variable intensity control, with an uncoloured or coloured standard light source of the category prescribed",
+    "label": "7.1.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "7.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a lamp equipped with non-replaceable light sources (filament lamps and other), at 6.75 V, 13.5 V or 28.0 V respectively",
+    "label": "7.1.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "7.5",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The limits of the apparent surface in the direction of the reference axis of a direction indicator shall be determined",
+    "label": "7.5"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "8.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted inside the field of the light distribution grid defined in paragraph 2. of Annex 4 shall be amber",
+    "label": "8"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "8.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Outside this field, no sharp variation of colour shall be observed",
+    "label": "8"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In all cases, the minimum vertical angles of light distribution in space of direction indicator lamps are 15° above and 15° below the horizontal",
+    "label": "Annex 1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Direction indicator lamps intended to be installed with the H plane of the lamp at a mounting height of less than 750 mm above the ground, for which they are 15° above and 5° below the horizontal",
+    "label": "Annex 1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Direction indicator lamps of Category 6, for which they are 30° above and 5° below the horizontal",
+    "label": "Annex 1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 1.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "During photometric measurements, stray reflections shall be avoided by appropriate masking",
+    "label": "Annex 4 1.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 1.2.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The distance of measurement shall be such that the law of the inverse of the square of the distance is applicable",
+    "label": "Annex 4 1.2.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 1.2.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The measuring equipment shall be such that the angular aperture of the receiver viewed from the reference centre of the light is comprised between 10' and 1 degree",
+    "label": "Annex 4 1.2.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 1.2.3",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The intensity requirement for a particular direction of observation shall be deemed to be satisfied if that requirement is met in a direction deviating by not more than one-quarter of a degree from the direction of observation",
+    "label": "Annex 4 1.2.3"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 1.3",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "the photometric measurements shall be repeated for each position or for the extreme positions of the field of the reference axis specified by the manufacturer",
+    "label": "Annex 4 1.3"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 2.1",
+    "page": 22,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The direction H = 0° and V = 0° corresponds to the reference axis",
+    "label": "Annex 4 2.1"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 2.2",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Within the field of light distribution of paragraph 2. above, schematically shown as a grid, the light pattern should be substantially uniform",
+    "label": "Annex 4 2.2"
+  },
+  {
+    "regulation": "UN R6",
+    "paragraph": "Annex 4 3.3",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "the luminous intensities measured after one minute and after 30 minutes of operation in flashing mode (f = 1.5 Hz, duty factor 50 per cent), shall comply with the minimum and maximum requirements",
+    "label": "Annex 4 3.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Every device belonging to an approved type shall comprise a space of sufficient size for the approval marking and other markings",
+    "label": "3.3.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "All markings shall be clearly legible and indelible",
+    "label": "3.3.1.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark, i.e. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+    "label": "3.3.2.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The four to six-digit sequential number, being part of the approval number prescribed in paragraph 3.2.3.2. This sequential number shall be placed close to the approval mark",
+    "label": "3.3.2.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The symbols identifying the light signalling lamps prescribed in paragraph 3.2.4",
+    "label": "3.3.2.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation followed by the letter 'R' and the two digits indicating the series of amendments in force",
+    "label": "3.3.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The arrow shall be directed outwards from the vehicle in the case of: (a) Direction indicators categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12",
+    "label": "3.3.2.5.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.1.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The arrow shall be directed towards the front of the vehicle in the case of direction indicators of categories 5 and 6",
+    "label": "3.3.2.5.1.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.1.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "For direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle",
+    "label": "3.3.2.5.1.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The additional letter \"D\", on lamps which may be used as part of an assembly of two independent lamps",
+    "label": "3.3.2.5.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.2.5.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The additional letter \"Y\", on lamps which are used as part of an interdependent lamps system",
+    "label": "3.3.2.5.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear the approval marking",
+    "label": "3.3.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear the trade name or mark of the applicant",
+    "label": "3.3.3.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall, with the exception of lamps with non-replaceable light sources, bear a marking indicating: (a) The category or categories of light source(s) prescribed",
+    "label": "3.3.3.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage, in the case of lamps with:",
+    "label": "3.3.3.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The specific identification code of the module; This specific identification code shall comprise the starting letters “MD” for “MODULE” followed by the approval mark without the circle",
+    "label": "3.3.3.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.3.6",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An electronic light source control gear or variable luminous intensity control being part of the lamp, but not included into the lamp body, shall be marked with its identification number and the name of the manufacturer",
+    "label": "3.3.3.6"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In any case the approval marking as well as the category or categories of LED substitute light source(s) prescribed, if any, shall be visible when the lamp is fitted on the vehicle",
+    "label": "3.3.4.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "3.3.4.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "If the outer lens of a device is designed to be separated from the main body, the approval marking shall be placed on both, the detachable lens and the main body",
+    "label": "3.3.4.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The lamps must be so designed and constructed that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected in such use, their satisfactory operation remains assured",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.4.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "An assembly of two independent lamps to be type approved as lamp marked \"D\" is applicable to front and rear position lamps, stop lamps, front and rear end-outline marker lamps, daytime running lamps and direction indicator lamps",
+    "label": "4.4.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.4.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "An interdependent lamp system to be type approved as lamps marked “Y” is applicable to front and rear position lamps, stop lamps, front and rear end-outline marker lamps, daytime running lamps and direction indicator lamps",
+    "label": "4.4.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.5.5",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamps, direction indicator lamps, and reversing lamps shall not incorporate a logo",
+    "label": "4.5.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "In a single lamp containing more than one light source, a group of light sources, wired so that the failure of any one of them causes all of them to stop emitting light, shall be considered to be one light source",
+    "label": "4.6.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "For direction-indicator lamps of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12, instead of the requirements of paragraph 4.6.1.2.",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "the intensity in the axis of reference is less than 50 per cent of the minimum intensity required",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.1.4",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "As a consequence of a failure of one or more light sources, the intensity in one of the following directions as indicated in paragraph 2.1. of Annex 3, is less than the minimum intensity required",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.6.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "A direction indicator of category 2b emitting more than the maximum value of category 2a",
+    "label": "4.6.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.1",
+    "page": 12,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The design of the lamp shall be such that the light source(s) can be fixed in no other position but the correct one",
+    "label": "4.7.2.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The light source(s) holder shall conform to the characteristics given in IEC Publication 60061",
+    "label": "4.7.2.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Light Signalling Devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle",
+    "label": "4.7.2.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "it can only be fitted in the designated and correct position and can only be removed with the use of tool(s)",
+    "label": "4.7.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "it is tamperproof",
+    "label": "4.7.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.7.2.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "when the light source module is removed and replaced by another module provided by the applicant and bearing the same light source module identification code, the photometric requirements of device shall be met",
+    "label": "4.7.2.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.1.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "the standard light source(s) shall have a luminous flux value that does not deviate more than 5 per cent from its reference/objective luminous flux value",
+    "label": "4.8.1.1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.4",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "During photometric measurements, stray reflections shall be avoided by appropriate masking",
+    "label": "4.8.1.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.5",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "the photometric measurements shall be repeated for each position or for the extreme positions of the field of the reference axis specified by the manufacturer",
+    "label": "4.8.1.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.7",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "If not otherwise specified, the intensities shall be measured with the light source continuously lit",
+    "label": "4.8.1.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.8.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The distance of measurement shall be such that the law of the inverse of the square of the distance is applicable",
+    "label": "4.8.1.8.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.8.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the angular aperture of the receiver viewed from the reference centre of the light is comprised between 10' and 1 degree",
+    "label": "4.8.1.8.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.1.9",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The limits of the apparent surface in the direction of the reference axis of a light-signalling lamp shall be determined",
+    "label": "4.8.1.9"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified, the voltage supplied at the lamp shall be either 6.75 V (6 Volt-Systems), 13.5 V (12 Volt-Systems) or 28 V (24 Volt-Systems)",
+    "label": "4.8.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.2.3.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "shall be operated at a voltage or electrical current setting such that the actual luminous fluxes of the light sources do not deviate by more than 5 per cent from the average luminous flux of the light sources",
+    "label": "4.8.2.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "On the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+    "label": "4.8.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "In no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function in paragraph 5.",
+    "label": "4.8.3.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.1",
+    "page": 15,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "When an assembly of two independent lamps, to be type approved as lamps marked \"D\" and having the same function, is deemed to be a single lamp, it shall comply with the requirements for:",
+    "label": "4.8.3.2"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.3",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "An interdependent lamp system shall meet the requirements when all its interdependent lamps are operated together",
+    "label": "4.8.3.3"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.8.3.4.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.9",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted shall be measured inside the field of the light distribution grid defined for the specific function in the relevant paragraph of Annex 3",
+    "label": "4.9"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "4.9",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "Outside this field no sharp variation of colour shall be observed",
+    "label": "4.9"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The light emitted by each of the two samples supplied shall meet the requirements in Table 8 where the minimum luminous intensities shall be fulfilled:",
+    "label": "5.6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "In the case of direction indicators of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12 in the reference axis",
+    "label": "5.6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "in the case of direction indicators of categories 5 and 6 in direction A according to Annex 2",
+    "label": "5.6.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "1 1.75∙10² 1.20∙10³ 6.00∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "1a 2.50∙10² 1.20∙10³ 6.00∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "1b 4.00∙10² 1.20∙10³ 6.00∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "2a (steady) 5.0∙10¹ 5.00∙10² 2.50∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "2b (variable) 5.0∙10¹ 1.00∙10³ 5.00∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "5 6∙10⁻¹ 2.80∙10² 1.40∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "6 5.0∙10¹ 2.80∙10² 1.40∙10²",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.1. Table 8",
+    "page": 21,
+    "raw_pages": [
+      16,
+      17,
+      19,
+      20
+    ],
+    "verdict": "ok",
+    "exact": "A lamp marked \"D\" (Par. 3.3.2.5.2.)",
+    "label": "5.6.1. Table 8"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.2",
+    "page": 21,
+    "raw_pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In general, the intensities shall be measured with the light source(s) continuously alight",
+    "label": "5.6.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "This shall be achieved by switching with a frequency of f = 1.5 ± 0.5 Hz with the pulse width greater than 0.3 s, measured at 95 per cent peak light intensity",
+    "label": "5.6.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.4",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In the case of measurements taken in flashing mode the reported luminous intensity shall be represented by the maximum intensity",
+    "label": "5.6.4"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Each light source, after its activation, shall remain lit until the end of the ON cycle",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The sequence of activation of the light sources shall produce a signal which proceeds in a uniform progressive manner from inboard towards the outboard edge of the light emitting surface",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The distance between two adjacent/tangential distinct parts of the light emitting surface of the sequential direction indicator shall not exceed 50mm",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The variation shall finish no more than 200ms after the beginning of the ON cycle",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.5",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The ratio of the horizontal to the vertical sides shall not be less than 1.7",
+    "label": "5.6.5"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "5.6.7",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "The colour of light emitted shall be amber",
+    "label": "5.6.7"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "Front direction indicator (1, 1a, 1b) 45°/80°",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 32,
+    "raw_pages": [
+      32
+    ],
+    "verdict": "ok",
+    "exact": "Rear direction indicator (2a, 2b) 45°/80°",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 32,
+    "raw_pages": [
+      32,
+      33
+    ],
+    "verdict": "ok",
+    "exact": "(20°/80°) a",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 32,
+    "raw_pages": [
+      32,
+      33
+    ],
+    "verdict": "ok",
+    "exact": "15°/15° (15°/5°) b",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-1",
+    "page": 33,
+    "raw_pages": [
+      32,
+      33
+    ],
+    "verdict": "ok",
+    "exact": "(5°/15°) c",
+    "label": "Annex 2 Part A. Table A2-1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-2",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "Side direction indicators (5) 5° / 55°",
+    "label": "Annex 2 Part B. Table A2-2",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 2 Table A2-2",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "5° / 55° 15° / 15° 15° / 5° b",
+    "label": "Annex 2 Part B. Table A2-2",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 3 1.1",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "the values shown in Figures A3-I to A3-XV give, for the various directions of measurement, the minimum intensities as a percentage of the minimum intensities required",
+    "label": "Annex 3 1.1"
+  },
+  {
+    "regulation": "UN R148",
+    "paragraph": "Annex 3 1.1",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "the photometric intensity is verified only up to an angle of 5° downwards",
+    "label": "Annex 3 1.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.1",
+    "page": 19,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "For all light-signalling devices, including those mounted on the side panels, the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "in addition it shall be perpendicular to the median longitudinal plane of the vehicle in the case of side retro-reflectors and of side-marker lamps and parallel to that plane in the case of all other signalling devices",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.5.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Be fitted to the vehicle symmetrically in relation to the median longitudinal plane",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.5.2",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Be symmetrical to one another in relation to the median longitudinal plane, this requirement is not valid with regard to the interior structure of the lamp",
+    "label": "5.5.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.5.3",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Satisfy the same colorimetric requirements",
+    "label": "5.5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.5.4",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Have substantially identical photometric characteristics",
+    "label": "5.5.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.7.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Lamps may be grouped, combined or reciprocally incorporated with one another provided that all requirements regarding colour, position, orientation, geometric visibility, electrical connections and other requirements, if any, are fulfilled",
+    "label": "5.7.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.7.1.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The photometric and colorimetric requirements of a lamp shall be fulfilled when all other functions with which this lamp is grouped, combined or reciprocally incorporated are switched OFF",
+    "label": "5.7.1.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.7.1.2",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamps and direction-indicator lamps are not permitted to be reciprocally incorporated",
+    "label": "5.7.1.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.7.2.1",
+    "page": 20,
+    "raw_pages": [
+      20
+    ],
+    "verdict": "ok",
+    "exact": "The minimum distance between the facing edges of two adjacent/tangential distinct parts of the apparent surface in the direction of the reference axis shall not exceed 75 mm",
+    "label": "5.7.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.8.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "For the purposes of reducing the geometric visibility angles, the position of a lamp with regard to height above the ground, shall be measured from the H plane",
+    "label": "5.8.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.9.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Direction-indicator lamps, the vehicle-hazard warning signal, amber side-marker lamps complying with paragraph 6.18.7. below, and the emergency stop signal shall be flashing lamps",
+    "label": "5.9.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.9.3",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "The photometric characteristics of a direction indicator lamp of categories 1, 1a, 1b, 2a or 2b may be varied during a flash by sequential activation of light sources",
+    "label": "5.9.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.10.1",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Red light emitted by a lamp fitted on the rear of the vehicle (as defined in paragraph 2.1.5.) shall not be visible from the front of the vehicle",
+    "label": "5.10.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.10.4.3",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "In case of doubt, the requirement above shall be deemed fulfilled if the luminous intensity of the red light emitted to the front and/or the white light emitted to the rear, as verified during type approval of the lamps, is not more than 0.25 cd per lamp",
+    "label": "5.10.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.15",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Direction-indicator lamp: Amber",
+    "label": "5.15"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.15",
+    "page": 23,
+    "raw_pages": [
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Hazard warning signal: Amber",
+    "label": "5.15"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.18.1",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "If at all fixed positions of the movable components the lamps on the movable components meet all the position, geometric visibility, colorimetric and photometric requirements for those lamps",
+    "label": "5.18.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.22",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "With the exception of retro-reflectors, a lamp even bearing an approval mark is deemed not to be present when it cannot be made to operate by the sole installation of a light source and/or a fuse",
+    "label": "5.22"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.26",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "Rear direction indicator lamps of category 2b, rear position lamps of category R2 and stop lamps of category S2 with variable luminous intensity control",
+    "label": "5.26"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.26.4",
+    "page": 27,
+    "raw_pages": [
+      27,
+      76
+    ],
+    "verdict": "ok",
+    "exact": "No sharp variation of intensity shall be observed during transition",
+    "label": "5.26.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.28.1",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity",
+    "label": "5.28.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "5.28.5",
+    "page": 27,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "In the case of an interdependent lamp system the geometric visibility requirements shall be fulfilled when all its interdependent lamps are operated together",
+    "label": "5.28.5"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.3",
+    "page": 40,
+    "raw_pages": [
+      40
+    ],
+    "verdict": "ok",
+    "exact": "Two front direction-indicator lamps of the following categories: 1 or 1a or 1b",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.3",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "Two rear direction-indicator lamps (category 2a or 2b)",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.3",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "Two optional lamps (category 2a or 2b) on all vehicles in categories M2, M3, N2, N3.",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.3",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "Two side direction-indicator lamps of the categories 5 or 6 (minimum requirements):",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.3",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "6 For all N2 and N3 vehicles;",
+    "label": "6.5.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.3.1",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "M2, M3, N2, and N3 exceeding 9 m in length three additional category 5 devices distributed as evenly as practicable along each side are mandatory",
+    "label": "6.5.3.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.1",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "the edge of the apparent surface in the direction of the reference axis farthest from the median longitudinal plane of the vehicle shall not be more than 400 mm from the extreme outer edge of the vehicle",
+    "label": "6.5.4.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.1",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "The distance between the inner edges of the two apparent surfaces in the direction of the reference axes shall not be less than 600 mm",
+    "label": "6.5.4.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.2.1",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "The height of the light-emitting surface of the side direction-indicator lamps of categories 5 or 6 shall not be: Less than: 350 mm for M1 and N1 category of vehicles, and 500 mm for all other categories of vehicles",
+    "label": "6.5.4.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.2.1",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "More than: 1,500 mm, measured from the highest point",
+    "label": "6.5.4.2.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.2.2",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "The height of the direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b, measured in accordance with paragraph 5.8., shall not be less than 350 mm and not more than 1,500 mm",
+    "label": "6.5.4.2.2"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.2.3",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "they may be increased to 2,300 mm for side direction-indicator lamps of categories 5 and 6, and to 2,100 mm for the direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b",
+    "label": "6.5.4.2.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.3",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "The distance between the light-emitting surface of the side direction-indicator lamp (categories 5 and 6) and the transverse plane which marks the forward boundary of the vehicle's overall length, shall not exceed 1,800 mm",
+    "label": "6.5.4.3"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.4.2.4",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "If optional rear lamps are installed, they shall be placed at a height compatible with the applicable requirements of paragraph 6.5.4.1., the symmetry of the lamps, and at a vertical distance as large as the shape of the bodywork makes it possible, but not less than 600 mm above the mandatory lamps",
+    "label": "6.5.4.2.4"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.5.1",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "Vertical angles: 15° above and below the horizontal for direction indicator lamps of categories 1, 1a, 1b, 2a, 2b and 5",
+    "label": "6.5.5.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.5.1",
+    "page": 42,
+    "raw_pages": [
+      42,
+      43
+    ],
+    "verdict": "ok",
+    "exact": "Where a lamp is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1), the downward angle of 15° may be reduced to 5°",
+    "label": "6.5.5.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.5.1",
+    "page": 42,
+    "raw_pages": [
+      42
+    ],
+    "verdict": "ok",
+    "exact": "30° above and 5° below the horizontal for direction indicator lamps of category 6",
+    "label": "6.5.5.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.5.1",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "ok",
+    "exact": "For the direction indicator lamps of categories 1, 1a, 1b, 2a and 2b mounted below 750 mm (measured according to the provisions of paragraph 5.8.1), the inward angle of 45° may be reduced to 20° under the H plane",
+    "label": "6.5.5.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.7",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "ok",
+    "exact": "Direction-indicator lamps shall switch ON independently of the other lamps",
+    "label": "6.5.7"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.7",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "ok",
+    "exact": "All direction-indicator lamps on one side of a vehicle shall be switched ON and OFF automatically as defined by applicable UN Regulations and/or by means of one control and shall flash in phase",
+    "label": "6.5.7"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.7",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "ok",
+    "exact": "A direction indicator capable of being activated in different modes (static or sequential), shall not switch between both modes once activated",
+    "label": "6.5.7"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.7",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "If two optional lamps (category 2a or 2b) are installed on vehicles in categories M2, M3, N2, N3, they shall be operated in the same mode as the other mandatory rear direction indicator lamps",
+    "label": "6.5.7"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.8",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "Operating tell-tale mandatory for direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b",
+    "label": "6.5.8"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.8",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "If it is visual it shall be a flashing light which, at least in the event of the malfunction of any of these direction-indicator lamps, is either extinguished, or remains alight without flashing, or shows a marked change of frequency",
+    "label": "6.5.8"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.9",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "The light shall be a flashing light flashing 90 ± 30 times per minute",
+    "label": "6.5.9"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.9",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "Operation of the light-signal control shall be followed within not more than one second by the emission of light and within not more than one and one-half seconds by its first extinction",
+    "label": "6.5.9"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.5.9",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "In the event of failure, other than short-circuit, of one direction-indicator lamp, the others shall continue to flash",
+    "label": "6.5.9"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.6.1",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "The signal shall be given by simultaneous operation of the direction-indicator lamps in accordance with the requirements of paragraph 6.5. above",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.6.1",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "All direction indicators of the category 1 (1, 1a, 1b) activated simultaneously shall operate in the same mode; i.e. static or sequential",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.6.1",
+    "page": 44,
+    "raw_pages": [
+      44
+    ],
+    "verdict": "ok",
+    "exact": "All direction indicators of the category 2 (2a, 2b) activated simultaneously shall operate in the same mode; i.e. static or sequential",
+    "label": "6.6.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.6.7.1",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "The signal shall be operated by means of a separate manual control enabling all the direction-indicator lamps to flash in phase",
+    "label": "6.6.7.1"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.6.8",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "Flashing closed-circuit tell-tale mandatory",
+    "label": "6.6.8"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.6.9",
+    "page": 45,
+    "raw_pages": [
+      45
+    ],
+    "verdict": "ok",
+    "exact": "The hazard warning signal shall be able to function even if the device which starts or stops the propulsion system is in a position which makes it impossible to start the propulsion system",
+    "label": "6.6.9"
+  },
+  {
+    "regulation": "UN R48",
+    "paragraph": "6.23.1",
+    "page": 73,
+    "raw_pages": [
+      75
+    ],
+    "verdict": "wrong page",
+    "exact": "The emergency stop signal shall be given by the simultaneous operation of all the stop or direction-indicator lamps fitted as described in paragraph 6.23.7",
+    "label": "6.23.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 43 dB microvolts/m",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.2",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+    "label": "6.3.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "1 -75 V -450 V 500 pulses III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3b +75 V +150 V 1 h I",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses",
+    "label": "6.9.1",
+    "read": "without the table"
+  }
+]

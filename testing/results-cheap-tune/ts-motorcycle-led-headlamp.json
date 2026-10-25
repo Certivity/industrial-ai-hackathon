@@ -1,0 +1,50 @@
+{
+  "case": "ts-motorcycle-led-headlamp",
+  "agent_exit": 0,
+  "agent_seconds": 55,
+  "run": "runs/ts-motorcycle-led-headlamp/c2-v3c-vet1",
+  "spent_usd": 0.016,
+  "replayed_usd": 0.321,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "n_submitted": 3,
+      "n_expected": 4,
+      "n_matched": 3,
+      "f2": 0.7895
+    },
+    "page_level": {
+      "precision": 0.5578947368421052,
+      "recall": 0.8181818181818182,
+      "f1": 0.6634214186369958,
+      "n_submitted": 95,
+      "n_expected": 66,
+      "n_matched": 53,
+      "f2": 0.7484
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R53"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R149",
+    "UN R53"
+  ],
+  "n_gold": 241,
+  "n_upper_bound": 810,
+  "funnel": {
+    "gold_requirements": 241,
+    "reachable": 202,
+    "recall": 0.8382,
+    "selected_nodes": 810,
+    "gold_nodes": 195,
+    "gold_nodes_reached": 161,
+    "unanchored": 2
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "case": "ts-coach-m3",
+  "agent_exit": 0,
+  "agent_seconds": 18,
+  "run": "runs/ts-coach-m3/c2-base",
+  "spent_usd": 0.0,
+  "replayed_usd": 0.345,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "n_submitted": 3,
+      "n_expected": 1,
+      "n_matched": 1,
+      "f2": 0.7143
+    },
+    "page_level": {
+      "precision": 0.1810344827586207,
+      "recall": 1.0,
+      "f1": 0.3065693430656934,
+      "n_submitted": 116,
+      "n_expected": 21,
+      "n_matched": 21,
+      "f2": 0.525
+    }
+  },
+  "gold_regulations": [
+    "UN R107"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R107",
+    "UN R43"
+  ],
+  "n_gold": 108,
+  "n_upper_bound": 1113,
+  "funnel": {
+    "gold_requirements": 108,
+    "reachable": 108,
+    "recall": 1.0,
+    "selected_nodes": 1113,
+    "gold_nodes": 93,
+    "gold_nodes_reached": 93,
+    "unanchored": 0
+  }
+}

@@ -1,0 +1,1336 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-m1-replacement-catalyst",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The replacement catalytic converter, as a separate technical unit, shall be type-approved as a pollution control device for fitting to M1 vehicles as a replacement part.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 1,
+        "paragraph": "1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The replacement catalytic converter shall be designed, constructed and capable of being mounted so that the vehicle complies with the Regulations it originally complied with.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The replacement catalytic converter shall enable pollutant emissions to be effectively limited throughout the normal life of the vehicle under normal conditions of use.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The replacement catalytic converter shall be designed to be installed at the exact position of the original pollution control device.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "Where the original converter has oxygen probes and other sensors, the replacement catalytic converter shall keep their exhaust-line position unmodified.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "Where the original equipment converter includes thermal protections, the replacement catalytic converter shall include equivalent protections.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The replacement catalytic converter shall be designed, constructed and mounted to obtain reasonable resistance to corrosion and oxidation under the vehicle's conditions of use.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The M1 vehicle equipped with the replacement catalytic converter shall be subjected to a type I test per the annexes of Regulation No. 83 to compare performance with the original converter.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The test vehicle with a new original converter shall be run in with 12 extra urban cycles (type I, part 2) to establish the comparison basis.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "After preconditioning, the test vehicle shall be conditioned in a room held at a temperature between 293 K and 303 K (20 °C and 30 °C).",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The conditioning shall last at least six hours and continue until the engine oil and coolant temperatures are within ±2 K of the room temperature.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "Three type I exhaust gas tests shall subsequently be made with the original converter to determine the basis for comparison.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The original converter of the test vehicle shall be replaced by the replacement catalytic converter submitted for test.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The replacement catalytic converter shall be run in with 12 extra urban cycles (type I test part 2) before the emission tests.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The replacement catalytic converter conditioning shall last at least six hours and continue until the oil and coolant temperatures are within ±2 K of room temperature.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Three type I exhaust gas tests shall be made with the replacement catalytic converter.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The test vehicle with the original converter shall comply with the type-approval limit values, including the deterioration factors applied at the vehicle type approval.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The mean value M of the emissions with the replacement catalytic converter shall satisfy M ≤ 0.85S + 0.4G for each regulated pollutant.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The mean value M of the emissions with the replacement catalytic converter shall not exceed the limit value G for each regulated pollutant.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The emissions evaluated for the replacement catalytic converter shall be the regulated pollutants CO, HC, NOx, particulates and particles, or the sum HC + NOx.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The reference value S shall be the mean of the three type I test emissions obtained with the original converter.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The limit value G shall be the type-approval emission limit divided by the multiplicative or minus the additive deterioration factors.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "Where the replacement catalytic converter is fitted to a vehicle approved to the 06 series of amendments to Regulation No. 83, the regulated pollutants shall be all pollutants of paragraph 5.3.1.4. of that series.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The replacement catalytic converter shall satisfy the technical requirements of Regulation No. 59 regarding noise and vehicle performance.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The maximum absorbed power measured on a chassis dynamometer with the replacement catalytic converter shall not be lower by more than 5 per cent than with the original equipment converter.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The replacement catalytic converter shall comply with the durability requirements of paragraph 5.3.6. of Regulation No. 83, i.e. type V test or the deterioration factors of the table.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "For a positive-ignition engined M1 vehicle, the deterioration factors applied shall be 1.2 for CO, 1.2 for HC, 1.2 for NOx and 1.2 for HC+NOx.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "Where the original converter was monitored in the original configuration, the replacement catalytic converter shall demonstrate OBD compatibility.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The compatibility of the replacement catalytic converter with the OBD system shall be demonstrated using the procedures of Annex 11, Appendix 1 to Regulation No. 83.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "Prior to installation of the replacement catalytic converter the OBD system shall indicate no malfunction and store no fault codes.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "5.5.4"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The malfunction indicator shall not activate during the vehicle operation required by paragraph 5.2.2. with the replacement catalytic converter fitted.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "5.5.5"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The replacement catalytic converter conforming to an approved type shall bear an international approval mark affixed conspicuously in the place specified on the approval form.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The approval mark on the replacement catalytic converter shall comprise a circle surrounding the letter E followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "4.6.1"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The approval mark shall show the number of this Regulation, the letter R, a dash and the approval number in the vicinity of the circle.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "4.6.2"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The approval mark shall be indelible and clearly legible when the replacement catalytic converter is mounted under the vehicle.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "4.8"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The approval mark applied to the replacement catalytic converter shall have a minimum dimension a of 8 mm.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "Each new replacement catalytic converter shall be indelibly marked with the manufacturer's name or trade mark.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "11.1"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The replacement catalytic converter shall be accompanied by information on the vehicles, including year of manufacture, for which it is approved.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "11.1.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "Where applicable, the information shall include a marking identifying whether the replacement catalytic converter is suitable for fitting to an OBD-equipped vehicle.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "11.1.1"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "Where necessary, the replacement catalytic converter shall be accompanied by installation instructions.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "11.1.2"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The required information shall be provided as a leaflet accompanying the replacement catalytic converter, or on its packaging, or by any other applicable means.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "11.2"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The sample of the replacement catalytic converter submitted shall be clearly and indelibly marked with the applicant's trade name or mark and its commercial designation.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 2,
+        "paragraph": "3.3.2"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "Where the replacement converter is a periodically regenerating system, the emission, noise, durability and OBD requirements of paragraphs 5.2.3., 5.3., 5.4. and 5.5. shall apply.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "5.6.4"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The replacement catalytic converter shall be qualified for the M1 vehicle category covered by this Regulation.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 1,
+        "paragraph": "1.1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The replacement catalytic converter shall ensure that tailpipe emissions are effectively limited throughout the lifetime of the vehicle under the specified test conditions.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 7,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "Where a type 3 test is performed on the vehicle fitted with the replacement converter, the crankcase ventilation system shall not permit crankcase gases to reach the atmosphere.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 8,
+        "paragraph": "5.3.3.2"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "Where the type 6 low-temperature test is performed, the carbon monoxide and hydrocarbon emissions of the vehicle shall be below the limits of Table 2.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 9,
+        "paragraph": "5.3.5.2"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "For an M1 vehicle of category M, the type 6 low-temperature limits shall be 15 g/km of CO and 1.8 g/km of HC.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 9,
+        "paragraph": "5.3.5.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Where the type 6 test is performed, the ambient test temperature shall be 266 K (-7 °C).",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 8,
+        "paragraph": "5.3.5.1.3"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "For each pollutant, at least two of the three type 6 test results shall be below the limit.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 9,
+        "paragraph": "5.3.5.2.1"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "One of the three type 6 test results may exceed the limit, but by no more than 10 per cent.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 9,
+        "paragraph": "5.3.5.2.1"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The vehicle shall be deemed satisfactory in the type 3 test if, in every measurement condition, the crankcase pressure does not exceed the prevailing atmospheric pressure.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 66,
+        "paragraph": "Annex 6 5.3"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "During the type 3 test, the intake manifold pressure shall be measured to within ±1 kPa.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 66,
+        "paragraph": "Annex 6 5.4"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "During the type 3 test, the vehicle speed indicated at the dynamometer shall be measured to within ±2 km/h.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 66,
+        "paragraph": "Annex 6 5.5"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "During the type 3 test, the crankcase pressure shall be measured to within ±0.01 kPa.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 66,
+        "paragraph": "Annex 6 5.6"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The type 3 measurements shall be performed at idling and at 50 km/h ±2 in the third gear or drive position.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 65,
+        "paragraph": "Annex 6 3.2"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "During the type 6 test the ambient temperature shall average 266 K ±3 K and stay between 260 K and 272 K.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 75,
+        "paragraph": "Annex 8 3.1.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "During the type 6 test the ambient temperature shall not fall below 263 K or exceed 269 K for more than three consecutive minutes.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 76,
+        "paragraph": "Annex 8 3.1.1"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The fuel used for the type 6 test shall comply with the reference fuel specifications of Annex 10, paragraph 2.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 77,
+        "paragraph": "Annex 8 3.4.1"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "Before the type 6 driving schedule begins, the test cell temperature measured in the cooling fan air stream shall be 266 K ±2 K.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 80,
+        "paragraph": "Annex 8 5.2.8"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "Before the type 6 test, the vehicle shall be stored for at least 12 hours and not more than 36 hours under the standard soak method.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 78,
+        "paragraph": "Annex 8 4.3.2"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The type 6 sampling shall begin before or at engine start and end after the final idling period of the last elementary cycle, after 780 seconds.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 80,
+        "paragraph": "Annex 8 5.3.1"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "During the type 6 test the vehicle heating and defrosting devices shall be shut off.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 80,
+        "paragraph": "Annex 8 5.2.9"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "For an M1 vehicle approved to Euro 7A, the emission character in the approval mark shall be FL.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 31,
+        "paragraph": "Annex 3"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The approval mark affixed to the vehicle shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 6,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 6,
+        "paragraph": "4.7"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "Where in-service conformity of the vehicle fitted with the replacement converter is checked, it shall be done between 15,000 km or 6 months and 200,000 km or 10 years, whichever occurs sooner.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 11,
+        "paragraph": "9.2.2"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "Where the vehicle is in the additional lifetime, a durability multiplier of 1.2 shall be applied to adjust the gaseous pollutant emission limits.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 7,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The manufacturer shall perform in-service conformity testing for tailpipe emissions comprising at least the type 1 test for all ISC families.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 33,
+        "paragraph": "Annex 4 5"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "For the type 1 in-service conformity statistical procedure, the minimum sample size for a pass shall be three vehicles and the maximum cumulative sample size ten vehicles.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 36,
+        "paragraph": "Annex 4 5.10.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "An in-service conformity emissions test shall be considered passed for a pollutant when its result is equal to or below the applicable emission limit of UN Regulation No. 154.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 37,
+        "paragraph": "Annex 4 5.10.3"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The pollution control systems installed together with the replacement converter shall minimise vulnerabilities that may lead to tampering to the fullest extent possible.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 81,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The pollution control system shall be protected against unauthorised modification of engine or sensor control unit data or software code.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 86,
+        "paragraph": "Annex 9 Appendix 1"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The pollution control system shall prevent unauthorised alteration of emission-related signals by physical modifications.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 87,
+        "paragraph": "Annex 9 Appendix 1"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "Where the type 3 test is required, it shall be carried out on the positive-ignition vehicle after it has been subjected to the type 1 test.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 65,
+        "paragraph": "Annex 6 2.1"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "Within ten minutes of completing the type 6 preconditioning, the engine shall be switched off.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 78,
+        "paragraph": "Annex 8 4.2.6"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The type 6 test fuel shall be at a temperature no higher than 289 K (+16 °C) when filled.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 78,
+        "paragraph": "Annex 8 4.2.1"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "When analysing the type 6 exhaust samples, care shall be taken to prevent condensation of water vapour in the sampling bags.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 80,
+        "paragraph": "Annex 8 5.3.2"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "Where the first type 6 result for each pollutant is less than or equal to 0.70 L, only one test shall be performed.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 9,
+        "paragraph": "5.3.5.3.1"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The replacement catalytic converter, where it is an electrical/electronic sub-assembly, shall comply with the electromagnetic compatibility requirements applicable to components fitted in M1 vehicles.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 1,
+        "paragraph": "1.2"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The electrical/electronic systems associated with the replacement catalytic converter shall be designed, constructed and fitted so that the vehicle complies with this Regulation in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "Where the replacement catalytic converter includes an ESA, that ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The broadband radiated emissions of the ESA shall stay below 62 to 52 dBµV/m in the 30 to 75 MHz band and 52 to 63 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "The broadband radiated emissions of the ESA shall stay below a constant 63 dBµV/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The measured broadband emission values of the ESA, in dBµV/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The narrowband radiated emissions of the ESA shall stay below 52 to 42 dBµV/m in the 30 to 75 MHz band and 42 to 53 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The measured narrowband emission value of the ESA, in dBµV/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "For an ESA on a 12 V system, the maximum allowed transient conducted disturbance on the supply lines shall be +75 V for positive polarity and -100 V for negative polarity.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The ESA immunity test level over 90 per cent of the 20 MHz to 2 GHz band shall be 60 V/m for stripline, 75 V/m for TEM cell, 60 mA for BCI, 30 V/m for ALSE and 21 V/m for reverberation chamber.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The minimum ESA immunity test level over the whole 20 MHz to 2 GHz band shall be 50 V/m for stripline, 62.5 V/m for TEM cell, 50 mA for BCI, 25 V/m for ALSE and 18 V/m for reverberation chamber.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The ESA shall comply with the immunity requirements if no degradation of performance of immunity related functions occurs during the Annex 9 tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "For transient pulse 1 immunity, an ESA on a 12 V system shall withstand -75 V for 500 pulses with functional status III.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "For transient pulse 2a immunity, an ESA on a 12 V system shall withstand +37 V for 500 pulses with functional status I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "For transient pulse 3a immunity, an ESA on a 12 V system shall withstand -112 V for 1 hour with functional status I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "For transient pulse 3b immunity, an ESA on a 12 V system shall withstand +75 V for 1 hour with functional status I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "Where the ESA does not include an electronic oscillator operating above 9 kHz, it shall be deemed to comply with the narrowband emission limits of paragraph 6.6.2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The ESA of the replacement catalytic converter conforming to an approved type shall bear the approval mark described in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The ESA approval mark shall comprise a circle containing the letter E followed by the distinguishing number of the granting country.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The ESA approval mark shall show the number of this Regulation, the letter R, a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The ESA approval mark need not be visible when the ESA is installed in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The approval mark affixed to the ESA shall have a minimum dimension a of 6 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The ESA sample submitted shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "Where a component sold as aftermarket equipment is not related to immunity related functions, no type approval is needed provided a manufacturer's declaration of conformity is issued.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 7,
+        "paragraph": "3.2.9"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "Where vehicle broadband emissions are measured at 10 m, the limits shall be 32 dBµV/m in the 30 to 75 MHz band and 32 to 43 dBµV/m in the 75 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "Where vehicle broadband emissions are measured at 10 m, the limit in the 400 to 1,000 MHz band shall remain constant at 43 dBµV/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "Where vehicle narrowband emissions are measured at 10 m, the limits shall be 28 dBµV/m in the 30 to 230 MHz band and 35 dBµV/m in the 230 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The vehicle immunity field strength shall be 30 V/m over 90 per cent of the 20 MHz to 2 GHz band and at least 25 V/m over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "Where BCI testing is used, the current shall be 60 mA over 90 per cent of the 20 MHz to 2 GHz band and at least 50 mA over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The vehicle shall comply with the immunity requirements if no degradation of immunity related functions occurs during the Annex 6 tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The vehicle radiated emission limits shall apply throughout the frequency range 30 to 1,000 MHz for ALSE or outdoor test site measurements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "Where peak detectors are used for the vehicle emission measurements, a correction factor of 20 dB shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.2"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz range in vertical polarization during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The immunity test signal shall use AM modulation with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "During the 50 km/h immunity mode, a speed variation greater than ±10 per cent of the nominal speed shall constitute a failure.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "During the 50 km/h immunity mode, a complete stop of the front wiper shall constitute a failure.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "During the vehicle immunity test, the engine shall turn the driving wheels at a steady speed of 50 km/h unless a different condition is technically justified.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "For the ESA broadband emission measurement, the extraneous noise or signal shall be at least 6 dB below the limits of paragraph 6.5.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "Where peak detectors are used for ESA emission measurements, a correction factor of 20 dB shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.2"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "For the ESA narrowband emission measurement, the extraneous noise or signal shall be at least 6 dB below the limits of paragraph 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "ESA narrowband emission measurements shall be performed with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.2"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "ESA immunity measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The ESA under test shall be switched on and stimulated to be in its normal operating condition during the immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "For conformity of production, the measured vehicle emission levels shall not exceed the reference limits by more than 4 dB (60 per cent).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.1"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "For conformity of production of an ESA, the measured emission levels shall not exceed the reference limits of paragraphs 6.5.2.1. or 6.6.2.1. by more than 4 dB.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.1"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "For conformity of production, the vehicle shall show no degradation of direct-control functions when subjected to 80 per cent of the immunity reference field strength.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 26,
+        "paragraph": "9.3.2"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "Where the ESA is powered by low voltage, a 5 µH / 50 Ω artificial network shall be used for the emission and immunity measurements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 35,
+        "paragraph": "Appendix 8 1"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "The artificial network shall be mounted directly on the ground plane and its grounding connection bonded to the ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 35,
+        "paragraph": "Appendix 8 1"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "Before testing, a test plan shall be prepared containing at least the mode of operation, stimulated functions, monitored functions, pass/fail criteria and intended emissions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "Where the ESA shall be operational during engine start phases, it shall withstand the starting profile at test level II for 10 pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The vehicle fitted with the replacement catalytic converter shall meet the emission limits set out in UN Regulation No. 83.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 7,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "Where the replacement converter is a periodically regenerating system, the original system of the test vehicle shall be replaced by it for the emission test.",
+      "source": {
+        "regulation": "UN R103",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "5.6.3.1"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "The replacement catalytic converter shall be designed to also meet the emission requirements introduced by the 09 series of amendments to UN Regulation No. 83, as applicable.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 12,
+        "paragraph": "12.1.1"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "Where the vehicle's low-temperature range ratio is verified, the check shall pass if the reported ratio multiplied by 1.04 is at least equal to the declared ratio.",
+      "source": {
+        "regulation": "UN R83",
+        "version": "9.0.0",
+        "page": 93,
+        "paragraph": "Annex 11 1.2"
+      }
+    }
+  ]
+}

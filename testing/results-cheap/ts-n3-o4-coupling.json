@@ -1,0 +1,46 @@
+{
+  "case": "ts-n3-o4-coupling",
+  "agent_exit": 0,
+  "agent_seconds": 28,
+  "run": "runs/ts-n3-o4-coupling/c2-base",
+  "spent_usd": 0.167,
+  "replayed_usd": 0.0,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "n_submitted": 1,
+      "n_expected": 2,
+      "n_matched": 1,
+      "f2": 0.5556
+    },
+    "page_level": {
+      "precision": 0.8181818181818182,
+      "recall": 0.24324324324324326,
+      "f1": 0.375,
+      "n_submitted": 11,
+      "n_expected": 37,
+      "n_matched": 9,
+      "f2": 0.283
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R102"
+  ],
+  "run_regulations": [
+    "UN R102"
+  ],
+  "n_gold": 122,
+  "n_upper_bound": 87,
+  "funnel": {
+    "gold_requirements": 122,
+    "reachable": 60,
+    "recall": 0.4918,
+    "selected_nodes": 87,
+    "gold_nodes": 95,
+    "gold_nodes_reached": 48,
+    "unanchored": 2
+  }
+}

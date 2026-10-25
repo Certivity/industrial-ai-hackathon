@@ -1,0 +1,1556 @@
+[
+  {
+    "regulation": "UN R103",
+    "paragraph": "1.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "This Regulation applies to the type-approval, as separate technical units, of pollution control device to be fitted in",
+    "label": "1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.1.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The replacement pollution control device shall be designed, constructed and capable of being mounted so as",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.1.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "to enable the vehicle to comply with the provisions of those Regulations which it was originally in compliance",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.1.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The installation of the replacement pollution control device shall be at the exact position of the original",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.1.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "position on the exhaust line of the oxygen probe(s) and other sensors, if applicable, shall not be modified",
+    "label": "5.1.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.1.3.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "If the original equipment pollution control device includes thermal protections, the replacement pollution",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.1.4.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The replacement pollution control device shall be durable, that is designed, constructed and capable of",
+    "label": "5.1.4"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.",
+    "page": 5,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "equipped with a replacement pollution control device of the type for which approval is requested, shall be subjected to a type I test",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle(s) shall be fitted with a new original pollution control device (see paragraph 3.3.1.) which shall be run",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "After this preconditioning, the vehicle(s) shall be kept in a room in which the temperature remains relatively constant between 293 and 303",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "This conditioning shall be carried out for at least six hours and continue until the engine oil temperature and coolant, if any, are",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.1.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "within ±2 K of the temperature of the room. Subsequently three exhaust gas tests type I shall be made.",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The original pollution control device of the test vehicle(s) shall be replaced by the replacement pollution control",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "which shall be run in with 12 extra urban cycles (test type I part 2)",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "This conditioning shall be carried out for at least six hours and continue until the engine oil temperature and coolant, if any, are within ±2 K of the temperature",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.2.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Subsequently three exhaust gas tests type I shall be made.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The test vehicle(s) with the original pollution control device shall comply with the limit values according to the",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "the following conditions: (1) M ≤ 0.85S + 0.4G",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "(2) M ≤ G",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "M: mean value of the emissions of one pollutant (CO, HC, NOx particulates and particles) or the sum of two",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "S: mean value of the emissions of one pollutant (CO, HC, NOx particulates and particles) or the sum of two pollutants (HC + NOx) obtained from the three type I tests",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.3.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "G: limit value of the emissions of one pollutant (CO, HC, NOx, particulates and particles) or the sum of two pollutants (HC + NOx) according to the type approval",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.2.4.",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For pollution control devices intended to be fitted to vehicles type approved to the 06 series of amendments to Regulation No. 83, the regulated pollutants referred to throughout paragraph 5.2.3.",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.3.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The replacement pollution control device shall satisfy the technical requirements of Regulation No. 59.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.3.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The value determined under reference atmospheric conditions as specified in Regulation No. 85 with the replacement control device shall not be lower by more than 5 per cent",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.4.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The replacement pollution control device shall comply with the requirements of paragraph 5.3.6. of Regulation No. 83 i.e. type V test or deterioration factors from the following table",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.4. Table",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Positive-ignition 1.2 1.2 1.2 1.2(2) -",
+    "label": "5.4",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.5.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "OBD compatibility demonstration is required only when the original pollution control device was monitored in",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.5.1.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The compatibility of the replacement pollution control device with the OBD system shall be demonstrated by using the procedures described",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.5.4.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "In order to verify the correct installation and functioning of all other components monitored by the OBD system, the OBD system shall indicate no malfunction and have no stored fault codes prior to the installation",
+    "label": "5.5.4"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.5.5.",
+    "page": 6,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The malfunction indicator (MI: see reference paragraph 2.5. of Annex 11 to the 05 or later series of amendments to Regulation No. 83) shall not activate during vehicle operation required by paragraph 5.2.2.",
+    "label": "5.5.5"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "4.6.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "There shall be affixed, conspicuously and in a place specified on the approval form, to the replacement pollution control device conforming to a type",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "4.6.1.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted",
+    "label": "4.6.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "4.6.2.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number in the vicinity of the circle",
+    "label": "4.6.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "4.8.",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be indelible and clearly legible when the replacement pollution control device is mounted under the vehicle.",
+    "label": "4.8"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "Annex 2 Model A",
+    "page": 11,
+    "raw_pages": [
+      11,
+      12
+    ],
+    "verdict": "ok",
+    "exact": "a = 8 mm min",
+    "label": "Annex 2",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "11.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Each new replacement pollution control device shall be indelibly marked with the manufacturer’s name or",
+    "label": "11.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "11.1.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The vehicles (including year of manufacture) for which the replacement pollution control device is approved, including, where applicable, a marking to identify if the replacement pollution control device is suitable",
+    "label": "11.1.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "11.1.1.",
+    "page": 9,
+    "raw_pages": [
+      3,
+      9
+    ],
+    "verdict": "ok",
+    "exact": "for fitting to a vehicle that is equipped with an on-board diagnostic (OBD) system.",
+    "label": "11.1.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "11.1.2.",
+    "page": 9,
+    "raw_pages": [
+      3,
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Installation instructions, where necessary.",
+    "label": "11.1.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "11.2.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "As a leaflet accompanying the replacement pollution control device; or",
+    "label": "11.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "3.3.2.",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "This sample shall be clearly and indelibly marked with the applicant’s trade name or mark and its commercial designation.",
+    "label": "3.3.2"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.6.4.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The requirements of paragraphs 5.2.3., 5.3., 5.4. and 5.5. of this Regulation shall apply to replacement periodically regenerating systems.",
+    "label": "5.6.4"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "1.1.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "This Regulation shall apply to vehicles of categories M1 and N1.",
+    "label": "1.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.1.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the technical measures taken by the manufacturer must be such as to ensure that the tailpipe emissions are effectively limited, pursuant to this Regulation, throughout the lifetime of the vehicles",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.3.2.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "When tested in accordance with Annex 6 to this Regulation, the engine's crankcase ventilation system shall not permit the emission of any of the crankcase gases into the atmosphere.",
+    "label": "5.3.3.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.2.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The resulting mass of carbon monoxide and hydrocarbon emission shall be less than the limits shown in Table 2.",
+    "label": "5.3.5.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.2. Table 2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "M - 15 1.8",
+    "label": "5.3.5.2. Table 2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.1.3.",
+    "page": 9,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The low ambient temperature test shall be carried out at an ambient test temperature of 266 K (-7 °C).",
+    "label": "5.3.5.1.3"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.2.1.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "for each pollutant, at least two of the three test results must be below the limit",
+    "label": "5.3.5.2.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.2.1.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "One of the test results can exceed the limit but by no more than 10 per cent.",
+    "label": "5.3.5.2.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 6 5.3.",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall be deemed satisfactory if, in every condition of measurement defined in paragraph 3.2. of this annex, the pressure measured in the crankcase does not exceed the atmospheric pressure",
+    "label": "Annex 6 5.3"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 6 5.4.",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "the pressure in the intake manifold shall be measured to within ±1 kPa.",
+    "label": "Annex 6 5.4"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 6 5.5.",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle speed as indicated at the dynamometer shall be measured to within ±2 km/h.",
+    "label": "Annex 6 5.5"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 6 5.6.",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The pressure measured in the crankcase shall be measured to within ±0.01 kPa.",
+    "label": "Annex 6 5.6"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 6 3.2.",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "Condition number Vehicle speed (km/h) 1 Idling 2 50 ±2 (in 3rd gear or \"drive\")",
+    "label": "Annex 6 3.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 3.1.1.",
+    "page": 75,
+    "raw_pages": [
+      75
+    ],
+    "verdict": "ok",
+    "exact": "Ambient temperature levels encountered by the test vehicle shall average: 266 K (-7 °C) ±3 K and shall not be less than 260 K (-13 °C), or more than 272 K (-1 °C).",
+    "label": "Annex 8 3.1.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 3.1.1.",
+    "page": 75,
+    "raw_pages": [
+      76
+    ],
+    "verdict": "ok",
+    "exact": "The temperature may not fall below 263 K (-10 °C) or exceed 269 K (-4 °C) for more than three consecutive minutes.",
+    "label": "Annex 8 3.1.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 3.4.1.",
+    "page": 76,
+    "raw_pages": [
+      77
+    ],
+    "verdict": "ok",
+    "exact": "The test fuel shall comply with the specifications given in paragraph 2. of Annex 10 to this Regulation.",
+    "label": "Annex 8 3.4.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 5.2.8.",
+    "page": 80,
+    "raw_pages": [
+      80
+    ],
+    "verdict": "ok",
+    "exact": "Before the emission test driving schedule may begin, the test cell temperature shall be 266 K (-7 °C) ± 2 K, as measured in the air stream of the cooling fan",
+    "label": "Annex 8 5.2.8"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 4.3.2.",
+    "page": 78,
+    "raw_pages": [
+      78
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle is stored for not less than 12 hours nor for more than 36 hours prior to the low ambient temperature exhaust emission test.",
+    "label": "Annex 8 4.3.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 5.3.1.",
+    "page": 79,
+    "raw_pages": [
+      80
+    ],
+    "verdict": "ok",
+    "exact": "The sampling begins before or at the initiation of the engine start-up procedure and ends on conclusion of the final idling period",
+    "label": "Annex 8 5.3.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 5.2.9.",
+    "page": 80,
+    "raw_pages": [
+      80
+    ],
+    "verdict": "ok",
+    "exact": "During operation of the vehicle the heating and defrosting devices shall be shut off.",
+    "label": "Annex 8 5.2.9"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 10 2. Table",
+    "page": 90,
+    "raw_pages": [
+      91
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 10 154"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 10 2. Table",
+    "page": 90,
+    "raw_pages": [
+      91
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 10 154"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 10 2. Table",
+    "page": 90,
+    "raw_pages": [
+      91
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 10 154"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 3 1.",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 3"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 3 1.",
+    "page": 29,
+    "raw_pages": [
+      29
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 3"
+    ]
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 3 Table A3/1",
+    "page": 30,
+    "raw_pages": [
+      31
+    ],
+    "verdict": "ok",
+    "exact": "FL Euro 7A MA or MC OA M1, N1",
+    "label": "Annex 3",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "4.6.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be clearly legible and be indelible.",
+    "label": "4.6"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "4.7.",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be placed close to or on the vehicle data plate.",
+    "label": "4.7"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "9.2.2.",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "In-service conformity shall be checked on properly maintained and used vehicles, in accordance with Appendix 1 of Annex 4, between 15,000 km or 6 months whichever occurs later and 200,000 km or 10 years whichever occurs sooner.",
+    "label": "9.2.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.1.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "For vehicles in the additional lifetime, a durability multiplier of 1.2 for adjusting the emission limits for gaseous pollutants shall be used.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 4 5.",
+    "page": 33,
+    "raw_pages": [
+      33
+    ],
+    "verdict": "ok",
+    "exact": "The manufacturer shall perform ISC testing for tailpipe emissions comprising at least the Type 1 test for all ISC families.",
+    "label": "Annex 4 5"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 4 5.10.1.",
+    "page": 36,
+    "raw_pages": [
+      36
+    ],
+    "verdict": "ok",
+    "exact": "The minimum sample size for a pass result is three vehicles, and the maximum cumulative sample size is ten vehicles for the Type 1 and RDE tests.",
+    "label": "Annex 4 5.10.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 4 5.10.3.",
+    "page": 37,
+    "raw_pages": [
+      37
+    ],
+    "verdict": "ok",
+    "exact": "An ISC emissions test shall be considered as ‘passed’ for one or more pollutants when the emissions result is equal or below the emission limit set out in paragraph 6.3.10. of UN Regulation No. 154",
+    "label": "Annex 4 5.10.3"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 9 3.1.",
+    "page": 85,
+    "raw_pages": [
+      81
+    ],
+    "verdict": "wrong page",
+    "exact": "vulnerabilities that may lead to tampering shall be minimised to the fullest extent possible",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 9 Appendix 1 Table 4.1",
+    "page": 86,
+    "raw_pages": [
+      86
+    ],
+    "verdict": "ok",
+    "exact": "Unauthorised modification of engine/sensor control unit (ECU/SCU) data or software code",
+    "label": "Annex 9 Appendix 1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 9 Appendix 1 Table 4.1",
+    "page": 87,
+    "raw_pages": [
+      87
+    ],
+    "verdict": "ok",
+    "exact": "Unauthorised alteration or manipulation of emission-related signals (e.g., ambient or exhaust temperature) by physical modifications, for example by modifiers",
+    "label": "Annex 9 Appendix 1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 6 2.1.",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "The Type 3 test, if required, shall be carried out on a vehicle with positive- ignition engine, which has been, subjected to the Type 1 test, as specified in UN Regulation No. 154.",
+    "label": "Annex 6 2.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 4.2.6.",
+    "page": 76,
+    "raw_pages": [
+      78
+    ],
+    "verdict": "wrong page",
+    "exact": "Within ten minutes of completion of the preconditioning, the engine shall be switched off.",
+    "label": "Annex 8 4.2.6"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 4.2.1.",
+    "page": 78,
+    "raw_pages": [
+      78
+    ],
+    "verdict": "ok",
+    "exact": "The test fuel shall be at a temperature less than or equal to 289 K (+16 °C).",
+    "label": "Annex 8 4.2.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 8 5.3.2.",
+    "page": 80,
+    "raw_pages": [
+      80
+    ],
+    "verdict": "ok",
+    "exact": "the Technical Service shall exercise care to prevent condensation of water vapour in the exhaust gas sampling bags.",
+    "label": "Annex 8 5.3.2"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.3.5.3.1.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Only one test is performed if the result obtained for each pollutant of the first test is less than or equal to 0.70 L.",
+    "label": "5.3.5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "1.2.",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "Components and separate technical units intended to be fitted in these vehicles with the limitation given in paragraph 3.2.1. with regard to electromagnetic compatibility.",
+    "label": "1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 42 to 53 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2.",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Positive +75 V +150 V Negative -100 V -450 V",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+    "label": "6.8.2.1. Table 2a"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "1 -75 V -450 V 500 pulses III III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3b +75 V +150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.1.",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+    "label": "6.10.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5.",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 1 Model A",
+    "page": 44,
+    "raw_pages": [
+      44,
+      45
+    ],
+    "verdict": "ok",
+    "exact": "a = 6 mm min",
+    "label": "Annex 1",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6.",
+    "page": 5,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.9.",
+    "page": 6,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Components sold as aftermarket equipment and intended for the installation in motor vehicles need no type approval if they are not related to immunity related functions",
+    "label": "3.2.9"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1.",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1.",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 43 dB microvolts/m.",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1.",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the current shall be 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 50 mA over the whole 20 to 2,000 MHz frequency band",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2.",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.1.",
+    "page": 57,
+    "raw_pages": [
+      57,
+      68
+    ],
+    "verdict": "ok",
+    "exact": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or an outdoor test site (OTS).",
+    "label": "Annex 4 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.2.",
+    "page": 57,
+    "raw_pages": [
+      57
+    ],
+    "verdict": "ok",
+    "exact": "If peak detectors are used, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+    "label": "Annex 4 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 4.1.",
+    "page": 79,
+    "raw_pages": [
+      79
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency ranges in vertical polarization.",
+    "label": "Annex 6 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 4.1.",
+    "page": 79,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+    "label": "Annex 6 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2.",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "Speed variation greater than ±10 per cent of the nominal speed.",
+    "label": "Annex 6 2.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.2.",
+    "page": 73,
+    "raw_pages": [
+      73
+    ],
+    "verdict": "ok",
+    "exact": "Complete stop of front wiper",
+    "label": "Annex 6 2.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.1.",
+    "page": 73,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "The engine shall normally turn the driving wheels at a steady speed of 50 km/h if there is no technical reason due to the vehicle to define a different condition.",
+    "label": "Annex 6 2.1.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.4.",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+    "label": "Annex 7 3.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 4.2.",
+    "page": 92,
+    "raw_pages": [
+      92,
+      122,
+      142
+    ],
+    "verdict": "ok",
+    "exact": "If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+    "label": "Annex 7 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 3.3.",
+    "page": 96,
+    "raw_pages": [
+      96
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.6.2.1. of this Regulation",
+    "label": "Annex 8 3.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 4.2.",
+    "page": 96,
+    "raw_pages": [
+      68,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be performed with an average detector.",
+    "label": "Annex 8 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1.",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 2.2.",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "The ESA under test shall be switched on and shall be stimulated to be in normal operation condition.",
+    "label": "Annex 9 2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "9.3.1.",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "the levels measured do not exceed by more than 4 dB (60 per cent) the reference limits prescribed in paragraphs 6.2.2.1., 6.2.2.2., 6.3.2.1., 6.3.2.2.",
+    "label": "9.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "9.3.1.",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "paragraphs 6.5.2.1., 6.6.2.1., and, if applicable, paragraph 7.10.2.1. above for ESAs (as appropriate).",
+    "label": "9.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "9.3.2.",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "is subjected to a field strength, expressed in Volts/m, up to 80 per cent of the reference limits prescribed in paragraph 6.4.2.1.",
+    "label": "9.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 1.",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "For an ESA powered by LV, a 5 µH / 50 Ω AN as defined in Figure 1 shall be used.",
+    "label": "Appendix 8 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Appendix 8 1.",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "The AN(s) shall be mounted directly on the ground plane. The grounding connection of the AN(s) shall be bonded",
+    "label": "Appendix 8 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.2.",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Before testing, the Technical Service shall prepare a test plan in conjunction with the manufacturer, which contains at least mode of operation, stimulated function(s), monitored function(s), pass/fail criterion(criteria) and intended emissions.",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses (for ESA which shall be operational during engine start phases)",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "5.1.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "These obligations include meeting the emission limits set out in this Regulation.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R103",
+    "paragraph": "5.6.3.1.",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The original equipment periodically regenerating system of the test vehicle(s) shall be replaced by the replacement periodically regenerating system.",
+    "label": "5.6.3.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "12.1.1.",
+    "page": 111,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "wrong page",
+    "exact": "As from the official date of entry into force of the 09 series of amendments, no Contracting Party applying this Regulation shall refuse to grant approval under this Regulation as amended by the 09 series of amendments.",
+    "label": "12.1.1"
+  },
+  {
+    "regulation": "UN R83",
+    "paragraph": "Annex 11 1.2.",
+    "page": 94,
+    "raw_pages": [
+      93
+    ],
+    "verdict": "ok",
+    "exact": "The verification of the single vehicle low temperature range ratio shall lead to a Pass if the reported low temperature range ratio multiplied by 1.04 is higher or equal to the declared low temperature range ratio",
+    "label": "Annex 11 1.2"
+  }
+]

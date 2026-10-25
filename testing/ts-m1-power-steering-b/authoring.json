@@ -1,0 +1,1146 @@
+{
+  "case_id": "ts-m1-power-steering-b",
+  "regulation": "UN R79",
+  "requirements": [
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.1",
+      "quote": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed",
+      "text": "The electric power steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.1",
+      "quote": "There shall be a tendency to self-centre when tested in accordance with paragraph 6.2. with the intact steering equipment",
+      "text": "The electric power steering system shall show a tendency to self-centre when tested in accordance with paragraph 6.2 with the steering equipment intact."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.2",
+      "quote": "It shall be possible to travel along a straight section of road without unusual steering correction by the driver and without unusual vibration in the steering system at the maximum design speed",
+      "text": "The vehicle shall be able to travel along a straight section of road without unusual steering correction by the driver and without unusual vibration in the steering system at the maximum design speed."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.3",
+      "quote": "The direction of operation of the steering control shall correspond to the intended change of direction of the vehicle",
+      "text": "The direction of operation of the steering control shall correspond to the intended change of direction of the vehicle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.4",
+      "quote": "The steering equipment shall be designed, constructed and fitted in such a way that it is capable of withstanding the stresses arising during normal operation of the vehicle",
+      "text": "The steering equipment shall be designed, constructed and fitted so that it can withstand the stresses arising during normal operation of the vehicle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.4",
+      "quote": "The maximum steering angle shall not be limited by any part of the steering transmission unless specifically designed for this purpose",
+      "text": "The maximum steering angle shall not be limited by any part of the steering transmission unless that part is specifically designed for the purpose."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.5",
+      "quote": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields",
+      "text": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6",
+      "quote": "Advanced driver assistance steering systems shall only be approved in accordance with this Regulation where the function does not cause any deterioration in the performance of the basic steering system",
+      "text": "The corrective steering function shall not cause any deterioration in the performance of the basic steering system."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6",
+      "quote": "they shall be designed such that the driver may, at any time and by deliberate action, override the function",
+      "text": "The corrective steering function shall be designed such that the driver may, at any time and by deliberate action, override the function."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6.1.1",
+      "quote": "Every CSF intervention shall immediately be indicated to the driver by an optical warning signal which is displayed for at least 1 s or as long as the intervention exists",
+      "text": "Every intervention of the corrective steering function shall immediately be indicated to the driver by an optical warning signal displayed for at least 1 s or for as long as the intervention exists, whichever is longer."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6.1.1",
+      "quote": "When a flashing mode is used, a lighting phase shall be visible at the end of the intervention or later",
+      "text": "Where the corrective steering function warning uses a flashing mode, a lighting phase shall be visible at the end of the intervention or later."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6.1.2.1",
+      "quote": "In the case of an intervention longer than: (a) 10 s for vehicles of category M1 and N1",
+      "text": "For an intervention of the lane-marking-based corrective steering function longer than 10 s on an M1 vehicle, an acoustic warning signal shall be provided until the end of the intervention."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6.1.2.2",
+      "quote": "In the case of two or more consecutive interventions within a rolling interval of 180 seconds and in the absence of a steering input by the driver during the intervention",
+      "text": "Where two or more consecutive corrective steering interventions occur within a rolling interval of 180 seconds without driver steering input, an acoustic warning signal shall be provided during the second and any further intervention."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6.1.2.2",
+      "quote": "Starting with the third intervention (and subsequent interventions) the acoustic warning signal shall continue for at least 10 seconds longer than the previous warning signal",
+      "text": "Starting with the third and subsequent corrective steering interventions, the acoustic warning signal shall continue for at least 10 seconds longer than the previous warning signal."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.6.1.3",
+      "quote": "The steering control effort necessary to override the directional control provided by the system shall not exceed 50 N in the whole range of CSF operations",
+      "text": "The steering control effort necessary to override the directional control provided by the corrective steering function shall not exceed 50 N over the whole range of its operations."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.10",
+      "quote": "in the case of a failure in any system which shares the same energy supply steering shall be ensured in accordance with the relevant failure conditions of paragraph 5.3",
+      "text": "Where the steering system shares its energy supply with other systems, steering shall be ensured in accordance with the failure conditions of paragraph 5.3 when a failure occurs in any of those systems."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.11",
+      "quote": "The requirements of Annex 6 shall be applied to the safety aspects of electronic vehicle control systems that provide or form part of the control transmission of the steering function",
+      "text": "The safety aspects of the electronic control unit and its software forming part of the steering control transmission shall meet the requirements of Annex 6."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.8.1",
+      "quote": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection can be established between the adjustable components by appropriate locking devices",
+      "text": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection is established between the adjustable components by appropriate locking devices."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.9",
+      "quote": "The steered wheels shall not be solely the rear wheels",
+      "text": "The steered wheels shall not be solely the rear wheels."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.3.1.1",
+      "quote": "Where the failure of any such part would be likely to result in loss of control of the vehicle, that part shall be made of metal or of a material with equivalent characteristics",
+      "text": "Any steering part whose failure would likely result in loss of control shall be made of metal or a material with equivalent characteristics and shall not be subject to significant distortion in normal operation."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.3.1.2",
+      "quote": "The requirements of paragraphs 5.1.2., 5.1.3. and 6.2.1. shall also be satisfied with a failure in the steering equipment as long as the vehicle can be driven with the speeds required",
+      "text": "The requirements of paragraphs 5.1.2, 5.1.3 and 6.2.1 shall also be satisfied with a failure in the steering equipment as long as the vehicle can be driven at the speeds required in those paragraphs."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.3.1.3",
+      "quote": "Any failure in a transmission other than purely mechanical shall clearly be brought to the attention of the vehicle driver as given in paragraph 5.4",
+      "text": "Any failure in the electric transmission shall clearly be brought to the attention of the vehicle driver as given in paragraph 5.4."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.3.2.1",
+      "quote": "Should the engine stop or a part of the transmission fail, with the exception of those parts listed in paragraph 5.3.1.1., there shall be no immediate changes in steering angle",
+      "text": "When the engine stops or a part of the transmission other than those in paragraph 5.3.1.1 fails, there shall be no immediate change in steering angle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.3.2.1",
+      "quote": "As long as the vehicle is capable of being driven at a speed greater than 10 km/h the requirements given in paragraph 6., relating to a system with a failure, shall be met",
+      "text": "As long as the vehicle can be driven at a speed greater than 10 km/h, the requirements of paragraph 6 relating to a system with a failure shall be met."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.1.1",
+      "quote": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver of the vehicle",
+      "text": "Any fault impairing the steering function that is not mechanical in nature shall be signalled clearly to the driver of the vehicle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.1.2",
+      "quote": "Optical warning signals shall be visible, even by daylight and distinguishable from other alerts",
+      "text": "Optical warning signals shall be visible even by daylight and distinguishable from other alerts."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.1.2",
+      "quote": "the satisfactory condition of the signals shall be easily verifiable by the driver from the driver's seat",
+      "text": "The satisfactory condition of the warning signals shall be easily verifiable by the driver from the driver's seat."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.1.2",
+      "quote": "the failure of a component of the warning devices shall not entail any loss of the steering system's performance",
+      "text": "The failure of a component of the warning devices shall not entail any loss of the steering system's performance."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.1.3",
+      "quote": "Acoustic warning signals shall be easily recognized by the driver",
+      "text": "Acoustic warning signals shall be by continuous or intermittent sound signal or by vocal information and shall be easily recognized by the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.2.1.1",
+      "quote": "A red warning signal, indicating failures defined in paragraph 5.3.1.3. within the main steering equipment, if a single additional failure could result in a complete loss of steering function",
+      "text": "A red warning signal shall be provided for failures within the main steering equipment where a single additional failure could result in a complete loss of steering function."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.2.1.2",
+      "quote": "Where applicable, a yellow warning signal indicating an electrically detected defect within the steering equipment, which is not indicated by the red warning signal",
+      "text": "A yellow warning signal shall indicate an electrically detected defect within the steering equipment that is not indicated by the red warning signal."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.2.1.3",
+      "quote": "If a symbol is used, it shall comply with symbol J 04, ISO/IEC registration number 7000-2441 as defined in ISO 2575:2000",
+      "text": "Where a symbol is used for the steering failure warning, it shall comply with symbol J 04, ISO/IEC registration number 7000-2441 as defined in ISO 2575:2000."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.2.1.4",
+      "quote": "The warning signal(s) mentioned above shall light up when the electrical equipment of the vehicle (and the steering system) is energised",
+      "text": "The warning signals shall light up when the electrical equipment of the vehicle and the steering system is energised."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.2.1.4",
+      "quote": "With the vehicle stationary, the steering system shall verify that none of the specified failures or defects is present before extinguishing the signal",
+      "text": "With the vehicle stationary, the steering system shall verify that none of the specified failures or defects is present before extinguishing the warning signal."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.2.1.4",
+      "quote": "Specified failures or defects which should activate the warning signal mentioned above, but which are not detected under static conditions, shall be stored upon detection and be displayed at start-up",
+      "text": "Specified failures or defects not detected under static conditions shall be stored upon detection and displayed at start-up and at all times when the ignition switch is in the on position, as long as the failure persists."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.3",
+      "quote": "In the case where additional steering equipment is in operation and/or where the steering angle generated by that equipment has not been returned to normal driving position a warning signal shall be given to the driver",
+      "text": "Where the corrective steering function has generated a steering angle that has not been returned to the normal driving position, a warning signal shall be given to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.5.1",
+      "quote": "the steering equipment and its installation shall be so designed that, without disassembly, its operation can be checked with, if necessary, commonly used measuring instruments, methods or test equipment",
+      "text": "The steering equipment and its installation shall be designed so that, without disassembly, its operation can be checked with commonly used measuring instruments, methods or test equipment."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.5.2",
+      "quote": "It shall be possible to verify in a simple way the correct operational status of those Electronic Systems, which have control over steering",
+      "text": "It shall be possible to verify in a simple way the correct operational status of the electronic control unit that has control over steering."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.5.2.1",
+      "quote": "At the time of type approval the means implemented to protect against simple unauthorized modification to the operation of the verification means chosen by the manufacturer (e.g. warning signal) shall be confidentially outlined",
+      "text": "The means implemented to protect against simple unauthorised modification to the operation of the chosen verification means shall be outlined."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.1.1",
+      "quote": "The test shall be conducted on a level surface affording good adhesion",
+      "text": "The steering performance tests shall be conducted on a level surface affording good adhesion."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.1.2",
+      "quote": "During the test(s), the vehicle shall be loaded to its technically permissible maximum mass and its technically permissible maximum load on the steered axle(s)",
+      "text": "During the tests the vehicle shall be loaded to its technically permissible maximum mass and its technically permissible maximum load on the steered axle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.1.3",
+      "quote": "Before the test begins, the tyre pressures shall be as prescribed by the manufacturer for the mass specified in paragraph 6.1.2. when the vehicle is stationary",
+      "text": "Before the test begins, the tyre pressures shall be as prescribed by the manufacturer for the mass specified in paragraph 6.1.2 when the vehicle is stationary."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.1.4",
+      "quote": "all performance tests shall be carried out under conditions of actual or simulated electrical load of all essential systems or systems components which share the same energy supply",
+      "text": "All performance tests shall be carried out under actual or simulated electrical load of all essential systems sharing the same energy supply, comprising at least lighting, windscreen wipers, engine management and braking systems."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.1",
+      "quote": "It shall be possible to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment at the following speed: Category M1 vehicles: 50 km/h",
+      "text": "It shall be possible to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment at 50 km/h for the M1 vehicle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.2",
+      "quote": "When the vehicle is driven in a circle with its steered wheels at approximately half lock and a constant speed of at least 10 km/h, the turning circle shall remain the same or become larger if the steering control is released",
+      "text": "When the vehicle is driven in a circle with its steered wheels at approximately half lock and at a constant speed of at least 10 km/h, the turning circle shall remain the same or become larger if the steering control is released."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.3",
+      "quote": "During the measurement of control effort, forces with a duration of less than 0.2 seconds shall not be taken into account",
+      "text": "During measurement of steering control effort, forces with a duration of less than 0.2 seconds shall not be taken into account."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.4.1",
+      "quote": "The vehicle shall be driven from straight ahead into a spiral at a speed of 10 km/h",
+      "text": "The vehicle shall be driven from straight ahead into a spiral at a speed of 10 km/h for the steering effort measurement."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.4.1",
+      "quote": "The steering wheel control effort shall be measured at the nominal radius of the steering control until the position of the steering control corresponds to turning radius given in the table below",
+      "text": "The steering wheel control effort shall be measured at the nominal radius of the steering control until its position corresponds to the turning radius in Table 2, with one steering movement to the right and one to the left."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.4.2",
+      "quote": "The maximum permitted steering time and the maximum permitted steering control effort with intact steering equipment are given in the table below for each category of vehicle",
+      "text": "With intact steering equipment, the M1 vehicle shall achieve a turning radius of 12 m within a maximum steering time of 4 s and with a maximum steering control effort of 15 daN."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.5.2",
+      "quote": "The maximum permitted steering time and the maximum permitted steering control effort with a failure in the steering equipment are given in the table below",
+      "text": "With a failure in the steering equipment, the M1 vehicle shall achieve a turning radius of 20 m within a maximum steering time of 4 s and with a maximum steering control effort of 30 daN."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2",
+      "quote": "The tests shall be performed on a flat, dry asphalt or concrete surface affording good adhesion. The ambient temperature shall be between 0 °C and 45 °C",
+      "text": "The corrective steering function tests shall be performed on a flat, dry asphalt or concrete surface with good adhesion and at an ambient temperature between 0 °C and 45 °C."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.1",
+      "quote": "The width of the lane shall be minimum 3.5 m, for the purpose of the tests of this annex",
+      "text": "The lane used for the corrective steering function tests shall be at least 3.5 m wide."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.1",
+      "quote": "The lane markings on the road used for the tests shall be in line with one of those described in Annex 3 of UN Regulation No. 130",
+      "text": "The lane markings used for the tests shall be in line with one of those described in Annex 3 of UN Regulation No. 130 (00 series) and in good condition."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.2",
+      "quote": "All vehicle speeds specified for the tests described in this annex shall be met within a tolerance of ±2 km/h",
+      "text": "All vehicle speeds specified for the tests shall be met within a tolerance of ±2 km/h."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.3.1",
+      "quote": "The vehicle shall be tested in a load condition agreed between the manufacturer and the Technical Service. No load alteration shall be made once the test procedure has begun",
+      "text": "The vehicle shall be tested in a load condition agreed with the Technical Service, with no load alteration once the test procedure has begun."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.3.2",
+      "quote": "The vehicle shall be tested at the tyre pressures recommended by the vehicle manufacturer",
+      "text": "The vehicle shall be tested at the tyre pressures recommended by the vehicle manufacturer."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.4",
+      "quote": "The sampling rate shall be at least 100 Hz",
+      "text": "The raw lateral acceleration data shall be sampled at a rate of at least 100 Hz."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.4",
+      "quote": "To determine the lateral acceleration, the raw data shall be filtered by applying a fourth order Butterworth filter with a cut-off frequency of 0.5 Hz",
+      "text": "To determine the lateral acceleration, the raw data shall be filtered with a fourth order Butterworth filter having a cut-off frequency of 0.5 Hz."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.4",
+      "quote": "To determine the lateral jerk, the 500ms moving average of the time derivation of the filtered lateral acceleration shall be considered",
+      "text": "To determine the lateral jerk, the 500 ms moving average of the time derivative of the filtered lateral acceleration shall be used."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 2.5",
+      "quote": "it shall be verified by an external measurement device that there are no relevant differences between the both measured values. Differences shall be less than or equal to 3 N",
+      "text": "Before the overriding force test using the internal driver torque signal, an external measurement device shall confirm that differences between the two measured values are less than or equal to 3 N."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 3.1.2.2",
+      "quote": "The test requirements are fulfilled if the force applied by the driver on the steering control to override the intervention does not exceed 50 N",
+      "text": "The overriding force test on the corrective steering function is passed if the force applied by the driver on the steering control to override the intervention does not exceed 50 N."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 3.1.1.1",
+      "quote": "The vehicle shall be driven with an activated CSF on a road with lane markings on each side of the lane",
+      "text": "For the corrective steering warning test, the vehicle shall be driven with the corrective steering function activated on a road with lane markings on each side of the lane."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 3.1.1.1",
+      "quote": "the vehicle shall be driven such that it attempts to leave the lane and causes CSF intervention to be maintained for a period longer than 10s (for M1, N1)",
+      "text": "The vehicle shall be driven such that it attempts to leave the lane and maintains the corrective steering intervention for a period longer than 10 s."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 3.1.1.1",
+      "quote": "The acoustic or haptic warning, as relevant, is provided no later than 10s (for M1, N1) or 30s (for M2, M3, N2, N3) after the beginning of the intervention",
+      "text": "The warning test is passed if the relevant acoustic or haptic warning is provided no later than 10 s after the beginning of the intervention."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 3.1.1.1",
+      "quote": "the vehicle shall be driven such that it attempts to leave the lane and causes at least three interventions of the system within a rolling interval of 180 s",
+      "text": "For the repeated-intervention warning test, the vehicle shall be driven such that it causes at least three corrective steering interventions within a rolling interval of 180 s."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 8 3.1.1.1",
+      "quote": "The acoustic or haptic warning signal, as relevant, at the third intervention is at least 10s longer than the one at the second intervention",
+      "text": "The relevant acoustic or haptic warning signal at the third intervention shall be at least 10 s longer than the one at the second intervention."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 3.1",
+      "quote": "Is designed to operate, under non-fault and fault conditions, in such a way that it does not induce safety critical risks",
+      "text": "The electronic steering control system shall be designed to operate, under non-fault and fault conditions, in such a way that it does not induce safety critical risks."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 3.1",
+      "quote": "Respects, under non-fault and fault conditions, all the appropriate performance requirements specified elsewhere in this Regulation",
+      "text": "The electronic steering control system shall respect, under non-fault and fault conditions, all the appropriate performance requirements specified in UN R79."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 2.2",
+      "quote": "The possibility of a fall-back to partial operation or even to a back-up system for vital vehicle functions may be a part of the safety concept",
+      "text": "The safety concept of the electric power steering ECU shall provide for fall-back to partial operation or to a back-up system for the assist function."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 3.4.3",
+      "quote": "In case of a failure, the driver shall be warned for example by warning signal or message display",
+      "text": "In case of a failure, the driver shall be warned by a warning signal or message display, present as long as the fault condition persists unless the system is deactivated by the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 3.4.3.3",
+      "quote": "If the chosen provision selects the removal of the Higher Level Function, all the corresponding output control signals associated with this function shall be inhibited, and in such a manner as to limit the transition disturbance",
+      "text": "Where the safety concept removes the corrective steering function on failure, all output control signals associated with that function shall be inhibited in a manner that limits the transition disturbance."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 3.3.4",
+      "quote": "Priorities of signals on multiplexed data paths shall be stated wherever priority may be an issue affecting performance or safety",
+      "text": "Priorities of signals on the vehicle network where multiplexed data paths are used shall be stated wherever priority may affect steering performance or safety."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 3.3.5",
+      "quote": "Each unit shall be clearly and unambiguously identifiable (e.g. by marking for hardware and marking or software output for software content)",
+      "text": "Each unit of the electronic steering control system, including the ECU and its software, shall be clearly and unambiguously identifiable by marking."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 4.1.2",
+      "quote": "The reaction of \"The System\" shall be checked under the influence of a failure in any individual unit by applying corresponding output signals to electrical units or mechanical elements",
+      "text": "The reaction of the steering control system under a failure in any individual unit shall be checked by applying corresponding output signals to electrical units or mechanical elements to simulate internal faults."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 6 3.4.4.2",
+      "quote": "This documentation shall describe the measures in place to ensure the \"The System\" does not prejudice the safe operation of the vehicle when the performance of \"The System\" is affected by environmental conditions",
+      "text": "The system documentation shall describe the measures ensuring the steering control system does not prejudice safe operation when its performance is affected by environmental conditions such as temperature, dust ingress, water ingress or ice packing."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation",
+      "text": "The electric power steering system and its electrical/electronic components shall be designed, constructed and fitted so that the vehicle complies with the EMC requirements of UN R10 in normal conditions of use."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1.1",
+      "quote": "A vehicle shall be tested for radiated emissions and for immunity to radiated disturbances. No tests for conducted emissions or immunity to conducted disturbances are required for vehicle type approval",
+      "text": "The vehicle fitted with the electric power steering system shall be tested for radiated emissions and immunity to radiated disturbances, without vehicle-level conducted emission or immunity tests."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances",
+      "text": "The steering ECU as an ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.2.2.1",
+      "quote": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "At a 10 m antenna distance, the vehicle broadband radiated emissions shall not exceed 32 dBµV/m in the 30 to 75 MHz band and 32 to 43 dBµV/m in the 75 to 400 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.2.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 43 dB microvolts/m",
+      "text": "At a 10 m antenna distance, the vehicle broadband radiated emissions in the 400 to 1,000 MHz band shall not exceed 43 dBµV/m."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.2.2.2",
+      "quote": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "At a 3 m antenna distance, the vehicle broadband radiated emissions shall not exceed 42 dBµV/m in the 30 to 75 MHz band and 42 to 53 dBµV/m in the 75 to 400 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.3.2.1",
+      "quote": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+      "text": "At a 10 m antenna distance, the vehicle narrowband radiated emissions shall not exceed 28 dBµV/m in the 30 to 230 MHz band and 35 dBµV/m in the 230 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.3.2.2",
+      "quote": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band",
+      "text": "At a 3 m antenna distance, the vehicle narrowband radiated emissions shall not exceed 38 dBµV/m in the 30 to 230 MHz band and 45 dBµV/m in the 230 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.4.2.1",
+      "quote": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band",
+      "text": "The vehicle shall be immune to a field strength of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole of the 20 to 2,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.4.2.1",
+      "quote": "The field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band",
+      "text": "The vehicle shall be immune to a field strength of 10 V/m over 90 per cent and a minimum of 8 V/m over the whole of the 2,000 to 6,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.4.2.1",
+      "quote": "in accordance with ISO 11451-4 BCI the current shall be 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 50 mA",
+      "text": "Under the ISO 11451-4 BCI method, the vehicle shall be immune to a current of 60 mA over 90 per cent and a minimum of 50 mA over the whole of the 20 to 2,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.4.2.2",
+      "quote": "during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6",
+      "text": "During the vehicle immunity tests there shall be no degradation of performance of immunity related functions, including active steering and steering wheel positioning."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The steering ECU as an ESA shall not exceed broadband radiated emissions of 62 to 52 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+      "text": "The steering ECU shall not exceed broadband radiated emissions of 52 to 63 dBµV/m in the 75 to 400 MHz band, increasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m",
+      "text": "The steering ECU shall not exceed broadband radiated emissions of 63 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The steering ECU shall not exceed narrowband radiated emissions of 52 to 42 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+      "text": "The steering ECU shall not exceed narrowband radiated emissions of 42 to 53 dBµV/m in the 75 to 400 MHz band, increasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m",
+      "text": "The steering ECU shall not exceed narrowband radiated emissions of 53 dBµV/m in the 400 to 1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1",
+      "quote": "The immunity to electromagnetic radiation of ESA representative of its type shall be tested by the method(s) as described in Annex 9",
+      "text": "The steering ECU shall be immune to radiated fields at a test level of 60 V/m in the stripline, 75 V/m in the TEM cell, 60 mA in BCI, 30 V/m in ALSE and 21 V/m in the reverberation chamber over 90 per cent of the frequency band below 2 GHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Minimum Test Level over the whole 20 to 6,000 MHz frequency band",
+      "text": "The steering ECU shall be immune to a minimum test level of 50 V/m in the stripline, 62.5 V/m in the TEM cell, 50 mA in BCI, 25 V/m in ALSE and 18 V/m in the reverberation chamber over the whole 20 MHz to 2 GHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Test level above 2 GHz Not applicable Not applicable Not applicable 8 V/m 6 V/m",
+      "text": "The steering ECU shall be immune to a minimum test level of 8 V/m in ALSE and 6 V/m in the reverberation chamber over the 2,000 to 6,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.2",
+      "quote": "there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "During the ESA immunity tests there shall be no degradation of performance of the immunity related steering functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b",
+      "text": "The steering ECU shall be tested for immunity to conducted transients on the 12 V supply lines using the ISO 16750-2 starting profile and ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation",
+      "text": "Every steering ECU conforming to a type approved under UN R10 shall be affixed with the international approval mark described in paragraph 5.3."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3",
+      "quote": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation",
+      "text": "The international EMC approval mark shall be affixed in a conspicuous and easily accessible place specified on the approval communication form on each vehicle conforming to the type."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval",
+      "text": "The EMC approval mark shall comprise a circle containing the letter E followed by the distinguishing number of the country granting approval."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above",
+      "text": "The EMC approval mark shall include the number of UN R10 followed by the letter R, a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle",
+      "text": "The approval mark on the steering ECU need not be visible once the ECU is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "3.2.6",
+      "quote": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation",
+      "text": "Each steering ECU sample submitted for approval shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.1",
+      "quote": "The engine shall normally turn the driving wheels at a steady speed of 50 km/h if there is no technical reason due to the vehicle to define a different condition",
+      "text": "During the vehicle immunity test the vehicle shall be driven at a steady speed of 50 km/h on a dynamometer or on insulated axle stands."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Speed variation greater than ±10 per cent of the nominal speed. In case of automatic gearbox: change of gear ratio inducing a speed variation greater than ±10 per cent of the nominal speed",
+      "text": "During the immunity test the vehicle speed shall not vary by more than ±10 per cent of the nominal speed."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Driver's seat and steering wheel in medium position Unexpected variation greater than 10 per cent of total range",
+      "text": "The steering wheel shall remain in its medium position during the immunity test without unexpected variation greater than 10 per cent of total range."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Dipped beams ON (manual mode) Lighting OFF (front light and rear light)",
+      "text": "During the immunity test in 50 km/h mode the dipped beams shall be on in manual mode and shall not switch off."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Front wiper ON (manual mode) maximum speed Complete stop of front wiper",
+      "text": "During the immunity test the front wiper shall run at maximum speed in manual mode without a complete stop."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Direction indicator on driver's side ON Frequency change (lower than 0.75 Hz or greater than 2.25 Hz)",
+      "text": "The driver's side direction indicator frequency during the immunity test shall not change to lower than 0.75 Hz or greater than 2.25 Hz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.2",
+      "quote": "Brake pedal depressed to activate the brake function and the stop lights without any dynamic cycle",
+      "text": "In brake mode the brake pedal shall be depressed to activate the brake function and stop lights without any dynamic cycle, and the stop lights shall not be inactivated."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.3",
+      "quote": "All equipment which can be switched on permanently by the driver or passenger should be in normal operation",
+      "text": "During the immunity test all equipment that can be switched on permanently by the driver or passenger shall be in normal operation."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.1.4",
+      "quote": "All other systems which affect the driver's control of the vehicle shall be (on) as in normal operation of the vehicle",
+      "text": "All other systems affecting the driver's control of the vehicle, including the electric power steering, shall be on as in normal operation during the immunity test."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 2.1.3",
+      "quote": "Only non-perturbing equipment shall be used while monitoring the vehicle",
+      "text": "Only non-perturbing equipment shall be used while monitoring the vehicle during immunity tests."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 4.1",
+      "quote": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency ranges in vertical polarization",
+      "text": "The vehicle shall be exposed to electromagnetic radiation over the 20 to 6,000 MHz frequency range in vertical polarization."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 4.1",
+      "quote": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+      "text": "The immunity test signal shall use AM modulation with 1 kHz and 80 per cent modulation depth in the 20 to 400 MHz range."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 6 4.1",
+      "quote": "PM3 (pulse modulation type 3), Ton 500 µs, period 1,000 µs in the 380 to 2,700 MHz and the 3,100 to 6,000 MHz frequency ranges",
+      "text": "The immunity test signal shall use PM3 modulation with Ton 500 µs and period 1,000 µs in the 380 to 2,700 MHz and 3,100 to 6,000 MHz ranges."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 3.4",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+      "text": "Ambient extraneous noise during the broadband ESA emission measurement shall be at least 6 dB below the interference limits of paragraph 6.5.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.1",
+      "quote": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS)",
+      "text": "The ESA broadband emission limits apply throughout the 30 to 1,000 MHz frequency range for measurements in an ALSE or OATS."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.3. Table 1",
+      "quote": "30 to 1,000 100/120 kHz 100 ms/MHz 120 kHz 20 s/MHz",
+      "text": "For the ESA broadband emission measurement, the spectrum analyser shall use a 100/120 kHz RBW with 100 ms/MHz scan time for peak detection and 120 kHz RBW with 20 s/MHz for quasi-peak detection."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 2.1",
+      "quote": "The ESA under test shall be in normal operation mode, preferably in maximum load",
+      "text": "The steering ECU shall be in normal operation mode, preferably at maximum load, during the emission measurements."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 8 3.3",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.6.2.1. of this Regulation",
+      "text": "Ambient extraneous noise during the narrowband ESA emission measurement shall be at least 6 dB below the limits of paragraph 6.6.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 8 4.2",
+      "quote": "Measurements shall be performed with an average detector",
+      "text": "The steering ECU narrowband emission measurements shall be performed with an average detector."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1",
+      "text": "The steering ECU immunity measurements shall be made over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 2.4",
+      "quote": "No extraneous equipment shall be closer than 1 m from the reference point during calibration",
+      "text": "During calibration for the ESA immunity test, no extraneous equipment shall be closer than 1 m from the reference point."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 2.6",
+      "quote": "If the ESA under test consists of more than one unit, the interconnecting cables should ideally be the wiring harnesses as intended for use in the vehicle",
+      "text": "For the steering ECU test the interconnecting cables shall be the wiring harnesses as intended for use in the vehicle, terminated as realistically as possible with real loads and actuators."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 1.2.1",
+      "quote": "ESAs may comply with the requirements of any combination of the following test methods at the manufacturer's discretion provided that these results in the full frequency range specified",
+      "text": "The steering ECU may comply with the immunity requirements through any combination of absorber chamber, TEM cell, bulk current injection, stripline or reverberation chamber tests covering the full frequency range."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "Where the BCI test method with substitution is used for the steering ECU, the injection probe shall be positioned at 150 mm distance from the ESA."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with closed loop method and injection probe positioned at 900 mm distance to the ESA",
+      "text": "Where the BCI test method with closed loop is used for the steering ECU, the injection probe shall be positioned at 900 mm distance from the ESA."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "4.1",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation an international approval mark",
+      "text": "An international cyber security approval mark shall be affixed conspicuously and in a readily accessible place specified on the approval form to every vehicle conforming to the type."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "4.1.1",
+      "quote": "A circle surrounding the Letter \"E\" followed by the distinguishing number of the country which has granted approval",
+      "text": "The cyber security approval mark shall consist of a circle surrounding the letter E followed by the distinguishing number of the granting country."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "4.1.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle described in paragraph 4.1.1. above",
+      "text": "The cyber security approval mark shall include the number of UN R155 followed by the letter R, a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "4.3",
+      "quote": "The approval mark shall be clearly legible and shall be indelible",
+      "text": "The cyber security approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "4.4",
+      "quote": "The approval mark shall be placed on or close to the vehicle data plate affixed by the Manufacturer",
+      "text": "The cyber security approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.2.2.2",
+      "quote": "The processes used within the manufacturer’s organization to manage cyber security",
+      "text": "The manufacturer shall operate processes within its organisation to manage cyber security covering the development, production and post-production phases of the steering system."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.2.2.2",
+      "quote": "The processes used for the identification of risks to vehicle types. Within these processes, the threats in Annex 5, Part A, and other relevant threats shall be considered",
+      "text": "The manufacturer's processes for identification of risks shall consider the threats in Annex 5 Part A and other relevant threats to the vehicle type."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.2.2.2",
+      "quote": "The processes used for the assessment, categorization and treatment of the risks identified",
+      "text": "The manufacturer shall operate processes for the assessment, categorisation and treatment of the identified cyber security risks of the steering system."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.2.2.2",
+      "quote": "The processes used for testing the cyber security of a vehicle type",
+      "text": "The manufacturer shall operate processes for testing the cyber security of the vehicle type."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.2.2.2",
+      "quote": "The processes used to monitor for, detect and respond to cyber-attacks, cyber threats and vulnerabilities on vehicle types",
+      "text": "The manufacturer shall operate processes to monitor for, detect and respond to cyber-attacks, cyber threats and vulnerabilities on the vehicle type."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.2.2.4",
+      "quote": "Include the capability to analyse and detect cyber threats, vulnerabilities and cyber-attacks from vehicle data and vehicle logs",
+      "text": "The continuous monitoring shall include the capability to analyse and detect cyber threats, vulnerabilities and cyber-attacks from vehicle data and vehicle logs."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.2",
+      "quote": "The vehicle manufacturer shall identify and manage, for the vehicle type being approved, supplier-related risks",
+      "text": "The manufacturer shall identify and manage supplier-related cyber security risks for the steering ECU and its software supply chain."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.3",
+      "quote": "The vehicle manufacturer shall identify the critical elements of the vehicle type and perform an exhaustive risk assessment for the vehicle type and shall treat/manage the identified risks appropriately",
+      "text": "The manufacturer shall identify the critical elements of the steering system and perform an exhaustive risk assessment, treating the identified risks appropriately."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.4",
+      "quote": "The vehicle manufacturer shall protect the vehicle type against risks identified in the vehicle manufacturer’s risk assessment. Proportionate mitigations shall be implemented to protect the vehicle type",
+      "text": "The manufacturer shall implement proportionate mitigations protecting the steering system against the risks identified in its risk assessment, including all relevant mitigations of Annex 5 Parts B and C."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.6",
+      "quote": "The vehicle manufacturer shall perform, prior to type approval, appropriate and sufficient testing to verify the effectiveness of the security measures implemented",
+      "text": "The manufacturer shall perform appropriate and sufficient testing to verify the effectiveness of the security measures implemented in the steering system before type approval."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.7",
+      "quote": "Detect and prevent cyber-attacks against vehicles of the vehicle type",
+      "text": "The vehicle type shall implement measures to detect and prevent cyber-attacks against vehicles of the type."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.7",
+      "quote": "Provide data forensic capability to enable analysis of attempted or successful cyber-attacks",
+      "text": "The vehicle type shall implement measures providing data forensic capability to enable analysis of attempted or successful cyber-attacks."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "7.3.8",
+      "quote": "Cryptographic modules used for the purpose of this Regulation shall be in line with consensus standards",
+      "text": "Cryptographic modules used in the steering system for cyber security shall be in line with consensus standards."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "The vehicle shall verify the authenticity and integrity of messages it receives",
+      "text": "The steering ECU shall verify the authenticity and integrity of the messages it receives over the vehicle network."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Security controls shall be implemented for storing cryptographic keys (e.g., use of Hardware Security Modules)",
+      "text": "Security controls shall be implemented for storing the cryptographic keys used by the steering ECU."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Systems shall implement security by design to minimize risks",
+      "text": "The steering ECU shall implement security by design to minimise cyber security risks."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Access control techniques and designs shall be applied to protect system data/code",
+      "text": "Access control techniques and designs shall be applied to protect the steering system data and code, including the assist and correction logic."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Confidential data transmitted to or from the vehicle shall be protected",
+      "text": "Confidential data transmitted to or from the steering system shall be protected against interception."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Through system design and access control it should not be possible for unauthorized personnel to access personal or system critical data",
+      "text": "Through system design and access control it shall not be possible for unauthorised personnel to access system critical steering data."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Measures to detect and recover from a denial of service attack shall be employed",
+      "text": "Measures to detect and recover from a denial of service attack on the vehicle network shall be employed by the steering system."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Measures to prevent and detect unauthorized access shall be employed",
+      "text": "Measures to prevent and detect unauthorised access to the steering system shall be employed."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Measures to protect systems against embedded viruses/malware should be considered",
+      "text": "Measures to protect the steering ECU against embedded viruses and malware shall be considered and implemented."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 1. Table B1",
+      "quote": "Measures to detect malicious internal messages or activity should be considered",
+      "text": "Measures to detect malicious internal CAN messages or activity affecting the steering system shall be implemented."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 2. Table B2",
+      "quote": "Secure software update procedures shall be employed",
+      "text": "Secure software update procedures shall be employed for updating the steering ECU software."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 3. Table B3",
+      "quote": "Measures shall be implemented for defining and controlling user roles and access privileges, based on the principle of least access privilege",
+      "text": "Measures shall be implemented to define and control user roles and access privileges for the steering system based on the principle of least access privilege."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 4. Table B4",
+      "quote": "Security controls shall be applied to external interfaces",
+      "text": "Security controls shall be applied to the external interfaces, including the OBD port, through which the steering ECU can be accessed."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 6. Table B6",
+      "quote": "Cybersecurity best practices for software and hardware development shall be followed",
+      "text": "Cyber security best practices for software and hardware development shall be followed in developing the steering ECU."
+    },
+    {
+      "regulation": "UN R155",
+      "paragraph": "Annex 5 Part B 6. Table B6",
+      "quote": "Cybersecurity testing with adequate coverage",
+      "text": "Cyber security testing with adequate coverage shall be performed on the steering system software."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.1.1",
+      "quote": "The authenticity and integrity of software updates shall be protected to reasonably prevent their compromise and reasonably prevent invalid updates",
+      "text": "The authenticity and integrity of software updates for the steering ECU shall be protected to reasonably prevent their compromise and to prevent invalid updates."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.1.2.1",
+      "quote": "When type approval relevant software is modified by the vehicle manufacturer, the RXSWIN shall be updated if it leads to a type approval extension or to a new type approval",
+      "text": "Where the steering software relevant to type approval is modified, the RXSWIN shall be updated if this leads to a type approval extension or a new type approval."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.1.2.2",
+      "quote": "Each RXSWIN shall be easily readable in a standardized way via the use of an electronic communication interface, at least by the standard interface (OBD port)",
+      "text": "The RXSWIN of the steering system shall be easily readable in a standardised way via an electronic communication interface, at least through the OBD port."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.1.2.3",
+      "quote": "The vehicle manufacturer shall protect the RXSWINs and/or software version(s) on a vehicle against unauthorised modification",
+      "text": "The steering system software version identifiers shall be protected against unauthorised modification."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.1.1",
+      "quote": "The vehicle manufacturer shall ensure that the vehicle is able to restore systems to their previous version in case of a failed or interrupted update or that the vehicle can be placed into a safe state after a failed or interrupted update",
+      "text": "The steering system shall be able to restore its previous software version after a failed or interrupted update, or the vehicle shall be placed into a safe state."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.1.2",
+      "quote": "The vehicle manufacturer shall ensure that software updates can only be executed when the vehicle has enough power to complete the update process",
+      "text": "Steering system software updates shall only be executed when the vehicle has enough power to complete the update, including any recovery to the previous version."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.1.3",
+      "quote": "When the execution of an update may affect the safety of the vehicle, the vehicle manufacturer shall demonstrate how the update will be executed safely",
+      "text": "Where executing a steering software update may affect vehicle safety, technical means shall ensure the vehicle is in a state where the update can be executed safely."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.3",
+      "quote": "Ensure the vehicle cannot be driven during the execution of the update",
+      "text": "Where the update execution while driving is not safe, the vehicle shall not be drivable during execution of the steering software update."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.3",
+      "quote": "Ensure that the driver is not able to use any functionality of the vehicle that would affect the safety of the vehicle or the successful execution of the update",
+      "text": "During execution of a steering software update the driver shall not be able to use any vehicle functionality that would affect vehicle safety or the successful execution of the update."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.5",
+      "quote": "The vehicle shall ensure that preconditions have to be met before the software update is executed",
+      "text": "The vehicle shall ensure that defined preconditions are met before the steering software update is executed."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.2",
+      "quote": "The vehicle manufacturer shall demonstrate that the vehicle user is able to be informed about an update before the update is executed",
+      "text": "The vehicle user shall be informed about a steering software update before it is executed, including its purpose, any changes to vehicle functions and the expected time to complete."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.2.2.4",
+      "quote": "The vehicle user is able to be informed of the success (or failure) of the update",
+      "text": "After execution of a steering software update, the vehicle user shall be informed of the success or failure of the update."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.3.1",
+      "quote": "The process they will use to ensure that software updates will be protected to reasonably prevent manipulation before the update process is initiated",
+      "text": "The manufacturer shall use a process ensuring that steering software updates are protected to reasonably prevent manipulation before the update process is initiated."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.3.2",
+      "quote": "The update processes used are protected to reasonably prevent them being compromised, including development of the update delivery system",
+      "text": "The update processes used for the steering system shall be protected to reasonably prevent them being compromised, including the update delivery system."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.4.1",
+      "quote": "The vehicle manufacturer shall demonstrate the processes and procedures they will use to assess that over the air updates will not impact safety, if conducted during driving",
+      "text": "The manufacturer shall demonstrate the processes used to assess that over-the-air updates of the steering system will not impact safety if conducted during driving."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.1.7",
+      "quote": "A process to confirm the compatibility of a software update with the target vehicle(s) configuration before it is issued",
+      "text": "The manufacturer shall use a process to confirm the compatibility of a steering software update with the target vehicle configuration before it is issued, including the last known software/hardware configuration."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.1.8",
+      "quote": "A process to assess, identify and record whether a software update will affect any type approved systems",
+      "text": "The manufacturer shall use a process to assess, identify and record whether a steering software update will affect any type approved system or its parameters."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.1.11",
+      "quote": "A process whereby the vehicle user is able to be informed about updates",
+      "text": "The manufacturer shall operate a process whereby the vehicle user is able to be informed about steering software updates."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.2.5",
+      "quote": "How the update may be executed and under what conditions",
+      "text": "For each steering software update the manufacturer shall document how the update may be executed and under what conditions."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.2.5",
+      "quote": "Confirmation that the software update will be conducted safely and securely",
+      "text": "For each steering software update the manufacturer shall document confirmation that the update will be conducted safely and securely."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "4.1",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation an international approval mark",
+      "text": "An international software update approval mark shall be affixed conspicuously and in a readily accessible place specified on the approval form to every vehicle conforming to the type."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "4.1.1",
+      "quote": "A circle surrounding the Letter \"E\" followed by the distinguishing number of the country which has granted approval",
+      "text": "The software update approval mark shall consist of a circle surrounding the letter E followed by the distinguishing number of the granting country."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "4.1.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle described in paragraph 4.1.1. above",
+      "text": "The software update approval mark shall include the number of UN R156 followed by the letter R, a dash and the approval number."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "4.3",
+      "quote": "The approval mark shall be clearly legible and shall be indelible",
+      "text": "The software update approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "4.4",
+      "quote": "The approval mark shall be placed on or close to the vehicle data plate affixed by the Manufacturer",
+      "text": "The software update approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.1.2",
+      "quote": "A process whereby information regarding all initial and updated software versions, including integrity validation data, and relevant hardware components of a type approved system can be uniquely identified",
+      "text": "The manufacturer shall use a process whereby all initial and updated software versions of the steering ECU, including integrity validation data and relevant hardware components, can be uniquely identified."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.1.5",
+      "quote": "A process whereby any interdependencies of the updated system with other systems can be identified",
+      "text": "The manufacturer shall use a process whereby interdependencies of the updated steering system with other vehicle systems can be identified."
+    },
+    {
+      "regulation": "UN R156",
+      "paragraph": "7.1.1.10",
+      "quote": "A process to assess, identify and record if a software update will affect any other system required for the safe and continued operation of the vehicle or if the update will add or alter functionality of the vehicle",
+      "text": "The manufacturer shall use a process to assess, identify and record whether a steering software update affects any other system required for safe and continued operation of the vehicle."
+    }
+  ]
+}

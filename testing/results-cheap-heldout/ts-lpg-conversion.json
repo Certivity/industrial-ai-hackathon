@@ -1,0 +1,48 @@
+{
+  "case": "ts-lpg-conversion",
+  "agent_exit": 0,
+  "agent_seconds": 56,
+  "run": "runs/ts-lpg-conversion/c2-v3c",
+  "spent_usd": 0.18,
+  "replayed_usd": 0.133,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "n_submitted": 2,
+      "n_expected": 3,
+      "n_matched": 2,
+      "f2": 0.7143
+    },
+    "page_level": {
+      "precision": 0.6379310344827587,
+      "recall": 0.8351648351648352,
+      "f1": 0.7233440514469455,
+      "n_submitted": 116,
+      "n_expected": 91,
+      "n_matched": 74,
+      "f2": 0.7865
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R67",
+    "UN R83"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R67"
+  ],
+  "n_gold": 304,
+  "n_upper_bound": 1201,
+  "funnel": {
+    "gold_requirements": 304,
+    "reachable": 270,
+    "recall": 0.8882,
+    "selected_nodes": 1201,
+    "gold_nodes": 273,
+    "gold_nodes_reached": 247,
+    "unanchored": 1
+  }
+}

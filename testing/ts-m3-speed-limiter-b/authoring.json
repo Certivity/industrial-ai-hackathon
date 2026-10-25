@@ -1,0 +1,924 @@
+{
+  "case_id": "ts-m3-speed-limiter-b",
+  "regulation": "UN R89",
+  "requirements": [
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.1",
+      "quote": "The SLD shall be so designed, constructed and assembled as to enable the vehicle in normal use, fitted with the SLD",
+      "text": "The speed limitation device (SLD) shall be so designed, constructed and assembled that a vehicle fitted with it complies with Part III of UN R89 in normal use."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2",
+      "quote": "the SLD must be so designed, constructed and assembled as to resist corrosion and ageing phenomena to which it may be exposed",
+      "text": "The SLD shall be so designed, constructed and assembled as to resist the corrosion and ageing phenomena to which it may be exposed."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2",
+      "quote": "and to resist tampering in accordance with paragraph 21.1.6.",
+      "text": "The SLD shall be so designed, constructed and assembled as to resist tampering in accordance with paragraph 21.1.6."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2.1",
+      "quote": "The set speed Vset must not, in any case, be capable of being increased or removed temporarily or permanently on vehicles in use.",
+      "text": "The SLD shall not permit the set speed Vset to be increased or removed, temporarily or permanently, on vehicles in use."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2.1",
+      "quote": "The analysis level will be always to the first failure.",
+      "text": "The SLD shall be analysed for inviolability down to the first failure, covering the consequences of input and output state modifications."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2.2",
+      "quote": "shall be capable of being protected from any unauthorized adjustments or the interruption of its energy supply by the attachment of seals",
+      "text": "The SLD and the connections necessary for its operation shall be capable of being protected from unauthorized adjustment or energy supply interruption by seals."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.2.2",
+      "quote": "or the interruption of its energy supply by the attachment of seals and/or the need to use special tools.",
+      "text": "The SLD and its operating connections shall be capable of being protected from unauthorized adjustment or energy supply interruption by the need to use special tools."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.3",
+      "quote": "The SLD shall not actuate the vehicle's service braking system.",
+      "text": "The SLD shall not actuate the vehicle's service braking system."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.3",
+      "quote": "A permanent brake {e.g. retarder) may be actuated only if it operates after the speed limitation device has restricted the fuel feed to the minimum fuel position.",
+      "text": "Where a permanent brake is actuated by the SLD, it shall operate only after the speed limitation device has restricted the fuel feed to the minimum fuel position."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.4",
+      "quote": "The SLD must be such that it does not affect the vehicle’s road speed if a positive action on the accelerator is applied when the vehicle is running at its set speed.",
+      "text": "The SLD shall not affect the vehicle's road speed when a positive action on the accelerator is applied while the vehicle runs at its set speed."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.5",
+      "quote": "The SLD may allow normal accelerator control for the purposes of gear changing.",
+      "text": "The SLD shall allow normal accelerator control for the purposes of gear changing."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.6",
+      "quote": "No malfunction or unauthorized interference shall result in an increase in engine power above that demanded by the position of the driver’s accelerator.",
+      "text": "The SLD shall not, under any malfunction or unauthorized interference, increase engine power above that demanded by the position of the driver's accelerator."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "21.1.7",
+      "quote": "The SLD shall operate satisfactorily in its electromagnetic environment without unacceptable electromagnetic disturbance for anything in this environment.",
+      "text": "The SLD shall operate satisfactorily in its electromagnetic environment without causing unacceptable electromagnetic disturbance to anything in that environment."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "19.2.2",
+      "quote": "the samples must be clearly and indelibly marked with the applicant's trade name or mark and the type designation;",
+      "text": "Each SLD sample submitted shall be clearly and indelibly marked with the applicant's trade name or mark and the type designation."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "20.4",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every SLD conforming to a type of SLD approved",
+      "text": "Every SLD conforming to an approved type shall carry an international approval mark affixed conspicuously and in a readily accessible place."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "20.4.1",
+      "quote": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval;",
+      "text": "The SLD approval mark shall include a circle surrounding the letter \"E\" followed by the distinguishing number of the approving country."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "20.4.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+      "text": "The SLD approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "20.5",
+      "quote": "The approval mark shall be clearly legible and indelible.",
+      "text": "The SLD approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.1.3",
+      "quote": "The tyres shall be bedded and the pressure shall be as specified by the manufacturer for the vehicle;",
+      "text": "During the speed limitation test the tyres of the test vehicle shall be bedded and inflated to the pressure specified by the manufacturer."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.2.1",
+      "quote": "Gradients shall not exceed 2% and shall not vary by more than 1% extluding camber effects.",
+      "text": "When tested on a test track, the test surface gradients shall not exceed 2 per cent and shall not vary by more than 1 per cent excluding camber effects."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.2.2",
+      "quote": "The test surface shall be free from standing water, snow or ice.",
+      "text": "The test surface on which the SLD is tested shall be free from standing water, snow or ice."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.3.1",
+      "quote": "The mean wind speed measured at a height at least 1 m above the ground shall be less than 6 m/s with gusts not exceeding 10 m/s.",
+      "text": "When the speed limitation test is performed outdoors, the mean wind speed at 1 m height shall be less than 6 m/s with gusts not exceeding 10 m/s."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.1",
+      "quote": "The accuracy of the speed measurement shall be ± 1%. The accuracy of the time measurement shall be less than 0.1 s.",
+      "text": "When the acceleration test method is used, the instantaneous vehicle speed shall be measured with an accuracy of ± 1 per cent and time with an accuracy of less than 0.1 s."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.1",
+      "quote": "The stabilized speed reached by the vehicle shall not exceed the set speed (Vstab ≤ Vset). However, a tolerance of 5% of the Vset value, or 5 km/h, whichever is the greater, is acceptable;",
+      "text": "The SLD shall hold the stabilised speed reached by the vehicle at or below the set speed, with a tolerance of 5 per cent of Vset or 5 km/h, whichever is the greater, being acceptable."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.2.1",
+      "quote": "Vmax shall not exceed Vstab by more than 5%;",
+      "text": "After the stabilised speed is first reached, the SLD shall keep Vmax from exceeding Vstab by more than 5 per cent."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.2.3",
+      "quote": "the stabilized speed conditions specified in paragraph 1.1.4.2.3. shall be attained within 10 s of first reaching Vstab;",
+      "text": "The SLD shall attain the stabilised speed conditions within 10 s of the vehicle first reaching Vstab."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.3.1",
+      "quote": "speed shall not vary by more than 4% of Vstab or 2 km/h whichever is greater;",
+      "text": "When stable speed control has been achieved, the SLD shall keep the speed from varying by more than 4 per cent of Vstab or 2 km/h, whichever is greater."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.3.2",
+      "quote": "the rate of change of speed shall not exceed 0.2 m/s² when measured on a period greater than 0.1 s;",
+      "text": "When stable speed control has been achieved, the SLD shall keep the rate of change of speed at or below 0.2 m/s2 when measured over a period greater than 0.1 s."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.3.3",
+      "quote": "Vstab is the average speed calculated for a minimum time interval of 20 seconds beginning 10 seconds after first reaching Vstab;",
+      "text": "The SLD shall maintain the stabilised speed such that Vstab, averaged over a minimum interval of 20 seconds beginning 10 seconds after first reaching Vstab, meets the stated criteria."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.4.2.4",
+      "quote": "Tests in acceleration shall be carried out and the acceptance criteria verified for each gear ratio allowing in theory the set speed to be exceeded.",
+      "text": "The SLD shall meet the acceleration test acceptance criteria for each gear ratio that in theory allows the set speed to be exceeded."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.5.1",
+      "quote": "The whole test including the calculation of the stabilization speed shall be carried out five times.",
+      "text": "When the steady-speed test method is used, the whole test including calculation of the stabilisation speed shall be carried out five times."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.5.2.1",
+      "quote": "On each test run Vstab shall not exceed Vset. However, a tolerance of 5% of the Vset value, or 5 km/h, whichever is the greater, is acceptable;",
+      "text": "In the steady-speed test the SLD shall keep Vstab on each test run at or below Vset, with a tolerance of 5 per cent of Vset or 5 km/h, whichever is the greater, being acceptable."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.1.5.2.2",
+      "quote": "The difference between the stabilization speeds obtained during each test run shall be equal to or less than 3 km/h;",
+      "text": "The SLD shall keep the difference between the stabilisation speeds obtained during each steady-speed test run at or below 3 km/h."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.2.1",
+      "quote": "The equivalent inertia of the vehicle mass shall be reproduced on the chassis dynamometer with an accuracy of ± 10%. The speed of the vehicle shall be measured with an accuracy of ± 1%.",
+      "text": "When the chassis dynamometer method is used, the equivalent inertia of the vehicle mass shall be reproduced with an accuracy of ± 10 per cent and the vehicle speed measured with an accuracy of ± 1 per cent."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 1.2.2.1",
+      "quote": "This action shall be maintained at least 20 seconds after the vehicle speed has been stabilized.",
+      "text": "In the chassis dynamometer acceleration test, the fully positive accelerator action shall be maintained at least 20 seconds after the vehicle speed has stabilised."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.1",
+      "quote": "Conditioning 1: tests at ambient temperature (20° C ± 2° C) Number of cycles: 50,000",
+      "text": "The SLD shall withstand endurance conditioning at ambient temperature of 20 °C ± 2 °C for 50,000 cycles."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.2.1",
+      "quote": "The components shall be cycled in a climatic chamber A temperature of 65° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+      "text": "The electronic components of the SLD shall withstand endurance conditioning at 65 °C ± 5 °C for 12,500 cycles."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.2.2",
+      "quote": "The components shall be cycled in a climatic chamber. A temperature of 100° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+      "text": "The mechanical components of the SLD shall withstand endurance conditioning at 100 °C ± 5 °C for 12,500 cycles."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.3",
+      "quote": "a temperature of -20° C ± 5° C is maintained during the whole functioning. Number of cycles: 12,500.",
+      "text": "The SLD shall withstand endurance conditioning at -20 °C ± 5 °C for 12,500 cycles."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.4",
+      "quote": "The concentration of sodium chloride is of 5% and internal temperature of the climatic chamber is of 35° C ± 2° C. Number of cycles: 12,500.",
+      "text": "Components of the SLD exposed to the ambient road environment shall withstand a salted-atmosphere endurance test at 5 per cent sodium chloride and 35 °C ± 2 °C for 12,500 cycles."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.5.1",
+      "quote": "The SLD is mounted in a similar way to its mounting on the vehicle.",
+      "text": "For the vibration endurance test the SLD shall be mounted in a way similar to its mounting on the vehicle."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.5.2.1",
+      "quote": "First test: frequency range 10-24 Hz, amplitude ± 2 mm;",
+      "text": "The SLD shall withstand sinusoidal vibration in the first test over 10-24 Hz with an amplitude of ± 2 mm and a logarithmic sweep of 1 octave per minute."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.2.5.2.2",
+      "quote": "Second test: frequency range 24-1,000 Hz for chassis and cab-mounted components, input 2.5 g. For engine-mounted components, input 5 g.",
+      "text": "The SLD shall withstand sinusoidal vibration in the second test over 24-1,000 Hz with an input of 2.5 g for chassis and cab-mounted components and 5 g for engine-mounted components."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "Annex 5 2.3.1",
+      "quote": "At the end of the endurance tests, no modification of the device’s performances shall be observed regarding the set speed;",
+      "text": "The SLD shall show no modification of its performance regarding the set speed at the end of the endurance tests."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "5.1.8",
+      "quote": "The speed limitation function shall operate satisfactorily in its electromagnetic environment without unacceptable electromagnetic disturbance for anything in this environment.",
+      "text": "The speed limitation function shall operate satisfactorily in its electromagnetic environment without unacceptable electromagnetic disturbance to anything in that environment."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "5.1.2.2",
+      "quote": "shall be capable of being protected from any unauthorized adjustments or the interruption of its energy supply by the attachment of sealing devices and/or the need to use special tools.",
+      "text": "The speed limitation function and its operating connections shall be capable of being protected from unauthorized adjustment or energy supply interruption by sealing devices and/or special tools."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "5.1.4",
+      "quote": "The speed limitation function must be such that it does not affect the vehicle's road speed if a positive action on the accelerator is applied when the vehicle is running at its set speed.",
+      "text": "The speed limitation function shall not affect the vehicle's road speed when a positive action on the accelerator is applied while the vehicle runs at its set speed."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "5.1.10",
+      "quote": "All components necessary for the full function of the speed limitation function shall be energized whenever the vehicle is being driven.",
+      "text": "All components necessary for the full function of the speed limitation function shall be energised whenever the vehicle is being driven."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "13.1.1",
+      "quote": "The SLD shall be so installed as to enable the vehicle in normal use, despite the vibrations to which it may be subjected, to comply with the provisions of Part II",
+      "text": "The SLD shall be installed so that the vehicle in normal use, despite vibrations, complies with the provisions of Part II of UN R89."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "13.1.3",
+      "quote": "The speed limitation function shall be obtained regardless of the accelerator control used if there is more than one such control which may be reached from the driver’s seating position.",
+      "text": "Where more than one accelerator control is reachable from the driver's seating position, the speed limitation function shall be effective regardless of which control is used."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "13.1.5",
+      "quote": "All components necessary for the full function of the SLD shall be energized whenever the vehicle is being driven.",
+      "text": "All components necessary for the full function of the installed SLD shall be energised whenever the vehicle is being driven."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "13.1.6",
+      "quote": "The speed limitation function shall not actuate the vehicle’s service braking system.",
+      "text": "The installed speed limitation function shall not actuate the vehicle's service braking system."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "4.4.3",
+      "quote": "The following additional symbol: a rectangle surrounding a figure, (or number of figures), expressing the set speed, (or range of set speeds) in km/h",
+      "text": "The vehicle approval mark shall include, as additional symbol, a rectangle surrounding the figure or range of figures expressing the set speed in km/h."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and indelible.",
+      "text": "The vehicle approval mark indicating the speed limitation shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "4.9.1",
+      "quote": "The words \"SPEED LIMITER FITTED\" (or other words to similar effect),",
+      "text": "Where a plate is fitted in the driving compartment, it shall show the words \"SPEED LIMITER FITTED\" or words to similar effect."
+    },
+    {
+      "regulation": "UN R89",
+      "paragraph": "4.9.4",
+      "quote": "The set speed in km/h (and mile/h if requested) at which the vehicle is calibrated.",
+      "text": "Where a plate is fitted in the driving compartment, it shall show the set speed in km/h (and mile/h if requested) at which the vehicle is calibrated."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply",
+      "text": "The speed limiter electronic sub-assembly and its electrical connections shall be designed, constructed and fitted so that the vehicle complies with UN R10 in normal conditions of use."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "The speed limiter electronic sub-assembly shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The speed limiter ESA shall keep its broadband radiated emission between 30 and 75 MHz within 62 to 52 dB microvolts/m, decreasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "and 52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 6",
+      "text": "The speed limiter ESA shall keep its broadband radiated emission between 75 and 400 MHz within 52 to 63 dB microvolts/m, increasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+      "text": "The speed limiter ESA shall keep its broadband radiated emission between 400 and 1,000 MHz at or below 63 dB microvolts/m."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.2",
+      "quote": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "text": "The measured broadband radiated emission values of the speed limiter ESA, in dB microvolts/m, shall be below the type approval limits."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The speed limiter ESA shall keep its narrowband radiated emission between 30 and 75 MHz within 52 to 42 dB microvolts/m, decreasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "and 42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 7",
+      "text": "The speed limiter ESA shall keep its narrowband radiated emission between 75 and 400 MHz within 42 to 53 dB microvolts/m, increasing logarithmically with frequency."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m.",
+      "text": "The speed limiter ESA shall keep its narrowband radiated emission between 400 and 1,000 MHz at or below 53 dB microvolts/m."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Maximum allowed pulse amplitude for Polarity of pulse amplitude Vehicles with 12 V systems Vehicles with 24 V systems",
+      "text": "The speed limiter ESA shall keep the transient conducted disturbances it produces on 12/24 V supply lines within the maximum allowed pulse amplitudes of Table 1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Positive +75 V +150 V Negative -100 V -450 V",
+      "text": "The speed limiter ESA shall limit positive transient conducted pulses to +75 V on 12 V systems and +150 V on 24 V systems, and negative pulses to -100 V and -450 V respectively."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1",
+      "quote": "Test severity in over 90 per cent of the 20 to 6,000 MHz frequency band are given in Table 2a.",
+      "text": "The speed limiter ESA shall withstand radiated electromagnetic immunity test severities given in Table 2a over more than 90 per cent of the 20 to 6,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+      "text": "When tested below 2 GHz, the speed limiter ESA shall withstand 60 V/m in stripline, 75 V/m in TEM cell, 60 mA by BCI, 30 V/m in ALSE and 21 V/m in reverberation chamber."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level above 2 GHz Not applicable Not applicable Not applicable 10 V/m 7 V/m",
+      "text": "When tested between 2,000 and 6,000 MHz, the speed limiter ESA shall withstand 10 V/m in ALSE and 7 V/m in reverberation chamber."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+      "text": "Over the whole 20 MHz to 2 GHz band the speed limiter ESA shall withstand at minimum 50 V/m stripline, 62.5 V/m TEM cell, 50 mA BCI, 25 V/m ALSE and 18 V/m reverberation."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.2",
+      "quote": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+      "text": "The speed limiter ESA shall show no degradation of performance of its immunity related functions, including speed limitation, during radiated immunity testing."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b",
+      "text": "The speed limiter ESA shall be tested for immunity to conducted transients on 12/24 V supply lines according to ISO 16750-2 starting profile and ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "1 -75 V -450 V 500 pulses III III",
+      "text": "The speed limiter ESA shall withstand 500 pulses of test pulse 1 at -75 V on 12 V systems and -450 V on 24 V systems with functional status III."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "2a +37 V +37 V 500 pulses I III",
+      "text": "The speed limiter ESA shall withstand 500 pulses of test pulse 2a at +37 V with functional status I for immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "3a -112 V -150 V 1 h I III",
+      "text": "The speed limiter ESA shall withstand test pulse 3a at -112 V on 12 V systems and -150 V on 24 V systems for 1 h with functional status I."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "3b +75 V +150 V 1 h I III",
+      "text": "The speed limiter ESA shall withstand test pulse 3b at +75 V on 12 V systems and +150 V on 24 V systems for 1 h with functional status I."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+      "text": "Every speed limiter ESA conforming to an approved type shall carry the UN R10 approval mark."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "text": "The ESA approval mark shall include a circle containing the letter \"E\" followed by the distinguishing number of the country granting the approval."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+      "text": "The ESA approval mark shall show the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+      "text": "The speed limiter ESA approval marking need not be visible once the ESA is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "3.2.6",
+      "quote": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "text": "Each speed limiter ESA sample shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 2.1",
+      "quote": "The ESA under test shall be in normal operation mode, preferably in maximum load.",
+      "text": "During radiated emission testing the speed limiter ESA shall be operated in normal operation mode, preferably at maximum load."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 3.2.3",
+      "quote": "the length of the Low Voltage (LV) harness and the HV harness parallel to the front edge of the ground plane shall be 1,500 mm (±75 mm)",
+      "text": "Where an HV harness is present, the LV and HV harnesses of the ESA under test shall be routed parallel to the front edge of the ground plane with a length of 1,500 mm ± 75 mm."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 3.4",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+      "text": "During ESA emission measurement the ambient noise or signal shall be at least 6 dB below the limits of interference of paragraph 6.5.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.2",
+      "quote": "If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "text": "Where peak detectors are used to measure the speed limiter ESA emission, a correction factor of 20 dB as defined in CISPR 12 shall be applied."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 8 4.2",
+      "quote": "Measurements shall be performed with an average detector.",
+      "text": "Narrowband radiated emissions of the speed limiter ESA shall be measured with an average detector."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "text": "Immunity of the speed limiter ESA to electromagnetic radiation shall be measured over the 20 to 6,000 MHz range with frequency steps according to ISO 11452-1."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range;",
+      "text": "When tested between 20 and 400 MHz, the speed limiter ESA shall be subjected to AM modulation with 1 kHz and 80 per cent modulation depth."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "PM3 (pulse modulation type 3), Ton 500 µs, period 1,000 µs in the 380 to 2,700 MHz and the 3,100 to 6,000 MHz frequency ranges.",
+      "text": "When tested between 380 and 2,700 MHz and between 3,100 and 6,000 MHz, the speed limiter ESA shall be subjected to PM3 modulation with Ton 500 µs and period 1,000 µs."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.1.2",
+      "quote": "The \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2.",
+      "text": "When the absorber chamber test method is used, the speed limiter ESA test field conditions shall be established by the substitution method according to ISO 11452-2."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.1.2.1.1",
+      "quote": "ESAs and loads shall be connected to ground. The external HV power supply shall be connected via feed-through-filtering.",
+      "text": "Where the speed limiter ESA has a shielded housing, it and its loads shall be connected to ground with low impedance."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "When bulk current injection is used, the injection probe shall be positioned at 150 mm from the speed limiter ESA using the substitution method."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 10 2",
+      "quote": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 to the supply lines as well as to other connections of ESAs",
+      "text": "The speed limiter ESA shall be subjected to test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 applied to its supply lines and other operational connections."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 10 3",
+      "quote": "Measurement according to the International Standard ISO 7637-2 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines.",
+      "text": "The transient conducted disturbances emitted by the speed limiter ESA on 12/24 V supply lines shall be measured according to ISO 7637-2."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "9.3.2",
+      "quote": "production shall be deemed to conform to the requirements of this Regulation in relation to immunity to electromagnetic radiation if the vehicle ESA does not exhibit any degradation relating to the direct control of the vehicle",
+      "text": "In production verification the speed limiter ESA shall show no degradation relating to direct control of the vehicle when subjected to 80 per cent of the reference immunity limits."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.2.1",
+      "quote": "All cables shall be well insulated and all cables and electrical equipment shall be able to withstand the temperature and humidity conditions to which they are exposed.",
+      "text": "The harness and electrical equipment of the speed limiter shall be well insulated and able to withstand the temperature and humidity conditions to which they are exposed."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.2.1",
+      "quote": "In the engine compartment, particular attention shall be paid to their suitability to withstand the environmental temperature and the effects of all likely contaminants.",
+      "text": "Where speed limiter cables and equipment are installed in the engine compartment, they shall withstand the environmental temperature and the effects of likely contaminants."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.2.2",
+      "quote": "No cable used in an electrical circuit shall carry a current in excess of that acceptable for such a cable in the light of its mode of installation and the maximum ambient temperature.",
+      "text": "No speed limiter harness cable shall carry a current in excess of that acceptable for its mode of installation and the maximum ambient temperature."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.2.3",
+      "quote": "Every electrical circuit feeding an item of equipment other than the starter, the ignition circuit (positive ignition), the glow-plugs, the engine-stopping device, the charging circuit and the battery earth connection shall include a fuse or a circuit breaker.",
+      "text": "The electrical circuit feeding the speed limiter shall include a fuse or a circuit breaker."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.2.4",
+      "quote": "All cables shall be well protected and shall be held securely in position in such a way that they cannot be damaged by cutting, abrasion or chafing.",
+      "text": "The speed limiter harness cables shall be well protected and held securely so that they cannot be damaged by cutting, abrasion or chafing."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.2.6",
+      "quote": "All electrical cables shall be so located that no part can make contact with any fuel line or any part of the exhaust system, or be subjected to excessive heat",
+      "text": "The speed limiter harness cables shall be located so that no part can contact a fuel line or any part of the exhaust system or be subjected to excessive heat."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.5",
+      "quote": "No flammable material shall be permitted within 100 mm of the exhaust system component, any high voltage electrical equipment or any other significant source of heat unless the material is effectively shielded.",
+      "text": "Where the speed limiter housing or harness is of flammable material, no such material shall be within 100 mm of the exhaust system, high voltage equipment or other significant heat source unless effectively shielded."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.2.5",
+      "quote": "a manually-operated isolating switch which is capable of disconnecting all such circuits from the main electrical supply shall be connected in each pole of that supply",
+      "text": "Where the speed limiter introduces an electrical circuit exceeding 100 V RMS, a manually operated isolating switch shall disconnect all such circuits from the main supply."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.2.3.1",
+      "quote": "Space shall be provided in the driver’s area, in a position clearly visible to the driver in his seating position, for the markings provided for in paragraph 3.3. of Annex 11.",
+      "text": "Space shall be provided in the driver's area, clearly visible to the seated driver, for the markings required by paragraph 3.3 of Annex 11."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 11 3.3.1",
+      "quote": "The vehicle shall be clearly marked on the inside in a position visible to the driver in his seating position:",
+      "text": "The vehicle shall be clearly marked inside, in a position visible to the seated driver, with its permitted passenger and wheelchair capacities."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 11 3.3.1.1",
+      "quote": "In letters or pictograms not less than 10 mm high and numbers not less than 12 mm high",
+      "text": "The vehicle's passenger capacity markings shall use letters or pictograms not less than 10 mm high and numbers not less than 12 mm high."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 11 3.3.1.1.1",
+      "quote": "The maximum number of seating places the vehicle is designed to carry;",
+      "text": "The vehicle interior marking shall show the maximum number of seating places the vehicle is designed to carry."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 11 3.3.1.1.2",
+      "quote": "The maximum number of standing places, if any, the vehicle is designed to carry;",
+      "text": "The vehicle interior marking shall show the maximum number of standing places, if any, the vehicle is designed to carry."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 11 3.3.1.1.3",
+      "quote": "The maximum number of wheelchairs which the vehicle is designed to carry, if any.",
+      "text": "The vehicle interior marking shall show the maximum number of wheelchairs the vehicle is designed to carry, if any."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "4.4.3",
+      "quote": "An additional symbol consisting of the Roman numerals for the Class(es) in which the vehicle or bodywork has been approved.",
+      "text": "The vehicle approval mark shall additionally include the Roman numerals of the class(es) in which the vehicle has been approved."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and be indelible.",
+      "text": "The UN R107 approval mark placed on the vehicle shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "4.7",
+      "quote": "The approval mark shall be placed close to or on the vehicle or bodywork data plate affixed by the manufacturer.",
+      "text": "The UN R107 approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "5.5",
+      "quote": "all measurements shall be made when the vehicle is at its mass in running order and it is standing on a smooth and horizontal ground surface and in the normal condition for travel.",
+      "text": "Unless otherwise stated, all measurements relevant to the bus installation of the speed limiter shall be made at mass in running order, on smooth horizontal ground, in normal travel condition."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "1.1",
+      "quote": "This Regulation applies to every single-deck, double-deck, rigid or articulated vehicle of category M2 or M3.",
+      "text": "The urban bus to which the speed limiter is fitted shall be a single-deck, double-deck, rigid or articulated vehicle of category M2 or M3."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.7.8.6.1",
+      "quote": "there shall be measured a free space with a height of not less than 900 mm measured from the highest point of the uncompressed seat cushion and at least 1,350 mm from the mean level of the floor",
+      "text": "Over each seating position of the bus there shall be a free space of at least 900 mm from the uncompressed cushion and at least 1,350 mm from the mean floor level."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.7.13.3",
+      "quote": "Any lighting likely to affect adversely and significantly the driver's vision shall be capable of being operated only while the vehicle is at rest.",
+      "text": "Any interior lighting likely to affect adversely the driver's vision shall be capable of operation only while the vehicle is at rest."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.7.13.4",
+      "quote": "The vehicle shall be provided with devices allowing defrosting and demisting of the windscreen.",
+      "text": "The bus shall be provided with devices allowing defrosting and demisting of the windscreen."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.3.1",
+      "quote": "All batteries shall be well secured and easily accessible.",
+      "text": "All batteries of the bus shall be well secured and easily accessible."
+    },
+    {
+      "regulation": "UN R107",
+      "paragraph": "Annex 3 7.5.3.3",
+      "quote": "The battery terminals shall be protected against the risk of short circuit.",
+      "text": "The bus battery terminals shall be protected against the risk of short circuit."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.1",
+      "quote": "An onboard speedometer and odometer complying with the requirements of this Regulation shall be fitted to the vehicle to be approved.",
+      "text": "The bus shall be fitted with an onboard speedometer and odometer complying with UN R39."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2",
+      "quote": "The display of the speedometer shall be located within the direct field of view of the driver and must be clearly legible both day and night.",
+      "text": "The speedometer display shall be located within the direct field of view of the driver and be clearly legible both day and night."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2",
+      "quote": "The range of speeds displayed must be sufficiently wide to include the maximum speed of this type of vehicle as stated by the manufacturer.",
+      "text": "The speedometer display range shall be sufficiently wide to include the maximum speed of the vehicle type stated by the manufacturer."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "In the case of speedometers intended for vehicles of Categories M, N, and L3, L4, L5, and L7 the graduation shall be 1, 2, 5 or 10 km/h.",
+      "text": "For the category M3 bus, the speedometer graduation shall be 1, 2, 5 or 10 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "when the highest value on the display does not exceed 200 km/h, speed values shall be indicated at intervals not exceeding 20 km/h.",
+      "text": "Where the speedometer's highest displayed value does not exceed 200 km/h, speed values shall be indicated at intervals not exceeding 20 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.1",
+      "quote": "If a setting makes it possible for the driver to choose between the speed in km/h and mph (miles per hour), then the speed may be displayed only in either km/h or mph at any one time.",
+      "text": "Where the driver can select km/h or mph, the speedometer shall display speed in only one of those units at any one time, with the unit permanently displayed."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.2.2",
+      "quote": "the speedometer shall also be marked in miles per hour (mph); the graduations shall be of 1, 2, 5 or 10 mph.",
+      "text": "Where the bus is manufactured for sale in a country using imperial units, the speedometer shall also be marked in mph with graduations of 1, 2, 5 or 10 mph."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.1",
+      "quote": "The tyres shall be one of the types normally fitted to the vehicle as defined in paragraph 2.3. of this Regulation.",
+      "text": "When the speedometer accuracy is tested, the tyres shall be one of the types normally fitted to the vehicle as defined in paragraph 2.3."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.3",
+      "quote": "The reference temperature at the speedometer shall be 23 ± 5 °C, if relevant for the test to the discretion of the Technical Service responsible for carrying out the test;",
+      "text": "During speedometer testing the reference temperature at the speedometer shall be 23 °C ± 5 °C where relevant at the discretion of the technical service."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.4",
+      "quote": "During each test the pressure of the tyres shall be the normal running pressure as defined in paragraph 2.4.",
+      "text": "During each speedometer test the tyre pressure shall be the normal running pressure as defined in paragraph 2.4."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.5",
+      "quote": "100 < Vmax ≤ 150 40 km/h, 80 km/h and 80 % Vmax (if the resulting speed is ≥ 100 km/h)",
+      "text": "Where the bus maximum design speed is above 100 km/h and up to 150 km/h, the speedometer shall be tested at 40 km/h, 80 km/h and 80 per cent of Vmax if the resulting speed is at least 100 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.5",
+      "quote": "150 < Vmax 40 km/h, 80 km/h and 120 km/h",
+      "text": "Where the bus maximum design speed exceeds 150 km/h, the speedometer shall be tested at 40 km/h, 80 km/h and 120 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.6",
+      "quote": "The test instrumentation used for measuring the true vehicle speed shall be accurate to ± 0.5 per cent;",
+      "text": "The instrumentation used to measure the true vehicle speed during speedometer testing shall be accurate to ± 0.5 per cent."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.6.1",
+      "quote": "The surface of a test track when used shall be flat, and provide sufficient adhesion;",
+      "text": "Where a test track is used for speedometer testing, its surface shall be flat and provide sufficient adhesion."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.3.6.2",
+      "quote": "If a roller dynamometer is used for the test, the diameter of the roller should be at least 0.4 m;",
+      "text": "Where a roller dynamometer is used for speedometer testing, the roller diameter shall be at least 0.4 m."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.4",
+      "quote": "The speed indicated shall not be less than the true speed of the vehicle.",
+      "text": "The speed indicated by the speedometer shall never be less than the true speed of the vehicle."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.4",
+      "quote": "0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h",
+      "text": "At the test speeds the relation between displayed speed V1 and true speed V2 shall satisfy 0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5",
+      "quote": "The odometer shall display at least an integer number composed of a minimum of 6 numerals for the vehicles of categories M and N",
+      "text": "The odometer of the M3 bus shall display at least an integer number composed of a minimum of 6 numerals."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5",
+      "quote": "The display of the odometer shall be visible or accessible to the driver.",
+      "text": "The odometer display shall be visible or accessible to the driver."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.5.2",
+      "quote": "The odometer shall display the distance in the unit corresponding to that of the predominant speedometer scale.",
+      "text": "The odometer shall display distance in the unit corresponding to the predominant speedometer scale, or identify the unit used if independently selectable."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.8",
+      "quote": "The total distance indicated shall not deviate by more than ±4.0 per cent from the true distance travelled as determined in paragraph 5.7.",
+      "text": "The odometer total distance indicated shall not deviate by more than ± 4.0 per cent from the true distance travelled."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.9",
+      "quote": "these values shall not deviate from the (rounded) total distance indicated.",
+      "text": "Where total distance values are provided over the serial data port, they shall not deviate from the rounded total distance indicated."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.10",
+      "quote": "Total distance values and the total distance indicated shall have a resolution better than or equal to 1 km or 1 mile, as appropriate.",
+      "text": "The odometer total distance values and indicated distance shall have a resolution better than or equal to 1 km or 1 mile."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.11",
+      "quote": "In the case of an electrically detectable failure preventing the odometer requirements of this UN Regulation from being met, a malfunction indication shall be provided to the driver",
+      "text": "Where an electrically detectable failure prevents the odometer requirements from being met, a malfunction indication shall be provided to the driver."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.11.1",
+      "quote": "The malfunction indication shall be active when the malfunction occurs and shall remain active as long as the malfunction persists.",
+      "text": "The odometer malfunction indication shall become active when the malfunction occurs and remain active as long as it persists."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "5.12",
+      "quote": "The total distance indicated and total distance values shall be protected against manipulation.",
+      "text": "The total distance indicated and total distance values shall be protected against manipulation."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.4.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle described in paragraph 4.4.1.",
+      "text": "The vehicle approval mark shall include the number of UN R39, the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and shall be indelible.",
+      "text": "The UN R39 approval mark affixed to the bus shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "4.7",
+      "quote": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer.",
+      "text": "The UN R39 approval mark shall be placed close to or on the vehicle data plate."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 3 2",
+      "quote": "In the case of vehicles of categories M and N: 0 ≤ (V1 - V2) ≤ 0.1 V2 + 6 km/h",
+      "text": "For conformity of production of the category M3 bus, the relation between indicated speed V1 and actual speed V2 shall satisfy 0 ≤ (V1 - V2) ≤ 0.1 V2 + 6 km/h."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 4 1.1.2",
+      "quote": "The test shall be carried out with the vehicle at its unladen weight.",
+      "text": "The odometer accuracy test shall be carried out with the vehicle at its unladen weight."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 4 1.1.5",
+      "quote": "The test instrumentation used for measuring the true distance travelled shall be accurate to ± 0.5 per cent.",
+      "text": "The instrumentation used to measure the true distance travelled in the odometer test shall be accurate to ± 0.5 per cent."
+    },
+    {
+      "regulation": "UN R39",
+      "paragraph": "Annex 4 1.1.8",
+      "quote": "The vehicle is driven for a minimum of 10 kilometres or 7 miles as indicated on the odometer",
+      "text": "For the odometer accuracy test, the vehicle shall be driven for a minimum of 10 km or 7 miles as indicated on the odometer."
+    }
+  ]
+}

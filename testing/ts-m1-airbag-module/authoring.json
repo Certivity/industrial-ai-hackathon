@@ -1,0 +1,942 @@
+{
+  "case_id": "ts-m1-airbag-module",
+  "regulation": "UN R114",
+  "requirements": [
+    {
+      "regulation": "UN R114",
+      "paragraph": "1.1",
+      "quote": "to airbag modules for replacement airbag systems intended to be installed on motor vehicles",
+      "text": "The airbag module shall be of a type intended to be installed on motor vehicles as a replacement airbag system."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "1.2",
+      "quote": "to replacement steering wheels for vehicles of categories M1 and N1, equipped with an airbag module of an approved type",
+      "text": "The replacement steering wheel shall be equipped with an airbag module of an approved type when it is intended for vehicles of category M1."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "2.6.1",
+      "quote": "Category A: Device intended to protect the driver of a vehicle in the event of a frontal collision",
+      "text": "The airbag module shall be designed to protect the driver of the vehicle in the event of a frontal collision, i.e. it shall be of category A."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "4.2.4",
+      "quote": "The samples of the replacement airbag steering wheel and the hub (adapters) shall be clearly and indelibly marked with the manufacturer's trade name or mark",
+      "text": "The replacement steering wheel and its hub (adapter) shall be clearly and indelibly marked with the manufacturer's trade name or mark."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "4.2.4.1",
+      "quote": "a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+      "text": "The approval mark on the steering wheel shall comprise a circle surrounding the letter \"E\" followed by the distinguishing number of the granting country."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "4.2.4.2",
+      "quote": "an approval number",
+      "text": "The approval mark on the steering wheel shall include an approval number."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "4.2.4.3",
+      "quote": "an additional symbol, indicating the airbag module category (see paragraph. 2.6. above)",
+      "text": "The steering wheel shall bear an additional symbol indicating the airbag module category (category A)."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "4.2.5",
+      "quote": "The approval mark and the additional symbol shall be clearly legible and indelible",
+      "text": "The approval mark and the additional symbol shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "4.2.6",
+      "quote": "The approval mark shall be placed on the replacement steering wheel and on the hub (adapter).",
+      "text": "The approval mark shall be placed on the replacement steering wheel and on the hub (adapter) where these are separate parts."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "4.2.6",
+      "quote": "If the replacement steering wheel and hub are in one piece, one approval mark and one mark with the manufacturer's trade name or mark is sufficient.",
+      "text": "Where the replacement steering wheel and hub are made in one piece, a single approval mark and a single manufacturer's trade name or mark shall be sufficient."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.1.2",
+      "quote": "Interference from magnetic fields shall not disrupt the operation of the airbag system",
+      "text": "The airbag system shall not have its operation disrupted by interference from magnetic fields."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.1.3",
+      "quote": "A complete system shall comprise a device alerting the user if the airbag system is not in working order as designed",
+      "text": "The complete airbag system shall comprise a device that alerts the user if the airbag system is not in working order as designed."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.1.4",
+      "quote": "Airbag modules for replacement airbag system of category A shall be so designed that, when they are submitted to a test in accordance with",
+      "text": "As a category A module, the airbag shall be designed so that, in the static deployment test, the airbag may be pushed aside manually after full deployment."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.1.4",
+      "quote": "the airbag may be pushed aside manually after full deployment",
+      "text": "The deployed airbag shall be pushable aside manually after full deployment in the static deployment test."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.1.5",
+      "quote": "A certificate shall be presented stating that the nature, concentration and temperature of the gases and solid particles released on deployment of an airbag are not such as",
+      "text": "The nature, concentration and temperature of the gases and solid particles released on deployment of the airbag shall be such as not to be liable to injure seriously the occupants of the vehicle."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.1",
+      "quote": "Each airbag module shall comply with the requirements of the \"International Standard ISO 12097-2 ROAD VEHICLES-AIRBAG COMPONENT TESTING-PART 2: Testing of Airbag Modules\"",
+      "text": "The airbag module shall comply with the requirements of ISO 12097-2:1996-08-00 to guarantee the operating safety of the module."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.2.1",
+      "quote": "Drop test",
+      "text": "The airbag module shall pass the drop test of the reduced test programme."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.2.2",
+      "quote": "Mechanical impact test",
+      "text": "The airbag module shall pass the mechanical impact test of the reduced test programme."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.2.3",
+      "quote": "Simultaneous vibration temperature test",
+      "text": "The airbag module shall pass the simultaneous vibration temperature test of the reduced test programme."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.2.4",
+      "quote": "Thermal humidity cycling test",
+      "text": "The airbag module shall pass the thermal humidity cycling test of the reduced test programme."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.2.5",
+      "quote": "Solar radiation simulation test",
+      "text": "The airbag module shall pass the solar radiation simulation test of the reduced test programme."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.2.6",
+      "quote": "Temperature shock test",
+      "text": "The airbag module shall pass the temperature shock test of the reduced test programme."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.2.2.7",
+      "quote": "Static deployment test",
+      "text": "The airbag module shall pass the static deployment test of the reduced test programme."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.3.1.1",
+      "quote": "a heat test of the replacement steering wheel (all parts except the airbag module), as described in paragraph 6.2.1.1., to guarantee a cohesion of all materials",
+      "text": "All parts of the replacement steering wheel except the airbag module shall withstand the heat test of paragraph 6.2.1.1. so as to guarantee cohesion of all materials."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.3.1.2",
+      "quote": "a bending test, as described in paragraph 6.2.1.2., to guarantee a minimum deformation of the steering wheel rim",
+      "text": "The replacement steering wheel shall withstand the bending test of paragraph 6.2.1.2. so that deformation of the steering wheel rim stays below the permitted minimum."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.3.1.3",
+      "quote": "a torque test, as described in paragraph 6.2.1.3., to guarantee a sufficient stiffness when the replacement steering wheel is loaded tangentially to the steering wheel rim",
+      "text": "The replacement steering wheel shall withstand the torque test of paragraph 6.2.1.3. to guarantee sufficient stiffness when loaded tangentially to the rim."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.3.1.4",
+      "quote": "a fatigue test, as described in paragraph 6.2.1.4., to guarantee a sufficient lifetime",
+      "text": "The replacement steering wheel shall withstand the fatigue test of paragraph 6.2.1.4. to guarantee a sufficient lifetime."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.3.2",
+      "quote": "This requirement is deemed fulfilled when the effective diameter of the replacement steering wheel is not less than 0.9 times the effective diameter of the steering wheel used by the vehicle manufacturer",
+      "text": "The effective diameter of the replacement steering wheel shall not be less than 0.9 times the effective diameter of the steering wheel installed by the vehicle manufacturer."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.3.3",
+      "quote": "The size and fitting of the replacement steering wheel to the steering column must be within the dimensions and tolerances specified by the vehicle manufacturer",
+      "text": "The size and fitting of the replacement steering wheel to the steering column shall be within the dimensions and tolerances specified by the vehicle manufacturer."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "5.3.4",
+      "quote": "The replacement steering wheel shall allow the drivers a direct view to all important instruments and indicators such as",
+      "text": "The replacement steering wheel shall allow the driver a direct view to the speedometer and to the listed tell tale signs (direction indicator, main beam, rear fog lamp, hazard warning, ABS, brake malfunction, airbag function)."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.1",
+      "quote": "The replacement steering wheel (except the airbag module) is exposed to the following temperature carried out in one circle",
+      "text": "During the heat test the replacement steering wheel, excluding the airbag module, shall be exposed to one cycle of 16 hours at -15 °C ± 2 °C, 30 minutes at +22 °C ± 2 °C, 3 hours at +80 °C ± 2 °C and 30 minutes at -22 °C ± 2 °C."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.1",
+      "quote": "This test must leave no permanent deformation over and above the design tolerances, or any cracks or fractures",
+      "text": "After the heat test the steering wheel shall show no permanent deformation beyond the design tolerances and no cracks or fractures."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.2",
+      "quote": "The replacement steering wheel is exposed to a temperature of at least - 15°C ± 2°C for 16 hours",
+      "text": "Before the bending test the replacement steering wheel shall be exposed to a temperature of at least -15 °C ± 2 °C for 16 hours."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.2",
+      "quote": "the steering wheel rim is subjected to a static loading of 70 daN ± 0.5 daN acting perpendicular to the plane of the rim",
+      "text": "In the bending test the rim, mounted on a rigid shaft, shall be subjected to a static load of 70 daN ± 0.5 daN perpendicular to the plane of the rim, applied between the two spokes confining the greatest angle."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.2",
+      "quote": "This test may not leave any permanent deformation on the rim of the replacement steering wheel that would be greater than 8 per cent of the steering wheel diameter",
+      "text": "After the bending test the rim shall show no permanent deformation greater than 8 per cent of the steering wheel diameter."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.2",
+      "quote": "There must be no signs of any cracks or fractures, which will affect the operational safety of the steering wheel",
+      "text": "After the bending test there shall be no signs of cracks or fractures affecting the operational safety of the steering wheel."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.3",
+      "quote": "subjected statically to a test load of 70 daN ± 0.5 daN applied tangentially to the steering wheel rim",
+      "text": "In the torque test the steering wheel, mounted on a rigid shaft by its hub, shall be subjected statically to 70 daN ± 0.5 daN applied tangentially to the rim."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.3",
+      "quote": "The permanent deformation resulting from this test may not exceed 1 degree in the direction of rotation",
+      "text": "The permanent deformation from the tangential 70 daN load shall not exceed 1 degree in the direction of rotation."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.3",
+      "quote": "The steering wheel rim is then subjected to a tangential load corresponding to a torque or 22 daNm ± 0.5 daNm",
+      "text": "The rim shall then be subjected to a tangential load corresponding to a torque of 22 daNm ± 0.5 daNm without loss of operational safety."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.4",
+      "quote": "subjected to a approximate sinusoidal endurance load cycle test with a torque of 14 daNm ± 0.5 daNm at a frequency of 1.5 Hz ± 0.25 Hz",
+      "text": "In the fatigue test the steering wheel shall be subjected to an approximately sinusoidal endurance load cycle of 14 daNm ± 0.5 daNm at 1.5 Hz ± 0.25 Hz."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.1.4",
+      "quote": "The replacement steering wheel must withstand at least 1 x 10⁵ load cycles without showing any signs of cracks or fractures which might affect its operational safety",
+      "text": "The replacement steering wheel shall withstand at least 1 x 105 load cycles without cracks or fractures affecting its operational safety."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.2.1",
+      "quote": "The visibility is assessed by means of a comparative evaluation of photographs taken of the instrument panel of the vehicle under test equipped with a replacement steering wheel",
+      "text": "The driver's view to the instruments and tell tales shall be verified by comparative evaluation of photographs of the instrument panel of the vehicle fitted with the replacement steering wheel."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.2.1",
+      "quote": "A 35 mm camera inclined by 15° towards the horizontal plane is used to simulate binocular viewing and photos are taken from each of the eye points",
+      "text": "For the visibility evaluation, photographs shall be taken from each eye point with a 35 mm camera inclined 15° towards the horizontal plane."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.2.2",
+      "quote": "the measure \"a\" with a limitation of a minimum 30 mm refers to the control element with the smallest distance to the replacement steering wheel",
+      "text": "The shortest distance between any control element and the rear plane of the steering wheel rim shall be at least 30 mm."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.2.2",
+      "quote": "The measure \"b\" with a limitation of a maximum value of 130 mm denotes the distance from the centre of the direction indicator control element and the front plane of the steering wheel rim facing the driver",
+      "text": "The distance from the centre of the direction indicator control element to the front plane of the steering wheel rim facing the driver shall not exceed 130 mm."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.2.3",
+      "quote": "the function of the audible warning device and the function of the airbag tell tale are considered in the examination",
+      "text": "The replacement steering wheel shall preserve the function of the audible warning device (horn) and the function of the airbag tell tale."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.2.4",
+      "quote": "The fitting dimensions (e.g. toothing of the steering shaft) are compared with the dimensions as provided by the manufacturer using a profile projector",
+      "text": "The fitting dimensions of the adapter, e.g. the toothing of the steering shaft, shall match the dimensions provided by the manufacturer."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.2.4",
+      "quote": "The strength of the replacement adapters is checked by tightening the fixing nut/screw applying twice the tightening torque specified by the vehicle manufacturer but not more than 85 Nm",
+      "text": "The replacement adapter shall withstand tightening of the fixing nut/screw at twice the vehicle manufacturer's tightening torque, up to a maximum of 85 Nm."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "6.2.3",
+      "quote": "Replacement steering wheels equipped with airbag modules of an approved type shall be such that, when installed in a vehicle, this vehicle fulfils the requirements of paragraphs 5.2.1.1., 5.2.1.2., 5.2.1.3., 5.2.1.4. and 5.2.1.5. of Regulation No. 94",
+      "text": "When installed in the vehicle, the replacement steering wheel with its airbag module shall enable the vehicle to meet the frontal impact requirements of paragraphs 5.2.1.1. to 5.2.1.5. of Regulation No. 94, 01 series."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "7.2",
+      "quote": "Airbag systems with airbag modules of category A, B, C or D shall carry the inscription \"AIRBAG\" located in the interior of the circumference of the replacement steering wheel or on the cover of the airbag module",
+      "text": "The product shall carry the inscription \"AIRBAG\" located inside the circumference of the steering wheel or on the airbag module cover."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "7.2",
+      "quote": "this inscription shall be durably affixed and easily visible",
+      "text": "The \"AIRBAG\" inscription shall be durably affixed and easily visible."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "7.2",
+      "quote": "the following label shall be permanently attached to the visible surface of the cover of the airbag module (the text information shown is a minimum)",
+      "text": "Where the frontal airbag system is intended for a passenger seating position, the prescribed label shall be permanently attached to the visible surface of the airbag module cover."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "7.2",
+      "quote": "This label shall be provided in the language(s) of the country where the device is sold",
+      "text": "The airbag warning label shall be provided in the language(s) of the country where the device is sold."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "7.2",
+      "quote": "Label minimum size: 60 x 120 mm",
+      "text": "The airbag warning label shall be at least 60 x 120 mm."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "Annex 4",
+      "quote": "The approval number and additional symbol(s) must be placed close to the circle and either above or below the \"E\" or to the left or right of that letter",
+      "text": "The approval number and additional symbol shall be placed close to the circle, above or below the \"E\" or to its left or right."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "Annex 4",
+      "quote": "The digits of the approval number must be on the same side of the \"E\" and oriented in the same direction",
+      "text": "The digits of the approval number shall all be on the same side of the \"E\" and oriented in the same direction."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "Annex 4",
+      "quote": "The additional symbol(s) must be diametrically opposite the approval number",
+      "text": "The additional symbol shall be diametrically opposite the approval number."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "Annex 4",
+      "quote": "a = 5 mm min",
+      "text": "The characters of the approval mark shall have a height of at least 5 mm."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "Annex 5",
+      "quote": "The approval number and additional symbol(s) must be placed close to the circle and either above or below the \"E\" or to the left or right of that letter",
+      "text": "On the steering wheel approval mark the approval number and additional symbol shall sit close to the circle, above or below the \"E\" or to its left or right."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "Annex 5",
+      "quote": "The digits of the approval number must be on the same side of the \"E\" and oriented in the same direction",
+      "text": "On the steering wheel approval mark the approval number digits shall be on the same side of the \"E\" and oriented in the same direction."
+    },
+    {
+      "regulation": "UN R114",
+      "paragraph": "Annex 5",
+      "quote": "The additional symbol(s) must be diametrically opposite the approval number",
+      "text": "On the steering wheel approval mark the additional symbol shall be diametrically opposite the approval number."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.1",
+      "quote": "The head performance criterion (HPC) shall not exceed 1000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms",
+      "text": "In the frontal barrier test with the 50th percentile male dummy, the head performance criterion shall not exceed 1000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.2",
+      "quote": "The axial tensile neck force shall not exceed 3.3 kN",
+      "text": "In the frontal barrier test with the 50th percentile male dummy, the axial tensile neck force shall not exceed 3.3 kN."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.2",
+      "quote": "The fore/aft shear forces at the head/neck interface shall not exceed 3.1 kN",
+      "text": "In the frontal barrier test with the 50th percentile male dummy, the fore/aft shear forces at the head/neck interface shall not exceed 3.1 kN."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.2",
+      "quote": "The neck bending moment about the y axis shall not exceed 57 Nm in extension",
+      "text": "In the frontal barrier test with the 50th percentile male dummy, the neck bending moment about the y axis shall not exceed 57 Nm in extension."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.3",
+      "quote": "The thorax compression criterion (ThCC) shall not exceed 42 mm",
+      "text": "In the frontal barrier test with the 50th percentile male dummy, the thorax compression criterion shall not exceed 42 mm."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.4",
+      "quote": "The viscous criterion (V * C) for the thorax shall not exceed 1.0 m/s",
+      "text": "In the frontal barrier test with the 50th percentile male dummy, the thorax viscous criterion shall not exceed 1.0 m/s."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.1.5",
+      "quote": "The femur force criterion (FFC) shall not exceed 9.07 kN",
+      "text": "In the frontal barrier test with the 50th percentile male dummy, the femur force criterion shall not exceed 9.07 kN."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.1",
+      "quote": "The head performance criterion (HPC) shall not exceed 1000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms",
+      "text": "In the frontal barrier test with the 5th percentile female dummy, the head performance criterion shall not exceed 1000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.2",
+      "quote": "The axial tensile neck force shall not exceed 2.9 kN",
+      "text": "In the frontal barrier test with the 5th percentile female dummy, the axial tensile neck force shall not exceed 2.9 kN."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.2",
+      "quote": "The fore/aft shear forces at the head/neck interface shall not exceed 2.7 kN",
+      "text": "In the frontal barrier test with the 5th percentile female dummy, the fore/aft shear forces at the head/neck interface shall not exceed 2.7 kN."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.3",
+      "quote": "34 mm in the case of vehicles of category M1",
+      "text": "In the frontal barrier test with the 5th percentile female dummy, the thorax compression criterion shall not exceed 34 mm for category M1 vehicles."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.4",
+      "quote": "The viscous criterion (V * C) for the thorax shall not exceed 1.0 m/s",
+      "text": "In the frontal barrier test with the 5th percentile female dummy, the thorax viscous criterion shall not exceed 1.0 m/s."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.1.2.5",
+      "quote": "The femur force criterion (FFC) shall not exceed 7 kN",
+      "text": "In the frontal barrier test with the 5th percentile female dummy, the femur force criterion shall not exceed 7 kN."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.2.1",
+      "quote": "the residual steering wheel displacement, when measured at the centre of the steering wheel hub, shall not exceed 80 mm in the upwards vertical direction and 100 mm in the rearward horizontal direction",
+      "text": "After the frontal impact, the residual displacement at the centre of the steering wheel hub shall not exceed 80 mm upwards and 100 mm rearwards."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "4.4",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation, an international approval mark",
+      "text": "The vehicle into which the product is fitted shall bear an international approval mark affixed conspicuously in the readily accessible place specified on the approval form."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "4.4.1",
+      "quote": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+      "text": "That approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the granting country."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "4.4.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of the circle prescribed in paragraph 4.4.1. above",
+      "text": "The mark shall show the number of this Regulation, followed by \"R\", a dash and the approval number, to the right of the circle."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and be indelible",
+      "text": "The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "4.7",
+      "quote": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2",
+      "quote": "The vehicle which, in agreement with the Technical Service, is considered as having the worst case effect on the result of the injury criteria specified in paragraph 5.2.1. shall be selected for this test",
+      "text": "The product shall be assessed in the vehicle variant considered, in agreement with the Technical Service, to have the worst-case effect on the injury criteria of paragraph 5.2.1."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.3",
+      "quote": "During the test no door shall open",
+      "text": "During the frontal impact test, no door of the vehicle shall open."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.4",
+      "quote": "After the impact, the side doors shall be unlocked",
+      "text": "After the impact, the side doors shall be unlocked."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.5.1",
+      "quote": "To open at least one door per row of seats",
+      "text": "After the impact it shall be possible, without tools, to open at least one door per row of seats."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.5.2",
+      "quote": "To release the dummies from their restraint system which, locked, shall be capable of being released by a maximum force of 60 N on the centre of the release control",
+      "text": "After the impact it shall be possible to release the dummies from the restraint system with a maximum force of 60 N on the centre of the release control."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.5.3",
+      "quote": "To remove the dummies from the vehicle without adjustment of the seats",
+      "text": "After the impact it shall be possible to remove the dummies from the vehicle without adjusting the seats."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "5.2.6",
+      "quote": "In the case of a vehicle propelled by liquid fuel, no more than slight leakage of liquid from the fuel feed installation shall occur on collision",
+      "text": "In the case of a liquid-fuelled vehicle, no more than slight leakage of liquid from the fuel feed installation shall occur on collision."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 1.2",
+      "quote": "The barrier shall consist of a block of reinforced concrete not less than 3 m wide in front and not less than 1.5 m high",
+      "text": "The frontal impact shall be run against a reinforced concrete barrier at least 3 m wide and at least 1.5 m high."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 1.2",
+      "quote": "It shall be covered with plywood boards 20 ± 2 mm thick, in good condition",
+      "text": "The barrier front face shall be covered with plywood boards 20 ± 2 mm thick in good condition."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 1.3.1",
+      "quote": "the maximum lateral misalignment tolerated between the vertical median line of the front of the vehicle and the vertical median line of the collision wall is ± 30 cm",
+      "text": "The vehicle shall reach the barrier on a course perpendicular to the wall, with a lateral misalignment of at most ± 30 cm."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 1.1",
+      "quote": "The last part of the track, for at least 5 m before the barrier, shall be horizontal, flat and smooth",
+      "text": "The last 5 m of the run-up track before the barrier shall be horizontal, flat and smooth."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 1.4.3.1",
+      "quote": "The steering wheel, if adjustable, shall be placed in the normal position indicated by the manufacturer",
+      "text": "For the test the adjustable steering wheel shall be set in the normal position indicated by the manufacturer, or midway between the adjustment limits if none is given."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 1.4.3.5",
+      "quote": "The doors shall be closed but not locked",
+      "text": "For the test the doors shall be closed but not locked."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 4",
+      "quote": "Vehicle speed at the moment of impact shall be 50 -0/ +1 km/h",
+      "text": "The impact speed at the moment of contact with the barrier shall be 50 -0/+1 km/h."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 5.2.1",
+      "quote": "The acceleration (a) referring to the centre of gravity is calculated from the triaxial components of the acceleration measured with a CFC of 1000",
+      "text": "Head acceleration at the centre of gravity shall be calculated from triaxial components measured with a channel frequency class of 1000."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 5.2.2.2",
+      "quote": "The bending moment about a lateral axis at the neck/head interface are measured with a CFC of 600",
+      "text": "The neck bending moment about a lateral axis at the neck/head interface shall be measured with a channel frequency class of 600."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 3 5.2.3",
+      "quote": "The chest deflection between the sternum and the spine is measured with a CFC of 180",
+      "text": "Chest deflection between the sternum and the spine shall be measured with a channel frequency class of 180."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 4 1.2.4",
+      "quote": "Values of HPC for which the time interval (t1 - t2) is greater than 36 ms are ignored for the purposes of calculating the maximum value",
+      "text": "In the HPC calculation, time intervals greater than 36 ms shall be ignored when determining the maximum value."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 4 5.2",
+      "quote": "The sternum deflection response is filtered once at CFC 180",
+      "text": "For the viscous criterion the sternum deflection response shall be filtered once at CFC 180."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 5 2.4.3.1",
+      "quote": "The \"H\" point of the driver test dummy shall coincide within 13 mm in the vertical dimension and 13 mm in the horizontal dimension",
+      "text": "The \"H\" point of the driver dummy shall coincide within 13 mm vertically and 13 mm horizontally with the point 6 mm below the H point determined per Annex 6."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 5 2.8",
+      "quote": "The temperature of the dummy and the system of measuring instruments shall be stabilized before the test and maintained so far as possible within a range between 19 °C and 22.2 °C",
+      "text": "The temperature of the dummy and measuring instruments shall be stabilised before the test and kept within 19 °C to 22.2 °C."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 5 2.3.1",
+      "quote": "if the hand of the test dummy is pushed upward by a force of not less than 9 N and not more than 22 N, the tape shall release the hand from the steering wheel rim",
+      "text": "The driver dummy's palms shall be taped to the steering wheel rim so that the tape releases the hand when pushed upward with 9 N to 22 N."
+    },
+    {
+      "regulation": "UN R137",
+      "paragraph": "Annex 6",
+      "quote": "The procedure is described in Addendum 6 of Mutual Resolution No. 1 (M.R.1)",
+      "text": "The \"H\" point and actual torso angle for each seat shall be determined by the procedure of Addendum 6 of Mutual Resolution No. 1."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.1",
+      "quote": "The steering system shall ensure easy and safe handling of the vehicle up to its maximum design speed",
+      "text": "The replacement steering wheel shall form part of a steering system ensuring easy and safe handling of the vehicle up to its maximum design speed."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.2",
+      "quote": "It shall be possible to travel along a straight section of road without unusual steering correction by the driver and without unusual vibration in the steering system at the maximum design speed of the vehicle",
+      "text": "With the product fitted it shall be possible to travel a straight road without unusual steering correction or unusual steering vibration at maximum design speed."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.3",
+      "quote": "The direction of operation of the steering control shall correspond to the intended change of direction of the vehicle and there shall be a continuous relationship between the steering control deflection and the steering angle",
+      "text": "The steering control shall operate in the direction corresponding to the intended change of direction, with a continuous relationship between control deflection and steering angle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.4",
+      "quote": "The steering equipment shall be designed, constructed and fitted in such a way that it is capable of withstanding the stresses arising during normal operation of the vehicle",
+      "text": "The steering wheel and hub shall be designed, constructed and fitted to withstand the stresses arising during normal operation of the vehicle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.5",
+      "quote": "The effectiveness of the steering equipment, including the electrical control lines, shall not be adversely affected by magnetic or electric fields",
+      "text": "The effectiveness of the steering equipment, including its electrical lines, shall not be adversely affected by magnetic or electric fields."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.1.8.1",
+      "quote": "Adjustment devices for steering geometry shall be such that after adjustment a positive connection can be established between the adjustable components by appropriate locking devices",
+      "text": "Any steering geometry adjustment device on the steering wheel assembly shall allow a positive connection of the adjustable components by appropriate locking devices after adjustment."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.3.1.1",
+      "quote": "that part shall be made of metal or of a material with equivalent characteristics (e.g. similar strength and fatigue life attributes) and shall not be subject to significant distortion in normal operation of the steering system",
+      "text": "Steering parts whose failure would cause loss of control shall be made of metal or an equivalent material and shall not distort significantly in normal operation."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.1.1",
+      "quote": "Any fault which impairs the steering function and is not mechanical in nature shall be signalled clearly to the driver of the vehicle",
+      "text": "Any non-mechanical fault impairing the steering function shall be signalled clearly to the driver."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.4.1.2",
+      "quote": "Optical warning signals shall be visible, even by daylight and distinguishable from other alerts",
+      "text": "Any optical steering warning signal shall be visible even by daylight and distinguishable from other alerts."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "5.5.1",
+      "quote": "the steering equipment and its installation shall be so designed that, without disassembly, its operation can be checked with, if necessary, commonly used measuring instruments, methods or test equipment",
+      "text": "The steering wheel and its installation shall be designed so that their operation can be checked without disassembly using commonly used measuring instruments."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.1.1",
+      "quote": "The test shall be conducted on a level surface affording good adhesion",
+      "text": "The steering tests shall be conducted on a level surface affording good adhesion."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.1.2",
+      "quote": "During the test(s), the vehicle shall be loaded to its technically permissible maximum mass and its technically permissible maximum load on the steered axle(s)",
+      "text": "During the steering tests the vehicle shall be loaded to its technically permissible maximum mass and maximum load on the steered axle."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.1.3",
+      "quote": "the tyre pressures shall be as prescribed by the manufacturer for the mass specified in paragraph 6.1.2. when the vehicle is stationary",
+      "text": "Before the test the tyre pressures shall be set as prescribed by the manufacturer for that mass with the vehicle stationary."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.1",
+      "quote": "It shall be possible to leave a curve with a radius of 50 m at a tangent without unusual vibration in the steering equipment at the following speed: Category M1 vehicles: 50 km/h",
+      "text": "For category M1 the vehicle shall be able to leave a 50 m radius curve tangentially at 50 km/h without unusual vibration in the steering equipment."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.2",
+      "quote": "When the vehicle is driven in a circle with its steered wheels at approximately half lock and a constant speed of at least 10 km/h, the turning circle shall remain the same or become larger if the steering control is released",
+      "text": "When the vehicle is driven in a circle at about half lock and at least 10 km/h, the turning circle shall remain the same or increase if the steering control is released."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.3",
+      "quote": "During the measurement of control effort, forces with a duration of less than 0.2 seconds shall not be taken into account",
+      "text": "In measuring steering control effort, forces lasting less than 0.2 seconds shall be disregarded."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.5.2. Table 2",
+      "quote": "M1 15 4 12 30 4 20",
+      "text": "With intact steering the M1 steering time to reach the 12 m turning radius shall not exceed 4 s."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "6.2.5.2. Table 2",
+      "quote": "M1 15 4 12 30 4 20",
+      "text": "With a failure in the steering equipment the maximum steering control effort for M1 shall not exceed 30 daN at a 20 m turning radius."
+    },
+    {
+      "regulation": "UN R79",
+      "paragraph": "Annex 2",
+      "quote": "The above approval mark affixed to a vehicle shows that the vehicle type concerned has, with regard to steering equipment, been approved in the Netherlands (E 4) pursuant to UN Regulation No. 79",
+      "text": "The vehicle carrying the product shall display a UN R79 approval mark showing it is approved with regard to steering equipment."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation",
+      "text": "As an electrical/electronic sub-assembly the airbag module shall bear the approval mark described in paragraph 5.3. on every unit conforming to the approved type."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval",
+      "text": "The EMC approval mark shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the granting country."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above",
+      "text": "The EMC approval mark shall show the number of this Regulation, followed by \"R\", a dash and the approval number, to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle",
+      "text": "The ESA marking may be hidden once the airbag module is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation",
+      "text": "The airbag module and its wiring shall be designed, constructed and fitted so that the vehicle complies with the EMC requirements in normal conditions of use."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances",
+      "text": "The airbag module shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.1.2",
+      "quote": "Before testing, the Technical Service shall prepare a test plan in conjunction with the manufacturer, which contains at least mode of operation, stimulated function(s), monitored function(s), pass/fail criterion(criteria) and intended emissions",
+      "text": "The airbag module shall be operated in the mode of operation, and with the stimulated and monitored functions, defined in the agreed test plan."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The broadband radiated emissions of the airbag module shall not exceed 62 to 52 dBµV/m in 30 to 75 MHz, decreasing logarithmically above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+      "text": "The broadband radiated emissions of the airbag module shall not exceed 52 to 63 dBµV/m in 75 to 400 MHz, increasing logarithmically above 75 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.5.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m",
+      "text": "The broadband radiated emissions of the airbag module shall not exceed 63 dBµV/m in 400 to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The narrowband radiated emissions of the airbag module shall not exceed 52 to 42 dBµV/m in 30 to 75 MHz, decreasing logarithmically above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz",
+      "text": "The narrowband radiated emissions of the airbag module shall not exceed 42 to 53 dBµV/m in 75 to 400 MHz, increasing logarithmically above 75 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.6.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m",
+      "text": "The narrowband radiated emissions of the airbag module shall not exceed 53 dBµV/m in 400 to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Positive +75 V",
+      "text": "Transient conducted disturbances emitted by the airbag module on a 12 V supply line shall not exceed +75 V for positive pulses."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.7.1. Table 1",
+      "quote": "Negative -100 V",
+      "text": "Transient conducted disturbances emitted by the airbag module on a 12 V supply line shall not exceed -100 V for negative pulses."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.1",
+      "quote": "The immunity to electromagnetic radiation of the ESA representative of its type shall be tested by the method(s) chosen from those described in Annex 9",
+      "text": "The immunity of the airbag module to electromagnetic radiation shall be tested by one or more of the methods of Annex 9 covering the full frequency range."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level below 2 GHz 60 V/m",
+      "text": "When tested in a stripline below 2 GHz, the airbag module shall be immune to 60 V/m over 90 per cent of the 20 to 400 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "30 V/m",
+      "text": "When tested in an absorber-lined shielded enclosure below 2 GHz, the airbag module shall be immune to 30 V/m over 90 per cent of the 80 to 2,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Minimum Test Level over the whole 20 to 6,000 MHz frequency band",
+      "text": "Over the whole 20 to 6,000 MHz band the airbag module shall withstand at least the minimum test levels of Table 2b."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.8.2.2",
+      "quote": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "During the immunity tests there shall be no degradation of performance of the airbag and restraint immunity related function."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b",
+      "text": "The immunity of the airbag module to transients on its supply lines shall be tested with the starting profile of ISO 16750-2 and pulses 1, 2a, 2b, 3a and 3b of ISO 7637-2."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "-75 V -450 V 500 pulses III",
+      "text": "When related to immunity related functions, the airbag module shall survive 500 pulses of test pulse 1 at -75 V for a 12 V system with functional status class III."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "+37 V +37 V 500 pulses I",
+      "text": "The airbag module shall withstand 500 pulses of test pulse 2a at +37 V with functional status class I when related to immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "-112 V -150 V 1 h I",
+      "text": "The airbag module shall withstand test pulse 3a at -112 V for 1 hour with functional status class I when related to immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.9.1",
+      "quote": "+75 V +150 V 1 h I",
+      "text": "The airbag module shall withstand test pulse 3b at +75 V for 1 hour with functional status class I when related to immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.10.1",
+      "quote": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+      "text": "Where the airbag module contains no electronic oscillator above 9 kHz it shall be deemed to comply with the narrowband emission limits."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.10.3",
+      "quote": "ESAs with no immunity related functions need not be tested for immunity to radiated disturbances and shall be deemed to comply with paragraph 6.8. and with Annex 9 to this Regulation",
+      "text": "Where the module has no immunity related functions it need not be tested for radiated immunity, but the airbag function is immunity related and shall therefore be tested."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "6.10.5",
+      "quote": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission",
+      "text": "The airbag module's harness, containing no switched inductive load beyond the squib, need not be tested for transient conducted emission."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.1",
+      "quote": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS)",
+      "text": "The radiated emission limits for the airbag module shall apply over the whole 30 to 1,000 MHz range when measured in an ALSE or OATS."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.4",
+      "quote": "The phase centre of the antenna shall be in line with the centre of the longitudinal part of the wiring harnesses for frequencies up to 1,000 MHz",
+      "text": "For radiated emission measurement the antenna phase centre shall be in line with the centre of the longitudinal part of the harness up to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 2.1",
+      "quote": "The ESA under test shall be in normal operation mode, preferably in maximum load",
+      "text": "During emission measurement the airbag module shall be in normal operation mode, preferably at maximum load."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 1.2.1",
+      "quote": "ESAs may comply with the requirements of any combination of the following test methods at the manufacturer's discretion provided that these results in the full frequency range specified",
+      "text": "The airbag module immunity may be shown by any combination of absorber chamber, TEM cell, BCI, stripline or reverberation chamber methods provided the full 20 to 6,000 MHz range is covered."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "quote": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+      "text": "In the 20 to 400 MHz range the immunity test signal shall be amplitude modulated at 1 kHz with 80 per cent modulation depth."
+    },
+    {
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "When bulk current injection is used, the injection probe shall be positioned 150 mm from the airbag module using the substitution method."
+    }
+  ]
+}

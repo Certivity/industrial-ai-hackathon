@@ -1,0 +1,2790 @@
+[
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The headlamp shall be aimed according to Annex 5, paragraph 3.1. including the allowed specific tolerances of paragraph 4.",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.1",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "For devices where more than one light source is used to provide the driving-beam, these light sources shall be operated simultaneously to determine the maximum value of the luminous intensity (Imax).",
+    "label": "5.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.3",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "For the coordinates of any measuring point/line/zone a 0.25° tolerance is allowed independently at each test point for photometry unless indicated otherwise.",
+    "label": "5.1.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4. Table 5",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "Minimum luminous intensity in cd",
+    "label": "5.1.4. Table 5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4. Table 5",
+    "page": 16,
+    "raw_pages": [
+      16,
+      17,
+      20,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "1.70∙10³",
+    "label": "5.1.4. Table 5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4. Table 5",
+    "page": 16,
+    "raw_pages": [
+      16,
+      20,
+      28
+    ],
+    "verdict": "ok",
+    "exact": "1.20∙10⁴",
+    "label": "5.1.4. Table 5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4. Table 5",
+    "page": 16,
+    "raw_pages": [
+      16,
+      37
+    ],
+    "verdict": "ok",
+    "exact": "1.75∙10⁴",
+    "label": "5.1.4. Table 5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4. Table 5",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "0.8×Imax",
+    "label": "5.1.4. Table 5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4. Table 5",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "In case of a matched pair, the contribution of each lamp on H-V point shall not be less than 40 per cent of the relevant beam class minimum Imax required.",
+    "label": "5.1.4. Table 5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "Except for classes BS, CS and DS, the point of intersection (HV) of lines H-H and V-V shall be situated within the isocandela 80 per cent of maximum luminous intensity (Imax)",
+    "label": "5.1.4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The maximum value (Imax) shall not exceed 2.15∙10⁵ cd in any direction.",
+    "label": "5.1.4.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4.2.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The reference mark (I′M) of the maximum luminous intensity shall be obtained by the ratio: I′M = Imax /4,300",
+    "label": "5.1.4.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.1.4.2.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "This value shall be rounded off to the value 2.5 - 5 - 7.5 - 10 - 12.5 - 17.5 - 20 - 25 - 27.5 - 30 - 37.5 - 40 - 45 - 50.",
+    "label": "5.1.4.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The headlamp shall be aimed according to Annex 5, paragraph 3.2. including the allowed specific tolerances of paragraph 4.",
+    "label": "5.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.1.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "If it is intended to provide both a passing-beam and a driving-beam, comply with the requirements set out in paragraphs 5.2.2. and 5.1.",
+    "label": "5.2.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      14,
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Zone III",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17,
+      20,
+      23,
+      32
+    ],
+    "verdict": "ok",
+    "exact": "1.75∙10³",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      11,
+      17,
+      20,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "3.50∙10²",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17,
+      20,
+      32,
+      33
+    ],
+    "verdict": "ok",
+    "exact": "1.21∙10⁴",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "5.00∙103 a",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "5.10∙103 a",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17,
+      20,
+      32,
+      33
+    ],
+    "verdict": "ok",
+    "exact": "1.01∙10⁴",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "verdict": "ok",
+    "exact": "2.50∙10³",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17,
+      21,
+      34
+    ],
+    "verdict": "ok",
+    "exact": "4.41∙10⁴",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      14,
+      17,
+      18,
+      19
+    ],
+    "verdict": "ok",
+    "exact": "Zone III",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "3.55∙103 a",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Part A",
+    "page": 17,
+    "raw_pages": [
+      17,
+      20,
+      24,
+      32
+    ],
+    "verdict": "ok",
+    "exact": "5.10∙103",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.2. Table 6 Notes a",
+    "page": 18,
+    "raw_pages": [
+      18,
+      27
+    ],
+    "verdict": "ok",
+    "exact": "In case of a matched pair the contribution of each lamp shall not be less than 50% of the required minimum value.",
+    "label": "5.2.2. Table 6",
+    "read": "without the row id"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no lateral variations detrimental to good visibility in zone III.",
+    "label": "5.2.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Headlamps designed to meet the requirements of both right-hand and left-hand traffic shall, in each of the two setting positions of the optical unit, light source(s) or light source module(s) producing the principal passing-beam, meet the requirements set forth above for the corresponding direction of traffic.",
+    "label": "5.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.2.8",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "In the event of failure of one or more additional light source(s), or one or more additional light source module(s) as described in paragraphs 5.2.6. and 5.2.7., the headlamp shall continue to fulfil the requirements of the passing-beam.",
+    "label": "5.2.8"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The lamps must be so designed and constructed that under normal conditions of use and notwithstanding the vibrations to which they may be subjected in such use, their satisfactory operation remains assured and they retain the characteristics prescribed by this Regulation.",
+    "label": "4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall be so made that they give adequate illumination without dazzle when emitting the passing-beam, and good illumination when emitting the driving-beam.",
+    "label": "4.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Lamps shall be fitted with a device enabling them to be so adjusted on the vehicles as to comply with the rules applicable to them.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Such a device need not be fitted on units in which the reflector and the diffusing lens cannot be separated, provided the use of such units is confined to vehicles on which the lamp setting can be adjusted by other means.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Where a lamp producing a principal passing-beam and a lamp producing a driving-beam, each equipped with its own light source(s) or light source module(s), are assembled to form one unit, the adjusting device shall enable the principal passing-beam and the driving-beam to be adjusted individually",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "The lamp shall only be equipped with:",
+    "label": "4.5.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "Road illumination devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle.",
+    "label": "4.5.2.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In case of replaceable light source module(s), the design of the light source module(s) shall be such that",
+    "label": "4.5.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.4",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "it is tamperproof; and",
+    "label": "4.5.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.2.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "when the light source module is removed and replaced by another module provided by the applicant and bearing the same light source module identification code, the photometric requirements of the lamp or AFS system shall be met.",
+    "label": "4.5.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.3.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the total objective luminous flux of all light sources (UN approved light sources, light source modules and non-replaceable light sources) producing the principle passing-beam shall be equal or greater than the minimum values shown in Table 3a",
+    "label": "4.5.3.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.3.2",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "the luminous flux in the principal passing-beam shall meet the requirements in zones I and II, as specified in Table 3b",
+    "label": "4.5.3.2. Table 3a",
+    "read": "table of the paragraph"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.1",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "All measurements, photometric and colorimetric, shall be made with respect to the following conditions (Particulars of the methods of measurement to be used are given in Annex 4):",
+    "label": "4.6.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.1.2",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In the case of a lamp equipped with light source module(s) or non-replaceable light source(s), all measurements shall be made with the light source(s) present in the lamp.",
+    "label": "4.6.1.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.1.4",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "During photometric measurements, stray reflections shall be avoided by appropriate masking.",
+    "label": "4.6.1.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.2",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified, the voltage supplied at the lamp shall be either 6.3 V (6 Volt-Systems), 13.2 V (12 Volt-Systems) or 28.0 V (24 Volt-Systems).",
+    "label": "4.6.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.2.1",
+    "page": 13,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "In case of a lamp and/or a light source module controlled by an electronic light source control gear, the lamp shall be operated as specified by the applicant.",
+    "label": "4.6.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.6.3",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Tests for compliance of the luminous intensities and colorimetric characteristics shall be carried out according to Annex 10.",
+    "label": "4.6.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.7.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "If the outer lens of the lamp is made of plastic material tests shall be done according to the requirements in Annex 8.",
+    "label": "4.7.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.8",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The sharpness and linearity of the cut-off, if applicable, shall be tested according to the requirements in Annex 6.",
+    "label": "4.8"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.9",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Except for cornering lamps, complementary tests shall be done according to the requirements in Annex 7 to ensure that in use there is no excessive change in photometric performance.",
+    "label": "4.9"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.10",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "In all cases, only two different and clearly distinct settings, one for right hand and one for left-hand traffic, shall be possible, and the design shall preclude inadvertent shifting from one setting to the other or setting in an intermediate position.",
+    "label": "4.10"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "On headlamps or AFS designed to provide alternately a driving-beam and a passing-beam, or a passing-beam and/or a driving-beam designed to become bend lighting, any mechanical, electromechanical or other device incorporated in the headlamp and lighting unit(s) for these purposes shall be so constructed that:",
+    "label": "4.11"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "The device is robust enough to withstand 50,000 operations under normal conditions of use.",
+    "label": "4.11.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.2",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "In the case of failure, the luminous intensity above the line H-H shall not exceed the values of a passing-beam according to paragraph 5.2.",
+    "label": "4.11.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.2.1",
+    "page": 13,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "Either the principal passing-beam or the driving-beam shall always be obtained without any possibility of the mechanism stopping in between two positions.",
+    "label": "4.11.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.11.5",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The user cannot, with ordinary tools, change the shape or position of the moving parts, or influence the switching device.",
+    "label": "4.11.5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.13",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "If required by the provisions of the relevant UN Regulations Nos. 48, 53, 74 or 86 the device (lamp) shall be so made that, if a light source and/or a light source module has failed, a signal indicating the failure is provided.",
+    "label": "4.13"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.13.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "a signal indicating the failure of that specific function shall be provided, according to the applicant’s selection of one or more of the following options:",
+    "label": "4.13.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.16",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The colour of the light emitted shall be white for all lamps.",
+    "label": "4.16"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.18",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "A matched pair is allowed for:",
+    "label": "4.18"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.19",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "in the angular field from 165° to 180° outboard in horizontal direction and -2.5° to +5° in vertical direction, the maximum luminous intensity is not more than 2.5∙10⁻¹ cd",
+    "label": "4.19"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.5.3.5",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "having a total objective luminous flux which exceeds 2.00∙10³ lumens, a reference shall be made in the communication form in Annex 1.",
+    "label": "4.5.3.5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.12.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the case of lamps designed to meet the requirements of traffic moving on one side of the road (either right or left) only, appropriate measures shall be taken to prevent discomfort to road‑users in a country where traffic moves on the side of the road opposite to that of the country for which the headlamp was designed",
+    "label": "4.12.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.12.2.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "at 0.86°D - 1.72°L at least 2.50∙10³ cd;",
+    "label": "4.12.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "4.12.2.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "at 0.57°U - 3.43°R not more than 8.80∙10² cd.",
+    "label": "4.12.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "5.3.2.7",
+    "page": 18,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "A system or part(s) thereof, designed to meet the requirements of both right-hand and left-hand traffic must, in each of the two setting positions according to paragraph 4.10. meet the requirements specified for the corresponding direction of traffic.",
+    "label": "5.3.2.7"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.1.1",
+    "page": 8,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "wrong page",
+    "exact": "Every device belonging to an approved type shall comprise a space of sufficient size for the Unique Identifier as referred to in the 1958 Agreement and other markings as defined in paragraph 3.3.4. or the approval marking and other markings as defined in paragraph 3.3.4.",
+    "label": "3.3.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.1.1.1",
+    "page": 8,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "wrong page",
+    "exact": "All markings shall be clearly legible and indelible.",
+    "label": "3.3.1.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.1.2.1",
+    "page": 8,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "wrong page",
+    "exact": "The value for “a” in part 1 of Annex 13 shall be at least 5 mm on plastic material and at least 8 mm on glass.",
+    "label": "3.3.1.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.1",
+    "page": 8,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "wrong page",
+    "exact": "The approval mark, i.e. a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+    "label": "3.3.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.2",
+    "page": 8,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "wrong page",
+    "exact": "The four to six-digit sequential number being part of the approval number prescribed in paragraph 3.2.2.",
+    "label": "3.3.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.3",
+    "page": 8,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "wrong page",
+    "exact": "The number of this Regulation followed by the letter 'R' and the two digits indicating the series of amendments in force at the time of issue of the approval.",
+    "label": "3.3.2.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.4",
+    "page": 8,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "wrong page",
+    "exact": "Symbol(s), according to Table 1, and, if applicable, the following additional symbol(s):",
+    "label": "3.3.2.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.2.5. Table 1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Passing-beam headlamp of Class C (asymmetrical) C YC",
+    "label": "3.2.5. Table 1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.2.5. Table 1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Driving-beam headlamp of Class B HR YHR",
+    "label": "3.2.5. Table 1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.4.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In the case of headlamps/AFS installation unit meeting left-hand traffic requirements only, a horizontal arrow pointing to the right of an observer facing the headlamp, i.e. to the side of the road on which the traffic moves;",
+    "label": "3.3.2.4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.4.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a horizontal arrow with a head on each end, the heads pointing respectively to the left and to the right;",
+    "label": "3.3.2.4.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.4.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In the case of road illumination devices incorporating an outer lens of plastic material, the group of letters \"PL\" to be affixed near the symbols identifying the function(s);",
+    "label": "3.3.2.4.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.4.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In the case of headlamps/AFS installation unit meeting the requirements of the driving-beam, an indication, placed near the circle surrounding the letter \"E\", of the maximum luminous intensity expressed by a reference mark (I'M), as defined in paragraph 5.1.4.2.",
+    "label": "3.3.2.4.5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.4.8",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "On headlamps meeting the requirements of this Regulation in respect of the passing beam of Class C and the driving beam of Class B, \"HCR\" may be marked as the symbols for passing beam and driving beam.",
+    "label": "3.3.2.4.8"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.2.5",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The approval number, the symbols and the additional symbols shall be placed close to the circle and either above or below the letter “E”, or to the right or left of that letter.",
+    "label": "3.3.2.5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.3.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The approval marking as defined in paragraph 3.3.2. may be replaced by the Unique Identifier, if available.",
+    "label": "3.3.3.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "Road illumination functions or systems shall bear the approval marking or the Unique Identifier, the trade name or mark of the applicant and the following markings:",
+    "label": "3.3.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.4.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "these markings shall consist of the letters \"R/D\" for the position for right-hand traffic and the letters \"L/G\" for the position for left-hand traffic;",
+    "label": "3.3.4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.4.3",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In the case of lamps with non-replaceable light source modules a marking indicating the rated voltage(s) or the range of voltage;",
+    "label": "3.3.4.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.4.4",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The specific identification code of the module. This specific identification code shall comprise the starting letters “MD” for “MODULE” followed by the markings as described in paragraphs 3.3.2.1. (without the circle) and 3.3.2.2.",
+    "label": "3.3.4.4"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.4.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "In the case an electronic light source control gear, which is part of the lamp but not included into the lamp body, is used to operate a light source or a light source module(s), it shall be marked with its specific identification code and the rated input voltage or range of voltage;",
+    "label": "3.3.4.5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.4.6",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "meeting the requirements of Annex 7 only when supplied with a voltage of 12V, a marking consisting of the Number 24 crossed out by an oblique cross (X) near the holders of the light source(s) as shown in Annex 12",
+    "label": "3.3.4.6"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.5.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The Unique Identifier or the approval marking shall be placed on an inner or outer part (transparent or not) of the lamp.",
+    "label": "3.3.5.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.5.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the Unique Identifier or the approval marking as well as the category or categories of LED substitute light source(s) prescribed, if any, shall be visible when the lamp is fitted on the vehicle",
+    "label": "3.3.5.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.5.3",
+    "page": 9,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "If the outer lens of a device is designed to be separated from the main body, the Unique Identifier or the approval marking shall be placed on both, the detachable lens and the main body.",
+    "label": "3.3.5.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "3.3.4.8",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Road Illumination Devices may bear on their light-emitting surface a centre of reference as shown in Annex 11.",
+    "label": "3.3.4.8"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 4 1.1.1",
+    "page": 51,
+    "raw_pages": [
+      51
+    ],
+    "verdict": "ok",
+    "exact": "The luminous intensity values shall be determined by means of a photoreceptor contained within a square of 65 mm side and, except for cornering lamps, set up to a distance of at least 25 m forward of the centre of reference of each headlamp",
+    "label": "Annex 4 1.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 4 1.3",
+    "page": 51,
+    "raw_pages": [
+      51
+    ],
+    "verdict": "ok",
+    "exact": "An aiming screen shall be used and may be located at a shorter distance than that of the photoreceptor.",
+    "label": "Annex 4 1.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 4 1.5",
+    "page": 51,
+    "raw_pages": [
+      51
+    ],
+    "verdict": "ok",
+    "exact": "Upon request of the applicant, in case of a matched pair of lamps the photometric requirements for each single measuring point, segment or zone (angular position) apply to half of the sum of the respective measured values from both lamps together.",
+    "label": "Annex 4 1.5"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 2.2",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "measurements shall be performed by vertically scanning through the horizontal part of the \"cut-off\" in angular steps of 0.05° at either a measurement distance of:",
+    "label": "Annex 6 2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 2.2.2",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "The value of G shall not be less than:",
+    "label": "Annex 6 2.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 2.2.2",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "and not greater than 0.40 (maximum sharpness) for passing-beam designed to provide asymmetric “cut-off” line.",
+    "label": "Annex 6 2.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 2.2.3.1",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "the part of the horizontal \"cut-off\" that serves for vertical adjustment shall be horizontal between 1.5° and 3.5° from the V-V line",
+    "label": "Annex 6 2.2.3.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 6 2.2.3.1",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "The maximum vertical distance between the inflection points determined shall not exceed:",
+    "label": "Annex 6 2.2.3.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 5 3.2.1.1",
+    "page": 58,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "For vertical adjustment: the horizontal part of the \"cut-off\" is moved upward from below line B and adjusted to its nominal position one per cent (0.57°) below the H-H line;",
+    "label": "Annex 5 3.2.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 5 3.2.1.2",
+    "page": 59,
+    "raw_pages": [
+      59
+    ],
+    "verdict": "ok",
+    "exact": "The kink of the \"elbow\" is basically located within +/-0.5° to the left or right of the V-V line;",
+    "label": "Annex 5 3.2.1.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 5 4.1",
+    "page": 59,
+    "raw_pages": [
+      59
+    ],
+    "verdict": "ok",
+    "exact": "Where a road illumination device aimed as described in paragraph 3. does not meet the device specific requirements set out in paragraphs 5. or 6.2. of this Regulation, its alignment may be changed",
+    "label": "Annex 5 4.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 7 1.3",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "In a dry and still atmosphere at an ambient temperature of 23 °C ± 5 °C, the test sample being mounted on a base representing the correct installation on the vehicle;",
+    "label": "Annex 7 1.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 7 2.1",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "The device shall be operated for 12 hours as described in paragraph 2.1.1. and checked as prescribed in paragraph 2.1.2.",
+    "label": "Annex 7 2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 7 2.1.2.1",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "no distortion, deformation, cracking or change in colour of either the headlamp lens or the external lens, if any, shall be noticeable.",
+    "label": "Annex 7 2.1.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 7 2.1.2.2.1",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "Except for point B50L, a 10 per cent discrepancy between the photometric characteristics and the values measured prior to the test is permissible including the tolerances of the photometric procedure.",
+    "label": "Annex 7 2.1.2.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 7 2.1.2.2.1",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "The value measured at point B50L shall not exceed the photometric value measured prior to the test by more than 1.70∙10² cd.",
+    "label": "Annex 7 2.1.2.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 7 2.2.1.2",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The test mixture shall be uniformly applied to the entire light-emitting surface of the headlamp and then left to dry.",
+    "label": "Annex 7 2.2.1.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 7 3.2.1",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "the absolute value Δ r1 = | r3 - r60 | recorded on the device is not more than 1.0 mrad (Δ r1 ≤ 1.0 mrad) upward and not more than 2.0 mrad (Δ r1 ≤ 2.0 mrad) downwards.",
+    "label": "Annex 7 3.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.1.1",
+    "page": 69,
+    "raw_pages": [
+      69
+    ],
+    "verdict": "ok",
+    "exact": "Three new samples (lenses) shall be subjected to five cycles of temperature and humidity (RH = relative humidity) change in accordance with the following programme:",
+    "label": "Annex 8 3.1.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.1.2.3",
+    "page": 69,
+    "raw_pages": [
+      70
+    ],
+    "verdict": "ok",
+    "exact": "The variation between the photometric values measured on each sample before and after the test shall not exceed 10 per cent including the tolerances of the photometric procedure.",
+    "label": "Annex 8 3.1.2.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.2.1",
+    "page": 70,
+    "raw_pages": [
+      70
+    ],
+    "verdict": "ok",
+    "exact": "The samples shall be exposed to an energetic illumination of 1,200 W/m² ± 200 W/m² for a period such that the luminous energy that they receive is equal to 4,500 MJ/m² ± 200 MJ/m².",
+    "label": "Annex 8 3.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.2.2.2",
+    "page": 70,
+    "raw_pages": [
+      70
+    ],
+    "verdict": "ok",
+    "exact": "apply it for 10 minutes to the outer face of the sample at a pressure of 50 N/cm², corresponding to an effort of 100 N applied on a test surface of 14 mm x 14 mm.",
+    "label": "Annex 8 3.2.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.2.3.1",
+    "page": 71,
+    "raw_pages": [
+      71
+    ],
+    "verdict": "ok",
+    "exact": "the mean variation in transmission , measured on the three samples according to the procedure described in Appendix 2 to this Annex shall not exceed 0.020 (Δtm < 0.020).",
+    "label": "Annex 8 3.2.3.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.2.3.2",
+    "page": 71,
+    "raw_pages": [
+      71
+    ],
+    "verdict": "ok",
+    "exact": "whose mean variation , measured on the three samples according to the procedure described in Appendix 2 to this Annex shall not exceed 0.020 (Δdm < 0.020).",
+    "label": "Annex 8 3.2.3.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.3",
+    "page": 71,
+    "raw_pages": [
+      71
+    ],
+    "verdict": "ok",
+    "exact": "After 1,500 hours of continuous operation, the colorimetric requirements of the transmitted light must be met with a new light source, and the surfaces of the samples shall be free of cracks, scratches, scalings or deformation.",
+    "label": "Annex 8 3.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.4.3",
+    "page": 71,
+    "raw_pages": [
+      71
+    ],
+    "verdict": "ok",
+    "exact": "After the above two tests have been performed successively, the mean value of the variation in transmission Δt = , measured on the three samples according to the procedure described in Appendix 2 shall not exceed 0.010 (Δtm < 0.010).",
+    "label": "Annex 8 3.4.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.5.2",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "Δdm < 0.050.",
+    "label": "Annex 8 3.5.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.6.3",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 8 3.7.1.2.1",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "By more than 30 per cent the maximum values prescribed at point B50L and by more than 10 per cent below the minimum values prescribed at point 75R",
+    "label": "Annex 8 3.7.1.2.1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 9 1.2",
+    "page": 76,
+    "raw_pages": [
+      76
+    ],
+    "verdict": "ok",
+    "exact": "LED module(s) shall be so designed as to be and to remain in good working order when in normal use. They shall moreover exhibit no fault in design or manufacture.",
+    "label": "Annex 9 1.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 9 2.2",
+    "page": 76,
+    "raw_pages": [
+      76
+    ],
+    "verdict": "ok",
+    "exact": "The fixation elements shall be strong and firmly secured to the LED(s) and the LED module.",
+    "label": "Annex 9 2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 9 3.2.2",
+    "page": 76,
+    "raw_pages": [
+      76
+    ],
+    "verdict": "ok",
+    "exact": "For the measurement of electrical and photometric characteristics, the device shall be operated in a dry and still atmosphere at an ambient temperature of 23 °C ± 5 °C.",
+    "label": "Annex 9 3.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 9 5.2",
+    "page": 77,
+    "raw_pages": [
+      77
+    ],
+    "verdict": "ok",
+    "exact": "Before the test each LED module shall be aged at least for seventy-two hours under the same conditions as in the corresponding headlamp application.",
+    "label": "Annex 9 5.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 9 5.2",
+    "page": 77,
+    "raw_pages": [
+      77
+    ],
+    "verdict": "ok",
+    "exact": "In the case of use of an integrating sphere, the sphere shall have a minimum diameter of one meter, and at least ten times the maximum dimension of the LED module, whichever is the largest.",
+    "label": "Annex 9 5.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 10 1.2.2",
+    "page": 78,
+    "raw_pages": [
+      78
+    ],
+    "verdict": "ok",
+    "exact": "For all other lamps, the luminous intensities measured after 1 min and after photometric stability shall comply with the minimum and maximum requirements.",
+    "label": "Annex 10 1.2.2"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 10 2.1.3",
+    "page": 78,
+    "raw_pages": [
+      78
+    ],
+    "verdict": "ok",
+    "exact": "In case a lamp (function) uses LED technology only, a lamp (function) is deemed to comply with the corresponding intensity requirements at all points in time, if the values measured at 1 minute after activation and after photometric stability are compliant.",
+    "label": "Annex 10 2.1.3"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 10 2.1. Table A10-1",
+    "page": 78,
+    "raw_pages": [
+      78
+    ],
+    "verdict": "ok",
+    "exact": "After 1 second it shall meet at least 25 % of the requirement at the test point.",
+    "label": "Annex 10 2.1. Table A10-1"
+  },
+  {
+    "regulation": "UN R149",
+    "paragraph": "Annex 11",
+    "page": 79,
+    "raw_pages": [
+      79
+    ],
+    "verdict": "ok",
+    "exact": "a = 2 mm min.",
+    "label": "Annex 11"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.1.1",
+    "page": 1,
+    "raw_pages": [
+      1
+    ],
+    "verdict": "ok",
+    "exact": "The term \"category\" is used in this Regulation to describe different basic design of standardised LED light sources.",
+    "label": "2.1.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.3.1.1",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "the trade name or mark of the applicant;",
+    "label": "2.3.1.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.3.1.2",
+    "page": 2,
+    "raw_pages": [
+      2,
+      8
+    ],
+    "verdict": "ok",
+    "exact": "the rated voltage;",
+    "label": "2.3.1.2"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.3.1.3",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "the designation of the relevant category;",
+    "label": "2.3.1.3"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.3.1.4",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "a space of sufficient size to accommodate the approval mark.",
+    "label": "2.3.1.4"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.3.3",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "Inscriptions other than those covered by paragraphs 2.3.1. and 2.4.4. may be affixed, on the condition that they do not adversely affect the luminous characteristics.",
+    "label": "2.3.3"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.4.4",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "To every LED light source conforming to a type approved under this Regulation there shall be affixed in the space referred to in paragraph 2.3.1.4.",
+    "label": "2.4.4"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.4.4.1",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "a truncated circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval;",
+    "label": "2.4.4.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.4.4.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "the approval code, placed close to the truncated circle.",
+    "label": "2.4.4.2"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "2.4.6",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The marks and inscriptions specified in paragraphs 2.3.1. and 2.4.4. shall be clearly legible and be indelible.",
+    "label": "2.4.6"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.2.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Each sample submitted shall conform to the relevant specifications of this Regulation.",
+    "label": "3.2.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.2.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "LED light sources shall be so designed as to be and to remain in good working order when in normal use. They shall moreover exhibit no fault in design or manufacture.",
+    "label": "3.2.2"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.2.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "LED light sources shall exhibit no scores or spots on their optical surfaces which might impair their efficiency and their optical performance.",
+    "label": "3.2.3"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.2.4",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "LED light sources shall be equipped with standard caps complying with the cap data sheets of IEC Publication 60061 as specified on the individual data sheets of Annex 1.",
+    "label": "3.2.4"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.2.5",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The cap shall be strong and firmly secured to the rest of the LED light source.",
+    "label": "3.2.5"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.2.6",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "To ascertain whether LED light sources conform to the requirements of paragraphs 3.2.3. to 3.2.5. above, a visual inspection, a dimension check and, where necessary, a trial fitting into the holder as specified in IEC publication 60061 shall be carried out.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.2.7",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The solid state junction(s) and possibly one or more elements for fluorescence-based conversion shall be the only element(s) of the LED light source that generate(s) and emit(s) light when energized.",
+    "label": "3.2.7"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.3.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "LED light sources shall first be aged at their test voltage for at least forty-eight hours. For multi-function LED light sources, each function shall be aged separately.",
+    "label": "3.3.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.3.3",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Electrical measurements as specified in Annex 4 shall be carried out with instruments of at least class 0.2 (0.2 per cent full scale accuracy).",
+    "label": "3.3.3"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.4.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The position and dimensions of the light emitting area shall conform to the requirements as given on the relevant data sheet of Annex 1.",
+    "label": "3.4.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.5.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "When measured according to the conditions specified in Annex 4, the luminous flux shall be within the limits given on the relevant data sheet of Annex 1.",
+    "label": "3.5.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "the normalized luminous intensity distribution and/or cumulative luminous flux distribution shall be within the limits given on the relevant data sheet of annex 1.",
+    "label": "3.6.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.7.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The measured integral value of the chromaticity coordinates shall lie within the required chromaticity area.",
+    "label": "3.7.2"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.7.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Each measured value of the chromaticity coordinates shall lie within a tolerance area of 0.025 units in the x direction and 0.050 units in the y direction, containing the measured integral value.",
+    "label": "3.7.2.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.8",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The UV-radiation of the LED light source shall be such that the LED light source is of the low UV type complying with:",
+    "label": "3.8"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.10.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The luminous flux values at elevated temperatures shall be within the limits given in the relevant data sheet of Annex 1; and",
+    "label": "3.10.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.10.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The colour variation shall not exceed 0.010.",
+    "label": "3.10.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.10.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "the LED light source shall be continuously operated during 1000 h at the relevant test voltage(s); and",
+    "label": "3.10.2"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.10.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The luminous flux values at elevated temperatures shall not deviate by more than ± 10 per cent from the corresponding values of the individual sample measured according to paragraph 3.10.1.; and",
+    "label": "3.10.3"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.10.3",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The colour variation shall not deviate from the corresponding values of the individual sample measured according to paragraph 3.10.1. by more than ± 0.010.",
+    "label": "3.10.3"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.11.2.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The value(s) of luminance contrast of the light emitting area shall be within the limits given on the relevant data sheet of Annex 1.",
+    "label": "3.11.2.1"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "3.11.3.4",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "The deviation of the luminance ΔL shall not exceed ± 20 per cent.",
+    "label": "3.11.3.4"
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "Annex 1 LW2/5",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 1. Table 3"
+    ]
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "Annex 1 LW2/4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 1. Table 2"
+    ]
+  },
+  {
+    "regulation": "UN R128",
+    "paragraph": "Annex 1 L3/2",
+    "page": 21,
+    "raw_pages": [
+      21,
+      28,
+      33
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 1. Table 3",
+      "Annex 1. Table 4b",
+      "Annex 1. Table 4"
+    ]
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.1.2",
+    "page": 10,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved according to Class A, B, or DS of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.1.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved according to Class A, B, CS or DS of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+    "label": "6.1.1.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.1.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved according to Class C or DS of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+    "label": "6.2.1.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.1.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "One or two, type-approved according to Class C, CS or DS of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+    "label": "6.2.1.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The lighting and light-signalling devices shall be so fitted that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected, they retain the characteristics prescribed by this Regulation",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In particular, it shall not be possible for the lamps to be inadvertently maladjusted.",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The illuminating lamps shall be so installed that correct adjustment of their orientation can easily be carried out.",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In the absence of specific instructions, the height and orientation of the lamps shall be verified with the vehicle unladen and placed on a flat horizontal surface, its median longitudinal plane being vertical and the handlebars being in the position corresponding to the straight ahead movement.",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Single lamps or reflectors shall be mounted such that their centre of reference lies in the median longitudinal plane of the vehicle;",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.3.3",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The distance between the edge of the illuminating surface of any independent driving lamp and the ground shall be from 500 mm to 1,300 mm.",
+    "label": "6.1.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The visibility of the illuminating surface, including its visibility in areas which do not appear to be illuminated in the direction of observation considered, shall be ensured within a divergent space defined by generating lines based on the perimeter of the illuminating surface and forming an angle of not less than 5° with the axis of reference of the headlamp.",
+    "label": "6.1.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.5.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "Forwards. The lamp(s) may move with the steering angle.",
+    "label": "6.1.5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.6.1",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The passing-beam(s) may remain switched ON with the driving-beam(s).",
+    "label": "6.1.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.7.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory, non-flashing blue signal lamp.",
+    "label": "6.1.7.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.8.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The aggregate maximum intensity of the driving-beam headlamps which can be switched on simultaneously shall not exceed 430,000 cd which corresponds to a reference number of 100.",
+    "label": "6.1.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Height: a minimum of 500 mm and a maximum of 1,200 mm above the ground.",
+    "label": "6.2.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.3.4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the case of two headlamps producing the principal passing-beam the distance separating the illuminating surfaces shall not exceed 200 mm.",
+    "label": "6.2.3.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "α = 15° upwards and 10° downwards;",
+    "label": "6.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "β = 45° to the left and to the right for a single lamp;",
+    "label": "6.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The presence of partitions or other items of equipment near the headlamp shall not give rise to secondary effects causing discomfort to other road users.",
+    "label": "6.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The vertical inclination of the headlamp producing the principal passing-beam shall remain between -0.5 and -2.5 per cent, except in the case where an external adjusting device is present.",
+    "label": "6.2.5.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.3",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "For headlamp producing the principal passing-beam with a light source having an objective luminous flux which exceeds 2,000 lumens, the vertical inclination of the headlamp shall remain between -0.5 and -2.5 per cent. A headlamp levelling device may be used to satisfy the requirements of this paragraph but its operation shall be automatic.",
+    "label": "6.2.5.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Condition A (rider alone): A mass of 75 kg ± 1 kg, simulating the rider, shall be placed on the vehicle in such a way as to reproduce the axle loads declared by the manufacturer for this loading condition.",
+    "label": "6.2.5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.4",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The vertical inclination (initial aiming) of the headlamp producing the principal passing-beam shall be set, following the manufacturer’s instructions, between -1.0 and -1.5 per cent.",
+    "label": "6.2.5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.5",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "An HIAS may be installed for the passing-beam. The HIAS shall not adjust the horizontal inclination by more than the vehicle’s bank angle.",
+    "label": "6.2.5.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.7",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The illumination provided by the bend lighting shall not extend above the horizontal plane that is parallel with the ground and containing the reference axis of the headlamp producing the principal passing-beam for all bank angles",
+    "label": "6.2.5.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.6",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The control for changing over to the passing-beam(s) shall switch off the driving-beam(s) simultaneously.",
+    "label": "6.2.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.6.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The additional light source(s) or additional lighting unit(s) used to produce bend lighting shall be so connected that it (they) cannot be activated unless the headlamp(s) producing the principal passing-beam or the driving-beam is (are) also activated.",
+    "label": "6.2.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.6.1",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "the additional light source(s) or additional lighting unit(s) shall not be activated when the bank angle is less than three degrees.",
+    "label": "6.2.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.7.2",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory, flashing amber signal lamp, which may be combined with the telltale referred to in paragraph 6.1.7.2. It shall be activated whenever a failure is detected with respect to the HIAS signals. It shall remain activated while the failure is present.",
+    "label": "6.2.7.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.7.3",
+    "page": 17,
+    "raw_pages": [
+      17
+    ],
+    "verdict": "ok",
+    "exact": "In the event of a control system failure, additional light source(s) or additional lighting unit(s) producing bend lighting shall be switched OFF automatically.",
+    "label": "6.2.7.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "if specifications for fitting are provided by the manufacturer they shall be complied with.",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.1.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The photometric and colorimetric requirements of a lamp shall be fulfilled when all other functions with which this lamp is grouped, combined or reciprocally incorporated are switched OFF.",
+    "label": "5.6.1.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "No red light which could give rise to confusion shall be emitted from a lamp as defined in paragraph 2.3. in a forward direction and no white light which could give rise to confusion, shall be emitted from a lamp as defined in paragraph 2.3. in a rearward direction.",
+    "label": "5.9"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.11",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the driving-beam headlamp, the passing-beam headlamp and the fog lamp cannot be switched on unless the lamps referred to in paragraph 5.10. above are likewise switched on.",
+    "label": "5.11"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.11.2",
+    "page": 7,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "If no daytime running lamp is installed, the headlamp shall automatically be ON when the engine is running.",
+    "label": "5.11.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.11.1.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the passing beam shall be switched ON and OFF automatically relative to the ambient light conditions",
+    "label": "5.11.1.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.12.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Every tell-tale lamp shall be readily visible to a driver in the normal driving position.",
+    "label": "5.12.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Driving-beam headlamp: white",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Passing-beam headlamp: white",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.18",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Lighting and light-signalling devices type-approved for four-wheeled vehicles of categories M1 and N1 and referred to in paragraphs 5.14. and 5.15. above may also be fitted to motorcycles.",
+    "label": "5.18"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity.",
+    "label": "5.20.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "If, when the lamp is installed, any part of the apparent surface of the lamp is hidden by any further parts of the vehicle, proof shall be furnished that the part of the lamp not hidden by obstacles still conforms to the photometric values prescribed for the approval of the device.",
+    "label": "5.20.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.8",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "For the test, the bend lighting may be activated by means of a signal generator provided by the manufacturer.",
+    "label": "6.2.5.8"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 5 1.3.1",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "The initial downward inclination of the cut-off of the passing-beam shall be checked against the requirements of paragraph 6.2.5. of this Regulation",
+    "label": "Annex 5 1.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 8",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "ok",
+    "exact": "less than 1,000 lux ON no more than 2 seconds",
+    "label": "Annex 8"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 5 1.6",
+    "page": 40,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+    "label": "Annex 5 1.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured values, expressed in dB microvolts/m, shall be below the type approval limits.",
+    "label": "6.5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 42 to 53 dB microvolts/m in the 75 to 400 MHz band",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.2",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "On the ESA representative of its type, the measured value, expressed in dB microvolts/m shall be below the type approval limits.",
+    "label": "6.6.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Positive +75 V +150 V",
+    "label": "6.7.1. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7.1. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Negative -100 V -450 V",
+    "label": "6.7.1. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 11,
+    "raw_pages": [],
+    "verdict": "hallucinated"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "2a +37 V +37 V 500 pulses I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3a -112 V -150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "ok",
+    "exact": "3b +75 V +150 V 1 h I III",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9.1. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Starting profile II II 10 pulses",
+    "label": "6.9.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 10,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 9,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "Before testing, the Technical Service shall prepare a test plan in conjunction with the manufacturer, which contains at least mode of operation, stimulated function(s), monitored function(s), pass/fail criterion(criteria) and intended emissions.",
+    "label": "6.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.10",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "In case of an ESA is (part of) a light source, the applicant shall:",
+    "label": "3.2.10"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation, except for intentional narrowband ambient transmissions.",
+    "label": "Annex 7 3.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.3",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "Unless otherwise specified the length of the Low Voltage (LV) harness and the HV harness parallel to the front edge of the ground plane shall be 1,500 mm (±75 mm).",
+    "label": "Annex 7 3.2.3"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.2.4",
+    "page": 92,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "All of the harnesses shall be placed on a non-conductive, low relative permittivity material (εr ≤ 1.4), at 50 mm (±5 mm) above the ground plane.",
+    "label": "Annex 7 3.2.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 4.1",
+    "page": 93,
+    "raw_pages": [
+      92,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+    "label": "Annex 7 4.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 8 4.2",
+    "page": 97,
+    "raw_pages": [
+      68,
+      96
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be performed with an average detector.",
+    "label": "Annex 8 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      79,
+      98
+    ],
+    "verdict": "ok",
+    "exact": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range;",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.1.2",
+    "page": 99,
+    "raw_pages": [
+      99
+    ],
+    "verdict": "ok",
+    "exact": "The \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2. The test shall be performed with vertical polarization.",
+    "label": "Annex 9 4.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.3.2",
+    "page": 100,
+    "raw_pages": [
+      100
+    ],
+    "verdict": "ok",
+    "exact": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA;",
+    "label": "Annex 9 4.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 to the supply lines as well as to other connections of ESAs which may be operationally connected to supply lines.",
+    "label": "Annex 10 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 10 2",
+    "page": 108,
+    "raw_pages": [
+      108
+    ],
+    "verdict": "ok",
+    "exact": "Apply the starting profile according to the International Standard ISO 16750-2 to the supply lines as well as to other connections of ESAs which may be operationally connected to supply lines.",
+    "label": "Annex 10 2"
+  }
+]

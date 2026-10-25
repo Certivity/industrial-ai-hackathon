@@ -1,0 +1,49 @@
+{
+  "case": "ts-m1-cybersecurity-ota",
+  "agent_exit": 0,
+  "agent_seconds": 36,
+  "run": "runs/ts-m1-cybersecurity-ota/c2-base",
+  "spent_usd": 0.236,
+  "replayed_usd": 0.0,
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_submitted": 3,
+      "n_expected": 3,
+      "n_matched": 3,
+      "f2": 1.0
+    },
+    "page_level": {
+      "precision": 0.5245901639344263,
+      "recall": 0.8918918918918919,
+      "f1": 0.6606193306224587,
+      "n_submitted": 61,
+      "n_expected": 37,
+      "n_matched": 32,
+      "f2": 0.7823
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+  ],
+  "n_gold": 128,
+  "n_upper_bound": 424,
+  "funnel": {
+    "gold_requirements": 128,
+    "reachable": 122,
+    "recall": 0.9531,
+    "selected_nodes": 424,
+    "gold_nodes": 87,
+    "gold_nodes_reached": 82,
+    "unanchored": 0
+  }
+}

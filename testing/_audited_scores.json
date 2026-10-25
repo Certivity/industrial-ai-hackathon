@@ -1,0 +1,2827 @@
+{
+ "c2-base": [
+  {
+   "case": "ts-coach-m3",
+   "gold": [
+    "UN R107"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R107",
+    "UN R174",
+    "UN R43"
+   ],
+   "run": [
+    "UN R10",
+    "UN R107",
+    "UN R43"
+   ],
+   "vs_gold": {
+    "P": 0.3333333333333333,
+    "R": 1.0,
+    "F1": 0.5,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.75,
+    "F1": 0.8571428571428571,
+    "F2": 0.7894736842105263
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [
+    "UN R10",
+    "UN R43"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R174"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.525,
+    "R": 1.0,
+    "F1": 0.6885245901639345,
+    "F2": 0.8467741935483871
+   }
+  },
+  {
+   "case": "ts-ev-sound",
+   "gold": [
+    "UN R10",
+    "UN R100",
+    "UN R48",
+    "UN R51"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R100",
+    "UN R101",
+    "UN R51"
+   ],
+   "run": [
+    "UN R10",
+    "UN R51"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "gold_rejected": [
+    "UN R48"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R101"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4444444444444444,
+    "R": 0.6363636363636364,
+    "F1": 0.5233644859813084,
+    "F2": 0.5857740585774059
+   }
+  },
+  {
+   "case": "ts-l5-tricycle-lighting",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R53"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R148",
+    "UN R150"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R150",
+    "UN R37"
+   ],
+   "vs_gold": {
+    "P": 0.6,
+    "R": 0.75,
+    "F1": 0.6666666666666665,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 0.6,
+    "R": 1.0,
+    "F1": 0.7499999999999999,
+    "F2": 0.8823529411764706
+   },
+   "gold_rejected": [
+    "UN R53"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [
+    "UN R128",
+    "UN R37"
+   ],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5308641975308642,
+    "R": 0.9555555555555556,
+    "F1": 0.6825396825396826,
+    "F2": 0.8237547892720307
+   }
+  },
+  {
+   "case": "ts-lpg-conversion",
+   "gold": [
+    "UN R10",
+    "UN R67",
+    "UN R83"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R67"
+   ],
+   "run": [
+    "UN R10",
+    "UN R67"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.6666666666666666,
+    "F1": 0.8,
+    "F2": 0.7142857142857142
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R83"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6379310344827587,
+    "R": 0.95,
+    "F1": 0.7633007600434311,
+    "F2": 0.8653372722796652
+   }
+  },
+  {
+   "case": "ts-m1-adaptive-headlamp",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R149",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R156",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.6,
+    "R": 0.75,
+    "F1": 0.6666666666666665,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 0.8,
+    "R": 0.8,
+    "F1": 0.8000000000000002,
+    "F2": 0.8
+   },
+   "gold_rejected": [
+    "UN R148"
+   ],
+   "agent_only_accepted": [
+    "UN R128"
+   ],
+   "agent_only_rejected": [
+    "UN R37"
+   ],
+   "audit_only_missed": [
+    "UN R156"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4365079365079365,
+    "R": 0.9298245614035088,
+    "F1": 0.5941098542749415,
+    "F2": 0.758403579977105
+   }
+  },
+  {
+   "case": "ts-m1-airbag-module",
+   "gold": [
+    "UN R10",
+    "UN R114",
+    "UN R137",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R114",
+    "UN R137",
+    "UN R79"
+   ],
+   "run": [
+    "UN R114"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.25,
+    "F1": 0.4,
+    "F2": 0.29411764705882354
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.25,
+    "F1": 0.4,
+    "F2": 0.29411764705882354
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4375,
+    "R": 0.16279069767441862,
+    "F1": 0.23728813559322032,
+    "F2": 0.18617021276595744
+   }
+  },
+  {
+   "case": "ts-m1-braking-system",
+   "gold": [
+    "UN R10",
+    "UN R13H",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 0.6666666666666666,
+    "F1": 0.5714285714285715,
+    "F2": 0.625
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R79"
+   ],
+   "agent_only_accepted": [
+    "UN R155",
+    "UN R156"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4782608695652174,
+    "R": 0.9361702127659575,
+    "F1": 0.6330935251798562,
+    "F2": 0.7857142857142858
+   }
+  },
+  {
+   "case": "ts-m1-cybersecurity-ota",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5245901639344263,
+    "R": 0.8918918918918919,
+    "F1": 0.6606193306224587,
+    "F2": 0.7823381241665432
+   }
+  },
+  {
+   "case": "ts-m1-frontal-crash",
+   "gold": [
+    "UN R10",
+    "UN R137",
+    "UN R26",
+    "UN R94"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R137",
+    "UN R94"
+   ],
+   "run": [
+    "UN R137",
+    "UN R94"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.6666666666666666,
+    "F1": 0.8,
+    "F2": 0.7142857142857142
+   },
+   "gold_rejected": [
+    "UN R26"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.54,
+    "R": 0.6585365853658537,
+    "F1": 0.5934065934065934,
+    "F2": 0.6308411214953271
+   }
+  },
+  {
+   "case": "ts-m1-lane-keeping",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R157",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156",
+    "UN R157"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R157",
+    "UN R79"
+   ],
+   "vs_gold": {
+    "P": 0.8,
+    "R": 1.0,
+    "F1": 0.888888888888889,
+    "F2": 0.9523809523809523
+   },
+   "vs_audit": {
+    "P": 0.8,
+    "R": 0.8,
+    "F1": 0.8000000000000002,
+    "F2": 0.8
+   },
+   "gold_rejected": [
+    "UN R79"
+   ],
+   "agent_only_accepted": [
+    "UN R156"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R13H"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4380952380952381,
+    "R": 0.9375,
+    "F1": 0.597144093466032,
+    "F2": 0.763443239654791
+   }
+  },
+  {
+   "case": "ts-m1-power-steering-b",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R171",
+    "UN R79"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R79"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.8,
+    "F1": 0.888888888888889,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R171"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5974025974025974,
+    "R": 0.9791666666666666,
+    "F1": 0.7420628110519993,
+    "F2": 0.8682033571600675
+   }
+  },
+  {
+   "case": "ts-m1-replacement-catalyst",
+   "gold": [
+    "UN R10",
+    "UN R103",
+    "UN R83"
+   ],
+   "audited": [
+    "UN R103"
+   ],
+   "run": [
+    "UN R103"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.3333333333333333,
+    "F1": 0.5,
+    "F2": 0.3846153846153846
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R83"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.875,
+    "R": 0.7777777777777778,
+    "F1": 0.823529411764706,
+    "F2": 0.7954545454545454
+   }
+  },
+  {
+   "case": "ts-m1-windscreen",
+   "gold": [
+    "UN R10",
+    "UN R43"
+   ],
+   "audited": [
+    "UN R43"
+   ],
+   "run": [
+    "UN R43"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6266666666666667,
+    "R": 0.8518518518518519,
+    "F1": 0.7221108884435538,
+    "F2": 0.794736068225261
+   }
+  },
+  {
+   "case": "ts-m3-bus-signal-lamps",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "run": [
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.75,
+    "F1": 0.8571428571428571,
+    "F2": 0.7894736842105263
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.75,
+    "F1": 0.8571428571428571,
+    "F2": 0.7894736842105263
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6630434782608695,
+    "R": 0.8266666666666667,
+    "F1": 0.7358692479813211,
+    "F2": 0.7877853691051491
+   }
+  },
+  {
+   "case": "ts-m3-speed-limiter-b",
+   "gold": [
+    "UN R10",
+    "UN R107",
+    "UN R39",
+    "UN R89"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R89"
+   ],
+   "run": [
+    "UN R10",
+    "UN R89"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R107",
+    "UN R39"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.65625,
+    "R": 0.84,
+    "F1": 0.736842105263158,
+    "F2": 0.7954545454545455
+   }
+  },
+  {
+   "case": "ts-moto-antitheft",
+   "gold": [
+    "UN R10",
+    "UN R161",
+    "UN R162",
+    "UN R163"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R162",
+    "UN R163",
+    "UN R62"
+   ],
+   "run": [
+    "UN R10",
+    "UN R162",
+    "UN R163",
+    "UN R62"
+   ],
+   "vs_gold": {
+    "P": 0.75,
+    "R": 0.75,
+    "F1": 0.75,
+    "F2": 0.75
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R161"
+   ],
+   "agent_only_accepted": [
+    "UN R62"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6363636363636364,
+    "R": 0.9722222222222222,
+    "F1": 0.7692307692307692,
+    "F2": 0.8793969849246231
+   }
+  },
+  {
+   "case": "ts-motorcycle-led-headlamp",
+   "gold": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R53"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R149",
+    "UN R53"
+   ],
+   "run": [
+    "UN R10",
+    "UN R149",
+    "UN R53"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.75,
+    "F1": 0.8571428571428571,
+    "F2": 0.7894736842105263
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R128"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5578947368421052,
+    "R": 0.9152542372881356,
+    "F1": 0.6932299866779701,
+    "F2": 0.8113164757909059
+   }
+  },
+  {
+   "case": "ts-motorcycle-silencer",
+   "gold": [
+    "UN R10",
+    "UN R40",
+    "UN R53",
+    "UN R92"
+   ],
+   "audited": [
+    "UN R92"
+   ],
+   "run": [
+    "UN R92"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.25,
+    "F1": 0.4,
+    "F2": 0.29411764705882354
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R40",
+    "UN R53"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   }
+  },
+  {
+   "case": "ts-n1-spare-wheel",
+   "gold": [
+    "UN R10",
+    "UN R39",
+    "UN R64"
+   ],
+   "audited": [
+    "UN R64"
+   ],
+   "run": [
+    "UN R64"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.3333333333333333,
+    "F1": 0.5,
+    "F2": 0.3846153846153846
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R39"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.7777777777777778,
+    "R": 0.875,
+    "F1": 0.823529411764706,
+    "F2": 0.8536585365853658
+   }
+  },
+  {
+   "case": "ts-n1-speedometer",
+   "gold": [
+    "UN R10",
+    "UN R39"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R39"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R39"
+   ],
+   "vs_gold": {
+    "P": 0.6666666666666666,
+    "R": 1.0,
+    "F1": 0.8,
+    "F2": 0.9090909090909091
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [
+    "UN R155"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5454545454545454,
+    "R": 0.72,
+    "F1": 0.6206896551724138,
+    "F2": 0.6766917293233082
+   }
+  },
+  {
+   "case": "ts-n1-van-rear-lamps",
+   "gold": [
+    "UN R10",
+    "UN R23",
+    "UN R38",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.4,
+    "R": 0.5,
+    "F1": 0.4444444444444445,
+    "F2": 0.47619047619047616
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R23",
+    "UN R38"
+   ],
+   "agent_only_accepted": [
+    "UN R128",
+    "UN R148",
+    "UN R37"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5238095238095238,
+    "R": 0.9166666666666666,
+    "F1": 0.6666666666666667,
+    "F2": 0.7971014492753623
+   }
+  },
+  {
+   "case": "ts-n2-truck-aebs",
+   "gold": [
+    "UN R10",
+    "UN R131",
+    "UN R13H"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R131",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R131",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 0.6666666666666666,
+    "F1": 0.5714285714285715,
+    "F2": 0.625
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R13H"
+   ],
+   "agent_only_accepted": [
+    "UN R155",
+    "UN R156"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5964912280701754,
+    "R": 0.9210526315789473,
+    "F1": 0.724064496501369,
+    "F2": 0.8306575457210665
+   }
+  },
+  {
+   "case": "ts-n3-direction-indicators",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R48",
+    "UN R6"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.6,
+    "R": 0.75,
+    "F1": 0.6666666666666665,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R6"
+   ],
+   "agent_only_accepted": [
+    "UN R128",
+    "UN R37"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.3829787234042553,
+    "R": 0.972972972972973,
+    "F1": 0.5496183206106869,
+    "F2": 0.743801652892562
+   }
+  },
+  {
+   "case": "ts-n3-o4-coupling",
+   "gold": [
+    "UN R10",
+    "UN R102"
+   ],
+   "audited": [
+    "UN R102"
+   ],
+   "run": [
+    "UN R102"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.8181818181818182,
+    "R": 1.0,
+    "F1": 0.9,
+    "F2": 0.9574468085106381
+   }
+  },
+  {
+   "case": "ts-o3-trailer-conspicuity",
+   "gold": [
+    "UN R10",
+    "UN R104",
+    "UN R150",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R150"
+   ],
+   "run": [
+    "UN R150",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 0.5,
+    "R": 1.0,
+    "F1": 0.6666666666666666,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R104",
+    "UN R48"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5945945945945946,
+    "R": 0.9565217391304348,
+    "F1": 0.7333333333333334,
+    "F2": 0.8527131782945736
+   }
+  },
+  {
+   "case": "ts-pedestrian-front-end",
+   "gold": [
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+   ],
+   "audited": [
+    "UN GTR 9",
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+   ],
+   "run": [
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.8,
+    "F1": 0.888888888888889,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN GTR 9"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.3522727272727273,
+    "R": 0.8857142857142857,
+    "F1": 0.5040650406504065,
+    "F2": 0.6798245614035088
+   }
+  }
+ ],
+ "c2-vet2": [
+  {
+   "case": "ts-coach-m3",
+   "gold": [
+    "UN R107"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R107",
+    "UN R174",
+    "UN R43"
+   ],
+   "run": [
+    "UN R10",
+    "UN R107",
+    "UN R43"
+   ],
+   "vs_gold": {
+    "P": 0.3333333333333333,
+    "R": 1.0,
+    "F1": 0.5,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.75,
+    "F1": 0.8571428571428571,
+    "F2": 0.7894736842105263
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [
+    "UN R10",
+    "UN R43"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R174"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.525,
+    "R": 1.0,
+    "F1": 0.6885245901639345,
+    "F2": 0.8467741935483871
+   }
+  },
+  {
+   "case": "ts-ev-sound",
+   "gold": [
+    "UN R10",
+    "UN R100",
+    "UN R48",
+    "UN R51"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R100",
+    "UN R101",
+    "UN R51"
+   ],
+   "run": [
+    "UN R10",
+    "UN R51"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "gold_rejected": [
+    "UN R48"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R101"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4444444444444444,
+    "R": 0.6363636363636364,
+    "F1": 0.5233644859813084,
+    "F2": 0.5857740585774059
+   }
+  },
+  {
+   "case": "ts-l5-tricycle-lighting",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R53"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R148",
+    "UN R150"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R150",
+    "UN R37"
+   ],
+   "vs_gold": {
+    "P": 0.6,
+    "R": 0.75,
+    "F1": 0.6666666666666665,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 0.6,
+    "R": 1.0,
+    "F1": 0.7499999999999999,
+    "F2": 0.8823529411764706
+   },
+   "gold_rejected": [
+    "UN R53"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [
+    "UN R128",
+    "UN R37"
+   ],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5308641975308642,
+    "R": 0.9555555555555556,
+    "F1": 0.6825396825396826,
+    "F2": 0.8237547892720307
+   }
+  },
+  {
+   "case": "ts-lpg-conversion",
+   "gold": [
+    "UN R10",
+    "UN R67",
+    "UN R83"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R67"
+   ],
+   "run": [
+    "UN R10",
+    "UN R67",
+    "UN R83"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 0.6666666666666666,
+    "R": 1.0,
+    "F1": 0.8,
+    "F2": 0.9090909090909091
+   },
+   "gold_rejected": [
+    "UN R83"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6379310344827587,
+    "R": 0.95,
+    "F1": 0.7633007600434311,
+    "F2": 0.8653372722796652
+   }
+  },
+  {
+   "case": "ts-m1-adaptive-headlamp",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R149",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R156",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R149",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.6666666666666666,
+    "R": 1.0,
+    "F1": 0.8,
+    "F2": 0.9090909090909091
+   },
+   "vs_audit": {
+    "P": 0.6666666666666666,
+    "R": 0.8,
+    "F1": 0.7272727272727272,
+    "F2": 0.7692307692307692
+   },
+   "gold_rejected": [
+    "UN R148"
+   ],
+   "agent_only_accepted": [
+    "UN R128"
+   ],
+   "agent_only_rejected": [
+    "UN R37"
+   ],
+   "audit_only_missed": [
+    "UN R156"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4365079365079365,
+    "R": 0.9298245614035088,
+    "F1": 0.5941098542749415,
+    "F2": 0.758403579977105
+   }
+  },
+  {
+   "case": "ts-m1-airbag-module",
+   "gold": [
+    "UN R10",
+    "UN R114",
+    "UN R137",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R114",
+    "UN R137",
+    "UN R79"
+   ],
+   "run": [
+    "UN R114",
+    "UN R94"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 0.25,
+    "F1": 0.3333333333333333,
+    "F2": 0.2777777777777778
+   },
+   "vs_audit": {
+    "P": 0.5,
+    "R": 0.25,
+    "F1": 0.3333333333333333,
+    "F2": 0.2777777777777778
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [
+    "UN R94"
+   ],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4375,
+    "R": 0.16279069767441862,
+    "F1": 0.23728813559322032,
+    "F2": 0.18617021276595744
+   }
+  },
+  {
+   "case": "ts-m1-braking-system",
+   "gold": [
+    "UN R10",
+    "UN R13H",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156",
+    "UN R79"
+   ],
+   "vs_gold": {
+    "P": 0.6,
+    "R": 1.0,
+    "F1": 0.7499999999999999,
+    "F2": 0.8823529411764706
+   },
+   "vs_audit": {
+    "P": 0.8,
+    "R": 1.0,
+    "F1": 0.888888888888889,
+    "F2": 0.9523809523809523
+   },
+   "gold_rejected": [
+    "UN R79"
+   ],
+   "agent_only_accepted": [
+    "UN R155",
+    "UN R156"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4782608695652174,
+    "R": 0.9361702127659575,
+    "F1": 0.6330935251798562,
+    "F2": 0.7857142857142858
+   }
+  },
+  {
+   "case": "ts-m1-cybersecurity-ota",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5245901639344263,
+    "R": 0.8918918918918919,
+    "F1": 0.6606193306224587,
+    "F2": 0.7823381241665432
+   }
+  },
+  {
+   "case": "ts-m1-frontal-crash",
+   "gold": [
+    "UN R10",
+    "UN R137",
+    "UN R26",
+    "UN R94"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R137",
+    "UN R94"
+   ],
+   "run": [
+    "UN R137",
+    "UN R94"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.6666666666666666,
+    "F1": 0.8,
+    "F2": 0.7142857142857142
+   },
+   "gold_rejected": [
+    "UN R26"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.54,
+    "R": 0.6585365853658537,
+    "F1": 0.5934065934065934,
+    "F2": 0.6308411214953271
+   }
+  },
+  {
+   "case": "ts-m1-lane-keeping",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R157",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156",
+    "UN R157"
+   ],
+   "run": [
+    "UN R10",
+    "UN R100",
+    "UN R137",
+    "UN R155",
+    "UN R156",
+    "UN R157",
+    "UN R79",
+    "UN R94"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 1.0,
+    "F1": 0.6666666666666666,
+    "F2": 0.8333333333333334
+   },
+   "vs_audit": {
+    "P": 0.5,
+    "R": 0.8,
+    "F1": 0.6153846153846154,
+    "F2": 0.7142857142857143
+   },
+   "gold_rejected": [
+    "UN R79"
+   ],
+   "agent_only_accepted": [
+    "UN R156"
+   ],
+   "agent_only_rejected": [
+    "UN R100",
+    "UN R137",
+    "UN R94"
+   ],
+   "audit_only_missed": [
+    "UN R13H"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4380952380952381,
+    "R": 0.9375,
+    "F1": 0.597144093466032,
+    "F2": 0.763443239654791
+   }
+  },
+  {
+   "case": "ts-m1-power-steering-b",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R171",
+    "UN R79"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R79"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.8,
+    "F1": 0.888888888888889,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R171"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5974025974025974,
+    "R": 0.9791666666666666,
+    "F1": 0.7420628110519993,
+    "F2": 0.8682033571600675
+   }
+  },
+  {
+   "case": "ts-m1-replacement-catalyst",
+   "gold": [
+    "UN R10",
+    "UN R103",
+    "UN R83"
+   ],
+   "audited": [
+    "UN R103"
+   ],
+   "run": [
+    "UN R103",
+    "UN R83"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.6666666666666666,
+    "F1": 0.8,
+    "F2": 0.7142857142857142
+   },
+   "vs_audit": {
+    "P": 0.5,
+    "R": 1.0,
+    "F1": 0.6666666666666666,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R83"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.875,
+    "R": 0.7777777777777778,
+    "F1": 0.823529411764706,
+    "F2": 0.7954545454545454
+   }
+  },
+  {
+   "case": "ts-m1-windscreen",
+   "gold": [
+    "UN R10",
+    "UN R43"
+   ],
+   "audited": [
+    "UN R43"
+   ],
+   "run": [
+    "UN R43"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6266666666666667,
+    "R": 0.8518518518518519,
+    "F1": 0.7221108884435538,
+    "F2": 0.794736068225261
+   }
+  },
+  {
+   "case": "ts-m3-bus-signal-lamps",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "run": [
+    "UN R128",
+    "UN R148",
+    "UN R150",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.6,
+    "R": 0.75,
+    "F1": 0.6666666666666665,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 0.6,
+    "R": 0.75,
+    "F1": 0.6666666666666665,
+    "F2": 0.7142857142857143
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [
+    "UN R128",
+    "UN R37"
+   ],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6630434782608695,
+    "R": 0.8266666666666667,
+    "F1": 0.7358692479813211,
+    "F2": 0.7877853691051491
+   }
+  },
+  {
+   "case": "ts-m3-speed-limiter-b",
+   "gold": [
+    "UN R10",
+    "UN R107",
+    "UN R39",
+    "UN R89"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R89"
+   ],
+   "run": [
+    "UN R10",
+    "UN R89"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R107",
+    "UN R39"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.65625,
+    "R": 0.84,
+    "F1": 0.736842105263158,
+    "F2": 0.7954545454545455
+   }
+  },
+  {
+   "case": "ts-moto-antitheft",
+   "gold": [
+    "UN R10",
+    "UN R161",
+    "UN R162",
+    "UN R163"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R162",
+    "UN R163",
+    "UN R62"
+   ],
+   "run": [
+    "UN R10",
+    "UN R162",
+    "UN R163",
+    "UN R62"
+   ],
+   "vs_gold": {
+    "P": 0.75,
+    "R": 0.75,
+    "F1": 0.75,
+    "F2": 0.75
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R161"
+   ],
+   "agent_only_accepted": [
+    "UN R62"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6363636363636364,
+    "R": 0.9722222222222222,
+    "F1": 0.7692307692307692,
+    "F2": 0.8793969849246231
+   }
+  },
+  {
+   "case": "ts-motorcycle-led-headlamp",
+   "gold": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R53"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R149",
+    "UN R53"
+   ],
+   "run": [
+    "UN R10",
+    "UN R149",
+    "UN R53"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.75,
+    "F1": 0.8571428571428571,
+    "F2": 0.7894736842105263
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R128"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5578947368421052,
+    "R": 0.9152542372881356,
+    "F1": 0.6932299866779701,
+    "F2": 0.8113164757909059
+   }
+  },
+  {
+   "case": "ts-motorcycle-silencer",
+   "gold": [
+    "UN R10",
+    "UN R40",
+    "UN R53",
+    "UN R92"
+   ],
+   "audited": [
+    "UN R92"
+   ],
+   "run": [
+    "UN R92"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.25,
+    "F1": 0.4,
+    "F2": 0.29411764705882354
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R40",
+    "UN R53"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   }
+  },
+  {
+   "case": "ts-n1-spare-wheel",
+   "gold": [
+    "UN R10",
+    "UN R39",
+    "UN R64"
+   ],
+   "audited": [
+    "UN R64"
+   ],
+   "run": [
+    "UN R64"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.3333333333333333,
+    "F1": 0.5,
+    "F2": 0.3846153846153846
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R39"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.7777777777777778,
+    "R": 0.875,
+    "F1": 0.823529411764706,
+    "F2": 0.8536585365853658
+   }
+  },
+  {
+   "case": "ts-n1-speedometer",
+   "gold": [
+    "UN R10",
+    "UN R39"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R39"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R39"
+   ],
+   "vs_gold": {
+    "P": 0.6666666666666666,
+    "R": 1.0,
+    "F1": 0.8,
+    "F2": 0.9090909090909091
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [
+    "UN R155"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5454545454545454,
+    "R": 0.72,
+    "F1": 0.6206896551724138,
+    "F2": 0.6766917293233082
+   }
+  },
+  {
+   "case": "ts-n1-van-rear-lamps",
+   "gold": [
+    "UN R10",
+    "UN R23",
+    "UN R38",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.4,
+    "R": 0.5,
+    "F1": 0.4444444444444445,
+    "F2": 0.47619047619047616
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R23",
+    "UN R38"
+   ],
+   "agent_only_accepted": [
+    "UN R128",
+    "UN R148",
+    "UN R37"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5238095238095238,
+    "R": 0.9166666666666666,
+    "F1": 0.6666666666666667,
+    "F2": 0.7971014492753623
+   }
+  },
+  {
+   "case": "ts-n2-truck-aebs",
+   "gold": [
+    "UN R10",
+    "UN R131",
+    "UN R13H"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R131",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R131",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 0.6666666666666666,
+    "F1": 0.5714285714285715,
+    "F2": 0.625
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R13H"
+   ],
+   "agent_only_accepted": [
+    "UN R155",
+    "UN R156"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5964912280701754,
+    "R": 0.9210526315789473,
+    "F1": 0.724064496501369,
+    "F2": 0.8306575457210665
+   }
+  },
+  {
+   "case": "ts-n3-direction-indicators",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R48",
+    "UN R6"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.6,
+    "R": 0.75,
+    "F1": 0.6666666666666665,
+    "F2": 0.7142857142857143
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R6"
+   ],
+   "agent_only_accepted": [
+    "UN R128",
+    "UN R37"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.3829787234042553,
+    "R": 0.972972972972973,
+    "F1": 0.5496183206106869,
+    "F2": 0.743801652892562
+   }
+  },
+  {
+   "case": "ts-n3-o4-coupling",
+   "gold": [
+    "UN R10",
+    "UN R102"
+   ],
+   "audited": [
+    "UN R102"
+   ],
+   "run": [
+    "UN R102"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.8181818181818182,
+    "R": 1.0,
+    "F1": 0.9,
+    "F2": 0.9574468085106381
+   }
+  },
+  {
+   "case": "ts-o3-trailer-conspicuity",
+   "gold": [
+    "UN R10",
+    "UN R104",
+    "UN R150",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R150"
+   ],
+   "run": [
+    "UN R150",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 0.5,
+    "R": 1.0,
+    "F1": 0.6666666666666666,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [
+    "UN R10",
+    "UN R104",
+    "UN R48"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5945945945945946,
+    "R": 0.9565217391304348,
+    "F1": 0.7333333333333334,
+    "F2": 0.8527131782945736
+   }
+  },
+  {
+   "case": "ts-pedestrian-front-end",
+   "gold": [
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+   ],
+   "audited": [
+    "UN GTR 9",
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+   ],
+   "run": [
+    "UN R10",
+    "UN R127",
+    "UN R26",
+    "UN R42"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.8,
+    "F1": 0.888888888888889,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN GTR 9"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.3522727272727273,
+    "R": 0.8857142857142857,
+    "F1": 0.5040650406504065,
+    "F2": 0.6798245614035088
+   }
+  }
+ ],
+ "c2-v2": [
+  {
+   "case": "ts-m1-adaptive-headlamp",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R149",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R156",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R155",
+    "UN R156",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.42857142857142855,
+    "R": 0.75,
+    "F1": 0.5454545454545454,
+    "F2": 0.6521739130434783
+   },
+   "vs_audit": {
+    "P": 0.7142857142857143,
+    "R": 1.0,
+    "F1": 0.8333333333333333,
+    "F2": 0.9259259259259259
+   },
+   "gold_rejected": [
+    "UN R148"
+   ],
+   "agent_only_accepted": [
+    "UN R128",
+    "UN R156"
+   ],
+   "agent_only_rejected": [
+    "UN R155",
+    "UN R37"
+   ],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4365079365079365,
+    "R": 0.9298245614035088,
+    "F1": 0.5941098542749415,
+    "F2": 0.758403579977105
+   }
+  },
+  {
+   "case": "ts-m1-braking-system",
+   "gold": [
+    "UN R10",
+    "UN R13H",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R13H",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 0.6666666666666666,
+    "F1": 0.5714285714285715,
+    "F2": 0.625
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R79"
+   ],
+   "agent_only_accepted": [
+    "UN R155",
+    "UN R156"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.4782608695652174,
+    "R": 0.9361702127659575,
+    "F1": 0.6330935251798562,
+    "F2": 0.7857142857142858
+   }
+  },
+  {
+   "case": "ts-m1-cybersecurity-ota",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5245901639344263,
+    "R": 0.8918918918918919,
+    "F1": 0.6606193306224587,
+    "F2": 0.7823381241665432
+   }
+  },
+  {
+   "case": "ts-m1-power-steering-b",
+   "gold": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R79"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R171",
+    "UN R79"
+   ],
+   "run": [
+    "UN R10",
+    "UN R155",
+    "UN R156",
+    "UN R79"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 0.8,
+    "F1": 0.888888888888889,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [
+    "UN R171"
+   ],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5974025974025974,
+    "R": 0.9791666666666666,
+    "F1": 0.7420628110519993,
+    "F2": 0.8682033571600675
+   }
+  },
+  {
+   "case": "ts-m1-windscreen",
+   "gold": [
+    "UN R10",
+    "UN R43"
+   ],
+   "audited": [
+    "UN R43"
+   ],
+   "run": [
+    "UN R127",
+    "UN R43"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 0.5,
+    "F1": 0.5,
+    "F2": 0.5
+   },
+   "vs_audit": {
+    "P": 0.5,
+    "R": 1.0,
+    "F1": 0.6666666666666666,
+    "F2": 0.8333333333333334
+   },
+   "gold_rejected": [
+    "UN R10"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [
+    "UN R127"
+   ],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6266666666666667,
+    "R": 0.8518518518518519,
+    "F1": 0.7221108884435538,
+    "F2": 0.794736068225261
+   }
+  },
+  {
+   "case": "ts-m3-bus-signal-lamps",
+   "gold": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R150",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.6666666666666666,
+    "R": 1.0,
+    "F1": 0.8,
+    "F2": 0.9090909090909091
+   },
+   "vs_audit": {
+    "P": 0.6666666666666666,
+    "R": 1.0,
+    "F1": 0.8,
+    "F2": 0.9090909090909091
+   },
+   "gold_rejected": [],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [
+    "UN R128",
+    "UN R37"
+   ],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.6486486486486487,
+    "R": 0.9733333333333334,
+    "F1": 0.7784936680737615,
+    "F2": 0.8847591152408847
+   }
+  },
+  {
+   "case": "ts-motorcycle-led-headlamp",
+   "gold": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R53"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R149",
+    "UN R53"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R149",
+    "UN R53"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "vs_audit": {
+    "P": 0.75,
+    "R": 1.0,
+    "F1": 0.8571428571428571,
+    "F2": 0.9375
+   },
+   "gold_rejected": [
+    "UN R128"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5578947368421052,
+    "R": 0.9152542372881356,
+    "F1": 0.6932299866779701,
+    "F2": 0.8113164757909059
+   }
+  },
+  {
+   "case": "ts-n1-van-rear-lamps",
+   "gold": [
+    "UN R10",
+    "UN R23",
+    "UN R38",
+    "UN R48"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "run": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+   ],
+   "vs_gold": {
+    "P": 0.4,
+    "R": 0.5,
+    "F1": 0.4444444444444445,
+    "F2": 0.47619047619047616
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R23",
+    "UN R38"
+   ],
+   "agent_only_accepted": [
+    "UN R128",
+    "UN R148",
+    "UN R37"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5238095238095238,
+    "R": 0.9166666666666666,
+    "F1": 0.6666666666666667,
+    "F2": 0.7971014492753623
+   }
+  },
+  {
+   "case": "ts-n2-truck-aebs",
+   "gold": [
+    "UN R10",
+    "UN R131",
+    "UN R13H"
+   ],
+   "audited": [
+    "UN R10",
+    "UN R131",
+    "UN R155",
+    "UN R156"
+   ],
+   "run": [
+    "UN R10",
+    "UN R131",
+    "UN R155",
+    "UN R156"
+   ],
+   "vs_gold": {
+    "P": 0.5,
+    "R": 0.6666666666666666,
+    "F1": 0.5714285714285715,
+    "F2": 0.625
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R13H"
+   ],
+   "agent_only_accepted": [
+    "UN R155",
+    "UN R156"
+   ],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.5964912280701754,
+    "R": 0.9210526315789473,
+    "F1": 0.724064496501369,
+    "F2": 0.8306575457210665
+   }
+  },
+  {
+   "case": "ts-n3-o4-coupling",
+   "gold": [
+    "UN R10",
+    "UN R102"
+   ],
+   "audited": [
+    "UN R102"
+   ],
+   "run": [
+    "UN R102"
+   ],
+   "vs_gold": {
+    "P": 1.0,
+    "R": 0.5,
+    "F1": 0.6666666666666666,
+    "F2": 0.5555555555555556
+   },
+   "vs_audit": {
+    "P": 1.0,
+    "R": 1.0,
+    "F1": 1.0,
+    "F2": 1.0
+   },
+   "gold_rejected": [
+    "UN R10"
+   ],
+   "agent_only_accepted": [],
+   "agent_only_rejected": [],
+   "audit_only_missed": [],
+   "unaudited": [],
+   "page_on_agreed": {
+    "P": 0.8181818181818182,
+    "R": 1.0,
+    "F1": 0.9,
+    "F2": 0.9574468085106381
+   }
+  }
+ ]
+}

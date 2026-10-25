@@ -1,0 +1,52 @@
+{
+  "case": "ts-n1-van-rear-lamps",
+  "agent_exit": 0,
+  "agent_seconds": 56,
+  "run": "runs/ts-n1-van-rear-lamps/c2-base",
+  "spent_usd": 0.333,
+  "replayed_usd": 0.0,
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.4,
+      "recall": 0.5,
+      "f1": 0.4444444444444445,
+      "n_submitted": 5,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.4762
+    },
+    "page_level": {
+      "precision": 0.1864406779661017,
+      "recall": 0.5365853658536586,
+      "f1": 0.27672955974842767,
+      "n_submitted": 118,
+      "n_expected": 41,
+      "n_matched": 22,
+      "f2": 0.3901
+    }
+  },
+  "gold_regulations": [
+    "UN R10",
+    "UN R23",
+    "UN R38",
+    "UN R48"
+  ],
+  "run_regulations": [
+    "UN R10",
+    "UN R128",
+    "UN R148",
+    "UN R37",
+    "UN R48"
+  ],
+  "n_gold": 151,
+  "n_upper_bound": 875,
+  "funnel": {
+    "gold_requirements": 151,
+    "reachable": 66,
+    "recall": 0.4371,
+    "selected_nodes": 875,
+    "gold_nodes": 138,
+    "gold_nodes_reached": 58,
+    "unanchored": 0
+  }
+}

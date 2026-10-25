@@ -1,0 +1,1516 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-n1-van-rear-lamps",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The rear fog lamp shall bear the trade name or mark of the applicant, clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 2,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "Where the rear fog lamp has replaceable light sources, it shall bear a clearly legible and indelible marking indicating the category of light source prescribed and/or the light source module identification code.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 2,
+        "paragraph": "3.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The rear fog lamp shall provide adequate space for the approval mark and for the additional symbols prescribed in paragraph 4.3.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 2,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "Where the rear fog lamp is equipped with an electronic light source control gear, a variable intensity control, non-replaceable light sources and/or light source modules, it shall bear the marking of the rated voltage or range of voltage.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 2,
+        "paragraph": "3.4"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "Where a light source module is used, the module shall bear the trade name or mark of the applicant, clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 2,
+        "paragraph": "3.5.1"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "Where a light source module is used, the module shall bear its specific identification code, clearly legible and indelible, comprising the starting letters \"MD\" followed by the approval marking without the circle.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 3,
+        "paragraph": "3.5.2"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "Where a light source module is used, the module shall bear the marking of the rated voltage or range of voltage.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 3,
+        "paragraph": "3.5.3"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The rear fog lamp shall bear an international approval mark consisting of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 3,
+        "paragraph": "4.3.1.1"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The rear fog lamp shall bear an approval number in its approval mark.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 3,
+        "paragraph": "4.3.1.2"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The rear fog lamp shall bear the additional symbol \"F\" followed by \"1\" where it produces steady luminous intensity, or by \"2\" where it produces variable luminous intensity.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 3,
+        "paragraph": "4.3.2"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The approval mark and additional symbol of the rear fog lamp shall be indelible and clearly legible even when the lamp is fitted to the vehicle.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 3,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "Where a single international approval mark is shared between the rear fog lamp and other lamps using the same outer lens, the identification symbol for each lamp shall be marked together with the corresponding series of amendments.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 4,
+        "paragraph": "4.5.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Where a single approval mark is shared, the size of its components shall not be less than the minimum size required for the smallest of the individual marks.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 4,
+        "paragraph": "4.5.3"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Where two or more lamps are part of the same unit of grouped, combined or reciprocally incorporated lamps, a single approval mark may be used only if it is visible after installation.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 4,
+        "paragraph": "4.6.1.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The lamp shall be constructed so that no light-transmitting part of the grouped, combined or reciprocally incorporated lamps can be removed without at the same time removing the approval mark.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 4,
+        "paragraph": "4.6.1.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The rear fog lamp shall be designed and constructed so that in normal use, despite vibration, it continues to function satisfactorily and retains the prescribed characteristics.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "Where a light source module is used, the module shall be designed so that it can only be fitted in the designated and correct position and can only be removed with the use of tools.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "Where more than one light source module is used in the housing, modules with different characteristics shall not be interchangeable within the same lamp housing.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The light source module shall be tamperproof.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "A light source module shall be designed so that, regardless of the use of tools, it is not mechanically interchangeable with any replaceable approved light source.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.3.3"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "Where the variable intensity control of an F2 rear fog lamp fails while emitting more than the category F or F1 maximum, the lamp shall automatically fulfil the steady-intensity requirements of category F or F1.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "Where replaceable light sources are used, the device shall be designed so that the light source can be fixed in no other position but the correct one.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "Where replaceable light sources are used, the light source holder shall conform to the characteristics given in IEC Publication 60061.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "5.5.3"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The rear fog lamp shall emit an intensity of not less than 150 cd along the H and V axes between 10° left and 10° right and between 5° up and 5° down.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The rear fog lamp shall not exceed 300 cd in any direction of observation where it produces steady luminous intensity, or 840 cd where it produces variable luminous intensity.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "6.3"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "Where the rear fog lamp contains more than one light source, the maximum intensities shall not be exceeded when all light sources are illuminated.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 5,
+        "paragraph": "6.4"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "Where the rear fog lamp contains more than one light source, the lamp shall on failure of any one light source either still comply with the minimum intensity of the standard light distribution or produce a tell-tale activation signal with at least 50 per cent of the required minimum intensity in the axis of reference.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 6,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The variable intensity control shall not generate signals causing luminous intensities outside the range specified in paragraphs 6.2 and 6.3.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 6,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The variable intensity control shall not generate signals exceeding the category F or F1 maximum under night-time conditions or, for other systems, under standard conditions with clean lens.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 6,
+        "paragraph": "6.6.2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The apparent surface of the rear fog lamp in the direction of the reference axis shall not exceed 140 cm².",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 6,
+        "paragraph": "6.7"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "For photometric and colorimetric measurements on a rear fog lamp with replaceable light source not supplied by control gear, a standard light source of the prescribed category shall be used at the reference luminous flux voltage.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 6,
+        "paragraph": "7.1.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "For a rear fog lamp equipped with non-replaceable light sources, measurements shall be made at 6.75 V, 13.5 V or 28.0 V respectively.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 6,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "Where an electronic light source control gear or variable intensity control is part of the lamp, the voltage declared by the manufacturer shall be applied at the input terminals of the lamp.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 6,
+        "paragraph": "7.1.3"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "For a rear fog lamp not equipped with filament lamps, the luminous intensities measured after one minute and after 30 minutes of operation shall comply with the minimum and maximum requirements.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 7,
+        "paragraph": "7.5"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The limits of the apparent surface of the rear fog lamp in the direction of the reference axis shall be determinable.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 7,
+        "paragraph": "7.6"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The rear fog lamp shall withstand a one-hour test of continuous operation after a 20-minute warm-up at an ambient temperature of 23 °C ± 5 °C.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 7,
+        "paragraph": "8.1"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "Where only the maximum power of the light source is specified, the heat resistance test shall be carried out at a power equal to 90 per cent of the specified power.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 7,
+        "paragraph": "8.2"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "After the heat resistance test and stabilisation at ambient temperature, the rear fog lamp shall show no distortion, deformation, cracking or colour modification.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 7,
+        "paragraph": "8.4"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The rear fog lamp shall emit red light inside the field of the light distribution grid defined in Annex 3, measured under the conditions of paragraph 7.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 7,
+        "paragraph": "9"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The rear fog lamp shall show no sharp variation of colour outside the light distribution grid field.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 7,
+        "paragraph": "9"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The rear fog lamp shall be tested photometrically with stray reflections avoided by appropriate masking.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 12,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The photometric measuring equipment for the rear fog lamp shall subtend an angle between 10' and 1° from the reference centre of the light.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 12,
+        "paragraph": "Annex 3 2.2"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The rear fog lamp shall meet an intensity requirement in a given direction if the required intensity is obtained within one-quarter of a degree of that direction.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 12,
+        "paragraph": "Annex 3 2.3"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "Where the rear fog lamp may be installed in more than one position or a field of positions, photometric measurements shall be repeated for each position or the extreme positions of the reference axis.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 12,
+        "paragraph": "Annex 3 3"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "Where visual examination reveals substantial local variations of intensity of the rear fog lamp, no intensity measured within the rhombus defined by the extreme measurement directions shall be below 75 cd outside the axes.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 12,
+        "paragraph": "Annex 3 4"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "When a rear fog lamp with replaceable light sources is measured photometrically, the actual luminous flux of each light source used shall not deviate more than 5 per cent from the mean value.",
+      "source": {
+        "regulation": "UN R38",
+        "version": "0.19.0",
+        "page": 13,
+        "paragraph": "Annex 3 5.2"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The reversing lamp shall bear the trade name or mark of the applicant, clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 2,
+        "paragraph": "3.1"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "Where the reversing lamp has replaceable light sources, it shall bear a clearly legible and indelible marking indicating the category of light source prescribed and/or the light source module identification code.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 2,
+        "paragraph": "3.2"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Where necessary to prevent a mistake in mounting the reversing lamp, the word \"TOP\" shall be marked horizontally on the uppermost part of the illuminating surface.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 2,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The reversing lamp shall provide adequate space for the approval mark and the additional symbols prescribed in paragraph 4.3.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 2,
+        "paragraph": "3.4"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "Where the reversing lamp has non-replaceable light sources or light source modules, it shall bear the marking of the rated voltage or range of voltage.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 2,
+        "paragraph": "3.5"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "Where a light source module is used in the reversing lamp, the module shall bear the trade name or mark of the applicant, clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 3,
+        "paragraph": "3.6.1"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "Where a light source module is used in the reversing lamp, the module shall bear its specific identification code, clearly legible and indelible, comprising \"MD\" followed by the approval marking without the circle.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 3,
+        "paragraph": "3.6.2"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The reversing lamp shall bear an international approval mark consisting of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 3,
+        "paragraph": "4.3.1.1"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The reversing lamp shall bear an approval number.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 3,
+        "paragraph": "4.3.1.2"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "The reversing lamp shall bear the additional symbol consisting of the letters A and R mingled as shown in Annex 2.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 3,
+        "paragraph": "4.3.2"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "Where the visibility angles of the reversing lamp are asymmetrical with regard to the horizontal reference axis, the lamp shall bear an arrow pointing towards the side on which the photometric specifications are met up to 45° H.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 3,
+        "paragraph": "4.3.4"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "Where the reversing lamp is part of an assembly of grouped, combined or reciprocally incorporated lamps with a single approval mark, that mark shall be visible after installation.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 4,
+        "paragraph": "4.5.1.1"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The assembly shall be constructed so that no light-transmitting part can be removed without at the same time removing the approval mark.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 4,
+        "paragraph": "4.5.1.2"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "Where a single approval mark is shared, the size of its components shall not be less than the minimum size required for the smallest of the individual marks.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 4,
+        "paragraph": "4.5.3"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The approval mark and the additional symbol of the reversing lamp shall be indelible and clearly legible even when the lamp is mounted on the vehicle.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 4,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The reversing lamp shall be designed and constructed so that in normal use, despite vibration, it continues to function satisfactorily and retains the prescribed characteristics.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 5,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "Where a light source module is used, it shall be designed so that it can only be fitted in the designated and correct position and removed only with the use of tools.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 5,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The light source module of the reversing lamp shall be tamperproof.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 5,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "A light source module shall be designed so that, regardless of the use of tools, it is not mechanically interchangeable with any replaceable approved light source.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 5,
+        "paragraph": "5.3.3"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "Where replaceable light sources are used, the reversing lamp shall be designed so that the light source can be fixed in no other position but the correct one.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 5,
+        "paragraph": "5.4.2"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "Where replaceable light sources are used, the light source holder shall conform to the characteristics given in IEC Publication 60061.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 5,
+        "paragraph": "5.4.3"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The reversing lamp shall emit an intensity of not less than 80 candelas along the axis of reference.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 6,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The reversing lamp shall not exceed 300 candelas in directions in or above the horizontal plane.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 6,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The reversing lamp shall not exceed 600 candelas between the h-h plane and 5° D.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 6,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The reversing lamp shall not exceed 8,000 candelas below 5° D.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 6,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The reversing lamp shall meet the minimum luminous intensities specified in Annex 3 in every other direction of measurement.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 6,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "Where the reversing lamp contains more than one light source, the maximum intensities shall not be exceeded when all light sources are illuminated.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 6,
+        "paragraph": "6.1.5"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "Where the reversing lamp contains more than one light source, the lamp shall on failure of any one light source either still comply with the minimum intensity of Annex 3 or produce a tell-tale activation signal with at least 50 per cent of the required minimum intensity in the axis of reference.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 6,
+        "paragraph": "6.1.6.2"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "For a reversing lamp not equipped with filament lamps, the luminous intensities measured after one minute and after 10 minutes of operation shall comply with the minimum and maximum requirements.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 7,
+        "paragraph": "7.4"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The limits of the apparent surface of the reversing lamp in the direction of the reference axis shall be determinable.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 7,
+        "paragraph": "7.5"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The reversing lamp shall emit white light inside the field of the light distribution grid defined in Annex 3.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 8,
+        "paragraph": "8"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The reversing lamp shall show no sharp variation of colour outside the light distribution grid field.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 8,
+        "paragraph": "8"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The reversing lamp shall be tested photometrically with stray reflections avoided by appropriate masking.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 13,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The photometric measuring equipment for the reversing lamp shall subtend an angle between 10' and 1° from the reference centre of the light.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 14,
+        "paragraph": "Annex 3 1.2.2"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The reversing lamp shall meet an intensity requirement in a given direction if the required intensity is obtained within one quarter of a degree of that direction.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 14,
+        "paragraph": "Annex 3 1.2.3"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "Where the reversing lamp may be installed in more than one position or a field of positions, photometric measurements shall be repeated for each position or the extreme positions of the reference axis.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 14,
+        "paragraph": "Annex 3 1.3"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "Where visual examination of the reversing lamp reveals substantial local variations of intensity, no intensity measured between two prescribed directions of measurement shall be below 50 per cent of the lower minimum intensity for those directions.",
+      "source": {
+        "regulation": "UN R23",
+        "version": "0.22.0",
+        "page": 14,
+        "paragraph": "Annex 3 2.2"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "The rear fog lamp and reversing lamp shall be fitted so that under normal conditions of use, and notwithstanding any vibrations, they retain the prescribed characteristics.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "When installed on the van, the reference axis of each lamp shall be parallel to the bearing plane of the vehicle on the road and perpendicular to the median longitudinal plane, with a tolerance of ±3°.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The height and orientation of the lamps shall be verified with the vehicle unladen, placed on a flat horizontal surface and in its normal condition of use.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "Where lamps form a pair, they shall be fitted symmetrically in relation to the median longitudinal plane, based on the exterior geometrical form of the lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "Where the reversing lamps form a pair, both shall satisfy the same colorimetric requirements.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.3"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "Where the reversing lamps form a pair, they shall have substantially identical photometric characteristics.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.4"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The rear fog lamp and reversing lamp may be grouped, combined or reciprocally incorporated in one housing provided that all requirements regarding colour, position, orientation, geometric visibility and electrical connections are fulfilled.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.7.1"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The photometric and colorimetric requirements of the rear fog lamp shall be fulfilled when the reversing lamp with which it is grouped is switched OFF.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.1.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The photometric characteristics of the rear fog lamp and reversing lamp shall not be intentionally varied during the period when the lamp is switched ON, absent specific instructions.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.9"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "The red light emitted by the rear fog lamp shall not be visible from the front of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.10.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "Where doubt exists on the visibility of red light to the front, the requirement shall be deemed met if the red light emitted to the front is not more than 0.25 cd per lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.10.4.3"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The reversing lamp installed on the vehicle shall emit white light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The rear fog lamp installed on the vehicle shall emit red light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The rear fog lamp and reversing lamp shall be type approved according to UN Regulations Nos. 38 and 23 respectively when installed on the van.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 28,
+        "paragraph": "5.30"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "When the lamps are installed, no obstacle shall lie inside their angles of geometric visibility to the propagation of light from any part of the apparent surface.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 27,
+        "paragraph": "5.28.1"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The voltage at the terminals of the rear fog lamp and reversing lamp shall not exceed 13.5 V by more than 3 per cent in a 12 V system.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 27,
+        "paragraph": "5.27.2"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "Where the N1 van's length does not exceed 6,000 mm, the reversing lamp installation shall comprise one mandatory device and a second optional device.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The reversing lamp fitted to the van shall be type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 23.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.2.3"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "The reversing lamp shall be mounted at a height not less than 250 mm and not more than 1,200 mm above the ground.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.4.2"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "The reversing lamp shall be mounted at the rear of the van.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.4.3"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The geometric visibility of the reversing lamp shall extend 15° upwards and 5° downwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.5.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "Where only one reversing lamp is fitted, its geometric visibility shall extend 45° to the right and to the left.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.5.1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "Where two reversing lamps are fitted, their geometric visibility shall extend 45° outwards and 30° inwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.5.1"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The reversing lamp shall be oriented rearwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.6.1"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The electrical connections of the reversing lamp shall allow it to be switched ON only when reverse gear is engaged and the propulsion system can operate, and it shall not switch ON or remain ON otherwise.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.4.7.1"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The reversing lamp installation shall provide a failure tell-tale if required by UN Regulation No. 23.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.4.8"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The van shall be fitted with one or two rear fog lamps type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 38.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11.2"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "Where only one rear fog lamp is fitted, it shall be located on the opposite side of the median longitudinal plane of the vehicle to the direction of traffic of the country of registration.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11.4.1"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The rear fog lamp shall be mounted at a height not less than 250 mm and not more than 1,000 mm above the ground, or up to 1,200 mm where it is grouped with another rear lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11.4.2"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The rear fog lamp shall be mounted at the rear of the van.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.4.3"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The geometric visibility of the rear fog lamp shall extend 5° upwards and 5° downwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.5"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "The rear fog lamp shall be oriented rearwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.6"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The electrical connections shall be such that the rear fog lamp cannot be switched ON unless the main beams, dipped beams or front fog lamps are switched ON.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.1"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The rear fog lamp shall be capable of being switched OFF independently of any other lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.2"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The rear fog lamp may continue to operate until the position lamps are switched OFF and shall then remain OFF until deliberately switched ON again.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.3.1"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "The operation of the rear fog lamp shall not be affected by switching ON or OFF any other lamps, except as provided in paragraphs 6.11.7.1, 6.11.7.3 and 6.11.7.5.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.4"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "The rear fog lamp installation shall provide a closed-circuit tell-tale, and a failure tell-tale if required by UN Regulation No. 38.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.8"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The distance between the rear fog lamp and each stop lamp of the van shall be greater than 100 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.9"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The lamp assembly, as an electrical/electronic sub-assembly of the van, shall be designed, constructed and fitted so that the vehicle complies with this Regulation in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The lamp assembly as an ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The broadband radiated emissions of the lamp assembly shall not exceed 62 to 52 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The broadband radiated emissions of the lamp assembly shall not exceed 52 to 63 dBµV/m in the 75 to 400 MHz band, increasing logarithmically above 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "The broadband radiated emissions of the lamp assembly shall not exceed 63 dBµV/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "The measured broadband emission values of the lamp assembly shall be below the ESA type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "The narrowband radiated emissions of the lamp assembly shall not exceed 52 to 42 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "The narrowband radiated emissions of the lamp assembly shall not exceed 42 to 53 dBµV/m in the 75 to 400 MHz band, increasing logarithmically above 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The narrowband radiated emissions of the lamp assembly shall not exceed 53 dBµV/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "The transient conducted disturbances emitted by the lamp assembly on 12 V supply lines shall not exceed +75 V for positive pulses and -100 V for negative pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "The lamp assembly shall withstand immunity test levels below 2 GHz of 60 V/m (stripline), 75 V/m (TEM cell), 60 mA (BCI), 30 V/m (ALSE) and 21 V/m (reverberation chamber) over 90 per cent of the 20 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "The lamp assembly shall show no degradation of performance of its immunity related functions during the radiated immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "The immunity of the lamp assembly to transient disturbances on 12 V supply lines shall be tested according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "Where the lamp assembly has no immunity related functions, it shall be deemed to comply with paragraph 6.8 without radiated immunity testing.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.3"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "Where the lamp assembly does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with the narrowband emission limits of paragraph 6.6.2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "Where the lamp assembly is not switched, contains no switches and includes no inductive load, it need not be tested for transient conducted emission and shall be deemed to comply with paragraph 6.7.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.5"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "The lamp assembly, as an ESA conforming to an approved type, shall bear the international approval mark affixed in a conspicuous and easily accessible place.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "The approval mark of the lamp assembly shall comprise a circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "The approval mark of the lamp assembly shall comprise the number \"10\", followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "The approval mark of the lamp assembly need not be visible when the assembly is installed in the van.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "The lamp assembly samples submitted as ESA shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "Where the lamp assembly ESA is or contains a light source, the assembly shall be identifiable by the appropriate light source approval number or by a test report showing it is not mechanically interchangeable with any approved light source.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 7,
+        "paragraph": "3.2.10"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "For radiated emission testing of the lamp assembly, the length of the low voltage harness parallel to the front edge of the ground plane shall be 1,500 mm ± 75 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.2.3"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "For emission testing of the lamp assembly, all harnesses shall be placed on a non-conductive low-permittivity material at 50 mm ± 5 mm above the ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.2.4"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "For narrowband emission testing of the lamp assembly, the ambient extraneous noise shall be at least 6 dB below the limits of paragraph 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "Immunity testing of the lamp assembly shall be performed over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "The immunity test signal applied to the lamp assembly shall be amplitude modulated at 1 kHz with 80 per cent depth in the 20 to 400 MHz range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "Where the bulk current injection method is used for the lamp assembly, the injection probe shall be positioned at 150 mm distance from the ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "The lamp assembly shall be tested with test pulses 1, 2a, 2b, 3a and 3b applied to its supply lines and to other connections operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "The transient conducted emissions of the lamp assembly shall be measured according to ISO 7637-2 on its supply lines and other operationally connected lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 3"
+      }
+    }
+  ]
+}

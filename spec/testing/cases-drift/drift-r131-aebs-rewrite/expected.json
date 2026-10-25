@@ -1,0 +1,41 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r131-aebs-rewrite",
+  "changes": [
+    {
+      "requirement_id": "R-052",
+      "change": "removed",
+      "reason": "Paragraph 5.4.5 of UN R131 was amended in version 2.4.0; the provision 'While automated driving functions are in longitudinal control of the vehicle (e…' no longer appears."
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The AEBS shall be deactivated upon activation of an ADS feature, and shall not be able to be activated whilst an ADS feature is active.",
+      "reason": "Paragraph 5.4.5.1 of UN R131 is new in version 2.4.0: 'The AEBS shall be deactivated upon activation of an ADS feature, and shall not be able to be activa…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.4.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The AEBS shall be automatically reactivated upon deactivation of an ADS feature.",
+      "reason": "Paragraph 5.4.5.2 of UN R131 is new in version 2.4.0: 'The AEBS shall be automatically reactivated upon deactivation of an ADS feature.'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.4.5.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The provisions of paragraph 5.4.4. do not apply whilst an ADS feature is active.",
+      "reason": "Paragraph 5.4.5.3 of UN R131 is new in version 2.4.0: 'The provisions of paragraph 5.4.4. do not apply whilst an ADS feature is active.'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.4.5.3"
+      }
+    }
+  ]
+}

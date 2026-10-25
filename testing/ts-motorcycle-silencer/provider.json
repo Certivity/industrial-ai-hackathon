@@ -1,0 +1,1187 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "The silencer shall be designed, constructed and capable of being mounted so that: (a) The vehicle complies with the requirements of this UN Regulation under normal conditions of use",
+      "text": "The replacement exhaust silencing system shall be designed, constructed and mounted so that the vehicle complies with the requirements of UN R92 under normal conditions of use."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "in particular regardless of any vibrations to which it may be subjected;",
+      "text": "The replacement exhaust silencing system shall keep the vehicle compliant with UN R92 regardless of any vibrations to which it may be subjected."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "It displays reasonable resistance to the corrosion phenomena to which it is exposed, with due regard to the normal conditions of use of the vehicle;",
+      "text": "The replacement exhaust silencing system shall display reasonable resistance to the corrosion phenomena to which it is exposed under the normal conditions of use of the vehicle."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "The ground clearance provided by the silencer originally fitted, and the possible inclined position of the vehicle, are not reduced;",
+      "text": "The replacement exhaust silencing system shall not reduce the ground clearance provided by the silencer originally fitted nor the possible inclined position of the vehicle."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "Unduly high temperatures do not exist at the surface;",
+      "text": "The replacement exhaust silencing system shall be designed so that unduly high temperatures do not exist at its surface."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "Its edges are not sharp or jagged and there is sufficient space for shock absorbers and springs;",
+      "text": "The replacement exhaust silencing system shall have no sharp or jagged edges and shall leave sufficient space for the shock absorbers and springs."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "Adequate clearance of spring parts is provided;",
+      "text": "The replacement exhaust silencing system shall be mounted so that adequate clearance of spring parts is provided."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "Adequate safety clearance of pipes is provided;",
+      "text": "The replacement exhaust silencing system shall be mounted so that adequate safety clearance of pipes is provided."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.1",
+      "quote": "It is tamper-resistant in a way that is compatible with clearly-defined maintenance and installation requirements.",
+      "text": "The replacement exhaust silencing system shall be tamper-resistant in a way compatible with clearly-defined maintenance and installation requirements."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.2",
+      "quote": "When the NORESS or its components is fitted to the vehicle described in paragraph 3.3. (c), the sound level values obtained using the two methods",
+      "text": "When the replacement exhaust silencing system is fitted to the test vehicle, the sound level values obtained by the stationary test and the vehicle-in-motion test shall satisfy the condition of paragraph 6.2."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.2",
+      "quote": "They shall not exceed the values measured in conformity with the requirements of paragraph 3.3.(c), for the same vehicle when fitted with the original silencing system",
+      "text": "The replacement exhaust silencing system shall not exceed the sound level values measured on the same vehicle fitted with the original silencing system during the test in motion and the stationary test."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.3.1",
+      "quote": "The NORESS or its components shall be constructed in a way that does not permit removal of baffles, exit-cones and other parts whose primary function is as part of the silencing/expansion chambers.",
+      "text": "The replacement exhaust silencing system shall be constructed in a way that does not permit removal of baffles, exit-cones and other parts whose primary function is as part of the silencing/expansion chambers."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.3.1",
+      "quote": "Where incorporation of such a part is unavoidable, its method of attachment shall be such that removal is not facilitated (e.g. with conventional threaded fixings)",
+      "text": "Where incorporation of a baffle, exit-cone or silencing chamber part is unavoidable, its method of attachment shall be such that removal is not facilitated by conventional threaded fixings."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.3.1",
+      "quote": "shall also be attached such that removal causes permanent / irrecoverable damage to the assembly.",
+      "text": "Where incorporation of such a part is unavoidable, it shall also be attached such that removal causes permanent or irrecoverable damage to the assembly."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.3.2",
+      "quote": "NORESS with multiple, manually or electronically adjustable, rider selectable operating modes shall meet all requirements in all operating modes.",
+      "text": "A replacement exhaust silencing system with multiple, manually or electronically adjustable, rider selectable operating modes shall meet all requirements in all operating modes."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 4,
+      "paragraph": "6.3.2",
+      "quote": "The reported sound levels shall be those resulting from the mode with the highest sound levels.",
+      "text": "For a replacement exhaust silencing system with selectable operating modes, the reported sound levels shall be those resulting from the mode with the highest sound levels."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 5,
+      "paragraph": "6.3.4.2",
+      "quote": "The sound emission of the NORESS equipped vehicle under typical on-road driving conditions, which are different from those under which the type-approval test",
+      "text": "The sound emission of the vehicle equipped with the replacement exhaust silencing system under typical on-road driving conditions different from the type-approval test conditions shall not deviate from the test result in a significant manner."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 5,
+      "paragraph": "6.3.4.3",
+      "quote": "During these tests, the sound-pressure level of the NORESS for each test condition can have in its maximum the same sound-pressure level as the measurement of the vehicle equipped with the original exhaust silencer",
+      "text": "During back-to-back ASEP tests, the sound-pressure level of the replacement exhaust silencing system for each test condition shall at maximum equal the sound-pressure level measured on the vehicle equipped with the original exhaust silencer in its approved mode."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 6,
+      "paragraph": "6.4.1",
+      "quote": "The NORESS or its components shall be such as to ensure that the vehicle’s performance is comparable with that achieved with the original exhaust silencing system or components thereof.",
+      "text": "The replacement exhaust silencing system shall ensure that the vehicle's performance is comparable with that achieved with the original exhaust silencing system."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 6,
+      "paragraph": "6.4.3",
+      "quote": "The maximum power and the engine speed at maximum power measured with the NORESS shall not exceed the net power and the engine speed measured under the conditions set out below with the original equipment exhaust system by more than ±5 per cent.",
+      "text": "The maximum power and the engine speed at maximum power measured with the replacement exhaust silencing system shall not exceed those measured with the original equipment exhaust system by more than ±5 per cent."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 6,
+      "paragraph": "6.5",
+      "quote": "The use of fibrous absorbent material shall be permitted in the construction of the NORESS only if the requirements in Annex 3 are met.",
+      "text": "Fibrous absorbent material shall be used in the construction of the replacement exhaust silencing system only if the requirements of Annex 3 are met."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 6,
+      "paragraph": "6.6",
+      "quote": "The vehicle referred to in paragraph 3.3. (c) with the non-original replacement exhaust silencing system (NORESS) of the type for which approval is requested, shall fulfil the pollution requirements",
+      "text": "The test vehicle fitted with the replacement exhaust silencing system shall fulfil the pollution requirements according to the type approval of the vehicle."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 3 1.",
+      "quote": "Fibrous absorbent material shall be asbestos-free and may be used in the construction of silencers only if suitable devices ensure that the fibrous absorbent material is kept in place",
+      "text": "The fibrous absorbent material used in the silencer shall be asbestos-free."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 3 1.",
+      "quote": "suitable devices ensure that the fibrous absorbent material is kept in place for the whole time that the silencer is being used",
+      "text": "The replacement exhaust silencing system shall be fitted with suitable devices ensuring that the fibrous absorbent material is kept in place for the whole time the silencer is used."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 3 2.",
+      "quote": "After removal of the fibrous material, the sound level shall comply with the requirements of paragraph 6.2. of this UN Regulation.",
+      "text": "After removal of the fibrous material, the sound level of the replacement exhaust silencing system shall comply with the requirements of paragraph 6.2 of UN R92."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 3 3.",
+      "quote": "The fibrous absorbent material may not be placed in those parts of the silencer through which the exhaust gases pass",
+      "text": "The fibrous absorbent material shall not be placed in those parts of the silencer through which the exhaust gases pass."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 3 3.(a)",
+      "quote": "The material shall be heated at a temperature of 650 ± 5°C for four hours in a furnace without reduction in average length, diameter or bulk density of the fibre;",
+      "text": "The fibrous absorbent material shall withstand heating at 650 ± 5 °C for four hours in a furnace without reduction in average length, diameter or bulk density of the fibre."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 3 3.(b)",
+      "quote": "After heating at 650 ± 5°C for one hour in a furnace, at least 98 per cent of the material-shall be retained in a sieve of nominal aperture size 250 µm",
+      "text": "After heating at 650 ± 5 °C for one hour, at least 98 per cent of the fibrous absorbent material shall be retained in a sieve of nominal aperture size 250 µm complying with ISO 3310/1 when tested in accordance with ISO 2599."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 3 3.(c)",
+      "quote": "The loss in weight of the material shall riot exceed 10.5 per cent after soaking for 24 hours at 90 ± 5°C in a synthetic condensate",
+      "text": "The loss in weight of the fibrous absorbent material shall not exceed 10.5 per cent after soaking for 24 hours at 90 ± 5 °C in the specified synthetic condensate."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 15,
+      "paragraph": "Annex 3 5.",
+      "quote": "Exhaust gases are not in contact with fibrous materials and fibrous materials are not under the influence of pressure variations.",
+      "text": "The construction of the replacement exhaust silencing system shall ensure that exhaust gases are not in contact with fibrous materials and that fibrous materials are not under the influence of pressure variations."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 2,
+      "paragraph": "4.1",
+      "quote": "Each component of the NORESS, excluding pipes and fitting accessories, shall bear: (a) The trade name or mark of the manufacturer of the NORESS of its components;",
+      "text": "Each component of the replacement exhaust silencing system, excluding pipes and fitting accessories, shall bear the trade name or mark of the manufacturer."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 2,
+      "paragraph": "4.1",
+      "quote": "(b) The commercial designation given by the manufacturer.",
+      "text": "Each component of the replacement exhaust silencing system, excluding pipes and fitting accessories, shall bear the commercial designation given by the manufacturer."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 3,
+      "paragraph": "4.2",
+      "quote": "These markings shall be clearly legible and indelible and also visible in the position at which the NORESS is fitted.",
+      "text": "The markings on the replacement exhaust silencing system shall be clearly legible and indelible and also visible in the position at which the system is fitted."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 3,
+      "paragraph": "4.3",
+      "quote": "The NORESS shall be labelled by its manufacturer; indicating the type(s) of vehicle(s) for which it has been granted the approval.",
+      "text": "The replacement exhaust silencing system shall be labelled by its manufacturer indicating the type(s) of vehicle(s) for which it has been granted approval."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 3,
+      "paragraph": "4.4",
+      "quote": "A component may carry several approval numbers if it has been approved as a component of several replacement exhaust systems.",
+      "text": "A component of the replacement exhaust silencing system may carry several approval numbers if it has been approved as a component of several replacement exhaust systems."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 3,
+      "paragraph": "4.5",
+      "quote": "The replacement exhaust system shall be supplied in a packaging or carry a label both providing the following particulars:",
+      "text": "The replacement exhaust silencing system shall be supplied in packaging or carry a label both providing the particulars listed in paragraph 4.5(a) to (c)."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 3,
+      "paragraph": "4.5",
+      "quote": "(c) A list of vehicle models for which the replacement silencing system is intended.",
+      "text": "The packaging or label of the replacement exhaust silencing system shall provide a list of vehicle models for which the system is intended."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 3,
+      "paragraph": "5.5",
+      "quote": "The approval mark shall be easily legible when the NORESS is fitted to the vehicle, and shall be indelible.",
+      "text": "The approval mark of the replacement exhaust silencing system shall be easily legible when the system is fitted to the vehicle and shall be indelible."
+    },
+    {
+      "regulation": "UN R92",
+      "page": 14,
+      "paragraph": "Annex 2",
+      "quote": "a = 8 mm min",
+      "text": "The characters and figures of the approval mark affixed to the replacement exhaust silencing system shall have a minimum dimension of 8 mm."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 2,
+      "paragraph": "5.1",
+      "quote": "The components liable to affect the emission of gaseous pollutants shall be so designed, constructed and assembled as to enable the vehicle in normal use, despite the vibration",
+      "text": "The exhaust silencing system, as a component liable to affect the emission of gaseous pollutants, shall be designed, constructed and assembled so as to enable the vehicle in normal use, despite vibration, to comply with UN R40."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 3,
+      "paragraph": "5.2.1.2.1",
+      "quote": "The carbon monoxide content of the exhaust gases emitted with the engine idling shall not exceed 4.5 per cent by volume.",
+      "text": "With the replacement exhaust silencing system fitted, the carbon monoxide content of the exhaust gases emitted with the engine idling shall not exceed 4.5 per cent by volume."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 3,
+      "paragraph": "5.2.1.1.2",
+      "quote": "In each test, the mass of the carbon monoxide, the mass of the hydrocarbons and the mass of the nitrogen oxides obtained shall be less, for a vehicle of given reference weight, than the amounts shown in the tables",
+      "text": "With the replacement exhaust silencing system fitted, the mass of carbon monoxide and of hydrocarbons obtained in each Type-I test shall be less than the amounts shown in the tables for the vehicle's reference weight."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 3,
+      "paragraph": "5.2.1.1.2.1",
+      "quote": "one of the three results obtained may exceed by not more than 10 per cent the limit prescribed in that paragraph for the vehicle concerned, provided the arithmetical mean of the three results is below the prescribed limit",
+      "text": "For each pollutant, one of the three Type-I results may exceed the prescribed limit by not more than 10 per cent, provided the arithmetical mean of the three results is below the prescribed limit."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 3,
+      "paragraph": "5.2.1.1.3.1",
+      "quote": "Only one test shall be made if, for all pollutants concerned, V1 ≤ 0.70L.",
+      "text": "Only one Type-I test shall be made when, for all pollutants concerned, the first test result V1 is less than or equal to 0.70 times the limit L."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 3,
+      "paragraph": "5.2.1.1.3.2",
+      "quote": "Only two tests shall be made if, for all pollutants concerned, V1 ≤ 0.85L but for at least one of the pollutants V1 > 0.70L.",
+      "text": "Only two Type-I tests shall be made when, for all pollutants concerned, V1 is less than or equal to 0.85L but for at least one pollutant V1 is greater than 0.70L."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 3,
+      "paragraph": "5.2.1.1.3.2",
+      "quote": "for each of the pollutants concerned, V2 must satisfy the requirements that V1 + V2 < 1.70L and V2 < L.",
+      "text": "When a second Type-I test is made, for each pollutant concerned the results shall satisfy V1 + V2 < 1.70L and V2 < L."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table II",
+      "quote": "R < 100 kg CO = 17.5 g/km CO = 21 g/km",
+      "text": "For a four-stroke L3 motorcycle with a reference weight below 100 kg, the carbon monoxide emission with the replacement silencing system shall not exceed 17.5 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table II",
+      "quote": "R < 100 kg HC = 4.2 g/km HC = 6 g/km",
+      "text": "For a four-stroke L3 motorcycle with a reference weight below 100 kg, the unburnt hydrocarbon emission with the replacement silencing system shall not exceed 4.2 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table II",
+      "quote": "R > 300 kg CO = 35 g/km CO = 42 g/km",
+      "text": "For a four-stroke L3 motorcycle with a reference weight above 300 kg, the carbon monoxide emission with the replacement silencing system shall not exceed 35 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table II",
+      "quote": "R > 300 kg HC = 6 g/km HC = 8.4 g/km",
+      "text": "For a four-stroke L3 motorcycle with a reference weight above 300 kg, the unburnt hydrocarbon emission with the replacement silencing system shall not exceed 6 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table I",
+      "quote": "R < 100 kg CO = 12.8 g/km CO = 16 g/km",
+      "text": "For a two-stroke L3 motorcycle with a reference weight below 100 kg, the carbon monoxide emission with the replacement silencing system shall not exceed 12.8 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table I",
+      "quote": "R < 100 kg HC = 8 g/km HC = 10.4 g/km",
+      "text": "For a two-stroke L3 motorcycle with a reference weight below 100 kg, the unburnt hydrocarbon emission with the replacement silencing system shall not exceed 8 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table I",
+      "quote": "R > 300 kg CO = 32 g/km CO = 40 g/km",
+      "text": "For a two-stroke L3 motorcycle with a reference weight above 300 kg, the carbon monoxide emission with the replacement silencing system shall not exceed 32 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 6,
+      "paragraph": "Table I",
+      "quote": "R > 300 kg HC = 12 g/km HC = 16.8 g/km",
+      "text": "For a two-stroke L3 motorcycle with a reference weight above 300 kg, the unburnt hydrocarbon emission with the replacement silencing system shall not exceed 12 g/km at type approval."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 14,
+      "paragraph": "Annex 4 3.1.2",
+      "quote": "The exhaust device shall not exhibit any leak likely to reduce the quantity of gas collected, which shall be the quantity emerging from the engine.",
+      "text": "The replacement exhaust silencing system shall not exhibit any leak likely to reduce the quantity of gas collected during the Type-I test, which shall be the quantity emerging from the engine."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 14,
+      "paragraph": "Annex 4 3.1.4",
+      "quote": "The settings of the vehicle shall be those prescribed by the manufacturer.",
+      "text": "When the replacement exhaust silencing system is fitted, the settings of the vehicle shall be those prescribed by the manufacturer."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 12,
+      "paragraph": "Annex 4 1.1",
+      "quote": "A test lasting a total of 13 minutes and comprising four cycles shall be carried out without interruption.",
+      "text": "The vehicle with the replacement exhaust silencing system shall undergo a Type-I test lasting 13 minutes and comprising four cycles carried out without interruption."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 14,
+      "paragraph": "Annex 4 2.4.1",
+      "quote": "A tolerance of 1 km/h above or below the theoretical speed shall be allowed during all phases of the cycle.",
+      "text": "During the Type-I cycle the vehicle speed shall be maintained within 1 km/h above or below the theoretical speed in all phases."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 14,
+      "paragraph": "Annex 4 2.4.2",
+      "quote": "The time tolerance shall be ± 0.5 sec.",
+      "text": "The Type-I cycle phases shall be performed within a time tolerance of ±0.5 s."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 14,
+      "paragraph": "Annex 4 2.4.4",
+      "quote": "The distance driven during the cycle shall be measured to ± 2 per cent.",
+      "text": "The distance driven during the Type-I cycle shall be measured to ±2 per cent."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 14,
+      "paragraph": "Annex 4 3.1.1",
+      "quote": "It shall have been run in and have been driven at least 1,000 km before the test.",
+      "text": "The test vehicle fitted with the replacement exhaust silencing system shall have been run in and driven at least 1,000 km before the Type-I test."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 27,
+      "paragraph": "Annex 5 2.2",
+      "quote": "The content by volume of carbon monoxide shall be measured immediately after the type-I test, with the engine at idling speed.",
+      "text": "The carbon monoxide content by volume shall be measured immediately after the Type-I test, with the engine at idling speed."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 28,
+      "paragraph": "Annex 5 3.1",
+      "quote": "The exhaust outlets shall be provided with an air-tight extension, so that the sample probe used to collect exhaust gases may be inserted into the exhaust outlet at least 60 cm",
+      "text": "Where the replacement exhaust silencing system has one outlet, an air-tight extension shall be provided so that the sample probe may be inserted into the outlet at least 60 cm without increasing back pressure by more than 125 mm H2O."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 28,
+      "paragraph": "Annex 5 3.1",
+      "quote": "Where a motor cycle is equipped with an exhaust system having multiple outlets, either these shall be joined to a common pipe or the content of carbon monoxide must be collected from each of them",
+      "text": "Where the motorcycle is equipped with a replacement exhaust silencing system having multiple outlets, these shall be joined to a common pipe or the carbon monoxide content shall be collected from each outlet and arithmetically averaged."
+    },
+    {
+      "regulation": "UN R40",
+      "page": 16,
+      "paragraph": "Annex 4 4.2.2.1",
+      "quote": "if the back pressure conditions are complied with (< ±125 mm of H20), a closed system may be used",
+      "text": "Where the gas-collecting device is of the closed type for the emission test, the back pressure at the exhaust outlet shall remain within ±125 mm H2O."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.1",
+      "quote": "The lighting and light-signalling devices shall be so fitted that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected, they retain the characteristics prescribed by this Regulation",
+      "text": "When the replacement exhaust silencing system is fitted, the motorcycle's lighting and light-signalling devices shall be so fitted that in normal conditions of use and notwithstanding vibrations they retain the characteristics prescribed by UN R53."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.1",
+      "quote": "In particular, it shall not be possible for the lamps to be inadvertently maladjusted.",
+      "text": "When the replacement exhaust silencing system is fitted, it shall not be possible for the lamps of the motorcycle to be inadvertently maladjusted."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.2",
+      "quote": "The illuminating lamps shall be so installed that correct adjustment of their orientation can easily be carried out.",
+      "text": "The motorcycle's illuminating lamps shall be so installed that correct adjustment of their orientation can easily be carried out with the replacement exhaust silencing system fitted."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.3",
+      "quote": "For all light-signalling devices the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road",
+      "text": "For all light-signalling devices of the motorcycle the reference axis of the lamp shall be parallel to the bearing plane of the vehicle on the road, with a tolerance of ±3° in each direction."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.4",
+      "quote": "the height and orientation of the lamps shall be verified with the vehicle unladen and placed on a flat horizontal surface, its median longitudinal plane being vertical",
+      "text": "The height and orientation of the lamps shall be verified with the motorcycle unladen, placed on a flat horizontal surface, with its median longitudinal plane vertical and the handlebars straight ahead."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.4",
+      "quote": "The tyre pressures shall be those prescribed by the manufacturer for the particular conditions of loading required in this Regulation.",
+      "text": "The tyre pressures of the motorcycle during lamp verification shall be those prescribed by the manufacturer for the particular conditions of loading required by UN R53."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.5.1",
+      "quote": "Single lamps or reflectors shall be mounted such that their centre of reference lies in the median longitudinal plane of the vehicle;",
+      "text": "Single lamps or reflectors fitted to the motorcycle shall be mounted such that their centre of reference lies in the median longitudinal plane of the vehicle."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.5.2.1",
+      "quote": "Be mounted symmetrically in relation to the median longitudinal plane;",
+      "text": "Lamps constituting a pair and having the same function shall be mounted symmetrically in relation to the median longitudinal plane of the motorcycle."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.5.2.3",
+      "quote": "Satisfy the same colorimetric requirements; and",
+      "text": "Lamps constituting a pair and having the same function shall satisfy the same colorimetric requirements."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.5.2.4",
+      "quote": "Have identical nominal photometric characteristics;",
+      "text": "Lamps constituting a pair and having the same function shall have identical nominal photometric characteristics."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 5,
+      "paragraph": "5.5.2.5",
+      "quote": "Come on and go off simultaneously;",
+      "text": "Lamps constituting a pair and having the same function shall come on and go off simultaneously."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 6,
+      "paragraph": "5.6.1.2",
+      "quote": "Stop lamps and direction indicator lamps are not permitted to be reciprocally incorporated.",
+      "text": "On the motorcycle, stop lamps and direction indicator lamps shall not be reciprocally incorporated."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.9",
+      "quote": "No red light which could give rise to confusion shall be emitted from a lamp as defined in paragraph 2.3. in a forward direction",
+      "text": "No red light which could give rise to confusion shall be emitted from a lamp in a forward direction on the motorcycle."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.9",
+      "quote": "no white light which could give rise to confusion, shall be emitted from a lamp as defined in paragraph 2.3. in a rearward direction.",
+      "text": "No white light which could give rise to confusion shall be emitted from a lamp in a rearward direction on the motorcycle."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.9.1",
+      "quote": "a red lamp shall not be directly visible to an observer moving in zone 1 of a transverse plane situated 25 m forward of the foremost point on the vehicle;",
+      "text": "A red lamp of the motorcycle shall not be directly visible to an observer moving in zone 1 of a transverse plane situated 25 m forward of the foremost point of the vehicle."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.9.2",
+      "quote": "a white lamp shall not be directly visible to an observer moving in zone 2 of a transverse plane situated 25 m rearward of the rearmost point on the vehicle;",
+      "text": "A white lamp of the motorcycle shall not be directly visible to an observer moving in zone 2 of a transverse plane situated 25 m rearward of the rearmost point of the vehicle."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.10",
+      "quote": "the rear position lamp and the rear-registration-plate illuminating device cannot be switched ON or OFF otherwise than simultaneously",
+      "text": "The electrical connections of the motorcycle shall be such that the front position lamp or passing-beam headlamp, the rear position lamp and the rear-registration-plate illuminating device cannot be switched on or off otherwise than simultaneously."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.11",
+      "quote": "the electrical connection shall be such that the driving-beam headlamp, the passing-beam headlamp and the fog lamp cannot be switched on unless the lamps referred to in paragraph 5.10. above are likewise switched on.",
+      "text": "The electrical connection shall be such that the driving-beam headlamp, the passing-beam headlamp and the fog lamp cannot be switched on unless the lamps referred to in paragraph 5.10 are likewise switched on."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.11.1",
+      "quote": "If installed, the daytime running lamp shall automatically be ON when the engine is running.",
+      "text": "If a daytime running lamp is installed, it shall automatically be on when the engine of the motorcycle is running."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 7,
+      "paragraph": "5.11.1",
+      "quote": "If the headlamp is switched ON, the daytime running lamp shall not come ON when the engine is running.",
+      "text": "If the headlamp is switched on, the daytime running lamp shall not come on when the engine is running."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.12.1",
+      "quote": "Every tell-tale lamp shall be readily visible to a driver in the normal driving position.",
+      "text": "Every tell-tale lamp of the motorcycle shall be readily visible to a driver in the normal driving position."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Driving-beam headlamp: white",
+      "text": "The driving-beam headlamp of the motorcycle shall emit white light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Direction-indicator lamp: amber",
+      "text": "The direction-indicator lamps of the motorcycle shall emit amber light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Stop lamp: red",
+      "text": "The stop lamp of the motorcycle shall emit red light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Rear position lamp: red",
+      "text": "The rear position lamp of the motorcycle shall emit red light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Rear retro-reflector, non-triangular: red",
+      "text": "The rear retro-reflector, non-triangular, of the motorcycle shall be red."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Front position lamp: white or amber",
+      "text": "The front position lamp of the motorcycle shall emit white or amber light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Front fog lamp: white or selective yellow",
+      "text": "The front fog lamp, if fitted, shall emit white or selective yellow light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Rear fog lamp: red",
+      "text": "The rear fog lamp, if fitted, shall emit red light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Daytime running lamp white",
+      "text": "The daytime running lamp, if fitted, shall emit white light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 8,
+      "paragraph": "5.13",
+      "quote": "Vehicle-hazard warning signal: amber",
+      "text": "The vehicle-hazard warning signal of the motorcycle shall emit amber light."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 9,
+      "paragraph": "5.17",
+      "quote": "The fitting of any lighting and light-signalling devices other than those mentioned in paragraphs 5.14. and 5.15. above is prohibited for the purposes of type approval.",
+      "text": "No lighting or light-signalling devices other than those listed in paragraphs 5.14 and 5.15 shall be fitted to the motorcycle."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 10,
+      "paragraph": "5.20.1",
+      "quote": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity.",
+      "text": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the motorcycle's lamps observed from infinity."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 10,
+      "paragraph": "5.20.3",
+      "quote": "If, when the lamp is installed, any part of the apparent surface of the lamp is hidden by any further parts of the vehicle, proof shall be furnished that the part of the lamp not hidden by obstacles still conforms to the photometric values",
+      "text": "Where a part of the apparent surface of a lamp is hidden by further parts of the motorcycle, proof shall be furnished that the unhidden part still conforms to the photometric values prescribed for the device approval."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 11,
+      "paragraph": "6.1.4",
+      "quote": "The visibility of the illuminating surface, including its visibility in areas which do not appear to be illuminated in the direction of observation considered, shall be ensured within a divergent space",
+      "text": "The visibility of the driving-beam headlamp illuminating surface shall be ensured within a divergent space defined by generating lines forming an angle of not less than 5° with the axis of reference."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 12,
+      "paragraph": "6.1.6.3",
+      "quote": "It shall always be possible to switch the driving-beam headlamp(s) ON and OFF manually and to manually deactivate the automatic control of the driving-beam headlamp(s).",
+      "text": "It shall always be possible to switch the driving-beam headlamp on and off manually and to manually deactivate its automatic control, by a simple and immediate manual operation without submenus."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 12,
+      "paragraph": "6.1.8.1",
+      "quote": "The aggregate maximum intensity of the driving-beam headlamps which can be switched on simultaneously shall not exceed 430,000 cd which corresponds to a reference number of 100.",
+      "text": "The aggregate maximum intensity of the driving-beam headlamps which can be switched on simultaneously shall not exceed 430,000 cd (reference number of 100)."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 14,
+      "paragraph": "6.2.3.2",
+      "quote": "Height: a minimum of 500 mm and a maximum of 1,200 mm above the ground.",
+      "text": "The passing-beam headlamp of the motorcycle shall be mounted at a height between 500 mm and 1,200 mm above the ground."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 15,
+      "paragraph": "6.2.5.2",
+      "quote": "The vertical inclination of the headlamp producing the principal passing-beam shall remain between -0.5 and -2.5 per cent, except in the case where an external adjusting device is present.",
+      "text": "The vertical inclination of the passing-beam headlamp shall remain between -0.5 and -2.5 per cent, except where an external adjusting device is present."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 16,
+      "paragraph": "6.2.6",
+      "quote": "The control for changing over to the passing-beam(s) shall switch off the driving-beam(s) simultaneously.",
+      "text": "The control for changing over to the passing-beam shall switch off the driving-beam simultaneously."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 18,
+      "paragraph": "6.3.7",
+      "quote": "Mandatory. This may be optical or auditory or both. If it is optical it shall be (a) flashing green lamp(s), which, in the event of defective operation of any of the direction indicators, is extinguished, remains alight without flashing, or shows a marked change of frequency.",
+      "text": "A mandatory direction indicator operating tell-tale shall be provided, being optical or auditory or both, and if optical a flashing green lamp that is extinguished, remains alight without flashing, or changes frequency markedly in the event of defective direction indicator operation."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 18,
+      "paragraph": "6.3.8.1",
+      "quote": "The light flashing frequency shall be 90 ± 30 times per minute;",
+      "text": "The flashing frequency of the direction indicator lamps shall be 90 ± 30 times per minute."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 18,
+      "paragraph": "6.3.8.3",
+      "quote": "Operation of the light-signal control shall be followed within not more than one second by the appearance of the light and within not more than one-and-one half seconds by the first extinction of the light.",
+      "text": "Operation of the direction indicator control shall be followed within not more than one second by the appearance of the light and within not more than one-and-a-half seconds by its first extinction."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 18,
+      "paragraph": "6.3.8.4",
+      "quote": "In the event of failure, other than a short circuit, of one direction indicator lamp, the other(s) direction indicator lamp(s) indicating the same direction shall continue to flash or remain alight",
+      "text": "In the event of failure, other than a short circuit, of one direction indicator lamp, the other direction indicator lamps indicating the same direction shall continue to flash or remain alight."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 19,
+      "paragraph": "6.4.3.1",
+      "quote": "In height: not less than 250 mm nor more than 1,500 mm above the ground;",
+      "text": "The stop lamp shall be mounted at a height of not less than 250 mm and not more than 1,500 mm above the ground."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 19,
+      "paragraph": "6.4.6.1",
+      "quote": "All the stop lamps shall light up simultaneously when the braking system provides the braking signal defined in UN Regulation No. 78.",
+      "text": "All the stop lamps shall light up simultaneously when the braking system provides the braking signal defined in UN Regulation No. 78."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 21,
+      "paragraph": "6.6.3.2",
+      "quote": "In height: not less than 350 mm nor more than 1,200 mm above the ground.",
+      "text": "The front position lamp shall be mounted at a height of not less than 350 mm and not more than 1,200 mm above the ground."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 21,
+      "paragraph": "6.6.6",
+      "quote": "Mandatory. Non-flashing green signal lamp.",
+      "text": "A mandatory non-flashing green circuit-closed tell-tale shall be provided for the front position lamp, unless the instrument illumination can be switched on or off only simultaneously with the position lamps."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 21,
+      "paragraph": "6.7.3.1",
+      "quote": "in height: not less than 250 mm nor more than 1,500 mm above the ground;",
+      "text": "The rear position lamp shall be mounted at a height of not less than 250 mm and not more than 1,500 mm above the ground."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 22,
+      "paragraph": "6.8.3",
+      "quote": "In height: not less than 250 mm nor more than 900 mm above the ground;",
+      "text": "The non-triangular rear retro-reflector shall be mounted at a height of not less than 250 mm and not more than 900 mm above the ground."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 22,
+      "paragraph": "6.9.4",
+      "quote": "Light flashing 90 ± 30 times per minute.",
+      "text": "The vehicle-hazard warning signal lamps shall flash at 90 ± 30 times per minute."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 24,
+      "paragraph": "6.11.3.3",
+      "quote": "The distance between the illuminating surface of the rear fog lamp and that of the stop lamp shall not be less than 100 mm.",
+      "text": "Where a rear fog lamp is fitted, the distance between its illuminating surface and that of the stop lamp shall not be less than 100 mm."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 24,
+      "paragraph": "6.11.7",
+      "quote": "Mandatory. Non-flashing amber signal lamp.",
+      "text": "A mandatory non-flashing amber circuit-closed tell-tale shall be provided for the rear fog lamp."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 24,
+      "paragraph": "6.12.3.2",
+      "quote": "In height: not less than 300 mm nor more than 900 mm above the ground;",
+      "text": "Each non-triangular side retro-reflector shall be mounted at a height of not less than 300 mm and not more than 900 mm above the ground."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 25,
+      "paragraph": "6.13.7.1",
+      "quote": "The daytime running lamp shall switch OFF automatically when the headlamps are switched ON, except when the latter are used to give intermittent luminous warnings at short intervals.",
+      "text": "The daytime running lamp shall switch off automatically when the headlamps are switched on, except when the headlamps are used to give intermittent luminous warnings at short intervals."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 26,
+      "paragraph": "6.14.7.1",
+      "quote": "All the lamps of the emergency stop signal shall flash in phase at a frequency of 4.0 ± 1.0 Hz.",
+      "text": "If an emergency stop signal is provided, all its lamps shall flash in phase at a frequency of 4.0 ± 1.0 Hz."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 26,
+      "paragraph": "6.14.7.3.1",
+      "quote": "The emergency stop signal shall be activated only when the vehicle speed is above 50 km/h and the braking system is providing the emergency braking logic signal",
+      "text": "The emergency stop signal shall be activated only when the motorcycle speed is above 50 km/h and the braking system provides the emergency braking logic signal defined in UN Regulation No. 78."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 27,
+      "paragraph": "6.14.7.3.2",
+      "quote": "The emergency stop signal shall be automatically deactivated if the emergency braking logic signal as defined in UN Regulation No. 78 is no longer provided or if the vehicle-hazard warning signal is activated.",
+      "text": "The emergency stop signal shall be automatically deactivated if the emergency braking logic signal is no longer provided or if the vehicle-hazard warning signal is activated."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 40,
+      "paragraph": "Annex 5 1.1",
+      "quote": "The position of the lamps as specified in paragraph 6. of this Regulation shall be checked in accordance with the general requirements set out in paragraph 5.",
+      "text": "During conformity of production, the position of the lamps as specified in paragraph 6 shall be checked in accordance with the general requirements of paragraph 5 of UN R53."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 41,
+      "paragraph": "Annex 5 1.6",
+      "quote": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+      "text": "The presence, number, colour, arrangement and, where applicable, the category of the motorcycle's lamps shall be checked by visual inspection of the lamps and their markings."
+    },
+    {
+      "regulation": "UN R53",
+      "page": 43,
+      "paragraph": "Annex 8 1. Table 1",
+      "quote": "less than 1,000 lux ON no more than 2 seconds",
+      "text": "Where the passing beam is switched automatically, it shall switch on within no more than 2 seconds when the ambient light outside the vehicle is less than 1,000 lux."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "text": "The motorcycle and its electrical/electronic systems or ESAs shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with UN R10."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.1",
+      "quote": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "For measurements at a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the broadband electromagnetic radiation of the motorcycle shall not exceed 32 dBµV/m in the 30-75 MHz band and 32 to 43 dBµV/m in the 75-400 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 43 dB microvolts/m.",
+      "text": "For measurements at 10.0 ± 0.2 m, the broadband electromagnetic radiation of the motorcycle in the 400-1,000 MHz band shall not exceed 43 dBµV/m."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.2.2.2",
+      "quote": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+      "text": "For measurements at a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the broadband electromagnetic radiation of the motorcycle shall not exceed 42 dBµV/m in the 30-75 MHz band and 42 to 53 dBµV/m in the 75-400 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.3.2.1",
+      "quote": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "text": "For measurements at 10.0 ± 0.2 m, the narrowband electromagnetic radiation of the motorcycle shall not exceed 28 dBµV/m in the 30-230 MHz band and 35 dBµV/m in the 230-1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.3.2.2",
+      "quote": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "text": "For measurements at 3.0 ± 0.05 m, the narrowband electromagnetic radiation of the motorcycle shall not exceed 38 dBµV/m in the 30-230 MHz band and 45 dBµV/m in the 230-1,000 MHz band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.1",
+      "quote": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+      "text": "The motorcycle shall withstand a field strength of 30 V/m over 90 per cent of the 20-2,000 MHz band and a minimum of 25 V/m over the whole 20-2,000 MHz band without degradation of immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.1",
+      "quote": "The field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band.",
+      "text": "The motorcycle shall withstand a field strength of 10 V/m over 90 per cent of the 2,000-6,000 MHz band and a minimum of 8 V/m over the whole 2,000-6,000 MHz band without degradation of immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.4.2.2",
+      "quote": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "The motorcycle shall show no degradation of performance of its immunity related functions during the immunity tests performed in accordance with Annex 6."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 6,
+      "paragraph": "3.2.6",
+      "quote": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "text": "Where an electrical/electronic sub-assembly forms part of the replacement exhaust silencing system, the sample shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+      "text": "An approval mark shall be affixed to every electrical/electronic sub-assembly conforming to a type approved under UN R10."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "text": "The international approval mark shall comprise a circle containing the letter E followed by the distinguishing number of the country granting the approval."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above.",
+      "text": "The international approval mark shall comprise the number of UN R10, followed by the letter R, a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+      "text": "Markings on an ESA fitted to the replacement exhaust silencing system need not be visible when the ESA is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 44,
+      "paragraph": "Annex 1",
+      "quote": "a = 6 mm min",
+      "text": "The characters of the approval mark affixed to a vehicle or ESA shall have a minimum dimension of 6 mm."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7. Table 1",
+      "quote": "Positive +75 V +150 V",
+      "text": "For a 12 V system, the transient conducted disturbances emitted by an ESA on the supply lines shall not exceed a positive pulse amplitude of +75 V."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7. Table 1",
+      "quote": "Negative -100 V -450 V",
+      "text": "For a 12 V system, the transient conducted disturbances emitted by an ESA on the supply lines shall not exceed a negative pulse amplitude of -100 V."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9. Table 3b",
+      "quote": "1 -75 V -450 V 500 pulses",
+      "text": "For a 12 V system, an ESA shall withstand test pulse 1 at an immunity test level of -75 V for 500 pulses at functional status class III."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9. Table 3b",
+      "quote": "3a -112 V -150 V 1 h",
+      "text": "For a 12 V system, an ESA shall withstand test pulse 3a at an immunity test level of -112 V for 1 hour at functional status class I."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9. Table 3b",
+      "quote": "3b +75 V +150 V 1 h",
+      "text": "For a 12 V system, an ESA shall withstand test pulse 3b at an immunity test level of +75 V for 1 hour at functional status class I."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9. Table 3a",
+      "quote": "Starting profile II II 10 pulses",
+      "text": "An ESA that shall be operational during engine start phases shall withstand the starting profile at immunity test level II for 10 pulses at functional status class C."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.10.5",
+      "quote": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission",
+      "text": "An ESA that is not switched, contains no switches or does not include inductive load need not be tested for transient conducted emission."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.10.1",
+      "quote": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+      "text": "Where an ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with the narrowband emission requirements of paragraph 6.6.2."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 91,
+      "paragraph": "Annex 7 3.4",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+      "text": "During the ESA broadband emission measurement, the ambient extraneous noise or signal shall be at least 6 dB below the interference limits of paragraph 6.5.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 2.4",
+      "quote": "No extraneous equipment shall be closer than 1 m from the reference point during calibration.",
+      "text": "During calibration of the ESA immunity test, no extraneous equipment shall be closer than 1 m from the reference point."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 100,
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "When the bulk current injection immunity test method with substitution method is used, the injection probe shall be positioned at 150 mm distance to the ESA."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 102,
+      "paragraph": "Annex 9 Appendix 2 Figure 1",
+      "quote": "low relative permittivity support (εr ≤ 1.4); thickness 50 mm",
+      "text": "The harnesses of the ESA shall be placed on a non-conductive support of low relative permittivity (εr ≤ 1.4) with a thickness of 50 mm during the absorber chamber test."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "text": "The ESA immunity measurements shall be made over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "An ESA fitted to the motorcycle shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 72,
+      "paragraph": "Annex 6 2.1.1.1",
+      "quote": "The engine shall normally turn the driving wheels at a steady speed of 50 km/h if there is no technical reason due to the vehicle to define a different condition.",
+      "text": "During the vehicle immunity test, the engine shall normally turn the driving wheels at a steady speed of 50 km/h unless a different condition is justified."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 52,
+      "paragraph": "Annex 4 2",
+      "quote": "For two-wheeled vehicles, a non-conductive insulating support with a thickness of 5 – 20 mm shall be used between stand and ground plane.",
+      "text": "For the two-wheeled motorcycle during radiated emission tests, a non-conductive insulating support with a thickness of 5-20 mm shall be used between the stand and the ground plane."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 58,
+      "paragraph": "Annex 4 4.6",
+      "quote": "Measurements shall be made on the left and right sides of the vehicle.",
+      "text": "Radiated emission measurements on the motorcycle shall be made on the left and right sides of the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 57,
+      "paragraph": "Annex 4 4.3. Table 1",
+      "quote": "30 to 1,000 100/120 kHz 100 ms/MHz 120 kHz 20 s/MHz",
+      "text": "For spectrum analyser measurements from 30 to 1,000 MHz, the resolution bandwidth shall be 100/120 kHz with peak detector and 120 kHz with quasi-peak detector, with minimum scan times of 100 ms/MHz and 20 s/MHz respectively."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 57,
+      "paragraph": "Annex 4 4.2",
+      "quote": "If peak detectors are used, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "text": "Where peak detectors are used for the emission measurements, a correction factor of 20 dB as defined in CISPR 12 shall be applied."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "20 to 400 MHz 80 to 2,000 MHz 60 mA 30 V/m",
+      "text": "The ESA shall withstand, over 90 per cent of the 20 to 6,000 MHz band, a BCI test level of 60 mA in the 20-400 MHz range and an ALSE test level of 30 V/m in the 80-2,000 MHz range."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+      "text": "The ESA shall withstand, as a minimum over the whole 20 to 6,000 MHz band, a stripline level of 50 V/m, a TEM cell level of 62.5 V/m, a BCI level of 50 mA, an ALSE level of 25 V/m and a reverberation chamber level of 18 V/m."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.2",
+      "quote": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+      "text": "The ESA shall show no degradation of performance of its immunity related functions during the immunity tests performed in accordance with Annex 9."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The narrowband electromagnetic interference generated by the ESA shall not exceed 52 to 42 dBµV/m in the 30-75 MHz band, decreasing logarithmically with frequency above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 7",
+      "text": "The narrowband electromagnetic interference generated by the ESA shall not exceed 42 to 53 dBµV/m in the 75-400 MHz band, increasing logarithmically with frequency above 75 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m.",
+      "text": "The narrowband electromagnetic interference generated by the ESA in the 400-1,000 MHz band shall not exceed 53 dBµV/m."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The broadband electromagnetic interference generated by the ESA shall not exceed 62 to 52 dBµV/m in the 30-75 MHz band, decreasing logarithmically with frequency above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 6",
+      "text": "The broadband electromagnetic interference generated by the ESA shall not exceed 52 to 63 dBµV/m in the 75-400 MHz band, increasing logarithmically with frequency above 75 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+      "text": "The broadband electromagnetic interference generated by the ESA in the 400-1,000 MHz band shall not exceed 63 dBµV/m."
+    }
+  ]
+}

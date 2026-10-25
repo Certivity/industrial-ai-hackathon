@@ -1,0 +1,145 @@
+{
+  "case": "ts-motorcycle-silencer",
+  "reused": true,
+  "run": "runs/ts-motorcycle-silencer/a2-default",
+  "agent_cost_usd": 0.403,
+  "validate_strict": {
+    "ok": true,
+    "message": "OK: submission.json is valid (37 requirements)."
+  },
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "n_submitted": 1,
+      "n_expected": 4,
+      "n_matched": 1,
+      "f2": 0.2941
+    },
+    "page_level": {
+      "precision": 1.0,
+      "recall": 0.1,
+      "f1": 0.18181818181818182,
+      "n_submitted": 5,
+      "n_expected": 50,
+      "n_matched": 5,
+      "f2": 0.122
+    }
+  },
+  "taxonomy": {
+    "gold_regulations": {
+      "UN R10": 37,
+      "UN R40": 18,
+      "UN R53": 60,
+      "UN R92": 39
+    },
+    "run_regulations": {
+      "UN R92": 37
+    },
+    "wrong_regulations": [],
+    "missed_regulations": [
+      "UN R10",
+      "UN R40",
+      "UN R53"
+    ],
+    "paragraphs": {
+      "UN R92": {
+        "gold": 21,
+        "cited": 16,
+        "hit": 15,
+        "missed": 6,
+        "extra": 1
+      }
+    }
+  },
+  "n_gold": 154,
+  "n_submitted": 37,
+  "funnel": {
+    "sections": {
+      "gold_requirements_reachable": "37/154",
+      "recall": 0.24,
+      "selected_provisions": 46,
+      "gold_nodes_reached": "19/112",
+      "node_precision": 0.413,
+      "by_regulation": {
+        "UN R10": {
+          "selected": 0,
+          "gold_nodes_reached": 0,
+          "gold_nodes": 29,
+          "requirements_reachable": 0,
+          "requirements": 37
+        },
+        "UN R40": {
+          "selected": 0,
+          "gold_nodes_reached": 0,
+          "gold_nodes": 16,
+          "requirements_reachable": 0,
+          "requirements": 18
+        },
+        "UN R53": {
+          "selected": 0,
+          "gold_nodes_reached": 0,
+          "gold_nodes": 47,
+          "requirements_reachable": 0,
+          "requirements": 60
+        },
+        "UN R92": {
+          "selected": 46,
+          "gold_nodes_reached": 19,
+          "gold_nodes": 20,
+          "requirements_reachable": 37,
+          "requirements": 39
+        }
+      },
+      "by_category": {
+        "marking": {
+          "selected": 8,
+          "gold_nodes": 5,
+          "selections": 2,
+          "match_rate": 0.625
+        },
+        "general": {
+          "selected": 29,
+          "gold_nodes": 10,
+          "selections": 1,
+          "match_rate": 0.345
+        },
+        "test": {
+          "selected": 5,
+          "gold_nodes": 4,
+          "selections": 1,
+          "match_rate": 0.8
+        },
+        "other": {
+          "selected": 4,
+          "gold_nodes": 0,
+          "selections": 2,
+          "match_rate": 0.0
+        }
+      }
+    },
+    "extraction": {
+      "candidates": 92,
+      "by_status": {
+        "dropped:addressee": 43,
+        "emitted": 37,
+        "dropped:modality": 5,
+        "dropped:applies": 4,
+        "dropped:page": 3
+      },
+      "grounded": 92,
+      "reassigned": 0,
+      "gold_with_a_candidate_at_its_node": "37/154"
+    }
+  },
+  "paragraph_level": {
+    "precision": 0.938,
+    "recall": 0.132,
+    "f1": 0.231,
+    "f2": 0.159,
+    "submitted": 16,
+    "expected": 114,
+    "matched": 15
+  }
+}

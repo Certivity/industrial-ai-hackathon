@@ -1,0 +1,12 @@
+{
+  "regulation": "UN R64",
+  "base_version": "3.1.0",
+  "latest_version": "3.2.0",
+  "base_pdf": "regulations/data/UN_R64/base/UN_R64_base.pdf",
+  "latest_pdf": "regulations/data/UN_R64/latest/UN_R64_latest.pdf",
+  "window": [
+    "Annex 3",
+    "Annex 4"
+  ],
+  "trap": "terminology swap that changes the test trigger ('ignition' -> 'vehicle master control'), 'must' -> 'shall'"
+}

@@ -1,0 +1,152 @@
+{
+  "case": "ts-lpg-conversion",
+  "reused": true,
+  "run": "runs/ts-lpg-conversion/a2-default",
+  "agent_cost_usd": 4.686,
+  "validate_strict": {
+    "ok": true,
+    "message": "OK: submission.json is valid (987 requirements)."
+  },
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "n_submitted": 2,
+      "n_expected": 3,
+      "n_matched": 2,
+      "f2": 0.7143
+    },
+    "page_level": {
+      "precision": 0.7525773195876289,
+      "recall": 0.8131868131868132,
+      "f1": 0.7817089935605238,
+      "n_submitted": 97,
+      "n_expected": 91,
+      "n_matched": 73,
+      "f2": 0.8003
+    }
+  },
+  "taxonomy": {
+    "gold_regulations": {
+      "UN R10": 26,
+      "UN R67": 257,
+      "UN R83": 21
+    },
+    "run_regulations": {
+      "UN R10": 66,
+      "UN R67": 921
+    },
+    "wrong_regulations": [],
+    "missed_regulations": [
+      "UN R83"
+    ],
+    "paragraphs": {
+      "UN R10": {
+        "gold": 21,
+        "cited": 38,
+        "hit": 13,
+        "missed": 8,
+        "extra": 25
+      },
+      "UN R67": {
+        "gold": 233,
+        "cited": 498,
+        "hit": 212,
+        "missed": 21,
+        "extra": 286
+      }
+    }
+  },
+  "n_gold": 304,
+  "n_submitted": 987,
+  "funnel": {
+    "sections": {
+      "gold_requirements_reachable": "270/304",
+      "recall": 0.888,
+      "selected_provisions": 1201,
+      "gold_nodes_reached": "247/273",
+      "node_precision": 0.206,
+      "by_regulation": {
+        "UN R10": {
+          "selected": 196,
+          "gold_nodes_reached": 18,
+          "gold_nodes": 21,
+          "requirements_reachable": 22,
+          "requirements": 26
+        },
+        "UN R67": {
+          "selected": 1005,
+          "gold_nodes_reached": 229,
+          "gold_nodes": 233,
+          "requirements_reachable": 248,
+          "requirements": 257
+        },
+        "UN R83": {
+          "selected": 0,
+          "gold_nodes_reached": 0,
+          "gold_nodes": 19,
+          "requirements_reachable": 0,
+          "requirements": 21
+        }
+      },
+      "by_category": {
+        "marking": {
+          "selected": 26,
+          "gold_nodes": 12,
+          "selections": 7,
+          "match_rate": 0.462
+        },
+        "function": {
+          "selected": 236,
+          "gold_nodes": 111,
+          "selections": 2,
+          "match_rate": 0.47
+        },
+        "conformity": {
+          "selected": 21,
+          "gold_nodes": 0,
+          "selections": 3,
+          "match_rate": 0.0
+        },
+        "test": {
+          "selected": 861,
+          "gold_nodes": 115,
+          "selections": 22,
+          "match_rate": 0.134
+        },
+        "general": {
+          "selected": 57,
+          "gold_nodes": 9,
+          "selections": 1,
+          "match_rate": 0.158
+        }
+      }
+    },
+    "extraction": {
+      "candidates": 1895,
+      "by_status": {
+        "emitted": 987,
+        "dropped:addressee": 571,
+        "dropped:applies": 178,
+        "rejected:quote": 16,
+        "dropped:modality": 115,
+        "dropped:duplicate": 19,
+        "dropped:page": 6,
+        "dropped:kind": 3
+      },
+      "grounded": 1879,
+      "reassigned": 0,
+      "gold_with_a_candidate_at_its_node": "270/304"
+    }
+  },
+  "paragraph_level": {
+    "precision": 0.42,
+    "recall": 0.821,
+    "f1": 0.556,
+    "f2": 0.689,
+    "submitted": 536,
+    "expected": 274,
+    "matched": 225
+  }
+}

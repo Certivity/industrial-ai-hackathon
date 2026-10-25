@@ -1,0 +1,11 @@
+{
+  "regulation": "UN R131",
+  "base_version": "2.3.0",
+  "latest_version": "2.4.0",
+  "base_pdf": "regulations/data/UN_R131/base/UN_R131_base.pdf",
+  "latest_pdf": "regulations/data/UN_R131/latest/UN_R131_latest.pdf",
+  "window": [
+    "5"
+  ],
+  "trap": "same label, paragraph rewritten (alignment sees a removal and an addition)"
+}

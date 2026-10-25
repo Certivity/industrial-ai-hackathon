@@ -1,0 +1,1212 @@
+[
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.1",
+    "page": 56,
+    "raw_pages": [
+      54
+    ],
+    "verdict": "wrong page",
+    "exact": "All safety signs shall comply with requirements contained in paragraph 6.5. of ISO standard 3864-1:2011.",
+    "label": "Annex 3 7.6.11.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.2",
+    "page": 56,
+    "raw_pages": [
+      54
+    ],
+    "verdict": "wrong page",
+    "exact": "Each safety sign required by this Regulation shall be used to communicate only one safety message.",
+    "label": "Annex 3 7.6.11.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.2",
+    "page": 56,
+    "raw_pages": [
+      54
+    ],
+    "verdict": "wrong page",
+    "exact": "It shall be located and orientated so as to be easily understood.",
+    "label": "Annex 3 7.6.11.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.2.5",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "The lower case letter(s) of supplementary words, single letters and numbers shall have a minimum height of 8 mm.",
+    "label": "Annex 3 7.6.11.2.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.3",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "All safety signs that are visible from the inside of the vehicle shall be of photo-luminescent material",
+    "label": "Annex 3 7.6.11.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.3",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "having luminance decay characteristics conforming, as a minimum, to sub-classification C in Table 2 of ISO Standard 17398:2004",
+    "label": "Annex 3 7.6.11.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.4",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Safety signs shall not be located in positions where they may be obscured during operation of the vehicle.",
+    "label": "Annex 3 7.6.11.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.5",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Each emergency exit, and any other exit that meets the prescriptions for an emergency exit, shall be marked by one of the relevant pictograms",
+    "label": "Annex 3 7.6.11.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.5",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "pictograms shall be legible from both the inside and the outside of the vehicle.",
+    "label": "Annex 3 7.6.11.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.6",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Safety signs shall be positioned adjacent to, or surround, or be on, all internal and external emergency controls and device(s) for breaking emergency window(s).",
+    "label": "Annex 3 7.6.11.6"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.11.7",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "No part of a safety sign shall obscure any misuse protection that may be present, e.g. a cover.",
+    "label": "Annex 3 7.6.11.7"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.12.2.1",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.12.2.2",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Illuminate a flat, horizontal portion of the ground having a width of 2 m measured from a plane parallel to the median longitudinal vertical plane",
+    "label": "Annex 3 7.6.12.2.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.12.2.3",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Have limited dazzle outside a zone on the ground having a maximum width of 5 m measured from the side of the vehicle",
+    "label": "Annex 3 7.6.12.2.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.12.2.4",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "If the lower edge of the lighting device is less than 2 m from the ground, not project more than 50 mm beyond the overall width of the vehicle",
+    "label": "Annex 3 7.6.12.2.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.12.2.5",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "Be installed so that the device can only be switched on when a service door is operated and the vehicle speed does not exceed 5 km/h",
+    "label": "Annex 3 7.6.12.2.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.6.12.2.5",
+    "page": 56,
+    "raw_pages": [
+      56
+    ],
+    "verdict": "ok",
+    "exact": "and is switched off automatically before the vehicle reaches a speed exceeding 5 km/h.",
+    "label": "Annex 3 7.6.12.2.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.1.1",
+    "page": 57,
+    "raw_pages": [
+      57
+    ],
+    "verdict": "ok",
+    "exact": "The free space extending inwards into the vehicle from the side wall in which the door is mounted shall permit the free passage of one test gauge",
+    "label": "Annex 3 7.7.1.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.1.11",
+    "page": 57,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "The maximum slope of the floor in the access passage shall not exceed 5 per cent.",
+    "label": "Annex 3 7.7.1.11"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.1.12",
+    "page": 57,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "The surface of access passages shall be slip-resistant.",
+    "label": "Annex 3 7.7.1.12"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.2.1",
+    "page": 57,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "the free space between the gangway and the emergency door aperture shall permit the free passage of a vertical cylinder 300 mm in diameter and 700 mm high",
+    "label": "Annex 3 7.7.2.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.2.2",
+    "page": 57,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "The base of the first cylinder shall be within the projection of the second cylinder.",
+    "label": "Annex 3 7.7.2.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.3.1",
+    "page": 57,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "It shall be possible to move a test gauge from the gangway to the exterior of the vehicle through every emergency window.",
+    "label": "Annex 3 7.7.3.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.3.3",
+    "page": 57,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "The test gauge shall be in the form of a thin plate having a size of 600 mm x 400 mm with corners radiused by 200 mm.",
+    "label": "Annex 3 7.7.3.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.4.1.1",
+    "page": 58,
+    "raw_pages": [
+      58
+    ],
+    "verdict": "ok",
+    "exact": "at least one escape hatch shall be located such that a four-sided truncated pyramid having a side angle of 20 degrees and a height of 1,600 mm touches part of a seat",
+    "label": "Annex 3 7.7.4.1.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.5.1",
+    "page": 59,
+    "raw_pages": [
+      59
+    ],
+    "verdict": "ok",
+    "exact": "The gangway(s) of a vehicle shall be so designed and constructed as to permit the free passage of a gauging device consisting of two co-axial cylinders",
+    "label": "Annex 3 7.7.5.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.5.1",
+    "page": 59,
+    "raw_pages": [
+      59
+    ],
+    "verdict": "ok",
+    "exact": "The maximum force necessary to move any such monitor or display device out of the way, in both directions, shall not exceed 35 Newton.",
+    "label": "Annex 3 7.7.5.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.5.1",
+    "page": 59,
+    "raw_pages": [
+      59
+    ],
+    "verdict": "ok",
+    "exact": "After being moved out of the way, the monitor or display device shall maintain its position and not automatically redeploy.",
+    "label": "Annex 3 7.7.5.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.5.3",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "it being then possible to reduce the width of the gangway to a figure corresponding to a lower cylinder diameter of 220 mm",
+    "label": "Annex 3 7.7.5.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.5.6",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "Folding seats allowing passengers to sit in the gangway shall not be permitted.",
+    "label": "Annex 3 7.7.5.6"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.5.9",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "The surface of gangways shall be slip‑resistant.",
+    "label": "Annex 3 7.7.5.9"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.6.1.2",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "12.5 per cent in the case of a vehicle of Classes III and B, and",
+    "label": "Annex 3 7.7.6.1.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.6.2",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "In the transversal direction, 5 per cent for all classes.",
+    "label": "Annex 3 7.7.6.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.1.1",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "the vertical distance between the gangway surface and the floor of the seating area shall not exceed 350 mm.",
+    "label": "Annex 3 7.7.7.1.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.4",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "each step may extend into the area of the vertical projection of the next step by up to 100 mm and the projection over the tread below shall leave a free surface of at least 200 mm",
+    "label": "Annex 3 7.7.7.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.4",
+    "page": 60,
+    "raw_pages": [
+      60
+    ],
+    "verdict": "ok",
+    "exact": "with all step nosing’s being designed such as to minimize the risk of tripping.",
+    "label": "Annex 3 7.7.7.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.5. Table",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "First step (mm) 400 x 300",
+    "label": "Annex 3 7.7.7.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.5. Table",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "Other steps (mm) 400 x 200",
+    "label": "Annex 3 7.7.7.5",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.6",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "All steps shall have a slip-resistant surface.",
+    "label": "Annex 3 7.7.7.6"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.7",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "The maximum slope of the step in any direction shall not exceed 5 per cent.",
+    "label": "Annex 3 7.7.7.7"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.8",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "All step nosing’s shall have a band of contrasting colour on the front edge of the tread.",
+    "label": "Annex 3 7.7.7.8"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.7.8",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "This shall be 20– 50 mm wide and provide either a visual contrast of C ≥ 0.7 and a diffuse reflectance ρd of at least 0.5",
+    "label": "Annex 3 7.7.7.8"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.1.1.2",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "225 mm in the case of Class III.",
+    "label": "Annex 3 7.7.8.1.1.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.1.2.1",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "250 mm in the case of individual seats; or",
+    "label": "Annex 3 7.7.8.1.2.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.1.2.2",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "225 mm in the case of continuous rows of seats for two or more passengers.",
+    "label": "Annex 3 7.7.8.1.2.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.2.2",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "400 mm in vehicles of Class II or Class III.",
+    "label": "Annex 3 7.7.8.2.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.3",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "the distance from the floor to a horizontal plane tangential to the front upper surface of the seat cushion is between 400 mm and 500 mm",
+    "label": "Annex 3 7.7.8.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.3",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "this height may however be reduced to not less than 350 mm at the wheel arches",
+    "label": "Annex 3 7.7.8.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.4.1. Table",
+    "page": 62,
+    "raw_pages": [
+      62,
+      80
+    ],
+    "verdict": "ok",
+    "exact": "Classes II and III 680 mm",
+    "label": "Annex 3 7.7.8.4.1",
+    "read": "without the table"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.4.2",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "All measurements shall be taken, with the seat cushion and squab uncompressed using the testing gauge shown in Annex 4, Figure 12B.",
+    "label": "Annex 3 7.7.8.4.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.4.3",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "the minimum distance between the front faces of the seat squabs of facing seats, as measured across the highest points of the seat cushions, shall be not less than 1,300 mm.",
+    "label": "Annex 3 7.7.8.4.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.4.4",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be taken with reclining passenger seats and adjustable driving seats with their seat backs and other seat adjustments in the normal position of use",
+    "label": "Annex 3 7.7.8.4.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.5.2",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "a minimum clear foot space of at least 300 mm depth and a width according to paragraph 7.7.8.1.1. of this annex, shall be provided",
+    "label": "Annex 3 7.7.8.5.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.5.3",
+    "page": 62,
+    "raw_pages": [
+      62
+    ],
+    "verdict": "ok",
+    "exact": "the minimum number of priority seats shall be two in Class III and one in Class B.",
+    "label": "Annex 3 7.7.8.5.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.6.1",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "there shall be measured a free space with a height of not less than 900 mm measured from the highest point of the uncompressed seat cushion and at least 1,350 mm from the mean level of the floor",
+    "label": "Annex 3 7.7.8.6.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.6.2.1",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "By longitudinal vertical planes 200 mm either side of the median vertical plane of the seating position",
+    "label": "Annex 3 7.7.8.6.2.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.6.3.1",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "a zone with a rectangular cross-section 150 mm in height and 100 mm in width",
+    "label": "Annex 3 7.7.8.6.3.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.6.4.2.1",
+    "page": 63,
+    "raw_pages": [
+      63
+    ],
+    "verdict": "ok",
+    "exact": "The intrusion does not extend beyond the median vertical plane of the seating position",
+    "label": "Annex 3 7.7.8.6.4.2.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.11.1",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "Shall be self-closing, and shall not be fitted with any device to hold it open if, when open, it could obstruct passengers in an emergency",
+    "label": "Annex 3 7.7.11.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.11.2",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "Shall, when open, not conceal any handle, control device for opening or obligatory marking associated with any service door, emergency door, emergency exit",
+    "label": "Annex 3 7.7.11.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.11.3",
+    "page": 64,
+    "raw_pages": [
+      64
+    ],
+    "verdict": "ok",
+    "exact": "Shall be provided with a means to enable the door to be opened from outside the compartment in an emergency",
+    "label": "Annex 3 7.7.11.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.13.1.2.1",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "The minimum height of the guard measured from the floor on which the passenger's feet rest shall be 800 mm.",
+    "label": "Annex 3 7.7.13.1.2.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.13.2",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "This requirement shall be deemed to be satisfied when a ball of 50 mm diameter cannot roll into the driver's compartment from the passenger area",
+    "label": "Annex 3 7.7.13.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.14.3.2",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "225 mm in the case of Class I, II or III.",
+    "label": "Annex 3 7.7.14.3.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.14.4.2",
+    "page": 65,
+    "raw_pages": [
+      65
+    ],
+    "verdict": "ok",
+    "exact": "400 mm in the case of Class I, II or III.",
+    "label": "Annex 3 7.7.14.4.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.14.5",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The minimum overall width of the seat back measured up to a height of 250 mm above the horizontal plane tangential to the uppermost surface of the uncompressed seat cushion shall be 450 mm.",
+    "label": "Annex 3 7.7.14.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.14.7",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The seat shall be adjustable in its longitudinal and vertical positions and in its seat back inclination. It shall lock automatically in the selected position",
+    "label": "Annex 3 7.7.14.7"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.1.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.1.3",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The access to any exits and the area immediately around the service door(s) including, when in use, any boarding device fitted;",
+    "label": "Annex 3 7.8.1.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.1.4",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The internal markings and internal controls of all exits;",
+    "label": "Annex 3 7.8.1.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.2",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "There shall be at least two internal lighting circuits such that failure of one will not affect the other.",
+    "label": "Annex 3 7.8.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.3.1",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "It shall be possible for the driver to activate the emergency lighting system from the driver's seating position.",
+    "label": "Annex 3 7.8.3.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.3.2",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The operation of the emergency control of any service or emergency door shall activate the emergency lighting system.",
+    "label": "Annex 3 7.8.3.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.3.3",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The emergency lighting system, once activated, shall remain active for at least 30 minutes unless de-activated by the driver.",
+    "label": "Annex 3 7.8.3.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.3.5",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "All units providing the emergency lighting shall produce a white light.",
+    "label": "Annex 3 7.8.3.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.3.7",
+    "page": 66,
+    "raw_pages": [
+      66
+    ],
+    "verdict": "ok",
+    "exact": "The emergency lighting system shall provide a minimum illuminance of 10 lux directly under each light unit in the passenger compartment at a height of 750 mm",
+    "label": "Annex 3 7.8.3.7"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.3.8",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "The uniformity of the illuminance over the length of the passenger compartment at a height of 750 mm above all access passages and gangways shall be between 0.15 and 2.",
+    "label": "Annex 3 7.8.3.8"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.8.3.9",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "The emergency lighting system shall provide a minimum illuminance of 1 lux at floor level in the centreline of all access passages and gangways",
+    "label": "Annex 3 7.8.3.9"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.1",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "Handrails and handholds shall be of adequate strength.",
+    "label": "Annex 3 7.11.1.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.2",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "They shall be so designed and installed as to present no risk of injury to passengers.",
+    "label": "Annex 3 7.11.1.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.3",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "Every handrail shall provide a length of at least 100 mm to accommodate a hand.",
+    "label": "Annex 3 7.11.1.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.3",
+    "page": 67,
+    "raw_pages": [
+      67
+    ],
+    "verdict": "ok",
+    "exact": "No dimension of the section shall be smaller than 20 mm or greater than 45 mm except in the case of handrails on doors and seats",
+    "label": "Annex 3 7.11.1.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.3",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "Handrails shall not have sharp bends.",
+    "label": "Annex 3 7.11.1.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.4",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "The clearance between a hand-rail or hand-hold, along the majority of its length, and the adjacent part of the vehicle body or walls shall be at least 40 mm.",
+    "label": "Annex 3 7.11.1.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.5",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "The surface of every handrail, handhold or stanchion shall contrast visually with their immediate surroundings and have a diffuse reflectance ρd of at least 0.5",
+    "label": "Annex 3 7.11.1.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.5",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "or be yellow or white.",
+    "label": "Annex 3 7.11.1.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.1.6",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "The surface of every handrail, handhold or stanchion shall be slip-resistant.",
+    "label": "Annex 3 7.11.1.6"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.3.1",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "Door apertures shall be fitted with handrails and/or handholds on each side.",
+    "label": "Annex 3 7.11.3.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.3.2",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "Such points shall be situated, vertically, between 800 mm and 1,100 mm above the ground or above the surface of each step",
+    "label": "Annex 3 7.11.3.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.19",
+    "page": 70,
+    "raw_pages": [
+      70
+    ],
+    "verdict": "ok",
+    "exact": "means to transmit safety information, which permit the operator, driver and/or crew to easily inform the passengers of the safety instructions",
+    "label": "Annex 3 7.19"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.1.5.1",
+    "page": 39,
+    "raw_pages": [
+      39
+    ],
+    "verdict": "ok",
+    "exact": "The alarm system and the fire suppression system, if fitted, shall be automatically activated through a fire detection system.",
+    "label": "Annex 3 7.5.1.5.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.2.1",
+    "page": 40,
+    "raw_pages": [
+      40
+    ],
+    "verdict": "ok",
+    "exact": "All cables shall be well insulated and all cables and electrical equipment shall be able to withstand the temperature and humidity conditions to which they are exposed.",
+    "label": "Annex 3 7.5.2.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.2.3",
+    "page": 40,
+    "raw_pages": [
+      40
+    ],
+    "verdict": "ok",
+    "exact": "Every electrical circuit feeding an item of equipment other than the starter, the ignition circuit (positive ignition), the glow-plugs, the engine-stopping device, the charging circuit and the battery earth connection shall include a fuse or a circuit breaker.",
+    "label": "Annex 3 7.5.2.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.2.4",
+    "page": 40,
+    "raw_pages": [
+      40
+    ],
+    "verdict": "ok",
+    "exact": "All cables shall be well protected and shall be held securely in position in such a way that they cannot be damaged by cutting, abrasion or chafing.",
+    "label": "Annex 3 7.5.2.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.2.6",
+    "page": 40,
+    "raw_pages": [
+      40
+    ],
+    "verdict": "ok",
+    "exact": "All electrical cables shall be so located that no part can make contact with any fuel line or any part of the exhaust system, or be subjected to excessive heat",
+    "label": "Annex 3 7.5.2.6"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.5",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "No flammable material shall be permitted within 100 mm of the exhaust system component, any high voltage electrical equipment or any other significant source of heat unless the material is effectively shielded.",
+    "label": "Annex 3 7.5.5"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.1.3",
+    "page": 38,
+    "raw_pages": [
+      38
+    ],
+    "verdict": "ok",
+    "exact": "A partition of heat-resisting material shall be fitted between the engine compartment or any other source of heat",
+    "label": "Annex 3 7.5.1.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.1.4",
+    "page": 38,
+    "raw_pages": [
+      38
+    ],
+    "verdict": "ok",
+    "exact": "A heating device operating other than by hot water may be provided in the passenger compartment if it is encased in material designed to resist the temperatures generated by the device",
+    "label": "Annex 3 7.5.1.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.1.4",
+    "page": 38,
+    "raw_pages": [
+      38
+    ],
+    "verdict": "ok",
+    "exact": "emits no toxic fumes and is positioned such that no passenger is likely to come into contact with any hot surface.",
+    "label": "Annex 3 7.5.1.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.4.1",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "Space shall be provided for the fitting of one or more fire extinguishers, one being near the driver’s seat.",
+    "label": "Annex 3 7.5.4.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.4.2",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "Space shall be provided for the fitting of one or more first-aid kits. The space provided shall be not less than 7 dm³",
+    "label": "Annex 3 7.5.4.2"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.13",
+    "page": 69,
+    "raw_pages": [
+      69
+    ],
+    "verdict": "ok",
+    "exact": "The occupants of the vehicle shall be protected from objects liable to fall from baggage racks under braking or cornering forces.",
+    "label": "Annex 3 7.13"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.13",
+    "page": 69,
+    "raw_pages": [
+      69
+    ],
+    "verdict": "ok",
+    "exact": "If baggage compartments are fitted, they shall be designed in such a way that baggage is prevented from falling in the event of sudden braking.",
+    "label": "Annex 3 7.13"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.14.1",
+    "page": 69,
+    "raw_pages": [
+      69
+    ],
+    "verdict": "ok",
+    "exact": "no lifting or securing device shall project by more than eight mm above floor level. Edges of projections shall be rounded.",
+    "label": "Annex 3 7.14.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.15.1",
+    "page": 69,
+    "raw_pages": [
+      69
+    ],
+    "verdict": "ok",
+    "exact": "Forms of visual entertainment for passengers, for example television monitors or videos shall be located out of the driver’s view when the driver is seated in his normal driving position.",
+    "label": "Annex 3 7.15.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.1.1",
+    "page": 35,
+    "raw_pages": [
+      35
+    ],
+    "verdict": "ok",
+    "exact": "If the driver’s compartment is without a roof, the driver should have some special protection against strong wind, sudden dust, heavy rain, etc.",
+    "label": "Annex 3 7.1.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.1.3",
+    "page": 57,
+    "raw_pages": [
+      57
+    ],
+    "verdict": "ok",
+    "exact": "When the centre line of this test gauge has traversed a distance of 300 mm from its starting position and the test gauge is touching the surface of the step or floor, it shall be retained in that position.",
+    "label": "Annex 3 7.7.1.3"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.11.3.2.1",
+    "page": 68,
+    "raw_pages": [
+      68
+    ],
+    "verdict": "ok",
+    "exact": "For the position appropriate to a person standing on the ground, not more than 400 mm inwards from the outer edge of the first step",
+    "label": "Annex 3 7.11.3.2.1"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.7.8.1.4",
+    "page": 61,
+    "raw_pages": [
+      61
+    ],
+    "verdict": "ok",
+    "exact": "the available space does not include, in its upper part, a triangular area 20 mm wide by 100 mm high",
+    "label": "Annex 3 7.7.8.1.4"
+  },
+  {
+    "regulation": "UN R107",
+    "paragraph": "Annex 3 7.5.6.2",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "Upon detection, the system given in paragraph 7.5.6.1. shall provide the driver with both an acoustic and a visual signal in the driver's compartment and shall activate the hazard warning signal.",
+    "label": "Annex 3 7.5.6.2"
+  }
+]

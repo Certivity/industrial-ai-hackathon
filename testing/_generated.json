@@ -1,0 +1,127 @@
+[
+  {
+    "case": "ts-coach-m3",
+    "dir": "testing/ts-coach-m3",
+    "spec": "testing/ts-coach-m3/technical_spec.md",
+    "expected": "testing/ts-coach-m3/expected.json",
+    "regulations": {
+      "UN R107": 108
+    },
+    "requirements": 108,
+    "paragraphs": 93,
+    "provider_wrote": 110,
+    "verdicts": {
+      "wrong page": 3,
+      "ok": 105,
+      "spans nodes": 2
+    },
+    "grounding_rate": 0.982
+  },
+  {
+    "case": "ts-ev-sound",
+    "dir": "testing/ts-ev-sound",
+    "spec": "testing/ts-ev-sound/technical_spec.md",
+    "expected": "testing/ts-ev-sound/expected.json",
+    "regulations": {
+      "UN R51": 52,
+      "UN R10": 54,
+      "UN R100": 31,
+      "UN R48": 75
+    },
+    "requirements": 212,
+    "paragraphs": 166,
+    "provider_wrote": 215,
+    "verdicts": {
+      "ok": 212,
+      "other node": 3
+    },
+    "grounding_rate": 0.986
+  },
+  {
+    "case": "ts-lpg-conversion",
+    "dir": "testing/ts-lpg-conversion",
+    "spec": "testing/ts-lpg-conversion/technical_spec.md",
+    "expected": "testing/ts-lpg-conversion/expected.json",
+    "regulations": {
+      "UN R67": 257,
+      "UN R10": 26,
+      "UN R83": 21
+    },
+    "requirements": 304,
+    "paragraphs": 274,
+    "provider_wrote": 325,
+    "verdicts": {
+      "ok": 303,
+      "hallucinated": 9,
+      "wrong page": 1,
+      "other node": 10,
+      "no node": 2
+    },
+    "grounding_rate": 0.935
+  },
+  {
+    "case": "ts-moto-antitheft",
+    "dir": "testing/ts-moto-antitheft",
+    "spec": "testing/ts-moto-antitheft/technical_spec.md",
+    "expected": "testing/ts-moto-antitheft/expected.json",
+    "regulations": {
+      "UN R161": 69,
+      "UN R162": 54,
+      "UN R163": 75,
+      "UN R10": 34
+    },
+    "requirements": 232,
+    "paragraphs": 184,
+    "provider_wrote": 247,
+    "verdicts": {
+      "ok": 231,
+      "spans nodes": 1,
+      "hallucinated": 5,
+      "other node": 9,
+      "wrong page": 1
+    },
+    "grounding_rate": 0.939
+  },
+  {
+    "case": "ts-motorcycle-silencer",
+    "dir": "testing/ts-motorcycle-silencer",
+    "spec": "testing/ts-motorcycle-silencer/technical_spec.md",
+    "expected": "testing/ts-motorcycle-silencer/expected.json",
+    "regulations": {
+      "UN R92": 39,
+      "UN R40": 18,
+      "UN R53": 60,
+      "UN R10": 37
+    },
+    "requirements": 154,
+    "paragraphs": 114,
+    "provider_wrote": 169,
+    "verdicts": {
+      "ok": 154,
+      "other node": 14,
+      "spans nodes": 1
+    },
+    "grounding_rate": 0.911
+  },
+  {
+    "case": "ts-pedestrian-front-end",
+    "dir": "testing/ts-pedestrian-front-end",
+    "spec": "testing/ts-pedestrian-front-end/technical_spec.md",
+    "expected": "testing/ts-pedestrian-front-end/expected.json",
+    "regulations": {
+      "UN R127": 27,
+      "UN R42": 23,
+      "UN R26": 29,
+      "UN R10": 46
+    },
+    "requirements": 125,
+    "paragraphs": 90,
+    "provider_wrote": 131,
+    "verdicts": {
+      "hallucinated": 6,
+      "wrong page": 2,
+      "ok": 123
+    },
+    "grounding_rate": 0.954
+  }
+]

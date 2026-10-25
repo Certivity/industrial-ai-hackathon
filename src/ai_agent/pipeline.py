@@ -1,4 +1,4 @@
-"""The whole chain for one case: spec.md -> profile -> regulations -> section walks -> citation hop -> obligations -> submission.
+"""The whole chain for one case: spec.md and/or exploded view -> (vision) -> profile -> regulations -> section walks -> citation hop -> obligations -> submission.
 
     from ai_agent.pipeline import run_case
     from ai_agent.config import Settings
@@ -6,7 +6,7 @@
 
 Everything a stage produces is written to runs/<case>/<run id>/ as it is produced (profile.json, regulations.json, sections.json, walk-*.json,
 candidates.json, submission.json, trace.json, usage.json, calls.jsonl, run.json), so a run can be read, scored and compared afterwards. The
-case folder is read for spec.md only. The expected answer of a case (expected.json) is never opened here: it belongs to the benchmark.
+case folder is read for its text spec and image only (inputs.py). The expected answer of a case (expected.json) is never opened here: it belongs to the benchmark.
 """
 
 from __future__ import annotations
@@ -22,7 +22,9 @@ from regcomp import corpus
 
 from .catalog import Catalog
 from .config import ROOT, Settings
-from .emit import DEFAULT_POLICY, Policy, apply_policy, build_submission, validate_submission
+from .components import build_component_map
+from .inputs import find_inputs
+from .emit import DEFAULT_POLICY, Policy, apply_policy, build_submission, policy_summary, validate_submission
 from .llm import LLM, BudgetExceeded, stderr_log
 from .obligations import extract_all
 from .profile import build_profile, profile_text
@@ -89,9 +91,11 @@ def cited_by_walks(graphs: dict[str, RegGraph], walks: dict[str, WalkResult], ta
 
 
 def run_case(case_dir: str | Path, settings: Settings, run_dir: Path | None = None, log=stderr_log, llm: LLM | None = None,
-             policy: Policy = DEFAULT_POLICY, catalog: Catalog | None = None) -> RunResult:
+             policy: Policy = DEFAULT_POLICY, catalog: Catalog | None = None, use_image: bool = True,
+             image: str | Path | None = None, component_map: bool | None = None, use_text: bool = True) -> RunResult:
     case_dir = Path(case_dir)
-    spec_text = (case_dir / "spec.md").read_text(encoding="utf-8")  # the only file of the case that is read
+    inputs = find_inputs(case_dir, use_text=use_text, use_image=use_image, image=image)  # the text spec and/or the image: the only files of the case that are read
+    spec_text = inputs.read_text()
     case_id = case_dir.resolve().name
     run_dir = Path(run_dir) if run_dir else ROOT / "runs" / case_id / time.strftime("%Y%m%d-%H%M%S")
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -100,9 +104,15 @@ def run_case(case_dir: str | Path, settings: Settings, run_dir: Path | None = No
     started = time.time()
     log(f"[run] {case_id} -> {run_dir} (model {settings.model}, fallbacks {'on' if settings.fallbacks else 'off'})")
     try:
-        # 1. profile
-        result.profile = build_profile(llm, spec_text)
-        profile_md = profile_text(result.profile)
+        # 1. profile (a drawing is read first; its facts join the text's)
+        log(f"[inputs] {inputs.describe()}")
+        facts = None
+        if inputs.image_path is not None:
+            from .vision import read_drawing
+            facts = read_drawing(llm, inputs.image_path, settings, run_dir, log)
+            save(run_dir / "vision.json", facts)
+        result.profile = build_profile(llm, spec_text, facts)
+        profile_md = profile_text(result.profile, facts)
         save(run_dir / "profile.json", result.profile)
         (run_dir / "profile.md").write_text(profile_md, encoding="utf-8")
 
@@ -144,13 +154,21 @@ def run_case(case_dir: str | Path, settings: Settings, run_dir: Path | None = No
                                                 for reg, chunks in plan.items()}, "stats": chunk_stats})
 
         # 5. emit
-        apply_policy(candidates, policy)
+        apply_policy(candidates, policy, {s["regulation"]: s["confidence"] for s in chosen["selected"]})  # regulations added by a citation hop count as medium
         result.candidates = candidates
         save(run_dir / "candidates.json", candidates)
         result.submission, trace = build_submission(candidates, regs, case_id, settings.team_id)
         result.problems = validate_submission(result.submission)
         save(run_dir / "submission.json", result.submission)
         save(run_dir / "trace.json", trace)
+        if facts is not None if component_map is None else component_map:  # component_map.json: on by default when a drawing was read
+            try:
+                build_component_map(llm, run_dir, case_id, log)
+            except BudgetExceeded:
+                raise
+            except Exception as error:  # a demo artifact: its failure must not lose the run
+                result.failures.append({"stage": "components", "error": f"{type(error).__name__}: {error}"})
+                log(f"[components] failed: {error}")
         counts = Counter(c["status"].split("=")[0] if c["status"].startswith("dropped") else c["status"] for c in candidates)
         log(f"[emit] {len(candidates)} candidates -> {len(result.submission['requirements'])} requirements; {dict(counts)}; "
             f"validation: {'OK' if not result.problems else result.problems[:3]}")
@@ -159,7 +177,7 @@ def run_case(case_dir: str | Path, settings: Settings, run_dir: Path | None = No
         save(run_dir / "usage.json", result.ledger)
         save(run_dir / "run.json", {
             "case": case_id, "model": settings.model, "effort": settings.effort, "fallbacks": settings.fallbacks, "workers": settings.workers,
-            "chunk_chars": settings.chunk_chars, "policy": {k: sorted(v) for k, v in vars(policy).items()},
+            "chunk_chars": settings.chunk_chars, "policy": policy_summary(policy),
             "regulations": result.regulations, "requirements": len(result.submission.get("requirements", [])), "failures": result.failures,
             "validation": result.problems, "seconds": round(time.time() - started), "spent_usd": result.ledger.get("spent_usd"),
             "replayed_usd": result.ledger.get("replayed_usd")})

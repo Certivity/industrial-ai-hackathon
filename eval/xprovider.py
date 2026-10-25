@@ -49,6 +49,10 @@ import json
 import os
 import re
 import sys
+import http.client
+import io
+import socket
+import ssl
 import time
 import urllib.error
 import urllib.parse
@@ -262,20 +266,48 @@ Answer with JSON only, in this shape, the ids copied from the catalogue:
     return system, user
 
 
-def spec_prompt(brief: str, names: str) -> tuple[str, str]:
+STYLE_SPEC_RULES = """Choose the regulations the way a type-approval engineer does for a finished product, not as a keyword match:
+- Take the one regulation that is current for each function: a regulation that the catalogue says is replaced by another one is not chosen next to it, even when the brief uses the old device name.
+- Add the regulation of the product's own device class, the installation regulation of the vehicle system it belongs to, and the horizontal regulation that applies to the whole product when it holds electronics (electromagnetic compatibility), even though the brief does not name it.
+- Leave out regulations about product kinds that are not present: other devices, other vehicle categories, systems the product does not have.
+- A set of three to five regulations, each one a product obligation, not a long list of everything that is related."""
+
+STYLE_GOLD_RULES = """Style of the gold (it follows how the experts' reference sets were written):
+- Size: about 120 to 240 requirements over all the chosen regulations, one regulation (the product's own device regulation) holding about a third of them and the others 15 to 30 percent each. Cover every chosen regulation.
+- Spread the requirements over the kinds of sections an expert uses, roughly: 25 percent from the sections named after the product's functions and parts; 15 percent from marking and approval-mark sections; 45 percent from the general and design specifications of the device, including electromagnetic or environmental limits, material, colour and mechanical demands that apply because the product is a device, an electronic assembly or a plastic part, even when the specification does not name them; 12 percent from test methods, as the parameter lines that fix a condition, limit or sample count.
+- Leave the administrative paperwork out: application for approval, the documents to submit, communication of approvals, conformity of production procedures, duties of the authorities and technical services, and transitional provisions.
+- About 1.5 requirements per paragraph you cite: split a paragraph that holds several obligations or a list, and do not write two requirements for one sentence. Keep the condition ("When", "Where", "For") inside a conditional requirement."""
+
+
+def style_rules(path: str | Path | None) -> tuple[str, str]:
+    """(spec rules, gold rules) of the generic style; empty strings without a style file, so the prompts of the old cases do not
+    change. The file (testing/_gold_style.json) switches the rules on; no text of a case goes into a prompt."""
+    if not path:
+        return "", ""
+    if not Path(path).is_file():
+        raise SystemExit(f"error: --style {path}: no such file")
+    return STYLE_SPEC_RULES, STYLE_GOLD_RULES
+
+
+NUMBER_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six"}
+
+
+def spec_prompt(brief: str, names: str, style: str = "", most: int = 3) -> tuple[str, str]:
     system = "You are a product engineer and regulatory expert. You answer with JSON only."
+    extra = f"\n{style}\n" if style else ""
     user = (f"# Task\nInvent the product described by this brief and write its specification in exactly the markdown format below, in plain "
             f"engineering words (not the words of any regulation). Then list the UN Regulations of the catalogue whose requirements the product "
-            f"must fulfil: the ones a type-approval of this product would rest on, three at most.\n\nBrief: {brief}\n\n"
+            f"must fulfil: the ones a type-approval of this product would rest on, {NUMBER_WORDS.get(most, most)} at most.\n{extra}\nBrief: {brief}\n\n"
             f"# Format of the specification\n{SPEC_TEMPLATE}\n# Catalogue (id — title)\n{names}\n\n"
             f'Answer with JSON only: {{"spec_md": "the specification, in markdown", "regulations": ["<regulation id>"]}}')
     return system, user
 
 
-def gold_prompt(spec: str, regulations: list[str]) -> tuple[str, str]:
+def gold_prompt(spec: str, regulations: list[str], style: str = "") -> tuple[str, str]:
     system = "You are a regulatory expert at a type-approval authority. You answer with JSON only."
     text = "\n".join(page_text(r) for r in regulations)
-    return system, f"# Task\n{GOLD_RULES}\n\n# Product specification\n{spec}\n\n# Regulations (page text)\n{text}"
+    rules = GOLD_RULES.replace("Answer with JSON only", style + "\nAnswer with JSON only", 1) if style else GOLD_RULES
+    return system, f"# Task\n{rules}\n\n# Product specification\n{spec}\n\n# Regulations (page text)\n{text}"
 
 
 # --------------------------------------------------------------------------------------------------------------- models
@@ -330,12 +362,56 @@ def reply_text(provider: str, answer: dict) -> str:
     raise SystemExit(f"error: unknown provider {provider!r}")
 
 
+SEGMENT = 900  # bytes a write may carry in the small-segment mode of `post`
+SEGMENT_PAUSE = float(os.environ.get("XPROVIDER_SEGMENT_PAUSE", "0.03"))  # seconds between two writes: a burst of them is lost too
+SMALL_SEGMENTS = {"on": os.environ.get("XPROVIDER_SMALL_SEGMENTS", "") == "1"}
+
+
+class SmallSegmentsConnection(http.client.HTTPSConnection):
+    """An HTTPS connection that writes in pieces of SEGMENT bytes with Nagle off. On a path that silently drops packets above
+    about 1,400 bytes (a VPN or a tunnel with a small MTU) every request over about 1 KB is lost: the server waits 19 s and
+    closes the connection, whatever the endpoint, while a 0.9 KB request is answered in a second. Small writes get through, up
+    to about 5 KB; more only with a pause between them (measured on one machine: 20 to 150 KB went through at 20 to 50 ms)."""
+
+    def connect(self) -> None:
+        super().connect()
+        self.sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+
+    def send(self, data) -> None:
+        if isinstance(data, (bytes, bytearray)):
+            for i in range(0, len(data), SEGMENT):
+                super().send(data[i:i + SEGMENT])
+                time.sleep(SEGMENT_PAUSE)
+        else:
+            super().send(data)
+
+
+def post_small(url: str, headers: dict, data: bytes, timeout: float) -> dict:
+    """`post`'s request over a SmallSegmentsConnection; an error status raises urllib.error.HTTPError, as urlopen does."""
+    parts = urllib.parse.urlsplit(url)
+    conn = SmallSegmentsConnection(parts.hostname, parts.port or 443, timeout=timeout)
+    try:
+        conn.request("POST", parts.path + (f"?{parts.query}" if parts.query else ""), body=data,
+                     headers={"Content-Type": "application/json", **headers})
+        response = conn.getresponse()
+        raw = response.read()
+        if response.status >= 400:
+            raise urllib.error.HTTPError(url, response.status, response.reason, response.headers, io.BytesIO(raw))
+        return json.loads(raw.decode("utf-8"))
+    finally:
+        conn.close()
+
+
 def post(url: str, headers: dict, body: dict, timeout: float = DEFAULT_TIMEOUT_S) -> dict:
-    """POST a JSON body and return the JSON answer. `timeout` is how long the connection may stay silent, not a total."""
+    """POST a JSON body and return the JSON answer. `timeout` is how long the connection may stay silent, not a total.
+    A connection that is closed or reset without an answer, on a request over 1 KB, switches the rest of the process to
+    small writes (SmallSegmentsConnection; XPROVIDER_SMALL_SEGMENTS=1 starts there): see the class."""
     data, delay = json.dumps(body).encode("utf-8"), 5
     for attempt in range(4):
         request = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json", **headers}, method="POST")
         try:
+            if SMALL_SEGMENTS["on"]:
+                return post_small(url, headers, data, timeout)
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 return json.loads(response.read().decode("utf-8"))
         except urllib.error.HTTPError as error:
@@ -345,12 +421,17 @@ def post(url: str, headers: dict, body: dict, timeout: float = DEFAULT_TIMEOUT_S
                 delay *= 3
                 continue
             raise SystemExit(f"error: {url.split('?')[0]} answered {error.code}: {detail}") from None
-        except (urllib.error.URLError, TimeoutError) as error:  # a read that stalls raises TimeoutError, which is not a URLError
+        except (urllib.error.URLError, TimeoutError, ConnectionError, ssl.SSLError, http.client.HTTPException) as error:  # a stalled read raises TimeoutError, a closed connection ConnectionError or RemoteDisconnected, a dropped TLS stream SSLError: none is a URLError
+            dropped = isinstance(error, (http.client.RemoteDisconnected, ConnectionError, ssl.SSLError)) or isinstance(getattr(error, "reason", None), (ssl.SSLError, ConnectionError))
+            if attempt < 3 and dropped and len(data) > 1200 and not SMALL_SEGMENTS["on"]:
+                print("  connection dropped on a large request; retrying in small segments", file=sys.stderr)
+                SMALL_SEGMENTS["on"] = True
+                continue
             if attempt < 3:
                 time.sleep(delay)
                 delay *= 3
                 continue
-            reason = f"no answer within {timeout:g} s (LLM_TIMEOUT_S, or --timeout)" if isinstance(error, TimeoutError) else error.reason
+            reason = f"no answer within {timeout:g} s (LLM_TIMEOUT_S, or --timeout)" if isinstance(error, TimeoutError) else getattr(error, 'reason', None) or repr(error)
             raise SystemExit(f"error: {url.split('?')[0]} not reachable: {reason}") from None
     raise SystemExit("error: no answer")
 
@@ -688,9 +769,9 @@ def cmd_regrade(args: argparse.Namespace) -> int:
     return 0
 
 
-def write_gold(model: Model, spec: str, regulations: list[str], target: Path) -> tuple[list[dict], list[dict]] | None:
+def write_gold(model: Model, spec: str, regulations: list[str], target: Path, style: str = "") -> tuple[list[dict], list[dict]] | None:
     """Ask for the requirements, ground them, and keep both in `target`. None for a dry run."""
-    reply = model.ask("gold", *gold_prompt(spec, regulations))
+    reply = model.ask("gold", *gold_prompt(spec, regulations, style))
     if reply is None:
         return None
     requirements = [r for r in read_json(reply)["requirements"] if r.get("regulation") in regulations]
@@ -710,19 +791,21 @@ def known(regulation: str) -> bool:
 
 
 def cmd_author(args: argparse.Namespace) -> int:
-    target = CASES / args.id
+    target = Path(args.out_root) / args.id
+    spec_name = args.spec_name
+    spec_style, gold_style = style_rules(args.style)
     model = Model(args, WORK / f"author-{args.id}-{args.provider}")
     names = "\n".join(f"{e['regulation']} — {e['title']}" for e in catalogue_entries())
-    reply = model.ask("spec", *spec_prompt(args.brief, names))
+    reply = model.ask("spec", *spec_prompt(args.brief, names, spec_style, args.max_regulations))
     if reply is None:
         return 0
     answer = read_json(reply)
     spec, chosen = answer["spec_md"].rstrip() + "\n", [r for r in answer["regulations"] if known(r)][: args.max_regulations]
     target.mkdir(parents=True, exist_ok=True)
-    (target / "spec.md").write_text(spec, encoding="utf-8")
-    profile = read_spec(target / "spec.md")
-    print(f"spec written to {target / 'spec.md'} ({len(profile.facets)} facets); regulations: {chosen}")
-    done = write_gold(model, spec, chosen, target)
+    (target / spec_name).write_text(spec, encoding="utf-8")
+    profile = read_spec(target / spec_name)
+    print(f"spec written to {target / spec_name} ({len(profile.facets)} facets); regulations: {chosen}")
+    done = write_gold(model, spec, chosen, target, gold_style)
     if done is None:
         return 0
     requirements, rows = done
@@ -796,9 +879,13 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("cases", nargs="*", help="case folders (default: every spec/testing/cases/* with a provider.json)")
     p.add_argument("--write", action="store_true", help="keep the new verdicts and rebuild authoring.json and expected.json")
     p = sub.add_parser("author", help="the provider invents a product and writes a gold for it")
-    p.add_argument("--id", required=True, help="the case id; the case goes to spec/testing/cases/ID/")
+    p.add_argument("--id", required=True, help="the case id; the case goes to OUT_ROOT/ID/ (default spec/testing/cases/ID/)")
     p.add_argument("--brief", required=True, help="one line: the product, e.g. 'front bumper with parking sensors and fog lamps, M1'")
     p.add_argument("--max-regulations", type=int, default=3)
+    p.add_argument("--out-root", default=str(CASES), help="the folder the case folder goes into (default: spec/testing/cases)")
+    p.add_argument("--spec-name", default="spec.md", help="the file name of the specification inside the case (default: spec.md)")
+    p.add_argument("--style", help="a style file (testing/_gold_style.json): add the generic rules of how the experts' golds were written "
+                                   "to the prompts; without it the prompts are as they were for the ds-* cases")
     model_options(p)
     p = sub.add_parser("agree", help="the provider writes its own gold for a case; compare it with the case's")
     p.add_argument("case")

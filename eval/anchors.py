@@ -30,6 +30,13 @@ from regcomp import corpus  # noqa: E402
 from regcomp.parse import parse_pdf  # noqa: E402
 from score_local import _paragraph_key  # noqa: E402
 
+def _marker_parse(pdf, grids=False):
+    from regcomp.parse_marker import parse_pdf as marker_parse_pdf
+    return marker_parse_pdf(pdf, grids=grids)
+
+
+PARSERS = {"rules": parse_pdf, "marker": _marker_parse}  # `--parser marker`: the generic marker lexer + stack parse (regcomp/parse_marker.py)
+PARSER = "rules"
 SOURCES = sorted(ROOT.glob("cases/*/expected.json")) + sorted(ROOT.glob("subgoal/*/requirements_old.json"))
 NEW_SIDE = sorted(ROOT.glob("subgoal/*/expected.json"))
 
@@ -75,7 +82,7 @@ def check(regulation: str, anchors: set[tuple[int, str]], role: str = "base") ->
     if pdf is None:
         raise SystemExit(f"error: the {role} PDF of {regulation} is not in regulations/data; run tools/fetch_regulations.py")
     by_label: dict[str | None, list] = defaultdict(list)
-    for node in parse_pdf(pdf, grids=False).nodes:
+    for node in PARSERS[PARSER](pdf, grids=False).nodes:
         by_label[_paragraph_key(node.label)].append(node)
     misses = []
     for page, paragraph in sorted(anchors, key=lambda a: (a[0], a[1])):
@@ -88,7 +95,10 @@ def check(regulation: str, anchors: set[tuple[int, str]], role: str = "base") ->
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Check that the parser finds every expert anchor on the right page.")
     parser.add_argument("--misses", action="store_true", help="list the anchors that were not found")
+    parser.add_argument("--parser", choices=sorted(PARSERS), default="rules", help="which parser to gate (default: the hand-crafted rules)")
     args = parser.parse_args(argv)
+    global PARSER
+    PARSER = args.parser
 
     found = total = 0
     for role, sources in (("base", load_anchors()), ("latest", load_new_anchors())):

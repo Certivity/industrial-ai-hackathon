@@ -1,0 +1,111 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r51-noise-asep",
+  "changes": [
+    {
+      "requirement_id": "R-011",
+      "change": "modified",
+      "new_text": "If the vehicle, in the lowest valid gear does not achieve the maximum engine speed nBB_ASEP below 70 km/h, increase the vehicle speed in that gear to reach the maximum engine speed nBB_ASEP, but no more than 80 km/h.",
+      "reason": "Paragraph Annex 7 2.3 of UN R51 was amended in version 3.11.0: 'Vehicle speed VAA_ASEP:' became 'The control range is specífied in Table 1. Table 1 ASEP operating conditions For vehicles in operating conditions in accordance with Annex 7, paragraph 1.1. For vehicles…'; 'aWOT_ASEP:' became 'aWOT_ASEP'; 'not applicable' was added; 'VBB_ASEP: If the vehicle' became 'vBB_ASEP for vehicles tested in Annex 3 with • locked gear vBB ≤ 80 km/h If the vehicle,'; 'not beyond' became 'no more than'; 'For vehicles tested in non-locked transmission conditions, the maximum vehicle speed is 80 km/h. Gears' became '• non-locked gears vBB ≤ 80 km/h Gear selection only if applicable, e.g. for hybrid electric vehicles: gears κ ≤ gear i as determined in Annex 3 gears'; 'conditions: Annex 3 gear selection Annex 7 gear selection Locked Geari, geari-1, … Non-locked Non-locked' became 'condition for vehicles tested in Annex 3 with • locked gear Geari, geari-1,… Geari, geari-1,… • non-locked gears Non-locked gears Non-locked gears For vehicles subject t…'.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 7 2.3"
+      }
+    },
+    {
+      "requirement_id": "R-014",
+      "change": "modified",
+      "new_text": "For vehicles in operating conditions in accordance with Annex 7, paragraph 1.1., vehicle speed vAA_ASEP shall be vAA > 20 km/h; for vehicles in all other operating conditions, vAA ≥ 20 km/h.",
+      "reason": "Paragraph Annex 7 2.3 of UN R51 was amended in version 3.11.0: 'Vehicle speed VAA_ASEP:' became 'The control range is specífied in Table 1. Table 1 ASEP operating conditions For vehicles in operating conditions in accordance with Annex 7, paragraph 1.1. For vehicles…'; 'aWOT_ASEP:' became 'aWOT_ASEP'; 'not applicable' was added; 'VBB_ASEP: If the vehicle' became 'vBB_ASEP for vehicles tested in Annex 3 with • locked gear vBB ≤ 80 km/h If the vehicle,'; 'not beyond' became 'no more than'; 'For vehicles tested in non-locked transmission conditions, the maximum vehicle speed is 80 km/h. Gears' became '• non-locked gears vBB ≤ 80 km/h Gear selection only if applicable, e.g. for hybrid electric vehicles: gears κ ≤ gear i as determined in Annex 3 gears'; 'conditions: Annex 3 gear selection Annex 7 gear selection Locked Geari, geari-1, … Non-locked Non-locked' became 'condition for vehicles tested in Annex 3 with • locked gear Geari, geari-1,… Geari, geari-1,… • non-locked gears Non-locked gears Non-locked gears For vehicles subject t…'.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 7 2.3"
+      }
+    },
+    {
+      "requirement_id": "R-016",
+      "change": "removed",
+      "reason": "Paragraph Annex 7 2.3 of UN R51 was amended in version 3.11.0; the provision 'Engine speed nBB_ASEP shall be nBB ≤ 2.0 * PMR-0.222 * S or nBB ≤ 0.9 * S, whic…' no longer appears."
+    },
+    {
+      "requirement_id": "R-046",
+      "change": "modified",
+      "new_text": "The sound level of every specified measurement point shall not exceed the limits given below: Lκ,j - ΔLASEP,j ≤ LASEP,κ.j + x, with x = 2 dB + (limit value - Lurban), and only for vehicles tested with non-locked transmission conditions given by multiple gear ratios, or having multiple electric propulsion sources or EV and HEV when electrically propelled without internal combustion engines operating having an Lcrs_rep greater than Lwot_rep of Annex 3: x = 3 dB + (limit value - Lurban) of Annex 3.",
+      "reason": "Paragraph Annex 7 3.6 (formerly Annex 7 3.5) of UN R51 was amended in version 3.11.0: 'Lκj ≤ LASEP_κ.j' became 'Lκ,j - ΔLASEP,j ≤ LASEP,κ.j'; '3 dB(A) + limit value² - Lurban for vehicle' became '2 dB + (limit value³ - Lurban), and only for vehicles'; 'x = 2 dB(A) + limit value² - Lurban for vehicles tested with locked transmission conditions If' became 'given by multiple gear ratios, or having multiple electric propulsion sources or EV and HEV when electrically propelled without internal combustion engines operating hav…'; 'at a point' was removed; '2As' became '3 As'.",
+      "source": {
+        "page": 54,
+        "paragraph": "Annex 7 3.6"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Vehicles, when electrically propelled without internal combustion engines operating shall comply with Analysis method 1 (Slope assessment method) only.",
+      "reason": "Paragraph Annex 7 1.1 of UN R51 is new in version 3.11.0: 'Vehicles, when electrically propelled without internal combustion engines operating shall comply wi…'.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 7 1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For tests of purely electrically propelled vehicles, for vBB,test,j × awot,test,j ≤ vanchor × aanchor the sound level ΔLASEP,j shall be 0 dB.",
+      "reason": "Paragraph Annex 7 3.4 of UN R51 is new in version 3.11.0: 'Calculation of the sound level increase regarding performance For tests of purely electrically prop…'.",
+      "source": {
+        "page": 54,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For all other tests the sound level ΔLASEP,j shall be set to 0 dB.",
+      "reason": "Paragraph Annex 7 3.4 of UN R51 is new in version 3.11.0: 'Calculation of the sound level increase regarding performance For tests of purely electrically prop…'.",
+      "source": {
+        "page": 54,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles subject to paragraph 1.1. of Annex 7, the manufacturer shall take measures to achieve an acceleration within the control range in such a way that each test point P1 to P4 as specified in paragraph 2.4. of Annex 7 reaches the given target speed within the specified tolerance.",
+      "reason": "Paragraph Annex 7 2.3 of UN R51 is new in version 3.11.0: 'Control range The ASEP requirements apply to every gear ratio Κ that leads to test results within t…'.",
+      "source": {
+        "page": 52,
+        "paragraph": "Annex 7 2.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles subject to paragraph 1.1. of Annex 7, the sound measurements shall be evaluated as function of vehicle speed and Slopeκ shall be set to a constant value of 0.25 dB/(km/h) for further calculation.",
+      "reason": "Paragraph Annex 7 3.2 of UN R51 is new in version 3.11.0: 'Slope of the regression line for each gear ratio κ The sound measurements shall be evaluated as fun…'.",
+      "source": {
+        "page": 53,
+        "paragraph": "Annex 7 3.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles subject to paragraph 1.1. of Annex 7, the sound level LASEP,κ,j for measurement point j and gear ratio κ shall be calculated using the vehicle speed measured for each measurement point, using the constant slope specified in paragraph 3.2.2. above to the specific anchor point for each gear ratio.",
+      "reason": "Paragraph Annex 7 3.3 of UN R51 is new in version 3.11.0: 'Calculation of the linear sound level increase expected for each measurement The sound level LASEP,…'.",
+      "source": {
+        "page": 54,
+        "paragraph": "Annex 7 3.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles subject to paragraph 1.1. of Annex 7, the additional runs can be selected under any operating condition within the control range, inclusive partial load acceleration or constant speed.",
+      "reason": "Paragraph Annex 7 3.5 of UN R51 is new in version 3.11.0: 'Additional samples On request of the type approval authority, two additional runs within the bounda…'.",
+      "source": {
+        "page": 54,
+        "paragraph": "Annex 7 3.5"
+      }
+    }
+  ]
+}

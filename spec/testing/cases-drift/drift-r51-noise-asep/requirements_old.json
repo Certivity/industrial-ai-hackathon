@@ -1,0 +1,668 @@
+[
+  {
+    "id": "R-001",
+    "text": "The manufacturer shall sign the declaration of compliance set out in Appendix 1.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 49,
+      "paragraph": "Annex 7 1"
+    }
+  },
+  {
+    "id": "R-002",
+    "text": "If the tests according to Annex 7 are carried out in the course of type approval, all tests either for Annex 3 and for Annex 7 shall be carried out on same test track and under similar environmental conditions.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 49,
+      "paragraph": "Annex 7 1"
+    }
+  },
+  {
+    "id": "R-003",
+    "text": "If Annex 7 tests are carried out when type approval has already been granted, e.g. during tests for conformity of production or for in-use compliance, the tests in motion specified in Annex 3 shall be carried out with the same mode, gear(s)/gear ratio(s), gear weighting factor k and partial power factor kP as determined during the type approval process.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 49,
+      "paragraph": "Annex 7 1"
+    }
+  },
+  {
+    "id": "R-004",
+    "text": "The test results of Annex 3 shall be used within Annex 7 without any temperature correction.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 49,
+      "paragraph": "Annex 7 1"
+    }
+  },
+  {
+    "id": "R-005",
+    "text": "Unless otherwise specified, the measurement instruments, the conditions of the measurements and the condition of the vehicle are equivalent to those specified in Annex 3, paragraphs 1. and 2.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.1"
+    }
+  },
+  {
+    "id": "R-006",
+    "text": "If the vehicle has different modes which affect sound emission, all modes shall comply with the requirements in this annex.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.1"
+    }
+  },
+  {
+    "id": "R-007",
+    "text": "In the case where the manufacturer has performed tests to prove to the approval authority compliance with the above requirements, the modes used during those tests shall be reported in a test report.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.1"
+    }
+  },
+  {
+    "id": "R-008",
+    "text": "Unless otherwise specified, the conditions and procedures of Annex 3 shall be used.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.2"
+    }
+  },
+  {
+    "id": "R-009",
+    "text": "For the purpose of this annex, one run per test condition is measured and evaluated.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.2"
+    }
+  },
+  {
+    "id": "R-010",
+    "text": "The ASEP requirements apply to every gear ratio Κ that leads to test results within the control range as defined below.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.3"
+    }
+  },
+  {
+    "id": "R-011",
+    "text": "If the vehicle in the lowest valid gear does not achieve the maximum engine speed nBB_ASEP below 70 km/h, increase the vehicle speed in that gear to reach the maximum engine speed nBB_ASEP, but not beyond 80 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.3"
+    }
+  },
+  {
+    "id": "R-012",
+    "text": "For any other gear, the maximum vehicle speed is 70 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.3"
+    }
+  },
+  {
+    "id": "R-013",
+    "text": "For vehicles tested in non-locked transmission conditions, the maximum vehicle speed is 80 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.3"
+    }
+  },
+  {
+    "id": "R-014",
+    "text": "Vehicle speed VAA_ASEP shall be vAA ≥ 20 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.3"
+    }
+  },
+  {
+    "id": "R-015",
+    "text": "Vehicle acceleration aWOT_ASEP shall be aWOT ≤ 5.0 m/s².",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.3"
+    }
+  },
+  {
+    "id": "R-016",
+    "text": "Engine speed nBB_ASEP shall be nBB ≤ 2.0 * PMR-0.222 * S or nBB ≤ 0.9 * S, whichever is the lowest.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.3"
+    }
+  },
+  {
+    "id": "R-017",
+    "text": "The sound emission shall be measured in each valid gear ratio at the four test points as specified below.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-018",
+    "text": "For all test points the boundary conditions as specified in paragraph 2.3. shall be met.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-019",
+    "text": "The gear ratio is valid if all four points and the anchor point meet the specifications of paragraph 2.3. above.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-020",
+    "text": "For P1, if a stable acceleration condition according to the definition of 2.26.1 cannot be achieved, the speed vAA,κ1 shall be increased in steps of 5 km/h until a stable acceleration is reached.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-021",
+    "text": "For all points, stable acceleration according to the definition of 2.26.3. shall be verified by comparing the acceleration awot_test,AA-BB calculated between line AA' and line BB' with the acceleration awot_test,PP-BB calculated between line PP' and BB'.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-022",
+    "text": "If the ratio awot_test,PP-BB / awot_test,AA-BB does not exceed or is equal to 1,20, then proceed with the acceleration calculation between line AA' and Line BB'.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-023",
+    "text": "If the ratio awot_test,PP-BB / awot_test,AA-BB does exceed 1,20, then proceed with the acceleration calculation between line PP' and line BB'.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-024",
+    "text": "The test speed for the fourth test point P4 in any gear shall be defined by either 0.95 x nBB_ASEP ≤ nBB,κ4 ≤ nBB_ASEP; or vBB_ASEP - 3 km/h ≤ VBB,κ4 ≤ VBB_ASEP with VBB_ASEP as defined in paragraph 2.3.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 50,
+      "paragraph": "Annex 7 2.4"
+    }
+  },
+  {
+    "id": "R-025",
+    "text": "The path of the centreline of the vehicle shall follow line CC' as closely as possible throughout the entire test, starting from the approach of the reference point according to definition 2.11. of the main body to line AA' until the rear of the vehicle passes line BB'.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-026",
+    "text": "At line AA' the accelerator shall be fully depressed.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-027",
+    "text": "The accelerator shall be kept in depressed condition until the rear of the vehicle reaches line BB'.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-028",
+    "text": "In case of non-locked transmission conditions, the test may include a gear ratio change to a lower range and a higher acceleration.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-029",
+    "text": "A gear change to a higher range and a lower acceleration is not allowed.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-030",
+    "text": "If possible, the manufacturer shall take measures to avoid that a gearshift leads to a condition not in compliance with the boundary conditions.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-031",
+    "text": "If no such measures can be applied, the rationale shall be provided and documented in the technical report.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-032",
+    "text": "Any measure used by manufacturer for the above-mentioned purposes shall be documented in the test report.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.1"
+    }
+  },
+  {
+    "id": "R-033",
+    "text": "Per test point, one single run is carried out.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.2"
+    }
+  },
+  {
+    "id": "R-034",
+    "text": "For every separate test run, the following parameters shall be determined and noted: The maximum A-weighted sound pressure level of both sides of the vehicle, indicated during each passage of the vehicle according to paragraph 3.1.2.1.5. of Annex 3, shall be mathematically rounded to the first decimal place (Lwot,κj).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.2"
+    }
+  },
+  {
+    "id": "R-035",
+    "text": "If a sound peak obviously out of character with the general sound pressure level is observed, the measurement shall be discarded.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.2"
+    }
+  },
+  {
+    "id": "R-036",
+    "text": "Left and right side may be measured simultaneously or separately.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.2"
+    }
+  },
+  {
+    "id": "R-037",
+    "text": "For further processing, the higher sound pressure level of both sides shall be used.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.2"
+    }
+  },
+  {
+    "id": "R-038",
+    "text": "The calculated acceleration shall be determined in accordance to the formula in paragraph 3.1.2.1.2. of Annex 3 and reported to the second digit after the decimal place (awot,test,Κj).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 2.5.3"
+    }
+  },
+  {
+    "id": "R-039",
+    "text": "The sound measurements shall be evaluated as function of engine speed according to paragraph 3.2.1.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.2"
+    }
+  },
+  {
+    "id": "R-040",
+    "text": "The slopeκ of a particular gear for the further calculation is the derived result of the calculation in paragraph 3.2.1. rounded to the first decimal place, but not higher than 5 dB(A)/1,000 min⁻¹.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.2.2"
+    }
+  },
+  {
+    "id": "R-041",
+    "text": "In case of non-locked conditions, if Slopeκ < 0, the selected transmission setup is not valid.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.2.2"
+    }
+  },
+  {
+    "id": "R-042",
+    "text": "In that case the Lurban-Assessment as specified in paragraph 4. shall be applied.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.2.2"
+    }
+  },
+  {
+    "id": "R-043",
+    "text": "The sound level LASEP,κj for measurement point j and gear ratio κ shall be calculated using the engine speeds measured for each measurement point, using the slope specified in paragraph 3.2. above to the specific anchor point for each gear ratio.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.3"
+    }
+  },
+  {
+    "id": "R-044",
+    "text": "On request of the type approval authority, two additional runs within the boundary conditions according to paragraph 2.3. of this annex shall be carried out.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.4"
+    }
+  },
+  {
+    "id": "R-045",
+    "text": "Every individual sound measurement shall be evaluated.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.5"
+    }
+  },
+  {
+    "id": "R-046",
+    "text": "The sound level of every specified measurement point shall not exceed the limits given below: Lκj ≤ LASEP_κ.j + x with x = 3 dB(A) + limit value² - Lurban for vehicle tested with non-locked transmission conditions and x = 2 dB(A) + limit value² - Lurban for vehicles tested with locked transmission conditions.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.5"
+    }
+  },
+  {
+    "id": "R-047",
+    "text": "If the measured sound level at a point exceeds the limit, two additional measurements at the same point shall be carried out to verify the measurement uncertainty.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.5"
+    }
+  },
+  {
+    "id": "R-048",
+    "text": "The vehicle is still in compliance with ASEP, if the average of the three valid measurements at this specific point fulfils the specification.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 51,
+      "paragraph": "Annex 7 3.5"
+    }
+  },
+  {
+    "id": "R-049",
+    "text": "Unless otherwise specified, all testing and calculation shall be as specified in Annex 3 to this Regulation.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 4.1"
+    }
+  },
+  {
+    "id": "R-050",
+    "text": "The measurement method is defined in paragraph 2.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 4.1"
+    }
+  },
+  {
+    "id": "R-051",
+    "text": "Each testing point shall be evaluated individually.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 4.1"
+    }
+  },
+  {
+    "id": "R-052",
+    "text": "From any Lwot_ASEP as measured according to this annex, ΔLurban_ASEP shall be calculated as follows: (a) Calculate awot_test_ASEP using acceleration calculation from paragraph 3.1.2.1.2.1. or 3.1.2.1.2.2. of Annex 3 to this Regulation, as applicable; (b) Determine the vehicle speed (vBB_ASEP) at BB during the Lwot_ASEP test; (c) Calculate kP_ASEP as follows: kP_ASEP = 1 - (aurban / awot_test_ASEP). Test results where awot_test_ASEP are less than aurban shall be disregarded. (d) Calculate Lurban_measured_ASEP as follows: Lurban_measured_ ASEP = Lwot_ASEP - kP_ASEP * (Lwot_ASEP - Lcrs rep). For further calculation, use the Lurban from Annex 3 to this Regulation without rounding, including the digit after the decimal (xx.x). (e) Calculate Lurban_normalized to normalize the speed from vBB_ASEP to 50 km/h as follows: Lurban_normalized = Lurban_measured_ASEP - (0.15 * (V_BB_ASEP - 50)) (f) Calculate the deviation ΔLurban_ASEP relative to Lurban as follows: ΔLurban_ASEP = Lurban_normalized - Lurban",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 4.2.1"
+    }
+  },
+  {
+    "id": "R-053",
+    "text": "Δ Lurban_ASEP shall be less than or equal to 3.0 dB(A) + limit value³ - Lurban.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 4.2.2"
+    }
+  },
+  {
+    "id": "R-054",
+    "text": "The result of one assessment method has to comply with the specification of paragraph 5.4.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1"
+    }
+  },
+  {
+    "id": "R-055",
+    "text": "For simulation, the reference sound is assessed at a single point in one discrete gear, simulating an acceleration condition assuming an exit speed vBB’ equal to 61 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.1"
+    }
+  },
+  {
+    "id": "R-056",
+    "text": "The sound compliance is calculated using the slope results of paragraph 3.2.2.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.1"
+    }
+  },
+  {
+    "id": "R-057",
+    "text": "If the result of slope of 3.2.2. is not available for the gear specified in paragraph 5.2, this slope of the missing gear can be determined according to paragraphs 2.4., 3.1. and 3.2.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.1"
+    }
+  },
+  {
+    "id": "R-058",
+    "text": "For direct measurement, the reference sound is assessed at a single run in an acceleration condition started at line AA’ as specified in paragraph 2.5.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.2"
+    }
+  },
+  {
+    "id": "R-059",
+    "text": "The gear shall be as specified in paragraph 5.2. for vehicles tested in locked condition or in a gear selected position for normal driving as specified by the manufacturer for vehicles tested in non-locked condition.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.2"
+    }
+  },
+  {
+    "id": "R-060",
+    "text": "The target test speed vAA is equal to 50 km/h ± 1 km/h unless vBB exceeds 61 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.2"
+    }
+  },
+  {
+    "id": "R-061",
+    "text": "If vBB exceeds 61 km/h, the target test speed vBB shall be set to 61 km/h ± 1 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.2"
+    }
+  },
+  {
+    "id": "R-062",
+    "text": "The entry speed shall be adjusted to achieve the target test speed.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.1.2"
+    }
+  },
+  {
+    "id": "R-063",
+    "text": "If the acceleration calculated from AA to BB + vehicle length in gear 4 exceeds 1.9 m/s², the first higher gear α > 4 with an acceleration lower than or equal to 1.9 m/s² shall be chosen.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.2"
+    }
+  },
+  {
+    "id": "R-064",
+    "text": "If there is no gear with an acceleration less than or equal to 1.9 m/s² available, the highest available gear shall be chosen.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.2"
+    }
+  },
+  {
+    "id": "R-065",
+    "text": "For vehicles tested under locked condition, the gear ratio for further calculation shall be determined from the acceleration test result in Annex 3.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.2"
+    }
+  },
+  {
+    "id": "R-066",
+    "text": "For vehicles tested under non-locked condition, the gear ratio for further calculation shall be determined from the acceleration test result in Annex 3 using the reported engine speed and vehicle speed at line BB'.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 52,
+      "paragraph": "Annex 7 5.2"
+    }
+  },
+  {
+    "id": "R-067",
+    "text": "The reference engine speed, nBB’_ref_α, shall be calculated using the gear ratio of gear α at the reference speed of vBB’_ref = 61 km/h.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.3.1"
+    }
+  },
+  {
+    "id": "R-068",
+    "text": "For vehicles of category M1, Lref shall be less than or equal to 76 dB(A).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.4"
+    }
+  },
+  {
+    "id": "R-069",
+    "text": "For vehicles of category M1 fitted with a manual transmission having more than four forward gears and equipped with an engine developing a rated maximum net power greater than 140 kW (according to Regulation No. 85) and having a maximum-power/maximum-mass ratio greater than 75, Lref shall be less than or equal to 79 dB(A).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.4"
+    }
+  },
+  {
+    "id": "R-070",
+    "text": "For vehicles of category M1 fitted with an automatic transmission having more than four forward gears and equipped with an engine developing a rated maximum net power greater than 140 kW (according to Regulation No. 85) and having a maximum-power/maximum-mass ratio greater than 75, Lref shall be less than or equal to 78 dB(A).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.4"
+    }
+  },
+  {
+    "id": "R-071",
+    "text": "For vehicles of category N1 with a technically permissible maximum laden mass below 2,000 kg, Lref shall be less than or equal to 78 dB(A).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.4"
+    }
+  },
+  {
+    "id": "R-072",
+    "text": "For vehicles of category N1 with a technically permissible maximum laden mass above 2,000 kg and below 3,500 kg, Lref shall be less than or equal to 79 dB(A).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.4"
+    }
+  },
+  {
+    "id": "R-073",
+    "text": "For vehicles of category M1 and N1 equipped with a compression-ignition and direct injection internal combustion engine, the sound level shall be increased by 1 dB(A).",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.4"
+    }
+  },
+  {
+    "id": "R-074",
+    "text": "For vehicles of category M1 and N1 designed for off-road use and with a technically permissible maximum laden mass above 2 tonnes, the sound level shall be increased by 1 dB(A) if they are equipped with an engine having a rated maximum net power of less than 150 kW (according to Regulation No. 85) or by 2 dB(A) if they are equipped with an engine having a rate maximum net power of 150 kW (according to Regulation No. 85) or higher.",
+    "source": {
+      "regulation": "UN R51",
+      "page": 53,
+      "paragraph": "Annex 7 5.4"
+    }
+  }
+]

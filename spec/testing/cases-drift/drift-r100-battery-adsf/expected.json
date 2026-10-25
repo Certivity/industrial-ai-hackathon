@@ -1,0 +1,116 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r100-battery-adsf",
+  "changes": [
+    {
+      "requirement_id": "R-027",
+      "change": "modified",
+      "new_text": "In fuel cell vehicles, DC high voltage buses shall have an on-board isolation resistance monitoring system together with a warning to the driver if the isolation resistance drops below the minimum required value of 100 Ω/V; whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX] according to its original version or later series of amendments.",
+      "reason": "Paragraph 5.1.3.3 of UN R100 was amended in version 5.1.0: 'Whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX]…' was added.",
+      "source": {
+        "page": 10,
+        "paragraph": "5.1.3.3"
+      }
+    },
+    {
+      "requirement_id": "R-037",
+      "change": "modified",
+      "new_text": "If an isolation resistance monitoring system is provided, and the isolation resistance less than the requirements given in paragraph 5.1.3. is detected, a warning shall be indicated to the driver; whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX] according to its original version or later series of amendments.",
+      "reason": "Paragraph 5.1.4.4 of UN R100 was amended in version 5.1.0: 'Whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX]…' was added; 'In case of vehicles of category O, the trailer shall provide an optical and/or audible warning to the driver of the towing vehicle. In addition, in case of vehicles of c…' was added.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.1.4.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In case of vehicles of category O, the trailer shall provide an optical and/or audible warning to the driver of the towing vehicle.",
+      "reason": "Paragraph 5.1.4.4 of UN R100 is new in version 5.1.0: 'If an isolation resistance monitoring system is provided, and the isolation resistance less than th…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.1.4.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In case of vehicles of category O3 and O4, the trailer may provide to the towing vehicle a signal to address an optical warning according to this paragraph and/or an audible warning (e.g. transmission via CAN-Bus according to ISO 11992-2).",
+      "reason": "Paragraph 5.1.4.4 of UN R100 is new in version 5.1.0: 'If an isolation resistance monitoring system is provided, and the isolation resistance less than th…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.1.4.4"
+      }
+    },
+    {
+      "requirement_id": "R-044",
+      "change": "modified",
+      "new_text": "The vehicle shall provide a warning to the driver when the vehicle is in active driving possible mode in the event specified in paragraphs 6.13. to 6.15.; whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX] according to its original version or later series of amendments.",
+      "reason": "Paragraph 5.2.3 of UN R100 was amended in version 5.1.0: 'Whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX]…' was added; 'addition, in' was added; 'The requirements of this paragraph related to paragraph 6.15. do not apply to REESS that are solely installed on vehicles of category O nor to batteries on vehicles of c…' was added.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "requirement_id": "R-049",
+      "change": "modified",
+      "new_text": "In addition, in case of vehicles of category O3 and O4, the trailer may provide to the towing vehicle a signal to address an optical warning according to this paragraph and/or an audible warning (e.g. transmission via CAN-Bus according to ISO 11992-2) in the event specified in paragraphs 6.13. to 6.15.",
+      "reason": "Paragraph 5.2.3 of UN R100 was amended in version 5.1.0: 'Whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX]…' was added; 'addition, in' was added; 'The requirements of this paragraph related to paragraph 6.15. do not apply to REESS that are solely installed on vehicles of category O nor to batteries on vehicles of c…' was added.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The requirements of this paragraph related to paragraph 6.15. do not apply to REESS that are solely installed on vehicles of category O nor to batteries on vehicles of category O used for recuperation.",
+      "reason": "Paragraph 5.2.3 of UN R100 is new in version 5.1.0: 'Warning in the event of failure in REESS The vehicle shall provide a warning to the driver when the…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "requirement_id": "R-050",
+      "change": "modified",
+      "new_text": "For pure electric vehicles (vehicles equipped with a powertrain containing exclusively electric machines as propulsion energy converters and exclusively rechargeable electric energy storage systems as propulsion energy storage systems), a warning to the driver in the event of low REESS state of charge shall be provided; whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX] according to its original version or later series of amendments.",
+      "reason": "Paragraph 5.2.4 of UN R100 was amended in version 5.1.0: 'Whilst an ADSF-2 is active, the warning shall be transmitted as a logic signal to the ADS, which shall comply with the technical requirements of UN Regulation No. [XXX]…' was added.",
+      "source": {
+        "page": 12,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "requirement_id": "R-054",
+      "change": "modified",
+      "new_text": "At least a momentary indication shall be given to the driver each time when the vehicle is first placed in \"active driving possible mode'' after manual activation of the propulsion system, except that the provisions of this paragraph do not apply whilst an ADSF-2 is active.",
+      "reason": "Paragraph 5.3.1 of UN R100 was amended in version 5.1.0: 'The provisions of this paragraph do not apply whilst an ADSF-2 is active.' was added.",
+      "source": {
+        "page": 12,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-057",
+      "change": "modified",
+      "new_text": "When leaving the vehicle, the driver shall be informed by a signal (e.g. optical or audible signal) if the vehicle is still in the active driving possible mode, except that the provisions of this paragraph do not apply whilst an ADSF-2 is active.",
+      "reason": "Paragraph 5.3.2 of UN R100 was amended in version 5.1.0: 'The provisions of this paragraph do not apply whilst an ADSF-2 is active.' was added.",
+      "source": {
+        "page": 12,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "requirement_id": "R-063",
+      "change": "modified",
+      "new_text": "The state of the drive direction control unit shall be identified to the driver, except that the provisions of this paragraph do not apply whilst an ADSF-2 is active.",
+      "reason": "Paragraph 5.3.4 of UN R100 was amended in version 5.1.0: 'The provisions of this paragraph do not apply whilst an ADSF-2 is active.' was added.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.4"
+      }
+    }
+  ]
+}

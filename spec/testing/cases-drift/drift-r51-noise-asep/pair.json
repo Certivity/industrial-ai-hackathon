@@ -1,0 +1,11 @@
+{
+  "regulation": "UN R51",
+  "base_version": "3.10.0",
+  "latest_version": "3.11.0",
+  "base_pdf": "regulations/data/UN_R51/base/UN_R51_base.pdf",
+  "latest_pdf": "regulations/data/UN_R51/latest/UN_R51_latest.pdf",
+  "window": [
+    "Annex 7"
+  ],
+  "trap": "formulas and a new table; wording of calculations"
+}

@@ -495,6 +495,46 @@ def test_policy_keeps_obligations_on_the_product_and_records_why_the_rest_is_dro
                                          "dropped:applies=unlikely", "emitted", "rejected:quote", "dropped:duplicate"]
 
 
+def test_policy_drops_conformity_of_production_and_the_baseline_policy_keeps_it():
+    cs = [cand(kind="conformity-of-production"), cand(text="b", kind="design")]
+    emit.apply_policy(cs)
+    assert [c["status"] for c in cs] == ["dropped:kind=conformity-of-production", "emitted"]
+    cs = [cand(kind="conformity-of-production")]
+    emit.apply_policy(cs, emit.BASELINE_POLICY)
+    assert cs[0]["status"] == "emitted" and emit.policy_summary(emit.BASELINE_POLICY)["name"] == "baseline-v1"
+
+
+def test_policy_drops_a_regulation_without_certain_unless_it_was_picked_at_high_confidence():
+    def make():
+        return [cand(regulation="UN R48", text="a", page=5), cand(regulation="UN R48", text="b", page=5, applies="likely"),
+                cand(regulation="UN R128", text="c", page=3, applies="likely"), cand(regulation="UN R128", text="d", page=3, applies="likely"),
+                cand(regulation="UN R10", text="e", page=9, applies="likely"), cand(regulation="UN R10", text="f", page=9, applies="likely")]
+    v1 = emit.PRECISION_V1
+    cs = make()
+    emit.apply_policy(cs, v1, confidence={"UN R48": "high", "UN R128": "medium", "UN R10": "high"})
+    assert [c["status"] for c in cs] == ["emitted", "emitted", "dropped:regulation=no_certain", "dropped:regulation=no_certain", "emitted", "emitted"]
+    cs = make()
+    emit.apply_policy(cs, v1)  # no confidences: the check is skipped
+    assert all(c["status"] == "emitted" for c in cs)
+    cs = [c for c in make() if c["regulation"] != "UN R48"]  # every regulation weak: keep them all
+    emit.apply_policy(cs, v1, confidence={"UN R128": "low", "UN R10": "medium"})
+    assert all(c["status"] == "emitted" for c in cs)
+    cs = make()  # the default policy leaves the check off: a correct regulation with few `certain` grades must not be lost
+    emit.apply_policy(cs, confidence={"UN R48": "high", "UN R128": "medium", "UN R10": "medium"})
+    assert all(c["status"] == "emitted" for c in cs) and emit.DEFAULT_POLICY.name == "precision-v2"
+
+
+def test_policy_drops_a_page_that_carries_only_a_few_possible_candidates():
+    cs = [cand(text="a", page=4, applies="possible"), cand(text="b", page=4, applies="possible"), cand(text="c", page=5, applies="possible"),
+          cand(text="d", page=5, applies="likely"), cand(text="e", page=6, applies="possible"), cand(text="f", page=6, applies="possible"),
+          cand(text="g", page=6, applies="possible"), cand(text="h", page=6, applies="possible")]
+    emit.apply_policy(cs)
+    assert [c["status"] for c in cs] == ["dropped:page=only_possible"] * 2 + ["emitted"] * 6
+    cs = [cand(text="a", page=4, applies="possible")]
+    emit.apply_policy(cs, emit.BASELINE_POLICY)
+    assert cs[0]["status"] == "emitted"
+
+
 def test_submission_cites_from_the_node_orders_by_regulation_and_numbers_the_ids():
     cs = [cand(regulation="UN R10", version="7.2.0", node_idx=2, paragraph="6.1", text="x shall y"), cand(node_idx=9, paragraph="5.9", text="m shall n"),
           cand(node_idx=3, paragraph="5.2", text="p shall q")]
@@ -637,6 +677,307 @@ def test_corpus_the_whole_chain_runs_on_a_scripted_model_and_writes_a_valid_subm
             assert (Path(tmp) / "run" / name).is_file(), name
         regs = json.loads((Path(tmp) / "run" / "regulations.json").read_text(encoding="utf-8"))
         assert regs["redirects"] == {"UN R3": "UN R150"} and [s["regulation"] for s in regs["selected"]] == ["UN R150"]
+
+
+# --------------------------------------------------------------------------------------------------------- inputs, vision, component map
+def _strict(schema) -> bool:
+    if isinstance(schema, dict):
+        if schema.get("type") == "object" and (schema.get("additionalProperties") is not False or set(schema.get("required", [])) != set(schema["properties"])):
+            return False
+        return all(_strict(v) for v in schema.values())
+    if isinstance(schema, list):
+        return all(_strict(v) for v in schema)
+    return True
+
+
+def _png(path: Path, size=(3000, 1800)) -> Path:
+    from PIL import Image
+    Image.new("RGB", size, "white").save(path)
+    return path
+
+
+FACTS = {"image": "d.png", "info": {}, "drawing_kind": "exploded_view", "title": "", "text_blocks": [], "unlabelled_parts": [{"description": "clip", "region": {}}],
+         "legend": [], "notes": [], "components": [
+             {"key": "C1", "name": "Outer lens", "callout_text": "Outer lens red, within the chromaticity limits", "text_ids": ["T1"], "function_hint": "colour",
+              "values": [{"quantity": "colour", "value": "red", "unit": "", "raw": "red"}], "linked_by": "leader_line", "region": {}, "confidence": "high"},
+             {"key": "C2", "name": "Reflector", "callout_text": "Reflector rear position lamp: 4 to 17 cd on axis", "text_ids": ["T2"],
+              "function_hint": "rear position lamp intensity", "values": [{"quantity": "luminous intensity", "value": "4 to 17", "unit": "cd", "raw": "4 to 17 cd"}],
+              "linked_by": "leader_line", "region": {}, "confidence": "medium"}]}
+PROFILE = {"product": "lamp", "summary": "s", "vehicle_categories": ["M1"], "functions": [{"key": "F1", "name": "f", "detail": ""}],
+           "parts": [{"key": "P1", "name": "Outer lens", "role": "r", "materials": ["PMMA"], "source": "both"},
+                     {"key": "P2", "name": "Reflector surface", "role": "", "materials": [], "source": "spec"}],
+           "technologies": [], "attributes": [{"name": "intensity", "value": "4 to 17 cd", "source": "image"}], "regulatory_concepts": ["rc"], "not_present": []}
+
+
+def test_inputs_are_found_by_name_or_by_the_only_candidate_and_text_or_image_alone_is_enough():
+    from ai_agent.inputs import NoInput, find_inputs
+    with tempfile.TemporaryDirectory() as tmp:
+        d = Path(tmp)
+        for name in ("spec.md", "technical_spec.md", "README.md"):
+            (d / name).write_text("x", encoding="utf-8")
+        found = find_inputs(d)
+        assert found.text_path.name == "spec.md" and found.image_path is None
+        (d / "spec.md").unlink()
+        assert find_inputs(d).text_path.name == "technical_spec.md"
+        (d / "technical_spec.md").unlink()
+        try:
+            find_inputs(d)
+            raise AssertionError("a README alone is no input")
+        except NoInput as error:
+            assert "no input" in str(error)
+        (d / "view.JPG").write_bytes(b"x")
+        only_image = find_inputs(d)
+        assert only_image.text_path is None and only_image.image_path.name == "view.JPG" and only_image.read_text() is None
+        (d / "exploded_view.png").write_bytes(b"x")
+        (d / "spec.md").write_text("t", encoding="utf-8")
+        both = find_inputs(d)
+        assert both.image_path.name == "exploded_view.png" and both.read_text() == "t"
+        assert find_inputs(d, use_image=False).image_path is None
+        assert find_inputs(d, image="view.JPG").image_path.name == "view.JPG"
+        try:
+            find_inputs(d, use_text=False, use_image=False)
+            raise AssertionError("neither text nor image must be an error")
+        except NoInput:
+            pass
+
+
+def test_vision_prepare_sends_the_whole_image_within_the_api_limits_and_tiles_a_big_one_from_the_original_pixels():
+    try:
+        import PIL  # noqa: F401
+    except ImportError:
+        raise Skip("PIL is not installed")
+    import base64
+    import io
+    from PIL import Image
+    from ai_agent import vision
+    with tempfile.TemporaryDirectory() as tmp:
+        big = vision.prepare(_png(Path(tmp) / "big.png"))
+        small = vision.prepare(_png(Path(tmp) / "small.png", (900, 600)))
+    w, h = big["info"]["sent_whole"]
+    assert max(w, h) <= vision.MAX_EDGE and w * h <= vision.MAX_PIXELS, (w, h)
+    assert len(big["tiles"]) == 4 and small["tiles"] == []
+    boxes = [box for _, box in big["tiles"]]
+    assert min(b[0] for b in boxes) == 0 and max(b[2] for b in boxes) >= 0.999 and min(b[1] for b in boxes) == 0 and max(b[3] for b in boxes) >= 0.999
+    assert boxes[0][2] > boxes[1][0], "neighbouring tiles overlap"
+    tile = Image.open(io.BytesIO(base64.b64decode(big["tiles"][0][0]["source"]["data"])))
+    assert tile.size[0] <= 1700, tile.size  # native pixels, not shrunk
+    assert big["whole"]["source"]["media_type"] == "image/png" and big["whole"]["type"] == "image"
+
+
+def test_read_drawing_sends_images_then_the_transcription_and_returns_the_facts():
+    try:
+        import PIL  # noqa: F401
+    except ImportError:
+        raise Skip("PIL is not installed")
+    from ai_agent import vision
+    seen = []
+    read = {"drawing_kind": "exploded_view", "title": "", "text_blocks": [{"id": "T1", "text": "Outer lens", "role": "component_label",
+                                                                          "box": {"x0": 0.7, "y0": 0.1, "x1": 0.8, "y1": 0.2}}]}
+    mapped = {"components": FACTS["components"][:1], "unlabelled_parts": [], "legend": [], "notes": []}
+
+    def script(stage, label, system, messages, tools_, schema):
+        seen.append((stage, label, messages[0]["content"], schema))
+        return text_reply(read if label == "read" else mapped), "end_turn"
+    with tempfile.TemporaryDirectory() as tmp:
+        facts = vision.read_drawing(Scripted(script), _png(Path(tmp) / "d.png"), SETTINGS, None, lambda m: None)
+    assert [s[1] for s in seen] == ["read", "map"] and all(s[0] == "vision" for s in seen)
+    assert sum(b["type"] == "image" for b in seen[0][2]) == 5  # the whole picture and four tiles
+    map_blocks = seen[1][2]
+    assert sum(b["type"] == "image" for b in map_blocks) == 1 and "T1 [component_label]" in map_blocks[-1]["text"]
+    assert facts["components"][0]["name"] == "Outer lens" and facts["text_blocks"][0]["id"] == "T1" and facts["info"]["size"] == [3000, 1800]
+    assert _strict(vision.READ_SCHEMA) and _strict(vision.MAP_SCHEMA)
+    assert "vision" in config.DEFAULT_EFFORT and "components" in config.DEFAULT_EFFORT
+
+
+def test_text_only_profile_request_is_the_one_it_always_was_and_a_drawing_changes_prompt_and_schema():
+    from ai_agent import profile
+    seen = []
+
+    def script(stage, label, system, messages, tools_, schema):
+        seen.append((system, messages[0]["content"], schema))
+        return text_reply(PROFILE), "end_turn"
+    model = Scripted(script)
+    profile.build_profile(model, "# spec\nabc\n")
+    system, user, schema = seen[-1]
+    assert system == profile.SYSTEM and schema is profile.SCHEMA and "drawing" not in user.lower()
+    assert user == "Specification (markdown):\n\n<spec>\n# spec\nabc\n</spec>\n\nWrite the profile."
+    profile.build_profile(model, "# spec\nabc\n", FACTS)
+    system, user, schema = seen[-1]
+    assert system.endswith(profile.IMAGE_RULES) and "<drawing>" in user and "Reflector" in user
+    assert schema is profile.IMAGE_SCHEMA and _strict(schema) and _strict(profile.SCHEMA)
+    assert schema["properties"]["parts"]["items"]["properties"]["source"]["enum"] == ["spec", "image", "both"]
+    profile.build_profile(model, None, FACTS)
+    assert "no written specification" in seen[-1][1]
+    try:
+        profile.build_profile(model, None, None)
+        raise AssertionError("no input")
+    except ValueError:
+        pass
+
+
+def test_profile_text_adds_the_drawing_callouts_only_when_there_are_facts():
+    from ai_agent.profile import profile_text
+    plain = profile_text(PROFILE)
+    assert "Annotated requirements" not in plain
+    with_image = profile_text(PROFILE, FACTS)
+    assert with_image.startswith("Product: lamp")
+    line = [l for l in with_image.splitlines() if l.startswith("Annotated requirements from the drawing")]
+    assert len(line) == 1 and "4 to 17 cd on axis" in line[0] and "red, within the chromaticity limits" in line[0]
+    assert with_image.replace(line[0] + "\n", "") == plain
+
+
+def test_component_map_groups_assigns_and_matches_callouts_to_the_requirements():
+    from ai_agent.components import build_component_map
+    reqs = [{"id": f"R-{k}", "text": f"text {k}", "source": {"regulation": "UN R148", "version": "1", "page": 3, "paragraph": f"5.{k}"}} for k in (1, 2, 3)]
+    trace = [{"id": r["id"], "regulation": "UN R148", "paragraph": r["source"]["paragraph"]} for r in reqs]
+
+    def script(stage, label, system, messages, tools_, schema):
+        assert stage == "components"
+        if label == "group":
+            return text_reply({"components": [{"id": "K1", "name": "Outer lens", "keys": ["P1", "C1"]},
+                                               {"id": "K2", "name": "Reflector surface", "keys": ["P2", "C2"]}]}), "end_turn"
+        if label.startswith("assign"):
+            return text_reply({"assignments": [{"requirement": "R-1", "components": ["K1"]}, {"requirement": "R-2", "components": ["K2", "K9"]},
+                                               {"requirement": "R-3", "components": []}]}), "end_turn"
+        m = [{"requirement": "R-3", "relation": "same_quantity", "why": "intensity"}, {"requirement": "R-404", "relation": "same_topic", "why": "x"}]
+        return text_reply({"callouts": [{"callout": "Q2", "matches": m}, {"callout": "Q9", "matches": []}]}), "end_turn"
+    with tempfile.TemporaryDirectory() as tmp:
+        run = Path(tmp)
+        for name, data in (("profile.json", PROFILE), ("submission.json", {"case_id": "c", "requirements": reqs}), ("trace.json", trace), ("vision.json", FACTS)):
+            (run / name).write_text(json.dumps(data), encoding="utf-8")
+        result = build_component_map(Scripted(script), run, log=lambda m: None)
+        assert json.loads((run / "component_map.json").read_text(encoding="utf-8")) == result
+    by_id = {c["id"]: c for c in result["components"]}
+    assert by_id["K1"]["requirement_ids"] == ["R-1"] and by_id["K1"]["sources"] == ["image", "spec"]
+    assert by_id["K2"]["requirement_ids"] == ["R-2", "R-3"] and by_id["K2"]["via_callout"] == ["R-3"]  # unknown component K9 and unknown R-404 are ignored
+    assert by_id["K2"]["regulations"]["UN R148"]["sections"] == ["5.2", "5.3"]
+    assert result["whole_product_requirement_ids"] == ["R-3"] and len(result["callouts"]) == 1
+    assert result["callouts"][0]["component"] == "K2" and result["callouts"][0]["matches"][0]["paragraph"] == "5.3"
+
+
+# ------------------------------------------------------------------------------------------------------------ drift agent
+def _version(rows, label="1.0", pages=None):
+    from ai_agent import drift
+    nodes = [node(lab, text, page) for lab, text, page in rows]
+    return drift.Version(ParsedDocument(Path("synthetic.pdf"), 9, nodes), "UN R150", label)
+
+
+DRIFT_OLD = [("5.1", "5.1. The lamp shall emit red light.", 3),
+             ("5.2", "5.2. The lamp shall be marked with the trade name.", 3),
+             ("5.3", "5.3. The marking shall be indelible and legible for 1,500 hours.", 4),
+             ("5.4", "5.4. A sample of the lamp shall be submitted to the service.", 4),
+             ("5.5", "5.5. The luminous intensity shall not be less than 40 cd at point A.", 5)]
+DRIFT_NEW = [("5.1", "5.1. The lamp shall emit red light.", 4),  # the page shifts, the text does not
+             ("5.2", "5.2. The lamp shall be marked with the trade name and the approval mark.", 4),
+             ("5.3", "5.3. The lamp shall bear a date code.", 4),  # added; the old 5.3 becomes 5.4
+             ("5.4", "5.4. The marking shall be indelible and legible for 1,500 hours.", 5),
+             ("5.6", "5.6. The luminous intensity shall not be less than 40 cd at point A.", 5)]
+
+
+def test_drift_align_tells_same_renumbered_modified_removed_and_added_apart():
+    from ai_agent import drift
+    old, new = _version(DRIFT_OLD), _version(DRIFT_NEW, "1.1")
+    kinds = {(old.ids[m.old] if m.old is not None else None, new.ids[m.new] if m.new is not None else None): m for m in drift.align(old, new)}
+    assert kinds[("5.1", "5.1")].kind == "SAME"  # a page shift is not a change
+    assert kinds[("5.2", "5.2")].kind == "MODIFIED" and not kinds[("5.2", "5.2")].renumbered and kinds[("5.2", "5.2")].sim > 0.6
+    assert kinds[("5.3", "5.4")].kind == "RENUMBERED" and kinds[("5.5", "5.6")].kind == "RENUMBERED"  # same text under another number
+    assert kinds[("5.4", None)].kind == "REMOVED" and kinds[(None, "5.3")].kind == "ADDED"
+    assert drift.counts(drift.align(old, new)) == {"SAME": 1, "RENUMBERED": 2, "MODIFIED": 1, "REMOVED": 1, "ADDED": 1}
+
+
+def test_drift_a_moved_footnote_mark_and_a_reflowed_layout_are_not_changes():
+    from ai_agent import drift
+    one = Node("para", "5.1", "", (5, 1), 3, 3, ["5.1. The lamp¹ shall emit red light.", "1This provision does not apply to tail lamps."], [3, 3],
+               note=[0, 1], parent=-1, path="5.1")
+    two = Node("para", "5.1", "", (5, 1), 4, 4, ["5.1. The lamp² shall emit", "red light.", "2This provision does not apply to tail lamps."], [4, 4, 4],
+               note=[0, 0, 1], parent=-1, path="5.1")
+    old = drift.Version(ParsedDocument(Path("a.pdf"), 5, [one]), "UN R150", "1")
+    new = drift.Version(ParsedDocument(Path("b.pdf"), 5, [two]), "UN R150", "2")
+    assert [m.kind for m in drift.align(old, new)] == ["SAME"]
+
+
+def test_drift_word_edits_group_nearby_changes_and_the_reason_has_the_example_format():
+    from ai_agent import drift
+    edits = drift.word_edits("The ACPE shall control acceleration from standstill.",
+                             "The ACPE shall control acceleration both from standstill and, as relevant, while creeping.")
+    assert [(e.op, e.old, e.new) for e in edits] == [("replace", "from standstill.", "both from standstill and, as relevant, while creeping.")]
+    assert [(e.op, e.old, e.new) for e in drift.word_edits("The part is relevant", "The part is relevant if fitted")] == [("insert", "", "if fitted")]
+    assert drift.modified_reason("UN R175", "1.0.0", "6.6", "6.5", "A shall pass", "A shall pass if relevant.") == \
+        "Paragraph 6.6 (formerly 6.5) of UN R175 was amended in version 1.0.0: 'if relevant.' was added."
+    assert drift.modified_reason("UN R175", "1.0.0", "5.1.2", None, "Speed of 5 km/h.", "Speed of 7 km/h.") == \
+        "Paragraph 5.1.2 of UN R175 was amended in version 1.0.0: '5' became '7'."
+    assert drift.removed_reason("UN R175", "1.0.0", "6.5", "Before any test the vehicle may be driven.").startswith(
+        "Paragraph 6.5 of UN R175 was amended in version 1.0.0; the provision 'Before any test")
+    assert drift.added_reason("UN R175", "1.0.0", "6.5.3", "x" * 300).endswith("…'.") and "is new in version 1.0.0" in drift.added_reason(
+        "UN R175", "1.0.0", "6.5.3", "x")
+
+
+class DriftModel:
+    """A scripted LLM for the drift agent: records every call, answers the judge by the paragraph it is shown and the extraction by the nodes."""
+
+    def __init__(self):
+        self.s, self.ledger, self.calls = SETTINGS, Ledger("claude-sonnet-5-5", 5.0), []
+
+    def complete_json(self, *, stage, label, system, user, schema, effort=None, max_tokens=0):
+        self.calls.append((stage, label, effort))
+        if stage == "drift_judge":
+            ids = re.findall(r"^(R-\d+):", user, re.M)
+            if label == "5.2":
+                return {"requirements": [{"id": i, "verdict": "modified", "new_text": "The lamp shall be marked with the trade name and the approval mark.",
+                                          "new_paragraph": "5.2", "note": "mark added"} for i in ids], "new_obligations": []}
+            return {"requirements": [{"id": i, "verdict": "removed", "new_text": "", "new_paragraph": "", "note": "gone"} for i in ids], "new_obligations": []}
+        return {"nodes": [{"node": "5.3", "requirements": [{"quote": "The lamp shall bear a date code.", "text": "The lamp shall bear a date code."},
+                                                           {"quote": "invented words nowhere in the node", "text": "The lamp shall glow."}]}]}
+
+
+def test_drift_agent_flags_only_what_changed_builds_the_reasons_and_writes_a_valid_file():
+    from ai_agent import drift
+    old, new = _version(DRIFT_OLD), _version(DRIFT_NEW, "1.1")
+    reqs = [{"id": f"R-00{k}", "text": text.split(". ", 1)[1], "source": {"regulation": "UN R150", "page": page, "paragraph": lab}}
+            for k, (lab, text, page) in enumerate(DRIFT_OLD, 1)]
+    model = DriftModel()
+    result = drift.run_drift(old, new, reqs, SETTINGS, "case-d", "UN R150", llm=model)
+    flagged = {c["requirement_id"]: c for c in result.changes["changes"] if c["requirement_id"]}
+    assert set(flagged) == {"R-002", "R-004"}, flagged  # SAME and RENUMBERED paragraphs are never flagged
+    assert flagged["R-002"]["change"] == "modified" and flagged["R-002"]["source"] == {"page": 4, "paragraph": "5.2"}
+    assert flagged["R-002"]["reason"] == "Paragraph 5.2 of UN R150 was amended in version 1.1: 'name.' became 'name and the approval mark.'."
+    assert flagged["R-004"]["change"] == "removed" and "no longer appears" in flagged["R-004"]["reason"]
+    added = [c for c in result.changes["changes"] if c["change"] == "added"]
+    assert [(c["new_text"], c["source"]) for c in added] == [("The lamp shall bear a date code.", {"page": 4, "paragraph": "5.3"})]  # the invented quote is dropped
+    assert [c[:2] for c in model.calls if c[0] == "drift_judge"] == [("drift_judge", "5.2"), ("drift_judge", "5.4")]  # only changed nodes reach the model
+    assert result.changes["team_id"] == SETTINGS.team_id and result.trace["counts"] == {"modified": 1, "removed": 1, "added": 1}
+    try:
+        from validate import validate
+    except ImportError:
+        return
+    assert validate(result.changes, "subgoal", requirements_old=reqs) == []
+
+
+def test_drift_requirements_map_to_their_node_by_label_or_else_by_text():
+    from ai_agent import drift
+    old = _version(DRIFT_OLD)
+    got = drift.map_requirements(old, [{"id": "a", "text": "The lamp shall emit red light.", "source": {"paragraph": "5.1."}},
+                                       {"id": "b", "text": "The marking shall be indelible and legible for 1,500 hours.", "source": {"paragraph": "9.9"}},
+                                       {"id": "c", "text": "Zzzz qqqq.", "source": {"paragraph": "9.9"}}])
+    assert got["a"] == {"node": 0, "by": "label"} and got["b"]["node"] == 2 and got["b"]["by"] == "text" and got["c"]["node"] is None
+
+
+def test_score_drift_counts_flags_false_flags_and_one_to_one_added_matches():
+    import score_drift
+    reqs = [{"id": f"R-00{k}", "text": "x", "source": {"paragraph": f"5.{k}"}} for k in range(1, 6)]
+    gold = {"changes": [{"change": "modified", "requirement_id": "R-001", "new_text": "a", "reason": "r", "source": {"page": 1, "paragraph": "5.1"}},
+                        {"change": "removed", "requirement_id": "R-002", "reason": "r"},
+                        {"change": "added", "requirement_id": None, "new_text": "The lamp shall bear a date code.", "reason": "r", "source": {"page": 2, "paragraph": "5.6"}}]}
+    mine = {"changes": [{"change": "modified", "requirement_id": "R-001", "new_text": "a", "reason": "r", "source": {"page": 1, "paragraph": "5.1"}},
+                        {"change": "modified", "requirement_id": "R-003", "new_text": "b", "reason": "r", "source": {"page": 1, "paragraph": "5.3"}},
+                        {"change": "added", "requirement_id": None, "new_text": "The lamp shall bear a date code.", "reason": "r", "source": {"page": 2, "paragraph": "5.6."}},
+                        {"change": "added", "requirement_id": None, "new_text": "The lamp shall bear a date code.", "reason": "r", "source": {"page": 2, "paragraph": "5.6"}}]}
+    s = score_drift.score(mine, gold, reqs)
+    f = s["flagged"]
+    assert (f["tp"], f["pred"], f["gold"], f["false_flags"], f["unchanged"], f["missed"]) == (1, 2, 2, 1, 3, ["R-002"])
+    assert f["recall"] == 0.5 and f["precision"] == 0.5 and f["kind_accuracy"] == 1.0
+    assert (s["added"]["tp"], s["added"]["pred"], s["added"]["gold"]) == (1, 2, 1)  # one gold item matches one agent item only
+    assert s["overall"]["tp"] == 2 and s["overall"]["pred"] == 4 and s["overall"]["gold"] == 3
 
 
 def main(argv: list[str] | None = None) -> int:

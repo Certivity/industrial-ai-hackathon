@@ -1,0 +1,12 @@
+{
+  "regulation": "UN R156",
+  "base_version": "0.1.0",
+  "latest_version": "1.0.0",
+  "base_pdf": "regulations/data/UN_R156/base/UN_R156_base.pdf",
+  "latest_pdf": "regulations/data/UN_R156/latest/UN_R156_latest.pdf",
+  "window": [
+    "6",
+    "7"
+  ],
+  "trap": "renumbering only: 13 paragraphs shift by one with the text unchanged"
+}

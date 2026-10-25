@@ -1,0 +1,392 @@
+{
+ "image": "exploded_view.png",
+ "info": {
+  "pil": true,
+  "size": [
+   3000,
+   1817
+  ],
+  "sent_whole": [
+   2488,
+   1507
+  ],
+  "bytes": 540186,
+  "tiles": [
+   [
+    0.0,
+    0.0,
+    0.532,
+    0.532
+   ],
+   [
+    0.468,
+    0.0,
+    1.0,
+    0.532
+   ],
+   [
+    0.0,
+    0.468,
+    0.532,
+    1.0
+   ],
+   [
+    0.468,
+    0.468,
+    1.0,
+    1.0
+   ]
+  ]
+ },
+ "drawing_kind": "exploded_view",
+ "title": "",
+ "text_blocks": [
+  {
+   "id": "T1",
+   "text": "Outer lens",
+   "role": "component_label",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.015,
+    "x1": 0.797,
+    "y1": 0.052
+   }
+  },
+  {
+   "id": "T2",
+   "text": "red, within the chromaticity limits",
+   "role": "value_note",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.062,
+    "x1": 0.895,
+    "y1": 0.138
+   }
+  },
+  {
+   "id": "T3",
+   "text": "Retro-reflector",
+   "role": "component_label",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.154,
+    "x1": 0.859,
+    "y1": 0.192
+   }
+  },
+  {
+   "id": "T4",
+   "text": "reflectivity at 5° angle of incidence",
+   "role": "value_note",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.202,
+    "x1": 0.884,
+    "y1": 0.278
+   }
+  },
+  {
+   "id": "T5",
+   "text": "Seal / gasket",
+   "role": "component_label",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.294,
+    "x1": 0.834,
+    "y1": 0.332
+   }
+  },
+  {
+   "id": "T6",
+   "text": "no water ingress after the spray test",
+   "role": "value_note",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.342,
+    "x1": 0.907,
+    "y1": 0.418
+   }
+  },
+  {
+   "id": "T7",
+   "text": "Reflector",
+   "role": "component_label",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.433,
+    "x1": 0.785,
+    "y1": 0.471
+   }
+  },
+  {
+   "id": "T8",
+   "text": "rear position lamp: 4 to 17 cd on axis",
+   "role": "value_note",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.481,
+    "x1": 0.893,
+    "y1": 0.557
+   }
+  },
+  {
+   "id": "T9",
+   "text": "LED modules on PCB",
+   "role": "component_label",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.572,
+    "x1": 0.895,
+    "y1": 0.61
+   }
+  },
+  {
+   "id": "T10",
+   "text": "stop lamp: 60 to 185 cd on axis",
+   "role": "value_note",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.62,
+    "x1": 0.862,
+    "y1": 0.696
+   }
+  },
+  {
+   "id": "T11",
+   "text": "Housing",
+   "role": "component_label",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.711,
+    "x1": 0.762,
+    "y1": 0.749
+   }
+  },
+  {
+   "id": "T12",
+   "text": "reversing lamp visible to 45° outboard",
+   "role": "value_note",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.759,
+    "x1": 0.931,
+    "y1": 0.835
+   }
+  },
+  {
+   "id": "T13",
+   "text": "Fasteners / clips",
+   "role": "component_label",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.85,
+    "x1": 0.884,
+    "y1": 0.888
+   }
+  },
+  {
+   "id": "T14",
+   "text": "lamp stays aimed under vibration",
+   "role": "value_note",
+   "box": {
+    "x0": 0.673,
+    "y0": 0.898,
+    "x1": 0.862,
+    "y1": 0.974
+   }
+  }
+ ],
+ "components": [
+  {
+   "key": "C1",
+   "name": "Outer lens",
+   "callout_text": "Outer lens red, within the chromaticity limits",
+   "text_ids": [
+    "T1",
+    "T2"
+   ],
+   "values": [
+    {
+     "quantity": "colour",
+     "value": "red",
+     "unit": "",
+     "raw": "red, within the chromaticity limits"
+    },
+    {
+     "quantity": "chromaticity",
+     "value": "within the limits",
+     "unit": "",
+     "raw": "within the chromaticity limits"
+    }
+   ],
+   "function_hint": "lens colour within chromaticity limits",
+   "linked_by": "leader_line",
+   "region": {
+    "x0": 0.01,
+    "y0": 0.07,
+    "x1": 0.22,
+    "y1": 0.4
+   },
+   "confidence": "high"
+  },
+  {
+   "key": "C2",
+   "name": "Retro-reflector",
+   "callout_text": "Retro-reflector reflectivity at 5° angle of incidence",
+   "text_ids": [
+    "T3",
+    "T4"
+   ],
+   "values": [
+    {
+     "quantity": "angle of incidence",
+     "value": "5",
+     "unit": "°",
+     "raw": "reflectivity at 5° angle of incidence"
+    }
+   ],
+   "function_hint": "reflectivity requirement",
+   "linked_by": "leader_line",
+   "region": {
+    "x0": 0.21,
+    "y0": 0.22,
+    "x1": 0.26,
+    "y1": 0.31
+   },
+   "confidence": "high"
+  },
+  {
+   "key": "C3",
+   "name": "Seal / gasket",
+   "callout_text": "Seal / gasket no water ingress after the spray test",
+   "text_ids": [
+    "T5",
+    "T6"
+   ],
+   "values": [
+    {
+     "quantity": "test",
+     "value": "no water ingress",
+     "unit": "after the spray test",
+     "raw": "no water ingress after the spray test"
+    }
+   ],
+   "function_hint": "watertightness after spray test",
+   "linked_by": "leader_line",
+   "region": {
+    "x0": 0.1,
+    "y0": 0.2,
+    "x1": 0.31,
+    "y1": 0.54
+   },
+   "confidence": "high"
+  },
+  {
+   "key": "C4",
+   "name": "Reflector",
+   "callout_text": "Reflector rear position lamp: 4 to 17 cd on axis",
+   "text_ids": [
+    "T7",
+    "T8"
+   ],
+   "values": [
+    {
+     "quantity": "luminous intensity (rear position lamp)",
+     "value": "4 to 17",
+     "unit": "cd on axis",
+     "raw": "rear position lamp: 4 to 17 cd on axis"
+    }
+   ],
+   "function_hint": "rear position lamp intensity",
+   "linked_by": "leader_line",
+   "region": {
+    "x0": 0.17,
+    "y0": 0.3,
+    "x1": 0.37,
+    "y1": 0.62
+   },
+   "confidence": "medium"
+  },
+  {
+   "key": "C5",
+   "name": "LED modules on PCB",
+   "callout_text": "LED modules on PCB stop lamp: 60 to 185 cd on axis",
+   "text_ids": [
+    "T9",
+    "T10"
+   ],
+   "values": [
+    {
+     "quantity": "luminous intensity (stop lamp)",
+     "value": "60 to 185",
+     "unit": "cd on axis",
+     "raw": "stop lamp: 60 to 185 cd on axis"
+    }
+   ],
+   "function_hint": "stop lamp intensity",
+   "linked_by": "leader_line",
+   "region": {
+    "x0": 0.25,
+    "y0": 0.43,
+    "x1": 0.43,
+    "y1": 0.71
+   },
+   "confidence": "high"
+  },
+  {
+   "key": "C6",
+   "name": "Housing",
+   "callout_text": "Housing reversing lamp visible to 45° outboard",
+   "text_ids": [
+    "T11",
+    "T12"
+   ],
+   "values": [
+    {
+     "quantity": "visibility angle (reversing lamp)",
+     "value": "45",
+     "unit": "° outboard",
+     "raw": "reversing lamp visible to 45° outboard"
+    }
+   ],
+   "function_hint": "reversing lamp geometric visibility",
+   "linked_by": "leader_line",
+   "region": {
+    "x0": 0.29,
+    "y0": 0.49,
+    "x1": 0.51,
+    "y1": 0.84
+   },
+   "confidence": "medium"
+  },
+  {
+   "key": "C7",
+   "name": "Fasteners / clips",
+   "callout_text": "Fasteners / clips lamp stays aimed under vibration",
+   "text_ids": [
+    "T13",
+    "T14"
+   ],
+   "values": [
+    {
+     "quantity": "test",
+     "value": "stays aimed",
+     "unit": "under vibration",
+     "raw": "lamp stays aimed under vibration"
+    }
+   ],
+   "function_hint": "aim retention under vibration",
+   "linked_by": "leader_line",
+   "region": {
+    "x0": 0.36,
+    "y0": 0.59,
+    "x1": 0.57,
+    "y1": 0.91
+   },
+   "confidence": "high"
+  }
+ ],
+ "unlabelled_parts": [],
+ "legend": [],
+ "notes": []
+}

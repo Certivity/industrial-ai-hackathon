@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import difflib
 import math
+import os
 import re
 import threading
 from collections import Counter, defaultdict
@@ -17,6 +18,14 @@ from typing import Iterable
 
 from regcomp import corpus
 from regcomp.parse import ParsedDocument, parse_pdf
+
+
+def _parser():
+    """The structure parser: the hand-crafted rules, or with REGCOMP_PARSER=marker the generic marker lexer + stack parse."""
+    if os.environ.get("REGCOMP_PARSER", "rules") == "marker":
+        from regcomp.parse_marker import parse_pdf as marker_parse_pdf
+        return marker_parse_pdf
+    return parse_pdf
 
 CONTENT = ("para", "table")
 CHARS_PER_TOKEN = 3.3  # measured on the regulation text with the token counter: 2.3 for number-heavy text, about 4 for prose
@@ -143,7 +152,7 @@ class RegGraph:
             path = corpus.pdf_path(entry, role)
             if path is None:
                 raise FileNotFoundError(f"the {role} PDF of {reg} is not in regulations/data; run tools/fetch_regulations.py --out regulations/data")
-            doc = parse_pdf(path, grids=grids)
+            doc = _parser()(path, grids=grids)
         self.reg, self.role, self.title = reg, role, entry["title"]
         self.version = corpus.version_label(entry, role)
         self.doc = doc

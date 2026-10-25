@@ -1,0 +1,2126 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-ev-sound",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The vehicle shall not exceed a sound level of 68 dB(A) when measured in accordance with Annex 3 paragraph 3.1 and rounded to the nearest integer, where it is an M1 vehicle with PMR < 120 in phase 3.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The vehicle shall not exceed a sound level of 68 dB(A) for the phase 3 limit where the M1 vehicle has PMR < 120.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The vehicle shall not exceed a sound level of 69 dB(A) in phase 3 where the M1 vehicle has PMR between 120 and 160.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The vehicle shall be judged against the sound level limits with the measured value mathematically rounded to the nearest integer value.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The vehicle shall be able to be measured either indoors or outdoors by the methods described in Annex 3, with the results of the outdoor and indoor tests deemed equivalent.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.1.1"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The vehicle shall have its emitted sound measured only in motion where it is a vehicle whose internal combustion engine cannot operate when the vehicle is stationary; when an internal combustion engine cannot operate when the vehicle is stationary, the emitted sound shall only be measured in motion.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.1.1"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "For a category M1 hybrid electric vehicle in which the internal combustion engine cannot operate when the vehicle is stationary, the emitted sound shall be measured according to Annex 3, paragraph 4.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.1.1"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "The acoustic vehicle alerting system shall be operational during the type-approval test.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 9,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The vehicle shall not deviate significantly from the type-approval test result in exterior sound emission under typical on-road driving conditions different from those of the Annex 3 and Annex 7 tests.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 9,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "The AVAS shall not include any mechanical, electrical, thermal or other device or procedure introduced solely to fulfil the sound emission requirements which is not operational during typical on-road operation.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 9,
+        "paragraph": "6.2.3.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The vehicle shall meet the additional sound emission provisions of Annex 7.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 9,
+        "paragraph": "6.2.3.2"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The AVAS and its mounting shall be designed, constructed and assembled so that the vehicle complies with this Regulation in normal use despite the vibration to which it is subjected.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "The sound reduction system components shall be able to reasonably resist the corrosive phenomena to which they are exposed, including regional climate differences, and resist manipulation.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "The components of the sound reduction system, excluding fixing hardware and piping, shall bear the manufacturer's identification markings.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 7,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The AVAS components shall bear the trade name or mark of the manufacturer of the sound reduction system and of its components.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 7,
+        "paragraph": "4.1.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "The AVAS components shall bear the manufacturer's trade description.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 7,
+        "paragraph": "4.1.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The markings on the sound reduction system components shall be clearly legible and indelible even after fitting.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 7,
+        "paragraph": "4.2"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The vehicle's approval mark shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The vehicle shall be affixed with an international approval mark conspicuously and in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "For verification of the AVAS sound level, the apparatus used for measuring the sound level shall be a precision sound-level meter or equivalent system meeting Class 1 requirements of IEC 61672-1:2002.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 16,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "Sound level measurements of the vehicle shall be carried out using the fast response and the A weighting curve of IEC 61672-1:2002.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 16,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "At the beginning and end of every measurement session the entire acoustic measurement system shall be checked with a sound calibrator meeting at least Class 1 of IEC 60942:2003.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 16,
+        "paragraph": "Annex 3 1.2"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The difference between the readings of two consecutive calibration checks shall be less than or equal to 0.5 dB without any further adjustment.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 16,
+        "paragraph": "Annex 3 1.2"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The road speed input to the AVAS shall be capable of being measured with a continuous speed measuring device having an accuracy of at least ±0.5 km/h.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 16,
+        "paragraph": "Annex 3 1.4"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The AVAS shall be testable and remain functional when the ambient air temperature is within 5 °C to 40 °C and the test surface temperature within 5 °C to 60 °C.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 17,
+        "paragraph": "Annex 3 2.1.3.2.2"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The AVAS sound measurement shall not be carried out if the wind speed including gusts at microphone height exceeds 5 m/s during the measurement interval.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 17,
+        "paragraph": "Annex 3 2.1.3.2.3"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The AVAS-generated sound level shall be at least 10 dB(A) above the background noise including wind noise during the measurement.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 17,
+        "paragraph": "Annex 3 2.1.3.2.4"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "The propulsion battery shall have a state of charge sufficiently high to enable all key functionalities according to the manufacturer's specifications during the test.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 2.2.3.2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The AVAS shall operate as foreseen by the vehicle manufacturer and shall not be interfered with during the sound measurements.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 2.2.3.3"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "At least four valid measurements shall be made on each side of the vehicle for each test condition, with preliminary adjustment measurements disregarded.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.1"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "For outdoor testing the AVAS sound shall be measured with microphones located on both sides of the pathway at 7.5 m ± 0.05 m from line CC' and 1.2 m ± 0.02 m above the ground.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.1"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The vehicle shall be driven at a test speed of 50 km/h ± 1 km/h during the pass-by measurement, the test speed being reached when the reference point is at line PP'.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.2.1"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "For a battery electric vehicle with only one gear ratio, the gear selector position for forward driving shall be used for the test.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.1.2.1.4.3"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The achieved acceleration awot test of the battery electric vehicle during the acceleration test shall be greater than or equal to aurban.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.1.2.1.4.3"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "Where possible, the vehicle shall be provided with measures to avoid an acceleration value awot test greater than 2.0 m/s².",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.1.2.1.4.3"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "During the acceleration test the accelerator shall be kept fully depressed until the rear of the vehicle reaches line BB'.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.1.2.1.5"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The constant speed test shall be carried out at a constant speed of 50 km/h with a tolerance of ±1 km/h between lines AA' and BB'.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 23,
+        "paragraph": "Annex 3 3.1.2.1.6"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The first four valid consecutive measurement results within 2 dB(A) shall be used for the calculation of the sound result.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 25,
+        "paragraph": "Annex 3 3.1.3.3"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The final Lurban value shall be the higher of the two sides' values, mathematically rounded to the nearest integer.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 25,
+        "paragraph": "Annex 3 3.1.3.4.1.2"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The stationary sound level measurement results shall be documented to enable comparison with the type-approval value.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 26,
+        "paragraph": "Annex 3 3.2.1"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "At least three measurements shall be taken at each measuring point for the stationary sound measurement.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 26,
+        "paragraph": "Annex 3 3.2.5.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "Where the vehicle is fitted with a compressed air brake system and has a maximum mass above 2,800 kg, the compressed air noise shall not exceed 72 dB(A).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 48,
+        "paragraph": "Annex 5 3"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The AVAS and vehicle shall be evaluated within the ASEP control range where the vehicle acceleration aWOT does not exceed 5.0 m/s².",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 50,
+        "paragraph": "Annex 7 2.3"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "During the ASEP assessment, acceleration shall be calculated between AA' and BB' where the ratio awot_test,PP-BB / awot_test,AA-BB does not exceed 1.20.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 50,
+        "paragraph": "Annex 7 2.4"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The slope of the regression line for each gear ratio used in the ASEP calculation shall not be higher than 5 dB(A)/1,000 min⁻¹.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 51,
+        "paragraph": "Annex 7 3.2.2"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The sound level of the vehicle at every specified ASEP measurement point shall not exceed the ASEP limit Lκj ≤ LASEP_κ.j + x.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 3.5"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "When the Lurban assessment method is used, the deviation ΔLurban_ASEP shall be less than or equal to 3.0 dB(A) + limit value - Lurban.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 4.2.2"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "For a category M1 vehicle, the reference sound level Lref shall be less than or equal to 76 dB(A).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 53,
+        "paragraph": "Annex 7 5.4"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "When the vehicle is tested indoors, the remaining tyre/road sound shall be at least 10 dB below the maximum A-weighted sound pressure level produced by the vehicle.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 56,
+        "paragraph": "Annex 8 2.2"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "A battery electric vehicle equipped with the AVAS solely to fulfil UN Regulation No. 138 shall be exempted from RD-ASEP, provided the AVAS does not emit more than 75 dB(A) at 2 m under any operating condition exceeding the UN Regulation No. 138 specification range.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 57,
+        "paragraph": "Annex 9 1.2"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The AVAS shall not emit a sound pressure level exceeding 75 dB(A) measured at 2 m under any operation condition exceeding the specification range of UN Regulation No. 138.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 57,
+        "paragraph": "Annex 9 1.2"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The AVAS and its electrical/electronic systems shall be designed, constructed and fitted so that the vehicle complies with UN R10 in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "The AVAS controller as an ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The vehicle shall be tested for radiated emissions and immunity to radiated disturbances, without conducted emission or immunity tests for the vehicle type approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "At a 10.0 ± 0.2 m antenna spacing, the vehicle broadband radiated emission shall not exceed 32 dBµV/m from 30 to 75 MHz and 32 to 43 dBµV/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "The vehicle broadband radiated emission shall not exceed 43 dBµV/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "At a 3.0 ± 0.05 m antenna spacing, the vehicle broadband radiated emission shall not exceed 42 dBµV/m from 30 to 75 MHz and 42 to 53 dBµV/m from 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "At a 10.0 ± 0.2 m antenna spacing, the vehicle narrowband radiated emission shall not exceed 28 dBµV/m from 30 to 230 MHz and 35 dBµV/m from 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "At a 3.0 ± 0.05 m antenna spacing, the vehicle narrowband radiated emission shall not exceed 38 dBµV/m from 30 to 230 MHz and 45 dBµV/m from 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "The measured vehicle narrowband emission values, expressed in dBµV/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.3"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The vehicle shall withstand a radiated field strength of 30 V/m over 90 per cent of the 20 to 2,000 MHz band and a minimum of 25 V/m over the whole band without degradation of immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The vehicle shall withstand a radiated field strength of 10 V/m over 90 per cent of the 2,000 to 6,000 MHz band and a minimum of 8 V/m over the whole band without degradation of immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "When tested by the BCI method, the vehicle shall withstand a current of 60 mA over 90 per cent of the 20 to 2,000 MHz band and a minimum of 50 mA over the whole band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The AVAS shall show no degradation of performance of its immunity related functions, including the sound generation and the fault warning, during the vehicle immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The ESA broadband radiated emission shall not exceed 62 to 52 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically with frequency above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "The ESA broadband radiated emission shall not exceed 52 to 63 dBµV/m in the 75 to 400 MHz band, increasing logarithmically above 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The ESA broadband radiated emission shall not exceed 63 dBµV/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The ESA narrowband radiated emission shall not exceed 52 to 42 dBµV/m in the 30 to 75 MHz band, decreasing logarithmically with frequency above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The ESA narrowband radiated emission shall not exceed 53 dBµV/m in the 400 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The AVAS controller on a 12 V system shall not emit transient conducted disturbances on the supply lines with a positive pulse amplitude exceeding +75 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The AVAS controller on a 12 V system shall not emit transient conducted disturbances on the supply lines with a negative pulse amplitude exceeding -100 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "The AVAS controller shall withstand a BCI immunity test level of 60 mA over 90 per cent of the 20 to 400 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The AVAS controller shall withstand an ALSE immunity test level of 30 V/m from 80 to 2,000 MHz over 90 per cent of the band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The AVAS controller shall withstand a stripline immunity test level of 60 V/m from 20 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The AVAS controller shall withstand an ALSE immunity test level of 10 V/m from 2,000 to 6,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The AVAS controller shall show no degradation of performance of its immunity related functions during the ESA immunity tests.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The AVAS controller on a 12 V system shall withstand test pulse 1 at -75 V for 500 pulses with functional status III.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The AVAS controller on a 12 V system shall withstand test pulse 2a at +37 V for 500 pulses with functional status I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The AVAS controller on a 12 V system shall withstand test pulse 2b at +10 V for 10 pulses with functional status II for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The AVAS controller on a 12 V system shall withstand test pulse 3a at -112 V for 1 hour with functional status I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The AVAS controller on a 12 V system shall withstand test pulse 3b at +75 V for 1 hour with functional status I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "Where the AVAS controller does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with the narrowband emission limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "Where the AVAS includes an RF transmitter it shall be tested in transmit mode, with wanted emissions within the necessary bandwidth disregarded and spurious emissions subject to the Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The AVAS controller, approved as an ESA, shall be affixed with the approval mark described in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The approval mark shall show the number of this Regulation, the letter R, a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The approval markings on the AVAS controller need not be visible when the controller is installed in the vehicle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The characters of the AVAS controller's approval mark shall have a minimum height of 6 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The vehicle shall be tested in an operating state in which the AVAS function and sound are active during the vehicle immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 74,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "The AVAS shall not exhibit a loss of function, loss of sound or spurious system error indicator during the vehicle immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 74,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The vehicle shall be in an unladen condition except for necessary test equipment during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The driving wheels shall be turned at a steady speed of 50 km/h during the vehicle immunity test where no technical reason requires a different condition.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 72,
+        "paragraph": "Annex 6 2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency range in vertical polarization during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "The immunity test signal shall be amplitude modulated with 1 kHz and 80 per cent modulation depth in the 20 to 400 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The immunity test signal shall use PM3 modulation with Ton 500 µs and period 1,000 µs in the 380 to 2,700 MHz and 3,100 to 6,000 MHz ranges.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The ESA emission limits shall apply throughout the 30 to 1,000 MHz frequency range for measurements in an ALSE or OATS.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.1"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "Where peak detectors are used for the ESA emission measurement, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.2"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The AVAS controller shall be in normal operation mode, preferably at maximum load, during the emission measurement.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The extraneous noise or signal during the AVAS controller narrowband measurement shall be at least 6 dB below the interference limits of paragraph 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The AVAS controller immunity measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The AVAS controller shall be switched on and stimulated to be in normal operation condition during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "Where the BCI immunity test is performed on the AVAS controller, the injection probe shall be positioned at 150 mm distance from the ESA when the substitution method is used.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "The AVAS controller shall be subjected to test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 on the supply lines and on other connections operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The AVAS controller, being reserved for a battery electric vehicle without a 12 V/24 V starter motor, shall not be subject to the starting profile test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The AVAS controller, powered by low voltage, shall be tested using a 5 µH / 50 Ω artificial network as defined in Figure 1 of Appendix 8.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 35,
+        "paragraph": "Appendix 8 1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The artificial network used for testing the AVAS controller shall be mounted directly on the ground plane with its grounding connection bonded to the ground plane.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 35,
+        "paragraph": "Appendix 8 1"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "Where high voltage live parts of the AVAS are located inside the passenger or luggage compartment, the protection degree IPXXD shall be provided.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.1"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "Where high voltage live parts of the AVAS are located outside the passenger and luggage compartments, the protection degree IPXXB shall be provided.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.2"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The symbol shown in Figure 2 shall be present on or near high voltage AVAS components, with a yellow background and black bordering and arrow.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.4.1"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The high voltage symbol shall be visible on AVAS enclosures and electrical protection barriers which, when removed, expose live parts of high voltage circuits.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 8,
+        "paragraph": "5.1.1.4.2"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "High voltage cables of the AVAS which are not located within enclosures shall be identified by an orange outer covering.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.1.4.3"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The resistance between all exposed conductive parts of the AVAS and the electrical chassis shall be lower than 0.1 Ω at a current flow of at least 0.2 A.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.2.2"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The resistance between any two simultaneously reachable exposed conductive parts of the AVAS that are less than 2.5 m apart shall not exceed 0.2 Ω.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.2.2"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The vehicle shall provide a warning to the driver when in active driving possible mode in the event of an operational failure of the vehicle controls managing safe operation of the REESS.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "Where the AVAS-linked warning is optical, the tell-tale shall, when illuminated, be sufficiently bright to be visible to the driver under both daylight and night-time driving conditions.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The warning tell-tale shall be activated as a lamp function check when the propulsion system is turned to the On position or to a designated check position between On and Start.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The pure electric vehicle shall provide a warning to the driver in the event of low REESS state of charge.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.2.4"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The vehicle shall give at least a momentary indication to the driver each time it is first placed in active driving possible mode after manual activation of the propulsion system.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "When leaving the vehicle, the driver shall be informed by a signal if the vehicle is still in the active driving possible mode.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 12,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "The vehicle shall be prevented from moving by its own propulsion system as long as the vehicle connector is physically connected to the vehicle inlet.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 12,
+        "paragraph": "5.3.3"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The state of the drive direction control unit, which determines whether the forward or reverse alerting sound is emitted, shall be identified to the driver.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 12,
+        "paragraph": "5.3.4"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The vehicle and the AVAS high voltage components shall maintain isolation resistance after exposure to water such as washing and driving through standing water.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 10,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "Where an isolation resistance monitoring system is provided and an isolation resistance below the requirements of paragraph 5.1.3. is detected, a warning shall be indicated to the driver.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 11,
+        "paragraph": "5.1.4.4"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "Where the AVAS high voltage DC bus is galvanically isolated from the AC bus, the isolation resistance between the high voltage bus and the electrical chassis shall be at least 100 Ω/V of the working voltage.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.3.1"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "Where the AVAS AC and DC high voltage buses are galvanically connected, the isolation resistance between the high voltage bus and the electrical chassis shall be at least 500 Ω/V of the working voltage.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 9,
+        "paragraph": "5.1.3.2"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "The approval mark on the vehicle or REESS shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 6,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "In the case of the vehicle, the approval mark shall be placed on or close to the vehicle data plate affixed by the manufacturer.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 6,
+        "paragraph": "4.6.1"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "The vehicle shall be affixed with an international approval mark conspicuously and in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 6,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "The characters of the approval mark shall have a minimum height of 8 mm.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 33,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The access probe shall not touch the live parts of the AVAS when tested for protection against direct contact.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 34,
+        "paragraph": "Annex 3 3"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "For IPXXB verification of the AVAS enclosures, the jointed test finger may penetrate to its 80 mm length but the stop face of 50 mm × 20 mm shall not pass through the opening.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 34,
+        "paragraph": "Annex 3 3"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "For IPXXD verification of the AVAS enclosures, the access probe may penetrate to its full length but the stop face shall not fully penetrate through the opening.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 34,
+        "paragraph": "Annex 3 3"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "The resistance tester used to verify potential equalization of the AVAS shall provide a measurement current of at least 0.2 A.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 36,
+        "paragraph": "Annex 4 1"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "The resistance tester used to verify potential equalization of the AVAS shall have a resolution of 0.01 Ω or less.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 36,
+        "paragraph": "Annex 4 1"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "The measured resistance between exposed conductive parts of the AVAS and the electrical chassis shall be less than 0.1 Ω.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 36,
+        "paragraph": "Annex 4 1"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "The SOC adjustment of the REESS shall be conducted at an ambient temperature of 20 ± 10 °C for vehicle-based tests and 22 ± 5 °C for component-based tests.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 59,
+        "paragraph": "Annex 9 Appendix 2 1"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "The standard cycle applied to the REESS shall be conducted at an ambient temperature of 20 ± 10 °C.",
+      "source": {
+        "regulation": "UN R100",
+        "version": "5.0.0",
+        "page": 59,
+        "paragraph": "Annex 9 Appendix 1"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "The lighting and light-signalling devices shall be fitted so that, under normal conditions of use and despite vibration, they retain the prescribed characteristics and enable the vehicle to comply with UN R48.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "The reference axis of each light-signalling lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road, with a tolerance of ±3° in each direction.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "Lamps constituting a pair shall be fitted to the vehicle symmetrically in relation to the median longitudinal plane.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.1"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "Lamps constituting a pair shall be symmetrical to one another in relation to the median longitudinal plane, except with regard to their interior structure.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "Lamps constituting a pair shall satisfy the same colorimetric requirements.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.3"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "Lamps constituting a pair shall have substantially identical photometric characteristics.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 19,
+        "paragraph": "5.5.4"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "Red light emitted by a lamp fitted on the rear of the vehicle shall not be visible from the front of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.10.1"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "White light emitted by a lamp fitted on the front of the vehicle shall not be visible from the rear of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 21,
+        "paragraph": "5.10.2"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "The electrical connections shall be such that the front and rear position lamps, side-marker lamps if fitted, and the rear registration plate lamp can only be switched on and off simultaneously.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.11"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "The electrical connections shall be such that the main-beam and dipped-beam headlamps and front fog lamps cannot be switched on unless the lamps of paragraph 5.11 are also switched on.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 22,
+        "paragraph": "5.12"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "The reversing lamp shall emit white light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "The direction-indicator lamp shall emit amber light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "The stop lamp shall emit red light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "The rear position lamp shall emit red light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0152",
+      "text": "The daytime running lamp shall emit white light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 24,
+        "paragraph": "5.15"
+      }
+    },
+    {
+      "id": "G-0153",
+      "text": "The number of lamps mounted on the vehicle shall be equal to the number indicated in the individual specifications of this Regulation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 24,
+        "paragraph": "5.16.1"
+      }
+    },
+    {
+      "id": "G-0154",
+      "text": "All lamps installed on the vehicle shall, where applicable, be type approved according to the corresponding device Regulations specified in paragraph 6.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 28,
+        "paragraph": "5.30"
+      }
+    },
+    {
+      "id": "G-0155",
+      "text": "A main-beam headlamp shall be fitted as mandatory on the motor vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 30,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0156",
+      "text": "Two main-beam headlamps shall be fitted, type approved according to Class B of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 30,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0157",
+      "text": "The main-beam headlamps may be switched on only when the dipped-beam headlamps are manually activated or the conditions for automatic switching on of dipped-beam headlamps exist, except for intermittent luminous warnings.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 30,
+        "paragraph": "6.1.7.1"
+      }
+    },
+    {
+      "id": "G-0158",
+      "text": "The reference value corresponding to the aggregate maximum intensity of the main-beam headlamps that can be switched on simultaneously shall not exceed 100.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 31,
+        "paragraph": "6.1.9.1"
+      }
+    },
+    {
+      "id": "G-0159",
+      "text": "The maximum intensity of the main-beam headlamps shall be obtained by adding together the individual reference marks indicated on the several headlamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 31,
+        "paragraph": "6.1.9.2"
+      }
+    },
+    {
+      "id": "G-0160",
+      "text": "A dipped-beam headlamp shall be fitted as mandatory on the motor vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 32,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0161",
+      "text": "Two dipped-beam headlamps shall be fitted, type approved according to Class C of the 01 or subsequent series of amendments to UN Regulation No. 149.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 32,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0162",
+      "text": "The dipped-beam headlamps shall be mounted at a height of not less than 500 mm and not more than 1,200 mm above the ground.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 33,
+        "paragraph": "6.2.4.2"
+      }
+    },
+    {
+      "id": "G-0163",
+      "text": "The geometric visibility of the dipped-beam headlamps shall be ensured within a vertical angle of 15° upwards and 10° downwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 33,
+        "paragraph": "6.2.5"
+      }
+    },
+    {
+      "id": "G-0164",
+      "text": "The geometric visibility of the dipped-beam headlamps shall be ensured within a horizontal angle of 45° outwards and 10° inwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 33,
+        "paragraph": "6.2.5"
+      }
+    },
+    {
+      "id": "G-0165",
+      "text": "The initial downward inclination of the dipped-beam cut-off shall be set in the unladen vehicle state with one person in the driver's seat.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 33,
+        "paragraph": "6.2.6.1.1"
+      }
+    },
+    {
+      "id": "G-0166",
+      "text": "The dipped-beam headlamps shall be switched on and off automatically relative to the ambient light conditions according to Annex 13.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 35,
+        "paragraph": "6.2.7.5"
+      }
+    },
+    {
+      "id": "G-0167",
+      "text": "It shall always be possible to switch the dipped-beam headlamps on manually.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 36,
+        "paragraph": "6.2.7.6"
+      }
+    },
+    {
+      "id": "G-0168",
+      "text": "A reversing lamp shall be fitted as mandatory on the motor vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "G-0169",
+      "text": "One reversing lamp shall be mandatory and a second optional on an M1 vehicle with a length not exceeding 6,000 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0170",
+      "text": "The reversing lamp shall be mounted at a height of not less than 250 mm and not more than 1,200 mm above the ground.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 39,
+        "paragraph": "6.4.4.2"
+      }
+    },
+    {
+      "id": "G-0171",
+      "text": "The reversing lamp shall be connected such that it can be switched on only if the reverse gear is engaged and the propulsion system is in a position permitting its operation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.4.7.1"
+      }
+    },
+    {
+      "id": "G-0172",
+      "text": "Direction-indicator lamps shall be fitted as mandatory.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0173",
+      "text": "The direction-indicator lamps shall be type approved according to the 01 or subsequent series of amendments to UN Regulation No. 6, or the 00 or subsequent series of amendments to UN Regulation No. 148.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 40,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "G-0174",
+      "text": "The height of the direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b shall not be less than 350 mm and not more than 1,500 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 42,
+        "paragraph": "6.5.4.2.2"
+      }
+    },
+    {
+      "id": "G-0175",
+      "text": "All direction-indicator lamps on one side of the vehicle shall be switched on and off by one control and shall flash in phase.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.7"
+      }
+    },
+    {
+      "id": "G-0176",
+      "text": "An operating tell-tale shall be mandatory for the direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b and may be visual, auditory or both.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.8"
+      }
+    },
+    {
+      "id": "G-0177",
+      "text": "The direction-indicator light shall flash 90 ± 30 times per minute.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.9"
+      }
+    },
+    {
+      "id": "G-0178",
+      "text": "Operation of the direction-indicator control shall be followed within not more than one second by emission of light and within not more than one and a half seconds by its first extinction.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.5.9"
+      }
+    },
+    {
+      "id": "G-0179",
+      "text": "The hazard warning signal shall be given by simultaneous operation of the direction-indicator lamps in accordance with paragraph 6.5.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 44,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0180",
+      "text": "The hazard warning signal shall be operated by a separate manual control enabling all direction-indicator lamps to flash in phase.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.6.7.1"
+      }
+    },
+    {
+      "id": "G-0181",
+      "text": "The hazard warning signal shall function even if the device that starts or stops the propulsion system is in a position making propulsion impossible.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.6.9"
+      }
+    },
+    {
+      "id": "G-0182",
+      "text": "Stop lamps of category S1 or S2 shall be fitted as mandatory.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "G-0183",
+      "text": "A stop lamp of category S3 or S4 shall be fitted as mandatory on the M1 vehicle, except for chassis-cabs and N1 vehicles with open cargo space.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 45,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "G-0184",
+      "text": "Stop lamps of categories S1 or S2 shall be mounted at a height above the ground of not less than 350 mm and not more than 1,500 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 46,
+        "paragraph": "6.7.4.2.1"
+      }
+    },
+    {
+      "id": "G-0185",
+      "text": "All stop lamps shall be switched on simultaneously when the braking system provides the relevant signal defined in UN Regulations Nos. 13 and 13-H.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 47,
+        "paragraph": "6.7.7.1"
+      }
+    },
+    {
+      "id": "G-0186",
+      "text": "A rear registration plate lamp shall be fitted as mandatory.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 47,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "G-0187",
+      "text": "Front position lamps shall be fitted as mandatory on the motor vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 48,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0188",
+      "text": "Two front position lamps shall be fitted, type approved according to the 02 or subsequent series of amendments to UN Regulation No. 7, or the 00 or subsequent series of UN Regulation No. 148.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 48,
+        "paragraph": "6.9.2"
+      }
+    },
+    {
+      "id": "G-0189",
+      "text": "The front position lamps shall be mounted at a height above the ground of not less than 250 mm and not more than 1,500 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 49,
+        "paragraph": "6.9.4.2"
+      }
+    },
+    {
+      "id": "G-0190",
+      "text": "The geometric visibility of the front position lamps shall be ensured within a horizontal angle of 45° inwards and 80° outwards.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 49,
+        "paragraph": "6.9.5.1"
+      }
+    },
+    {
+      "id": "G-0191",
+      "text": "A closed-circuit tell-tale shall be mandatory for the front position lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 49,
+        "paragraph": "6.9.8"
+      }
+    },
+    {
+      "id": "G-0192",
+      "text": "Rear position lamps of category R, R1 or R2 shall be fitted as mandatory.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 50,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0193",
+      "text": "The rear position lamps shall be mounted at a height above the ground of not less than 350 mm and not more than 1,500 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 50,
+        "paragraph": "6.10.4.2"
+      }
+    },
+    {
+      "id": "G-0194",
+      "text": "A closed-circuit tell-tale shall be mandatory for the rear position lamps and shall be combined with that of the front position lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.10.8"
+      }
+    },
+    {
+      "id": "G-0195",
+      "text": "A rear fog lamp of category F, F1 or F2 shall be fitted as mandatory.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11.1"
+      }
+    },
+    {
+      "id": "G-0196",
+      "text": "The rear fog lamp shall be mounted at a height of not less than 250 mm and not more than 1,000 mm above the ground.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 51,
+        "paragraph": "6.11.4.2"
+      }
+    },
+    {
+      "id": "G-0197",
+      "text": "The rear fog lamp shall not be switchable on unless the main beams, dipped beams or front fog lamps are switched on.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.7.1"
+      }
+    },
+    {
+      "id": "G-0198",
+      "text": "A closed-circuit tell-tale shall be mandatory for the rear fog lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.8"
+      }
+    },
+    {
+      "id": "G-0199",
+      "text": "The distance between the rear fog lamp and each stop lamp shall be greater than 100 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 52,
+        "paragraph": "6.11.9"
+      }
+    },
+    {
+      "id": "G-0200",
+      "text": "Side retro-reflectors shall be mandatory on the motor vehicle where its length exceeds 6 m.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.17.1"
+      }
+    },
+    {
+      "id": "G-0201",
+      "text": "Daytime running lamps shall be fitted as mandatory on the motor vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 60,
+        "paragraph": "6.19.1"
+      }
+    },
+    {
+      "id": "G-0202",
+      "text": "Two daytime running lamps shall be fitted, type approved according to the 00 or subsequent series of amendments to UN Regulation No. 87, or the 00 or subsequent series of UN Regulation No. 148.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 60,
+        "paragraph": "6.19.2"
+      }
+    },
+    {
+      "id": "G-0203",
+      "text": "The daytime running lamps shall be mounted at a height above the ground of not less than 250 mm and not more than 1,500 mm.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 60,
+        "paragraph": "6.19.4.2"
+      }
+    },
+    {
+      "id": "G-0204",
+      "text": "The daytime running lamps shall be switched on automatically when the propulsion system is set in a position permitting its operation, unless the front fog lamps or headlamps are on or automatic dipped-beam conditions exist.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 60,
+        "paragraph": "6.19.7.1"
+      }
+    },
+    {
+      "id": "G-0205",
+      "text": "The daytime running lamps shall switch off automatically when the propulsion system is set in a position making its operation impossible.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 61,
+        "paragraph": "6.19.7.4"
+      }
+    },
+    {
+      "id": "G-0206",
+      "text": "Conspicuity markings shall be prohibited on the M1 vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.21.1.1"
+      }
+    },
+    {
+      "id": "G-0207",
+      "text": "The emergency stop signal shall be mandatory on the motor vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 75,
+        "paragraph": "6.23.1"
+      }
+    },
+    {
+      "id": "G-0208",
+      "text": "All lamps of the emergency stop signal shall flash in phase at a frequency of 4.0 ± 1.0 Hz.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 75,
+        "paragraph": "6.23.7.1"
+      }
+    },
+    {
+      "id": "G-0209",
+      "text": "The emergency stop signal shall be switched on and off automatically.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 75,
+        "paragraph": "6.23.7.3"
+      }
+    },
+    {
+      "id": "G-0210",
+      "text": "The emergency stop signal shall be switched on only when the vehicle speed is above 50 km/h and the braking system provides the emergency braking logic signal defined in UN Regulations Nos. 13 and 13-H.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 75,
+        "paragraph": "6.23.7.3.1"
+      }
+    },
+    {
+      "id": "G-0211",
+      "text": "The dipped-beam headlamps shall switch on within no more than 2 seconds when the ambient light outside the vehicle falls below 1,000 lux.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 119,
+        "paragraph": "Annex 13"
+      }
+    },
+    {
+      "id": "G-0212",
+      "text": "The dipped-beam headlamps shall switch off in more than 5 seconds but no more than 300 seconds when the ambient light exceeds 7,000 lux.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 119,
+        "paragraph": "Annex 13"
+      }
+    }
+  ]
+}

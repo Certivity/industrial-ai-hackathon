@@ -1,0 +1,11 @@
+{
+  "regulation": "UN R10",
+  "base_version": "7.2.0",
+  "latest_version": "7.3.0",
+  "base_pdf": "regulations/data/UN_R10/base/UN_R10_base.pdf",
+  "latest_pdf": "regulations/data/UN_R10/latest/UN_R10_latest.pdf",
+  "window": [
+    "6"
+  ],
+  "trap": "almost everything unchanged; only added paragraphs (every unchanged requirement is a false-flag risk)"
+}

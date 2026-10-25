@@ -1,0 +1,161 @@
+{
+  "case": "ts-ev-sound",
+  "reused": true,
+  "run": "runs/ts-ev-sound/a2-default",
+  "agent_cost_usd": 2.901,
+  "validate_strict": {
+    "ok": true,
+    "message": "OK: submission.json is valid (104 requirements)."
+  },
+  "score_local": {
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "n_submitted": 2,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.5556
+    },
+    "page_level": {
+      "precision": 0.7619047619047619,
+      "recall": 0.21333333333333335,
+      "f1": 0.3333333333333333,
+      "n_submitted": 21,
+      "n_expected": 75,
+      "n_matched": 16,
+      "f2": 0.2492
+    }
+  },
+  "taxonomy": {
+    "gold_regulations": {
+      "UN R10": 54,
+      "UN R100": 31,
+      "UN R48": 75,
+      "UN R51": 52
+    },
+    "run_regulations": {
+      "UN R10": 60,
+      "UN R51": 44
+    },
+    "wrong_regulations": [],
+    "missed_regulations": [
+      "UN R100",
+      "UN R48"
+    ],
+    "paragraphs": {
+      "UN R10": {
+        "gold": 35,
+        "cited": 36,
+        "hit": 22,
+        "missed": 13,
+        "extra": 14
+      },
+      "UN R51": {
+        "gold": 40,
+        "cited": 18,
+        "hit": 10,
+        "missed": 30,
+        "extra": 8
+      }
+    }
+  },
+  "n_gold": 212,
+  "n_submitted": 104,
+  "funnel": {
+    "sections": {
+      "gold_requirements_reachable": "92/212",
+      "recall": 0.434,
+      "selected_provisions": 552,
+      "gold_nodes_reached": "64/162",
+      "node_precision": 0.116,
+      "by_regulation": {
+        "UN R10": {
+          "selected": 195,
+          "gold_nodes_reached": 30,
+          "gold_nodes": 34,
+          "requirements_reachable": 46,
+          "requirements": 54
+        },
+        "UN R100": {
+          "selected": 0,
+          "gold_nodes_reached": 0,
+          "gold_nodes": 22,
+          "requirements_reachable": 0,
+          "requirements": 31
+        },
+        "UN R48": {
+          "selected": 0,
+          "gold_nodes_reached": 0,
+          "gold_nodes": 66,
+          "requirements_reachable": 0,
+          "requirements": 75
+        },
+        "UN R51": {
+          "selected": 357,
+          "gold_nodes_reached": 34,
+          "gold_nodes": 40,
+          "requirements_reachable": 46,
+          "requirements": 52
+        }
+      },
+      "by_category": {
+        "marking": {
+          "selected": 16,
+          "gold_nodes": 7,
+          "selections": 2,
+          "match_rate": 0.438
+        },
+        "general": {
+          "selected": 75,
+          "gold_nodes": 25,
+          "selections": 2,
+          "match_rate": 0.333
+        },
+        "conformity": {
+          "selected": 17,
+          "gold_nodes": 0,
+          "selections": 3,
+          "match_rate": 0.0
+        },
+        "test": {
+          "selected": 422,
+          "gold_nodes": 32,
+          "selections": 11,
+          "match_rate": 0.076
+        },
+        "other": {
+          "selected": 22,
+          "gold_nodes": 0,
+          "selections": 1,
+          "match_rate": 0.0
+        }
+      }
+    },
+    "extraction": {
+      "candidates": 974,
+      "by_status": {
+        "dropped:addressee": 694,
+        "emitted": 104,
+        "dropped:modality": 100,
+        "dropped:applies": 58,
+        "dropped:kind": 8,
+        "rejected:quote": 3,
+        "dropped:duplicate": 1,
+        "dropped:page": 6
+      },
+      "grounded": 971,
+      "reassigned": 0,
+      "gold_with_a_candidate_at_its_node": "92/212"
+    }
+  },
+  "paragraph_level": {
+    "precision": 0.593,
+    "recall": 0.193,
+    "f1": 0.291,
+    "f2": 0.223,
+    "submitted": 54,
+    "expected": 166,
+    "matched": 32
+  }
+}

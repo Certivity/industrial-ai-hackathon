@@ -1,0 +1,46 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r10-emc-few-changes",
+  "changes": [
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles equipped with an ADS, in the case where the ADS cannot be fully activated or function normally within the EMC (laboratory) test environment, the manufacturer, in agreement with the Type Approval Authority, shall propose alternative methods and/or test configurations, to ensure the ADS is evaluated in a manner which is representative of its intended on-road operation and to demonstrate compliance with the provisions of this Regulation.",
+      "reason": "Paragraph 6.11.3 of UN R10 is new in version 7.3.0: 'For vehicles equipped with an ADS, in the case where the ADS cannot be fully activated or function…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "6.11.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The methods used shall be subject to agreement by the Type Approval Authority and shall be recorded and described in the test report.",
+      "reason": "Paragraph 6.11.3 of UN R10 is new in version 7.3.0: 'For vehicles equipped with an ADS, in the case where the ADS cannot be fully activated or function…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "6.11.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "An alternative method using ESA immunity to external sources according to Annex 9, which may include the evaluation of multiple modules to enable a system-level test, does not require E-marking of the concerned ESA.",
+      "reason": "Paragraph 6.11.3 of UN R10 is new in version 7.3.0: 'For vehicles equipped with an ADS, in the case where the ADS cannot be fully activated or function…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "6.11.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The same test method (vehicle type approval in combination with ESA test report for Annex 9) shall be applied during Conformity of Production test or any applicable test method according to this Annex.",
+      "reason": "Paragraph 6.11.3 of UN R10 is new in version 7.3.0: 'For vehicles equipped with an ADS, in the case where the ADS cannot be fully activated or function…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "6.11.3"
+      }
+    }
+  ]
+}

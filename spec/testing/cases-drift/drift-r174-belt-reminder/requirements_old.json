@@ -1,0 +1,461 @@
+[
+  {
+    "id": "R-001",
+    "text": "The seating position of the driver of M and N categories of vehicles as well as the seating positions of the occupants of seats in the same row as the driver seat of M and N categories of vehicles shall be equipped with a safety-belt reminder satisfying the requirements of paragraph 5.3.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.1.1"
+    }
+  },
+  {
+    "id": "R-002",
+    "text": "All seating positions of the rear seat row(s) of vehicles of categories M1 and N1 shall be equipped with a safety-belt reminder satisfying the requirements of paragraph 5.4.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.1.2"
+    }
+  },
+  {
+    "id": "R-003",
+    "text": "Where the vehicle manufacturer provides a safety-belt reminder system on a rear seating position in another category of vehicle, the safety-belt reminder system may be approved according to this Regulation.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.1.2"
+    }
+  },
+  {
+    "id": "R-004",
+    "text": "A safety-belt reminder is not compulsory on folding seats (i.e. normally folded or stowed and designed for occasional use, fitted in the access passages of vehicles of category M2 or M3, or fitted to N1 or N2 for the safe ingress and egress of the driver via the front passenger door) as well as seating positions fitted with an S-type belt (including harness belt).",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.1.3"
+    }
+  },
+  {
+    "id": "R-005",
+    "text": "Notwithstanding paragraphs 5.1.1. and 5.1.2. above, safety belt reminders are also not required for rear seats in ambulances, hearses and motor-caravans, as well as for all seats for vehicles used for transport of disabled persons, vehicles intended for use by the armed services, civil defence, fire services and forces responsible for maintaining public order.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.1.3"
+    }
+  },
+  {
+    "id": "R-006",
+    "text": "The visual warning shall be so located as to be readily visible and recognisable in the daylight and at night time by the driver and distinguishable from other alerts.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.1.1"
+    }
+  },
+  {
+    "id": "R-007",
+    "text": "The visual warning shall be a steady or flashing tell-tale.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.1.2"
+    }
+  },
+  {
+    "id": "R-008",
+    "text": "The audible warning shall consist of a continuous or an intermittent (pauses shall not exceed 1 second) sound signal or of continuous vocal information.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.2.1"
+    }
+  },
+  {
+    "id": "R-009",
+    "text": "Where vocal information is employed, the vehicle manufacturer shall ensure that the alert is able to employ the languages of the market into which the vehicle is intended to be placed.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.2.1"
+    }
+  },
+  {
+    "id": "R-010",
+    "text": "Audible warning shall be easily recognized by the driver.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.2.2"
+    }
+  },
+  {
+    "id": "R-011",
+    "text": "The first level warning shall be at least a visual warning activated for 30 seconds or longer for seating positions covered by paragraph 5.1.1. and for 60 seconds or longer for seating positions covered by paragraph 5.1.2. when the safety-belt of any of the seats is not fastened and the ignition switch or vehicle master control switch is activated.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.3.1"
+    }
+  },
+  {
+    "id": "R-012",
+    "text": "If the vehicle master control switch has been activated remotely, the first level warning shall be (re-)initiated once the driver has entered the vehicle or driver presence is detected.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.3.1"
+    }
+  },
+  {
+    "id": "R-013",
+    "text": "The first level warning may be discontinued when: (a) None of the safety-belts which triggered the warning are unfastened; or (b) The seat or seats which triggered the warning are no longer occupied.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 4,
+      "paragraph": "5.2.3.2"
+    }
+  },
+  {
+    "id": "R-014",
+    "text": "The activation of the first level warning shall be tested according to the test procedure defined in Annex 3, paragraph 1.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.3.3"
+    }
+  },
+  {
+    "id": "R-015",
+    "text": "The second level warning shall be a visual and audible signal activated for at least 30 seconds not counting periods in which the warning may stop for up to 3 seconds when at least one or any combination of the conditions at the choice of manufacturer, set out in paragraphs 6.2.4.1.1. to 6.2.4.1.3. is/are fulfilled.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1"
+    }
+  },
+  {
+    "id": "R-016",
+    "text": "The second level warning shall supersede the first level warning when the first level warning is still active.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1"
+    }
+  },
+  {
+    "id": "R-017",
+    "text": "The distance driven greater than the distance threshold. The threshold shall not exceed 500 m. The distance driven when the vehicle is not in normal operation shall be excluded.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.1"
+    }
+  },
+  {
+    "id": "R-018",
+    "text": "The vehicle speed greater than the speed threshold. The threshold shall not exceed 25 km/h.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.2"
+    }
+  },
+  {
+    "id": "R-019",
+    "text": "The duration time (engine running, propulsion system activated, etc.) is greater than the duration time threshold. The threshold shall not exceed 60 seconds. The first level warning duration time and the duration time when the vehicle is not in normal operation shall be excluded.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.1.3"
+    }
+  },
+  {
+    "id": "R-020",
+    "text": "The thresholds to trigger safety belt reminder listed in paragraphs 5.2.4.1.1. to 5.2.4.1.3., may be reset when: (a) Any of the doors have been opened while the vehicle is not in normal operation; or (b) The seat or seats which triggered the warning are no longer occupied.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.2"
+    }
+  },
+  {
+    "id": "R-021",
+    "text": "The second level warning may be discontinued when: (a) None of the safety-belts which triggered the warning are unfastened; (b) The vehicle ceases to be in normal operation; or (c) The seat or seats which triggered the warning are no longer occupied.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.3"
+    }
+  },
+  {
+    "id": "R-022",
+    "text": "The second level warning shall be resumed for the remainder of the required duration when one or any combination of the conditions, at the choice of the manufacturer, set out in paragraphs 5.2.4.1.1. to 5.2.4.1.3. is/are again fulfilled.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.4"
+    }
+  },
+  {
+    "id": "R-023",
+    "text": "For the condition that a safety belt becomes unfastened pursuant to paragraphs 5.3.3. and 5.4.5., the thresholds set out in paragraphs 5.2.4.1.1. to 5.2.4.1.3. shall be measured from the point in time at which unfastening occurs.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.5"
+    }
+  },
+  {
+    "id": "R-024",
+    "text": "The activation of the second level warning shall be tested according to the test procedure defined in Annex 3, paragraph 2.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.2.4.6"
+    }
+  },
+  {
+    "id": "R-025",
+    "text": "Safety-belt reminders for driver and occupants of seats in the same row as the driver shall fulfil the requirements set out in paragraph 5.2.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.3.1"
+    }
+  },
+  {
+    "id": "R-026",
+    "text": "The colour and symbol of the visual warning shall be as defined in item 21 in Table 1 of UN Regulation No. 121.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.3.2"
+    }
+  },
+  {
+    "id": "R-027",
+    "text": "The second level warning shall be activated when a safety-belt is or becomes unfastened while the vehicle is in normal operation and while, at the same time, any one condition or any combination of the conditions, at the choice of the manufacturer, set out in paragraphs 5.2.4.1.1. to 5.2.4.1.3. is satisfied.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.3.3"
+    }
+  },
+  {
+    "id": "R-028",
+    "text": "Safety-belt reminders for occupants of rear row(s) shall fulfil the requirements set out in paragraph 5.2.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 5,
+      "paragraph": "5.4.1"
+    }
+  },
+  {
+    "id": "R-029",
+    "text": "The visual warning shall indicate at least all rear seating positions to allow the driver to identify, while facing forward as seated on the driver seat, any seating position in which the safety-belt is unfastened.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.4.2"
+    }
+  },
+  {
+    "id": "R-030",
+    "text": "For vehicles that have information on the occupancy status of the rear seats, the visual warning does not need to indicate unfastened safety-belts for unoccupied seating positions.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.4.2"
+    }
+  },
+  {
+    "id": "R-031",
+    "text": "For seats, which can be fixed to different designated seating positions within the vehicle (e.g. floor rail mounted), the visual warning shall at least indicate when any rear safety belt is unfastened.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.4.2"
+    }
+  },
+  {
+    "id": "R-032",
+    "text": "The colour of the visual warning may be other than red and the symbol of the visual warning for safety-belts covered by paragraph 5.1.2. may contain different symbols other than defined in Regulation No.121.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.4.3"
+    }
+  },
+  {
+    "id": "R-033",
+    "text": "In addition, the first level warning of seating positions covered by paragraph 5.1.2. may be cancellable by the driver by a deliberate action.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.4.3"
+    }
+  },
+  {
+    "id": "R-034",
+    "text": "A common tell-tale may be used for safety-belts covered by paragraphs 5.1.1 and 5.1.2.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.4.4"
+    }
+  },
+  {
+    "id": "R-035",
+    "text": "The second level warning shall be activated when a safety-belt becomes unfastened while the vehicle is in normal operation, or at the choice of the manufacturer when the safety-belt is or becomes unfastened while the vehicle is in normal operation, and while, at the same time, any one condition or any combination of the conditions, at the choice of the manufacturer, set out in paragraphs 5.2.4.1.1. to 5.2.4.1.3. is satisfied.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.4.5"
+    }
+  },
+  {
+    "id": "R-036",
+    "text": "The safety-belt reminder may be designed to allow deactivation.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.5"
+    }
+  },
+  {
+    "id": "R-037",
+    "text": "In the case that a short-term deactivation is provided, it shall be significantly more difficult to deactivate the safety-belt reminder than buckling the safety-belt on and off (i.e. it shall consist of an operation of specific controls that are not integrated in the safety-belt buckle) and this operation shall only be possible when the vehicle is stationary.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.5.1"
+    }
+  },
+  {
+    "id": "R-038",
+    "text": "When the ignition or vehicle master control switch is deactivated for more than 30 minutes and activated again, a short-term deactivated safety-belt reminder shall reactivate.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.5.1"
+    }
+  },
+  {
+    "id": "R-039",
+    "text": "It shall not be possible to provide short-term deactivation of the relevant visual warning(s).",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.5.1"
+    }
+  },
+  {
+    "id": "R-040",
+    "text": "In the case that a facility for a long-term deactivation is provided, it shall require a sequence of operations to deactivate, that are detailed only in the manufacturer's technical manual and/or which requires the use of tools (mechanical, electrical, digital, etc.) that are not provided with the vehicle.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.5.2"
+    }
+  },
+  {
+    "id": "R-041",
+    "text": "It shall not be possible to provide long-term deactivation of the relevant visual warning(s).",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.5.2"
+    }
+  },
+  {
+    "id": "R-042",
+    "text": "In case of activation of the accident emergency call system, the second level warning may be muted.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.5.3"
+    }
+  },
+  {
+    "id": "R-043",
+    "text": "The connection shall be automatic when the seat is installed in the vehicle.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.1.1"
+    }
+  },
+  {
+    "id": "R-044",
+    "text": "The connectors of the removable seats shall be easily visible during the installation process.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.2.1"
+    }
+  },
+  {
+    "id": "R-045",
+    "text": "The vehicle shall carry a label indicating the purpose of the connection, and the connection and disconnection methods of the safety-belt reminder system, in the form of a pictogram which may include explanatory text.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.2.2"
+    }
+  },
+  {
+    "id": "R-046",
+    "text": "The label shall be permanently attached to the vehicle and located such that it is clearly visible during the installation process.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.2.3"
+    }
+  },
+  {
+    "id": "R-047",
+    "text": "In case a connector is misconnected or disconnected for removable seating positions covered by paragraph 5.1.1., a warning visible to the driver shall be activated for 30 seconds when the ignition switch or vehicle master control switch is activated.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.2.4"
+    }
+  },
+  {
+    "id": "R-048",
+    "text": "When a seat is removable for seating positions covered by paragraph 5.1.2., the visual warning of paragraph 5.4.2. shall indicate at least all rear seating position to allow the driver to identify, while facing forward as seated on the driver seat, any removable seating position in which the connector is misconnected or disconnected, and it shall be activated for 60 seconds when the ignition switch or vehicle master control switch is activated.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.2.5"
+    }
+  },
+  {
+    "id": "R-049",
+    "text": "For seats, which can be fixed to different designated seating positions within the vehicle (e.g. floor rail mounted), the visual warning shall at least indicate when any rear removable seating position connector is misconnected or disconnected.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 6,
+      "paragraph": "5.6.2.5"
+    }
+  },
+  {
+    "id": "R-050",
+    "text": "The presence or absence of the removable seat shall not adversely affect the functioning of the safety-belt reminder system of other seating position.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 7,
+      "paragraph": "5.6.3"
+    }
+  },
+  {
+    "id": "R-051",
+    "text": "The safety-belt reminder system of the removable seats shall not give any false indication of belt use, whether the seats are installed in the vehicle or not.",
+    "source": {
+      "regulation": "UN R174",
+      "page": 7,
+      "paragraph": "5.6.4"
+    }
+  }
+]

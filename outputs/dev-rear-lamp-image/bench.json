@@ -1,0 +1,230 @@
+{
+ "run": "runs\\dev-rear-lamp\\lead-textimage-v2",
+ "format": {
+  "valid": true,
+  "problems": [],
+  "requirements": 317
+ },
+ "platform": {
+  "regulation_level": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "n_submitted": 4,
+   "n_expected": 4,
+   "n_matched": 4,
+   "f2": 1.0
+  },
+  "page_level": {
+   "precision": 0.731,
+   "recall": 0.906,
+   "f1": 0.809,
+   "n_submitted": 67,
+   "n_expected": 53,
+   "n_matched": 49,
+   "f2": 0.864
+  }
+ },
+ "paragraph": {
+  "precision": 0.493,
+  "recall": 0.851,
+  "f1": 0.624,
+  "f2": 0.743,
+  "submitted": 209,
+  "expected": 121,
+  "matched": 103
+ },
+ "funnel": {
+  "regulations": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "f2": 1.0,
+   "submitted": 4,
+   "expected": 4,
+   "matched": 4,
+   "chosen": [
+    "UN R10",
+    "UN R148",
+    "UN R150",
+    "UN R48"
+   ],
+   "missed": [],
+   "extra": []
+  },
+  "sections": {
+   "gold_requirements_reachable": "190/190",
+   "recall": 1.0,
+   "selected_provisions": 826,
+   "gold_nodes_reached": "121/121",
+   "node_precision": 0.146,
+   "by_regulation": {
+    "UN R10": {
+     "selected": 174,
+     "gold_nodes_reached": 15,
+     "gold_nodes": 15,
+     "requirements_reachable": 32,
+     "requirements": 32
+    },
+    "UN R148": {
+     "selected": 215,
+     "gold_nodes_reached": 40,
+     "gold_nodes": 40,
+     "requirements_reachable": 63,
+     "requirements": 63
+    },
+    "UN R150": {
+     "selected": 203,
+     "gold_nodes_reached": 31,
+     "gold_nodes": 31,
+     "requirements_reachable": 39,
+     "requirements": 39
+    },
+    "UN R48": {
+     "selected": 234,
+     "gold_nodes_reached": 35,
+     "gold_nodes": 35,
+     "requirements_reachable": 56,
+     "requirements": 56
+    }
+   },
+   "by_category": {
+    "marking": {
+     "selected": 83,
+     "gold_nodes": 25,
+     "selections": 8,
+     "match_rate": 0.301
+    },
+    "general": {
+     "selected": 267,
+     "gold_nodes": 47,
+     "selections": 4,
+     "match_rate": 0.176
+    },
+    "function": {
+     "selected": 127,
+     "gold_nodes": 32,
+     "selections": 9,
+     "match_rate": 0.252
+    },
+    "conformity": {
+     "selected": 114,
+     "gold_nodes": 2,
+     "selections": 9,
+     "match_rate": 0.018
+    },
+    "test": {
+     "selected": 235,
+     "gold_nodes": 15,
+     "selections": 17,
+     "match_rate": 0.064
+    }
+   }
+  },
+  "extraction": {
+   "candidates": 1154,
+   "by_status": {
+    "emitted": 317,
+    "dropped:applies": 243,
+    "dropped:modality": 134,
+    "dropped:addressee": 411,
+    "dropped:kind": 35,
+    "dropped:page": 6,
+    "rejected:quote": 7,
+    "dropped:duplicate": 1
+   },
+   "grounded": 1147,
+   "reassigned": 0,
+   "gold_with_a_candidate_at_its_node": "190/190",
+   "gold_with_a_matching_candidate_strict": "159/190"
+  }
+ },
+ "requirement": {
+  "strict": {
+   "precision": 0.429,
+   "recall": 0.716,
+   "f1": 0.536,
+   "f2": 0.631,
+   "submitted": 317,
+   "expected": 190,
+   "matched": 136
+  },
+  "lenient": {
+   "precision": 0.486,
+   "recall": 0.811,
+   "f1": 0.607,
+   "f2": 0.715,
+   "submitted": 317,
+   "expected": 190,
+   "matched": 154
+  },
+  "ceiling_all_candidates_strict": 0.837,
+  "ceiling_all_candidates_lenient": 0.953
+ },
+ "errors_expected": {
+  "found": 136,
+  "extracted at the node, wording differs": 31,
+  "dropped by policy: addressee=test_setup": 9,
+  "dropped by policy: modality=permission": 4,
+  "dropped by policy: modality=exemption": 4,
+  "dropped by policy: kind=conformity-of-production": 3,
+  "dropped by policy: applies=unlikely": 3
+ },
+ "errors_emitted": {
+  "matched": 136,
+  "right section, paragraph the expected answer does not cite": 111,
+  "section the expected answer does not use": 42,
+  "partial match (lenient only)": 20,
+  "cited paragraph, wording or granularity differs": 8
+ },
+ "bins": {
+  "bar_f2_over_5": 0.126,
+  "certain": {
+   "candidates": 253,
+   "emitted": 133,
+   "matched_when_emitted": 69,
+   "match_rate_emitted": 0.519,
+   "same_as_an_expected_requirement": 76,
+   "share_that_are_same": 0.3
+  },
+  "likely": {
+   "candidates": 265,
+   "emitted": 121,
+   "matched_when_emitted": 45,
+   "match_rate_emitted": 0.372,
+   "same_as_an_expected_requirement": 49,
+   "share_that_are_same": 0.185
+  },
+  "possible": {
+   "candidates": 202,
+   "emitted": 63,
+   "matched_when_emitted": 22,
+   "match_rate_emitted": 0.349,
+   "same_as_an_expected_requirement": 29,
+   "share_that_are_same": 0.144
+  },
+  "unlikely": {
+   "candidates": 427,
+   "emitted": 0,
+   "matched_when_emitted": 0,
+   "match_rate_emitted": null,
+   "same_as_an_expected_requirement": 5,
+   "share_that_are_same": 0.012
+  }
+ },
+ "judge_cost_usd": 0.0,
+ "cost": {
+  "agent_spent_usd": 0.0905,
+  "agent_replayed_usd": 3.7584,
+  "seconds": 33,
+  "stages": {
+   "vision": 0.066,
+   "profile": 0.0265,
+   "regulations": 0.1444,
+   "sections": 0.1763,
+   "obligations": 3.249,
+   "components": 0.18669999999999998
+  }
+ },
+ "unanchored_expected": []
+}

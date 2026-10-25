@@ -1,0 +1,1733 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.1",
+      "quote": "The device to prevent unauthorized use shall be so designed that it is necessary to put it out of action in order to enable",
+      "text": "The steering lock with electronic immobiliser and alarm shall be so designed that it is necessary to put it out of action in order to enable the engine to be started by means of the normal control."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.1",
+      "quote": "the engine to be started by means of the normal control, and the vehicle to be steered, driven or moved forward",
+      "text": "The device shall be so designed that it is necessary to put it out of action in order to enable the vehicle to be steered, driven or moved forward under its own power."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.2",
+      "quote": "The requirements of paragraph 5.1.1. shall be met by the application of a single key.",
+      "text": "The device shall meet the deactivation requirements of paragraph 5.1.1 by the application of a single key."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.3",
+      "quote": "a system operated with a key inserted in a lock shall not permit removal of the key before the device referred",
+      "text": "A system operated with a key inserted in a lock shall not permit removal of the key before the device has come into action or has been set to act."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.4",
+      "quote": "shall be so designed that it cannot rapidly and without attracting attention be opened, rendered ineffective or destroyed",
+      "text": "The device and the vehicle components on which it operates shall be so designed that it cannot rapidly and without attracting attention be opened, rendered ineffective or destroyed by low-cost, easily concealed tools, equipment or fabrications."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.5",
+      "quote": "It shall be fitted in such a way that even after removal of its housing it cannot, when in the blocked condition, be dismantled other than with special tools",
+      "text": "The device shall be fitted in such a way that even after removal of its housing it cannot, when in the blocked condition, be dismantled other than with special tools."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.5",
+      "quote": "If it is possible to render the device to prevent unauthorized use ineffective by the removal of screws, those screws",
+      "text": "Where it is possible to render the device ineffective by the removal of screws, those screws shall, unless they are of the non-removable type, be covered by parts of the blocked protective device."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.6",
+      "quote": "Mechanical locking systems shall provide at least 1,000 different key combinations or a number equal to the total number",
+      "text": "The mechanical locking system shall provide at least 1,000 different key combinations, or a number equal to the total number of vehicles manufactured annually if less than 1,000."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.6",
+      "quote": "In vehicles of one type the frequency of occurrence of each combination shall be roughly one per 1,000.",
+      "text": "In vehicles of one type the frequency of occurrence of each key combination shall be roughly one per 1,000."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.7",
+      "quote": "Electrical/electronic locking systems, e.g. remote control, shall have at least 50,000 variants and shall incorporate a rolling code",
+      "text": "The electrical/electronic locking system shall have at least 50,000 variants and shall incorporate a rolling code."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 3,
+      "paragraph": "5.1.7",
+      "quote": "have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum",
+      "text": "Where the electronic locking system does not incorporate a rolling code, it shall have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.9",
+      "quote": "The key and lock shall not be visibly coded.",
+      "text": "The key and lock shall not be visibly coded."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.10",
+      "quote": "turning of the lock cylinder, when in the locked position, with a torque of less than 2.45 Nm is not possible with any key other than the mating key",
+      "text": "The lock shall be so designed, constructed and fitted that turning of the lock cylinder, when in the locked position, with a torque of less than 2.45 Nm is not possible with any key other than the mating key."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.10.1",
+      "quote": "For lock cylinders with pin tumblers no more than two identical tumblers operating in the same direction shall be positioned adjacent to each other",
+      "text": "For lock cylinders with pin tumblers, no more than two identical tumblers operating in the same direction shall be positioned adjacent to each other."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.10.1",
+      "quote": "in a lock there shall not be more than 60 per cent identical tumblers",
+      "text": "For lock cylinders with pin tumblers, there shall not be more than 60 per cent identical tumblers in a lock."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.10.2",
+      "quote": "For lock cylinders with disc tumblers no more than two identical tumblers operating in the same direction shall be positioned adjacent to each other",
+      "text": "For lock cylinders with disc tumblers, no more than two identical tumblers operating in the same direction shall be positioned adjacent to each other."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.10.2",
+      "quote": "in a lock there shall not be more than 50 per cent identical tumblers",
+      "text": "For lock cylinders with disc tumblers, there shall not be more than 50 per cent identical tumblers in a lock."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.11",
+      "quote": "Devices to prevent unauthorized use shall be such as to exclude any risk of accidental operating failure while the engine is running",
+      "text": "The device shall be such as to exclude any risk of accidental operating failure while the engine is running, particularly in the case of blockage likely to compromise safety."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.11.1",
+      "quote": "It shall not be possible to activate devices to prevent unauthorized use without first setting the engine controls to a stop condition",
+      "text": "It shall not be possible to activate the device without first setting the engine controls to a stop condition and then performing an action which is not an uninterrupted continuation of stopping the engine."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.11.2",
+      "quote": "if the action of key withdrawal activates the device it shall either necessitate a minimum movement of 2 mm before activation",
+      "text": "Where the action of key withdrawal activates the device, it shall either necessitate a minimum movement of 2 mm before activation or incorporate an override facility to prevent accidental removal or partial withdrawal of the key."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.12",
+      "quote": "Power assistance may be used only to activate the locking and/or unlocking action of the device to prevent unauthorized use.",
+      "text": "The electric actuator may use power assistance only to activate the locking and/or unlocking action of the device."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.12",
+      "quote": "The device shall be kept in its operating position by any suitable means which does not need a power supply.",
+      "text": "The device shall be kept in its operating (locked) position by suitable means which does not need a power supply."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.1.13",
+      "quote": "It shall not be possible to activate the motive power of the vehicle by normal means until the device to prevent unauthorized use has been deactivated",
+      "text": "It shall not be possible to activate the motive power of the vehicle by normal means until the device has been deactivated."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.2.1.1",
+      "quote": "A device to prevent unauthorized use acting on the steering shall render the steering inoperative.",
+      "text": "The steering lock shall render the steering inoperative when set to act."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.2.1.1",
+      "quote": "Before the engine as a motive power can be started, the normal steering operation must be restored.",
+      "text": "Before the engine as a motive power can be started, the normal steering operation shall be restored."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 4,
+      "paragraph": "5.2.1.2",
+      "quote": "When the device to prevent unauthorized use is set to act, it shall not be possible to prevent the device from functioning.",
+      "text": "When the device is set to act, it shall not be possible to prevent the device from functioning."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 5,
+      "paragraph": "5.2.1.3",
+      "quote": "The device to prevent unauthorized use shall continue to meet the requirements of paragraphs 5.1.11., 5.2.1.1., 5.2.1.2. and 5.2.1.4. after it has undergone 2,500 locking cycles",
+      "text": "The device shall continue to meet the requirements of paragraphs 5.1.11, 5.2.1.1, 5.2.1.2 and 5.2.1.4 after it has undergone 2,500 locking cycles in each direction of the wear producing test."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 5,
+      "paragraph": "5.2.1.4.1",
+      "quote": "It shall be strong enough to withstand, without damage to the steering mechanism likely to compromise safety, the application of a torque of 300 Nm",
+      "text": "When the alternative of paragraph 5.2.1.4.1 is used, the device in its activated position shall be strong enough to withstand, without damage to the steering mechanism likely to compromise safety, the application of a torque of 300 Nm about the axis of the steering spindle in both directions under static conditions."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 5,
+      "paragraph": "5.2.1.4.2",
+      "quote": "It shall incorporate a mechanism designed to yield or slip, such that the system will withstand, either continuously or intermittently, the application of a torque of at least 100 Nm",
+      "text": "When the alternative of paragraph 5.2.1.4.2 is used, the device shall incorporate a mechanism designed to yield or slip such that the system withstands, either continuously or intermittently, the application of a torque of at least 100 Nm."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 5,
+      "paragraph": "5.2.1.4.2",
+      "quote": "The locking system shall still withstand the application of this torque after the test specified in Part 2 of Annex 4",
+      "text": "Where a yielding or slipping mechanism is used, the locking system shall still withstand the application of the 100 Nm torque after the test specified in Part 2 of Annex 4."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 5,
+      "paragraph": "5.2.1.4.3",
+      "quote": "The blocking mechanism shall be strong enough to withstand the application of a torque of 200 Nm about the axis of the steering spindle in both directions",
+      "text": "When the alternative of paragraph 5.2.1.4.3 is used, the blocking mechanism shall be strong enough to withstand the application of a torque of 200 Nm about the axis of the steering spindle in both directions under static conditions."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 5,
+      "paragraph": "5.2.1.5",
+      "quote": "If the device to prevent unauthorized use is such that the key can be removed in a position other than the position in which the steering is inoperative",
+      "text": "Where the key can be removed in a position other than the position in which the steering is inoperative, the device shall be so designed that the manoeuvre required to reach that position and remove the key cannot be effected inadvertently."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 5,
+      "paragraph": "5.2.1.6",
+      "quote": "If a component fails such that the torque requirements specified in paragraphs 5.2.1.4.1., 5.2.1.4.2. and 5.2.1.4.3. cannot be easily applied, yet the steering system remains blocked",
+      "text": "Where a component fails such that the torque requirements of paragraphs 5.2.1.4.1, 5.2.1.4.2 and 5.2.1.4.3 cannot be easily applied yet the steering system remains blocked, the system shall still satisfy the requirements."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 6,
+      "paragraph": "5.3",
+      "quote": "Electromechanical and electronic devices to prevent unauthorized use shall comply with the requirements of paragraphs 5.1. and 5.2. and shall be submitted to the tests described in Annex 6",
+      "text": "The electromechanical and electronic device shall comply with the requirements of paragraphs 5.1 and 5.2 and shall be submitted to the tests described in Annex 6, mutatis mutandis."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 6,
+      "paragraph": "5.3",
+      "quote": "The functioning process of these devices shall incorporate secure means to prevent any risk of blocking or accidental malfunctioning which could compromise the safety of the vehicle",
+      "text": "The functioning process of the device shall incorporate secure means to prevent any risk of blocking or accidental malfunctioning which could compromise the safety of the vehicle."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.",
+      "quote": "All components of the locking system shall operate without any failure under the following conditions",
+      "text": "All components of the locking system shall operate without any failure under the operating conditions specified in Annex 6."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.1",
+      "quote": "(a) -40°C to +85°C for parts to be fitted in the passenger or luggage compartment, (b) -40°C to +125°C for parts to be fitted in the engine compartment",
+      "text": "Parts of the device to be fitted in the passenger or luggage compartment shall operate without failure from -40 °C to +85 °C, and parts to be fitted in the engine compartment from -40 °C to +125 °C unless otherwise specified."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.2",
+      "quote": "(a) IP 40 for parts to be fitted in the passenger compartment, (b) IP 42 for parts to be fitted in the passenger compartment of roadsters/convertibles",
+      "text": "Parts of the device fitted in the passenger compartment shall provide degree of protection IP 40 in accordance with IEC Publication 529 1989."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.2",
+      "quote": "(c) IP 54 for all other parts.",
+      "text": "All parts of the device not fitted in the passenger compartment shall provide degree of protection IP 54 in accordance with IEC Publication 529 1989."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.2",
+      "quote": "The locking system manufacturer shall specify in the installation instructions any restrictions on the positioning of any part of the installation with respect to dust, water and temperature",
+      "text": "The installation instructions shall specify any restrictions on the positioning of any part of the installation with respect to dust, water and temperature."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.3",
+      "quote": "Seven days according to IEC 68-2-30-1980.",
+      "text": "The device shall withstand a weatherability test of seven days according to IEC 68-2-30-1980."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.4",
+      "quote": "Operation supply voltage range: from 9 V to 15 V in the temperature range according to paragraph 1.1.1",
+      "text": "The device shall operate on a 12 V rated supply and over an operation supply voltage range from 9 V to 15 V within the climatic temperature range."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 1.4",
+      "quote": "Time allowance for excess voltages at 23°C: U = 18 V, max. 1 h U = 24 V, max. 1 min.",
+      "text": "The device shall withstand an excess voltage of 18 V for a maximum of 1 hour and of 24 V for a maximum of 1 minute at 23 °C."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 2.",
+      "quote": "All the tests shall be carried out in sequence on a single locking system.",
+      "text": "All the Annex 6 tests shall be carried out in sequence on a single locking system."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 2.1",
+      "quote": "Voltage U = (12 ± 0.2) V Temperature T = (23 ± 5)°C",
+      "text": "The normal test conditions for the operation tests shall be a voltage of (12 ± 0.2) V and a temperature of (23 ± 5) °C."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 12,
+      "paragraph": "Annex 6 3.1",
+      "quote": "Upon completion of all the tests specified below, the locking system shall be tested under the normal test conditions specified in paragraph 2.1. to check that it continues to function normally",
+      "text": "Upon completion of all the Annex 6 tests, the locking system shall be tested under the normal test conditions to check that it continues to function normally."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 13,
+      "paragraph": "Annex 6 3.2.1",
+      "quote": "Test temperature T (-40 ± 2)°C Test voltage U = (9 ± 0.2) V Storage duration 4 hours",
+      "text": "The device shall continue to meet the operation specifications after storage for 4 hours at (-40 ± 2) °C and (9 ± 0.2) V."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 13,
+      "paragraph": "Annex 6 3.2.2",
+      "quote": "Test temperature T = (+85 ± 2)°C Test voltage U = (15 ± 0.2) V Storage duration 4 hours",
+      "text": "Parts fitted in the passenger or luggage compartment shall continue to meet the operation specifications after storage for 4 hours at (+85 ± 2) °C and (15 ± 0.2) V."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 13,
+      "paragraph": "Annex 6 3.2.3",
+      "quote": "Test temperature T = (+125 ± 2)°C Test voltage U = (15 ± 0.2) V Storage duration 4 hours",
+      "text": "Parts fitted in the engine compartment shall continue to meet the operation specifications after storage for 4 hours at (+125 ± 2) °C and (15 ± 0.2) V."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 13,
+      "paragraph": "Annex 6 3.2.4",
+      "quote": "The locking system, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+      "text": "The device, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 13,
+      "paragraph": "Annex 6 3.2.5",
+      "quote": "The locking system, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 min.",
+      "text": "The device, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 13,
+      "paragraph": "Annex 6 3.3",
+      "quote": "After the test for tightness to foreign body and water according to IEC 529-1989, for degrees of protection as in paragraph 1.1.2., the operation tests according to paragraph 3.1. shall be repeated.",
+      "text": "After the test for tightness to foreign bodies and water according to IEC 529-1989 at the applicable degree of protection, the operation tests shall be repeated."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 14,
+      "paragraph": "Annex 6 3.4",
+      "quote": "After a resistance-to-humidity test to be carried out according to IEC 68 2 30 (1980) the operation tests according to paragraph 3.1. shall be repeated.",
+      "text": "After the resistance-to-humidity test according to IEC 68-2-30 (1980), the operation tests shall be repeated."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 14,
+      "paragraph": "Annex 6 3.5",
+      "quote": "The locking system and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min.",
+      "text": "The device and its components shall not be destroyed by reversed polarity up to 13 V during 2 minutes."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 14,
+      "paragraph": "Annex 6 3.6",
+      "quote": "All electrical connections of the locking system must be short-circuit proof against earth, max. 13 V and/or fused.",
+      "text": "All electrical connections of the device shall be short-circuit proof against earth at max. 13 V and/or fused."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 14,
+      "paragraph": "Annex 6 3.7",
+      "quote": "The energy consumption in set condition under the conditions given in paragraph 2.1. shall not exceed 20 mA on average for the complete locking system including status display.",
+      "text": "The energy consumption in set condition under the normal test conditions shall not exceed 20 mA on average for the complete locking system including status display."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 14,
+      "paragraph": "Annex 6 3.8.1",
+      "quote": "Type 1: components normally mounted on the vehicle, Type 2: components intended for attachment to the engine.",
+      "text": "For the vibration test, components normally mounted on the vehicle shall be treated as Type 1 and components intended for attachment to the engine as Type 2."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 14,
+      "paragraph": "Annex 6 3.8.2.1",
+      "quote": "The frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+      "text": "Type 1 components shall withstand sinusoidal vibration from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak)."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 15,
+      "paragraph": "Annex 6 3.8.2.2",
+      "quote": "The frequency shall be variable from 20 Hz to 300 Hz with a maximum amplitude of ± 2 mm and maximum acceleration of 15 g (0-peak).",
+      "text": "Type 2 components shall withstand sinusoidal vibration from 20 Hz to 300 Hz with a maximum amplitude of ± 2 mm and maximum acceleration of 15 g (0-peak)."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 15,
+      "paragraph": "Annex 6 3.8.2.3",
+      "quote": "The frequency variation is 1 octave/min. The number of cycles is 10, the test shall be performed along each of the 3 axes.",
+      "text": "The vibration test shall use a frequency variation of 1 octave/min and 10 cycles, performed along each of the 3 axes."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 15,
+      "paragraph": "Annex 6 3.8.3",
+      "quote": "During the test the locking system shall be electrically connected and the cable shall be supported after 200 mm.",
+      "text": "During the vibration test the device shall be electrically connected and the cable shall be supported after 200 mm."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 15,
+      "paragraph": "Annex 6 3.8.4",
+      "quote": "After the vibration test the operation tests according to paragraph 3.1. shall be repeated.",
+      "text": "After the vibration test the operation tests shall be repeated."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 15,
+      "paragraph": "Annex 7 1.",
+      "quote": "The locking system shall be tested in unset state and in set state.",
+      "text": "For immunity against disturbances conducted along supply lines, the device shall be tested in unset state and in set state."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 15,
+      "paragraph": "Annex 7 2. Table 1",
+      "quote": "Unexpected activation of the locking system",
+      "text": "For vehicle and ESA immunity tests, a locking system in unset state shall not exhibit unexpected activation of the locking system as a failure criterion."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 15,
+      "paragraph": "Annex 7 2. Table 1",
+      "quote": "Unexpected deactivation of the locking system",
+      "text": "For vehicle and ESA immunity tests, a locking system in set state shall not exhibit unexpected deactivation of the locking system as a failure criterion."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 16,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Points that can easily be accessed only from the inside of the vehicle Locking system in unset state",
+      "text": "For air discharge at points accessible only from the inside of the vehicle with the device in unset state, the test level shall be ± 6 kV with a 330 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 16,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Points that can easily be touched only from the outside of the vehicle Locking system in set state",
+      "text": "For air discharge at points touchable only from the outside of the vehicle with the device in set state, the test level shall be ± 15 kV with a 150 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 16,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Contact discharge Points that can easily be accessed only from the inside of the vehicle Locking system in unset state",
+      "text": "For contact discharge at points accessible only from the inside of the vehicle with the device in unset state, the test level shall be ± 4 kV with a 330 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 16,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Contact discharge Points that can easily be touched only from the outside of the vehicle Locking system in set state",
+      "text": "For contact discharge at points touchable only from the outside of the vehicle with the device in set state, the test level shall be ± 8 kV with a 150 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 16,
+      "paragraph": "Annex 7 3.",
+      "quote": "Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge",
+      "text": "Each ESD test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 16,
+      "paragraph": "Annex 7 4.",
+      "quote": "The locking system shall be in set state.",
+      "text": "For the radiated emissions test, the device shall be in set state."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 10,
+      "paragraph": "Annex 4 Part 1 2.2.3",
+      "quote": "The steering spindle shall be rotated such that the torque on it, at the instant of engagement of the device to prevent unauthorized use, shall be 40 Nm ± 2 Nm.",
+      "text": "In the wear-producing test, the steering spindle shall be rotated such that the torque on it at the instant of engagement of the device is 40 Nm ± 2 Nm."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 10,
+      "paragraph": "Annex 4 Part 1 2.2.4",
+      "quote": "The device to prevent unauthorized use shall be deactivated by the normal means, the torque being reduced to zero to facilitate disengagement.",
+      "text": "In the wear-producing test, the device shall be deactivated by the normal means with the torque reduced to zero to facilitate disengagement."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 11,
+      "paragraph": "Annex 4 Part 1 2.2.7",
+      "quote": "The time interval between two successive engagements of the device shall be at least 10 seconds.",
+      "text": "The time interval between two successive engagements of the device in the wear-producing test shall be at least 10 seconds."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 11,
+      "paragraph": "Annex 4 Part 2 2.4",
+      "quote": "1 cycle = +90° / -180° / +90° with a tolerance of ± 10 per cent.",
+      "text": "In the torque limiting device test, one cycle shall consist of a rotation of +90° followed by -180° and a new rotation of +90° in the original direction, with a tolerance of ± 10 per cent."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 11,
+      "paragraph": "Annex 4 Part 2 2.5",
+      "quote": "A cycle duration is equal to 20 s ± 2 s.",
+      "text": "In the torque limiting device test, the cycle duration shall be 20 s ± 2 s."
+    },
+    {
+      "regulation": "UN R161",
+      "page": 11,
+      "paragraph": "Annex 4 Part 2 2.6",
+      "quote": "Five test cycles shall be carried out.",
+      "text": "Five test cycles shall be carried out in the torque limiting device test."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "5.1.1",
+      "quote": "It must be possible to set and unset the immobilizer in accordance with these requirements.",
+      "text": "The immobiliser shall be capable of being set and unset in accordance with the requirements of UN R162."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "5.1.2",
+      "quote": "An immobilizer and its installation shall be so designed that any equipped vehicle continues to meet the technical requirements.",
+      "text": "The immobiliser and its installation shall be so designed that any equipped vehicle continues to meet the technical requirements."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "5.1.3",
+      "quote": "It shall not be possible for an immobilizer to enter the set state when the ignition key is in the engine running mode",
+      "text": "It shall not be possible for the immobiliser to enter the set state when the ignition key is in the engine running mode."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.4",
+      "quote": "It shall not be possible to permanently override an immobilizer.",
+      "text": "It shall not be possible to permanently override the immobiliser."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.5",
+      "quote": "The immobilizer shall be designed and built such that when installed it shall not adversely affect the designed function and the safe operation of the vehicle, even in the case of malfunction",
+      "text": "The immobiliser shall be designed and built such that when installed it does not adversely affect the designed function and the safe operation of the vehicle, even in the case of malfunction."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.6",
+      "quote": "it cannot rapidly and without attracting attention be rendered ineffective or destroyed by, e.g. the use of low cost easily concealed tools",
+      "text": "The immobiliser shall be designed and built such that when installed according to the manufacturer's instructions it cannot rapidly and without attracting attention be rendered ineffective or destroyed by low-cost, easily concealed tools, equipment or fabrications."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.6",
+      "quote": "It shall be difficult and time consuming to replace a major component or assembly in order to bypass the immobilizer.",
+      "text": "It shall be difficult and time consuming to replace a major component or assembly in order to bypass the immobiliser."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.7",
+      "quote": "it is able to withstand the environment within the vehicle for a reasonable lifetime",
+      "text": "The immobiliser shall be designed and built such that when installed as specified by the manufacturer it is able to withstand the environment within the vehicle for a reasonable lifetime."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.7",
+      "quote": "the electrical properties of the on-board circuitry shall not be adversely affected by the addition of the immobilizer (lead cross-sections, contact safety, etc.)",
+      "text": "The electrical properties of the on-board circuitry shall not be adversely affected by the addition of the immobiliser, including lead cross-sections and contact safety."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.8",
+      "quote": "An immobilizer may be combined with other vehicle systems or may be integrated into them (e.g. engine management, alarm systems).",
+      "text": "The immobiliser may be combined with other vehicle systems or integrated into them, for example engine management or alarm systems."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.9",
+      "quote": "It shall not be possible for an immobilizer to prevent the release of the brakes of the vehicle",
+      "text": "It shall not be possible for the immobiliser to prevent the release of the brakes of the vehicle."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.1.10",
+      "quote": "It shall not be possible for an immobilizer to operate in such a manner as to apply the brakes of the vehicle.",
+      "text": "It shall not be possible for the immobiliser to operate in such a manner as to apply the brakes of the vehicle."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.2.1.1.1",
+      "quote": "disable, in the case of after-market fitting, or vehicle equipped with diesel engine, at least two separate vehicle circuits that are needed for vehicle operation under its own power",
+      "text": "Where the immobiliser is fitted after-market or to a diesel-engined vehicle, it shall disable at least two separate vehicle circuits needed for vehicle operation under its own power."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.2.1.1.2",
+      "quote": "interference by code of at least one control unit required for the operation of the vehicle.",
+      "text": "The immobiliser shall prevent operation of the vehicle under its own motive power by interference by code of at least one control unit required for the operation of the vehicle."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.2.1.2",
+      "quote": "An immobilizer for fitment to a vehicle equipped with a catalytic converter shall not cause unburnt fuel to enter the exhaust.",
+      "text": "An immobiliser for fitment to a vehicle equipped with a catalytic converter shall not cause unburnt fuel to enter the exhaust."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "5.2.2",
+      "quote": "Operating reliability shall be achieved by suitable design of the immobilizer, account being taken of specific environmental conditions in the vehicle",
+      "text": "Operating reliability shall be achieved by suitable design of the immobiliser, taking account of the specific environmental conditions in the vehicle."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.3",
+      "quote": "It shall be ensured that the immobilizer does not change its state (set/unset) as a result of any of the tests in paragraph 5.3.",
+      "text": "The immobiliser shall not change its state (set/unset) as a result of any of the tests referred to in paragraph 5.3."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.4.1",
+      "quote": "At rotation of the ignition key into the \"0\" position in the ignition lock and activation of a door",
+      "text": "The immobiliser shall be set without supplementary action from the driver at rotation of the ignition key into the \"0\" position in the ignition lock and activation of a door."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.4.1",
+      "quote": "A maximum of 1 minute after removing the key of the ignition lock.",
+      "text": "The immobiliser shall be set without supplementary action from the driver a maximum of 1 minute after removing the key of the ignition lock."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.5.1.2",
+      "quote": "Electrical/electronic device, e.g. remote control, with at least 50,000 variants and shall incorporate rolling codes",
+      "text": "Where unsetting is achieved by an electrical/electronic device such as the remote key fob, it shall have at least 50,000 variants and incorporate rolling codes."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.5.1.2",
+      "quote": "have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum",
+      "text": "Where unsetting is achieved by an electrical/electronic device without rolling codes, it shall have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.5.1.3",
+      "quote": "If unsetting can be achieved via a remote control, the immobilizer must return to the set condition within 5 minutes after unsetting if no supplementary action on the starter circuit has been undertaken",
+      "text": "Where unsetting is achieved via the remote control, the immobiliser shall return to the set condition within 5 minutes after unsetting if no supplementary action on the starter circuit has been undertaken."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.6.1",
+      "quote": "optical displays inside and optical signals outside the passenger compartment are allowed",
+      "text": "Where status display of the immobiliser is provided, optical displays inside and optical signals outside the passenger compartment are permitted."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.6.1",
+      "quote": "Any optical signal or any use of lighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of Regulation No. 48.",
+      "text": "Any optical signal or any use of lighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of Regulation No. 48."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 5,
+      "paragraph": "5.2.6.2",
+      "quote": "Such optical indication may also be produced by the simultaneous operation of the direction indicators and/or passenger compartment lamp(s), provided that the duration of the optical indication by the direction indicators does not exceed 3 seconds",
+      "text": "Where the short-term dynamic status indication is produced by the direction indicators, the duration of the optical indication by the direction indicators shall not exceed 3 seconds."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "4.8",
+      "quote": "In the case of a component approved separately as an immobilizer, the approval mark shall be affixed by the manufacturer to the major element(s) of the device.",
+      "text": "Where the component is approved separately as an immobiliser, the approval mark shall be affixed by the manufacturer to the major element(s) of the device."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 4,
+      "paragraph": "4.8",
+      "quote": "both approval marks shall be affixed by the manufacturer to the major element(s) of the device.",
+      "text": "Where the component is approved as an immobiliser under UN R162 and as an alarm system under UN R163, both approval marks shall be affixed by the manufacturer to the major element(s) of the device."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "4.4",
+      "quote": "There shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle or component conforming to a type approved under this Regulation, an international approval mark",
+      "text": "An international approval mark shall be affixed conspicuously and in a readily accessible place specified on the approval form to every component conforming to a type approved under this Regulation."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "4.4.1",
+      "quote": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+      "text": "The international approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "4.4.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of the circle",
+      "text": "The approval mark shall include the number of this Regulation followed by the letter \"R\", a dash and the approval number, to the right of the circle."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and be indelible.",
+      "text": "The approval mark shall be clearly legible and be indelible."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "4.10",
+      "quote": "As an alternative to the approval mark described in paragraph 4.4. above, a certificate of conformity shall be issued for every immobilizer offered for sale.",
+      "text": "As an alternative to the approval mark, a certificate of conformity shall be issued for every immobiliser offered for sale."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 3,
+      "paragraph": "4.10",
+      "quote": "If the immobilizer is made up of separate components, its main component(s) shall bear a reference mark and the certificate of conformity shall provide a list of such reference marks.",
+      "text": "Where the immobiliser is made up of separate components, its main component(s) shall bear a reference mark and the certificate of conformity shall provide a list of such reference marks."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 13,
+      "paragraph": "Annex 6 1.",
+      "quote": "All components of the immobilizer shall operate without any failure under the following conditions.",
+      "text": "All components of the immobiliser shall operate without any failure under the operating conditions specified in Annex 6."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 13,
+      "paragraph": "Annex 6 1.1",
+      "quote": "(b) -40°C to +125°C for parts to be fitted in the engine compartment unless otherwise specified.",
+      "text": "Parts of the immobiliser fitted in the engine compartment shall operate without failure from -40 °C to +125 °C unless otherwise specified."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 13,
+      "paragraph": "Annex 6 1.2",
+      "quote": "(c) IP 54 for all other parts.",
+      "text": "All immobiliser parts other than those fitted in the passenger compartment shall provide degree of protection IP 54 in accordance with IEC Publication 529 1989."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 13,
+      "paragraph": "Annex 6 1.2",
+      "quote": "The immobilizer manufacturer shall specify in the installation instructions any restrictions on the positioning of any part of the installation with respect to dust, water and temperature",
+      "text": "The installation instructions shall specify any restrictions on the positioning of any part of the immobiliser installation with respect to dust, water and temperature."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 13,
+      "paragraph": "Annex 6 1.3",
+      "quote": "7 days according to IEC 68-2-30-1980.",
+      "text": "The immobiliser shall withstand a weatherability test of 7 days according to IEC 68-2-30-1980."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 13,
+      "paragraph": "Annex 6 1.4",
+      "quote": "Time allowance for excess voltages at 23°C: U = 18 V, max. 1 h U = 24 V, max. 1 min.",
+      "text": "The immobiliser shall withstand an excess voltage of 18 V for a maximum of 1 hour and of 24 V for a maximum of 1 minute at 23 °C."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 13,
+      "paragraph": "Annex 6 2.",
+      "quote": "All the tests shall be carried out in sequence on a single immobilizer.",
+      "text": "All the Annex 6 tests shall be carried out in sequence on a single immobiliser."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 14,
+      "paragraph": "Annex 6 3.2.1",
+      "quote": "Test temperature T (-40 ± 2)° C Test voltage U = (9 ± 0.2) V Storage duration 4 hours",
+      "text": "The immobiliser shall continue to meet the operation specifications after storage for 4 hours at (-40 ± 2) °C and (9 ± 0.2) V."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 14,
+      "paragraph": "Annex 6 3.2.4",
+      "quote": "The immobilizer, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+      "text": "The immobiliser, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 14,
+      "paragraph": "Annex 6 3.2.5",
+      "quote": "The immobilizer, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 min.",
+      "text": "The immobiliser, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 14,
+      "paragraph": "Annex 6 3.3",
+      "quote": "After the test for tightness to foreign body and water according to IEC 529-1989, for degrees of protection as in paragraph 1.1.2., the operation tests according to paragraph 3.1. shall be repeated.",
+      "text": "After the test for tightness to foreign bodies and water according to IEC 529-1989 at the applicable degree of protection, the immobiliser operation tests shall be repeated."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 15,
+      "paragraph": "Annex 6 3.5",
+      "quote": "The immobilizer and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min.",
+      "text": "The immobiliser and its components shall not be destroyed by reversed polarity up to 13 V during 2 minutes."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 15,
+      "paragraph": "Annex 6 3.6",
+      "quote": "All electrical connections of the immobilizer must be short-circuit proof against earth, max. 13 V and/or fused.",
+      "text": "All electrical connections of the immobiliser shall be short-circuit proof against earth at max. 13 V and/or fused."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 15,
+      "paragraph": "Annex 6 3.7",
+      "quote": "The energy consumption in set condition under the conditions given in paragraph 2.1. shall not exceed 20 mA on average for the complete immobilizer including status display.",
+      "text": "The energy consumption in set condition under the normal test conditions shall not exceed 20 mA on average for the complete immobiliser including status display."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 16,
+      "paragraph": "Annex 6 3.8.2.1",
+      "quote": "The frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+      "text": "Type 1 immobiliser components shall withstand sinusoidal vibration from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak)."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 16,
+      "paragraph": "Annex 6 3.8.2.3",
+      "quote": "The frequency variation is 1 octave/min. The number of cycle is 10, the test shall be performed along each of the 3 axes.",
+      "text": "The immobiliser vibration test shall use a frequency variation of 1 octave/min and 10 cycles, performed along each of the 3 axes."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 16,
+      "paragraph": "Annex 6 3.8.3",
+      "quote": "During the test the immobilizer shall be electrically connected and the cable shall be supported after 200 mm.",
+      "text": "During the vibration test the immobiliser shall be electrically connected and the cable shall be supported after 200 mm."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 16,
+      "paragraph": "Annex 7 1.2",
+      "quote": "The immobilizer shall be tested in unset state and in set state",
+      "text": "For immunity against disturbances conducted along supply lines, the immobiliser shall be tested in unset state and in set state."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 16,
+      "paragraph": "Annex 7 2. Table 1",
+      "quote": "Unexpected activation of the immobilizer",
+      "text": "For vehicle and ESA immunity tests, an immobiliser in unset state shall not exhibit unexpected activation of the immobiliser as a failure criterion."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 17,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Points that can easily be touched only from the outside of the vehicle Immobilizer in set state",
+      "text": "For air discharge at points touchable only from the outside of the vehicle with the immobiliser in set state, the test level shall be ± 15 kV with a 150 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 17,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Contact discharge Points that can easily be accessed only from the inside of the vehicle Immobilizer in unset state",
+      "text": "For contact discharge at points accessible only from the inside of the vehicle with the immobiliser in unset state, the test level shall be ± 4 kV with a 330 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R162",
+      "page": 17,
+      "paragraph": "Annex 7 3.",
+      "quote": "Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge",
+      "text": "Each immobiliser ESD test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 3,
+      "paragraph": "5.1",
+      "quote": "VAS shall, in the event of intrusion into or interference with a vehicle, provide a warning signal. The warning signal shall be audible",
+      "text": "The alarm system shall, in the event of intrusion into or interference with the vehicle, provide an audible warning signal and may in addition include optical warning devices or be a radio alarm."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 3,
+      "paragraph": "5.2",
+      "quote": "VASs shall be designed, constructed and installed in such a way that the vehicle when equipped shall continue to comply with the relevant technical requirements, especially with regard to electromagnetic compatibility (EMC)",
+      "text": "The alarm system shall be designed, constructed and installed in such a way that the vehicle when equipped continues to comply with the relevant technical requirements, especially with regard to electromagnetic compatibility."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 3,
+      "paragraph": "5.3",
+      "quote": "The installation of a VAS in a vehicle shall not be capable of influencing the vehicle's performance (in the unset state), or its safe operation.",
+      "text": "The installation of the alarm system shall not be capable of influencing the vehicle's performance in the unset state or its safe operation."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 3,
+      "paragraph": "5.4",
+      "quote": "The VAS and components thereof shall not activate inadvertently, particularly whilst the engine is in its running mode.",
+      "text": "The alarm system and its components shall not activate inadvertently, particularly whilst the engine is in its running mode."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 3,
+      "paragraph": "5.5",
+      "quote": "Failure of the VAS, or failure of its electrical supply shall not affect the safe operation of the vehicle.",
+      "text": "Failure of the alarm system, or failure of its electrical supply, shall not affect the safe operation of the vehicle."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 3,
+      "paragraph": "5.6",
+      "quote": "designed, built and installed in such a way as to minimize the risk for anyone to make them inoperable or to destroy them rapidly and without calling attention",
+      "text": "The alarm system, its components and the parts controlled by them shall be designed, built and installed so as to minimise the risk for anyone to make them inoperable or to destroy them rapidly and without calling attention."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "5.7",
+      "quote": "The means of setting and unsetting of the VAS shall be designed in such a way that it does not invalidate the requirements of this Regulation.",
+      "text": "The means of setting and unsetting of the alarm system shall be designed so as not to invalidate the requirements of this Regulation."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "5.8",
+      "quote": "The system shall be so arranged that the shorting out of any warning signal circuit shall not render inoperative any aspects of the alarm system, other than the circuit which is shorted out.",
+      "text": "The system shall be so arranged that the shorting out of any warning signal circuit does not render inoperative any aspect of the alarm system other than the circuit which is shorted out."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "6.1.1",
+      "quote": "The VAS shall at least detect and signal the opening of any vehicle door, engine bonnet and luggage compartment.",
+      "text": "The alarm system shall at least detect and signal the opening of any vehicle door, engine bonnet and luggage compartment."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "6.1.1",
+      "quote": "The failure or switching off of light sources, e.g. passenger compartment light, shall not impair the control operation.",
+      "text": "The failure or switching off of light sources, e.g. the passenger compartment light, shall not impair the control operation of the alarm system."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "6.1.1",
+      "quote": "(b) Of attempted vehicle theft, e.g. inclination sensor",
+      "text": "Additional efficient sensors for attempted vehicle theft, such as the inclination (motion/tilt) sensor, are allowed taking account of measures to prevent unnecessary sounding of the alarm."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "6.1.1",
+      "quote": "the alarm signal, activated by one of the above-mentioned sensors, shall be activated not more than 10 times within the same activation period of the VAS",
+      "text": "Where the additional sensors generate an alarm signal after an intrusion has occurred or under external influences, the alarm signal activated by one of these sensors shall be activated not more than 10 times within the same activation period of the alarm system."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "6.1.1",
+      "quote": "It shall not be possible to deactivate the sensors while the alarm system is in a set state.",
+      "text": "It shall not be possible to deactivate the additional sensors while the alarm system is in a set state."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 4,
+      "paragraph": "6.1.2.1",
+      "quote": "It shall be ensured that the VAS both in set and unset conditions, cannot cause the alarm signal to sound unnecessarily, in the event of:",
+      "text": "The alarm system, both in set and unset conditions, shall not cause the alarm signal to sound unnecessarily in the event of an impact on the vehicle, electromagnetic compatibility disturbances, battery voltage reduction or false alarm of the passenger compartment control."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.1",
+      "quote": "The warning signal shall be clearly audible and recognizable and shall differ significantly from the other audible signals used in road traffic.",
+      "text": "The audible warning signal shall be clearly audible and recognisable and shall differ significantly from the other audible signals used in road traffic."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.1",
+      "quote": "a separate audible warning device may be fitted in the area of the vehicle which is controlled by the VAS, where it shall be protected against easy, rapid access by persons",
+      "text": "Where a separate audible warning device (siren) is fitted in the area controlled by the alarm system, it shall be protected against easy, rapid access by persons."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.2",
+      "quote": "Minimum: 25 s Maximum: 30 s",
+      "text": "The duration of the audible alarm signal shall be minimum 25 s and maximum 30 s."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.2",
+      "quote": "The audible signal may sound again only after the next interference with the vehicle",
+      "text": "The audible signal may sound again only after the next interference with the vehicle, i.e. after the above-mentioned time span."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.2",
+      "quote": "Unsetting of the alarm system shall immediately cut the signal.",
+      "text": "Unsetting of the alarm system shall immediately cut the audible signal."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.3.1",
+      "quote": "Intermittent signal (on/off): Trigger frequency (2 ± 1) Hz On time = off time ± 10 per cent",
+      "text": "Where a constant tone signal device is used, an intermittent on/off signal shall have a trigger frequency of (2 ± 1) Hz with on time equal to off time ± 10 per cent."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.3.2",
+      "quote": "Passage frequency (2 ± 1) Hz",
+      "text": "Where an audible signal device with frequency modulation is used, the passage frequency shall be (2 ± 1) Hz with equal passage of a significant frequency range within 1,800 through 3,550 Hz in both directions."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 5,
+      "paragraph": "6.2.3.3",
+      "quote": "However, in the case of a different sound source from the original equipment audible warning device, the minimum sound level may be reduced to 100 dB(A), measured under the conditions of UN Regulation No. 28, Part I.",
+      "text": "Where a sound source different from the original equipment audible warning device is used, the minimum sound level may be reduced to 100 dB(A), measured under the conditions of UN Regulation No. 28, Part I."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.3.2",
+      "quote": "The optical signal shall have a duration between 25 s and 5 minutes after the alarm has been activated. The unsetting of the alarm system shall immediately stop the signal.",
+      "text": "Where an optical alarm is fitted, the optical signal shall have a duration between 25 s and 5 minutes after the alarm has been activated, and unsetting shall immediately stop it."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.3.3",
+      "quote": "Flashing of all direction indicators and/or passenger compartment light of the vehicle, including all lamps in the same electrical circuit.",
+      "text": "The optical signal shall be produced by flashing of all direction indicators and/or the passenger compartment light, including all lamps in the same electrical circuit."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.3.3",
+      "quote": "Trigger frequency (2 ± 1) Hz",
+      "text": "The optical signal trigger frequency shall be (2 ± 1) Hz with on time equal to off time ± 10 per cent."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.5.1",
+      "quote": "When the engine is in its running mode, deliberate or inadvertent setting of the alarm system shall be impossible.",
+      "text": "When the engine is in its running mode, deliberate or inadvertent setting of the alarm system shall be impossible."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.6.1",
+      "quote": "Any suitable means of setting of the VAS is allowed, provided that such means does not inadvertently cause false alarms.",
+      "text": "Any suitable means of setting of the alarm system is allowed, provided that it does not inadvertently cause false alarms."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.6.2.2",
+      "quote": "Electrical/electronic device, e.g. remote control, with at least 50,000 variants and shall incorporate rolling codes",
+      "text": "Where unsetting is achieved by the electrical/electronic remote control, it shall have at least 50,000 variants and incorporate rolling codes."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.6.2.2",
+      "quote": "have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum",
+      "text": "Where the remote control does not incorporate rolling codes, it shall have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.7",
+      "quote": "It shall be possible for the exit delay to be set to between 15 seconds and 45 seconds after the switch has been operated.",
+      "text": "Where the switching device for setting the alarm system is fitted within the protected area, an exit delay shall be provided, settable to between 15 seconds and 45 seconds after the switch has been operated."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.8",
+      "quote": "a delay of 5 seconds minimum and 15 seconds maximum shall be allowed before the activation of the audible and optical signals",
+      "text": "Where the device for unsetting the alarm system is fitted within the protected area, a delay of 5 seconds minimum and 15 seconds maximum shall be allowed before the activation of the audible and optical signals."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 6,
+      "paragraph": "6.9.1",
+      "quote": "To provide information on the status of the VAS (set, unset, alarm setting period, alarm has been activated), optical displays inside and outside the passenger compartment are allowed.",
+      "text": "Status information of the alarm system (set, unset, alarm setting period, alarm activated) may be provided by optical displays inside and outside the passenger compartment."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "6.9.2",
+      "quote": "provided that the duration of the optical indication by the direction indicators does not exceed 3 seconds",
+      "text": "Where a short-term dynamic status indication is produced by the direction indicators, the duration of the optical indication by the direction indicators shall not exceed 3 seconds."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "6.10",
+      "quote": "The source of power for the VAS shall be either the vehicle battery or a rechargeable battery.",
+      "text": "The source of power for the alarm system shall be either the vehicle battery or a rechargeable battery."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "6.10",
+      "quote": "These batteries shall by no means supply energy to other parts of the vehicle electrical system.",
+      "text": "Where an additional rechargeable or non-rechargeable battery is provided, these batteries shall by no means supply energy to other parts of the vehicle electrical system."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "6.11.2",
+      "quote": "Such an alarm shall be triggered from within the vehicle and shall not affect the state (set or unset) of the VAS.",
+      "text": "Where a panic alarm is provided, it shall be triggered from within the vehicle and shall not affect the set or unset state of the alarm system."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "6.11.2",
+      "quote": "A panic alarm shall not immobilize the engine or stop it if it is running.",
+      "text": "The panic alarm shall not immobilise the engine or stop it if it is running."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "7.1",
+      "quote": "All components of the VAS shall operate without any failure under the following conditions.",
+      "text": "All components of the alarm system shall operate without any failure under the operation parameters specified in paragraph 7.1."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "7.1.1",
+      "quote": "(a) -40°C to +85°C for parts to be fitted in the passenger or luggage compartment;",
+      "text": "Parts of the alarm system to be fitted in the passenger or luggage compartment shall operate without failure from -40 °C to +85 °C."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "7.1.2",
+      "quote": "(c) IP 54 for all other parts.",
+      "text": "All alarm system parts other than those fitted in the passenger compartment shall provide degree of protection IP 54 in accordance with IEC Publication 529 1989."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 7,
+      "paragraph": "7.1.2",
+      "quote": "The VAS manufacturer shall specify in the installation instructions any restrictions on the positioning of any part of the installation with respect to dust, water and temperature.",
+      "text": "The installation instructions shall specify any restrictions on the positioning of any part of the alarm system installation with respect to dust, water and temperature."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 8,
+      "paragraph": "7.1.3",
+      "quote": "7 days according to IEC 68-2-30-1980.",
+      "text": "The alarm system shall withstand a weatherability test of 7 days according to IEC 68-2-30-1980."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 8,
+      "paragraph": "7.1.4",
+      "quote": "Operation supply voltage range: from 9 V to 15 V in the temperature range according to paragraph 7.1.1.",
+      "text": "The alarm system shall operate over a supply voltage range from 9 V to 15 V within the climatic temperature range."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 8,
+      "paragraph": "7.2.1.1",
+      "quote": "Alarm duration according to paragraphs 6.2.2. and 6.3.2; Frequency and on/off ratio according to paragraphs 6.3.3. and 6.2.3.1. or 6.2.3.2. respectively",
+      "text": "Compliance of the alarm system shall be checked for alarm duration, frequency and on/off ratio, number of alarm cycles and the alarm system setting lock."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 8,
+      "paragraph": "7.2.1.2",
+      "quote": "Voltage U = U = (12 ± 0.2) V Temperature T = (23 ± 5)°C",
+      "text": "The normal test conditions for the alarm system operation tests shall be a voltage of (12 ± 0.2) V and a temperature of (23 ± 5) °C."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 8,
+      "paragraph": "7.2.2.1",
+      "quote": "Test temperature...............................T (-40 ± 2)°C Test voltage U = (9 ± 0.2) V Storage duration 4 hours",
+      "text": "The alarm system shall continue to meet the operation specifications after storage for 4 hours at (-40 ± 2) °C and (9 ± 0.2) V."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 8,
+      "paragraph": "7.2.2.3",
+      "quote": "For parts to be fitted in the engine compartment unless otherwise specified: Test temperature T = (+125 ± 2)°C",
+      "text": "Parts fitted in the engine compartment shall continue to meet the operation specifications after storage for 4 hours at (+125 ± 2) °C and (15 ± 0.2) V unless otherwise specified."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 9,
+      "paragraph": "7.2.2.4",
+      "quote": "The VAS, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+      "text": "The alarm system, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 9,
+      "paragraph": "7.2.2.5",
+      "quote": "The VAS, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute.",
+      "text": "The alarm system, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 9,
+      "paragraph": "7.2.3",
+      "quote": "After the test for tightness to foreign body and water according to IEC 529-1989, for degrees of protection as in paragraph 7.1.2., the operation tests according to paragraph 7.2.1. shall be repeated.",
+      "text": "After the test for tightness to foreign bodies and water according to IEC 529-1989 at the applicable degree of protection, the alarm system operation tests shall be repeated."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 9,
+      "paragraph": "7.2.4",
+      "quote": "After a resistance-to-humidity test to be carried out according to IEC 68 2 30 (1980) the operation tests according to paragraph 7.2.1. shall be repeated.",
+      "text": "After the resistance-to-humidity test according to IEC 68-2-30 (1980), the alarm system operation tests shall be repeated."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 9,
+      "paragraph": "7.2.5",
+      "quote": "The VAS and components thereof shall not be destroyed by reversed polarity up to 13 V during 2 min.",
+      "text": "The alarm system and its components shall not be destroyed by reversed polarity up to 13 V during 2 minutes."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 9,
+      "paragraph": "7.2.6",
+      "quote": "All electrical connections of the VAS shall be short-circuit proof against earth, max. 13 V and/or fused.",
+      "text": "All electrical connections of the alarm system shall be short-circuit proof against earth at max. 13 V and/or fused."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 9,
+      "paragraph": "7.2.7",
+      "quote": "The energy consumption in set condition under the conditions given in paragraph 7.2.1.2. shall not exceed 20 mA on average for the complete alarm system including status display.",
+      "text": "The energy consumption in set condition under the normal test conditions shall not exceed 20 mA on average for the complete alarm system including status display."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 10,
+      "paragraph": "7.2.8.2.1",
+      "quote": "The frequency shall be variable from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+      "text": "Type 1 alarm system components shall withstand sinusoidal vibration from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak)."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 10,
+      "paragraph": "7.2.8.2.3",
+      "quote": "The frequency variation is 1 octave/min. The number of cycles is 10, the test shall be performed along each of the 3 axes.",
+      "text": "The alarm system vibration test shall use a frequency variation of 1 octave/min and 10 cycles, performed along each of the 3 axes."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 10,
+      "paragraph": "7.2.8.3",
+      "quote": "During the test the VAS shall be electrically connected and the cable shall be supported after 200 mm.",
+      "text": "During the vibration test the alarm system shall be electrically connected and the cable shall be supported after 200 mm."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 10,
+      "paragraph": "7.2.9",
+      "quote": "triggering of 300 complete alarm cycles (audible and/or optical) with a rest time of the audible device of 5 min",
+      "text": "The alarm system shall complete a durability test of 300 complete alarm cycles (audible and/or optical) with a rest time of the audible device of 5 min under the normal test conditions."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 10,
+      "paragraph": "7.2.10.1",
+      "quote": "The key switch shall be so designed and constructed that it remains fully effective even after 2,500 set/unset cycles in each direction, followed by 96 hours minimum of exposure to salt spray test",
+      "text": "Where an external key switch is used, it shall be so designed and constructed that it remains fully effective after 2,500 set/unset cycles in each direction, followed by 96 hours minimum of exposure to salt spray according to IEC 68-2-11-1981."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 11,
+      "paragraph": "7.2.12",
+      "quote": "The VAS shall be submitted to the tests described in Annex 7.",
+      "text": "The alarm system shall be submitted to the electromagnetic compatibility tests described in Annex 7."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 11,
+      "paragraph": "7.2.13",
+      "quote": "an impact of up to 4.5 Joules of a hemispherical body with 165 mm in diameter and 70 ± 10 Shore A applied anywhere to the vehicle bodywork or glazing with its curved surface does not cause false alarms",
+      "text": "An impact of up to 4.5 Joules of a hemispherical body of 165 mm diameter and 70 ± 10 Shore A applied anywhere to the vehicle bodywork or glazing with its curved surface shall not cause false alarms."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 11,
+      "paragraph": "7.2.14",
+      "quote": "slow reduction of the main battery voltage by continuous discharge of 0.5 V per hour down to 3 V does not cause false alarms",
+      "text": "A slow reduction of the main battery voltage by continuous discharge of 0.5 V per hour down to 3 V shall not cause false alarms."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 11,
+      "paragraph": "7.2.15",
+      "quote": "The system, installed according to the manufacturer's instructions, shall not be triggered when subjected 5 times to the test described in paragraph 7.2.13. above at intervals of 0.5 s.",
+      "text": "A passenger compartment protection system shall not be triggered when subjected 5 times to the impact test at intervals of 0.5 s."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 11,
+      "paragraph": "7.2.15",
+      "quote": "The presence of a person touching or moving around the outside of the vehicle (windows closed) shall not cause any false alarm.",
+      "text": "The presence of a person touching or moving around the outside of the vehicle with windows closed shall not cause any false alarm."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 6 1.",
+      "quote": "The cylinder of the key switch shall not protrude by more than 1 mm from the cowling, and the protruding part shall be conical.",
+      "text": "Where a mechanical key switch is used, the cylinder of the key switch shall not protrude by more than 1 mm from the cowling, and the protruding part shall be conical."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 6 2.",
+      "quote": "The joint between the cylinder core and the cylinder casing shall be capable of withstanding a tensile force of 600 N and a torque of 25 Nm.",
+      "text": "The joint between the cylinder core and the cylinder casing shall withstand a tensile force of 600 N and a torque of 25 Nm."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 6 3.",
+      "quote": "The key switch shall be provided with a cylinder drill obstruction.",
+      "text": "The key switch shall be provided with a cylinder drill obstruction."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 6 4.",
+      "quote": "The key profile shall have at least 1,000 effective permutations.",
+      "text": "The key profile shall have at least 1,000 effective permutations."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 6 5.",
+      "quote": "The key switch shall not be operable by a key which differs by only one permutation from the key matching the key switch.",
+      "text": "The key switch shall not be operable by a key which differs by only one permutation from the key matching the key switch."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 6 6.",
+      "quote": "The key aperture to an external key switch shall be shuttered or otherwise protected against the penetration of dirt and/or water.",
+      "text": "The key aperture to an external key switch shall be shuttered or otherwise protected against the penetration of dirt and/or water."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 7 1.",
+      "quote": "The VAS/AS shall be tested in unset state and in set state.",
+      "text": "For immunity against disturbances conducted along supply lines, the alarm system shall be tested in unset state and in set state."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 7 2. Table 1",
+      "quote": "Unexpected activation of the VAS/AS",
+      "text": "For vehicle and ESA immunity tests, an alarm system in unset state shall not exhibit unexpected activation of the VAS/AS as a failure criterion."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 7 2. Table 1",
+      "quote": "Unexpected deactivation of the VAS/AS",
+      "text": "For vehicle and ESA immunity tests, an alarm system in set state shall not exhibit unexpected deactivation of the VAS/AS as a failure criterion."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 23,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Points that can easily be accessed only from the inside of the vehicle VAS/AS in unset state",
+      "text": "For air discharge at points accessible only from the inside of the vehicle with the alarm system in unset state, the test level shall be ± 6 kV with a 330 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 24,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Unexpected deactivation of the VAS/AS without reactivation, within 1s, after each discharge",
+      "text": "An alarm system in set state shall not exhibit unexpected deactivation without reactivation within 1 s after each outside air discharge at ± 15 kV."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 24,
+      "paragraph": "Annex 7 3. Table 2",
+      "quote": "Contact discharge Points that can easily be touched only from the outside of the vehicle VAS/AS in set state",
+      "text": "For contact discharge at points touchable only from the outside of the vehicle with the alarm system in set state, the test level shall be ± 8 kV with a 150 pF, 2 kΩ discharge network."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 24,
+      "paragraph": "Annex 7 3.",
+      "quote": "Each test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge",
+      "text": "Each alarm system ESD test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge."
+    },
+    {
+      "regulation": "UN R163",
+      "page": 24,
+      "paragraph": "Annex 7 4.",
+      "quote": "The VAS/AS shall be in set state.",
+      "text": "For the radiated emissions test, the alarm system shall be in set state."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+      "text": "An approval mark shall be affixed to every electrical/electronic sub-assembly conforming to a type approved under this Regulation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3",
+      "quote": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form",
+      "text": "The international approval mark shall be affixed in a conspicuous and easily accessible place specified on the approval communication form."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "text": "The approval mark shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the country granting the approval."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle",
+      "text": "The approval mark shall comprise the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 6,
+      "paragraph": "3.2.6",
+      "quote": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "text": "The ESA sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "text": "The ESA shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "The ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The broadband electromagnetic interference generated by the ESA shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, decreasing logarithmically with frequencies above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+      "text": "For broadband ESA emissions in the 400 to 1,000 MHz frequency band, the limit shall remain constant at 63 dB microvolts/m."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+      "text": "The narrowband electromagnetic interference generated by the ESA shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, decreasing logarithmically with frequencies above 30 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m.",
+      "text": "For narrowband ESA emissions in the 400 to 1,000 MHz frequency band, the limit shall remain constant at 53 dB microvolts/m."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7. Table 1",
+      "quote": "Positive +75 V",
+      "text": "The maximum allowed positive pulse amplitude of transient conducted disturbances emitted by the ESA on 12 V supply lines shall be +75 V."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7. Table 1",
+      "quote": "Negative -100 V",
+      "text": "The maximum allowed negative pulse amplitude of transient conducted disturbances emitted by the ESA on 12 V supply lines shall be -100 V."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "ALSE 80 to 2,000 MHz 30 V/m",
+      "text": "The ESA immunity to electromagnetic radiation tested by the ALSE method shall be 30 V/m over 90 per cent of the 80 to 2,000 MHz frequency band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "BCI 20 to 400 MHz 60 mA",
+      "text": "The ESA immunity to electromagnetic radiation tested by the BCI method shall be 60 mA over 90 per cent of the 20 to 400 MHz frequency band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "ALSE 2,000 to 6,000 MHz 10 V/m",
+      "text": "The ESA immunity to electromagnetic radiation tested by the ALSE method shall be 10 V/m over 90 per cent of the 2,000 to 6,000 MHz frequency band."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.2",
+      "quote": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\"",
+      "text": "The ESA shall be considered as complying with immunity requirements if, during the tests, there is no degradation of performance of immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1",
+      "quote": "The immunity of ESA representative of this type shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b",
+      "text": "The ESA shall be tested for immunity to transient disturbances conducted along 12 V supply lines using the starting profile according to ISO 16750-2 and pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "1 -75 V -450 V 500 pulses III III",
+      "text": "For test pulse 1, the ESA shall withstand an immunity test level of -75 V for 500 pulses, with functional status classification III for immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "2a +37 V +37 V 500 pulses I III",
+      "text": "For test pulse 2a, the ESA shall withstand an immunity test level of +37 V for 500 pulses, with functional status classification I for immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "3a -112 V -150 V 1 h I III",
+      "text": "For test pulse 3a, the ESA shall withstand an immunity test level of -112 V for 1 hour, with functional status classification I for immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "3b +75 V +150 V 1 h I III",
+      "text": "For test pulse 3b, the ESA shall withstand an immunity test level of +75 V for 1 hour, with functional status classification I for immunity related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 13,
+      "paragraph": "6.10.1",
+      "quote": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+      "text": "Where the ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with the narrowband emission requirements."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 13,
+      "paragraph": "6.10.5",
+      "quote": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission",
+      "text": "Where the ESA is not switched, contains no switches and includes no inductive load, it need not be tested for transient conducted emission."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 13,
+      "paragraph": "6.10.7",
+      "quote": "RF transmitters shall be tested in the transmit mode.",
+      "text": "Where the ESA includes an RF transmitter, it shall be tested in the transmit mode."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 96,
+      "paragraph": "Annex 8 3.3",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.6.2.1. of this Regulation",
+      "text": "For narrowband ESA emission measurements, the extraneous noise or signal shall be at least 6 dB below the interference limits given in paragraph 6.6.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 96,
+      "paragraph": "Annex 8 2.",
+      "quote": "The ESA under test shall be in normal operation mode, preferably in maximum load.",
+      "text": "During the narrowband emission test the ESA under test shall be in normal operation mode, preferably in maximum load."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 93,
+      "paragraph": "Annex 7 3.1",
+      "quote": "the test shall be performed according to the ALSE method described in Clause 6.4 of CISPR 25",
+      "text": "The ESA broadband emission test shall be performed according to the ALSE method described in Clause 6.4 of CISPR 25."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 92,
+      "paragraph": "Annex 7 4.2",
+      "quote": "If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "text": "Where peak detectors are used for the ESA broadband emission measurements, a correction factor of 20 dB as defined in CISPR 12 shall be applied."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 92,
+      "paragraph": "Annex 7 3.4",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+      "text": "For broadband ESA emission measurements, the extraneous noise or signal shall be at least 6 dB below the interference limits given in paragraph 6.5.2.1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 97,
+      "paragraph": "Annex 9 1.2.1",
+      "quote": "ESAs may comply with the requirements of any combination of the following test methods at the manufacturer's discretion provided that these results in the full frequency range specified in paragraph 3.1. of this Annex being covered",
+      "text": "The ESA may comply with the immunity requirements using any combination of the absorber chamber, TEM cell, bulk current injection, stripline and reverberation chamber test methods, provided the full 20 to 6,000 MHz frequency range is covered."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 2.2",
+      "quote": "The ESA under test shall be switched on and shall be stimulated to be in normal operation condition.",
+      "text": "During the immunity tests the ESA under test shall be switched on and stimulated to be in normal operation condition."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "text": "ESA immunity measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 99,
+      "paragraph": "Annex 9 4.1.2",
+      "quote": "The \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2. The test shall be performed with vertical polarization.",
+      "text": "For the absorber chamber ESA immunity test, the substitution method according to ISO 11452-2 shall be used with vertical polarization."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 100,
+      "paragraph": "Annex 9 4.3.2",
+      "quote": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+      "text": "For the BCI ESA immunity test, the substitution method shall be used with the injection probe positioned at 150 mm distance to the ESA."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 108,
+      "paragraph": "Annex 10 2.",
+      "quote": "Apply the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 to the supply lines as well as to other connections of ESAs",
+      "text": "The ESA shall be subjected to test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 on the supply lines and on other connections which may be operationally connected to supply lines."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 108,
+      "paragraph": "Annex 10 2.",
+      "quote": "Apply the starting profile according to the International Standard ISO 16750-2 to the supply lines",
+      "text": "The ESA shall be subjected to the starting profile according to ISO 16750-2 on the supply lines and on other connections which may be operationally connected to supply lines."
+    }
+  ]
+}

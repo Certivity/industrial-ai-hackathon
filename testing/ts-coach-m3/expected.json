@@ -1,0 +1,1086 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-coach-m3",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The coach's exit safety signs shall comply with the requirements of paragraph 6.5 of ISO 3864-1:2011.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 54,
+        "paragraph": "Annex 3 7.6.11.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "Each safety sign on the coach shall communicate only one safety message.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 54,
+        "paragraph": "Annex 3 7.6.11.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "Each required safety sign shall be located and orientated so as to be easily understood.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 54,
+        "paragraph": "Annex 3 7.6.11.2"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "Where supplementary words, single letters or numbers appear on a safety sign, their lower case characters shall have a minimum height of 8 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.2.5"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "All safety signs visible from inside the passenger compartment shall be made of photo-luminescent material.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.3"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "The photo-luminescent safety signs shall have luminance decay characteristics conforming at least to sub-classification C in Table 2 of ISO 17398:2004.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.3"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The safety signs shall not be located where they may be obscured during operation of the vehicle.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.4"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "Each emergency exit of the coach shall be marked by one of the relevant pictograms of Table 3 of ISO 7010:2011.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.5"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The exit pictograms shall be legible from both the inside and the outside of the vehicle.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.5"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "Safety signs shall be positioned adjacent to, surrounding, or on every internal and external emergency control and on every emergency-window breaking device.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.6"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "No part of a safety sign shall obscure any misuse protection such as a protective cover.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.11.7"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "Service-door lighting, if fitted, shall illuminate a flat horizontal ground portion 2 m wide measured from a plane parallel to the vehicle's median longitudinal vertical plane.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.12.2.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "Service-door lighting, if fitted, shall have limited dazzle outside a ground zone of maximum width 5 m measured from the side of the vehicle.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.12.2.3"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "Where a service-door lighting device has its lower edge less than 2 m from the ground, it shall not project more than 50 mm beyond the overall vehicle width.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.12.2.4"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "Service-door lighting shall be installed so that it can only be switched on when a service door is operated and the vehicle speed does not exceed 5 km/h.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.12.2.5"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "Service-door lighting shall switch off automatically before the vehicle reaches a speed exceeding 5 km/h.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 56,
+        "paragraph": "Annex 3 7.6.12.2.5"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The free space extending inwards from the side wall in which a service door is mounted shall permit the free passage of test gauge 1 or test gauge 2 as specified in Annex 4, Figure 1.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 57,
+        "paragraph": "Annex 3 7.7.1.1"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "The maximum slope of the floor in each access passage shall not exceed 5 per cent.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 58,
+        "paragraph": "Annex 3 7.7.1.11"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The surface of the access passages shall be slip-resistant.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 58,
+        "paragraph": "Annex 3 7.7.1.12"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The free space between the gangway and each emergency door aperture shall permit the free passage of the specified vertical dual-cylinder assembly 1,400 mm high.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 58,
+        "paragraph": "Annex 3 7.7.2.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The base of the lower cylinder used for emergency door access shall lie within the projection of the upper cylinder.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 58,
+        "paragraph": "Annex 3 7.7.2.2"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "It shall be possible to move a test gauge from the gangway to the exterior of the vehicle through every emergency window.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 58,
+        "paragraph": "Annex 3 7.7.3.1"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The emergency-window access test gauge shall be a thin plate 600 mm x 400 mm with corners radiused by 200 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 58,
+        "paragraph": "Annex 3 7.7.3.3"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "At least one roof escape hatch shall be located so that the specified four-sided truncated pyramid 1,600 mm high touches part of a seat or equivalent support.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 58,
+        "paragraph": "Annex 3 7.7.4.1.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The coach gangway shall be designed and constructed to permit the free passage of the two-coaxial-cylinder gauging device of Annex 4, Figure 6.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 59,
+        "paragraph": "Annex 3 7.7.5.1"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "Where monitor or display devices are mounted from the ceiling above the gangway of a Class III coach, the maximum force to move them out of the way shall not exceed 35 N.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 59,
+        "paragraph": "Annex 3 7.7.5.1"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "A gangway-mounted monitor or display device, once moved out of the way, shall maintain its position and shall not automatically redeploy.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 59,
+        "paragraph": "Annex 3 7.7.5.1"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "Where laterally movable seats are fitted in the Class III coach, the gangway width may be reduced to correspond to a lower cylinder diameter of 220 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.5.3"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "Folding seats allowing passengers to sit in the gangway shall not be fitted in the coach.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.5.6"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "The surface of the coach gangways shall be slip-resistant.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.5.9"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "The longitudinal slope of the gangway of the Class III coach shall not exceed 12.5 per cent.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.6.1.2"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "The transversal slope of the coach gangway shall not exceed 5 per cent.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.6.2"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "Where the coach has a transition from a sunken gangway to a seating area, the vertical distance between the gangway surface and the seating-area floor shall not exceed 350 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.7.1.1"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "Where more than one step is provided, each step may extend into the vertical projection of the next step by up to 100 mm while leaving a free tread surface of at least 200 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.7.4"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "All step nosings of the coach shall be designed to minimise the risk of tripping.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 60,
+        "paragraph": "Annex 3 7.7.7.4"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "For the coach carrying more than 22 passengers, a rectangle of 400 mm x 300 mm shall be placeable on the first step with not more than 5 per cent overhang.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.7.5"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "For the coach carrying more than 22 passengers, a rectangle of 400 mm x 200 mm shall be placeable on each other step with not more than 5 per cent overhang.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.7.5"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "All passenger steps of the coach shall have a slip-resistant surface.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.7.6"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The maximum slope of each step in any direction shall not exceed 5 per cent.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.7.7"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "All step nosings shall have a band of contrasting colour on the front edge of the tread.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.7.8"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The contrasting colour band on each step nosing shall be 20 to 50 mm wide and provide a visual contrast C ≥ 0.7 and diffuse reflectance ρd of at least 0.5.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.7.8"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The minimum seat cushion width F of each passenger seat in the Class III coach shall be 225 mm measured from the centre plane of the seating position.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.8.1.1.2"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "The minimum available space width G for each individual passenger seat shall be 250 mm at heights between 270 mm and 650 mm above the uncompressed cushion.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.8.1.2.1"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The minimum available space width G for each position in continuous rows of seats shall be 225 mm at heights between 270 mm and 650 mm above the uncompressed cushion.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.8.1.2.2"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The minimum depth K of each passenger seat cushion in the Class III coach shall be 400 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.8.2.2"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The height of each uncompressed passenger seat cushion relative to the floor shall be between 400 mm and 500 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.3"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "Where a passenger seat is over a wheel arch or the engine/transmission compartment, the cushion height may be reduced to not less than 350 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.3"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "For same-direction seats, the horizontal distance H between the front of a seat squab and the back of the squab of the preceding seat shall not be less than 680 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.4.1"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "Seat spacing shall be measured with the cushion and squab uncompressed using the test gauge of Annex 4, Figure 12B.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.4.2"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "Where transverse seats face one another, the minimum distance between the front faces of the squabs shall be not less than 1,300 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.4.3"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "Seat dimension measurements shall be taken with reclining and adjustable seats in the normal position of use specified by the manufacturer.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.4.4"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "For each seat behind a seat or facing the gangway, a minimum clear foot space of at least 300 mm depth shall be provided.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.5.2"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "Where the Class III coach is subject to the requirements of Annex 8, at least two priority seats complying with Annex 8 paragraph 3.2 shall be provided.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 62,
+        "paragraph": "Annex 3 7.7.8.5.3"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "Over each seating position and its foot space, the free height shall be at least 900 mm above the uncompressed cushion and at least 1,350 mm above the floor.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 63,
+        "paragraph": "Annex 3 7.7.8.6.1"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The free space over each seating position shall extend between longitudinal vertical planes 200 mm either side of the seat's median vertical plane.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 63,
+        "paragraph": "Annex 3 7.7.8.6.2.1"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "For upper outboard seats adjacent to the inner wall, a rectangular zone 150 mm high and 100 mm wide may be excluded from the free space.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 63,
+        "paragraph": "Annex 3 7.7.8.6.3.1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "A wheel arch intrusion into the free space of an outboard seat is permitted where it does not extend beyond the median vertical plane of the seating position.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 63,
+        "paragraph": "Annex 3 7.7.8.6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "Every door to a toilet or other interior compartment in the coach shall be self-closing and shall not be fitted with a device to hold it open where it could obstruct passengers in an emergency.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 64,
+        "paragraph": "Annex 3 7.7.11.1"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "Every interior-compartment door, when open, shall not conceal any handle, opening control or obligatory marking of a service door, emergency door or other emergency exit.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 64,
+        "paragraph": "Annex 3 7.7.11.2"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "Every door to a toilet or other interior compartment shall be provided with a means to open it from outside the compartment in an emergency.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 64,
+        "paragraph": "Annex 3 7.7.11.3"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "Where a guard is fitted behind the driver's compartment, its minimum height measured from the passenger's floor shall be 800 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 65,
+        "paragraph": "Annex 3 7.7.13.1.2.1"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The coach shall be designed so that a 50 mm diameter ball cannot roll into the driver's compartment from the passenger area immediately behind it.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 65,
+        "paragraph": "Annex 3 7.7.13.2"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The minimum width F of the driver's seat cushion in the Class III coach shall be 225 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 65,
+        "paragraph": "Annex 3 7.7.14.3.2"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "The minimum depth K of the driver's seat cushion shall be 400 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 65,
+        "paragraph": "Annex 3 7.7.14.4.2"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "The minimum overall width of the driver's seat back up to 250 mm above the uncompressed cushion shall be 450 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.7.14.5"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "The driver's seat shall be adjustable longitudinally, vertically and in backrest inclination and shall lock automatically in the selected position.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.7.14.7"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "Internal electrical lighting shall illuminate the access to every exit and the area immediately around each service door.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.1.3"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "Internal electrical lighting shall illuminate the internal markings and internal controls of all exits.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.1.4"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "The coach shall have at least two internal lighting circuits such that failure of one does not affect the other.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.2"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The Class III coach shall allow the driver to activate the emergency lighting system from the driver's seating position.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.3.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "Operating the emergency control of any service or emergency door shall activate the emergency lighting system.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.3.2"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "The emergency lighting system, once activated, shall remain active for at least 30 minutes unless de-activated by the driver.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.3.3"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "All units providing the emergency lighting shall produce white light.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.3.5"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The emergency lighting system shall provide at least 10 lux directly under each light unit at 750 mm above the gangway centreline.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 66,
+        "paragraph": "Annex 3 7.8.3.7"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The emergency lighting uniformity over the passenger compartment at 750 mm above access passages and gangways shall be between 0.15 and 2.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 67,
+        "paragraph": "Annex 3 7.8.3.8"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The emergency lighting system shall provide at least 1 lux at floor level on the centreline of all access passages and gangways.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 67,
+        "paragraph": "Annex 3 7.8.3.9"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The interior handrails and handholds of the coach shall be of adequate strength.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 67,
+        "paragraph": "Annex 3 7.11.1.1"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The handrails and handholds shall be designed and installed so as to present no risk of injury to passengers.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 67,
+        "paragraph": "Annex 3 7.11.1.2"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "Every interior handrail shall provide a grasping length of at least 100 mm to accommodate a hand.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 67,
+        "paragraph": "Annex 3 7.11.1.3"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "No cross-section dimension of a handrail or handhold shall be smaller than 20 mm or greater than 45 mm, except for handrails on doors and seats and in access passages.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 67,
+        "paragraph": "Annex 3 7.11.1.3"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The interior handrails shall not have sharp bends.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.1.3"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The clearance between a handrail or handhold and the adjacent vehicle body or wall shall be at least 40 mm along the majority of its length.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.1.4"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The surface of every handrail, handhold and stanchion shall contrast visually with its surroundings and have a diffuse reflectance ρd of at least 0.5.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.1.5"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "Alternatively, the surface of every handrail, handhold and stanchion shall be yellow or white.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.1.5"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "The surface of every handrail, handhold and stanchion shall be slip-resistant.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.1.6"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "Each service door aperture shall be fitted with handrails and/or handholds on both sides.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.3.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The service-door grasping points shall be situated vertically between 800 mm and 1,100 mm above the ground or above the surface of each step.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.3.2"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The coach manufacturer shall specify means to transmit safety information to passengers, adapted to the vehicle design and intelligible from any passenger seat.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 70,
+        "paragraph": "Annex 3 7.19"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "Where a fire suppression system is fitted, it shall be automatically activated through a fire detection system.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 39,
+        "paragraph": "Annex 3 7.5.1.5.1"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "All cables of the heating and emergency-lighting harness shall be well insulated and shall withstand the temperature and humidity conditions to which they are exposed.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 40,
+        "paragraph": "Annex 3 7.5.2.1"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "Every electrical circuit feeding the heating blower, controls or emergency lighting shall include a fuse or a circuit breaker.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 40,
+        "paragraph": "Annex 3 7.5.2.3"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "All cables shall be well protected and held securely in position so that they cannot be damaged by cutting, abrasion or chafing.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 40,
+        "paragraph": "Annex 3 7.5.2.4"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "All electrical cables shall be located so that no part contacts a fuel line or any part of the exhaust system or is subjected to excessive heat.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 40,
+        "paragraph": "Annex 3 7.5.2.6"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "No flammable material shall be located within 100 mm of the heating system components, exhaust system, high-voltage equipment or any other significant heat source unless effectively shielded.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 41,
+        "paragraph": "Annex 3 7.5.5"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "A partition of heat-resisting material shall be fitted between the heating system or any other heat source other than a warm-water device and the rest of the vehicle.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 38,
+        "paragraph": "Annex 3 7.5.1.3"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "Where a passenger-compartment heating device operates other than by hot water, it shall be encased in material that resists the temperatures it generates.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 38,
+        "paragraph": "Annex 3 7.5.1.4"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "A non-hot-water passenger-compartment heating device shall emit no toxic fumes and shall be positioned so that no passenger is likely to contact a hot surface.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 38,
+        "paragraph": "Annex 3 7.5.1.4"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "Space shall be provided for fitting one or more fire extinguishers, one being near the driver's seat.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 41,
+        "paragraph": "Annex 3 7.5.4.1"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "Space of not less than 7 dm3 shall be provided for fitting one or more first-aid kits, with a minimum dimension of not less than 80 mm.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 41,
+        "paragraph": "Annex 3 7.5.4.2"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The coach occupants shall be protected from objects liable to fall from the luggage racks under braking or cornering forces.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 69,
+        "paragraph": "Annex 3 7.13"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "Where luggage compartments are fitted, they shall be designed so that baggage is prevented from falling in the event of sudden braking.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 69,
+        "paragraph": "Annex 3 7.13"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "Any floor trap door that is not an escape hatch shall have no lifting or securing device projecting more than 8 mm above floor level, and the edges of such projections shall be rounded.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 69,
+        "paragraph": "Annex 3 7.14.1"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "Any visual entertainment monitors for passengers shall be located out of the driver's view when the driver is seated in the normal driving position.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 69,
+        "paragraph": "Annex 3 7.15.1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "Where the coach is delivered with a driver's compartment without a roof, the driver shall be provided with special protection against strong wind, dust and heavy rain.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 35,
+        "paragraph": "Annex 3 7.1.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "When the service-door access test gauge has traversed 300 mm from its starting position and touches the step or floor, it shall be retained in that position for verification.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 57,
+        "paragraph": "Annex 3 7.7.1.3"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "A service-door handhold grasping point for a person on the ground shall be not more than 400 mm inwards from the outer edge of the first step.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 68,
+        "paragraph": "Annex 3 7.11.3.2.1"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "For seats adjacent to the coach wall, the available space at shoulder height may exclude a triangular area 20 mm wide by 100 mm high.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 61,
+        "paragraph": "Annex 3 7.7.8.1.4"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "Upon detection of excess temperature or smoke in a separate compartment, the alarm system shall give the driver an acoustic and a visual signal and activate the hazard warning signal.",
+      "source": {
+        "regulation": "UN R107",
+        "version": "11.1.0",
+        "page": 41,
+        "paragraph": "Annex 3 7.5.6.2"
+      }
+    }
+  ]
+}

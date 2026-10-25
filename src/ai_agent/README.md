@@ -1,11 +1,13 @@
 # ai_agent: from a product spec to requirements with grounded citations
 
-`ai_agent` is Part A of `spec/proposal.md` as running code: it reads `spec.md`, chooses the UN Regulations that apply, walks their parsed structure
+`ai_agent` is Part A of `spec/proposal.md` as running code: it reads `spec.md` (or `technical_spec.md`) and/or an exploded-view image, chooses the UN Regulations that apply, walks their parsed structure
 (`regcomp.parse`) to the parts the product has to meet, and writes the atomic requirements in the format of `cases/dev-rear-lamp/expected.json`.
-Text only for now; the exploded view is the next step.
+Text, image, or both: `inputs.py` finds them in the case folder; a drawing is read by `vision.py` (see `spec/finding/image-input.md`).
 
 ```
-python src/ai_agent/run.py cases/dev-rear-lamp                 # about 7.5 minutes and $4 at the default settings
+python src/ai_agent/run.py cases/dev-rear-lamp                 # about 7.5 minutes and $4 at the default settings; reads spec.md and exploded_view.png
+python src/ai_agent/run.py cases/dev-rear-lamp --no-image      # text only (--image PATH picks the drawing)
+python src/ai_agent/run.py cases/dev-rear-lamp --no-text       # image only
 python tools/validate.py runs/dev-rear-lamp/<run id>/submission.json
 python eval/bench_agent.py runs/dev-rear-lamp/<run id>         # the platform's own checks, the funnel, a local judge (cents)
 ```
@@ -18,6 +20,7 @@ turns off the server-side fallback on a policy decline; `--max-cost` stops the r
 
 | Stage | Module | What the model does | What code does |
 |---|---|---|---|
+| 0 vision (image only) | `vision.py` | reads every text of the drawing (whole picture + tiles at native resolution), then maps each callout to the component it points at | resizes, cuts tiles |
 | 1 profile | `profile.py` | spec.md to parts, functions, materials, attributes, the regulatory concepts they fall under, and what is *not* present | nothing |
 | 2 regulations | `regulations.py`, `catalog.py` | reads the 56 cards at once (title, categories, scope, contents, supersession), picks strictly | builds the cards from the PDFs, redirects a superseded regulation to its successor |
 | 3 sections | `sections.py`, `tools.py` | one agent per regulation: reads the outline, looks inside with `get_toc` / `read_node` / `search` / `follow_refs`, submits `select_sections` | answers the tools, refuses labels that do not exist, expands a selection into nodes |
@@ -37,7 +40,7 @@ Three rules hold the design together:
 ## Files of a run (`runs/<case>/<run id>/`, git-ignored)
 
 `profile.json` `regulations.json` (selected, close calls, redirects) `sections.json` and `walk-<reg>.json` (selections and the walk's transcript)
-`citation_hop.json` `chunks.json` (plan and per-chunk coverage) `candidates.json` `submission.json` `trace.json` (quote, breadcrumb-level facts per
+`vision.json` and `component_map.json` (with an image) `citation_hop.json` `chunks.json` (plan and per-chunk coverage) `candidates.json` `submission.json` `trace.json` (quote, breadcrumb-level facts per
 requirement) `usage.json` `calls.jsonl` `run.json`. `runs/_llm_cache` replays an identical request for free, so a change to a late stage re-runs only
 that stage; `runs/_cards` holds the regulation cards for one version of the parser.
 
@@ -58,5 +61,5 @@ is independent of the dev case.
 
 ## Not done
 
-The exploded view; the obligation layer as a per-regulation batch (extraction runs per case); the sub-goal (`diff.py`); the staleness and
+Drawings that are photos or numbered-balloon sheets are untested; the obligation layer as a per-regulation batch (extraction runs per case); the sub-goal (`diff.py`); the staleness and
 propagation triggers of Part B; a UI. See `spec/finding/ai-agent-baseline.md` for what the first measurements say to do next.

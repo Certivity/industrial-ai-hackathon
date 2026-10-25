@@ -1,0 +1,12 @@
+{
+  "regulation": "UN R149",
+  "base_version": "1.6.0",
+  "latest_version": "1.7.0",
+  "base_pdf": "regulations/data/UN_R149/base/UN_R149_base.pdf",
+  "latest_pdf": "regulations/data/UN_R149/latest/UN_R149_latest.pdf",
+  "window": [
+    "3.2",
+    "3.3"
+  ],
+  "trap": "a removed section shifts the numbering below it ('formerly 3.3.4'); removal of a phrase in many paragraphs"
+}

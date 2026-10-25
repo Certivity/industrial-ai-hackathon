@@ -1,0 +1,1905 @@
+[
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The silencer shall be designed, constructed and capable of being mounted so that: (a) The vehicle complies with the requirements of this UN Regulation under normal conditions of use",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "in particular regardless of any vibrations to which it may be subjected;",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "It displays reasonable resistance to the corrosion phenomena to which it is exposed, with due regard to the normal conditions of use of the vehicle;",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The ground clearance provided by the silencer originally fitted, and the possible inclined position of the vehicle, are not reduced;",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Unduly high temperatures do not exist at the surface;",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Its edges are not sharp or jagged and there is sufficient space for shock absorbers and springs;",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Adequate clearance of spring parts is provided;",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Adequate safety clearance of pipes is provided;",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "It is tamper-resistant in a way that is compatible with clearly-defined maintenance and installation requirements.",
+    "label": "6.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "When the NORESS or its components is fitted to the vehicle described in paragraph 3.3. (c), the sound level values obtained using the two methods",
+    "label": "6.2"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "They shall not exceed the values measured in conformity with the requirements of paragraph 3.3.(c), for the same vehicle when fitted with the original silencing system",
+    "label": "6.2"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.3.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The NORESS or its components shall be constructed in a way that does not permit removal of baffles, exit-cones and other parts whose primary function is as part of the silencing/expansion chambers.",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.3.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "Where incorporation of such a part is unavoidable, its method of attachment shall be such that removal is not facilitated (e.g. with conventional threaded fixings)",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.3.1",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "shall also be attached such that removal causes permanent / irrecoverable damage to the assembly.",
+    "label": "6.3.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.3.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "NORESS with multiple, manually or electronically adjustable, rider selectable operating modes shall meet all requirements in all operating modes.",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.3.2",
+    "page": 4,
+    "raw_pages": [
+      4
+    ],
+    "verdict": "ok",
+    "exact": "The reported sound levels shall be those resulting from the mode with the highest sound levels.",
+    "label": "6.3.2"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.3.4.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The sound emission of the NORESS equipped vehicle under typical on-road driving conditions, which are different from those under which the type-approval test",
+    "label": "6.3.4.2"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.3.4.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "During these tests, the sound-pressure level of the NORESS for each test condition can have in its maximum the same sound-pressure level as the measurement of the vehicle equipped with the original exhaust silencer",
+    "label": "6.3.4.3"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.4.1",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The NORESS or its components shall be such as to ensure that the vehicle’s performance is comparable with that achieved with the original exhaust silencing system or components thereof.",
+    "label": "6.4.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.4.3",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The maximum power and the engine speed at maximum power measured with the NORESS shall not exceed the net power and the engine speed measured under the conditions set out below with the original equipment exhaust system by more than ±5 per cent.",
+    "label": "6.4.3"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.5",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The use of fibrous absorbent material shall be permitted in the construction of the NORESS only if the requirements in Annex 3 are met.",
+    "label": "6.5"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "6.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle referred to in paragraph 3.3. (c) with the non-original replacement exhaust silencing system (NORESS) of the type for which approval is requested, shall fulfil the pollution requirements",
+    "label": "6.6"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 1.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Fibrous absorbent material shall be asbestos-free and may be used in the construction of silencers only if suitable devices ensure that the fibrous absorbent material is kept in place",
+    "label": "Annex 3 1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 1.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "suitable devices ensure that the fibrous absorbent material is kept in place for the whole time that the silencer is being used",
+    "label": "Annex 3 1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 2.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "After removal of the fibrous material, the sound level shall comply with the requirements of paragraph 6.2. of this UN Regulation.",
+    "label": "Annex 3 2"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 3.",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The fibrous absorbent material may not be placed in those parts of the silencer through which the exhaust gases pass",
+    "label": "Annex 3 3"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 3.(a)",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The material shall be heated at a temperature of 650 ± 5°C for four hours in a furnace without reduction in average length, diameter or bulk density of the fibre;",
+    "label": "Annex 3 3",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 3.(b)",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "After heating at 650 ± 5°C for one hour in a furnace, at least 98 per cent of the material-shall be retained in a sieve of nominal aperture size 250 µm",
+    "label": "Annex 3 3",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 3.(c)",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The loss in weight of the material shall riot exceed 10.5 per cent after soaking for 24 hours at 90 ± 5°C in a synthetic condensate",
+    "label": "Annex 3 3",
+    "read": "without the trailing words"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 3 5.",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "Exhaust gases are not in contact with fibrous materials and fibrous materials are not under the influence of pressure variations.",
+    "label": "Annex 3 5"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "4.1",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "Each component of the NORESS, excluding pipes and fitting accessories, shall bear: (a) The trade name or mark of the manufacturer of the NORESS of its components;",
+    "label": "4.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "4.1",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "(b) The commercial designation given by the manufacturer.",
+    "label": "4.1"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "4.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "These markings shall be clearly legible and indelible and also visible in the position at which the NORESS is fitted.",
+    "label": "4.2"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "4.3",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The NORESS shall be labelled by its manufacturer; indicating the type(s) of vehicle(s) for which it has been granted the approval.",
+    "label": "4.3"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "4.4",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "A component may carry several approval numbers if it has been approved as a component of several replacement exhaust systems.",
+    "label": "4.4"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "4.5",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The replacement exhaust system shall be supplied in a packaging or carry a label both providing the following particulars:",
+    "label": "4.5"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "4.5",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "(c) A list of vehicle models for which the replacement silencing system is intended.",
+    "label": "4.5"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "5.5",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The approval mark shall be easily legible when the NORESS is fitted to the vehicle, and shall be indelible.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R92",
+    "paragraph": "Annex 2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "a = 8 mm min",
+    "label": "Annex 2"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "5.1",
+    "page": 2,
+    "raw_pages": [
+      2
+    ],
+    "verdict": "ok",
+    "exact": "The components liable to affect the emission of gaseous pollutants shall be so designed, constructed and assembled as to enable the vehicle in normal use, despite the vibration",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "5.2.1.2.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "The carbon monoxide content of the exhaust gases emitted with the engine idling shall not exceed 4.5 per cent by volume.",
+    "label": "5.2.1.2.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "5.2.1.1.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "In each test, the mass of the carbon monoxide, the mass of the hydrocarbons and the mass of the nitrogen oxides obtained shall be less, for a vehicle of given reference weight, than the amounts shown in the tables",
+    "label": "5.2.1.1.2"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "5.2.1.1.2.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "one of the three results obtained may exceed by not more than 10 per cent the limit prescribed in that paragraph for the vehicle concerned, provided the arithmetical mean of the three results is below the prescribed limit",
+    "label": "5.2.1.1.2.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "5.2.1.1.3.1",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Only one test shall be made if, for all pollutants concerned, V1 ≤ 0.70L.",
+    "label": "5.2.1.1.3.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "5.2.1.1.3.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "Only two tests shall be made if, for all pollutants concerned, V1 ≤ 0.85L but for at least one of the pollutants V1 > 0.70L.",
+    "label": "5.2.1.1.3.2"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "5.2.1.1.3.2",
+    "page": 3,
+    "raw_pages": [
+      3
+    ],
+    "verdict": "ok",
+    "exact": "for each of the pollutants concerned, V2 must satisfy the requirements that V1 + V2 < 1.70L and V2 < L.",
+    "label": "5.2.1.1.3.2"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table II",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table II",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table II",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table II",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table I",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table I",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table I",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Table I",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "11"
+    ]
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 3.1.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The exhaust device shall not exhibit any leak likely to reduce the quantity of gas collected, which shall be the quantity emerging from the engine.",
+    "label": "Annex 4 3.1.2"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 3.1.4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The settings of the vehicle shall be those prescribed by the manufacturer.",
+    "label": "Annex 4 3.1.4"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 1.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "A test lasting a total of 13 minutes and comprising four cycles shall be carried out without interruption.",
+    "label": "Annex 4 1.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 2.4.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "A tolerance of 1 km/h above or below the theoretical speed shall be allowed during all phases of the cycle.",
+    "label": "Annex 4 2.4.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 2.4.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The time tolerance shall be ± 0.5 sec.",
+    "label": "Annex 4 2.4.2"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 2.4.4",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "The distance driven during the cycle shall be measured to ± 2 per cent.",
+    "label": "Annex 4 2.4.4"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 3.1.1",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "It shall have been run in and have been driven at least 1,000 km before the test.",
+    "label": "Annex 4 3.1.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 5 2.2",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "The content by volume of carbon monoxide shall be measured immediately after the type-I test, with the engine at idling speed.",
+    "label": "Annex 5 2.2"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 5 3.1",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "The exhaust outlets shall be provided with an air-tight extension, so that the sample probe used to collect exhaust gases may be inserted into the exhaust outlet at least 60 cm",
+    "label": "Annex 5 3.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 5 3.1",
+    "page": 28,
+    "raw_pages": [
+      28
+    ],
+    "verdict": "ok",
+    "exact": "Where a motor cycle is equipped with an exhaust system having multiple outlets, either these shall be joined to a common pipe or the content of carbon monoxide must be collected from each of them",
+    "label": "Annex 5 3.1"
+  },
+  {
+    "regulation": "UN R40",
+    "paragraph": "Annex 4 4.2.2.1",
+    "page": 16,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "if the back pressure conditions are complied with (< ±125 mm of H20), a closed system may be used",
+    "label": "Annex 4 4.2.2.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The lighting and light-signalling devices shall be so fitted that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected, they retain the characteristics prescribed by this Regulation",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "In particular, it shall not be possible for the lamps to be inadvertently maladjusted.",
+    "label": "5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.2",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The illuminating lamps shall be so installed that correct adjustment of their orientation can easily be carried out.",
+    "label": "5.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "For all light-signalling devices the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road",
+    "label": "5.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "the height and orientation of the lamps shall be verified with the vehicle unladen and placed on a flat horizontal surface, its median longitudinal plane being vertical",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "The tyre pressures shall be those prescribed by the manufacturer for the particular conditions of loading required in this Regulation.",
+    "label": "5.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Single lamps or reflectors shall be mounted such that their centre of reference lies in the median longitudinal plane of the vehicle;",
+    "label": "5.5.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.1",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Be mounted symmetrically in relation to the median longitudinal plane;",
+    "label": "5.5.2.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.3",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Satisfy the same colorimetric requirements; and",
+    "label": "5.5.2.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.4",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Have identical nominal photometric characteristics;",
+    "label": "5.5.2.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.5.2.5",
+    "page": 5,
+    "raw_pages": [
+      5
+    ],
+    "verdict": "ok",
+    "exact": "Come on and go off simultaneously;",
+    "label": "5.5.2.5"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.6.1.2",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamps and direction indicator lamps are not permitted to be reciprocally incorporated.",
+    "label": "5.6.1.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "No red light which could give rise to confusion shall be emitted from a lamp as defined in paragraph 2.3. in a forward direction",
+    "label": "5.9"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "no white light which could give rise to confusion, shall be emitted from a lamp as defined in paragraph 2.3. in a rearward direction.",
+    "label": "5.9"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a red lamp shall not be directly visible to an observer moving in zone 1 of a transverse plane situated 25 m forward of the foremost point on the vehicle;",
+    "label": "5.9.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.9.2",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "a white lamp shall not be directly visible to an observer moving in zone 2 of a transverse plane situated 25 m rearward of the rearmost point on the vehicle;",
+    "label": "5.9.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.10",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the rear position lamp and the rear-registration-plate illuminating device cannot be switched ON or OFF otherwise than simultaneously",
+    "label": "5.10"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.11",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "the electrical connection shall be such that the driving-beam headlamp, the passing-beam headlamp and the fog lamp cannot be switched on unless the lamps referred to in paragraph 5.10. above are likewise switched on.",
+    "label": "5.11"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.11.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "If installed, the daytime running lamp shall automatically be ON when the engine is running.",
+    "label": "5.11.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.11.1",
+    "page": 7,
+    "raw_pages": [
+      7
+    ],
+    "verdict": "ok",
+    "exact": "If the headlamp is switched ON, the daytime running lamp shall not come ON when the engine is running.",
+    "label": "5.11.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.12.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Every tell-tale lamp shall be readily visible to a driver in the normal driving position.",
+    "label": "5.12.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Driving-beam headlamp: white",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Direction-indicator lamp: amber",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Stop lamp: red",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Rear position lamp: red",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Rear retro-reflector, non-triangular: red",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Front position lamp: white or amber",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Front fog lamp: white or selective yellow",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Rear fog lamp: red",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Daytime running lamp white",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.13",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Vehicle-hazard warning signal: amber",
+    "label": "5.13"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.17",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "The fitting of any lighting and light-signalling devices other than those mentioned in paragraphs 5.14. and 5.15. above is prohibited for the purposes of type approval.",
+    "label": "5.17"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity.",
+    "label": "5.20.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "5.20.3",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "If, when the lamp is installed, any part of the apparent surface of the lamp is hidden by any further parts of the vehicle, proof shall be furnished that the part of the lamp not hidden by obstacles still conforms to the photometric values",
+    "label": "5.20.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.4",
+    "page": 11,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "The visibility of the illuminating surface, including its visibility in areas which do not appear to be illuminated in the direction of observation considered, shall be ensured within a divergent space",
+    "label": "6.1.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.6.3",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "It shall always be possible to switch the driving-beam headlamp(s) ON and OFF manually and to manually deactivate the automatic control of the driving-beam headlamp(s).",
+    "label": "6.1.6.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.1.8.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The aggregate maximum intensity of the driving-beam headlamps which can be switched on simultaneously shall not exceed 430,000 cd which corresponds to a reference number of 100.",
+    "label": "6.1.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.3.2",
+    "page": 14,
+    "raw_pages": [
+      14
+    ],
+    "verdict": "ok",
+    "exact": "Height: a minimum of 500 mm and a maximum of 1,200 mm above the ground.",
+    "label": "6.2.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.5.2",
+    "page": 15,
+    "raw_pages": [
+      15
+    ],
+    "verdict": "ok",
+    "exact": "The vertical inclination of the headlamp producing the principal passing-beam shall remain between -0.5 and -2.5 per cent, except in the case where an external adjusting device is present.",
+    "label": "6.2.5.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.2.6",
+    "page": 16,
+    "raw_pages": [
+      16
+    ],
+    "verdict": "ok",
+    "exact": "The control for changing over to the passing-beam(s) shall switch off the driving-beam(s) simultaneously.",
+    "label": "6.2.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.7",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory. This may be optical or auditory or both. If it is optical it shall be (a) flashing green lamp(s), which, in the event of defective operation of any of the direction indicators, is extinguished, remains alight without flashing, or shows a marked change of frequency.",
+    "label": "6.3.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.1",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The light flashing frequency shall be 90 ± 30 times per minute;",
+    "label": "6.3.8.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.3",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "Operation of the light-signal control shall be followed within not more than one second by the appearance of the light and within not more than one-and-one half seconds by the first extinction of the light.",
+    "label": "6.3.8.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.3.8.4",
+    "page": 18,
+    "raw_pages": [
+      18
+    ],
+    "verdict": "ok",
+    "exact": "In the event of failure, other than a short circuit, of one direction indicator lamp, the other(s) direction indicator lamp(s) indicating the same direction shall continue to flash or remain alight",
+    "label": "6.3.8.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.3.1",
+    "page": 19,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 250 mm nor more than 1,500 mm above the ground;",
+    "label": "6.4.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.4.6.1",
+    "page": 19,
+    "raw_pages": [
+      19
+    ],
+    "verdict": "ok",
+    "exact": "All the stop lamps shall light up simultaneously when the braking system provides the braking signal defined in UN Regulation No. 78.",
+    "label": "6.4.6.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.3.2",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 350 mm nor more than 1,200 mm above the ground.",
+    "label": "6.6.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.6.6",
+    "page": 21,
+    "raw_pages": [
+      21
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory. Non-flashing green signal lamp.",
+    "label": "6.6.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.7.3.1",
+    "page": 21,
+    "raw_pages": [
+      19,
+      21
+    ],
+    "verdict": "ok",
+    "exact": "in height: not less than 250 mm nor more than 1,500 mm above the ground;",
+    "label": "6.7.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.8.3",
+    "page": 22,
+    "raw_pages": [
+      22,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 250 mm nor more than 900 mm above the ground;",
+    "label": "6.8.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.9.4",
+    "page": 22,
+    "raw_pages": [
+      22
+    ],
+    "verdict": "ok",
+    "exact": "Light flashing 90 ± 30 times per minute.",
+    "label": "6.9.4"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.11.3.3",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "The distance between the illuminating surface of the rear fog lamp and that of the stop lamp shall not be less than 100 mm.",
+    "label": "6.11.3.3"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.11.7",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "Mandatory. Non-flashing amber signal lamp.",
+    "label": "6.11.7"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.12.3.2",
+    "page": 24,
+    "raw_pages": [
+      24
+    ],
+    "verdict": "ok",
+    "exact": "In height: not less than 300 mm nor more than 900 mm above the ground;",
+    "label": "6.12.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.13.7.1",
+    "page": 25,
+    "raw_pages": [
+      25
+    ],
+    "verdict": "ok",
+    "exact": "The daytime running lamp shall switch OFF automatically when the headlamps are switched ON, except when the latter are used to give intermittent luminous warnings at short intervals.",
+    "label": "6.13.7.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.14.7.1",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "All the lamps of the emergency stop signal shall flash in phase at a frequency of 4.0 ± 1.0 Hz.",
+    "label": "6.14.7.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.14.7.3.1",
+    "page": 26,
+    "raw_pages": [
+      26
+    ],
+    "verdict": "ok",
+    "exact": "The emergency stop signal shall be activated only when the vehicle speed is above 50 km/h and the braking system is providing the emergency braking logic signal",
+    "label": "6.14.7.3.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "6.14.7.3.2",
+    "page": 27,
+    "raw_pages": [
+      27
+    ],
+    "verdict": "ok",
+    "exact": "The emergency stop signal shall be automatically deactivated if the emergency braking logic signal as defined in UN Regulation No. 78 is no longer provided or if the vehicle-hazard warning signal is activated.",
+    "label": "6.14.7.3.2"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 5 1.1",
+    "page": 40,
+    "raw_pages": [
+      40
+    ],
+    "verdict": "ok",
+    "exact": "The position of the lamps as specified in paragraph 6. of this Regulation shall be checked in accordance with the general requirements set out in paragraph 5.",
+    "label": "Annex 5 1.1"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 5 1.6",
+    "page": 41,
+    "raw_pages": [
+      41
+    ],
+    "verdict": "ok",
+    "exact": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+    "label": "Annex 5 1.6"
+  },
+  {
+    "regulation": "UN R53",
+    "paragraph": "Annex 8 1. Table 1",
+    "page": 43,
+    "raw_pages": [
+      43
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 8"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+    "label": "6.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.1",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 43 dB microvolts/m.",
+    "label": "6.2.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.2.2.2",
+    "page": 9,
+    "raw_pages": [
+      9,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band",
+    "label": "6.2.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.1",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+    "label": "6.3.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.3.2.2",
+    "page": 9,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+    "label": "6.3.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.1",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band.",
+    "label": "6.4.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.4.2.2",
+    "page": 10,
+    "raw_pages": [
+      10,
+      18
+    ],
+    "verdict": "ok",
+    "exact": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there shall be no degradation of performance of \"immunity related functions\"",
+    "label": "6.4.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "3.2.6",
+    "page": 6,
+    "raw_pages": [
+      6
+    ],
+    "verdict": "ok",
+    "exact": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+    "label": "3.2.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.2.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+    "label": "5.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.1",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+    "label": "5.3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.3.2",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above.",
+    "label": "5.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "5.5",
+    "page": 8,
+    "raw_pages": [
+      8
+    ],
+    "verdict": "ok",
+    "exact": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+    "label": "5.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 1",
+    "page": 44,
+    "raw_pages": [
+      44,
+      45
+    ],
+    "verdict": "ok",
+    "exact": "a = 6 mm min",
+    "label": "Annex 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Positive +75 V +150 V",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.7. Table 1",
+    "page": 11,
+    "raw_pages": [
+      11,
+      23
+    ],
+    "verdict": "ok",
+    "exact": "Negative -100 V -450 V",
+    "label": "6.7.1. Table 1",
+    "read": "table by its id"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9. Table 3b",
+    "page": 12,
+    "raw_pages": [
+      12,
+      24
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1",
+      "7.19.1. Table 20"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.9. Table 3a",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "6.9.1"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.5",
+    "page": 12,
+    "raw_pages": [
+      13
+    ],
+    "verdict": "ok",
+    "exact": "ESAs that are not switched, contain no switches or do not include inductive load need not be tested for transient conducted emission",
+    "label": "6.10.5"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.10.1",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+    "label": "6.10.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 7 3.4",
+    "page": 91,
+    "raw_pages": [
+      92
+    ],
+    "verdict": "ok",
+    "exact": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation",
+    "label": "Annex 7 3.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 2.4",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "No extraneous equipment shall be closer than 1 m from the reference point during calibration.",
+    "label": "Annex 9 2.4"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 4.3.2",
+    "page": 100,
+    "raw_pages": [
+      100
+    ],
+    "verdict": "ok",
+    "exact": "BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA",
+    "label": "Annex 9 4.3.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 Appendix 2 Figure 1",
+    "page": 102,
+    "raw_pages": [
+      102,
+      104
+    ],
+    "verdict": "other node",
+    "our_labels": [
+      "Annex 9 Appendix 2"
+    ]
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 9 3.1",
+    "page": 98,
+    "raw_pages": [
+      98
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+    "label": "Annex 9 3.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.1.1.2",
+    "page": 8,
+    "raw_pages": [
+      9
+    ],
+    "verdict": "ok",
+    "exact": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+    "label": "6.1.1.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 6 2.1.1.1",
+    "page": 72,
+    "raw_pages": [
+      72
+    ],
+    "verdict": "ok",
+    "exact": "The engine shall normally turn the driving wheels at a steady speed of 50 km/h if there is no technical reason due to the vehicle to define a different condition.",
+    "label": "Annex 6 2.1.1.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 2",
+    "page": 52,
+    "raw_pages": [
+      53,
+      67,
+      72,
+      109
+    ],
+    "verdict": "ok",
+    "exact": "For two-wheeled vehicles, a non-conductive insulating support with a thickness of 5 – 20 mm shall be used between stand and ground plane.",
+    "label": "Annex 4 2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.6",
+    "page": 58,
+    "raw_pages": [
+      58,
+      68
+    ],
+    "verdict": "ok",
+    "exact": "Measurements shall be made on the left and right sides of the vehicle.",
+    "label": "Annex 4 4.6"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.3. Table 1",
+    "page": 57,
+    "raw_pages": [
+      57,
+      92
+    ],
+    "verdict": "ok",
+    "exact": "30 to 1,000 100/120 kHz 100 ms/MHz 120 kHz 20 s/MHz",
+    "label": "Annex 4 4.3. Table 1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "Annex 4 4.2",
+    "page": 57,
+    "raw_pages": [
+      57
+    ],
+    "verdict": "ok",
+    "exact": "If peak detectors are used, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+    "label": "Annex 4 4.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2a",
+    "page": 11,
+    "raw_pages": [
+      11,
+      24
+    ],
+    "verdict": "spans nodes"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.1. Table 2b",
+    "page": 12,
+    "raw_pages": [
+      11
+    ],
+    "verdict": "ok",
+    "exact": "50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+    "label": "6.8.2.1. Table 2b"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.8.2.2",
+    "page": 12,
+    "raw_pages": [
+      12
+    ],
+    "verdict": "ok",
+    "exact": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+    "label": "6.8.2.2"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 7",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.6.2.1",
+    "page": 10,
+    "raw_pages": [
+      9,
+      10,
+      14
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 53 dB microvolts/m.",
+    "label": "6.6.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 6",
+    "label": "6.5.2.1"
+  },
+  {
+    "regulation": "UN R10",
+    "paragraph": "6.5.2.1",
+    "page": 10,
+    "raw_pages": [
+      10
+    ],
+    "verdict": "ok",
+    "exact": "In the 400 to 1,000 MHz frequency band the limit remains constant at 63 dB microvolts/m.",
+    "label": "6.5.2.1"
+  }
+]

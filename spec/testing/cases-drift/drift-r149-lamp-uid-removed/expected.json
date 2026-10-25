@@ -1,0 +1,116 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r149-lamp-uid-removed",
+  "changes": [
+    {
+      "requirement_id": "R-054",
+      "change": "removed",
+      "reason": "Paragraph 3.3.3.1 of UN R149 was amended in version 1.7.0; the provision 'The approval marking as defined in paragraph 3.3.2. may be replaced by the Uniq…' no longer appears."
+    },
+    {
+      "requirement_id": "R-055",
+      "change": "removed",
+      "reason": "Paragraph 3.3.3.1 of UN R149 was amended in version 1.7.0; the provision 'The Unique Identifier mark shall follow the format in the example shown in Figu…' no longer appears."
+    },
+    {
+      "requirement_id": "R-034",
+      "change": "modified",
+      "new_text": "Every device belonging to an approved type shall comprise a space of sufficient size for the approval marking and other markings as defined in paragraph 3.3.3.",
+      "reason": "Paragraph 3.3.1.1 of UN R149 was amended in version 1.7.0: 'Unique Identifier as referred to in the 1958 Agreement and other markings as defined in paragraph 3.3.4. or the' was removed; '3.3.4.' became '3.3.3.'.",
+      "source": {
+        "page": 6,
+        "paragraph": "3.3.1.1"
+      }
+    },
+    {
+      "requirement_id": "R-050",
+      "change": "modified",
+      "new_text": "On headlamps meeting the requirements of this Regulation in respect of both the passing beam and the driving beam and which have the same Class BS, CS or DS, the letters \"CR-BS\" for Class BS headlamps or \"WCR-CS\" for Class CS headlamps or \"WCR-DS\" for Class DS headlamps shall be marked.",
+      "reason": "Paragraph 3.3.2.4.9 of UN R149 was amended in version 1.7.0: 'Classes' became 'Class'; 'If both passing-beam and driving-beam headlamps constitute a matched pair and they have same Class BS, CS or DS, then \"YCR-BS\" for Class BS headlamps, \"YCR-CS\" for Class…' was added.",
+      "source": {
+        "page": 7,
+        "paragraph": "3.3.2.4.9"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If both passing-beam and driving-beam headlamps constitute a matched pair, then \"YHCR\" may be marked.",
+      "reason": "Paragraph 3.3.2.4.8 of UN R149 is new in version 1.7.0: 'On headlamps meeting the requirements of this Regulation in respect of the passing beam of Class C…'.",
+      "source": {
+        "page": 7,
+        "paragraph": "3.3.2.4.8"
+      }
+    },
+    {
+      "requirement_id": "R-056",
+      "change": "modified",
+      "new_text": "Road illumination functions or systems shall bear the approval marking, the trade name or mark of the applicant and the markings specified in paragraphs 3.3.3.1. to 3.3.3.8.",
+      "reason": "Paragraph 3.3.3 (formerly 3.3.4) of UN R149 was amended in version 1.7.0: 'marking or the Unique Identifier,' became 'marking,'.",
+      "source": {
+        "page": 7,
+        "paragraph": "3.3.3"
+      }
+    },
+    {
+      "requirement_id": "R-068",
+      "change": "modified",
+      "new_text": "The approval marking shall be placed on an inner or outer part (transparent or not) of the lamp.",
+      "reason": "Paragraph 3.3.4.1 (formerly 3.3.5.1) of UN R149 was amended in version 1.7.0: 'Unique Identifier or the' was removed.",
+      "source": {
+        "page": 8,
+        "paragraph": "3.3.4.1"
+      }
+    },
+    {
+      "requirement_id": "R-069",
+      "change": "modified",
+      "new_text": "In any case, the approval marking as well as the category or categories of LED substitute light source(s) prescribed, if any, shall be visible when the lamp is fitted on the vehicle or when a movable part such as the hood or boot lid or a door is opened.",
+      "reason": "Paragraph 3.3.4.2 (formerly 3.3.5.2) of UN R149 was amended in version 1.7.0: 'the Unique Identifier or' was removed.",
+      "source": {
+        "page": 8,
+        "paragraph": "3.3.4.2"
+      }
+    },
+    {
+      "requirement_id": "R-070",
+      "change": "modified",
+      "new_text": "If the outer lens of a device is designed to be separated from the main body, the approval marking shall be placed on both the detachable lens and the main body.",
+      "reason": "Paragraph 3.3.4.3 (formerly 3.3.5.3) of UN R149 was amended in version 1.7.0: 'Unique Identifier or the' was removed.",
+      "source": {
+        "page": 8,
+        "paragraph": "3.3.4.3"
+      }
+    },
+    {
+      "requirement_id": "R-072",
+      "change": "modified",
+      "new_text": "In the case of grouped, combined or reciprocally incorporated lamps, a single approval mark may be applied, provided that all the grouped, combined or reciprocally incorporated lamps satisfy the pertinent Regulation and that the requirements of paragraph 3.3.5.1. (a) to (c) are also fulfilled.",
+      "reason": "Paragraph 3.3.5.1 (formerly 3.3.6.1) of UN R149 was amended in version 1.7.0: 'Unique Identifier or' was removed.",
+      "source": {
+        "page": 8,
+        "paragraph": "3.3.5.1"
+      }
+    },
+    {
+      "requirement_id": "R-073",
+      "change": "modified",
+      "new_text": "In the case of grouped, combined or reciprocally incorporated lamps bearing a single approval mark, no part of the grouped, combined or reciprocally incorporated lamps that transmits light shall be removable without at the same time removing the approval mark.",
+      "reason": "Paragraph 3.3.5.1 (formerly 3.3.6.1) of UN R149 was amended in version 1.7.0: 'Unique Identifier or' was removed.",
+      "source": {
+        "page": 8,
+        "paragraph": "3.3.5.1"
+      }
+    },
+    {
+      "requirement_id": "R-074",
+      "change": "modified",
+      "new_text": "In the case of grouped, combined or reciprocally incorporated lamps bearing a single approval mark, the symbols for each lamp, appropriate to each UN Regulation under which approval has been granted, shall be marked either on the appropriate light-emitting surface or in a group, in such a way that each lamp of the grouped, combined or reciprocally incorporated lamps may be clearly identified.",
+      "reason": "Paragraph 3.3.5.1 (formerly 3.3.6.1) of UN R149 was amended in version 1.7.0: 'Unique Identifier or' was removed.",
+      "source": {
+        "page": 8,
+        "paragraph": "3.3.5.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "case": "ts-coach-m3",
+  "reused": true,
+  "run": "runs/ts-coach-m3/a2-default",
+  "agent_cost_usd": 4.786,
+  "validate_strict": {
+    "ok": true,
+    "message": "OK: submission.json is valid (476 requirements)."
+  },
+  "score_local": {
+    "regulation_level": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "n_submitted": 3,
+      "n_expected": 1,
+      "n_matched": 1,
+      "f2": 0.7143
+    },
+    "page_level": {
+      "precision": 0.2753623188405797,
+      "recall": 0.9047619047619048,
+      "f1": 0.4222222222222222,
+      "n_submitted": 69,
+      "n_expected": 21,
+      "n_matched": 19,
+      "f2": 0.6209
+    }
+  },
+  "taxonomy": {
+    "gold_regulations": {
+      "UN R107": 108
+    },
+    "run_regulations": {
+      "UN R10": 71,
+      "UN R107": 354,
+      "UN R43": 51
+    },
+    "wrong_regulations": [
+      "UN R10",
+      "UN R43"
+    ],
+    "missed_regulations": [],
+    "paragraphs": {
+      "UN R107": {
+        "gold": 93,
+        "cited": 248,
+        "hit": 77,
+        "missed": 16,
+        "extra": 171
+      }
+    }
+  },
+  "n_gold": 108,
+  "n_submitted": 476,
+  "funnel": {
+    "sections": {
+      "gold_requirements_reachable": "108/108",
+      "recall": 1.0,
+      "selected_provisions": 1113,
+      "gold_nodes_reached": "93/93",
+      "node_precision": 0.084,
+      "by_regulation": {
+        "UN R107": {
+          "selected": 498,
+          "gold_nodes_reached": 93,
+          "gold_nodes": 93,
+          "requirements_reachable": 108,
+          "requirements": 108
+        }
+      },
+      "by_category": {
+        "general": {
+          "selected": 569,
+          "gold_nodes": 93,
+          "selections": 5,
+          "match_rate": 0.163
+        },
+        "test": {
+          "selected": 326,
+          "gold_nodes": 0,
+          "selections": 17,
+          "match_rate": 0.0
+        },
+        "other": {
+          "selected": 3,
+          "gold_nodes": 0,
+          "selections": 1,
+          "match_rate": 0.0
+        },
+        "marking": {
+          "selected": 30,
+          "gold_nodes": 0,
+          "selections": 5,
+          "match_rate": 0.0
+        },
+        "function": {
+          "selected": 95,
+          "gold_nodes": 0,
+          "selections": 2,
+          "match_rate": 0.0
+        },
+        "conformity": {
+          "selected": 90,
+          "gold_nodes": 0,
+          "selections": 3,
+          "match_rate": 0.0
+        }
+      }
+    },
+    "extraction": {
+      "candidates": 1733,
+      "by_status": {
+        "emitted": 476,
+        "dropped:applies": 269,
+        "dropped:addressee": 727,
+        "dropped:modality": 226,
+        "rejected:quote": 14,
+        "dropped:page": 9,
+        "dropped:duplicate": 10,
+        "dropped:kind": 2
+      },
+      "grounded": 1719,
+      "reassigned": 1,
+      "gold_with_a_candidate_at_its_node": "108/108"
+    }
+  },
+  "paragraph_level": {
+    "precision": 0.241,
+    "recall": 0.828,
+    "f1": 0.373,
+    "f2": 0.556,
+    "submitted": 320,
+    "expected": 93,
+    "matched": 77
+  }
+}

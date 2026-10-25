@@ -1,0 +1,2279 @@
+{
+  "requirements": [
+    {
+      "regulation": "UN R67",
+      "page": 1,
+      "paragraph": "1.1",
+      "quote": "Part I Approval of specific equipment of vehicles of category M and N1 using liquefied petroleum gases in their propulsion system",
+      "text": "The LPG conversion kit components shall be type-approved as specific equipment for use of liquefied petroleum gases in the propulsion system."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 1,
+      "paragraph": "2.",
+      "quote": "LPG components for use in vehicles shall be classified with regard to the maximum operating pressure and function, according to Figure 1.",
+      "text": "Each LPG component of the kit shall be classified with regard to its maximum operating pressure and function according to Figure 1."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 1,
+      "paragraph": "2.",
+      "quote": "High pressure parts including tubes and fittings containing liquid LPG with a pressure > 3,000 kPa.",
+      "text": "The LPG components containing liquid LPG above 3,000 kPa shall be designated Class 0."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 1,
+      "paragraph": "2.",
+      "quote": "High pressure parts including tubes and fittings containing liquid LPG at vapour pressure or increased vapour pressure up to 3,000 kPa.",
+      "text": "The LPG components containing liquid LPG at vapour pressure up to 3,000 kPa shall be designated Class 1."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 1,
+      "paragraph": "2.",
+      "quote": "Low pressure parts including tubes and fittings containing vaporized LPG with a maximum operating pressure below 450 kPa and over 20 kPa above atmospheric pressure.",
+      "text": "The LPG components containing vaporised LPG below 450 kPa shall be designated Class 2."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 1,
+      "paragraph": "2.",
+      "quote": "Low pressure parts for a limited pressure range including tubes and fittings containing vaporized LPG with a maximum operating pressure below 120 kPa",
+      "text": "The low pressure LPG parts with a maximum operating pressure below 120 kPa shall be designated Class 2A."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 1,
+      "paragraph": "2.",
+      "quote": "A component can consist of several parts, each part classified in his own class with regard to maximum operating pressure and function.",
+      "text": "Where a kit component consists of several parts, each part shall be classified in its own class with regard to maximum operating pressure and function."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.5",
+      "quote": "Accessories fitted to the container means the following equipment which may be either separate or combined",
+      "text": "The container accessories shall consist of the listed equipment, either separate or combined."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.5.1",
+      "quote": "80 per cent stop valve means a device that limits the filling at maximum 80 per cent of the capacity of the container.",
+      "text": "The 80 per cent stop valve shall limit the filling to a maximum of 80 per cent of the container capacity."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.5.4",
+      "quote": "when the engine of the vehicle is not running the valve is closed; an excess flow valve means a device to limit the flow of LPG.",
+      "text": "The remotely controlled service valve shall be closed when the engine of the vehicle is not running."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.6.2",
+      "quote": "The pressure regulator/vaporizer shall be so designed as to prevent any gas flow when the regulator/vaporizer unit is supplied with LPG at a pressure ≤ 4,500 kPa when the regulator is not operating.",
+      "text": "The pressure regulator/vaporiser shall prevent any gas flow when supplied with LPG at a pressure of 4,500 kPa or less while the regulator is not operating."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.5.6",
+      "quote": "Multivalve means a device consisting of all or part of the accessories mentioned in paragraphs 2.5.1. to 2.5.3. and 2.5.8.",
+      "text": "The multivalve shall combine all or part of the container accessories including the fill limiter, level indicator, pressure relief valve and power supply bushing."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.5.3",
+      "quote": "Pressure relief valve (discharge valve) means a device to limit the pressure build-up in the container.",
+      "text": "The pressure relief valve shall limit the pressure build-up in the LPG container."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.12",
+      "quote": "Electronic control unit means a device which controls the LPG demand of the engine and cuts off automatically the power to the shut-off valves of the LPG system",
+      "text": "The electronic control unit shall cut off automatically the power to the LPG system shut-off valves in case of a broken fuel supply pipe or stalling of the engine."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.14",
+      "quote": "LPG filter unit means a device which filters the LPG, the filter can be integrated in other components.",
+      "text": "The LPG filter unit shall filter the LPG and may be integrated in other components."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.16",
+      "quote": "Filling unit means a device to allow filling of the container; the filling unit can be realised by integration in the 80 per cent stop valve of the container or by a remote filling unit at the outside of the vehicle.",
+      "text": "The filling unit shall allow filling of the LPG container and may be a remote filling unit located at the outside of the vehicle."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 4,
+      "paragraph": "2.18",
+      "quote": "Fuel rail means a pipe or duct that connects the fuel injection devices.",
+      "text": "The fuel rail shall connect the gas injection devices."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 6,
+      "paragraph": "4.1",
+      "quote": "All components submitted for approval shall bear the trade name or mark of the manufacturer and the type; and for non-metallic components also the manufacturing month and year; this marking shall be clearly legible and indelible.",
+      "text": "Every kit component shall bear the trade name or mark of the manufacturer and the type, and non-metallic components shall also bear the manufacturing month and year, clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 6,
+      "paragraph": "4.2",
+      "quote": "All equipment shall have a space large enough to accommodate the approval mark including the classification of the component (see Annex 2A) and in case of components of Class 0 also the working pressure (WP)",
+      "text": "Every piece of equipment shall have a space large enough to accommodate the approval mark including the classification of the component and, for Class 0, the working pressure."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 6,
+      "paragraph": "4.2",
+      "quote": "In the case of limited space for the approval mark(s), other means of identification that link it to the approval mark shall be provided.",
+      "text": "Where space for the approval mark is limited, other means of identification linking the component to its approval mark shall be provided."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 6,
+      "paragraph": "4.3",
+      "quote": "Every container shall also bear a marking plate, welded to it, with the following data clearly legible and indelible",
+      "text": "The LPG container shall bear a marking plate welded to it with the required data clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 6,
+      "paragraph": "4.3",
+      "quote": "The wording: \"maximum degree of filling: 80 %\"",
+      "text": "The container marking plate shall bear the wording \"maximum degree of filling: 80 %\"."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 6,
+      "paragraph": "4.3",
+      "quote": "The marking \"PUMP INSIDE\" and a marking identifying the pump when a pump is mounted in the container.",
+      "text": "The container marking plate shall bear the marking \"PUMP INSIDE\" and a pump identification marking when a pump is mounted in the container."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 6,
+      "paragraph": "4.4",
+      "quote": "one of the following additional marks shall be used for remotely controlled service valves and remotely controlled shut-off valves which comply respectively with paragraph 4.7. of Annex 3 or with paragraph 1.7. of Annex 7",
+      "text": "The remotely controlled service valve and shut-off valve shall bear one of the additional marks H1, H2 or H3 according to their endurance class when closed during commanded stop phases."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "5.4.1",
+      "quote": "A circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval",
+      "text": "Every approved kit component shall be affixed with an international approval mark consisting of a circle surrounding the letter \"E\" followed by the distinguishing number of the approving country."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "5.4.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle prescribed in paragraph 5.4.1. above.",
+      "text": "The approval mark shall include the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "5.5",
+      "quote": "The approval mark shall be clearly legible and be indelible.",
+      "text": "The approval mark shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "5.7",
+      "quote": "In case of a Class 0 component also the working pressure shall be marked in the vicinity of the approval mark mentioned in paragraph 5.4. above.",
+      "text": "For a Class 0 component, the working pressure shall be marked in the vicinity of the approval mark."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.1",
+      "quote": "The specific equipment of vehicles using LPG in their propulsion system shall function in a correct and safe way.",
+      "text": "The LPG specific equipment shall function in a correct and safe way."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.1",
+      "quote": "The materials of the equipment which are in contact with LPG shall be compatible with it.",
+      "text": "The materials of the equipment in contact with LPG shall be compatible with LPG."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.1",
+      "quote": "Those parts of equipment whose correct and safe functioning is liable to be influenced by LPG, high pressure or vibrations has to be submitted to relevant test procedures described in the annexes to this Regulation.",
+      "text": "Those parts of the equipment whose correct and safe functioning may be influenced by LPG, high pressure or vibrations shall be submitted to the relevant test procedures."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.1",
+      "quote": "The installation of LPG equipment approved by this Regulation shall comply with relevant electromagnetic compatibility (EMC) requirements according to Regulation No. 10, 02 series of amendments, or equivalent.",
+      "text": "The installation of the LPG equipment shall comply with the relevant electromagnetic compatibility requirements of Regulation No. 10."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.2",
+      "quote": "The LPG containers shall be type approved pursuant to the provisions laid down in Annex 10 to this Regulation.",
+      "text": "The LPG container shall be type-approved pursuant to Annex 10."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.3.1",
+      "quote": "The container shall be equipped with the following accessories, which may be either separate or combined (multivalve(s))",
+      "text": "The LPG container shall be equipped with the 80 per cent stop valve, level indicator, pressure relief valve and remotely controlled service valve with excess flow valve, either separate or combined as a multivalve."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.3.6",
+      "quote": "The container shall be equipped with a pressure relief device (PRD).",
+      "text": "The LPG container shall be equipped with a pressure relief device (PRD)."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 7,
+      "paragraph": "6.3.6",
+      "quote": "A fusible plug (temperature triggered) (fuse), or",
+      "text": "The pressure relief device may be realised as a fusible plug triggered by temperature."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "6.3.7",
+      "quote": "The accessories mentioned in paragraphs 6.3.1. to 6.3.6. above shall be type approved pursuant to the provisions laid down in",
+      "text": "The container accessories shall be type-approved pursuant to Annex 3, Annex 4 and Annex 7 as applicable."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "Vaporizer1 Pressure regulator1",
+      "text": "The vaporiser and pressure regulator shall be type-approved pursuant to Annex 6."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "Gas injection devices/Gas mixing piece3 or Injectors",
+      "text": "The gas injection devices or injectors shall be type-approved pursuant to Annex 11."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "Shut-off valves Non-return valves Gas-tube pressure relief valves Service couplings",
+      "text": "The shut-off valves, non-return valves, gas-tube pressure relief valves and service couplings shall be type-approved pursuant to Annex 7."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "Flexible hoses",
+      "text": "The flexible hoses shall be type-approved pursuant to Annex 8."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "Filling unit",
+      "text": "The filling unit shall be type-approved pursuant to Annex 9."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "Electronic control unit",
+      "text": "The electronic control unit shall be type-approved pursuant to Annex 14."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "LPG filter units",
+      "text": "The LPG filter unit shall be type-approved pursuant to Annex 5."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 8,
+      "paragraph": "Table 1",
+      "quote": "Pressure sensors Temperature sensors",
+      "text": "The pressure and temperature sensors shall be type-approved pursuant to Annex 13."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.1.1",
+      "quote": "The connection between the float and the closing unit of the 80 per cent stop valve shall not be deformed under normal conditions of use.",
+      "text": "The connection between the float and the closing unit of the 80 per cent stop valve shall not be deformed under normal conditions of use."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.1.2",
+      "quote": "If the 80 per cent stop valve of the container comprises a float, the latter shall withstand an outside pressure of 4,500 kPa.",
+      "text": "Where the 80 per cent stop valve comprises a float, the float shall withstand an outside pressure of 4,500 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.1.3",
+      "quote": "At the cut-off position, the filling rate at a differential pressure of 700 kPa shall not exceed 500 cm3/minute.",
+      "text": "At the cut-off position, the filling rate of the 80 per cent stop valve at a differential pressure of 700 kPa shall not exceed 500 cm3/minute."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.1.4",
+      "quote": "When the 80 per cent stop valve does not comprise any float, it shall not be possible to continue filling, after closing-off, at a rate exceeding 500 cm3/minute.",
+      "text": "Where the 80 per cent stop valve has no float, it shall not be possible to continue filling after closing-off at a rate exceeding 500 cm3/minute."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.1.5",
+      "quote": "The device shall bear a permanent marking, indicating the container-type for which it has been designed, diameter and angle, and if applicable mounting indication.",
+      "text": "The 80 per cent stop valve shall bear a permanent marking indicating the container type, diameter and angle and, if applicable, the mounting indication."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.2",
+      "quote": "Be insulated in a manner that no current is lead through LPG containing parts;",
+      "text": "Electrically operated LPG devices shall be insulated such that no current is led through LPG-containing parts."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.2",
+      "quote": "Isolation resistance shall be > 10 MΩ",
+      "text": "The electrical system of the device shall have an isolation resistance greater than 10 MΩ from the body and, for the fuel pump, from the container."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.2.1",
+      "quote": "The electrical connections inside the boot and passengers compartment shall comply with at least the minimum protection degree class IP 40",
+      "text": "Electrical connections of the LPG kit inside the boot and passenger compartment shall comply with protection degree class IP 40."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.2.2",
+      "quote": "All other electrical connections shall comply with at least the minimum protection degree class IP 54",
+      "text": "All other electrical connections of the LPG kit shall comply with at least protection degree class IP 54."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.2.3",
+      "quote": "The power supply bushing (fuel pump/actuators/fuel level sensor) to establish an isolated and tight electrical connection shall be of a hermetic sealed type.",
+      "text": "The power supply bushing shall be of a hermetically sealed type to establish an isolated and tight electrical connection."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.3.1",
+      "quote": "those valves shall be in \"closed\" position when their power is switched off.",
+      "text": "Valves activated by electric or external power shall be in the closed position when their power is switched off."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.3.2",
+      "quote": "The power of the fuel pump shall be switched off when the electronic control unit becomes defective or loses power.",
+      "text": "The power of the LPG fuel pump shall be switched off when the electronic control unit becomes defective or loses power."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 9,
+      "paragraph": "6.17.3.3",
+      "quote": "shall be submitted, during approval, to an endurance test according to paragraph 9. of Annex 16 with a number of cycles equal to 20,000.",
+      "text": "A remotely controlled shut-off valve intended for an interconnected LPG system shall be submitted to an endurance test of 20,000 cycles."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.3.3",
+      "quote": "The valve shall bear a marking with the following data clearly legible and indelible: (a) The wording \"ICS\"",
+      "text": "The remotely controlled shut-off valve for an interconnected system shall bear the wording \"ICS\" clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.4.1",
+      "quote": "The materials constituting a device which are in contact with the heat exchange medium of a device when operating shall be compatible with that fluid and shall be designed to withstand a pressure of 200 kPa of the heat exchange medium.",
+      "text": "The materials of the vaporiser in contact with the heat exchange medium shall be compatible with that fluid and designed to withstand a pressure of 200 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.4.2",
+      "quote": "The compartment containing the heat exchange medium of the vaporizer/pressure regulator shall be leak proof at a pressure of 200 kPa.",
+      "text": "The coolant compartment of the vaporiser/pressure regulator shall be leak-proof at a pressure of 200 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.5",
+      "quote": "A component consisting of both high pressure and low pressure parts shall be so designed to prevent a pressure build up in the low pressure part above 2.25 times the maximum working pressure for which it has been tested.",
+      "text": "A component combining high and low pressure parts shall be designed to prevent pressure build-up in the low pressure part above 2.25 times its maximum working pressure."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.5",
+      "quote": "Components connected directly to the tank pressure shall be designed for the classification pressure of 3,000 kPa. Venting to the motor compartment or outside of the vehicle is not allowed.",
+      "text": "Components connected directly to the tank pressure shall be designed for a classification pressure of 3,000 kPa, and venting to the engine compartment or outside the vehicle is not permitted."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.6.1",
+      "quote": "Pumps of Class 1 shall be so designed that the outlet pressure never exceeds 3,000 kPa, when there is e.g. blocking of the tubing or not opening of a shut‑off valve.",
+      "text": "The Class 1 LPG fuel pump shall be designed so that its outlet pressure never exceeds 3,000 kPa when the tubing is blocked or a shut-off valve does not open."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.7.1",
+      "quote": "Gas-tube pressure relief valves of Class 1 shall be so designed as to open at a pressure of 3,200 ± 100 kPa.",
+      "text": "A Class 1 gas-tube pressure relief valve shall open at a pressure of 3,200 ± 100 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.7.2",
+      "quote": "Gas-tube pressure relief valves of Class 1 shall not have internal leakage up to 3,000 kPa.",
+      "text": "A Class 1 gas-tube pressure relief valve shall not have internal leakage up to 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.8.1",
+      "quote": "The pressure relief valve shall be mounted inside the container or on the container, in the area where the fuel is in gaseous state.",
+      "text": "The pressure relief valve shall be mounted inside or on the container in the area where the fuel is in the gaseous state."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.8.2",
+      "quote": "The pressure relief valve shall be so designed as to open at a pressure of 2,700 ± 100 kPa.",
+      "text": "The pressure relief valve shall open at a pressure of 2,700 ± 100 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 10,
+      "paragraph": "6.17.8.3",
+      "quote": "The flow capacity of the pressure relief valve, determined with compressed air at a pressure which is 20 per cent higher than the normal operating-pressure shall be at least",
+      "text": "The flow capacity of the pressure relief valve, determined with compressed air at 20 per cent above the normal operating pressure, shall be at least Q ≥ 10.66 · A^0.82."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.8.3",
+      "quote": "When the pressure relief valve is considered as a pressure relief device, the flow shall be at least 17.7 standard m3/min.",
+      "text": "Where the pressure relief valve is also used as a pressure relief device, its flow shall be at least 17.7 standard m3/min."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.8.4",
+      "quote": "The pressure relief valve shall not have internal leakage up to 2,600 kPa.",
+      "text": "The pressure relief valve shall not have internal leakage up to 2,600 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.8.5",
+      "quote": "The pressure relief device (fuse) shall be designed to open at a temperature of 120 ± 10 °C.",
+      "text": "The fusible pressure relief device shall open at a temperature of 120 ± 10 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.8.6",
+      "quote": "The pressure relief device (fuse) shall be designed to have, when opened, a flow capacity of: Q ≥ 2.73 · A",
+      "text": "The fusible pressure relief device shall, when opened, have a flow capacity of at least Q ≥ 2.73 · A."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.8.7",
+      "quote": "The pressure relief device shall be mounted on the container in the gaseous zone.",
+      "text": "The pressure relief device shall be mounted on the container in the gaseous zone."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.8.8",
+      "quote": "The pressure relief device shall be fitted to the container in such a manner that it can discharge into the gas tight housing, when its presence is prescribed.",
+      "text": "The pressure relief device shall be fitted so that it can discharge into the gas-tight housing where such a housing is prescribed."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.9",
+      "quote": "At minimum fuel level whereby the engine is still operating the heat build-up by the fuel pump(s) should never cause the pressure relief valve to open.",
+      "text": "At the minimum fuel level at which the engine still operates, the heat build-up of the fuel pump shall never cause the pressure relief valve to open."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.10.1",
+      "quote": "The filling unit shall be equipped with at least one soft-seated non-return valve, and it shall not be dismountable by design.",
+      "text": "The filling unit shall be equipped with at least one soft-seated non-return valve and shall not be dismountable by design."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.10.2",
+      "quote": "The filling unit shall be protected against contamination.",
+      "text": "The filling unit shall be protected against contamination."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.10.3",
+      "quote": "The design and dimensions of the connecting area of the filling unit shall comply with those in the figures in Annex 9.",
+      "text": "The design and dimensions of the connecting area of the filling unit shall comply with the figures in Annex 9."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.10.5",
+      "quote": "The outside filling unit is connected to the container by a hose or pipe.",
+      "text": "The outside filling unit shall be connected to the container by a hose or pipe."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.10.6.1",
+      "quote": "The dead volume between the front sealing surface and the front of the non-return valve shall not exceed 0.1 cm3;",
+      "text": "For a K15 filling unit, the dead volume between the front sealing surface and the front of the non-return valve shall not exceed 0.1 cm3."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 11,
+      "paragraph": "6.17.10.6.2",
+      "quote": "The flow through the connector at a pressure difference of 30 kPa shall be at least 60 litres/min, if tested with water.",
+      "text": "For a K15 filling unit, the flow through the connector at a pressure difference of 30 kPa shall be at least 60 litres/min when tested with water."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.10.8",
+      "quote": "For vehicles of category M1, the filling unit shall not be located below the body of the vehicle and shall respect the height provisions of paragraph 17.4.5.",
+      "text": "For an M1 vehicle, the filling unit shall not be located below the body of the vehicle and shall respect the height provisions of paragraph 17.4.5."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.11.1",
+      "quote": "The device to verify the level of liquid in the container shall be of an indirect type (for example magnetic) between the inside and outside of the container.",
+      "text": "The level indicator shall be of an indirect type, for example magnetic, between the inside and outside of the container."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.11.1",
+      "quote": "If the device to verify the level of liquid in the container is of a direct type, the electric power connections should meet IP54 specifications according to IEC EN 60529:1997‑06.",
+      "text": "Where the level indicator is of a direct type, its electric power connections shall meet IP54 according to IEC EN 60529."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.11.2",
+      "quote": "If the level indicator of the container comprises a float, the latter shall withstand an outside pressure of 3,000 kPa.",
+      "text": "Where the level indicator comprises a float, the float shall withstand an outside pressure of 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.12.1",
+      "quote": "The gas-tight housing outlet shall have a total free cross-section of at least 450 mm2.",
+      "text": "The gas-tight housing outlet shall have a total free cross-section of at least 450 mm2."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.12.2",
+      "quote": "The gas-tight housing shall be leak-proof at a pressure of 10 kPa with the aperture(s) closed off, maximum allowed leak rate of 100 cm3/h vapour and show no permanent deformation.",
+      "text": "The gas-tight housing shall be leak-proof at 10 kPa with the apertures closed off, with a maximum leak rate of 100 cm3/h vapour and no permanent deformation."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.12.3",
+      "quote": "The gas-tight housing shall be designed to withstand a pressure of 50 kPa.",
+      "text": "The gas-tight housing shall be designed to withstand a pressure of 50 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.13.1.1",
+      "quote": "Electrical connections inside the LPG container shall comply with protection degree class IP 40 according to IEC Standard 60529-1989+A1:1999.",
+      "text": "Electrical connections inside the LPG container shall comply with protection degree class IP 40."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.13.1.2",
+      "quote": "Service valves of Class 1 shall withstand a pressure of 6,750 kPa in the open and closed position.",
+      "text": "A Class 1 service valve shall withstand a pressure of 6,750 kPa in both the open and closed positions."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.13.1.3",
+      "quote": "The service valve shall not, at the shut-off position, allow an internal leak rate in the flow direction.",
+      "text": "The service valve shall not, in the shut-off position, allow any internal leak rate in the flow direction."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.13.2.1",
+      "quote": "The excess flow valve shall be mounted inside the container.",
+      "text": "The excess flow valve shall be mounted inside the container."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.13.2.2",
+      "quote": "The excess flow valve shall be designed with a bypass to allow for equalization of pressures.",
+      "text": "The excess flow valve shall be designed with a bypass to allow equalisation of pressures."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.13.2.3",
+      "quote": "The excess flow valve shall cut off at a pressure difference over the valve of 90 kPa. At this pressure difference the flow shall not exceed 8,000 cm3/min.",
+      "text": "The excess flow valve shall cut off at a pressure difference of 90 kPa, at which the flow shall not exceed 8,000 cm3/min."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 12,
+      "paragraph": "6.17.13.2.4",
+      "quote": "When the excess flow valve is at cut-off position, the flow through the by‑pass shall not exceed 500 cm3/min. at a differential pressure of 700 kPa.",
+      "text": "When the excess flow valve is at cut-off position, the flow through the bypass shall not exceed 500 cm3/min at a differential pressure of 700 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 13,
+      "paragraph": "6.18",
+      "quote": "shall meet the requirements specified in Annex 19 to this Regulation.",
+      "text": "LPG components and parts that may come into contact with petrol shall meet the requirements of Annex 19."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 13,
+      "paragraph": "6.18",
+      "quote": "Non-metallic, metallic or a mixture of metallic and non-metallic components or components containing non-metallic parts shall bear an approval mark according to Annex A, Appendix 1.",
+      "text": "Components that may contact petrol shall bear the approval mark according to Annex 2A Appendix 1 indicating N, M or NM material type."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 37,
+      "paragraph": "Annex 3 1.4",
+      "quote": "Design temperatures: -20 °C to 65 °C",
+      "text": "The 80 per cent stop valve shall be designed for operating temperatures from -20 °C to 65 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 39,
+      "paragraph": "Annex 3 3.4",
+      "quote": "Design temperatures: -20 °C to 65 °C",
+      "text": "The pressure relief valve shall be designed for operating temperatures from -20 °C to 65 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 40,
+      "paragraph": "Annex 3 4.7",
+      "quote": "If the remotely controlled service valve is closed during commanded stop phases, the valve shall be submitted to the following numbers of operations during the endurance test",
+      "text": "Where the remotely controlled service valve is closed during commanded stop phases, it shall be submitted to 200,000 cycles for mark H1."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 40,
+      "paragraph": "Annex 3 4.7",
+      "quote": "Notwithstanding the above-mentioned provisions, the valve complying with (b) shall be deemed to satisfy (a), and the valve complying with (c) shall be deemed to satisfy (a) and (b).",
+      "text": "A remotely controlled service valve complying with a higher H class shall be deemed to satisfy the lower classes."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 41,
+      "paragraph": "Annex 3 5.5",
+      "quote": "Paragraph 6.17.2.3., Provisions regarding the power supply bushing.",
+      "text": "The power supply bushing shall comply with the electrical insulation and hermetic sealing provisions of paragraph 6.17.2.3."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 43,
+      "paragraph": "Annex 3 7.7",
+      "quote": "One specimen shall be held at a controlled temperature of not less than 90 °C and a pressure not less than test pressure (3,000 kPa) for 24 hours.",
+      "text": "The fusible pressure relief device shall be held at a controlled temperature of not less than 90 °C and at 3,000 kPa for 24 hours without leakage or extrusion of fusible metal."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 43,
+      "paragraph": "Annex 3 7.7",
+      "quote": "One specimen shall be fatigue tested at a pressure cycling rate not to exceed 4 cycles per minute",
+      "text": "The fusible pressure relief device shall be fatigue-tested at not more than 4 cycles per minute for 10,000 cycles at 82 °C and 10,000 cycles at -20 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 43,
+      "paragraph": "Annex 3 7.7",
+      "quote": "Exposed brass pressure retaining components of pressure relief device shall withstand, without stress corrosion cracking, a mercurous nitrate test as described in ASTM B154",
+      "text": "Exposed brass pressure-retaining components of the pressure relief device shall withstand a mercurous nitrate stress corrosion test."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 43,
+      "paragraph": "Annex 4 4",
+      "quote": "Design temperatures: -20 °C to 65 °C, when the fuel pump is mounted inside the container.",
+      "text": "The LPG fuel pump shall be designed for temperatures from -20 °C to 65 °C when mounted inside the container."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 44,
+      "paragraph": "Annex 5 3",
+      "quote": "Components of Class 2: 450 kPa.",
+      "text": "A Class 2 LPG filter unit shall be designed for a classification pressure of 450 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 44,
+      "paragraph": "Annex 5 4",
+      "quote": "Design temperatures: -20 °C to 120 °C",
+      "text": "The LPG filter unit shall be designed for operating temperatures from -20 °C to 120 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 45,
+      "paragraph": "Annex 6 2",
+      "quote": "Class 1: for the part which is in contact with the pressure ≤ 3,000 kPa.",
+      "text": "The high-pressure part of the pressure regulator/vaporiser in contact with LPG up to 3,000 kPa shall be classified Class 1."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 45,
+      "paragraph": "Annex 6 3",
+      "quote": "Parts of Class 2A: 120 kPa.",
+      "text": "The low-pressure part of the regulator/vaporiser shall be designed for a classification pressure of 120 kPa when its maximum regulated pressure is 120 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 45,
+      "paragraph": "Annex 6 4",
+      "quote": "Design temperatures: -20 °C to 120 °C",
+      "text": "The pressure regulator and vaporiser shall be designed for operating temperatures from -20 °C to 120 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 46,
+      "paragraph": "Annex 6 6.1",
+      "quote": "Endurance (Number of cycles shall be 50,000 cycles)",
+      "text": "The Class 1 pressure regulator/vaporiser shall withstand an endurance test of 50,000 cycles."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 46,
+      "paragraph": "Annex 6 Remarks",
+      "quote": "The parts of the pressure regulator/vaporizer (Class 1, 2 or 2A) shall be leak proof with the outlet(s) of that part closed off.",
+      "text": "The parts of the pressure regulator/vaporiser shall be leak-proof with their outlets closed off."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 47,
+      "paragraph": "Annex 7 1.2",
+      "quote": "Component classification (according to Figure 1, para. 2.): Class 3.",
+      "text": "The shut-off valve shall be classified Class 3."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 47,
+      "paragraph": "Annex 7 1.3",
+      "quote": "Classification pressure: 3,000 kPa or WP declared if > 3,000 kPa.",
+      "text": "The shut-off valve shall be designed for a classification pressure of 3,000 kPa or the declared WP if greater than 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 47,
+      "paragraph": "Annex 7 1.4",
+      "quote": "Design temperatures: -20 °C to 120 °C",
+      "text": "The shut-off valve shall be designed for operating temperatures from -20 °C to 120 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 47,
+      "paragraph": "Annex 7 1.7",
+      "quote": "If the remotely controlled shut-off valve is closed during commanded stop phases, the valve shall be submitted to the numbers of operations according to paragraph 4.7. of Annex 3",
+      "text": "Where the remotely controlled shut-off valve is closed during commanded stop phases, it shall be subjected to the endurance operation numbers of Annex 3 paragraph 4.7."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 48,
+      "paragraph": "Annex 7 2.2",
+      "quote": "Component classification (according to Figure 1, para. 2.): Class 1.",
+      "text": "The non-return valve shall be classified Class 1."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 48,
+      "paragraph": "Annex 7 2.4",
+      "quote": "Design temperatures: -20 °C to 120 °C",
+      "text": "The non-return valve shall be designed for operating temperatures from -20 °C to 120 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 49,
+      "paragraph": "Annex 7 3.6",
+      "quote": "Endurance (with 200 operation cycles)",
+      "text": "The gas-tube pressure relief valve shall withstand an endurance test of 200 operation cycles."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 49,
+      "paragraph": "Annex 7 4.6",
+      "quote": "Endurance (with 6,000 operation cycles)",
+      "text": "The service coupling shall withstand an endurance test of 6,000 operation cycles."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 50,
+      "paragraph": "Annex 8 1.1.1",
+      "quote": "The hose shall be so designed as to withstand a maximum operating pressure of 3,000 kPa.",
+      "text": "A Class 1 high pressure rubber hose shall be designed to withstand a maximum operating pressure of 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 50,
+      "paragraph": "Annex 8 1.1.2",
+      "quote": "The hose shall be so designed as to withstand temperatures between -25 °C and +80 °C.",
+      "text": "A Class 1 high pressure rubber hose shall be designed to withstand temperatures between -25 °C and +80 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 50,
+      "paragraph": "Annex 8 1.2.3",
+      "quote": "The lining and the cover shall be smooth and free from pores, holes and strange elements.",
+      "text": "The lining and cover of the flexible hose shall be smooth and free from pores, holes and foreign elements."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 50,
+      "paragraph": "Annex 8 1.3.1.1",
+      "quote": "Tensile strength not less than 10 MPa and elongation at break not less than 250 per cent.",
+      "text": "The lining of a Class 1 rubber hose shall have a tensile strength of at least 10 MPa and an elongation at break of at least 250 per cent."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 51,
+      "paragraph": "Annex 8 1.4.2.3",
+      "quote": "No cracking of the test pieces is allowed.",
+      "text": "The cover of the rubber hose shall show no cracking after ozone exposure."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 52,
+      "paragraph": "Annex 8 1.5.1.3",
+      "quote": "The leakage through the wall of the hose shall not exceed 95 cm3 of vapour per metre of hose per 24 h.",
+      "text": "The leakage through the wall of the hose shall not exceed 95 cm3 of vapour per metre of hose per 24 hours."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 52,
+      "paragraph": "Annex 8 1.5.2.3",
+      "quote": "No cracking or rupture is allowed.",
+      "text": "The hose shall show no cracking or rupture after the low temperature test at -25 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 53,
+      "paragraph": "Annex 8 1.5.5.2",
+      "quote": "The test-pressure of 6,750 kPa shall be applied during 10 minutes, without any leakage.",
+      "text": "The Class 1 rubber hose shall withstand a hydraulic test pressure of 6,750 kPa for 10 minutes without leakage."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 53,
+      "paragraph": "Annex 8 1.5.5.3",
+      "quote": "The burst pressure shall not be less than 10,000 kPa.",
+      "text": "The burst pressure of the Class 1 rubber hose shall not be less than 10,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 53,
+      "paragraph": "Annex 8 1.6.1",
+      "quote": "The couplings shall be made from steel or brass and the surface shall be corrosion-resistant.",
+      "text": "The hose couplings shall be made from steel or brass with a corrosion-resistant surface."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 53,
+      "paragraph": "Annex 8 1.7.2.2",
+      "quote": "The hose has to be subjected to 150,000 impulses.",
+      "text": "The hose assembly shall be subjected to 150,000 impulses in the impulse test."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 53,
+      "paragraph": "Annex 8 1.7.3.1",
+      "quote": "The hose assembly (hose with couplings) has to withstand during five minutes a gas pressure of 3,000 kPa without any leakage.",
+      "text": "The hose assembly shall withstand a gas pressure of 3,000 kPa for five minutes without leakage."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 53,
+      "paragraph": "Annex 8 1.8.1",
+      "quote": "Every hose shall bear, at intervals of not greater than 0.5 m, the following clearly legible and indelible identification markings",
+      "text": "Every hose shall bear clearly legible and indelible identification markings at intervals of not more than 0.5 m."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 54,
+      "paragraph": "Annex 8 1.8.1.4",
+      "quote": "The identification marking \"L.P.G. Class 1\".",
+      "text": "The hose shall bear the identification marking \"L.P.G. Class 1\"."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 54,
+      "paragraph": "Annex 8 2.1.1",
+      "quote": "The hose shall be so designed as to withstand a maximum operating pressure of 450 kPa.",
+      "text": "A Class 2 low pressure rubber hose shall be designed to withstand a maximum operating pressure of 450 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 54,
+      "paragraph": "Annex 8 2.1.2",
+      "quote": "The hose shall be so designed as to withstand temperatures between ‑25 °C and +125 °C.",
+      "text": "A Class 2 low pressure rubber hose shall be designed to withstand temperatures between -25 °C and +125 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 56,
+      "paragraph": "Annex 8 2.5.4.2",
+      "quote": "The test pressure of 1,015 kPa shall be applied during 10 minutes, without any leakage.",
+      "text": "The Class 2 rubber hose shall withstand a hydraulic test pressure of 1,015 kPa for 10 minutes without leakage."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 56,
+      "paragraph": "Annex 8 2.5.4.3",
+      "quote": "The burst pressure shall not be less than 1,800 kPa.",
+      "text": "The burst pressure of the Class 2 rubber hose shall not be less than 1,800 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 57,
+      "paragraph": "Annex 8 2.8.1.4",
+      "quote": "The identification marking \"L.P.G. Class 2\".",
+      "text": "The Class 2 hose shall bear the identification marking \"L.P.G. Class 2\"."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 57,
+      "paragraph": "Annex 8 3.1.3",
+      "quote": "The hose shall be so designed as to withstand a maximum operating pressure of 3,000 kPa.",
+      "text": "A Class 1 high pressure synthetic hose shall be designed to withstand a maximum operating pressure of 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 58,
+      "paragraph": "Annex 8 3.1.4",
+      "quote": "The hose shall be so designed as to withstand temperatures between ‑25 °C and +125 °C.",
+      "text": "A Class 1 high pressure synthetic hose shall be designed to withstand temperatures between -25 °C and +125 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 58,
+      "paragraph": "Annex 8 3.3.1.1",
+      "quote": "Tensile strength not less than 20 MPa and elongation at break not less than 200 per cent.",
+      "text": "The lining of a Class 1 synthetic hose shall have a tensile strength of at least 20 MPa and an elongation at break of at least 200 per cent."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 62,
+      "paragraph": "Annex 8 3.8.1.4",
+      "quote": "The identification marking \"L.P.G. Class 1\".",
+      "text": "The Class 1 synthetic hose shall bear the identification marking \"L.P.G. Class 1\"."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 62,
+      "paragraph": "Annex 8 4.1.3",
+      "quote": "The hose shall be so designed as to withstand a maximum operating pressure of WP.",
+      "text": "A Class 0 high pressure synthetic hose shall be designed to withstand a maximum operating pressure equal to the declared WP."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 65,
+      "paragraph": "Annex 8 4.5.3.3",
+      "quote": "After the test the hose shall withstand the test pressure of 2.25 WP during 10 minutes. No leakage is allowed.",
+      "text": "The Class 0 synthetic hose shall withstand a test pressure of 2.25 times WP for 10 minutes without leakage."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 66,
+      "paragraph": "Annex 8 4.5.5.3",
+      "quote": "The burst pressure shall not be less than 10,000 kPa and at least 2.25 WP.",
+      "text": "The burst pressure of the Class 0 synthetic hose shall be not less than 10,000 kPa and at least 2.25 times WP."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 67,
+      "paragraph": "Annex 8 4.8.1.4",
+      "quote": "The identification marking \"L.P.G. Class 0\".",
+      "text": "The Class 0 synthetic hose shall bear the identification marking \"L.P.G. Class 0\"."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 67,
+      "paragraph": "Annex 9 2",
+      "quote": "Filling unit: Class 3 Non-return valve: Class 3",
+      "text": "The filling unit and its non-return valve shall be classified Class 3."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 67,
+      "paragraph": "Annex 9 3",
+      "quote": "Classification pressure: 3,000 kPa.",
+      "text": "The filling unit shall be designed for a classification pressure of 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 67,
+      "paragraph": "Annex 9 4",
+      "quote": "Design temperatures: -20 °C to 65 °C",
+      "text": "The filling unit shall be designed for operating temperatures from -20 °C to 65 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 67,
+      "paragraph": "Annex 9 6",
+      "quote": "Endurance (with 6,000 operation cycles)",
+      "text": "The filling unit shall withstand an endurance test of 6,000 operation cycles."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 68,
+      "paragraph": "Annex 9 7.1",
+      "quote": "The filling unit shall be subjected to an impact test of 10 J.",
+      "text": "The filling unit shall be subjected to an impact test of 10 J."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 68,
+      "paragraph": "Annex 9 7.3",
+      "quote": "The filling unit shall comply with the external leak test and seat leak test at ambient temperature.",
+      "text": "After the impact test, the filling unit shall comply with the external leak test and seat leak test at ambient temperature."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 73,
+      "paragraph": "Annex 10 1.3.1",
+      "quote": "The material used for the manufacture of the stress-resistant container shells shall be steel as specified in Euronorm EN 10120",
+      "text": "The material of the stress-resistant LPG container shell shall be steel as specified in Euronorm EN 10120."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 73,
+      "paragraph": "Annex 10 1.3.3",
+      "quote": "All components of the container body and all the parts welded thereto shall be made of mutually compatible materials.",
+      "text": "All components of the container body and all parts welded to it shall be made of mutually compatible materials."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 74,
+      "paragraph": "Annex 10 1.4.1",
+      "quote": "The design operating temperature of the container shall be from -20 °C to 65 °C.",
+      "text": "The LPG container shall be designed for an operating temperature from -20 °C to 65 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 74,
+      "paragraph": "Annex 10 1.4.2",
+      "quote": "The design operating pressure of the container shall be: 3,000 kPa.",
+      "text": "The LPG container shall be designed for an operating pressure of 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 75,
+      "paragraph": "Annex 10 1.6.1.2.1",
+      "quote": "The container ends shall be in one piece, shall encave to the pressure and shall have either a torispherical or an elliptical form",
+      "text": "The container ends shall be in one piece, concave to the pressure, and either torispherical or elliptical."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 75,
+      "paragraph": "Annex 10 1.6.1.3",
+      "quote": "The nominal wall thickness of the cylindrical part and of the barrelled end may not, under any circumstances; be less than:",
+      "text": "The nominal wall thickness of the cylindrical part and of the dished end of the container shall not be less than the specified minimum."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 76,
+      "paragraph": "Annex 10 1.7.2.2",
+      "quote": "The butt welds shall be executed by an automatic welding process.",
+      "text": "The butt welds of the container shell shall be executed by an automatic welding process."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 76,
+      "paragraph": "Annex 10 1.7.2.2",
+      "quote": "Angle welds may not be superimposed on butt welds and shall be at least 10 mm away from them.",
+      "text": "Angle welds shall not be superimposed on butt welds and shall be at least 10 mm away from them."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 76,
+      "paragraph": "Annex 10 1.7.2.4",
+      "quote": "the difference between the maximum and minimum outside diameter of the same cross-section is not more than 1 per cent of the average of those diameters.",
+      "text": "The out-of-roundness of the container cylindrical shell shall not exceed 1 per cent of the average of the maximum and minimum outside diameters of the same cross-section."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 77,
+      "paragraph": "Annex 10 1.7.3.3",
+      "quote": "A reference mark shall be affixed on the containers to ensure their correct installation.",
+      "text": "The LPG container shall bear a reference mark ensuring its correct installation."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 77,
+      "paragraph": "Annex 10 1.7.3.5",
+      "quote": "The container shall have provisions to mount a gas-tight housing or kind of protection device over the container accessories.",
+      "text": "The LPG container shall have provisions to mount a gas-tight housing or protection device over the container accessories."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 77,
+      "paragraph": "Annex 10 1.7.3.4",
+      "quote": "Where fitted, identification plates shall be fixed on to the stress resistant shell and shall not be removable.",
+      "text": "Any identification plate shall be fixed to the stress-resistant shell and shall not be removable."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 80,
+      "paragraph": "Annex 10 2.2.3.1",
+      "quote": "The measured bursting pressure (Pr) shall not under any circumstances be less than 2.25 · 3,000 = 6,750 kPa.",
+      "text": "The measured bursting pressure of the container shall not be less than 6,750 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 80,
+      "paragraph": "Annex 10 2.2.3.3",
+      "quote": "The burst test shall not cause any fragmentation of the container.",
+      "text": "The burst test shall not cause any fragmentation of the container."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 81,
+      "paragraph": "Annex 10 2.3.1",
+      "quote": "shall withstand an inner hydraulic pressure of 3,000 kPa without leakages or becoming permanently distorted",
+      "text": "The container shall withstand an internal hydraulic pressure of 3,000 kPa without leakage or permanent distortion."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 81,
+      "paragraph": "Annex 10 2.3.4",
+      "quote": "After the test the container shall show no signs of permanent deformation.",
+      "text": "After the hydraulic test, the container shall show no signs of permanent deformation."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 101,
+      "paragraph": "Annex 11 1.2",
+      "quote": "Component classification (according to Figure 1, para. 2.): Class 1 or Class 0.",
+      "text": "The gas injector shall be classified Class 1 or Class 0."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 101,
+      "paragraph": "Annex 11 1.4",
+      "quote": "Design temperatures: -20 °C to 120 °C",
+      "text": "The gas injector shall be designed for operating temperatures from -20 °C to 120 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 101,
+      "paragraph": "Annex 11 1.5",
+      "quote": "Paragraph 6.17.2.1., Provisions regarding the insulation class.",
+      "text": "The gas injector shall comply with the electrical insulation class provisions of paragraph 6.17.2.1."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 102,
+      "paragraph": "Annex 11 3.3",
+      "quote": "Parts of Class 2: 450 kPa.",
+      "text": "A Class 2 fuel rail shall be designed for a classification pressure of 450 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 103,
+      "paragraph": "Annex 12 3",
+      "quote": "Parts of Class 2: 450 kPa.",
+      "text": "A Class 2 gas dosage unit shall be designed for a classification pressure of 450 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 104,
+      "paragraph": "Annex 12 Remarks",
+      "quote": "The parts of the gas dosage unit (Class 2 or 2A) shall be leakproof with the outlet(s) of that part closed.",
+      "text": "The gas dosage unit shall be leak-proof with its outlet closed."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 104,
+      "paragraph": "Annex 13 3",
+      "quote": "Parts of Class 2A: 120 kPa.",
+      "text": "A Class 2A pressure or temperature sensor shall be designed for a classification pressure of 120 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 104,
+      "paragraph": "Annex 13 4",
+      "quote": "Design temperatures: -20 °C to 120 °C",
+      "text": "The pressure and temperature sensors shall be designed for operating temperatures from -20 °C to 120 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 105,
+      "paragraph": "Annex 14 2",
+      "quote": "The switching off delay of the service cut-off valves after stalling of the engine may not be more than 5 seconds.",
+      "text": "The electronic control unit shall switch off the service cut-off valves within 5 seconds after stalling of the engine."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 105,
+      "paragraph": "Annex 14 3",
+      "quote": "The electronic control unit shall comply with relevant electromagnetic compatibility (EMC) requirements according to Regulation No. 10, 02 series of amendments or equivalent.",
+      "text": "The electronic control unit shall comply with the relevant electromagnetic compatibility requirements of Regulation No. 10."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 105,
+      "paragraph": "Annex 14 4",
+      "quote": "Electrical failure of the vehicle system may not lead to uncontrolled opening of any valve.",
+      "text": "An electrical failure of the vehicle system shall not lead to uncontrolled opening of any LPG valve."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 106,
+      "paragraph": "Annex 14 5",
+      "quote": "The output of the electronic control unit shall be inactive when the electric power is switched off or removed.",
+      "text": "The output of the electronic control unit shall be inactive when the electric power is switched off or removed."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 106,
+      "paragraph": "Annex 14 6.1",
+      "quote": "The maximum volume of liquid fuel that flows during a switch-over operation shall not exceed 0.4 litre and the minimum volume of the tank shall not be lower than 20 litres.",
+      "text": "For an interconnected bi-fuel system, the ECU shall limit the volume of liquid fuel flowing during a switch-over to 0.4 litre maximum, for tanks of at least 20 litres."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 107,
+      "paragraph": "Annex 14 6.4",
+      "quote": "the wording \"ICS\"; and (b) the value of 0.4 litre; and (c) the approval mark according to paragraph 5.4. of this Regulation.",
+      "text": "An ECU for an interconnected LPG system shall bear the wording \"ICS\", the value of 0.4 litre and the approval mark."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 107,
+      "paragraph": "Annex 15 5",
+      "quote": "Stainless steel gas tube shall only be used in combination with stainless steel couplings.",
+      "text": "Stainless steel gas tubes shall be used only in combination with stainless steel couplings."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 107,
+      "paragraph": "Annex 15 5",
+      "quote": "Only straight longitudinal welding (in the direction of the tube itself) is permitted in gas tubes of non-seamless type.",
+      "text": "Non-seamless gas tubes shall have only straight longitudinal welding in the direction of the tube."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 108,
+      "paragraph": "Annex 15 6.3.1",
+      "quote": "The gas tube and its coupling(s) shall be tested for an endurance test consisting out of 100,000 cycles.",
+      "text": "The gas tube and its couplings shall withstand an endurance test of 100,000 pressure cycles."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 108,
+      "paragraph": "Annex 15 6.3.3",
+      "quote": "shall be capable of withstanding, without deformation, breakage or leakage, a torque effort of 150 per cent of the rated installation value delivered by the manufacturer",
+      "text": "A coupling connected directly to threaded fittings shall withstand, without deformation, breakage or leakage, a torque of 150 per cent of the rated installation value."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 109,
+      "paragraph": "Annex 16 3.4",
+      "quote": "The test period for leakage and hydrostatic strength tests shall be not less than 1 minute.",
+      "text": "The test period for leakage and hydrostatic strength tests shall be not less than 1 minute."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 109,
+      "paragraph": "Annex 16 3.5",
+      "quote": "All tests shall be performed at a room temperature of 20 °C ± 5 °C, unless otherwise stated.",
+      "text": "All tests shall be performed at a room temperature of 20 °C ± 5 °C unless otherwise stated."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 110,
+      "paragraph": "Annex 16 4",
+      "quote": "A LPG containing component shall withstand without any visible evidence of rupture or permanent distortion a hydraulic test pressure which is determined by Table 1 (of 2.25 times the maximum classification pressure)",
+      "text": "An LPG-containing component shall withstand a hydraulic test pressure of 2.25 times its maximum classification pressure without visible rupture or permanent distortion."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 111,
+      "paragraph": "Annex 16 5.4",
+      "quote": "the external leakage shall be lower than 15 cm3/hour with the outlet plugged, when submitted to a gas pressure equal to the leakage test pressure.",
+      "text": "The external leakage of an LPG-containing component shall be lower than 15 cm3/hour with the outlet plugged at the leakage test pressure."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 111,
+      "paragraph": "Annex 16 6",
+      "quote": "A LPG containing component shall not leak more than 15 cm3/hour with the outlet plugged when submitted to a gas pressure at maximum operating temperature",
+      "text": "An LPG-containing component shall not leak more than 15 cm3/hour at the maximum operating temperature after conditioning for at least 8 hours."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 111,
+      "paragraph": "Annex 16 7",
+      "quote": "A LPG containing component shall not leak more than 15 cm3/hour with the outlet plugged when submitted to a gas pressure, at the minimum operating temperature (-20 °C)",
+      "text": "An LPG-containing component shall not leak more than 15 cm3/hour at the minimum operating temperature of -20 °C after conditioning for at least 8 hours."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 112,
+      "paragraph": "Annex 16 8.2",
+      "quote": "The seat of a shut-off valve, when in the closed position, shall be free from leakage at any aerostatic pressure between 0 to 3,000 kPa or from 0 to WP",
+      "text": "The seat of the shut-off valve in the closed position shall be free from leakage at any aerostatic pressure from 0 to 3,000 kPa or 0 to WP."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 112,
+      "paragraph": "Annex 16 8.3",
+      "quote": "A non-return valve provided with a resilient seat, when in the closed position, shall not leak when subjected to any aerostatic pressure between 50 and 3,000 kPa.",
+      "text": "A non-return valve with a resilient seat shall not leak in the closed position at any aerostatic pressure between 50 and 3,000 kPa."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 113,
+      "paragraph": "Annex 16 9.3",
+      "quote": "An endurance test is to be conducted at a rate not faster than 10 times per minute.",
+      "text": "The endurance test shall be conducted at a rate not faster than 10 cycles per minute."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 113,
+      "paragraph": "Annex 16 9.5.1",
+      "quote": "The 80 per cent stop valve shall be capable to withstand 6,000 complete filling cycles to the maximum filling degree.",
+      "text": "The 80 per cent stop valve shall withstand 6,000 complete filling cycles to the maximum filling degree."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 113,
+      "paragraph": "Annex 16 9.6",
+      "quote": "The regulator shall be able to withstand 50,000 cycles without any failure when tested according to the following procedure",
+      "text": "The pressure regulator shall withstand 50,000 cycles without failure when tested across the specified temperature and pressure conditions."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 114,
+      "paragraph": "Annex 16 10.1.2.1",
+      "quote": "the start-to-discharge pressure of any one of the three valves shall be not less than 95 per cent, not more than 105 per cent, of the set pressure marked on the valve.",
+      "text": "The start-to-discharge pressure of each pressure relief valve shall be between 95 per cent and 105 per cent of the marked set pressure."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 116,
+      "paragraph": "Annex 16 10.2.1",
+      "quote": "An excess flow valve shall operate at not more than 10 per cent above, nor less than 20 per cent below the rated closing flow capacity specified by the manufacturer",
+      "text": "The excess flow valve shall operate within 10 per cent above and 20 per cent below the rated closing flow capacity specified by the manufacturer."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 117,
+      "paragraph": "Annex 16 10.3.1",
+      "quote": "Testing of the good function of the device limiting the filling degree of the container has to be performed by filling speeds of 20, 50 and 80 l/min",
+      "text": "The 80 per cent filling limiter shall be tested for correct function at filling speeds of 20, 50 and 80 l/min."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 117,
+      "paragraph": "Annex 16 10.5.3",
+      "quote": "The following tests shall be carried out along each of the three orthogonal axes of the test item.",
+      "text": "The vibration tests of the filling limiter shall be carried out along each of the three orthogonal axes."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 118,
+      "paragraph": "Annex 16 10.5.4.3",
+      "quote": "An acceleration level of 1.5 g. (14.7 m/sec2), A frequency range of 5 to 200 Hz, A sweep time of 12 minutes.",
+      "text": "The filling limiter shall be sinusoidally vibrated for three hours along each axis at 1.5 g over 5 to 200 Hz with a 12-minute sweep."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 118,
+      "paragraph": "Annex 16 11.2",
+      "quote": "Maximum change in volume 20 per cent",
+      "text": "A synthetic part in contact with liquid LPG shall show a maximum volume change of 20 per cent after n-pentane immersion."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 119,
+      "paragraph": "Annex 16 12.1",
+      "quote": "after having been submitted to 144 hours salt spray test according to ISO 9227, with all connections closed.",
+      "text": "A metal LPG-containing component shall comply with the leakage tests after a 144-hour salt spray test according to ISO 9227."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 119,
+      "paragraph": "Annex 16 12.2",
+      "quote": "A copper or brass LPG containing component shall comply with the leakage tests mentioned in paragraphs 4, 5, 6 and 7 and after having been submitted to 24 hours immersion in Ammonia according to ISO 6957",
+      "text": "A copper or brass LPG-containing component shall comply with the leakage tests after 24 hours immersion in ammonia according to ISO 6957."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 119,
+      "paragraph": "Annex 16 13",
+      "quote": "The test piece has to be exposed to air at a temperature equal to the maximum operating temperature for 168 hours.",
+      "text": "A non-metallic part shall be exposed to air at its maximum operating temperature for 168 hours in the dry heat resistance test."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 119,
+      "paragraph": "Annex 16 14.2",
+      "quote": "No cracking of the test piece is allowed.",
+      "text": "A non-metallic part shall show no cracking after ozone ageing."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 120,
+      "paragraph": "Annex 16 15",
+      "quote": "after having been submitted to a hydraulic pressure of 2.25 times the maximum operating pressure at a temperature of 120 °C during minimal 96 hours",
+      "text": "A non-metallic part containing liquid LPG shall comply with the leakage tests after hydraulic pressure at 2.25 times the maximum operating pressure at 120 °C for at least 96 hours."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 120,
+      "paragraph": "Annex 16 16",
+      "quote": "after having been submitted to a 96 hours temperature cycle from the minimum operating temperature up to the maximum operating temperature with a cycle time of 120 minutes, under maximum working pressure.",
+      "text": "A non-metallic part containing liquid LPG shall comply with the leakage tests after 96 hours of temperature cycling under maximum working pressure."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 120,
+      "paragraph": "Annex 16 17.1",
+      "quote": "Test samples shall be submerged in heat exchange medium for 168 hours at 90 °C; then they shall be dried for 48 hours at a temperature of 40 °C.",
+      "text": "Non-metallic parts in contact with heat exchange fluid shall be submerged in water/ethylene-glycol fluid for 168 hours at 90 °C, then dried for 48 hours at 40 °C."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 121,
+      "paragraph": "Annex 16 18.3.2",
+      "quote": "Both aged and non-aged samples \"a\" and \"b\" shall comply with the flow requirements as per paragraph 6.17.8.3.",
+      "text": "Aged and non-aged non-metallic components connecting the pressure relief valve to the gaseous phase shall comply with the flow requirements of paragraph 6.17.8.3."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 122,
+      "paragraph": "Annex 19 1.1.1",
+      "quote": "Maximum change in volume 20 per cent;",
+      "text": "A non-metallic component that may contact petrol shall show a maximum volume change of 20 per cent after petrol immersion."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 122,
+      "paragraph": "Annex 19 1.2",
+      "quote": "Metallic parts shall permanently be protected against corrosion (e.g. coating, surface finish, material mix) and fulfil the requirements of Annex 16, paragraph 12.",
+      "text": "Metallic parts that may contact petrol shall be permanently protected against corrosion and fulfil the corrosion resistance requirements of Annex 16 paragraph 12."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.1",
+      "quote": "The LPG equipment as installed in the vehicle shall function in such a manner that the working pressure for which it has been designed and approved cannot be exceeded.",
+      "text": "The LPG equipment as installed in the vehicle shall function so that the working pressure for which it was designed and approved cannot be exceeded."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.2",
+      "quote": "All parts of the system shall be type approved for individual parts pursuant to Part I of this Regulation.",
+      "text": "All parts of the LPG system shall be type-approved for individual parts pursuant to Part I."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.3",
+      "quote": "The materials used in the system shall be suitable for use with LPG.",
+      "text": "The materials used in the LPG system shall be suitable for use with LPG."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.4",
+      "quote": "All parts of the system shall be fastened in a proper way.",
+      "text": "All parts of the LPG system shall be fastened in a proper way."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.5",
+      "quote": "The LPG system shall show no leaks.",
+      "text": "The installed LPG system shall show no leaks."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.6",
+      "quote": "The LPG system shall be installed such that is has the best possible protection against damage, such as damage due to moving vehicle components, collision, grit or due to the loading or unloading of the vehicle",
+      "text": "The LPG system shall be installed with the best possible protection against damage from moving vehicle components, collision, grit, loading or unloading."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.6.1",
+      "quote": "it shall be possible to make an external inspection (e.g. for periodic technical inspection) of the LPG-container and its accessories, when located outside the vehicle",
+      "text": "The LPG container and its accessories located outside the vehicle shall be externally inspectable without tools, using visual aids such as lamps, mirrors or endoscopes."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 16,
+      "paragraph": "17.1.7",
+      "quote": "No appliances shall be connected to the LPG system other than those strictly required for the proper operation of the engine of the motor vehicle.",
+      "text": "No appliances other than those strictly required for proper engine operation shall be connected to the LPG system."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 17,
+      "paragraph": "17.2.1",
+      "quote": "No component of the LPG system, including any protective materials which form part of such components, shall project beyond the external surface of the vehicle, with the exception of the filling unit if this does not project more than 10 mm beyond the nominal line of the body panel.",
+      "text": "No LPG system component shall project beyond the external surface of the vehicle, except the filling unit projecting not more than 10 mm beyond the nominal body panel line."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 17,
+      "paragraph": "17.2.2",
+      "quote": "in no cross section of the vehicle any component of the LPG system, including any protective material which forms part of such components, may extend beyond the lower edge of the vehicle unless another part of the vehicle, within a radius of 150 mm is situated lower.",
+      "text": "No LPG system component other than the fuel container shall extend below the lower edge of the vehicle unless another vehicle part within 150 mm is lower."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 17,
+      "paragraph": "17.2.3",
+      "quote": "No component of the LPG system shall be located within 100 mm of the exhaust or similar heat source, unless such components are adequately shielded against heat.",
+      "text": "No LPG system component shall be located within 100 mm of the exhaust or similar heat source unless adequately shielded against heat."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 17,
+      "paragraph": "17.3.1",
+      "quote": "An LPG system shall contain at least the following components:",
+      "text": "The LPG system shall contain at least the fuel container, 80 per cent stop valve, level indicator, pressure relief valve, remotely controlled service valve with excess flow valve, pressure regulator and vaporiser, remotely controlled shut-off valve, filling unit, gas tubes and hoses, connections, injector or gas injection device, electronic control unit and pressure relief device."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 18,
+      "paragraph": "17.3.3",
+      "quote": "The container fittings referred to in paragraphs 17.3.1.2. to 17.3.1.5. above may be combined.",
+      "text": "The container fittings may be combined into a multivalve."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 18,
+      "paragraph": "17.4.1",
+      "quote": "The fuel container shall be permanently installed in the vehicle and shall not be installed in the engine compartment.",
+      "text": "The fuel container shall be permanently installed in the vehicle and shall not be installed in the engine compartment."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 18,
+      "paragraph": "17.4.3",
+      "quote": "The fuel container shall be installed such that there is no metal to metal contact, other than at the permanent fixing points of the container.",
+      "text": "The fuel container shall be installed such that there is no metal-to-metal contact other than at its permanent fixing points."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 18,
+      "paragraph": "17.4.4",
+      "quote": "The fuel container shall have permanent fixing points to secure it to the motor vehicle or the container shall be secured to the motor vehicle by a container frame and container straps.",
+      "text": "The fuel container shall have permanent fixing points, or be secured by a container frame and straps, to fix it to the vehicle."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 18,
+      "paragraph": "17.4.5",
+      "quote": "When the vehicle is ready for use the fuel container shall not be less than 200 mm above the road surface.",
+      "text": "When the vehicle is ready for use, the fuel container shall not be less than 200 mm above the road surface."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 18,
+      "paragraph": "17.4.6",
+      "quote": "Vehicles of categories M1 and N1: (a) 20 g in the direction of travel; (b) 8 g horizontally perpendicular to the direction of travel.",
+      "text": "For an M1 vehicle, the full fuel container shall be mounted and fixed to absorb, without damage, 20 g in the direction of travel and 8 g horizontally perpendicular to it."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 19,
+      "paragraph": "17.6.1.1",
+      "quote": "The remotely controlled service valve with excess flow valve shall be installed directly on the fuel container, without any intervening fittings.",
+      "text": "The remotely controlled service valve with excess flow valve shall be installed directly on the fuel container without intervening fittings."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 19,
+      "paragraph": "17.6.1.2",
+      "quote": "The remotely controlled service valve with excess flow valve shall be controlled such that it is automatically closed when the engine is not running, irrespective of the position of the ignition switch, and shall remain closed as long as the engine is not running.",
+      "text": "The remotely controlled service valve shall close automatically when the engine is not running, irrespective of the ignition switch position, and remain closed while the engine is not running."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 19,
+      "paragraph": "17.6.2.1",
+      "quote": "The spring-loaded pressure relief valve shall be installed in the fuel container in such a manner that it is connected to the vapour space and can discharge to the surrounding atmosphere.",
+      "text": "The spring-loaded pressure relief valve shall be installed in the fuel container connected to the vapour space and able to discharge to the surrounding atmosphere."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 19,
+      "paragraph": "17.6.3.1",
+      "quote": "The automatic filling level limiter shall be suitable for the fuel container it is fitted to and shall be installed in the appropriate position to ensure that the container cannot be filled to more than 80 per cent.",
+      "text": "The automatic filling level limiter shall be installed in the appropriate position to ensure the container cannot be filled to more than 80 per cent."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.6.4.1",
+      "quote": "The level indicator shall be suitable for the fuel container it is fitted to and shall be installed in the appropriate position.",
+      "text": "The level indicator shall be suitable for the fuel container and installed in the appropriate position."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.6.5.1",
+      "quote": "A gas-tight housing over the container fittings, which fulfils the requirements of paragraphs 17.6.5.2. to 17.6.5.5. below shall be fitted to the fuel container, unless the container is installed outside the vehicle and the container fittings are protected against dirt and water.",
+      "text": "A gas-tight housing over the container fittings complying with paragraphs 17.6.5.2 to 17.6.5.5 shall be fitted to the fuel container, unless the container is installed outside the vehicle with fittings protected against dirt and water."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.6.5.3",
+      "quote": "The ventilation opening of the gas-tight housing shall point downwards at the point of exit from the motor vehicle.",
+      "text": "The ventilation opening of the gas-tight housing shall point downwards at the point of exit from the vehicle."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.6.5.4",
+      "quote": "Any connecting hose and lead-through in the bottom of the bodywork of the motor vehicle for ventilation of the gas-tight housing shall have a minimum clear opening of 450 mm2.",
+      "text": "Any connecting hose and lead-through for ventilation of the gas-tight housing shall have a minimum clear opening of 450 mm2."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.6.5.5",
+      "quote": "The gas-tight housing and connecting hoses shall be gas-tight at a pressure of 10 kPa with the apertures closed off, and show no permanent deformation, with a maximum allowed leak rate of 100 cm3/h.",
+      "text": "The gas-tight housing and connecting hoses shall be gas-tight at 10 kPa with apertures closed off, show no permanent deformation and have a maximum leak rate of 100 cm3/h."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.7.1.1",
+      "quote": "If seamless copper is used the tube shall be protected by a rubber or plastic sleeve.",
+      "text": "Where seamless copper tube is used, the tube shall be protected by a rubber or plastic sleeve."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.7.1.2",
+      "quote": "The outer diameter of Class 1 gas tubes made of copper shall not exceed 12 mm with a wall thickness of at least 0.8 mm",
+      "text": "A Class 1 copper gas tube shall have an outer diameter not exceeding 12 mm with a wall thickness of at least 0.8 mm."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.7.6",
+      "quote": "Gas tubes, other than non-metallic gas tubes, shall be secured such that they shall not be subjected to vibration or stresses.",
+      "text": "Metallic gas tubes shall be secured such that they are not subjected to vibration or stresses."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.7.7",
+      "quote": "Gas hoses and non-metallic gas tubes shall be secured such that they shall not be subjected to stresses.",
+      "text": "Gas hoses and non-metallic gas tubes shall be secured such that they are not subjected to stresses."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.7.8",
+      "quote": "At the fixing point the gas tube or hose shall be fitted with a protective material.",
+      "text": "At each fixing point the gas tube or hose shall be fitted with a protective material."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 20,
+      "paragraph": "17.7.9",
+      "quote": "Gas tubes or hoses shall not be located at jacking points.",
+      "text": "Gas tubes or hoses shall not be located at jacking points."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.7.10",
+      "quote": "At passages the gas tubes or hoses, whether or not fitted with a protective sleeve, shall be fitted with protective material.",
+      "text": "At passages the gas tubes or hoses shall be fitted with protective material, whether or not a protective sleeve is fitted."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.8.1",
+      "quote": "Soldered or welded joints and bite-type compression joints are not permitted.",
+      "text": "Soldered or welded joints and bite-type compression joints shall not be used in the gas connections."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.8.3",
+      "quote": "Stainless steel tubes shall only be joined by stainless steel fittings.",
+      "text": "Stainless steel gas tubes shall be joined only by stainless steel fittings."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.8.4",
+      "quote": "Distributing-blocks shall be made of corrosion-resistant material.",
+      "text": "Distributing blocks shall be made of corrosion-resistant material."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.8.6",
+      "quote": "The number of joints shall be limited to a minimum.",
+      "text": "The number of gas tube joints shall be limited to a minimum."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.8.8",
+      "quote": "In a passenger compartment or enclosed luggage compartment the gas tube or hose shall be no longer than reasonably required",
+      "text": "Inside the passenger compartment or an enclosed luggage compartment, the gas tube or hose shall be no longer than reasonably required."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.8.8.1",
+      "quote": "There shall be no gas-conveying connections in the passenger compartment or enclosed luggage compartment with the exception of",
+      "text": "There shall be no gas-conveying connections in the passenger or enclosed luggage compartment except on the gas-tight housing and at the filling unit connection where a protective sleeve is fitted."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.9.1",
+      "quote": "A remotely controlled shut-off valve shall be installed in the gas tube from the LPG container to the pressure regulator/vaporizer, as close as possible to the pressure regulator/vaporizer.",
+      "text": "A remotely controlled shut-off valve shall be installed in the gas tube from the container to the pressure regulator/vaporiser, as close as possible to the regulator/vaporiser."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 21,
+      "paragraph": "17.9.4",
+      "quote": "The remotely controlled shut-off valve shall be installed such that the fuel supply is cut off when the engine is not running or, if the vehicle is also equipped with another fuel system, when the other fuel is selected.",
+      "text": "The remotely controlled shut-off valve shall be installed such that fuel supply is cut off when the engine is not running or, for a bi-fuel vehicle, when petrol is selected, with a delay of 2 seconds allowed for diagnostics."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.10.1",
+      "quote": "The filling unit shall be secured against rotation and shall be protected against dirt and water.",
+      "text": "The filling unit shall be secured against rotation and protected against dirt and water."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.10.2",
+      "quote": "When the LPG container is installed in the passenger compartment or an enclosed (luggage) compartment, the filling unit shall be located at the outside of the vehicle.",
+      "text": "Where the LPG container is installed in the passenger compartment or an enclosed luggage compartment, the filling unit shall be located at the outside of the vehicle."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.10.3",
+      "quote": "For vehicles of category M1, the filling unit shall not be located below the body of the vehicle and shall respect the height provisions of paragraph 17.4.5.",
+      "text": "For an M1 vehicle, the filling unit shall not be located below the body of the vehicle and shall respect the height provisions of paragraph 17.4.5."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.1",
+      "quote": "The electrical components of the LPG system shall be protected against overloads and at least one separate fuse shall be provided in the supply cable.",
+      "text": "The electrical components of the LPG system shall be protected against overloads and at least one separate fuse shall be provided in the supply cable."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.1.1",
+      "quote": "The fuse shall be installed in a known location where it can be reached without the use of tools.",
+      "text": "The LPG system fuse shall be installed in a known location reachable without the use of tools."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.2",
+      "quote": "The electrical power to LPG system components which also carry gas may not be conducted by a gas tube.",
+      "text": "The electrical power to LPG system components that also carry gas shall not be conducted by a gas tube."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.3",
+      "quote": "All electrical components installed in a part of the LPG system where the pressure exceeds 20 kPa shall be connected and insulated in a manner that no current is led through LPG containing parts.",
+      "text": "Electrical components installed in a part of the LPG system exceeding 20 kPa shall be connected and insulated so that no current is led through LPG-containing parts."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.4",
+      "quote": "The electrical connections inside the boot and passengers compartment shall comply with protection degree class IP 40 according to IEC Standard 60529-1989+A1:1999.",
+      "text": "The electrical connections inside the boot and passenger compartment shall comply with protection degree class IP 40."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.4",
+      "quote": "All other electrical connections shall comply with protection degree class IP 54 according to IEC Standard 60529-1989+A1:1999.",
+      "text": "All other electrical connections of the LPG installation shall comply with protection degree class IP 54."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.5",
+      "quote": "Vehicles with more than one fuel system shall have a fuel selection system",
+      "text": "A bi-fuel vehicle shall have a fuel selection system allowing switching between petrol and LPG."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.11.6",
+      "quote": "The electrical connections and components in the gas-tight housing shall be constructed such that no sparks are generated.",
+      "text": "The electrical connections and components in the gas-tight housing shall be constructed so that no sparks are generated."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.12.1",
+      "quote": "The pressure relief device shall be fitted to the fuel container(s) in such a manner that it can discharge into the gas tight housing, when its presence is prescribed",
+      "text": "The pressure relief device shall be fitted to the fuel container so that it can discharge into the gas-tight housing where such a housing is prescribed."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.13.2.1",
+      "quote": "Means shall be provided to prevent any flow of LPG into the petrol tank.",
+      "text": "The bi-fuel LPG system shall provide means to prevent any flow of LPG into the petrol tank."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 22,
+      "paragraph": "17.13.2.2",
+      "quote": "the LPG-system shall contain an Electronic Control Unit complying also with paragraph 6. of Annex 14.",
+      "text": "The bi-fuel LPG system shall contain an electronic control unit complying with paragraph 6 of Annex 14 to prevent overfilling through petrol flow during switch-over."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 23,
+      "paragraph": "17.13.2.3",
+      "quote": "Means shall be provided to prevent that flows of petrol into the LPG fuel container could lead to a content of petrol higher than 16 per cent of the actual volume contained in the LPG tank.",
+      "text": "The system shall prevent petrol flowing into the LPG container from exceeding 16 per cent of the actual volume in the LPG tank, including in case of faults with a malfunction indication to the driver."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 23,
+      "paragraph": "17.13.2.4",
+      "quote": "LPG components which may come into contact with petrol shall comply with the requirements set out in paragraph 6.18.",
+      "text": "LPG components that may come into contact with petrol shall comply with the petrol compatibility requirements of paragraph 6.18."
+    },
+    {
+      "regulation": "UN R67",
+      "page": 23,
+      "paragraph": "17.13.2.5",
+      "quote": "In vehicles where the flushed volume is less than or equal to 0.4 litre; and (b) In vehicles equipped with a LPG container having a capacity higher than 20 litres.",
+      "text": "The Annex 14 compliant ECU shall be installed in vehicles where the flushed volume is 0.4 litre or less and fitted with an LPG container of more than 20 litres capacity."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 1,
+      "paragraph": "1.2",
+      "quote": "Components and separate technical units intended to be fitted in these vehicles with the limitation given in paragraph 3.2.1. with regard to electromagnetic compatibility.",
+      "text": "The LPG electronic control unit, as a component intended for fitting in an M1 vehicle, shall comply with this Regulation with regard to electromagnetic compatibility."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 1,
+      "paragraph": "1.3",
+      "quote": "Requirements regarding the immunity to radiated and conducted disturbances for functions related to direct control of the vehicle",
+      "text": "The LPG control system shall be immune to radiated and conducted disturbances affecting functions related to direct control of the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 1,
+      "paragraph": "1.3",
+      "quote": "Requirements regarding the control of unwanted radiated and conducted emissions to protect the intended use of electrical or electronic equipment at own or adjacent vehicles",
+      "text": "The LPG electronic control unit shall control unwanted radiated and conducted emissions to protect electrical equipment in its own and adjacent vehicles."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 6,
+      "paragraph": "3.2.6",
+      "quote": "The sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "text": "The LPG electronic control unit sample shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.2.2",
+      "quote": "An approval mark described in paragraph 5.3. below shall be affixed to every ESA conforming to a type approved under this Regulation.",
+      "text": "Every LPG electronic control unit, as an ESA, shall be affixed with the approval mark described in paragraph 5.3."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.1",
+      "quote": "A circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "text": "The ECU approval mark shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the granting country."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.3.2",
+      "quote": "The number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1. above.",
+      "text": "The ECU approval mark shall include the number of this Regulation followed by \"R\", a dash and the approval number to the right of the circle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "5.5",
+      "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+      "text": "The ECU marking need not be visible when the unit is installed in the vehicle."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 8,
+      "paragraph": "6.1.1",
+      "quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "text": "The LPG ECU shall be designed, constructed and fitted so that the vehicle complies with this Regulation in normal conditions of use."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 9,
+      "paragraph": "6.1.1.2",
+      "quote": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "text": "The LPG ECU shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.5.2.1",
+      "quote": "the limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band",
+      "text": "The broadband radiated emissions of the LPG ECU shall not exceed 62 to 52 dBµV/m from 30 to 75 MHz and 52 to 63 dBµV/m from 75 to 400 MHz, remaining constant at 63 dBµV/m from 400 to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 10,
+      "paragraph": "6.6.2.1",
+      "quote": "the limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 42 to 53 dB microvolts/m in the 75 to 400 MHz band",
+      "text": "The narrowband radiated emissions of the LPG ECU shall not exceed 52 to 42 dBµV/m from 30 to 75 MHz and 42 to 53 dBµV/m from 75 to 400 MHz, remaining constant at 53 dBµV/m from 400 to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.7. Table 1",
+      "quote": "Maximum allowed pulse amplitude Positive +75 V Negative -100 V",
+      "text": "For a 12 V system, the transient conducted emissions of the LPG ECU on supply lines shall not exceed +75 V for positive pulses and -100 V for negative pulses."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2a",
+      "quote": "Test level below 2 GHz 60 V/m 75 V/m 60 mA 30 V/m 21 V/m",
+      "text": "The LPG ECU shall withstand, over 90 per cent of the 20 MHz to 2 GHz band, immunity test levels of 60 V/m in stripline, 75 V/m in TEM cell, 60 mA in BCI, 30 V/m in ALSE and 21 V/m in reverberation chamber."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 11,
+      "paragraph": "6.8.2.1. Table 2b",
+      "quote": "Test level below 2 GHz 50 V/m 62,5 V/m 50 mA 25 V/m 18 V/m",
+      "text": "The LPG ECU shall withstand, as a minimum over the whole 20 MHz to 2 GHz band, immunity test levels of 50 V/m, 62.5 V/m, 50 mA, 25 V/m and 18 V/m according to the test method."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.8.2.2",
+      "quote": "during the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\".",
+      "text": "During the immunity tests the LPG ECU shall show no degradation of performance of its immunity-related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "1 -75 V -450 V 500 pulses III III",
+      "text": "For a 12 V system, the LPG ECU shall withstand test pulse 1 at -75 V for 500 pulses with functional status III."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "2a +37 V +37 V 500 pulses I III",
+      "text": "The LPG ECU shall withstand test pulse 2a at +37 V for 500 pulses with functional status I for immunity-related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3b",
+      "quote": "3a -112 V -150 V 1 h I III",
+      "text": "For a 12 V system, the LPG ECU shall withstand test pulse 3a at -112 V for 1 hour with functional status I for immunity-related functions."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.9.1. Table 3a",
+      "quote": "Starting profile II II 10 pulses",
+      "text": "The LPG ECU, where it must remain operational during engine start phases, shall withstand the starting profile with functional status C."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 12,
+      "paragraph": "6.10.1",
+      "quote": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with paragraph 6.3.2. or 6.6.2.",
+      "text": "Where the LPG ECU contains no electronic oscillator above 9 kHz, it shall be deemed to comply with the narrowband emission requirements."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 92,
+      "paragraph": "Annex 7 4.1",
+      "quote": "The limits apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+      "text": "The radiated broadband emission limits for the LPG ECU apply throughout the frequency range 30 to 1,000 MHz."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 92,
+      "paragraph": "Annex 7 4.2",
+      "quote": "If peak detectors are used a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "text": "Where peak detectors are used for the broadband emission measurement of the LPG ECU, a correction factor of 20 dB shall be applied."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 96,
+      "paragraph": "Annex 8 2",
+      "quote": "The ESA under test shall be in normal operation mode, preferably in maximum load.",
+      "text": "During the narrowband emission test the LPG ECU shall be in normal operation mode, preferably at maximum load."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 3.1",
+      "quote": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "text": "The immunity of the LPG ECU shall be measured in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 98,
+      "paragraph": "Annex 9 3.1",
+      "quote": "AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range",
+      "text": "The immunity test signal applied to the LPG ECU shall be amplitude-modulated with 1 kHz and 80 per cent depth in the 20 to 400 MHz range."
+    },
+    {
+      "regulation": "UN R10",
+      "page": 96,
+      "paragraph": "Annex 8 3.3",
+      "quote": "the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.6.2.1. of this Regulation",
+      "text": "During the narrowband emission test of the LPG ECU, the ambient noise shall be at least 6 dB below the applicable limits."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 1,
+      "paragraph": "1.1",
+      "quote": "This Regulation shall apply to vehicles of categories M1 and N1.",
+      "text": "The converted passenger car shall, as an M1 category vehicle, comply with this Regulation."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 7,
+      "paragraph": "5.2. Table A",
+      "quote": "Yes (petrol only) Yes (petrol only) Yes (petrol only) Yes (both fuels)",
+      "text": "For a bi-fuel petrol/LPG vehicle, the low temperature Type 6 test shall be carried out on both fuels."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 7,
+      "paragraph": "5.2. Table A",
+      "quote": "Crankcase emissions1 (Type 3 test) Yes Yes Yes - Yes (petrol only)",
+      "text": "For a bi-fuel petrol/LPG vehicle, the crankcase emission Type 3 test shall be carried out on petrol only."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 8,
+      "paragraph": "5.3.3.1.1",
+      "quote": "Vehicles that can be fuelled either with petrol or with LPG or NG should be tested in the Type 3 test on petrol only.",
+      "text": "The bi-fuel vehicle shall be tested in the Type 3 crankcase test on petrol only."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 8,
+      "paragraph": "5.3.3.2",
+      "quote": "the engine's crankcase ventilation system shall not permit the emission of any of the crankcase gases into the atmosphere.",
+      "text": "The engine's crankcase ventilation system shall not permit any crankcase gases to be emitted into the atmosphere."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 8,
+      "paragraph": "5.3.5.1.3",
+      "quote": "The low ambient temperature test shall be carried out at an ambient test temperature of 266 K (-7 °C).",
+      "text": "The low ambient temperature Type 6 test shall be carried out at an ambient test temperature of 266 K (-7 °C)."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 9,
+      "paragraph": "5.3.5.2. Table 2",
+      "quote": "M - 15 1.8",
+      "text": "For an M vehicle, the mass of carbon monoxide averaged over the Type 6 test shall be less than 15 g/km and the mass of hydrocarbons less than 1.8 g/km."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 9,
+      "paragraph": "5.3.5.2",
+      "quote": "The resulting mass of carbon monoxide and hydrocarbon emission shall be less than the limits shown in Table 2.",
+      "text": "The resulting mass of carbon monoxide and hydrocarbon emissions from the Type 6 test shall be less than the limits shown in Table 2."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 9,
+      "paragraph": "5.3.5.2",
+      "quote": "the test shall be performed three times.",
+      "text": "The Type 6 test shall be performed three times, subject to the conditions of paragraphs 5.3.5.2.2 and 5.3.5.3."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 9,
+      "paragraph": "5.3.5.2.1",
+      "quote": "for each pollutant, at least two of the three test results must be below the limit. One of the test results can exceed the limit but by no more than 10 per cent.",
+      "text": "For each pollutant at least two of the three Type 6 test results shall be below the limit, with any exceedance by one result not more than 10 per cent."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 9,
+      "paragraph": "5.3.5.3.1",
+      "quote": "Only one test is performed if the result obtained for each pollutant of the first test is less than or equal to 0.70 L.",
+      "text": "Only one Type 6 test shall be performed where the result for each pollutant of the first test is 0.70 L or less."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 6,
+      "paragraph": "4.4.3",
+      "quote": "The approval mark shall contain an additional character after the type approval number, the purpose of which is to distinguish the emission standard for which the approval has been granted.",
+      "text": "The vehicle approval mark shall contain an additional character after the type approval number distinguishing the emission standard for which approval was granted."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 6,
+      "paragraph": "4.6",
+      "quote": "The approval mark shall be clearly legible and be indelible.",
+      "text": "The approval mark affixed to the LPG-converted vehicle shall be clearly legible and indelible."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 6,
+      "paragraph": "4.7",
+      "quote": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 29,
+      "paragraph": "Annex 3",
+      "quote": "a = 8 mm (minimum)",
+      "text": "The approval mark characters affixed to the converted vehicle shall be at least 8 mm in size."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 65,
+      "paragraph": "Annex 6 2.2",
+      "quote": "The engines tested shall include leak-proof engines other than those so designed that even a slight leak may cause unacceptable operating faults",
+      "text": "The Type 3 test shall be carried out on a leak-proof engine other than an engine whose design tolerates slight leaks."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 65,
+      "paragraph": "Annex 6 3.2",
+      "quote": "Idling 50 ± 2 (in 3rd gear or \"drive\") 50 ± 2 (in 3rd gear or \"drive\")",
+      "text": "The Type 3 measurement shall be performed at idling and at 50 ± 2 km/h in 3rd gear or drive."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 66,
+      "paragraph": "Annex 6 5.3",
+      "quote": "the pressure measured in the crankcase does not exceed the atmospheric pressure prevailing at the time of measurement.",
+      "text": "The vehicle shall be deemed satisfactory where in every Type 3 measurement condition the crankcase pressure does not exceed the prevailing atmospheric pressure."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 66,
+      "paragraph": "Annex 6 5.6",
+      "quote": "The pressure measured in the crankcase shall be measured to within ± 0.01 kPa.",
+      "text": "The crankcase pressure in the Type 3 test shall be measured to within ± 0.01 kPa."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 75,
+      "paragraph": "Annex 8 3.1.1",
+      "quote": "Ambient temperature levels encountered by the test vehicle shall average: 266 K (-7 °C) ± 3 K and shall not be less than 260 K (-13 °C), or more than 272 K (-1 °C).",
+      "text": "The ambient temperature during the Type 6 test shall average 266 K (-7 °C) ± 3 K and never be less than 260 K or more than 272 K."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 78,
+      "paragraph": "Annex 8 4.3.2",
+      "quote": "The vehicle is stored for not less than 12 hours nor for more than 36 hours prior to the low ambient temperature exhaust emission test.",
+      "text": "The vehicle shall be soaked for not less than 12 hours and not more than 36 hours prior to the Type 6 test under the specified ambient conditions."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 79,
+      "paragraph": "Annex 8 5.2.9",
+      "quote": "During operation of the vehicle the heating and defrosting devices shall be shut off.",
+      "text": "During operation of the vehicle in the Type 6 test, the heating and defrosting devices shall be shut off."
+    },
+    {
+      "regulation": "UN R83",
+      "page": 80,
+      "paragraph": "Annex 8 5.3.1",
+      "quote": "The sampling begins before or at the initiation of the engine start-up procedure and ends on conclusion of the final idling period of the last elementary cycle",
+      "text": "The emission sampling shall begin before or at initiation of the engine start-up and end after the final idling period of the last elementary cycle at 780 seconds."
+    }
+  ]
+}

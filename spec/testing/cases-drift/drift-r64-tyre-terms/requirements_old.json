@@ -1,0 +1,416 @@
+[
+  {
+    "id": "R-001",
+    "text": "The test track shall be substantially level and have a surface affording good adhesion.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 1.1"
+    }
+  },
+  {
+    "id": "R-002",
+    "text": "The test shall be performed when there is no wind liable to affect the results.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 1.2"
+    }
+  },
+  {
+    "id": "R-003",
+    "text": "The vehicle shall be loaded to its maximum mass as defined in paragraph 2.9. of this Regulation.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 1.3"
+    }
+  },
+  {
+    "id": "R-004",
+    "text": "The axle loads resulting from the loading condition in accordance with paragraph 1.3. of this annex shall be proportional to the maximum axle loads as defined in paragraph 2.10. of this Regulation.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 1.4"
+    }
+  },
+  {
+    "id": "R-005",
+    "text": "Except in the case of a run-flat tyre or of an extended mobility tyre, the tyres shall be inflated to the pressures recommended by the vehicle manufacturer for the vehicle type and loading condition.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 1.5"
+    }
+  },
+  {
+    "id": "R-006",
+    "text": "A run-flat tyre or an extended mobility tyre shall be tested in the fully deflated condition.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 1.5"
+    }
+  },
+  {
+    "id": "R-007",
+    "text": "The test shall be carried out with the temporary-use spare unit fitted alternately in place of one front wheel and one rear wheel.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 2.1"
+    }
+  },
+  {
+    "id": "R-008",
+    "text": "However, if use of the temporary-use spare unit is restricted to a specific axle, the test shall be carried out only with the temporary-use spare unit fitted to that axle.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 2.1"
+    }
+  },
+  {
+    "id": "R-009",
+    "text": "The test shall be carried out using the service braking system from an initial speed of 80 km/h with the engine disconnected.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 2.2"
+    }
+  },
+  {
+    "id": "R-010",
+    "text": "The braking performance shall correspond to the test procedure given in Regulation No. 13 or 13-H for categories M1 and N1 vehicles for the Type O cold test with the engine disconnected, and is based on the stopping distance and the mean fully developed deceleration.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 2.3"
+    }
+  },
+  {
+    "id": "R-011",
+    "text": "The performance of the vehicle shall be determined by measuring the stopping distance in relation to the prescribed speed of the vehicle and/or by measuring the mean fully developed deceleration during the test.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 2.3"
+    }
+  },
+  {
+    "id": "R-012",
+    "text": "In the case of M1 category vehicles approved to Regulation No. 13 fitted with type(s) 1, 2, 3 and 5 temporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a prescribed speed of 80 km/h, the stopping distance achieved using a maximum force of 500 N applied to the foot control shall not exceed 50.7 m.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 2.3.1"
+    }
+  },
+  {
+    "id": "R-013",
+    "text": "In the case of M1 category vehicles approved to Regulation No. 13 fitted with type(s) 1, 2, 3 and 5 temporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a prescribed speed of 80 km/h, the mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve, according to the following formula and shall be not less than 5.8 ms⁻²: where: vo = initial vehicle speed at beginning of braking in km/h, vb = vehicle speed at 0.8 vo in km/h, ve = vehicle speed at 0.1 vo in km/h, sb = distance travelled between vo and vb in metres, se = distance travelled between vo and ve in metres.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 11,
+      "paragraph": "Annex 3 2.3.1"
+    }
+  },
+  {
+    "id": "R-014",
+    "text": "In the case of N1 category vehicles approved to Regulation No. 13 fitted with type(s) 1, 2, 3 and 5 temporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a prescribed speed of 80 km/h, the stopping distance achieved using a maximum force of 700 N applied to the foot control shall not exceed 61.2 m.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.1"
+    }
+  },
+  {
+    "id": "R-015",
+    "text": "In the case of N1 category vehicles approved to Regulation No. 13 fitted with type(s) 1, 2, 3 and 5 temporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a prescribed speed of 80 km/h, the mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve, according to the formula given in paragraph 2.3.1. and shall be not less than 5.0 m/s⁻².",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.1"
+    }
+  },
+  {
+    "id": "R-016",
+    "text": "In the case of M1 category vehicles approved to Regulation No. 13 fitted with type 4 spare unit as defined in paragraph 2.10.4. and tested using a prescribed speed of 120 km/h, the stopping distance achieved using a maximum force of 500 N applied to the foot control shall not exceed 108 m.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.2"
+    }
+  },
+  {
+    "id": "R-017",
+    "text": "In the case of M1 category vehicles approved to Regulation No. 13 fitted with type 4 spare unit as defined in paragraph 2.10.4. and tested using a prescribed speed of 120 km/h, the mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve, according to the formula given in paragraph 2.3.1. and shall be not less than 5.8 m/s⁻².",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.2"
+    }
+  },
+  {
+    "id": "R-018",
+    "text": "In the case of N1 category vehicles approved to Regulation No. 13 fitted with type 4 spare unit as defined in paragraph 2.10.4. and tested using a prescribed speed of 120 km/h, the stopping distance achieved using a maximum force of 700 N applied to the foot control shall not exceed 128.8 m.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.3"
+    }
+  },
+  {
+    "id": "R-019",
+    "text": "In the case of N1 category vehicles approved to Regulation No. 13 fitted with type 4 spare unit as defined in paragraph 2.10.4. and tested using a prescribed speed of 120 km/h, the mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve, according to the formula given in paragraph 2.3.1. and shall be not less than 5.0 m/s⁻².",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.3"
+    }
+  },
+  {
+    "id": "R-020",
+    "text": "In the case of M1 or N1 category vehicles approved to Regulation No. 13-H fitted with type(s) 1, 2, 3 and 5 temporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a prescribed speed of 80 km/h, the stopping distance achieved using a maximum force of 500 N + 0 / -50 N applied to the foot control shall not exceed 46.4 m.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.4"
+    }
+  },
+  {
+    "id": "R-021",
+    "text": "In the case of M1 or N1 category vehicles approved to Regulation No. 13-H fitted with type(s) 1, 2, 3 and 5 temporary-use spare units as defined in paragraphs 2.10.1., 2.10.2., 2.10.3. and 2.10.5. and tested using a prescribed speed of 80 km/h, the mean fully developed deceleration (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve, according to the formula given in paragraph 2.3.1. and shall be not less than 6.43 m/s⁻².",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.4"
+    }
+  },
+  {
+    "id": "R-022",
+    "text": "In the case of M1 and N1 category vehicles approved to Regulation No. 13-H fitted with type 4 temporary-use spare unit as defined in paragraph 2.10.4. and tested using a prescribed speed of 120 km/h, the stopping distance achieved using a maximum force of 500 N + 0 / -50 N applied to the foot control shall not exceed 98.4 m.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.5"
+    }
+  },
+  {
+    "id": "R-023",
+    "text": "In the case of M1 and N1 category vehicles approved to Regulation No. 13-H fitted with type 4 temporary-use spare unit as defined in paragraph 2.10.4. and tested using a prescribed speed of 120 km/h, the mean fully developed (dm) shall be calculated as the deceleration averaged with respect to distance over the interval vb to ve, according to the formula given in paragraph 2.3.1. and shall be not less than 6.43 m/s⁻².",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.3.1.5"
+    }
+  },
+  {
+    "id": "R-024",
+    "text": "Tests shall be carried out for each of the fitting conditions of temporary-use spare units specified in paragraph 2.1. of this annex.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 12,
+      "paragraph": "Annex 3 2.4"
+    }
+  },
+  {
+    "id": "R-025",
+    "text": "The prescribed braking performance shall be obtained without any wheel-locking, deviation of the vehicle from its intended course, abnormal vibration, abnormal wear of the tyre during the test or excessive steering correction.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 3 2.5"
+    }
+  },
+  {
+    "id": "R-026",
+    "text": "The ambient temperature shall be between 0 °C and 40 °C.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 1.1"
+    }
+  },
+  {
+    "id": "R-027",
+    "text": "The test road surface shall be dry and smooth.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 1.2"
+    }
+  },
+  {
+    "id": "R-028",
+    "text": "The test location shall be other than an environment susceptible to radio wave interference such as a strong electric field.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 1.3"
+    }
+  },
+  {
+    "id": "R-029",
+    "text": "The vehicle's tyres shall be shaded from direct sun when the vehicle is parked.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 1.4"
+    }
+  },
+  {
+    "id": "R-030",
+    "text": "The requirements of either paragraph 2.1.1. or 2.1.2. shall be met.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 2.1"
+    }
+  },
+  {
+    "id": "R-031",
+    "text": "With the vehicle stationary and the ignition (start) switch in the \"Lock\" or \"Off\" position, turn the ignition (start) switch to the \"On\" (\"Run\") position or, where applicable, the appropriate key position, and confirm the activation of the warning signal.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 2.1.1.2"
+    }
+  },
+  {
+    "id": "R-032",
+    "text": "Turn off the ignition and reduce the inflation pressure of any one of the tyres until the adjusted tyre inflation pressure is 100 kPa below the recommended cold inflation pressure.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 2.1.1.3"
+    }
+  },
+  {
+    "id": "R-033",
+    "text": "Within 5 minutes after reducing the inflation pressure of the tyre, drive the vehicle normally between 40 and 100 km/h.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 2.1.1.4"
+    }
+  },
+  {
+    "id": "R-034",
+    "text": "The test is completed when either: (a) The run-flat warning system as described in paragraph 5.1.6.1. has activated; or (b) A period of 5 minutes has elapsed, when determined in accordance with paragraph 2.3., from the time the test speed has been reached; if the warning does not activate the test has failed, and the vehicle shall be brought to a halt and the ignition switched off.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 2.1.1.5"
+    }
+  },
+  {
+    "id": "R-035",
+    "text": "If the warning signal as required in paragraph 2.1.1.5. above has activated, wait 5 minutes before turning the ignition on; the signal must reactivate and remain active as long as the ignition switch is in the \"on\" (\"run\") position.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 2.1.1.6"
+    }
+  },
+  {
+    "id": "R-036",
+    "text": "Repeat the process described in paragraphs 2.1.1.1. to 2.1.1.6., but with a test speed of 130 km/h or higher; all the relevant requirements shall be met for both test speeds.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 13,
+      "paragraph": "Annex 4 2.1.1.7"
+    }
+  },
+  {
+    "id": "R-037",
+    "text": "With the vehicle stationary and the ignition (start) switch in the \"Lock\" or \"Off\" position, turn the ignition (start) switch to the \"On\" (\"Run\") position or, where applicable, the appropriate key position, confirm the activation of the warning signal, and turn off the ignition.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.1.2.2"
+    }
+  },
+  {
+    "id": "R-038",
+    "text": "Produce on one tyre a gradual pressure loss of between 10 kPa/min and 20 kPa/min.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.1.2.3"
+    }
+  },
+  {
+    "id": "R-039",
+    "text": "Drive the vehicle at any speed above 25 km/h.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.1.2.4"
+    }
+  },
+  {
+    "id": "R-040",
+    "text": "The test requirement is satisfied if the system delivers an alert by the time the pressure drop has reached 100 kPa.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.1.2.5"
+    }
+  },
+  {
+    "id": "R-041",
+    "text": "With a simulated fault introduced, drive the vehicle normally between 40 and 100 km/h.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.2.2"
+    }
+  },
+  {
+    "id": "R-042",
+    "text": "When: (a) The run-flat malfunction signal as described in paragraph 5.1.6.4. has activated or; (b) A period of 5 minutes has elapsed, when determined in accordance with paragraph 2.3., from the time the test speed has been reached; if the warning does not activate the test has failed, and the vehicle shall be brought to a halt and the ignition switched off.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.2.3"
+    }
+  },
+  {
+    "id": "R-043",
+    "text": "If the warning signal as required in paragraph 2.2.3. above has activated, wait 5 minutes before turning the ignition on; the signal must reactivate and remain active as long as the ignition switch is in the \"on\" (\"run\") position.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.2.4"
+    }
+  },
+  {
+    "id": "R-044",
+    "text": "The time to be taken for determination of the requirements of paragraphs 2.1.1.5. and 2.2.3. shall be the total elapsed time while the vehicle is driven in the test speed range 40 km/h to 100 km/h.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.3"
+    }
+  },
+  {
+    "id": "R-045",
+    "text": "The time shall be calculated over a continuous drive but it is not necessary that the vehicle maintains throughout the test a speed within the test speed range.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.3"
+    }
+  },
+  {
+    "id": "R-046",
+    "text": "Where the vehicle speed falls outside the test speed range, any time accumulated during such events shall not be considered as part of the total test time duration.",
+    "source": {
+      "regulation": "UN R64",
+      "page": 14,
+      "paragraph": "Annex 4 2.3"
+    }
+  }
+]

@@ -1,0 +1,1416 @@
+{
+ "case": "dev-rear-lamp",
+ "run": "lead-textimage-v2",
+ "components": [
+  {
+   "id": "K1",
+   "name": "Rear position lamp",
+   "keys": [
+    "P1"
+   ],
+   "sources": [
+    "spec"
+   ],
+   "callouts": [],
+   "requirement_ids": [
+    "R-012",
+    "R-040",
+    "R-059",
+    "R-061",
+    "R-062",
+    "R-063",
+    "R-064",
+    "R-065",
+    "R-075",
+    "R-080",
+    "R-084",
+    "R-086",
+    "R-194",
+    "R-199",
+    "R-204",
+    "R-207",
+    "R-210",
+    "R-211",
+    "R-216",
+    "R-217",
+    "R-246",
+    "R-247",
+    "R-248",
+    "R-249",
+    "R-250",
+    "R-251",
+    "R-252",
+    "R-253",
+    "R-254",
+    "R-255",
+    "R-256"
+   ],
+   "via_callout": [],
+   "requirement_count": 31,
+   "regulations": {
+    "UN R48": {
+     "requirements": 19,
+     "sections": [
+      "5.11",
+      "5.15",
+      "5.18.1",
+      "5.21",
+      "5.24",
+      "5.7.1.1",
+      "6.10.1",
+      "6.10.2",
+      "6.10.4.1",
+      "6.10.4.2",
+      "6.10.4.3",
+      "6.10.5.1",
+      "6.10.7",
+      "6.10.8"
+     ]
+    },
+    "UN R148": {
+     "requirements": 12,
+     "sections": [
+      "3.3.2.5.1.1",
+      "4.5.3.1",
+      "4.8.3.5",
+      "5.2.1",
+      "5.2.1. Table 4",
+      "5.2.2",
+      "5.2.6",
+      "5.2.7",
+      "Annex 2 Part A. Table A2-1",
+      "Annex 3 2.1",
+      "Annex 8 1.2.2",
+      "Annex 8 2.1. Table A8-1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K2",
+   "name": "Stop lamp",
+   "keys": [
+    "P2"
+   ],
+   "sources": [
+    "spec"
+   ],
+   "callouts": [],
+   "requirement_ids": [
+    "R-040",
+    "R-044",
+    "R-059",
+    "R-066",
+    "R-067",
+    "R-068",
+    "R-069",
+    "R-070",
+    "R-076",
+    "R-080",
+    "R-084",
+    "R-087",
+    "R-203",
+    "R-235",
+    "R-236",
+    "R-237",
+    "R-238",
+    "R-239",
+    "R-240",
+    "R-241",
+    "R-242",
+    "R-243",
+    "R-244",
+    "R-245"
+   ],
+   "via_callout": [],
+   "requirement_count": 24,
+   "regulations": {
+    "UN R148": {
+     "requirements": 12,
+     "sections": [
+      "4.5.3.1",
+      "4.5.5",
+      "4.8.3.5",
+      "5.5.1",
+      "5.5.1. Table 7",
+      "5.5.2",
+      "5.5.6",
+      "5.5.7",
+      "Annex 2 Part A. Table A2-1",
+      "Annex 3 2.1",
+      "Annex 8 1.2.2",
+      "Annex 8 2.1. Table A8-1"
+     ]
+    },
+    "UN R48": {
+     "requirements": 12,
+     "sections": [
+      "5.15",
+      "6.7.1",
+      "6.7.2",
+      "6.7.4.1",
+      "6.7.4.2.1",
+      "6.7.4.4",
+      "6.7.5",
+      "6.7.6",
+      "6.7.7.1",
+      "6.7.8"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K3",
+   "name": "Reversing lamp",
+   "keys": [
+    "P3"
+   ],
+   "sources": [
+    "spec"
+   ],
+   "callouts": [],
+   "requirement_ids": [
+    "R-013",
+    "R-044",
+    "R-071",
+    "R-072",
+    "R-073",
+    "R-074",
+    "R-079",
+    "R-081",
+    "R-083",
+    "R-088",
+    "R-202",
+    "R-224",
+    "R-225",
+    "R-226",
+    "R-227",
+    "R-228",
+    "R-229",
+    "R-230",
+    "R-231",
+    "R-232",
+    "R-233",
+    "R-234"
+   ],
+   "via_callout": [],
+   "requirement_count": 22,
+   "regulations": {
+    "UN R48": {
+     "requirements": 12,
+     "sections": [
+      "5.15",
+      "6.4.1",
+      "6.4.2.1",
+      "6.4.2.3",
+      "6.4.4.2",
+      "6.4.4.3",
+      "6.4.5.1",
+      "6.4.7.1",
+      "6.4.8"
+     ]
+    },
+    "UN R148": {
+     "requirements": 10,
+     "sections": [
+      "3.3.2.5.1.1",
+      "4.5.5",
+      "5.8.1",
+      "5.8.1. Table 10",
+      "5.8.6",
+      "5.8.7",
+      "Annex 3 1.2",
+      "Annex 3 2.5",
+      "Annex 8 1.2.1",
+      "Annex 8 2.1. Table A8-1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K4",
+   "name": "Outer lens",
+   "keys": [
+    "P4",
+    "C1"
+   ],
+   "sources": [
+    "image",
+    "spec"
+   ],
+   "callouts": [
+    {
+     "text": "Outer lens red, within the chromaticity limits",
+     "values": [
+      {
+       "quantity": "colour",
+       "value": "red",
+       "unit": "",
+       "raw": "red, within the chromaticity limits"
+      },
+      {
+       "quantity": "chromaticity",
+       "value": "within the limits",
+       "unit": "",
+       "raw": "within the chromaticity limits"
+      }
+     ]
+    }
+   ],
+   "requirement_ids": [
+    "R-026",
+    "R-028",
+    "R-029",
+    "R-034",
+    "R-041",
+    "R-042",
+    "R-043",
+    "R-044",
+    "R-060",
+    "R-065",
+    "R-070",
+    "R-074",
+    "R-105",
+    "R-204",
+    "R-203"
+   ],
+   "via_callout": [
+    "R-204",
+    "R-203"
+   ],
+   "requirement_count": 15,
+   "regulations": {
+    "UN R148": {
+     "requirements": 12,
+     "sections": [
+      "3.3.4.1",
+      "3.3.4.3",
+      "3.3.4.4",
+      "3.3.5.1.2",
+      "4.5.5",
+      "4.9",
+      "5.2.7",
+      "5.5.7",
+      "5.8.7"
+     ]
+    },
+    "UN R48": {
+     "requirements": 2,
+     "sections": [
+      "5.15"
+     ]
+    },
+    "UN R150": {
+     "requirements": 1,
+     "sections": [
+      "3.3.6.1.2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K5",
+   "name": "Retro-reflector",
+   "keys": [
+    "P5",
+    "C2"
+   ],
+   "sources": [
+    "image",
+    "spec"
+   ],
+   "callouts": [
+    {
+     "text": "Retro-reflector reflectivity at 5° angle of incidence",
+     "values": [
+      {
+       "quantity": "angle of incidence",
+       "value": "5",
+       "unit": "°",
+       "raw": "reflectivity at 5° angle of incidence"
+      }
+     ]
+    }
+   ],
+   "requirement_ids": [
+    "R-099",
+    "R-100",
+    "R-101",
+    "R-102",
+    "R-109",
+    "R-110",
+    "R-111",
+    "R-112",
+    "R-113",
+    "R-114",
+    "R-115",
+    "R-116",
+    "R-117",
+    "R-118",
+    "R-119",
+    "R-120",
+    "R-121",
+    "R-122",
+    "R-123",
+    "R-124",
+    "R-125",
+    "R-126",
+    "R-127",
+    "R-128",
+    "R-129",
+    "R-130",
+    "R-131",
+    "R-132",
+    "R-133",
+    "R-134",
+    "R-135",
+    "R-136",
+    "R-137",
+    "R-138",
+    "R-139",
+    "R-140",
+    "R-141",
+    "R-142",
+    "R-143",
+    "R-144",
+    "R-145",
+    "R-146",
+    "R-147",
+    "R-148",
+    "R-149",
+    "R-150",
+    "R-151",
+    "R-152",
+    "R-153",
+    "R-154",
+    "R-155",
+    "R-156",
+    "R-157",
+    "R-158",
+    "R-159",
+    "R-160",
+    "R-161",
+    "R-162",
+    "R-163",
+    "R-164",
+    "R-165",
+    "R-166",
+    "R-167",
+    "R-168",
+    "R-169",
+    "R-170",
+    "R-171",
+    "R-172",
+    "R-173",
+    "R-174",
+    "R-175",
+    "R-176",
+    "R-205",
+    "R-207",
+    "R-210",
+    "R-211",
+    "R-257",
+    "R-258",
+    "R-259",
+    "R-260",
+    "R-261",
+    "R-262",
+    "R-263",
+    "R-264"
+   ],
+   "via_callout": [],
+   "requirement_count": 84,
+   "regulations": {
+    "UN R150": {
+     "requirements": 72,
+     "sections": [
+      "3.3.4.1",
+      "3.3.4.2",
+      "3.3.4.2.1",
+      "3.3.5.1",
+      "4.1.1",
+      "4.1.2",
+      "4.1.4",
+      "4.1.5",
+      "4.1.6.1",
+      "4.1.6.2",
+      "4.2.1.2",
+      "5.1.1",
+      "5.1.3.1",
+      "5.1.3.2",
+      "5.1.3.2.1",
+      "5.1.3.2.2",
+      "5.1.4.4.1",
+      "5.1.4.4.1. Table 3",
+      "5.1.4.5",
+      "5.1.5.2",
+      "5.1.7. Table 4",
+      "Annex 5 1.1",
+      "Annex 6 Part 1 1",
+      "Annex 6 Part 1 3",
+      "Annex 6 Part 2 1.1",
+      "Annex 6 Part 2 1.2",
+      "Annex 6 Part 4 1",
+      "Annex 6 Part 4 2",
+      "Annex 6 Part 4 4.1",
+      "Annex 6 Part 4 4.2",
+      "Annex 6 Part 6 3",
+      "Annex 6 Part 6 3.1",
+      "Annex 7 Part 1 1",
+      "Annex 7 Part 1 1.1",
+      "Annex 7 Part 2 1.1"
+     ]
+    },
+    "UN R48": {
+     "requirements": 12,
+     "sections": [
+      "5.15",
+      "5.18.1",
+      "5.21",
+      "6.14.1",
+      "6.14.2",
+      "6.14.4.1",
+      "6.14.4.2",
+      "6.14.4.3",
+      "6.14.5"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K6",
+   "name": "Housing",
+   "keys": [
+    "P6",
+    "C6"
+   ],
+   "sources": [
+    "image",
+    "spec"
+   ],
+   "callouts": [
+    {
+     "text": "Housing reversing lamp visible to 45° outboard",
+     "values": [
+      {
+       "quantity": "visibility angle (reversing lamp)",
+       "value": "45",
+       "unit": "° outboard",
+       "raw": "reversing lamp visible to 45° outboard"
+      }
+     ]
+    }
+   ],
+   "requirement_ids": [
+    "R-026",
+    "R-028",
+    "R-029",
+    "R-180",
+    "R-181",
+    "R-230",
+    "R-231",
+    "R-229",
+    "R-081",
+    "R-056"
+   ],
+   "via_callout": [
+    "R-230",
+    "R-231",
+    "R-229",
+    "R-081",
+    "R-056"
+   ],
+   "requirement_count": 10,
+   "regulations": {
+    "UN R148": {
+     "requirements": 5,
+     "sections": [
+      "3.3.4.1",
+      "3.3.4.3",
+      "3.3.4.4",
+      "4.8.3.1",
+      "Annex 3 2.5"
+     ]
+    },
+    "UN R48": {
+     "requirements": 5,
+     "sections": [
+      "5.1",
+      "6.4.5.1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K7",
+   "name": "Reflector",
+   "keys": [
+    "P7",
+    "C4"
+   ],
+   "sources": [
+    "image",
+    "spec"
+   ],
+   "callouts": [
+    {
+     "text": "Reflector rear position lamp: 4 to 17 cd on axis",
+     "values": [
+      {
+       "quantity": "luminous intensity (rear position lamp)",
+       "value": "4 to 17",
+       "unit": "cd on axis",
+       "raw": "rear position lamp: 4 to 17 cd on axis"
+      }
+     ]
+    }
+   ],
+   "requirement_ids": [
+    "R-062",
+    "R-053",
+    "R-054",
+    "R-061",
+    "R-086",
+    "R-084"
+   ],
+   "via_callout": [
+    "R-062",
+    "R-053",
+    "R-054",
+    "R-061",
+    "R-086",
+    "R-084"
+   ],
+   "requirement_count": 6,
+   "regulations": {
+    "UN R148": {
+     "requirements": 6,
+     "sections": [
+      "4.8.3.1",
+      "5.2.1",
+      "5.2.1. Table 4",
+      "Annex 8 1.2.2",
+      "Annex 8 2.1. Table A8-1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K8",
+   "name": "LED modules on PCB",
+   "keys": [
+    "P8",
+    "C5"
+   ],
+   "sources": [
+    "image",
+    "spec"
+   ],
+   "callouts": [
+    {
+     "text": "LED modules on PCB stop lamp: 60 to 185 cd on axis",
+     "values": [
+      {
+       "quantity": "luminous intensity (stop lamp)",
+       "value": "60 to 185",
+       "unit": "cd on axis",
+       "raw": "stop lamp: 60 to 185 cd on axis"
+      }
+     ]
+    }
+   ],
+   "requirement_ids": [
+    "R-020",
+    "R-021",
+    "R-022",
+    "R-025",
+    "R-031",
+    "R-040",
+    "R-045",
+    "R-046",
+    "R-047",
+    "R-048",
+    "R-049",
+    "R-050",
+    "R-051",
+    "R-052",
+    "R-064",
+    "R-065",
+    "R-069",
+    "R-070",
+    "R-073",
+    "R-074",
+    "R-196",
+    "R-218",
+    "R-219",
+    "R-067",
+    "R-053",
+    "R-054",
+    "R-066",
+    "R-087",
+    "R-084"
+   ],
+   "via_callout": [
+    "R-067",
+    "R-053",
+    "R-054",
+    "R-066",
+    "R-087",
+    "R-084"
+   ],
+   "requirement_count": 29,
+   "regulations": {
+    "UN R148": {
+     "requirements": 26,
+     "sections": [
+      "3.3.3.5",
+      "3.3.3.6",
+      "3.3.4.6",
+      "4.5.3.1",
+      "4.6.1.1",
+      "4.6.1.2",
+      "4.7.1",
+      "4.7.2.3",
+      "4.7.2.4",
+      "4.8.3.1",
+      "5.2.6",
+      "5.2.7",
+      "5.5.1",
+      "5.5.1. Table 7",
+      "5.5.6",
+      "5.5.7",
+      "5.8.6",
+      "5.8.7",
+      "Annex 8 1.2.2",
+      "Annex 8 2.1. Table A8-1"
+     ]
+    },
+    "UN R48": {
+     "requirements": 3,
+     "sections": [
+      "5.27.1",
+      "5.27.2",
+      "5.9"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K9",
+   "name": "Seal / gasket",
+   "keys": [
+    "P9",
+    "C3"
+   ],
+   "sources": [
+    "image",
+    "spec"
+   ],
+   "callouts": [
+    {
+     "text": "Seal / gasket no water ingress after the spray test",
+     "values": [
+      {
+       "quantity": "test",
+       "value": "no water ingress",
+       "unit": "after the spray test",
+       "raw": "no water ingress after the spray test"
+      }
+     ]
+    }
+   ],
+   "requirement_ids": [
+    "R-161",
+    "R-162",
+    "R-163",
+    "R-164",
+    "R-165",
+    "R-141",
+    "R-124"
+   ],
+   "via_callout": [
+    "R-141",
+    "R-124"
+   ],
+   "requirement_count": 7,
+   "regulations": {
+    "UN R150": {
+     "requirements": 7,
+     "sections": [
+      "5.1.3.1",
+      "5.1.7. Table 4",
+      "Annex 6 Part 2 1.1",
+      "Annex 6 Part 2 1.2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "K10",
+   "name": "Fasteners / clips",
+   "keys": [
+    "P10",
+    "C7"
+   ],
+   "sources": [
+    "image",
+    "spec"
+   ],
+   "callouts": [
+    {
+     "text": "Fasteners / clips lamp stays aimed under vibration",
+     "values": [
+      {
+       "quantity": "test",
+       "value": "stays aimed",
+       "unit": "under vibration",
+       "raw": "lamp stays aimed under vibration"
+      }
+     ]
+    }
+   ],
+   "requirement_ids": [
+    "R-180",
+    "R-181",
+    "R-039"
+   ],
+   "via_callout": [
+    "R-039"
+   ],
+   "requirement_count": 3,
+   "regulations": {
+    "UN R48": {
+     "requirements": 2,
+     "sections": [
+      "5.1"
+     ]
+    },
+    "UN R148": {
+     "requirements": 1,
+     "sections": [
+      "4.3"
+     ]
+    }
+   }
+  }
+ ],
+ "callouts": [
+  {
+   "component": "K4",
+   "component_name": "Outer lens",
+   "callout_text": "Outer lens red, within the chromaticity limits",
+   "values": [
+    {
+     "quantity": "colour",
+     "value": "red",
+     "unit": "",
+     "raw": "red, within the chromaticity limits"
+    },
+    {
+     "quantity": "chromaticity",
+     "value": "within the limits",
+     "unit": "",
+     "raw": "within the chromaticity limits"
+    }
+   ],
+   "function_hint": "lens colour within chromaticity limits",
+   "link_confidence": "high",
+   "matches": [
+    {
+     "id": "R-065",
+     "regulation": "UN R148",
+     "paragraph": "5.2.7",
+     "page": 17,
+     "relation": "same_quantity",
+     "why": "rear lamp light colour red"
+    },
+    {
+     "id": "R-070",
+     "regulation": "UN R148",
+     "paragraph": "5.5.7",
+     "page": 20,
+     "relation": "same_quantity",
+     "why": "stop lamp colour red"
+    },
+    {
+     "id": "R-204",
+     "regulation": "UN R48",
+     "paragraph": "5.15",
+     "page": 23,
+     "relation": "same_quantity",
+     "why": "rear position lamp red"
+    },
+    {
+     "id": "R-203",
+     "regulation": "UN R48",
+     "paragraph": "5.15",
+     "page": 23,
+     "relation": "same_quantity",
+     "why": "stop lamp red"
+    },
+    {
+     "id": "R-117",
+     "regulation": "UN R150",
+     "paragraph": "4.2.1.2",
+     "page": 11,
+     "relation": "same_topic",
+     "why": "colour coordinates limits for retro-reflective device"
+    },
+    {
+     "id": "R-136",
+     "regulation": "UN R150",
+     "paragraph": "5.1.5.2",
+     "page": 13,
+     "relation": "same_topic",
+     "why": "trichromatic limits red"
+    },
+    {
+     "id": "R-060",
+     "regulation": "UN R148",
+     "paragraph": "4.9",
+     "page": 16,
+     "relation": "same_topic",
+     "why": "colour variation of emitted light"
+    }
+   ]
+  },
+  {
+   "component": "K5",
+   "component_name": "Retro-reflector",
+   "callout_text": "Retro-reflector reflectivity at 5° angle of incidence",
+   "values": [
+    {
+     "quantity": "angle of incidence",
+     "value": "5",
+     "unit": "°",
+     "raw": "reflectivity at 5° angle of incidence"
+    }
+   ],
+   "function_hint": "reflectivity requirement",
+   "link_confidence": "high",
+   "matches": [
+    {
+     "id": "R-131",
+     "regulation": "UN R150",
+     "paragraph": "5.1.4.4.1",
+     "page": 12,
+     "relation": "same_quantity",
+     "why": "RI values for red retro-reflectors"
+    },
+    {
+     "id": "R-133",
+     "regulation": "UN R150",
+     "paragraph": "5.1.4.4.1. Table 3",
+     "page": 12,
+     "relation": "same_quantity",
+     "why": "RI at 20' divergence"
+    },
+    {
+     "id": "R-134",
+     "regulation": "UN R150",
+     "paragraph": "5.1.4.4.1. Table 3",
+     "page": 12,
+     "relation": "same_quantity",
+     "why": "RI at 1°30' divergence"
+    },
+    {
+     "id": "R-170",
+     "regulation": "UN R150",
+     "paragraph": "Annex 6 Part 4 4.2",
+     "page": 45,
+     "relation": "same_quantity",
+     "why": "RA at 5° entrance angle"
+    },
+    {
+     "id": "R-139",
+     "regulation": "UN R150",
+     "paragraph": "5.1.7. Table 4",
+     "page": 14,
+     "relation": "related_test",
+     "why": "photometry test at 20' after tests"
+    },
+    {
+     "id": "R-119",
+     "regulation": "UN R150",
+     "paragraph": "5.1.1",
+     "page": 11,
+     "relation": "related_test",
+     "why": "photometric requirements test"
+    },
+    {
+     "id": "R-140",
+     "regulation": "UN R150",
+     "paragraph": "5.1.7. Table 4",
+     "page": 14,
+     "relation": "related_test",
+     "why": "complete photometry"
+    },
+    {
+     "id": "R-205",
+     "regulation": "UN R48",
+     "paragraph": "5.15",
+     "page": 24,
+     "relation": "same_topic",
+     "why": "rear retro-reflector"
+    }
+   ]
+  },
+  {
+   "component": "K9",
+   "component_name": "Seal / gasket",
+   "callout_text": "Seal / gasket no water ingress after the spray test",
+   "values": [
+    {
+     "quantity": "test",
+     "value": "no water ingress",
+     "unit": "after the spray test",
+     "raw": "no water ingress after the spray test"
+    }
+   ],
+   "function_hint": "watertightness after spray test",
+   "link_confidence": "high",
+   "matches": [
+    {
+     "id": "R-164",
+     "regulation": "UN R150",
+     "paragraph": "Annex 6 Part 2 1.2",
+     "page": 42,
+     "relation": "same_quantity",
+     "why": "no water penetration"
+    },
+    {
+     "id": "R-165",
+     "regulation": "UN R150",
+     "paragraph": "Annex 6 Part 2 1.2",
+     "page": 42,
+     "relation": "same_quantity",
+     "why": "water presence fails test"
+    },
+    {
+     "id": "R-161",
+     "regulation": "UN R150",
+     "paragraph": "Annex 6 Part 2 1.1",
+     "page": 42,
+     "relation": "related_test",
+     "why": "water immersion test"
+    },
+    {
+     "id": "R-141",
+     "regulation": "UN R150",
+     "paragraph": "5.1.7. Table 4",
+     "page": 14,
+     "relation": "related_test",
+     "why": "water test on samples"
+    },
+    {
+     "id": "R-124",
+     "regulation": "UN R150",
+     "paragraph": "5.1.3.1",
+     "page": 12,
+     "relation": "related_test",
+     "why": "water penetration test"
+    }
+   ]
+  },
+  {
+   "component": "K7",
+   "component_name": "Reflector",
+   "callout_text": "Reflector rear position lamp: 4 to 17 cd on axis",
+   "values": [
+    {
+     "quantity": "luminous intensity (rear position lamp)",
+     "value": "4 to 17",
+     "unit": "cd on axis",
+     "raw": "rear position lamp: 4 to 17 cd on axis"
+    }
+   ],
+   "function_hint": "rear position lamp intensity",
+   "link_confidence": "medium",
+   "matches": [
+    {
+     "id": "R-062",
+     "regulation": "UN R148",
+     "paragraph": "5.2.1. Table 4",
+     "page": 17,
+     "relation": "same_quantity",
+     "why": "rear position lamp min/max intensity"
+    },
+    {
+     "id": "R-053",
+     "regulation": "UN R148",
+     "paragraph": "4.8.3.1",
+     "page": 15,
+     "relation": "same_quantity",
+     "why": "minimum intensity on axis"
+    },
+    {
+     "id": "R-054",
+     "regulation": "UN R148",
+     "paragraph": "4.8.3.1",
+     "page": 15,
+     "relation": "same_quantity",
+     "why": "maximum intensity limit"
+    },
+    {
+     "id": "R-061",
+     "regulation": "UN R148",
+     "paragraph": "5.2.1",
+     "page": 17,
+     "relation": "same_quantity",
+     "why": "rear position lamp Table 4 requirement"
+    },
+    {
+     "id": "R-086",
+     "regulation": "UN R148",
+     "paragraph": "Annex 8 2.1. Table A8-1",
+     "page": 47,
+     "relation": "related_test",
+     "why": "rear position lamp check after switch ON"
+    },
+    {
+     "id": "R-084",
+     "regulation": "UN R148",
+     "paragraph": "Annex 8 1.2.2",
+     "page": 47,
+     "relation": "related_test",
+     "why": "intensity measured over time"
+    },
+    {
+     "id": "R-063",
+     "regulation": "UN R148",
+     "paragraph": "5.2.2",
+     "page": 17,
+     "relation": "same_topic",
+     "why": "rear position lamp minimum intensity"
+    }
+   ]
+  },
+  {
+   "component": "K8",
+   "component_name": "LED modules on PCB",
+   "callout_text": "LED modules on PCB stop lamp: 60 to 185 cd on axis",
+   "values": [
+    {
+     "quantity": "luminous intensity (stop lamp)",
+     "value": "60 to 185",
+     "unit": "cd on axis",
+     "raw": "stop lamp: 60 to 185 cd on axis"
+    }
+   ],
+   "function_hint": "stop lamp intensity",
+   "link_confidence": "high",
+   "matches": [
+    {
+     "id": "R-067",
+     "regulation": "UN R148",
+     "paragraph": "5.5.1. Table 7",
+     "page": 19,
+     "relation": "same_quantity",
+     "why": "stop lamp min/max intensity"
+    },
+    {
+     "id": "R-053",
+     "regulation": "UN R148",
+     "paragraph": "4.8.3.1",
+     "page": 15,
+     "relation": "same_quantity",
+     "why": "minimum intensity on axis"
+    },
+    {
+     "id": "R-054",
+     "regulation": "UN R148",
+     "paragraph": "4.8.3.1",
+     "page": 15,
+     "relation": "same_quantity",
+     "why": "maximum intensity limit"
+    },
+    {
+     "id": "R-066",
+     "regulation": "UN R148",
+     "paragraph": "5.5.1",
+     "page": 19,
+     "relation": "same_quantity",
+     "why": "stop lamp Table 7 requirement"
+    },
+    {
+     "id": "R-087",
+     "regulation": "UN R148",
+     "paragraph": "Annex 8 2.1. Table A8-1",
+     "page": 47,
+     "relation": "related_test",
+     "why": "stop lamp check after switch ON"
+    },
+    {
+     "id": "R-084",
+     "regulation": "UN R148",
+     "paragraph": "Annex 8 1.2.2",
+     "page": 47,
+     "relation": "related_test",
+     "why": "LED intensity over time"
+    },
+    {
+     "id": "R-068",
+     "regulation": "UN R148",
+     "paragraph": "5.5.2",
+     "page": 20,
+     "relation": "same_topic",
+     "why": "stop lamp minimum intensity"
+    }
+   ]
+  },
+  {
+   "component": "K6",
+   "component_name": "Housing",
+   "callout_text": "Housing reversing lamp visible to 45° outboard",
+   "values": [
+    {
+     "quantity": "visibility angle (reversing lamp)",
+     "value": "45",
+     "unit": "° outboard",
+     "raw": "reversing lamp visible to 45° outboard"
+    }
+   ],
+   "function_hint": "reversing lamp geometric visibility",
+   "link_confidence": "medium",
+   "matches": [
+    {
+     "id": "R-230",
+     "regulation": "UN R48",
+     "paragraph": "6.4.5.1",
+     "page": 39,
+     "relation": "same_quantity",
+     "why": "reversing lamp 45° visibility"
+    },
+    {
+     "id": "R-231",
+     "regulation": "UN R48",
+     "paragraph": "6.4.5.1",
+     "page": 39,
+     "relation": "same_quantity",
+     "why": "reversing 45° outwards with two devices"
+    },
+    {
+     "id": "R-229",
+     "regulation": "UN R48",
+     "paragraph": "6.4.5.1",
+     "page": 39,
+     "relation": "same_quantity",
+     "why": "reversing lamp vertical visibility angle"
+    },
+    {
+     "id": "R-081",
+     "regulation": "UN R148",
+     "paragraph": "Annex 3 2.5",
+     "page": 38,
+     "relation": "related_test",
+     "why": "reversing lamp light distribution"
+    },
+    {
+     "id": "R-056",
+     "regulation": "UN R148",
+     "paragraph": "4.8.3.1",
+     "page": 15,
+     "relation": "related_test",
+     "why": "intensity within geometric visibility angles"
+    },
+    {
+     "id": "R-072",
+     "regulation": "UN R148",
+     "paragraph": "5.8.1. Table 10",
+     "page": 23,
+     "relation": "same_topic",
+     "why": "reversing lamp requirements"
+    }
+   ]
+  },
+  {
+   "component": "K10",
+   "component_name": "Fasteners / clips",
+   "callout_text": "Fasteners / clips lamp stays aimed under vibration",
+   "values": [
+    {
+     "quantity": "test",
+     "value": "stays aimed",
+     "unit": "under vibration",
+     "raw": "lamp stays aimed under vibration"
+    }
+   ],
+   "function_hint": "aim retention under vibration",
+   "link_confidence": "high",
+   "matches": [
+    {
+     "id": "R-180",
+     "regulation": "UN R48",
+     "paragraph": "5.1",
+     "page": 19,
+     "relation": "same_quantity",
+     "why": "retain aim despite vibration"
+    },
+    {
+     "id": "R-039",
+     "regulation": "UN R148",
+     "paragraph": "4.3",
+     "page": 10,
+     "relation": "same_quantity",
+     "why": "operation retained despite vibration"
+    },
+    {
+     "id": "R-181",
+     "regulation": "UN R48",
+     "paragraph": "5.1",
+     "page": 19,
+     "relation": "same_topic",
+     "why": "no inadvertent maladjustment"
+    },
+    {
+     "id": "R-209",
+     "regulation": "UN R48",
+     "paragraph": "5.20",
+     "page": 25,
+     "relation": "same_topic",
+     "why": "lamp returns to specified position"
+    }
+   ]
+  }
+ ],
+ "whole_product_requirement_ids": [
+  "R-001",
+  "R-002",
+  "R-003",
+  "R-004",
+  "R-005",
+  "R-006",
+  "R-007",
+  "R-008",
+  "R-009",
+  "R-010",
+  "R-011",
+  "R-014",
+  "R-015",
+  "R-016",
+  "R-017",
+  "R-018",
+  "R-019",
+  "R-023",
+  "R-024",
+  "R-027",
+  "R-030",
+  "R-032",
+  "R-033",
+  "R-035",
+  "R-036",
+  "R-037",
+  "R-038",
+  "R-039",
+  "R-053",
+  "R-054",
+  "R-055",
+  "R-056",
+  "R-057",
+  "R-058",
+  "R-077",
+  "R-078",
+  "R-082",
+  "R-085",
+  "R-089",
+  "R-090",
+  "R-091",
+  "R-092",
+  "R-093",
+  "R-094",
+  "R-095",
+  "R-096",
+  "R-097",
+  "R-098",
+  "R-103",
+  "R-104",
+  "R-106",
+  "R-107",
+  "R-108",
+  "R-177",
+  "R-178",
+  "R-179",
+  "R-182",
+  "R-183",
+  "R-184",
+  "R-185",
+  "R-186",
+  "R-187",
+  "R-188",
+  "R-189",
+  "R-190",
+  "R-191",
+  "R-192",
+  "R-193",
+  "R-195",
+  "R-197",
+  "R-198",
+  "R-200",
+  "R-201",
+  "R-206",
+  "R-208",
+  "R-209",
+  "R-212",
+  "R-213",
+  "R-214",
+  "R-215",
+  "R-220",
+  "R-221",
+  "R-222",
+  "R-223",
+  "R-265",
+  "R-266",
+  "R-267",
+  "R-268",
+  "R-269",
+  "R-270",
+  "R-271",
+  "R-272",
+  "R-273",
+  "R-274",
+  "R-275",
+  "R-276",
+  "R-277",
+  "R-278",
+  "R-279",
+  "R-280",
+  "R-281",
+  "R-282",
+  "R-283",
+  "R-284",
+  "R-285",
+  "R-286",
+  "R-287",
+  "R-288",
+  "R-289",
+  "R-290",
+  "R-291",
+  "R-292",
+  "R-293",
+  "R-294",
+  "R-295",
+  "R-296",
+  "R-297",
+  "R-298",
+  "R-299",
+  "R-300",
+  "R-301",
+  "R-302",
+  "R-303",
+  "R-304",
+  "R-305",
+  "R-306",
+  "R-307",
+  "R-308",
+  "R-309",
+  "R-310",
+  "R-311",
+  "R-312",
+  "R-313",
+  "R-314",
+  "R-315",
+  "R-316",
+  "R-317"
+ ],
+ "requirements": 317
+}

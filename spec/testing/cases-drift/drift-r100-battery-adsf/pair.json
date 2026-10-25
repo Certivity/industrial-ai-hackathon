@@ -1,0 +1,11 @@
+{
+  "regulation": "UN R100",
+  "base_version": "5.0.0",
+  "latest_version": "5.1.0",
+  "base_pdf": "regulations/data/UN_R100/base/UN_R100_base.pdf",
+  "latest_pdf": "regulations/data/UN_R100/latest/UN_R100_latest.pdf",
+  "window": [
+    "5"
+  ],
+  "trap": "the same sentence added to many paragraphs; a cross-reference re-pointed"
+}

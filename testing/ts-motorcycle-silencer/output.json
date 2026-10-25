@@ -1,0 +1,376 @@
+{
+  "team_id": "team-00",
+  "case_id": "ts-motorcycle-silencer",
+  "requirements": [
+    {
+      "id": "R-001",
+      "text": "If the test vehicle is of a type for which approval has been issued pursuant to the requirements of each of UN Regulations Nos. 9, 41 or 63, the sound level during the test in motion, measured according to the methods described in Annex 3 to UN Regulation No. 9, 41 or 63, shall not exceed the limit specified in the appropriate UN Regulation by more than 1 dB(A).",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 2,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "R-002",
+      "text": "If the test vehicle is of a type for which approval has been issued pursuant to the requirements of each of UN Regulations Nos. 9, 41 or 63, the sound level during the stationary test shall not exceed by more than 3 dB(A) the level determined during the approval and indicated on the manufacturer's plate.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 2,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "R-003",
+      "text": "If the test vehicle is not of the type for which approval has been issued pursuant to the requirements of the appropriate UN Regulation, the sound level shall not exceed by more than 1 dB(A) the limit applicable at the time when it was first put on the road.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 2,
+        "paragraph": "3.3"
+      }
+    },
+    {
+      "id": "R-004",
+      "text": "Each component of the NORESS, excluding pipes and fitting accessories, shall bear the trade name or mark of the manufacturer of the NORESS of its components.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 2,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "R-005",
+      "text": "Each component of the NORESS, excluding pipes and fitting accessories, shall bear the commercial designation given by the manufacturer.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 2,
+        "paragraph": "4.1"
+      }
+    },
+    {
+      "id": "R-006",
+      "text": "The markings on each component of the NORESS shall be clearly legible and indelible and also visible in the position at which the NORESS is fitted.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "4.2"
+      }
+    },
+    {
+      "id": "R-007",
+      "text": "The NORESS shall be labelled by its manufacturer, indicating the type(s) of vehicle(s) for which it has been granted the approval.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "4.3"
+      }
+    },
+    {
+      "id": "R-008",
+      "text": "The replacement exhaust system shall be supplied in a packaging or carry a label both providing the trade name or mark of the manufacturer of the replacement silencing system and its components.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "4.5"
+      }
+    },
+    {
+      "id": "R-009",
+      "text": "The replacement exhaust system shall be supplied in a packaging or carry a label both providing the address of the manufacturer or his representative.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "4.5"
+      }
+    },
+    {
+      "id": "R-010",
+      "text": "The replacement exhaust system shall be supplied in a packaging or carry a label both providing a list of vehicle models for which the replacement silencing system is intended.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 3,
+        "paragraph": "4.5"
+      }
+    },
+    {
+      "id": "R-011",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that the vehicle complies with the requirements of this UN Regulation under normal conditions of use, and in particular regardless of any vibrations to which it may be subjected.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-012",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that it displays reasonable resistance to the corrosion phenomena to which it is exposed, with due regard to the normal conditions of use of the vehicle.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-013",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that the ground clearance provided by the silencer originally fitted, and the possible inclined position of the vehicle, are not reduced.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-014",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that unduly high temperatures do not exist at the surface.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-015",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that its edges are not sharp or jagged.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-016",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that there is sufficient space for shock absorbers and springs.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-017",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that adequate clearance of spring parts is provided.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-018",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that adequate safety clearance of pipes is provided.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-019",
+      "text": "The silencer shall be designed, constructed and capable of being mounted so that it is tamper-resistant in a way that is compatible with clearly-defined maintenance and installation requirements.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-020",
+      "text": "The acoustic efficiency of the NORESS or components thereof shall be verified by means of the methods described in UN Regulations Nos. 9, 41 or 63.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "R-021",
+      "text": "When the NORESS or its components is fitted to the vehicle described in paragraph 3.3. (c), the sound level values obtained using the two methods (stationary and vehicle in motion) shall not exceed the values measured in conformity with the requirements of paragraph 3.3.(c), for the same vehicle when fitted with the original silencing system during the test with the vehicle in motion and the stationary test.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.2"
+      }
+    },
+    {
+      "id": "R-022",
+      "text": "The NORESS or its components shall be constructed in a way that does not permit removal of baffles, exit-cones and other parts whose primary function is as part of the silencing/expansion chambers.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "R-023",
+      "text": "Where incorporation of such a removable part (baffles, exit-cones and other parts whose primary function is as part of the silencing/expansion chambers) is unavoidable, its method of attachment shall be such that removal is not facilitated (e.g. with conventional threaded fixings).",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "R-024",
+      "text": "Where incorporation of such a removable part is unavoidable, it shall also be attached such that removal causes permanent / irrecoverable damage to the assembly.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 4,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "R-025",
+      "text": "The NORESS or its components shall be such as to ensure that the vehicle’s performance is comparable with that achieved with the original exhaust silencing system or components thereof.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "id": "R-026",
+      "text": "The maximum power and the engine speed at maximum power measured with the NORESS shall not exceed the net power and the engine speed measured under the conditions set out below with the original equipment exhaust system by more than ±5 per cent.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "6.4.3"
+      }
+    },
+    {
+      "id": "R-027",
+      "text": "The use of fibrous absorbent material shall be permitted in the construction of the NORESS only if the requirements in Annex 3 are met.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "6.5"
+      }
+    },
+    {
+      "id": "R-028",
+      "text": "The vehicle referred to in paragraph 3.3. (c) with the non-original replacement exhaust silencing system (NORESS) of the type for which approval is requested, shall fulfil the pollution requirements according to the type approval of the vehicle.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 6,
+        "paragraph": "6.6"
+      }
+    },
+    {
+      "id": "R-029",
+      "text": "The approval mark affixed to a component of the silencing system shall have dimension a = 8 mm min.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "R-030",
+      "text": "Fibrous absorbent material used in the construction of silencers shall be asbestos-free.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "R-031",
+      "text": "Fibrous absorbent material may be used in the construction of silencers only if suitable devices ensure that the fibrous absorbent material is kept in place for the whole time that the silencer is being used.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "R-032",
+      "text": "Fibrous absorbent material may be used in the construction of silencers only if it meets the requirements of any one of sections 2, 3, 4 or 5 according to the manufacturer's choice.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 1"
+      }
+    },
+    {
+      "id": "R-033",
+      "text": "After removal of the fibrous material, the sound level shall comply with the requirements of paragraph 6.2. of this UN Regulation.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 2"
+      }
+    },
+    {
+      "id": "R-034",
+      "text": "Where section 3 is chosen, the fibrous absorbent material shall not be placed in those parts of the silencer through which the exhaust gases pass.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 3"
+      }
+    },
+    {
+      "id": "R-035",
+      "text": "Where section 3 is chosen, the fibrous absorbent material shall be heated at a temperature of 650 ± 5°C for four hours in a furnace without reduction in average length, diameter or bulk density of the fibre.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 3"
+      }
+    },
+    {
+      "id": "R-036",
+      "text": "Where section 3 is chosen, after heating at 650 ± 5°C for one hour in a furnace, at least 98 per cent of the fibrous absorbent material shall be retained in a sieve of nominal aperture size 250 µm complying with ISO 3310/1 when tested in accordance with ISO 2599.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 3"
+      }
+    },
+    {
+      "id": "R-037",
+      "text": "Where section 3 is chosen, the loss in weight of the fibrous absorbent material shall not exceed 10.5 per cent after soaking for 24 hours at 90 ± 5°C in a synthetic condensate of 1 N hydrobromic acid (HBr), 10 ml; 1 N sulphuric acid (H2SO4), 10 ml; distilled water to make up to 1,000 ml.",
+      "source": {
+        "regulation": "UN R92",
+        "version": "2.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 3"
+      }
+    }
+  ]
+}

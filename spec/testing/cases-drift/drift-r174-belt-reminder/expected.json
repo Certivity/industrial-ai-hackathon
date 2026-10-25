@@ -1,0 +1,36 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r174-belt-reminder",
+  "changes": [
+    {
+      "requirement_id": "R-001",
+      "change": "modified",
+      "new_text": "The seating position of the driver of M and N categories of vehicles as well as the seating positions of the occupants of seats in the same row as the driver seat of M and N categories of vehicles shall be equipped with a safety-belt reminder satisfying the requirements of paragraph 5.3. For vehicles of category X, the seating positions in the first row of vehicles of categories M and N shall be equipped with a safety-belt reminder satisfying the requirements of paragraph 5.3.",
+      "reason": "Paragraph 5.1.1 of UN R174 was amended in version 1.1.0: '³' was removed; '3 As defined in the Consolidated Resolution on the Construction of Vehicles (R.E.3), document ECE/TRANS/WP.29/78/Rev.7, para. 2 - https://unece.org/transport/standards/t…' became 'For vehicles of category X, the seating positions in the first row of vehicles of categories M and N shall be equipped with a safety-belt reminder satisfying the require…'.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "requirement_id": "R-025",
+      "change": "modified",
+      "new_text": "Safety-belt reminders for driver and occupants of seats in the same row as the driver, and, for vehicles of category X, safety-belt reminder for occupants of seat(s) of the first row, shall fulfil the requirements set out in paragraph 5.2.",
+      "reason": "Paragraph 5.3.1 of UN R174 was amended in version 1.1.0: 'driver' became 'driver, and, for vehicles of category X, safety-belt reminder for occupants of seat(s) of the first row,'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "An ADS may manage the safety belt reminder provided that the ADS provides at least an equivalent level of safety.",
+      "reason": "Paragraph 5.1.4 of UN R174 is new in version 1.1.0: 'An ADS may manage the safety belt reminder provided that the ADS provides at least an equivalent le…'.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4"
+      }
+    }
+  ]
+}

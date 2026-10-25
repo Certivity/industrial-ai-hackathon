@@ -1,0 +1,11 @@
+{
+  "regulation": "UN R174",
+  "base_version": "1.0.1",
+  "latest_version": "1.1.0",
+  "base_pdf": "regulations/data/UN_R174/base/UN_R174_base.pdf",
+  "latest_pdf": "regulations/data/UN_R174/latest/UN_R174_latest.pdf",
+  "window": [
+    "5"
+  ],
+  "trap": "footnote text changes and ADS sentences; a reference fixed (6.2.4.1.1 -> 5.2.4.1.1)"
+}

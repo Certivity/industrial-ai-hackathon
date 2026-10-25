@@ -1,0 +1,12 @@
+{
+  "regulation": "UN R39",
+  "base_version": "2.1.0",
+  "latest_version": "2.2.0",
+  "base_pdf": "regulations/data/UN_R39/base/UN_R39_base.pdf",
+  "latest_pdf": "regulations/data/UN_R39/latest/UN_R39_latest.pdf",
+  "window": [
+    "2",
+    "5"
+  ],
+  "trap": "ADS exemptions, one-word typography fixes"
+}

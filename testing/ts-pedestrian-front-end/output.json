@@ -1,0 +1,1276 @@
+{
+  "team_id": "team-00",
+  "case_id": "ts-pedestrian-front-end",
+  "requirements": [
+    {
+      "id": "R-001",
+      "text": "An international approval mark conforming to the model described in Annex 2 shall be affixed, conspicuously and in a readily accessible place specified on the approval form, to every vehicle conforming to a vehicle type approved under this Regulation, consisting of the elements in paragraphs 4.4.1. and 4.4.2.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "R-002",
+      "text": "The approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "4.4.1"
+      }
+    },
+    {
+      "id": "R-003",
+      "text": "The approval mark shall consist of the number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of the circle prescribed in paragraph 4.4.1.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "4.4.2"
+      }
+    },
+    {
+      "id": "R-004",
+      "text": "For vehicles with a lower bumper height at the test position of less than 425 mm, the requirements of paragraph 5.1.1. shall be met.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "R-005",
+      "text": "For vehicles with a lower bumper height at the test position greater than, or equal to, 425 mm and less than 500 mm, the requirements of either paragraph 5.1.1. or 5.1.2., at the choice of the manufacturer, shall be met.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "R-006",
+      "text": "For vehicles with a lower bumper height at the test position of greater than, or equal to, 500 mm, the requirements of paragraph 5.1.2. shall be met.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "R-007",
+      "text": "When tested in accordance with Annex 5, paragraph 1. (Flexible lower legform impactor), the absolute value of the maximum dynamic medial collateral ligament elongation at the knee shall not exceed 22 mm, and the maximum dynamic anterior cruciate ligament and posterior cruciate ligament elongation shall not exceed 13 mm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "R-008",
+      "text": "When tested in accordance with Annex 5, paragraph 1. (Flexible lower legform impactor), the absolute value of dynamic bending moments at the tibia shall not exceed 340 Nm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "R-009",
+      "text": "Where the manufacturer nominates bumper test widths up to a maximum of 264 mm in total, the absolute value of the tibia bending moment shall not exceed 380 Nm in those widths.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "R-010",
+      "text": "When tested in accordance with Annex 5, paragraph 2. (upper legform to bumper), the instantaneous sum of the impact forces with respect to time shall not exceed 7.5 kN and the bending moment on the test impactor shall not exceed 510 Nm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "R-011",
+      "text": "When tested in accordance with Annex 5, paragraphs 3., 4., and 5., the HIC recorded shall not exceed 1,000 over two thirds of the combined bonnet top test area and the windscreen test area.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "R-012",
+      "text": "When tested in accordance with Annex 5, paragraphs 3., 4., and 5., the HIC recorded shall not exceed 1,000 over two-thirds of the bonnet top test area.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "R-013",
+      "text": "The HIC for the remaining test areas shall not exceed 1,700 for both headforms.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "R-014",
+      "text": "When tested in accordance with Annex 5, paragraphs 3. and 4., the HIC recorded shall not exceed 1,000 over a minimum of one half of the child headform test area, and the HIC for the remaining areas shall not exceed 1,700.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "R-015",
+      "text": "The approval mark affixed to the vehicle shall have dimension a of 8 mm minimum.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 25,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "R-016",
+      "text": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 26,
+        "paragraph": "Annex 3 3.2"
+      }
+    },
+    {
+      "id": "R-017",
+      "text": "For vehicle components which could change shape or position, other than active devices to protect pedestrians, and which have more than one fixed shape or position, the vehicle shall comply with the components in each fixed shape or position.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 26,
+        "paragraph": "Annex 3 3.3"
+      }
+    },
+    {
+      "id": "R-018",
+      "text": "The child headform velocity at the time of impact shall be 9.7 m/s ± 0.2 m/s.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 39,
+        "paragraph": "Annex 5 4.6"
+      }
+    },
+    {
+      "id": "R-019",
+      "text": "The direction of child headform impact shall be in the longitudinal vertical plane of the vehicle to be tested at an angle of 50° ± 2° to the horizontal.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 39,
+        "paragraph": "Annex 5 4.7"
+      }
+    },
+    {
+      "id": "R-020",
+      "text": "The direction of child headform impact of tests to the front structure shall be downward and rearward.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 39,
+        "paragraph": "Annex 5 4.7"
+      }
+    },
+    {
+      "id": "R-021",
+      "text": "The adult headform velocity at the time of impact shall be 9.7 m/s ± 0.2 m/s.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 40,
+        "paragraph": "Annex 5 5.6"
+      }
+    },
+    {
+      "id": "R-022",
+      "text": "The direction of adult headform impact shall be in the longitudinal vertical plane of the vehicle to be tested at an angle of 65° ± 2° to the horizontal.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 40,
+        "paragraph": "Annex 5 5.7"
+      }
+    },
+    {
+      "id": "R-023",
+      "text": "The direction of adult headform impact of tests to the front structure shall be downward and rearward.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 40,
+        "paragraph": "Annex 5 5.7"
+      }
+    },
+    {
+      "id": "R-024",
+      "text": "An international approval mark, consisting of the elements in paragraphs 5.4.1. and 5.4.2., shall be affixed conspicuously and in a readily accessible place specified on the approval form to every vehicle conforming to a vehicle type approved under this Regulation.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 2,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "R-025",
+      "text": "The international approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.4.1"
+      }
+    },
+    {
+      "id": "R-026",
+      "text": "The international approval mark shall include the number of this Regulation, followed by the letter \"R\", a dash and the approval number, to the right of the circle prescribed in paragraph 5.4.1.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.4.2"
+      }
+    },
+    {
+      "id": "R-027",
+      "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle shall meet the requirements of paragraphs 6.1.1. to 6.1.5.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1"
+      }
+    },
+    {
+      "id": "R-028",
+      "text": "After each impact test made in accordance with annex 3, the vehicle's bonnet (hood), boot lid (trunk lid) and doors shall be operable in the normal manner.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "R-029",
+      "text": "After each impact test made in accordance with annex 3, the side doors of the vehicle shall not be able to open under the effect of the impact.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "R-030",
+      "text": "After each impact test made in accordance with annex 3, the vehicle's fuel and cooling systems shall have neither leaks nor constricted fluid passages which prevent normal functioning.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "R-031",
+      "text": "After each impact test made in accordance with annex 3, the sealing devices and caps of the vehicle's fuel and cooling systems shall be operable in the normal manner.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "R-032",
+      "text": "After each impact test made in accordance with annex 3, the vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "R-033",
+      "text": "After each impact test made in accordance with annex 3, the vehicle's propulsion, suspension (including tyres), steering and braking systems shall remain in adjustment and shall operate in a normal manner; this requirement does not apply to sensors, cameras, radar devices, etc. being part of driver assist systems, which may become damaged, disoriented or broken due to an impact carried out according to Annex 3 as long as the basic braking and steering performance are still intact.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.5"
+      }
+    },
+    {
+      "id": "R-034",
+      "text": "An approval mark described in paragraph 5.3. shall be affixed to every vehicle conforming to a type approved under this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "R-035",
+      "text": "An approval mark described in paragraph 5.3. shall be affixed to every electrical/electronic sub-assembly (ESA) conforming to a type approved under this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "R-036",
+      "text": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation, and shall comprise the elements in paragraphs 5.3.1. and 5.3.2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "R-037",
+      "text": "The approval mark shall comprise a circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "R-038",
+      "text": "The approval mark shall comprise the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "R-039",
+      "text": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "R-040",
+      "text": "A vehicle shall be tested for radiated emissions and for immunity to radiated disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "R-041",
+      "text": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "R-042",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the vehicle's broadband limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 2 to this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "R-043",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 10.0 ± 0.2 m, in the 400 to 1,000 MHz frequency band the broadband limit remains constant at 43 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "R-044",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the vehicle's broadband limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 3 to this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "R-045",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 3.0 ± 0.05 m, in the 400 to 1,000 MHz frequency band the broadband limit remains constant at 53 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "R-046",
+      "text": "On the vehicle representative of its type, the measured broadband values, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "R-047",
+      "text": "If measurements are made using the method described in Annex 5 using a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the vehicle's narrowband limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "R-048",
+      "text": "If measurements are made using the method described in Annex 5 using a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the vehicle's narrowband limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "R-049",
+      "text": "On the vehicle representative of its type, the measured narrowband values, expressed in dB microvolts/m, shall be below the type approval limit.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.3"
+      }
+    },
+    {
+      "id": "R-050",
+      "text": "If vehicle immunity tests are made using the method described in Annex 6, in accordance with ISO 11451-2, the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "R-051",
+      "text": "If vehicle immunity tests are made using the method described in Annex 6, in accordance with ISO 11451-2, the field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "R-052",
+      "text": "If vehicle immunity tests are made using the method described in Annex 6, in accordance with ISO 11451-4 BCI, the current shall be 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 50 mA over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "R-053",
+      "text": "The vehicle representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 6, there is no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "R-054",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 6 to this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "R-055",
+      "text": "If measurements are made using the method described in Annex 7, in the 400 to 1,000 MHz frequency band the ESA broadband limit remains constant at 63 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "R-056",
+      "text": "On the ESA representative of its type, the measured broadband values, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "R-057",
+      "text": "If measurements are made using the method described in Annex 8, the ESA narrowband limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 7.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "R-058",
+      "text": "If measurements are made using the method described in Annex 8, in the 400 to 1,000 MHz frequency band the ESA narrowband limit remains constant at 53 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "R-059",
+      "text": "On the ESA representative of its type, the measured narrowband value, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "R-060",
+      "text": "The transient conducted emission of the ESA representative of its type shall be tested by the method(s) according to ISO 7637-2 as described in Annex 10 for the levels given in Table 1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "R-061",
+      "text": "For ESAs for vehicles with 12 V systems, the maximum allowed positive pulse amplitude shall be +75 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "R-062",
+      "text": "For ESAs for vehicles with 12 V systems, the maximum allowed negative pulse amplitude shall be -100 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "R-063",
+      "text": "The immunity to electromagnetic radiation of the ESA representative of its type shall be tested by the method(s) described in Annex 9, with test severity in over 90 per cent of the 20 to 6,000 MHz frequency band as given in Table 2a.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "R-064",
+      "text": "The immunity test severity for the minimum test level over the whole 20 to 6,000 MHz frequency band shall be as given in Table 2b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "R-065",
+      "text": "In over 90 per cent of the frequency band below 2 GHz, the ESA immunity test level shall be 60 V/m for stripline (20 to 400 MHz), 75 V/m for TEM cell (20 to 200 MHz), 60 mA for BCI (20 to 400 MHz), 30 V/m for ALSE (80 to 2,000 MHz) and 21 V/m for reverberation chamber (LUF to 2,000 MHz).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "R-066",
+      "text": "In over 90 per cent of the frequency band above 2 GHz (2,000 to 6,000 MHz), the ESA immunity test level shall be 10 V/m for ALSE and 7 V/m for reverberation chamber; not applicable to stripline, TEM cell and BCI.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "R-067",
+      "text": "Over the whole frequency band below 2 GHz, the minimum ESA immunity test level shall be 50 V/m for stripline (20 to 400 MHz), 62,5 V/m for TEM cell (20 to 200 MHz), 50 mA for BCI (20 to 400 MHz), 25 V/m for ALSE (80 to 2,000 MHz) and 18 V/m for reverberation chamber (LUF to 2,000 MHz).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "R-068",
+      "text": "Over the whole frequency band above 2 GHz (2,000 to 6,000 MHz), the minimum ESA immunity test level shall be 8 V/m for ALSE and 6 V/m for reverberation chamber; not applicable to stripline, TEM cell and BCI.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "R-069",
+      "text": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 9, there is no degradation of performance of \"immunity related functions\".",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "R-070",
+      "text": "The immunity of the ESA representative of its type to transient disturbances conducted along 12/24 V supply lines shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, as described in Annex 10, with the test levels given in Tables 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-071",
+      "text": "The starting profile shall be tested according to the functional status classification as defined in ISO 16750-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-072",
+      "text": "The Functional Performance Status Classification (FPSC) as in ISO 7637-1 shall be applied for pulses 1, 2a, 2b, 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-073",
+      "text": "For the starting profile, the ESA shall be tested at immunity test level II for 12 V and 24 V systems with 10 pulses, with functional status classification B for ESA related to immunity related functions that shall be operational during engine start phases, C for other ESA, and D for ESA not related to immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-074",
+      "text": "For test pulse 1, the ESA shall be tested at -75 V (12 V system) or -450 V (24 V system) for 500 pulses, with FPSC III.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-075",
+      "text": "For test pulse 2a, the ESA shall be tested at +37 V (12 V and 24 V systems) for 500 pulses, with FPSC I for ESA related to immunity related functions and III for others.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-076",
+      "text": "For test pulse 2b, the ESA shall be tested at +10 V (12 V system) or +20 V (24 V system) for 10 pulses, with FPSC II for ESA related to immunity related functions and III for others.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-077",
+      "text": "For test pulse 3a, the ESA shall be tested at -112 V (12 V system) or -150 V (24 V system) for 1 h, with FPSC I for ESA related to immunity related functions and III for others.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-078",
+      "text": "For test pulse 3b, the ESA shall be tested at +75 V (12 V system) or +150 V (24 V system) for 1 h, with FPSC I for ESA related to immunity related functions and III for others.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-079",
+      "text": "The ESA broadband electromagnetic disturbance in the 30-75 MHz range shall not exceed E = 62 - 25.13 log (F/30) dBµV/m for a 120 kHz bandwidth (paragraphs 6.5.2.1. and 7.10.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 33,
+        "paragraph": "Appendix 6"
+      }
+    },
+    {
+      "id": "R-080",
+      "text": "The ESA broadband electromagnetic disturbance in the 75-400 MHz range shall not exceed E = 52 + 15.13 log (F/75) dBµV/m for a 120 kHz bandwidth (paragraphs 6.5.2.1. and 7.10.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 33,
+        "paragraph": "Appendix 6"
+      }
+    },
+    {
+      "id": "R-081",
+      "text": "The ESA narrowband electromagnetic disturbance in the 30-75 MHz range shall not exceed E = 52 - 25.13 log (F/30) dBµV/m for a 120 kHz bandwidth (paragraph 6.6.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 34,
+        "paragraph": "Appendix 7"
+      }
+    },
+    {
+      "id": "R-082",
+      "text": "The ESA narrowband electromagnetic disturbance in the 75-400 MHz range shall not exceed E = 42 + 15.13 log (F/75) dBµV/m for a 120 kHz bandwidth (paragraph 6.6.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 34,
+        "paragraph": "Appendix 7"
+      }
+    },
+    {
+      "id": "R-083",
+      "text": "The vehicle shall meet the broadband emission limits throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or an outdoor test site (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.1"
+      }
+    },
+    {
+      "id": "R-084",
+      "text": "The vehicle shall meet the narrowband emission limits throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or an outdoor test site (OTS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.1"
+      }
+    },
+    {
+      "id": "R-085",
+      "text": "For the regular test method, the vehicle shall be subject to electromagnetic fields as described in this Annex, to demonstrate the immunity of the vehicle electronic systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 71,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "R-086",
+      "text": "In 50 km/h mode, the vehicle speed shall be 50 km/h (25 km/h for L1, L2 vehicles) ±20 per cent (vehicle driving the rollers); if equipped with cruise control, it shall be used to maintain the required constant speed without any deactivation. Failure: speed variation greater than ±10 per cent of the nominal speed, or, with automatic gearbox, a change of gear ratio inducing a speed variation greater than ±10 per cent.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-087",
+      "text": "In 50 km/h mode, the dipped beams shall be ON (manual mode); failure criterion: lighting OFF (front light and rear light).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-088",
+      "text": "In 50 km/h mode, the cluster shall operate in normal mode; failure criteria: unexpected warning, inconsistent variation of the odometer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-089",
+      "text": "In 50 km/h mode, the rear view system shall not show unexpected movement of the rear view mirror or loss or freezing of the display (CMS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-090",
+      "text": "In 50 km/h mode, the front wiper shall be ON (manual mode) at maximum speed; failure criterion: complete stop of front wiper.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-091",
+      "text": "In 50 km/h mode, the direction indicator on driver's side shall be ON; failure criteria: frequency change (lower than 0.75 Hz or greater than 2.25 Hz), duty cycle change (lower than 25 per cent or greater than 75 per cent).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-092",
+      "text": "In 50 km/h mode, adjustable suspension shall be in normal position; failure criterion: unexpected significant variation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-093",
+      "text": "In 50 km/h mode, the driver's seat and steering wheel shall be in medium position; failure criterion: unexpected variation greater than 10 per cent of total range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-094",
+      "text": "In 50 km/h mode, the alarm shall be unset; failure criterion: unexpected activation of alarm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-095",
+      "text": "In 50 km/h mode, the horn shall be OFF; failure criterion: unexpected activation of horn.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-096",
+      "text": "In 50 km/h mode, airbag and safety restraint systems shall be operational with inhibited passenger airbag if this function exists; failure criterion: unexpected activation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-097",
+      "text": "In 50 km/h mode, automatic doors shall be closed; failure criterion: unexpected opening.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-098",
+      "text": "In 50 km/h mode, the brake pedal shall not be depressed; failure criterion: unexpected activation of brake and unexpected activation of stop lights.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 73,
+        "paragraph": "Annex 6 2.1.1.2"
+      }
+    },
+    {
+      "id": "R-099",
+      "text": "The vehicle shall be exposed to electromagnetic radiation in the 20 to 6,000 MHz frequency ranges in vertical polarization.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "R-100",
+      "text": "The test signal modulation shall be AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "R-101",
+      "text": "The test signal modulation shall be PM2 (pulse modulation type 2), Ton 3 µs, period 3,333 µs in the 2,700 to 3,100 MHz frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "R-102",
+      "text": "The test signal modulation shall be PM3 (pulse modulation type 3), Ton 500 µs, period 1,000 µs in the 380 to 2,700 MHz and the 3,100 to 6,000 MHz frequency ranges.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "R-103",
+      "text": "The ESA under test shall be in normal operation mode, preferably in maximum load, during the broadband emission test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "R-104",
+      "text": "The ESA shall meet the broadband emission limits throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.1"
+      }
+    },
+    {
+      "id": "R-105",
+      "text": "The ESA under test shall be in normal operation mode, preferably in maximum load, during the narrowband emission test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 2"
+      }
+    },
+    {
+      "id": "R-106",
+      "text": "The ESA shall meet the narrowband emission limits throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.1"
+      }
+    },
+    {
+      "id": "R-107",
+      "text": "The ESA may be tested with any combination of the test methods (a) absorber chamber test according to ISO 11452-2, (b) TEM cell testing according to ISO 11452-3, (c) bulk current injection testing according to ISO 11452-4, (d) stripline testing according to ISO 11452-5, (e) reverberation chamber test according to ISO 11452-11, at the manufacturer's discretion, provided that the combination covers the full frequency range specified in paragraph 3.1. of this Annex.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      }
+    },
+    {
+      "id": "R-108",
+      "text": "The ESA under test shall be switched on and shall be stimulated to be in normal operation condition.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "R-109",
+      "text": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-110",
+      "text": "The test signal modulation shall be AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range, if not otherwise agreed between Technical Service and ESA manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-111",
+      "text": "The test signal modulation shall be PM2 (pulse modulation type 2), Ton 3 µs, period 3,333 µs in the 2,700 to 3,100 MHz frequency range, if not otherwise agreed between Technical Service and ESA manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-112",
+      "text": "The test signal modulation shall be PM3 (pulse modulation type 3), Ton 500 µs, period 1,000 µs in the 380 to 2,700 MHz and the 3,100 to 6,000 MHz frequency ranges, if not otherwise agreed between Technical Service and ESA manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-113",
+      "text": "The test method shall ensure the immunity of ESAs to conducted transients on the vehicle power supply.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 1"
+      }
+    },
+    {
+      "id": "R-114",
+      "text": "The test method shall limit conducted transients from ESAs to the vehicle power supply.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 1"
+      }
+    },
+    {
+      "id": "R-115",
+      "text": "The test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 shall be applied to the supply lines as well as to other connections of ESAs which may be operationally connected to supply lines, for immunity against transient disturbances conducted along 12/24 V supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "R-116",
+      "text": "The starting profile according to the International Standard ISO 16750-2 shall be applied to the supply lines as well as to other connections of ESAs which may be operationally connected to supply lines, except that ESAs exclusively reserved for mounting on electric vehicles (vehicles without 12V/24V starter motor) are not subject to the starting profile.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "R-117",
+      "text": "The external surface of vehicles shall not exhibit, directed outwards, any pointed or sharp parts or any projections of such shape, dimensions, direction or hardness as to be likely to increase the risk or seriousness of bodily injury to a person hit by the external surface or brushing against it in the event of a collision.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "R-118",
+      "text": "The external surface of vehicles shall not exhibit, directed outwards, any part likely to catch on pedestrians, cyclists or motor cyclists.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "R-119",
+      "text": "No protruding part of the external surface shall have a radius of curvature less than 2.5 mm, except that this requirement shall not apply to parts of the external surface which protrude less than 5 mm, but the outward facing angles of such parts shall be blunted, save where such parts protrude less than 1.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "R-120",
+      "text": "The provisions of paragraphs 5.1. to 5.5. shall apply in addition to the particular specifications of paragraph 6., except where these particular specifications expressly provide otherwise.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "R-121",
+      "text": "The ends of the bumpers shall be turned in towards the external surface in order to minimize the risk of fouling; this requirement is considered to be satisfied if either the bumper is recessed or integrated within the bodywork or the end of the bumper is turned in so that it is not contactable by a 100 mm sphere and the gap between the bumper end and the surrounding bodywork does not exceed 20 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "R-122",
+      "text": "If the line of the bumper which corresponds to the outline contour of the car vertical projection is on a rigid surface, that surface shall have a minimum radius of curvature of 5 mm at all its points lying from the contour line to 20 mm inward, and a minimum radius of curvature of 2.5 mm in all other cases.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "R-123",
+      "text": "The requirement of paragraph 6.5.2. shall not apply to parts on or of the bumper or to bumper insets which have a projection of less than 5 mm, with special reference to joint covers and jets for headlamp washers, but the outward facing angles of such parts shall be blunted, save where such parts protrude less than 1.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "R-124",
+      "text": "The bumper cover shall meet the provisions of paragraph 5. of this Regulation.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.4"
+      }
+    },
+    {
+      "id": "R-125",
+      "text": "The projection of hinges and push-buttons of doors, luggage compartments and bonnets, and of fuel tank filler caps and covers, shall not exceed 30 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "R-126",
+      "text": "Sheet-metal edges, such as gutter edges and the rails of sliding doors, shall not be permitted unless they are folded back or are fitted with a shield meeting the requirements of this Regulation which are applicable to it.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "R-127",
+      "text": "Where folds in body panels have a radius of curvature of less than 2.5 mm, it shall not be less than one-tenth of the height H of the projection, measured in accordance with the method described in paragraph 1. of Annex 3 to this Regulation.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.9.1"
+      }
+    }
+  ]
+}

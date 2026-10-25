@@ -1,0 +1,1046 @@
+{
+  "team_id": "team-00",
+  "case_id": "ts-ev-sound",
+  "requirements": [
+    {
+      "id": "R-001",
+      "text": "Where a vehicle type is approved under this Regulation, an approval mark described in paragraph 5.3. shall be affixed to every vehicle conforming to the type.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "R-002",
+      "text": "An approval mark described in paragraph 5.3. shall be affixed to every ESA conforming to a type approved under this Regulation; no marking is required for electrical/electronic systems built into vehicles which are approved as units.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "R-003",
+      "text": "An international approval mark shall be affixed, in a conspicuous and easily accessible place specified on the approval communication form, on each vehicle conforming to the type approved under this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "R-004",
+      "text": "The international approval mark shall comprise the elements given in paragraphs 5.3.1. and 5.3.2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "R-005",
+      "text": "The international approval mark shall comprise a circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "R-006",
+      "text": "The international approval mark shall comprise the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "R-007",
+      "text": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "R-008",
+      "text": "A vehicle shall be tested for radiated emissions and for immunity to radiated disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "R-009",
+      "text": "ESA(s) shall be tested for radiated and conducted emissions, for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "R-010",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the limits shall be 32 dB microvolts/m in the 30 to 75 MHz frequency band and 32 to 43 dB microvolts/m in the 75 to 400 MHz frequency band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 2 to this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "R-011",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 10.0 ± 0.2 m, in the 400 to 1,000 MHz frequency band the limit shall remain constant at 43 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "R-012",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the limits shall be 42 dB microvolts/m in the 30 to 75 MHz frequency band and 42 to 53 dB microvolts/m in the 75 to 400 MHz frequency band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 3 to this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "R-013",
+      "text": "If measurements are made using the method described in Annex 4 using a vehicle-to-antenna spacing of 3.0 ± 0.05 m, in the 400 to 1,000 MHz frequency band the limit shall remain constant at 53 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "R-014",
+      "text": "On the vehicle representative of its type, the measured broadband values, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.3"
+      }
+    },
+    {
+      "id": "R-015",
+      "text": "If measurements are made using the method described in Annex 5 using a vehicle-to-antenna spacing of 10.0 ± 0.2 m, the narrowband limits shall be 28 dB microvolts/m in the 30 to 230 MHz frequency band and 35 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "R-016",
+      "text": "If measurements are made using the method described in Annex 5 using a vehicle-to-antenna spacing of 3.0 ± 0.05 m, the narrowband limits shall be 38 dB microvolts/m in the 30 to 230 MHz frequency band and 45 dB microvolts/m in the 230 to 1,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "R-017",
+      "text": "On the vehicle representative of its type, the measured narrowband values, expressed in dB microvolts/m, shall be below the type approval limit.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.3"
+      }
+    },
+    {
+      "id": "R-018",
+      "text": "If tests are made using the method described in Annex 6, in accordance with ISO 11451-2, the field strength shall be 30 volts/m in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 25 volts/m over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "R-019",
+      "text": "If tests are made using the method described in Annex 6, in accordance with ISO 11451-2, the field strength shall be 10 volts/m in over 90 per cent of the 2,000 to 6,000 MHz frequency band and a minimum of 8 volts/m over the whole 2,000 to 6,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "R-020",
+      "text": "If tests are made using the method described in Annex 6, in accordance with ISO 11451-4 BCI, the current shall be 60 mA in over 90 per cent of the 20 to 2,000 MHz frequency band and a minimum of 50 mA over the whole 20 to 2,000 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "R-021",
+      "text": "The vehicle representative of its type shall show no degradation of performance of \"immunity related functions\", according to paragraph 2.1. of Annex 6, during the tests performed in accordance with Annex 6.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "R-022",
+      "text": "If measurements are made using the method described in Annex 7, the ESA broadband limits shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 52 to 63 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 6 to this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "R-023",
+      "text": "If measurements are made using the method described in Annex 7, in the 400 to 1,000 MHz frequency band the ESA broadband limit shall remain constant at 63 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "R-024",
+      "text": "On the ESA representative of its type, the measured broadband values, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.2"
+      }
+    },
+    {
+      "id": "R-025",
+      "text": "If measurements are made using the method described in Annex 8, the ESA narrowband limits shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, this limit decreasing logarithmically with frequencies above 30 MHz, and 42 to 53 dB microvolts/m in the 75 to 400 MHz band, this limit increasing logarithmically with frequencies above 75 MHz as shown in Appendix 7.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "R-026",
+      "text": "If measurements are made using the method described in Annex 8, in the 400 to 1,000 MHz frequency band the ESA narrowband limit shall remain constant at 53 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "R-027",
+      "text": "On the ESA representative of its type, the measured narrowband value, expressed in dB microvolts/m, shall be below the type approval limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "R-028",
+      "text": "The emission of transient conducted disturbances of the ESA representative of its type on 12/24 V supply lines shall be tested by the method(s) according to ISO 7637-2 as described in Annex 10 for the levels given in Table 1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "R-029",
+      "text": "For positive polarity, the maximum allowed transient pulse amplitude shall be +75 V for vehicles with 12 V systems and +150 V for vehicles with 24 V systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "R-030",
+      "text": "For negative polarity, the maximum allowed transient pulse amplitude shall be -100 V for vehicles with 12 V systems and -450 V for vehicles with 24 V systems.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "R-031",
+      "text": "The ESA shall be tested with the test severity in over 90 per cent of the 20 to 6,000 MHz frequency band given in Table 2a.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "R-032",
+      "text": "The ESA shall be tested with the test severity for the minimum test level over the whole 20 to 6,000 MHz frequency band given in Table 2b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1"
+      }
+    },
+    {
+      "id": "R-033",
+      "text": "In over 90 per cent of the frequency band below 2 GHz, the test level shall be 60 V/m for stripline (20 to 400 MHz), 75 V/m for TEM cell (20 to 200 MHz), 60 mA for BCI (20 to 400 MHz), 30 V/m for ALSE (80 to 2,000 MHz) and 21 V/m for reverberation chamber (LUF to 2,000 MHz).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "R-034",
+      "text": "In over 90 per cent of the frequency band above 2 GHz, the test level shall be 10 V/m for ALSE (2,000 to 6,000 MHz) and 7 V/m for reverberation chamber (2,000 to 6,000 MHz); not applicable for stripline, TEM cell and BCI.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "R-035",
+      "text": "The minimum test level over the whole frequency band below 2 GHz shall be 50 V/m for stripline (20 to 400 MHz), 62,5 V/m for TEM cell (20 to 200 MHz), 50 mA for BCI (20 to 400 MHz), 25 V/m for ALSE (80 to 2,000 MHz) and 18 V/m for reverberation chamber (LUF to 2,000 MHz).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "R-036",
+      "text": "The minimum test level over the whole frequency band above 2 GHz shall be 8 V/m for ALSE (2,000 to 6,000 MHz) and 6 V/m for reverberation chamber (2,000 to 6,000 MHz); not applicable for stripline, TEM cell and BCI.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.1. Table 2b"
+      }
+    },
+    {
+      "id": "R-037",
+      "text": "The ESA representative of its type shall show no degradation of performance of \"immunity related functions\" during the tests performed in accordance with Annex 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "R-038",
+      "text": "The immunity of the ESA representative of its type to transient disturbances conducted along 12/24 V supply lines shall be tested by the method(s) according to ISO 16750-2 for starting profile and ISO 7637-2 for pulses 1, 2a, 2b, 3a and 3b, as described in Annex 10, with the test levels given in Tables 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-039",
+      "text": "The Functional Performance Status Classification (FPSC) as in ISO 7637-1 shall be applied for pulses 1, 2a, 2b, 3a and 3b.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-040",
+      "text": "For test pulse 1, the immunity test level shall be -75 V for 12 V systems and -450 V for 24 V systems with 500 pulses, FPSC III for immunity related functions and III for not related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-041",
+      "text": "For test pulse 2a, the immunity test level shall be +37 V for 12 V and 24 V systems with 500 pulses, FPSC I for immunity related functions and III for not related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-042",
+      "text": "For test pulse 2b, the immunity test level shall be +10 V for 12 V systems and +20 V for 24 V systems with 10 pulses, FPSC II for immunity related functions and III for not related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-043",
+      "text": "For test pulse 3a, the immunity test level shall be -112 V for 12 V systems and -150 V for 24 V systems for a test duration of 1 h, FPSC I for immunity related functions and III for not related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-044",
+      "text": "For test pulse 3b, the immunity test level shall be +75 V for 12 V systems and +150 V for 24 V systems for a test duration of 1 h, FPSC I for immunity related functions and III for not related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "R-045",
+      "text": "The ESA broadband emission shall not exceed the limit E (dBµV/m) = 62 - 25.13 log (F/30) at frequency F in the 30-75 MHz band, for a 120 kHz bandwidth (paragraphs 6.5.2.1. and 7.10.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 33,
+        "paragraph": "Appendix 6"
+      }
+    },
+    {
+      "id": "R-046",
+      "text": "The ESA broadband emission shall not exceed the limit E (dBµV/m) = 52 + 15.13 log (F/75) at frequency F in the 75-400 MHz band, for a 120 kHz bandwidth (paragraphs 6.5.2.1. and 7.10.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 33,
+        "paragraph": "Appendix 6"
+      }
+    },
+    {
+      "id": "R-047",
+      "text": "The ESA narrowband emission shall not exceed the limit E (dBµV/m) = 52 - 25.13 log (F/30) at frequency F in the 30-75 MHz band, for a 120 kHz bandwidth (paragraph 6.6.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 34,
+        "paragraph": "Appendix 7"
+      }
+    },
+    {
+      "id": "R-048",
+      "text": "The ESA narrowband emission shall not exceed the limit E (dBµV/m) = 42 + 15.13 log (F/75) at frequency F in the 75-400 MHz band, for a 120 kHz bandwidth (paragraph 6.6.2.1.).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 34,
+        "paragraph": "Appendix 7"
+      }
+    },
+    {
+      "id": "R-049",
+      "text": "The ESA under test shall be in normal operation mode, preferably in maximum load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 2.1"
+      }
+    },
+    {
+      "id": "R-050",
+      "text": "The broadband emission limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.1"
+      }
+    },
+    {
+      "id": "R-051",
+      "text": "The narrowband emission limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 4.1"
+      }
+    },
+    {
+      "id": "R-052",
+      "text": "The combination of test methods chosen at the manufacturer's discretion from (a) absorber chamber (ISO 11452-2), (b) TEM cell (ISO 11452-3), (c) bulk current injection (ISO 11452-4), (d) stripline (ISO 11452-5) and (e) reverberation chamber (ISO 11452-11) shall cover the full frequency range specified in paragraph 3.1. of Annex 9.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      }
+    },
+    {
+      "id": "R-053",
+      "text": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-054",
+      "text": "The test signal modulation shall be AM (amplitude modulation), with 1 kHz modulation and 80 per cent modulation depth in the 20 to 400 MHz frequency range, if not otherwise agreed between Technical Service and ESA manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-055",
+      "text": "The test signal modulation shall be PM2 (pulse modulation type 2), Ton 3 µs, period 3,333 µs in the 2,700 to 3,100 MHz frequency range, if not otherwise agreed between Technical Service and ESA manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-056",
+      "text": "The test signal modulation shall be PM3 (pulse modulation type 3), Ton 500 µs, period 1,000 µs in the 380 to 2,700 MHz and the 3,100 to 6,000 MHz frequency ranges, if not otherwise agreed between Technical Service and ESA manufacturer.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-057",
+      "text": "The ESA shall be immune to conducted transients on the vehicle power supply, as ensured by the test method of Annex 10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 1"
+      }
+    },
+    {
+      "id": "R-058",
+      "text": "The ESA shall limit conducted transients from the ESA to the vehicle power supply, as ensured by the test method of Annex 10.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 1"
+      }
+    },
+    {
+      "id": "R-059",
+      "text": "The test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 shall be applied to the supply lines of the ESA as well as to other connections of the ESA which may be operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "R-060",
+      "text": "The starting profile according to ISO 16750-2 shall be applied to the supply lines of the ESA as well as to other connections of the ESA which may be operationally connected to supply lines, except that ESAs exclusively reserved for mounting on electric vehicles (vehicles without 12V/24V starter motor) are not subject to the starting profile.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "R-061",
+      "text": "The vehicle, its engine and its sound reduction system shall be so designed, constructed and assembled as to enable the vehicle, in normal use, despite the vibration to which it may be subjected, to comply with the provisions of this Regulation.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "R-062",
+      "text": "The sound made by the vehicle type submitted for approval shall be measured either indoors or outdoors by the methods described in Annex 3 to this Regulation.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.1.1"
+      }
+    },
+    {
+      "id": "R-063",
+      "text": "The sound shall be measured on the stationary vehicle; in the case of a vehicle where an internal combustion engine cannot operate when the vehicle is stationary, the emitted sound shall only be measured in motion.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.1.1"
+      }
+    },
+    {
+      "id": "R-064",
+      "text": "The sound level measured in accordance with the provisions of paragraph 3.1. of Annex 3 to this Regulation, mathematically rounded to the nearest integer value, shall not exceed the limits of the table in paragraph 6.2.2.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "R-065",
+      "text": "The sound level of vehicles of category M1 used for the carriage of passengers with PMR < 120, measured in accordance with paragraph 3.1. of Annex 3 and mathematically rounded to the nearest integer value, shall not exceed 72 (Phase 1), 70 (Phase 2), 68 (Phase 3).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "R-066",
+      "text": "The sound level of vehicles of category M1 used for the carriage of passengers with 120 < PMR < 160, measured in accordance with paragraph 3.1. of Annex 3 and mathematically rounded to the nearest integer value, shall not exceed 73 (Phase 1), 71 (Phase 2), 69 (Phase 3).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "R-067",
+      "text": "The sound level of vehicles of category M1 used for the carriage of passengers with PMR > 160, measured in accordance with paragraph 3.1. of Annex 3 and mathematically rounded to the nearest integer value, shall not exceed 75 (Phase 1), 73 (Phase 2), 71 (Phase 3).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 8,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "R-068",
+      "text": "The sound emission of the vehicle under typical on-road driving conditions, which are different from those under which the type-approval test set out in Annex 3 and Annex 7 was carried out, shall not deviate from the test result in a significant manner.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 9,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "R-069",
+      "text": "Any electric sound enhancement system for the purpose of the exterior sound emission shall be operational during the type-approval test.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 9,
+        "paragraph": "6.2.3"
+      }
+    },
+    {
+      "id": "R-070",
+      "text": "The test vehicle shall be representative of vehicles to be put on the market as specified by the manufacturer in agreement with the Technical Service to fulfil the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 17,
+        "paragraph": "Annex 3 2.2.1"
+      }
+    },
+    {
+      "id": "R-071",
+      "text": "The test vehicle shall be equipped as specified by the vehicle manufacturer.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 2.2.3.1"
+      }
+    },
+    {
+      "id": "R-072",
+      "text": "Before the measurements are started, the vehicle shall be brought to its normal operating conditions, which means that essential components for the operation of the vehicle are at their nominal temperatures as specified by the manufacturer, especially, but not limited to, the cooling water (if applicable) and oil temperature (if applicable).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 2.2.3.1"
+      }
+    },
+    {
+      "id": "R-073",
+      "text": "If so equipped, propulsion batteries shall have a state-of-charge sufficiently high to enable all key functionalities according to the specifications of the vehicle manufacturer.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 2.2.3.2"
+      }
+    },
+    {
+      "id": "R-074",
+      "text": "Propulsion batteries shall be within their component temperature window to enable all key functionalities.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 2.2.3.2"
+      }
+    },
+    {
+      "id": "R-075",
+      "text": "Any active sound devices, either for noise control, or sound enhancement, shall operate as foreseen by the vehicle manufacturer and not be interfered with during the measurements.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 2.2.3.3"
+      }
+    },
+    {
+      "id": "R-076",
+      "text": "For vehicles of category M1, N1 and M2 ≤ 3,500 kg technically permissible maximum laden mass, the path of the centreline of the vehicle shall follow line CC' as closely as possible throughout the entire test, from the approach to line AA' until the rear of the vehicle passes line BB' +20 m.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.2.1"
+      }
+    },
+    {
+      "id": "R-077",
+      "text": "In all cases, the gear ratios for slow movements, parking or braking shall be excluded for vehicles of category M1, N1 and M2 ≤ 3,500 kg technically permissible maximum laden mass.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.2.1"
+      }
+    },
+    {
+      "id": "R-078",
+      "text": "The test mass of the vehicle shall be according to the table of paragraph 2.2.1.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.2.1"
+      }
+    },
+    {
+      "id": "R-079",
+      "text": "The test speed vtest shall be 50 km/h ± 1 km/h.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.2.1"
+      }
+    },
+    {
+      "id": "R-080",
+      "text": "The test speed shall be reached when the reference point is at line PP'.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 20,
+        "paragraph": "Annex 3 3.1.2.1"
+      }
+    },
+    {
+      "id": "R-081",
+      "text": "For vehicles with only one gear ratio, the achieved acceleration awot test shall be greater than or equal to aurban.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 22,
+        "paragraph": "Annex 3 3.1.2.1.4.3"
+      }
+    },
+    {
+      "id": "R-082",
+      "text": "Every individual sound measurement shall be evaluated, and the sound level of every specified measurement point shall not exceed the limit Lκj ≤ LASEP_κ,j + x.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 3.5"
+      }
+    },
+    {
+      "id": "R-083",
+      "text": "For vehicles tested with non-locked transmission conditions, x shall be 3 dB(A) + limit value (as applicable for the approved type of vehicle) - Lurban.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 3.5"
+      }
+    },
+    {
+      "id": "R-084",
+      "text": "For vehicles tested with locked transmission conditions, x shall be 2 dB(A) + limit value (as applicable for the approved type of vehicle) - Lurban.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 3.5"
+      }
+    },
+    {
+      "id": "R-085",
+      "text": "The vehicle shall be in compliance with ASEP if the average of the three valid measurements at the specific point fulfils the specification.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 3.5"
+      }
+    },
+    {
+      "id": "R-086",
+      "text": "ΔLurban_ASEP shall be less than or equal to 3.0 dB(A) + limit value (as applicable for the approved type of vehicle) - Lurban.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 4.2.2"
+      }
+    },
+    {
+      "id": "R-087",
+      "text": "The result of one assessment method shall comply with the specification of paragraph 5.4.",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 52,
+        "paragraph": "Annex 7 5.1"
+      }
+    },
+    {
+      "id": "R-088",
+      "text": "The measured sound pressure levels of all valid test runs shall be lower than or equal to the expected sound pressure levels of paragraph 4.5.4.3. (LTEST ≤ LTEST_EXP) for the vehicle's compliance to be acceptable (Case 1).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 59,
+        "paragraph": "Annex 9 5.1"
+      }
+    },
+    {
+      "id": "R-089",
+      "text": "If not more than two valid runs of the specified runs exceed the expected sound pressure level of paragraph 4.5.4.3. by not more than 2 dB, the compliance of the vehicle is acceptable (Case 2).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 59,
+        "paragraph": "Annex 9 5.2"
+      }
+    },
+    {
+      "id": "R-090",
+      "text": "No more than two valid runs of the specified runs shall exceed the expected sound pressure level of paragraph 4.5.4.3.; otherwise the vehicle is non-compliant with RD-ASEP (Case 3).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 59,
+        "paragraph": "Annex 9 5.3"
+      }
+    },
+    {
+      "id": "R-091",
+      "text": "No valid run shall exceed the expected sound pressure level of paragraph 4.5.4.3. by more than 2 dB; otherwise the vehicle is non-compliant with RD-ASEP (Case 4).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 59,
+        "paragraph": "Annex 9 5.4"
+      }
+    },
+    {
+      "id": "R-092",
+      "text": "For the sound expectation model part sound from tyre rolling sound under no load, for M1/N1, the Reference Vehicle Speed vTEST (as reported from Annex 3) shall be 50 km/h (min. 40) in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-093",
+      "text": "For the sound expectation model part sound from tyre rolling sound under no load, for M1/N1, the Tyre Rolling Sound Energy Fraction x of Annex 3 Cruise Test LCRS_ANCHOR shall be 90 % or measure in column A (ICE), 95 % in column B (BEV, FCEV), and 90 % or measure in column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-094",
+      "text": "For the sound expectation model part sound from tyre rolling sound under no load, for M1/N1, the Tyre Rolling Sound Slope below vTEST, ΦTR_LO, shall be 20 dB in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-095",
+      "text": "For the sound expectation model part sound from tyre rolling sound under no load, for M1/N1, the Tyre Rolling Sound Slope above vTEST, ΦTR_HI, shall be 40 dB in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-096",
+      "text": "For the sound expectation model part sound from the mechanical system under no load, for M1/N1, the Power Train Sound Slope below nBB’_CRS’_ANCHOR, ΦPT_LO, shall be 60 dB in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-097",
+      "text": "For the sound expectation model part sound from the mechanical system under no load, for M1/N1, the Power Train Sound Slope above nBB’_CRS’_ANCHOR, ΦPT_HI, shall be 115 dB in column A (ICE), 85 dB in column B (BEV, FCEV), and 115 dB in column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-098",
+      "text": "For the sound expectation model part sound from the mechanical system under no load, for M1/N1, the Form Factor for the logarithm function of the mechanical sound model, nSHIFT_PT, shall be 5000 1/min in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-099",
+      "text": "For the sound expectation model part sound from dynamics system under load, for M1/N1, the Dynamic Sound Slope below nBB’_ACC_ANCHOR, ΦDYN_LO, shall be 50 dB in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-100",
+      "text": "For the sound expectation model part sound from dynamics system under load, for M1/N1, the Dynamic Sound Slope above nBB’_ACC_ANCHOR, ΦDYN_HI, shall be 105 dB in column A (ICE), 75 dB in column B (BEV, FCEV), and 105 dB in column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-101",
+      "text": "For the sound expectation model part sound from dynamics system under load, for M1/N1, the Form Factor for the logarithm function of the dynamic sound model, nSHIFT_DYN, shall be 5000 1/min in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-102",
+      "text": "For the sound expectation model part sound from dynamics system under extended performance v×a, for M1/N1, the Dynamic v×a Factor b shall be 8 dB(A) in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-103",
+      "text": "For the sound expectation model part sound from dynamics system under extended performance v×a, for M1/N1, the Partial Load Form Factor α1 shall be 0.17 in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    },
+    {
+      "id": "R-104",
+      "text": "For the sound expectation model part sound from dynamics system under extended performance v×a, for M1/N1, the Partial Load Form Factor α2 shall be 0.40 in column A (ICE), column B (BEV, FCEV) and column C (HEV).",
+      "source": {
+        "regulation": "UN R51",
+        "version": "3.10.0",
+        "page": 63,
+        "paragraph": "Annex 9 Appendix 2"
+      }
+    }
+  ]
+}

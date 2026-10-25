@@ -1,0 +1,196 @@
+{
+  "ts-coach-m3": {
+    "run": "runs/ts-coach-m3/a2-default",
+    "agent_cost_usd": 4.786,
+    "n_gold": 108,
+    "n_submitted": 476,
+    "regulation_level": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "n_submitted": 3,
+      "n_expected": 1,
+      "n_matched": 1,
+      "f2": 0.7143
+    },
+    "page_level": {
+      "precision": 0.2753623188405797,
+      "recall": 0.9047619047619048,
+      "f1": 0.4222222222222222,
+      "n_submitted": 69,
+      "n_expected": 21,
+      "n_matched": 19,
+      "f2": 0.6209
+    },
+    "judge": null
+  },
+  "ts-ev-sound": {
+    "run": "runs/ts-ev-sound/a2-default",
+    "agent_cost_usd": 2.901,
+    "n_gold": 212,
+    "n_submitted": 104,
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "n_submitted": 2,
+      "n_expected": 4,
+      "n_matched": 2,
+      "f2": 0.5556
+    },
+    "page_level": {
+      "precision": 0.7619047619047619,
+      "recall": 0.21333333333333335,
+      "f1": 0.3333333333333333,
+      "n_submitted": 21,
+      "n_expected": 75,
+      "n_matched": 16,
+      "f2": 0.2492
+    },
+    "judge": null
+  },
+  "ts-lpg-conversion": {
+    "run": "runs/ts-lpg-conversion/a2-default",
+    "agent_cost_usd": 4.686,
+    "n_gold": 304,
+    "n_submitted": 987,
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "n_submitted": 2,
+      "n_expected": 3,
+      "n_matched": 2,
+      "f2": 0.7143
+    },
+    "page_level": {
+      "precision": 0.7525773195876289,
+      "recall": 0.8131868131868132,
+      "f1": 0.7817089935605238,
+      "n_submitted": 97,
+      "n_expected": 91,
+      "n_matched": 73,
+      "f2": 0.8003
+    },
+    "judge": null
+  },
+  "ts-moto-antitheft": {
+    "run": "runs/ts-moto-antitheft/a2-default",
+    "agent_cost_usd": 2.127,
+    "n_gold": 232,
+    "n_submitted": 265,
+    "regulation_level": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "n_submitted": 4,
+      "n_expected": 4,
+      "n_matched": 3,
+      "f2": 0.75
+    },
+    "page_level": {
+      "precision": 0.7804878048780488,
+      "recall": 0.7111111111111111,
+      "f1": 0.7441860465116279,
+      "n_submitted": 41,
+      "n_expected": 45,
+      "n_matched": 32,
+      "f2": 0.724
+    },
+    "judge": {
+      "strict": {
+        "precision": 0.46,
+        "recall": 0.526,
+        "f1": 0.491,
+        "f2": 0.511,
+        "submitted": 265,
+        "expected": 232,
+        "matched": 122
+      },
+      "lenient": {
+        "precision": 0.604,
+        "recall": 0.69,
+        "f1": 0.644,
+        "f2": 0.671,
+        "submitted": 265,
+        "expected": 232,
+        "matched": 160
+      },
+      "strict_f2": 0.5113,
+      "lenient_f2": 0.6709,
+      "cost_usd": 0.464
+    }
+  },
+  "ts-motorcycle-silencer": {
+    "run": "runs/ts-motorcycle-silencer/a2-default",
+    "agent_cost_usd": 0.403,
+    "n_gold": 154,
+    "n_submitted": 37,
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "n_submitted": 1,
+      "n_expected": 4,
+      "n_matched": 1,
+      "f2": 0.2941
+    },
+    "page_level": {
+      "precision": 1.0,
+      "recall": 0.1,
+      "f1": 0.18181818181818182,
+      "n_submitted": 5,
+      "n_expected": 50,
+      "n_matched": 5,
+      "f2": 0.122
+    },
+    "judge": null
+  },
+  "ts-pedestrian-front-end": {
+    "run": "runs/ts-pedestrian-front-end/a2-default",
+    "agent_cost_usd": 2.456,
+    "n_gold": 125,
+    "n_submitted": 127,
+    "regulation_level": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "n_submitted": 4,
+      "n_expected": 4,
+      "n_matched": 4,
+      "f2": 1.0
+    },
+    "page_level": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5714285714285714,
+      "f1": 0.6153846153846153,
+      "n_submitted": 30,
+      "n_expected": 35,
+      "n_matched": 20,
+      "f2": 0.5882
+    },
+    "judge": {
+      "strict": {
+        "precision": 0.339,
+        "recall": 0.344,
+        "f1": 0.341,
+        "f2": 0.343,
+        "submitted": 127,
+        "expected": 125,
+        "matched": 43
+      },
+      "lenient": {
+        "precision": 0.543,
+        "recall": 0.552,
+        "f1": 0.548,
+        "f2": 0.55,
+        "submitted": 127,
+        "expected": 125,
+        "matched": 69
+      },
+      "strict_f2": 0.343,
+      "lenient_f2": 0.5502,
+      "cost_usd": 0.265
+    }
+  }
+}

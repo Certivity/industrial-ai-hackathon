@@ -1,0 +1,86 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r132-reagent-restructure",
+  "changes": [
+    {
+      "requirement_id": "R-008",
+      "change": "modified",
+      "new_text": "For reagent based particulate reduction REC the monitoring device shall include the detection of the interruption of the input of any reagent or additive.",
+      "reason": "Paragraph 7.5.1 of UN R132 was amended in version 1.1.0: 'may interrupt' became 'shall include the detection of the interruption of'; 'additive, if necessary.' became 'additive.'.",
+      "source": {
+        "page": 6,
+        "paragraph": "7.5.1"
+      }
+    },
+    {
+      "requirement_id": "R-037",
+      "change": "modified",
+      "new_text": "The reduction efficiency shall be determined by comparison of the emissions measured over the weighted WHTC for REC to be applied to heavy-duty engines or over the weighted NRTC for REC to be applied to non-road mobile machinery or Category T vehicles engines; the reduction efficiency shall be calculated as defined in 8.3.4. of this Regulation.",
+      "reason": "Paragraph 8.3.2 of UN R132 was amended in version 1.1.0: 'agricultural and forestry tractor' became 'Category T vehicles'.",
+      "source": {
+        "page": 8,
+        "paragraph": "8.3.2"
+      }
+    },
+    {
+      "requirement_id": "R-046",
+      "change": "modified",
+      "new_text": "Direct sampling from raw exhaust gas prior to dilution is permitted; the dilution ratios of the particle number diluters (PND1 and PND2 of the particle transfer system, as defined in UN Regulations Nos. 49 and 96) shall then be adapted to the measurement range of the Particle Number Counter (PNC).",
+      "reason": "Paragraph 8.5.2 of UN R132 was amended in version 1.1.0: 'Regulation No. 49)' became 'UN Regulations Nos. 49 and 96)'; 'particle number counter' became 'Particle Number Counter'.",
+      "source": {
+        "page": 9,
+        "paragraph": "8.5.2"
+      }
+    },
+    {
+      "requirement_id": "R-050",
+      "change": "modified",
+      "new_text": "For Class III and Class IV REC, emissions of ammonia shall not exceed a mean value of 25 ppm when measured using the procedures defined in Appendix 7 to Annex 4 of the 06 series of amendments to UN Regulation No. 49 or in Appendix 7 to Annex 4 of the 05 series of amendment to UN Regulation No. 96.",
+      "reason": "Paragraph 8.6.2 of UN R132 was amended in version 1.1.0: 'Regulation No. 49.' became 'UN Regulation No. 49 or in Appendix 7 to Annex 4 of the 05 series of amendment to UN Regulation No. 96.'.",
+      "source": {
+        "page": 9,
+        "paragraph": "8.6.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall provide written maintenance instructions to be given by the installer to the driver or operator.",
+      "reason": "Paragraph 7.9 of UN R132 is new in version 1.1.0: 'The approval shall be conditional upon the manufacturer providing: (a) written maintenance instruct…'.",
+      "source": {
+        "page": 8,
+        "paragraph": "7.9"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall provide installation documents for the REC.",
+      "reason": "Paragraph 7.9 of UN R132 is new in version 1.1.0: 'The approval shall be conditional upon the manufacturer providing: (a) written maintenance instruct…'.",
+      "source": {
+        "page": 8,
+        "paragraph": "7.9"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall provide instructions for an operator warning system, the inducement system and the reagent freeze protection (where applicable) to be given by the installer to the repair-workshop, or the driver or the operator, as appropriate.",
+      "reason": "Paragraph 7.9 of UN R132 is new in version 1.1.0: 'The approval shall be conditional upon the manufacturer providing: (a) written maintenance instruct…'.",
+      "source": {
+        "page": 8,
+        "paragraph": "7.9"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall provide a written statement to the installer, to be given to the driver or operator, on the normal operating conditions (temperature range, environmental conditions, …) within which the REC will operate correctly.",
+      "reason": "Paragraph 7.9 of UN R132 is new in version 1.1.0: 'The approval shall be conditional upon the manufacturer providing: (a) written maintenance instruct…'.",
+      "source": {
+        "page": 8,
+        "paragraph": "7.9"
+      }
+    }
+  ]
+}

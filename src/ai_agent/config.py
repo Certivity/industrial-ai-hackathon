@@ -19,7 +19,7 @@ DEFAULT_MODEL = "claude-sonnet-5-5"
 # extraction: on UN R175 (eval/bench_extract.py) the same prompt and chunks gave 18 obligations at "medium" (one chunk of 110 nodes returned a
 # single one) and 167 at "high", with recall against the experts going from 1% to 71%. "medium" is enough where the answer is short: the profile,
 # the section walks (they reached every expected paragraph) and the judge.
-DEFAULT_EFFORT = {"profile": "medium", "regulations": "high", "sections": "medium", "obligations": "high", "judge": "medium"}
+DEFAULT_EFFORT = {"vision": "high", "components": "medium", "profile": "medium", "regulations": "high", "sections": "medium", "obligations": "high", "judge": "medium"}
 
 
 class MissingKey(RuntimeError):

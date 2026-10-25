@@ -1,0 +1,2326 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-moto-antitheft",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The steering lock with electronic immobiliser and alarm shall be so designed that it is necessary to put it out of action in order to enable the engine to be started by means of the normal control.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The device shall meet the deactivation requirements of paragraph 5.1.1 by the application of a single key.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "A system operated with a key inserted in a lock shall not permit removal of the key before the device has come into action or has been set to act.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The device and the vehicle components on which it operates shall be so designed that it cannot rapidly and without attracting attention be opened, rendered ineffective or destroyed by low-cost, easily concealed tools, equipment or fabrications.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "The device shall be fitted in such a way that even after removal of its housing it cannot, when in the blocked condition, be dismantled other than with special tools.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "Where it is possible to render the device ineffective by the removal of screws, those screws shall, unless they are of the non-removable type, be covered by parts of the blocked protective device.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "The mechanical locking system shall provide at least 1,000 different key combinations, or a number equal to the total number of vehicles manufactured annually if less than 1,000.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "In vehicles of one type the frequency of occurrence of each key combination shall be roughly one per 1,000.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "The electrical/electronic locking system shall have at least 50,000 variants and shall incorporate a rolling code.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "Where the electronic locking system does not incorporate a rolling code, it shall have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 3,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "The key and lock shall not be visibly coded.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "The lock shall be so designed, constructed and fitted that turning of the lock cylinder, when in the locked position, with a torque of less than 2.45 Nm is not possible with any key other than the mating key.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "For lock cylinders with pin tumblers, no more than two identical tumblers operating in the same direction shall be positioned adjacent to each other.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.10.1"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "For lock cylinders with pin tumblers, there shall not be more than 60 per cent identical tumblers in a lock.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.10.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "For lock cylinders with disc tumblers, no more than two identical tumblers operating in the same direction shall be positioned adjacent to each other.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.10.2"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "For lock cylinders with disc tumblers, there shall not be more than 50 per cent identical tumblers in a lock.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.10.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The device shall be such as to exclude any risk of accidental operating failure while the engine is running, particularly in the case of blockage likely to compromise safety.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.11"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "It shall not be possible to activate the device without first setting the engine controls to a stop condition and then performing an action which is not an uninterrupted continuation of stopping the engine.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.11.1"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "Where the action of key withdrawal activates the device, it shall either necessitate a minimum movement of 2 mm before activation or incorporate an override facility to prevent accidental removal or partial withdrawal of the key.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.11.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The electric actuator may use power assistance only to activate the locking and/or unlocking action of the device.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.12"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The device shall be kept in its operating (locked) position by suitable means which does not need a power supply.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.12"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "It shall not be possible to activate the motive power of the vehicle by normal means until the device has been deactivated.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.1.13"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The steering lock shall render the steering inoperative when set to act.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "Before the engine as a motive power can be started, the normal steering operation shall be restored.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.2.1.1"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "When the device is set to act, it shall not be possible to prevent the device from functioning.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 4,
+        "paragraph": "5.2.1.2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The device shall continue to meet the requirements of paragraphs 5.1.11, 5.2.1.1, 5.2.1.2 and 5.2.1.4 after it has undergone 2,500 locking cycles in each direction of the wear producing test.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 5,
+        "paragraph": "5.2.1.3"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "When the alternative of paragraph 5.2.1.4.1 is used, the device in its activated position shall be strong enough to withstand, without damage to the steering mechanism likely to compromise safety, the application of a torque of 300 Nm about the axis of the steering spindle in both directions under static conditions.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 5,
+        "paragraph": "5.2.1.4.1"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "When the alternative of paragraph 5.2.1.4.2 is used, the device shall incorporate a mechanism designed to yield or slip such that the system withstands, either continuously or intermittently, the application of a torque of at least 100 Nm.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 5,
+        "paragraph": "5.2.1.4.2"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "Where a yielding or slipping mechanism is used, the locking system shall still withstand the application of the 100 Nm torque after the test specified in Part 2 of Annex 4.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 5,
+        "paragraph": "5.2.1.4.2"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "When the alternative of paragraph 5.2.1.4.3 is used, the blocking mechanism shall be strong enough to withstand the application of a torque of 200 Nm about the axis of the steering spindle in both directions under static conditions.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 5,
+        "paragraph": "5.2.1.4.3"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "Where the key can be removed in a position other than the position in which the steering is inoperative, the device shall be so designed that the manoeuvre required to reach that position and remove the key cannot be effected inadvertently.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 5,
+        "paragraph": "5.2.1.5"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "Where a component fails such that the torque requirements of paragraphs 5.2.1.4.1, 5.2.1.4.2 and 5.2.1.4.3 cannot be easily applied yet the steering system remains blocked, the system shall still satisfy the requirements.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 5,
+        "paragraph": "5.2.1.6"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "The electromechanical and electronic device shall comply with the requirements of paragraphs 5.1 and 5.2 and shall be submitted to the tests described in Annex 6, mutatis mutandis.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 6,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "The functioning process of the device shall incorporate secure means to prevent any risk of blocking or accidental malfunctioning which could compromise the safety of the vehicle.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 6,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "All components of the locking system shall operate without any failure under the operating conditions specified in Annex 6.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "Parts of the device to be fitted in the passenger or luggage compartment shall operate without failure from -40 °C to +85 °C, and parts to be fitted in the engine compartment from -40 °C to +125 °C unless otherwise specified.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1.1"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "Parts of the device fitted in the passenger compartment shall provide degree of protection IP 40 in accordance with IEC Publication 529 1989.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "All parts of the device not fitted in the passenger compartment shall provide degree of protection IP 54 in accordance with IEC Publication 529 1989.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The installation instructions shall specify any restrictions on the positioning of any part of the installation with respect to dust, water and temperature.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The device shall withstand a weatherability test of seven days according to IEC 68-2-30-1980.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1.3"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The device shall operate on a 12 V rated supply and over an operation supply voltage range from 9 V to 15 V within the climatic temperature range.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1.4"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The device shall withstand an excess voltage of 18 V for a maximum of 1 hour and of 24 V for a maximum of 1 minute at 23 °C.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 1.4"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "All the Annex 6 tests shall be carried out in sequence on a single locking system.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 2"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "The normal test conditions for the operation tests shall be a voltage of (12 ± 0.2) V and a temperature of (23 ± 5) °C.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 2.1"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "Upon completion of all the Annex 6 tests, the locking system shall be tested under the normal test conditions to check that it continues to function normally.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 12,
+        "paragraph": "Annex 6 3.1"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "The device shall continue to meet the operation specifications after storage for 4 hours at (-40 ± 2) °C and (9 ± 0.2) V.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 13,
+        "paragraph": "Annex 6 3.2.1"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "Parts fitted in the passenger or luggage compartment shall continue to meet the operation specifications after storage for 4 hours at (+85 ± 2) °C and (15 ± 0.2) V.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 13,
+        "paragraph": "Annex 6 3.2.2"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "Parts fitted in the engine compartment shall continue to meet the operation specifications after storage for 4 hours at (+125 ± 2) °C and (15 ± 0.2) V.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 13,
+        "paragraph": "Annex 6 3.2.3"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The device, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 13,
+        "paragraph": "Annex 6 3.2.4"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The device, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 13,
+        "paragraph": "Annex 6 3.2.5"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "After the test for tightness to foreign bodies and water according to IEC 529-1989 at the applicable degree of protection, the operation tests shall be repeated.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 13,
+        "paragraph": "Annex 6 3.3"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "After the resistance-to-humidity test according to IEC 68-2-30 (1980), the operation tests shall be repeated.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.4"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "The device and its components shall not be destroyed by reversed polarity up to 13 V during 2 minutes.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.5"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "All electrical connections of the device shall be short-circuit proof against earth at max. 13 V and/or fused.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.6"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "The energy consumption in set condition under the normal test conditions shall not exceed 20 mA on average for the complete locking system including status display.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.7"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "For the vibration test, components normally mounted on the vehicle shall be treated as Type 1 and components intended for attachment to the engine as Type 2.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.8.1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "Type 1 components shall withstand sinusoidal vibration from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.8.2.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "Type 2 components shall withstand sinusoidal vibration from 20 Hz to 300 Hz with a maximum amplitude of ± 2 mm and maximum acceleration of 15 g (0-peak).",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.8.2.2"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "The vibration test shall use a frequency variation of 1 octave/min and 10 cycles, performed along each of the 3 axes.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.8.2.3"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "During the vibration test the device shall be electrically connected and the cable shall be supported after 200 mm.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.8.3"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "After the vibration test the operation tests shall be repeated.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.8.4"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "For immunity against disturbances conducted along supply lines, the device shall be tested in unset state and in set state.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 15,
+        "paragraph": "Annex 7 1"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "For vehicle and ESA immunity tests, a locking system in unset state shall not exhibit unexpected activation of the locking system as a failure criterion.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 15,
+        "paragraph": "Annex 7 2. Table 1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "For vehicle and ESA immunity tests, a locking system in set state shall not exhibit unexpected deactivation of the locking system as a failure criterion.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 15,
+        "paragraph": "Annex 7 2. Table 1"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "For air discharge at points accessible only from the inside of the vehicle with the device in unset state, the test level shall be ± 6 kV with a 330 pF, 2 kΩ discharge network.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 16,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "For air discharge at points touchable only from the outside of the vehicle with the device in set state, the test level shall be ± 15 kV with a 150 pF, 2 kΩ discharge network.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 16,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "For contact discharge at points accessible only from the inside of the vehicle with the device in unset state, the test level shall be ± 4 kV with a 330 pF, 2 kΩ discharge network.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 16,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "Each ESD test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 16,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "For the radiated emissions test, the device shall be in set state.",
+      "source": {
+        "regulation": "UN R161",
+        "version": "0.5.0",
+        "page": 16,
+        "paragraph": "Annex 7 4"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "The immobiliser shall be capable of being set and unset in accordance with the requirements of UN R162.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "The immobiliser and its installation shall be so designed that any equipped vehicle continues to meet the technical requirements.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "It shall not be possible for the immobiliser to enter the set state when the ignition key is in the engine running mode.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "5.1.3"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "It shall not be possible to permanently override the immobiliser.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The immobiliser shall be designed and built such that when installed it does not adversely affect the designed function and the safe operation of the vehicle, even in the case of malfunction.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The immobiliser shall be designed and built such that when installed according to the manufacturer's instructions it cannot rapidly and without attracting attention be rendered ineffective or destroyed by low-cost, easily concealed tools, equipment or fabrications.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "It shall be difficult and time consuming to replace a major component or assembly in order to bypass the immobiliser.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.6"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The immobiliser shall be designed and built such that when installed as specified by the manufacturer it is able to withstand the environment within the vehicle for a reasonable lifetime.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The electrical properties of the on-board circuitry shall not be adversely affected by the addition of the immobiliser, including lead cross-sections and contact safety.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.7"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The immobiliser may be combined with other vehicle systems or integrated into them, for example engine management or alarm systems.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.8"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "It shall not be possible for the immobiliser to prevent the release of the brakes of the vehicle.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.9"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "It shall not be possible for the immobiliser to operate in such a manner as to apply the brakes of the vehicle.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.1.10"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "Where the immobiliser is fitted after-market or to a diesel-engined vehicle, it shall disable at least two separate vehicle circuits needed for vehicle operation under its own power.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.2.1.1.1"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "The immobiliser shall prevent operation of the vehicle under its own motive power by interference by code of at least one control unit required for the operation of the vehicle.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.2.1.1.2"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "An immobiliser for fitment to a vehicle equipped with a catalytic converter shall not cause unburnt fuel to enter the exhaust.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.2.1.2"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "Operating reliability shall be achieved by suitable design of the immobiliser, taking account of the specific environmental conditions in the vehicle.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 4,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "The immobiliser shall not change its state (set/unset) as a result of any of the tests referred to in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "The immobiliser shall be set without supplementary action from the driver at rotation of the ignition key into the \"0\" position in the ignition lock and activation of a door.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.4.1"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The immobiliser shall be set without supplementary action from the driver a maximum of 1 minute after removing the key of the ignition lock.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.4.1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "Where unsetting is achieved by an electrical/electronic device such as the remote key fob, it shall have at least 50,000 variants and incorporate rolling codes.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.5.1.2"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "Where unsetting is achieved by an electrical/electronic device without rolling codes, it shall have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.5.1.2"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "Where unsetting is achieved via the remote control, the immobiliser shall return to the set condition within 5 minutes after unsetting if no supplementary action on the starter circuit has been undertaken.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.5.1.3"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "Where status display of the immobiliser is provided, optical displays inside and optical signals outside the passenger compartment are permitted.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.6.1"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "Any optical signal or any use of lighting and light-signalling devices outside the passenger compartment shall fulfil the requirements of Regulation No. 48.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.6.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "Where the short-term dynamic status indication is produced by the direction indicators, the duration of the optical indication by the direction indicators shall not exceed 3 seconds.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 5,
+        "paragraph": "5.2.6.2"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "Where the component is approved separately as an immobiliser, the approval mark shall be affixed by the manufacturer to the major element(s) of the device.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "4.8"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "Where the component is approved as an immobiliser under UN R162 and as an alarm system under UN R163, both approval marks shall be affixed by the manufacturer to the major element(s) of the device.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "4.8"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "An international approval mark shall be affixed conspicuously and in a readily accessible place specified on the approval form to every component conforming to a type approved under this Regulation.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 2,
+        "paragraph": "4.4"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The international approval mark shall consist of a circle surrounding the letter \"E\" followed by the distinguishing number of the country which has granted approval.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 2,
+        "paragraph": "4.4.1"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The approval mark shall include the number of this Regulation followed by the letter \"R\", a dash and the approval number, to the right of the circle.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "4.4.2"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The approval mark shall be clearly legible and be indelible.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "As an alternative to the approval mark, a certificate of conformity shall be issued for every immobiliser offered for sale.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "4.10"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "Where the immobiliser is made up of separate components, its main component(s) shall bear a reference mark and the certificate of conformity shall provide a list of such reference marks.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 3,
+        "paragraph": "4.10"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "All components of the immobiliser shall operate without any failure under the operating conditions specified in Annex 6.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "Parts of the immobiliser fitted in the engine compartment shall operate without failure from -40 °C to +125 °C unless otherwise specified.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "All immobiliser parts other than those fitted in the passenger compartment shall provide degree of protection IP 54 in accordance with IEC Publication 529 1989.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The installation instructions shall specify any restrictions on the positioning of any part of the immobiliser installation with respect to dust, water and temperature.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.2"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The immobiliser shall withstand a weatherability test of 7 days according to IEC 68-2-30-1980.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.3"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The immobiliser shall withstand an excess voltage of 18 V for a maximum of 1 hour and of 24 V for a maximum of 1 minute at 23 °C.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 1.4"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "All the Annex 6 tests shall be carried out in sequence on a single immobiliser.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 13,
+        "paragraph": "Annex 6 2"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "The immobiliser shall continue to meet the operation specifications after storage for 4 hours at (-40 ± 2) °C and (9 ± 0.2) V.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.2.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "The immobiliser, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.2.4"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The immobiliser, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.2.5"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "After the test for tightness to foreign bodies and water according to IEC 529-1989 at the applicable degree of protection, the immobiliser operation tests shall be repeated.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 14,
+        "paragraph": "Annex 6 3.3"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The immobiliser and its components shall not be destroyed by reversed polarity up to 13 V during 2 minutes.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.5"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "All electrical connections of the immobiliser shall be short-circuit proof against earth at max. 13 V and/or fused.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.6"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "The energy consumption in set condition under the normal test conditions shall not exceed 20 mA on average for the complete immobiliser including status display.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 15,
+        "paragraph": "Annex 6 3.7"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "Type 1 immobiliser components shall withstand sinusoidal vibration from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.8.2.1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The immobiliser vibration test shall use a frequency variation of 1 octave/min and 10 cycles, performed along each of the 3 axes.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.8.2.3"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "During the vibration test the immobiliser shall be electrically connected and the cable shall be supported after 200 mm.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 6 3.8.3"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "For immunity against disturbances conducted along supply lines, the immobiliser shall be tested in unset state and in set state.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 7 1.2"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "For vehicle and ESA immunity tests, an immobiliser in unset state shall not exhibit unexpected activation of the immobiliser as a failure criterion.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 16,
+        "paragraph": "Annex 7 2.2. Table 1"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "For air discharge at points touchable only from the outside of the vehicle with the immobiliser in set state, the test level shall be ± 15 kV with a 150 pF, 2 kΩ discharge network.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 17,
+        "paragraph": "Annex 7 3.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "For contact discharge at points accessible only from the inside of the vehicle with the immobiliser in unset state, the test level shall be ± 4 kV with a 330 pF, 2 kΩ discharge network.",
+      "source": {
+        "regulation": "UN R162",
+        "version": "0.6.0",
+        "page": 17,
+        "paragraph": "Annex 7 3.2. Table 2"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The alarm system shall, in the event of intrusion into or interference with the vehicle, provide an audible warning signal and may in addition include optical warning devices or be a radio alarm.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The alarm system shall be designed, constructed and installed in such a way that the vehicle when equipped continues to comply with the relevant technical requirements, especially with regard to electromagnetic compatibility.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0126",
+      "text": "The installation of the alarm system shall not be capable of influencing the vehicle's performance in the unset state or its safe operation.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0127",
+      "text": "The alarm system and its components shall not activate inadvertently, particularly whilst the engine is in its running mode.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0128",
+      "text": "Failure of the alarm system, or failure of its electrical supply, shall not affect the safe operation of the vehicle.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0129",
+      "text": "The alarm system, its components and the parts controlled by them shall be designed, built and installed so as to minimise the risk for anyone to make them inoperable or to destroy them rapidly and without calling attention.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 3,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "G-0130",
+      "text": "The means of setting and unsetting of the alarm system shall be designed so as not to invalidate the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0131",
+      "text": "The system shall be so arranged that the shorting out of any warning signal circuit does not render inoperative any aspect of the alarm system other than the circuit which is shorted out.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "5.8"
+      }
+    },
+    {
+      "id": "G-0132",
+      "text": "The alarm system shall at least detect and signal the opening of any vehicle door, engine bonnet and luggage compartment.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0133",
+      "text": "The failure or switching off of light sources, e.g. the passenger compartment light, shall not impair the control operation of the alarm system.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0134",
+      "text": "Additional efficient sensors for attempted vehicle theft, such as the inclination (motion/tilt) sensor, are allowed taking account of measures to prevent unnecessary sounding of the alarm.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0135",
+      "text": "Where the additional sensors generate an alarm signal after an intrusion has occurred or under external influences, the alarm signal activated by one of these sensors shall be activated not more than 10 times within the same activation period of the alarm system.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0136",
+      "text": "It shall not be possible to deactivate the additional sensors while the alarm system is in a set state.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0137",
+      "text": "The alarm system, both in set and unset conditions, shall not cause the alarm signal to sound unnecessarily in the event of an impact on the vehicle, electromagnetic compatibility disturbances, battery voltage reduction or false alarm of the passenger compartment control.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 4,
+        "paragraph": "6.1.2.1"
+      }
+    },
+    {
+      "id": "G-0138",
+      "text": "The audible warning signal shall be clearly audible and recognisable and shall differ significantly from the other audible signals used in road traffic.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0139",
+      "text": "Where a separate audible warning device (siren) is fitted in the area controlled by the alarm system, it shall be protected against easy, rapid access by persons.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.1"
+      }
+    },
+    {
+      "id": "G-0140",
+      "text": "The audible signal may sound again only after the next interference with the vehicle, i.e. after the above-mentioned time span.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0141",
+      "text": "Unsetting of the alarm system shall immediately cut the audible signal.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.2"
+      }
+    },
+    {
+      "id": "G-0142",
+      "text": "Where an audible signal device with frequency modulation is used, the passage frequency shall be (2 ± 1) Hz with equal passage of a significant frequency range within 1,800 through 3,550 Hz in both directions.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.3.2"
+      }
+    },
+    {
+      "id": "G-0143",
+      "text": "Where a sound source different from the original equipment audible warning device is used, the minimum sound level may be reduced to 100 dB(A), measured under the conditions of UN Regulation No. 28, Part I.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 5,
+        "paragraph": "6.2.3.3"
+      }
+    },
+    {
+      "id": "G-0144",
+      "text": "Where an optical alarm is fitted, the optical signal shall have a duration between 25 s and 5 minutes after the alarm has been activated, and unsetting shall immediately stop it.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0145",
+      "text": "The optical signal shall be produced by flashing of all direction indicators and/or the passenger compartment light, including all lamps in the same electrical circuit.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.3.3"
+      }
+    },
+    {
+      "id": "G-0146",
+      "text": "The optical signal trigger frequency shall be (2 ± 1) Hz with on time equal to off time ± 10 per cent.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.3.3"
+      }
+    },
+    {
+      "id": "G-0147",
+      "text": "When the engine is in its running mode, deliberate or inadvertent setting of the alarm system shall be impossible.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0148",
+      "text": "Any suitable means of setting of the alarm system is allowed, provided that it does not inadvertently cause false alarms.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.6.1"
+      }
+    },
+    {
+      "id": "G-0149",
+      "text": "Where unsetting is achieved by the electrical/electronic remote control, it shall have at least 50,000 variants and incorporate rolling codes.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0150",
+      "text": "Where the remote control does not incorporate rolling codes, it shall have a minimum scan time of ten days, e.g. a maximum of 5,000 variants per 24 hours for 50,000 variants minimum.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "id": "G-0151",
+      "text": "Where the switching device for setting the alarm system is fitted within the protected area, an exit delay shall be provided, settable to between 15 seconds and 45 seconds after the switch has been operated.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.7"
+      }
+    },
+    {
+      "id": "G-0152",
+      "text": "Where the device for unsetting the alarm system is fitted within the protected area, a delay of 5 seconds minimum and 15 seconds maximum shall be allowed before the activation of the audible and optical signals.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.8"
+      }
+    },
+    {
+      "id": "G-0153",
+      "text": "Status information of the alarm system (set, unset, alarm setting period, alarm activated) may be provided by optical displays inside and outside the passenger compartment.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 6,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0154",
+      "text": "Where a short-term dynamic status indication is produced by the direction indicators, the duration of the optical indication by the direction indicators shall not exceed 3 seconds.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.9.2"
+      }
+    },
+    {
+      "id": "G-0155",
+      "text": "The source of power for the alarm system shall be either the vehicle battery or a rechargeable battery.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.10"
+      }
+    },
+    {
+      "id": "G-0156",
+      "text": "Where an additional rechargeable or non-rechargeable battery is provided, these batteries shall by no means supply energy to other parts of the vehicle electrical system.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.10"
+      }
+    },
+    {
+      "id": "G-0157",
+      "text": "Where a panic alarm is provided, it shall be triggered from within the vehicle and shall not affect the set or unset state of the alarm system.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.11.2"
+      }
+    },
+    {
+      "id": "G-0158",
+      "text": "The panic alarm shall not immobilise the engine or stop it if it is running.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "6.11.2"
+      }
+    },
+    {
+      "id": "G-0159",
+      "text": "All components of the alarm system shall operate without any failure under the operation parameters specified in paragraph 7.1.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "7.1"
+      }
+    },
+    {
+      "id": "G-0160",
+      "text": "Parts of the alarm system to be fitted in the passenger or luggage compartment shall operate without failure from -40 °C to +85 °C.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "7.1.1"
+      }
+    },
+    {
+      "id": "G-0161",
+      "text": "All alarm system parts other than those fitted in the passenger compartment shall provide degree of protection IP 54 in accordance with IEC Publication 529 1989.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "G-0162",
+      "text": "The installation instructions shall specify any restrictions on the positioning of any part of the alarm system installation with respect to dust, water and temperature.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 7,
+        "paragraph": "7.1.2"
+      }
+    },
+    {
+      "id": "G-0163",
+      "text": "The alarm system shall withstand a weatherability test of 7 days according to IEC 68-2-30-1980.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.1.3"
+      }
+    },
+    {
+      "id": "G-0164",
+      "text": "The alarm system shall operate over a supply voltage range from 9 V to 15 V within the climatic temperature range.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.1.4"
+      }
+    },
+    {
+      "id": "G-0165",
+      "text": "Compliance of the alarm system shall be checked for alarm duration, frequency and on/off ratio, number of alarm cycles and the alarm system setting lock.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.2.1.1"
+      }
+    },
+    {
+      "id": "G-0166",
+      "text": "The normal test conditions for the alarm system operation tests shall be a voltage of (12 ± 0.2) V and a temperature of (23 ± 5) °C.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.2.1.2"
+      }
+    },
+    {
+      "id": "G-0167",
+      "text": "The alarm system shall continue to meet the operation specifications after storage for 4 hours at (-40 ± 2) °C and (9 ± 0.2) V.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.2.2.1"
+      }
+    },
+    {
+      "id": "G-0168",
+      "text": "Parts fitted in the engine compartment shall continue to meet the operation specifications after storage for 4 hours at (+125 ± 2) °C and (15 ± 0.2) V unless otherwise specified.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.2.2.3"
+      }
+    },
+    {
+      "id": "G-0169",
+      "text": "The alarm system, in both set and unset state, shall be submitted to an excess voltage equal to (18 ± 0.2) V for 1 hour.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 8,
+        "paragraph": "7.2.2.4"
+      }
+    },
+    {
+      "id": "G-0170",
+      "text": "The alarm system, in both set and unset state, shall be submitted to an excess voltage equal to (24 ± 0.2) V for 1 minute.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.2.5"
+      }
+    },
+    {
+      "id": "G-0171",
+      "text": "After the test for tightness to foreign bodies and water according to IEC 529-1989 at the applicable degree of protection, the alarm system operation tests shall be repeated.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.3"
+      }
+    },
+    {
+      "id": "G-0172",
+      "text": "After the resistance-to-humidity test according to IEC 68-2-30 (1980), the alarm system operation tests shall be repeated.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.4"
+      }
+    },
+    {
+      "id": "G-0173",
+      "text": "The alarm system and its components shall not be destroyed by reversed polarity up to 13 V during 2 minutes.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.5"
+      }
+    },
+    {
+      "id": "G-0174",
+      "text": "All electrical connections of the alarm system shall be short-circuit proof against earth at max. 13 V and/or fused.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.6"
+      }
+    },
+    {
+      "id": "G-0175",
+      "text": "The energy consumption in set condition under the normal test conditions shall not exceed 20 mA on average for the complete alarm system including status display.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 9,
+        "paragraph": "7.2.7"
+      }
+    },
+    {
+      "id": "G-0176",
+      "text": "Type 1 alarm system components shall withstand sinusoidal vibration from 10 Hz to 500 Hz with a maximum amplitude of ± 5 mm and maximum acceleration of 3 g (0-peak).",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.8.2.1"
+      }
+    },
+    {
+      "id": "G-0177",
+      "text": "The alarm system vibration test shall use a frequency variation of 1 octave/min and 10 cycles, performed along each of the 3 axes.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.8.2.3"
+      }
+    },
+    {
+      "id": "G-0178",
+      "text": "During the vibration test the alarm system shall be electrically connected and the cable shall be supported after 200 mm.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.8.3"
+      }
+    },
+    {
+      "id": "G-0179",
+      "text": "The alarm system shall complete a durability test of 300 complete alarm cycles (audible and/or optical) with a rest time of the audible device of 5 min under the normal test conditions.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.9"
+      }
+    },
+    {
+      "id": "G-0180",
+      "text": "Where an external key switch is used, it shall be so designed and constructed that it remains fully effective after 2,500 set/unset cycles in each direction, followed by 96 hours minimum of exposure to salt spray according to IEC 68-2-11-1981.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 10,
+        "paragraph": "7.2.10.1"
+      }
+    },
+    {
+      "id": "G-0181",
+      "text": "The alarm system shall be submitted to the electromagnetic compatibility tests described in Annex 7.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.12"
+      }
+    },
+    {
+      "id": "G-0182",
+      "text": "An impact of up to 4.5 Joules of a hemispherical body of 165 mm diameter and 70 ± 10 Shore A applied anywhere to the vehicle bodywork or glazing with its curved surface shall not cause false alarms.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.13"
+      }
+    },
+    {
+      "id": "G-0183",
+      "text": "A slow reduction of the main battery voltage by continuous discharge of 0.5 V per hour down to 3 V shall not cause false alarms.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.14"
+      }
+    },
+    {
+      "id": "G-0184",
+      "text": "A passenger compartment protection system shall not be triggered when subjected 5 times to the impact test at intervals of 0.5 s.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.15"
+      }
+    },
+    {
+      "id": "G-0185",
+      "text": "The presence of a person touching or moving around the outside of the vehicle with windows closed shall not cause any false alarm.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 11,
+        "paragraph": "7.2.15"
+      }
+    },
+    {
+      "id": "G-0186",
+      "text": "Where a mechanical key switch is used, the cylinder of the key switch shall not protrude by more than 1 mm from the cowling, and the protruding part shall be conical.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 22,
+        "paragraph": "Annex 6 1"
+      }
+    },
+    {
+      "id": "G-0187",
+      "text": "The joint between the cylinder core and the cylinder casing shall withstand a tensile force of 600 N and a torque of 25 Nm.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 22,
+        "paragraph": "Annex 6 2"
+      }
+    },
+    {
+      "id": "G-0188",
+      "text": "The key switch shall be provided with a cylinder drill obstruction.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 22,
+        "paragraph": "Annex 6 3"
+      }
+    },
+    {
+      "id": "G-0189",
+      "text": "The key profile shall have at least 1,000 effective permutations.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 6 4"
+      }
+    },
+    {
+      "id": "G-0190",
+      "text": "The key switch shall not be operable by a key which differs by only one permutation from the key matching the key switch.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 6 5"
+      }
+    },
+    {
+      "id": "G-0191",
+      "text": "The key aperture to an external key switch shall be shuttered or otherwise protected against the penetration of dirt and/or water.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 6 6"
+      }
+    },
+    {
+      "id": "G-0192",
+      "text": "For immunity against disturbances conducted along supply lines, the alarm system shall be tested in unset state and in set state.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 7 1"
+      }
+    },
+    {
+      "id": "G-0193",
+      "text": "For vehicle and ESA immunity tests, an alarm system in unset state shall not exhibit unexpected activation of the VAS/AS as a failure criterion.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 7 2"
+      }
+    },
+    {
+      "id": "G-0194",
+      "text": "For vehicle and ESA immunity tests, an alarm system in set state shall not exhibit unexpected deactivation of the VAS/AS as a failure criterion.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 23,
+        "paragraph": "Annex 7 2"
+      }
+    },
+    {
+      "id": "G-0195",
+      "text": "For air discharge at points accessible only from the inside of the vehicle with the alarm system in unset state, the test level shall be ± 6 kV with a 330 pF, 2 kΩ discharge network.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 24,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0196",
+      "text": "An alarm system in set state shall not exhibit unexpected deactivation without reactivation within 1 s after each outside air discharge at ± 15 kV.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 24,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0197",
+      "text": "Each alarm system ESD test shall be performed with 3 discharges with a minimum of 5 s interval between each discharge.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 24,
+        "paragraph": "Annex 7 3. Table 2"
+      }
+    },
+    {
+      "id": "G-0198",
+      "text": "For the radiated emissions test, the alarm system shall be in set state.",
+      "source": {
+        "regulation": "UN R163",
+        "version": "0.3.0",
+        "page": 24,
+        "paragraph": "Annex 7 4"
+      }
+    },
+    {
+      "id": "G-0199",
+      "text": "An approval mark shall be affixed to every electrical/electronic sub-assembly conforming to a type approved under this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0200",
+      "text": "The international approval mark shall be affixed in a conspicuous and easily accessible place specified on the approval communication form.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0201",
+      "text": "The approval mark shall comprise a circle containing the letter \"E\" followed by the distinguishing number of the country granting the approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0202",
+      "text": "The approval mark shall comprise the number of this Regulation followed by the letter \"R\", a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0203",
+      "text": "The ESA sample(s) shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 6,
+        "paragraph": "3.2.6"
+      }
+    },
+    {
+      "id": "G-0204",
+      "text": "The ESA shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0205",
+      "text": "The ESA shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0206",
+      "text": "The broadband electromagnetic interference generated by the ESA shall be 62 to 52 dB microvolts/m in the 30 to 75 MHz frequency band, decreasing logarithmically with frequencies above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0207",
+      "text": "For broadband ESA emissions in the 400 to 1,000 MHz frequency band, the limit shall remain constant at 63 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0208",
+      "text": "The narrowband electromagnetic interference generated by the ESA shall be 52 to 42 dB microvolts/m in the 30 to 75 MHz frequency band, decreasing logarithmically with frequencies above 30 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0209",
+      "text": "For narrowband ESA emissions in the 400 to 1,000 MHz frequency band, the limit shall remain constant at 53 dB microvolts/m.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0210",
+      "text": "The maximum allowed positive pulse amplitude of transient conducted disturbances emitted by the ESA on 12 V supply lines shall be +75 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0211",
+      "text": "The maximum allowed negative pulse amplitude of transient conducted disturbances emitted by the ESA on 12 V supply lines shall be -100 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0212",
+      "text": "The ESA shall be considered as complying with immunity requirements if, during the tests, there is no degradation of performance of immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0213",
+      "text": "The ESA shall be tested for immunity to transient disturbances conducted along 12 V supply lines using the starting profile according to ISO 16750-2 and pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0214",
+      "text": "For test pulse 1, the ESA shall withstand an immunity test level of -75 V for 500 pulses, with functional status classification III for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0215",
+      "text": "For test pulse 2a, the ESA shall withstand an immunity test level of +37 V for 500 pulses, with functional status classification I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0216",
+      "text": "For test pulse 3a, the ESA shall withstand an immunity test level of -112 V for 1 hour, with functional status classification I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0217",
+      "text": "For test pulse 3b, the ESA shall withstand an immunity test level of +75 V for 1 hour, with functional status classification I for immunity related functions.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0218",
+      "text": "Where the ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, it shall be deemed to comply with the narrowband emission requirements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0219",
+      "text": "Where the ESA is not switched, contains no switches and includes no inductive load, it need not be tested for transient conducted emission.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.5"
+      }
+    },
+    {
+      "id": "G-0220",
+      "text": "Where the ESA includes an RF transmitter, it shall be tested in the transmit mode.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "G-0221",
+      "text": "For narrowband ESA emission measurements, the extraneous noise or signal shall be at least 6 dB below the interference limits given in paragraph 6.6.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 3.3"
+      }
+    },
+    {
+      "id": "G-0222",
+      "text": "During the narrowband emission test the ESA under test shall be in normal operation mode, preferably in maximum load.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 96,
+        "paragraph": "Annex 8 2"
+      }
+    },
+    {
+      "id": "G-0223",
+      "text": "The ESA broadband emission test shall be performed according to the ALSE method described in Clause 6.4 of CISPR 25.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 91,
+        "paragraph": "Annex 7 3.1"
+      }
+    },
+    {
+      "id": "G-0224",
+      "text": "Where peak detectors are used for the ESA broadband emission measurements, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.2"
+      }
+    },
+    {
+      "id": "G-0225",
+      "text": "For broadband ESA emission measurements, the extraneous noise or signal shall be at least 6 dB below the interference limits given in paragraph 6.5.2.1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0226",
+      "text": "The ESA may comply with the immunity requirements using any combination of the absorber chamber, TEM cell, bulk current injection, stripline and reverberation chamber test methods, provided the full 20 to 6,000 MHz frequency range is covered.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      }
+    },
+    {
+      "id": "G-0227",
+      "text": "During the immunity tests the ESA under test shall be switched on and stimulated to be in normal operation condition.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 2.2"
+      }
+    },
+    {
+      "id": "G-0228",
+      "text": "ESA immunity measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0229",
+      "text": "For the absorber chamber ESA immunity test, the substitution method according to ISO 11452-2 shall be used with vertical polarization.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "G-0230",
+      "text": "For the BCI ESA immunity test, the substitution method shall be used with the injection probe positioned at 150 mm distance to the ESA.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "G-0231",
+      "text": "The ESA shall be subjected to test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 on the supply lines and on other connections which may be operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    },
+    {
+      "id": "G-0232",
+      "text": "The ESA shall be subjected to the starting profile according to ISO 16750-2 on the supply lines and on other connections which may be operationally connected to supply lines.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 108,
+        "paragraph": "Annex 10 2"
+      }
+    }
+  ]
+}

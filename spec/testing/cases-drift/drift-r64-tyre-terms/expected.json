@@ -1,0 +1,106 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r64-tyre-terms",
+  "changes": [
+    {
+      "requirement_id": "R-009",
+      "change": "modified",
+      "new_text": "The test shall be carried out using the service braking system from an initial speed of 80 km/h with the engine disconnected. In the case of vehicles equipped with an ADS, the special provisions of Annex 5 shall also be considered.",
+      "reason": "Paragraph Annex 3 2.2 of UN R64 was amended in version 3.2.0: 'In the case of vehicles equipped with an ADS, the special provisions of Annex 5 shall also be considered.' was added.",
+      "source": {
+        "page": 12,
+        "paragraph": "Annex 3 2.2"
+      }
+    },
+    {
+      "requirement_id": "R-010",
+      "change": "modified",
+      "new_text": "The braking performance shall correspond to the test procedure given in UN Regulation No. 13 or 13-H for categories M1 and N1 vehicles for the Type O cold test with the engine disconnected, and is based on the stopping distance and the mean fully developed deceleration.",
+      "reason": "Paragraph Annex 3 2.3 of UN R64 was amended in version 3.2.0: 'UN' was added; 'In the case of vehicles equipped with an ADS, the special provisions of Annex 5 shall also be considered.' was added.",
+      "source": {
+        "page": 12,
+        "paragraph": "Annex 3 2.3"
+      }
+    },
+    {
+      "requirement_id": "R-011",
+      "change": "modified",
+      "new_text": "The performance of the vehicle shall be determined by measuring the stopping distance in relation to the prescribed speed of the vehicle and/or by measuring the mean fully developed deceleration during the test. In the case of vehicles equipped with an ADS, the special provisions of Annex 5 shall also be considered.",
+      "reason": "Paragraph Annex 3 2.3 of UN R64 was amended in version 3.2.0: 'UN' was added; 'In the case of vehicles equipped with an ADS, the special provisions of Annex 5 shall also be considered.' was added.",
+      "source": {
+        "page": 12,
+        "paragraph": "Annex 3 2.3"
+      }
+    },
+    {
+      "requirement_id": "R-030",
+      "change": "modified",
+      "new_text": "The requirements of either paragraph 2.1.1. or 2.1.2. shall be met. In the case of vehicles equipped with an ADS, the special provisions of Annex 5 shall also be considered.",
+      "reason": "Paragraph Annex 4 2.1 of UN R64 was amended in version 3.2.0: 'In the case of vehicles equipped with an ADS, the special provisions of Annex 5 shall also be considered.' was added.",
+      "source": {
+        "page": 14,
+        "paragraph": "Annex 4 2.1"
+      }
+    },
+    {
+      "requirement_id": "R-031",
+      "change": "modified",
+      "new_text": "With the vehicle stationary and the vehicle master control switch in the \"Lock\" or \"Off\" position, turn the vehicle master control switch to the \"On\" (\"Run\") position or, where applicable, the appropriate key position, and confirm the activation of the warning signal.",
+      "reason": "Paragraph Annex 4 2.1.1.2 of UN R64 was amended in version 3.2.0: 'ignition (start)' became 'vehicle master control'; 'ignition (start)' became 'vehicle master control'.",
+      "source": {
+        "page": 14,
+        "paragraph": "Annex 4 2.1.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-032",
+      "change": "modified",
+      "new_text": "Turn off the vehicle master control switch and reduce the inflation pressure of any one of the tyres until the adjusted tyre inflation pressure is 100 kPa below the recommended cold inflation pressure.",
+      "reason": "Paragraph Annex 4 2.1.1.3 of UN R64 was amended in version 3.2.0: 'ignition' became 'vehicle master control switch'.",
+      "source": {
+        "page": 14,
+        "paragraph": "Annex 4 2.1.1.3"
+      }
+    },
+    {
+      "requirement_id": "R-034",
+      "change": "modified",
+      "new_text": "The test is completed when either: (a) The run-flat warning system as described in paragraph 5.1.6.1. has activated; or (b) A period of 5 minutes has elapsed, when determined in accordance with paragraph 2.3., from the time the test speed has been reached; if the warning does not activate the test has failed, and the vehicle shall be brought to a halt and the vehicle master control switch switched off.",
+      "reason": "Paragraph Annex 4 2.1.1.5 of UN R64 was amended in version 3.2.0: 'ignition' became 'vehicle master control switch'.",
+      "source": {
+        "page": 14,
+        "paragraph": "Annex 4 2.1.1.5"
+      }
+    },
+    {
+      "requirement_id": "R-035",
+      "change": "modified",
+      "new_text": "If the warning signal as required in paragraph 2.1.1.5. above has activated, wait 5 minutes before turning the vehicle master control switch on; the signal shall reactivate and remain active as long as the vehicle master control switch is in the \"on\" (\"run\") position.",
+      "reason": "Paragraph Annex 4 2.1.1.6 of UN R64 was amended in version 3.2.0: 'ignition' became 'vehicle master control switch'; 'must' became 'shall'; 'ignition' became 'vehicle master control'.",
+      "source": {
+        "page": 14,
+        "paragraph": "Annex 4 2.1.1.6"
+      }
+    },
+    {
+      "requirement_id": "R-042",
+      "change": "modified",
+      "new_text": "When: (a) The run-flat malfunction signal as described in paragraph 5.1.6.4. has activated or; (b) A period of 5 minutes has elapsed, when determined in accordance with paragraph 2.3., from the time the test speed has been reached; if the warning does not activate the test has failed, and the vehicle shall be brought to a halt and the vehicle master control switch switched off.",
+      "reason": "Paragraph Annex 4 2.2.3 of UN R64 was amended in version 3.2.0: 'ignition' became 'vehicle master control switch'.",
+      "source": {
+        "page": 15,
+        "paragraph": "Annex 4 2.2.3"
+      }
+    },
+    {
+      "requirement_id": "R-043",
+      "change": "modified",
+      "new_text": "If the warning signal as required in paragraph 2.2.3. above has activated, wait 5 minutes before turning the vehicle master control switch on; the signal shall reactivate and remain active as long as the vehicle master control switch is in the \"on\" (\"run\") position.",
+      "reason": "Paragraph Annex 4 2.2.4 of UN R64 was amended in version 3.2.0: 'ignition' became 'vehicle master control switch'; 'must' became 'shall'; 'ignition' became 'vehicle master control'.",
+      "source": {
+        "page": 15,
+        "paragraph": "Annex 4 2.2.4"
+      }
+    }
+  ]
+}

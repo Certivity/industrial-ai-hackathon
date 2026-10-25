@@ -1,0 +1,515 @@
+[
+  {
+    "id": "R-001",
+    "text": "An onboard speedometer and odometer complying with the requirements of this Regulation shall be fitted to the vehicle to be approved.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.1"
+    }
+  },
+  {
+    "id": "R-002",
+    "text": "If more than one onboard speedometer or odometer is fitted to the vehicle, all these speedometers and odometers shall comply with all the requirements of this Regulation when displayed.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.1"
+    }
+  },
+  {
+    "id": "R-003",
+    "text": "Additional graduations and numerical values are not permitted.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.1"
+    }
+  },
+  {
+    "id": "R-004",
+    "text": "The display of the speedometer shall be located within the direct field of view of the driver and must be clearly legible both day and night.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.2"
+    }
+  },
+  {
+    "id": "R-005",
+    "text": "The provision on legibility during day and night does not apply to a speedometer in the Field of Vision Assistant (FVA) compliant with the technical requirements of UN Regulation No. 125 or UN Regulation No. 176.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.2"
+    }
+  },
+  {
+    "id": "R-006",
+    "text": "The range of speeds displayed must be sufficiently wide to include the maximum speed of this type of vehicle as stated by the manufacturer.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 3,
+      "paragraph": "5.2"
+    }
+  },
+  {
+    "id": "R-007",
+    "text": "In the case of speedometers intended for vehicles of Categories M, N, and L3, L4, L5, and L7 the graduation shall be 1, 2, 5 or 10 km/h.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1"
+    }
+  },
+  {
+    "id": "R-008",
+    "text": "The numerical values of the speed shall be indicated on the display as follows: when the highest value on the display does not exceed 200 km/h, speed values shall be indicated at intervals not exceeding 20 km/h.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1"
+    }
+  },
+  {
+    "id": "R-009",
+    "text": "When the maximum value on the display exceeds 200 km/h, then the speed values shall be indicated at intervals not exceeding 30 km/h.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1"
+    }
+  },
+  {
+    "id": "R-010",
+    "text": "If a setting makes it possible for the driver to choose between the speed in km/h and mph (miles per hour), then the speed may be displayed only in either km/h or mph at any one time.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1"
+    }
+  },
+  {
+    "id": "R-011",
+    "text": "The corresponding unit shall permanently be displayed.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.1"
+    }
+  },
+  {
+    "id": "R-012",
+    "text": "In the case of vehicles of Categories M, N, and L3, L4, L5, and L7 manufactured for sale in any country where imperial units are used, the speedometer shall also be marked in miles per hour (mph); the graduations shall be of 1, 2, 5 or 10 mph.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.2"
+    }
+  },
+  {
+    "id": "R-013",
+    "text": "The speed may be displayed either in km/h or mph at any one time provided that a setting makes it possible for the driver to choose between the speed in km/h and mph, in that case the corresponding unit shall permanently be displayed.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.2"
+    }
+  },
+  {
+    "id": "R-014",
+    "text": "The numerical values of the speed shall be indicated on the display at intervals not exceeding 20 mph and commencing at 10 or 20 mph.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.2"
+    }
+  },
+  {
+    "id": "R-015",
+    "text": "In the case of speedometers intended for vehicles of categories L1 (mopeds), L2, and L6, the display readings shall not exceed 80 km/h.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.3"
+    }
+  },
+  {
+    "id": "R-016",
+    "text": "The graduation shall be 1, 2, 5 or 10 km/h and the marked numerical values of the speed indicated shall not exceed 10 km/h.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.3"
+    }
+  },
+  {
+    "id": "R-017",
+    "text": "In the case of vehicles of categories L1, L2 and L6 manufactured for sale in any country where imperial units are used, the speedometer shall also be marked in mph; the graduation shall be of 1, 2, 5 or 10 mph.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.4"
+    }
+  },
+  {
+    "id": "R-018",
+    "text": "The numerical values of the speed shall be indicated on the display at intervals not exceeding 10 mph and starting at 10 or 20 mph.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.4"
+    }
+  },
+  {
+    "id": "R-019",
+    "text": "If a setting makes it possible for the driver to choose between the speed in km/h and mph, then the speed may be displayed only in km/h or mph at one time at any one time.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.4"
+    }
+  },
+  {
+    "id": "R-020",
+    "text": "The corresponding unit shall permanently be displayed.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.2.4"
+    }
+  },
+  {
+    "id": "R-021",
+    "text": "The accuracy of the speedometer equipment shall be tested in accordance with the following procedure:",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3"
+    }
+  },
+  {
+    "id": "R-022",
+    "text": "The tyres shall be one of the types normally fitted to the vehicle as defined in paragraph 2.3. of this Regulation.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.1"
+    }
+  },
+  {
+    "id": "R-023",
+    "text": "A test shall be carried out for each type of speedometer intended to be fitted by the manufacturer.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.1"
+    }
+  },
+  {
+    "id": "R-024",
+    "text": "The test shall be carried out with the vehicle at its unladen weight.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.2"
+    }
+  },
+  {
+    "id": "R-025",
+    "text": "An additional weight can be carried for purposes of measurement.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.2"
+    }
+  },
+  {
+    "id": "R-026",
+    "text": "The weight of the vehicle and its distribution between the axles shall be indicated in the approval communication (see Annex 1, item 7.).",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.2"
+    }
+  },
+  {
+    "id": "R-027",
+    "text": "The reference temperature at the speedometer shall be 23 ± 5 °C, if relevant for the test to the discretion of the Technical Service responsible for carrying out the test.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.3"
+    }
+  },
+  {
+    "id": "R-028",
+    "text": "During each test the pressure of the tyres shall be the normal running pressure as defined in paragraph 2.4.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.4"
+    }
+  },
+  {
+    "id": "R-029",
+    "text": "The vehicle is tested at the following speeds: If Vmax ≤ 45 km/h, test speed V1 = 80 % of Vmax.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.5"
+    }
+  },
+  {
+    "id": "R-030",
+    "text": "The vehicle is tested at the following speeds: If 45 < Vmax ≤ 100 km/h, test speed V1 = 40 km/h and 80 % Vmax (if the resulting speed is ≥ 55 km/h).",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.5"
+    }
+  },
+  {
+    "id": "R-031",
+    "text": "The vehicle is tested at the following speeds: If 100 < Vmax ≤ 150 km/h, test speed V1 = 40 km/h, 80 km/h and 80 % Vmax (if the resulting speed is ≥ 100 km/h).",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.5"
+    }
+  },
+  {
+    "id": "R-032",
+    "text": "The vehicle is tested at the following speeds: If 150 < Vmax, test speed V1 = 40 km/h, 80 km/h and 120 km/h.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 4,
+      "paragraph": "5.3.5"
+    }
+  },
+  {
+    "id": "R-033",
+    "text": "The test instrumentation used for measuring the true vehicle speed shall be accurate to ± 0.5 per cent.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.3.6"
+    }
+  },
+  {
+    "id": "R-034",
+    "text": "The surface of a test track when used shall be flat, and provide sufficient adhesion.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.3.6.1"
+    }
+  },
+  {
+    "id": "R-035",
+    "text": "If a roller dynamometer is used for the test, the diameter of the roller should be at least 0.4 m.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.3.6.2"
+    }
+  },
+  {
+    "id": "R-036",
+    "text": "The speed indicated shall not be less than the true speed of the vehicle.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.4"
+    }
+  },
+  {
+    "id": "R-037",
+    "text": "At the test speeds specified in paragraph 5.3.5. above, there shall be the following relationship between the speed displayed (V1) and the true speed (V2): 0 ≤ (V1 - V2) ≤ 0.1 V2 + 4 km/h.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.4"
+    }
+  },
+  {
+    "id": "R-038",
+    "text": "The display of the odometer shall be visible or accessible to the driver.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5"
+    }
+  },
+  {
+    "id": "R-039",
+    "text": "The odometer shall display at least an integer number composed of a minimum of 6 numerals for the vehicles of categories M and N, and at least an integer number composed of a minimum of 5 numerals for the vehicles of category L.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5"
+    }
+  },
+  {
+    "id": "R-040",
+    "text": "Nevertheless, the Type Approval Authorities may also accept an integer number composed of at least 5 numerals for the vehicles of categories M and N if the intended use of the vehicle justifies it.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5"
+    }
+  },
+  {
+    "id": "R-041",
+    "text": "In the case of vehicles manufactured for sale in any country where imperial units are used, the odometer shall be marked in miles.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.1"
+    }
+  },
+  {
+    "id": "R-042",
+    "text": "The odometer shall display the distance in the unit corresponding to that of the predominant speedometer scale.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.2"
+    }
+  },
+  {
+    "id": "R-043",
+    "text": "If a setting makes it possible for the driver to select the odometer display distance in km or miles independently of the speedometer, the odometer shall identify the unit used.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.5.2"
+    }
+  },
+  {
+    "id": "R-044",
+    "text": "Paragraphs 5.7. to 5.9. and 5.11. to 5.12. do not apply to vehicles fitted with purely mechanical odometers.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.6"
+    }
+  },
+  {
+    "id": "R-045",
+    "text": "Paragraphs 5.9. and 5.11. to 5.12. do not apply to L category vehicles.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.6"
+    }
+  },
+  {
+    "id": "R-046",
+    "text": "For vehicles equipped with a tachograph or recording equipment, or where a tachograph replacement unit is the only source of measuring mileage, the requirements of paragraphs 5.7. to 5.9. and 5.12. are considered to be met, if the security and accuracy of the recording equipment are at least equivalent to the requirements of this UN Regulation.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.6"
+    }
+  },
+  {
+    "id": "R-047",
+    "text": "The accuracy of the odometer equipment shall be tested in accordance with the test procedure prescribed in Annex 4.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.7"
+    }
+  },
+  {
+    "id": "R-048",
+    "text": "The total distance indicated shall not deviate by more than ±4.0 per cent from the true distance travelled as determined in paragraph 5.7.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.8"
+    }
+  },
+  {
+    "id": "R-049",
+    "text": "When total distance values are provided by the serial data port on the standardised data link connector, as specified in paragraph 6.5.3 of Appendix 1 of Annex C5 to UN Regulation No. 154 or as specified in paragraph 4.7.3. of Annex 9B to UN Regulation No. 49, these values shall not deviate from the (rounded) total distance indicated.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.9"
+    }
+  },
+  {
+    "id": "R-050",
+    "text": "However, this does not apply to the total distance travelled (lifetime) as defined in UN Regulation No. 154.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.9"
+    }
+  },
+  {
+    "id": "R-051",
+    "text": "Total distance values and the total distance indicated shall have a resolution better than or equal to 1 km or 1 mile, as appropriate.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 5,
+      "paragraph": "5.10"
+    }
+  },
+  {
+    "id": "R-052",
+    "text": "In the case of an electrically detectable failure preventing the odometer requirements of this UN Regulation from being met, a malfunction indication shall be provided to the driver, if not already covered by other failure warnings and/or other failure conditions.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.11"
+    }
+  },
+  {
+    "id": "R-053",
+    "text": "The malfunction indication shall be active when the malfunction occurs and shall remain active as long as the malfunction persists.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.11.1"
+    }
+  },
+  {
+    "id": "R-054",
+    "text": "It may be temporarily cancelled, but shall be repeated each time the ignition or the vehicle master control switch is activated.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.11.1"
+    }
+  },
+  {
+    "id": "R-055",
+    "text": "At the time of type approval, the means of indicating malfunction chosen by the manufacturer shall be confidentially outlined.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.11.2"
+    }
+  },
+  {
+    "id": "R-056",
+    "text": "The total distance indicated and total distance values shall be protected against manipulation.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.12"
+    }
+  },
+  {
+    "id": "R-057",
+    "text": "This shall be deemed to be complied with when: (a) the manufacturer’s management system encompassing cyber security is complying with the relevant requirements of UN Regulation No. 155, the original or any later series of amendments, with regard to total distance indicated and total distance values and (b) proportionate mitigations are implemented, including, or equivalent to, mitigation 7 referred to in Annex 5, Part B, Table B5 of UN Regulation No. 155.",
+    "source": {
+      "regulation": "UN R39",
+      "page": 6,
+      "paragraph": "5.12"
+    }
+  }
+]

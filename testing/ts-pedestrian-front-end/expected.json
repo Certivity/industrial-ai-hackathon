@@ -1,0 +1,1256 @@
+{
+  "team_id": "synthetic",
+  "case_id": "ts-pedestrian-front-end",
+  "requirements": [
+    {
+      "id": "G-0001",
+      "text": "The bonnet top shall bound the adult headform test area in the front by a WAD of 1,700 mm or a line 82.5 mm rearward of the bonnet leading edge reference line, whichever is most rearward at a given lateral position.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 1,
+        "paragraph": "2.1"
+      }
+    },
+    {
+      "id": "G-0002",
+      "text": "The bonnet top shall bound the adult headform test area at each side by a line 82.5 mm inside the side reference line.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 1,
+        "paragraph": "2.1"
+      }
+    },
+    {
+      "id": "G-0003",
+      "text": "The bonnet top shall bound the child headform test area in the front by a WAD 1,000 mm or a line 82.5 mm rearward of the bonnet leading edge reference line, whichever is most rearward.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 5,
+        "paragraph": "2.16"
+      }
+    },
+    {
+      "id": "G-0004",
+      "text": "The bonnet top shall bound the child headform test area at the rear by a WAD 1,700 mm or a line 82.5 mm forward of the bonnet rear reference line, whichever is most forward.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 5,
+        "paragraph": "2.16"
+      }
+    },
+    {
+      "id": "G-0005",
+      "text": "Where the lower bumper height at the test position is less than 425 mm, the bumper shall comply with the flexible lower legform to bumper requirements of paragraph 5.1.1.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0006",
+      "text": "Where the lower bumper height at the test position is greater than or equal to 500 mm, the bumper shall comply with the upper legform to bumper requirements of paragraph 5.1.2.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "id": "G-0007",
+      "text": "When tested in accordance with Annex 5 paragraph 1, the bumper shall limit the absolute maximum dynamic medial collateral ligament elongation at the knee to 22 mm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0008",
+      "text": "When tested in accordance with Annex 5 paragraph 1, the bumper shall limit the maximum dynamic anterior cruciate ligament and posterior cruciate ligament elongation to 13 mm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0009",
+      "text": "When tested in accordance with Annex 5 paragraph 1, the bumper shall limit the absolute dynamic tibia bending moment to 340 Nm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0010",
+      "text": "Where the manufacturer nominates relaxation bumper test widths up to 264 mm in total, the tibia bending moment in that zone shall not exceed 380 Nm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "5.1.1"
+      }
+    },
+    {
+      "id": "G-0011",
+      "text": "When tested in accordance with Annex 5 paragraph 2, the bumper shall limit the instantaneous sum of impact forces with respect to time to 7.5 kN.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0012",
+      "text": "When tested in accordance with Annex 5 paragraph 2, the bumper shall limit the bending moment on the test impactor to 510 Nm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "id": "G-0013",
+      "text": "When tested in accordance with Annex 5 paragraphs 3, 4 and 5, the bonnet and front structure shall record a HIC not exceeding 1,000 over two thirds of the combined bonnet top test area and the windscreen test area.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0014",
+      "text": "When tested in accordance with Annex 5 paragraphs 3, 4 and 5, the bonnet shall record a HIC not exceeding 1,000 over two thirds of the bonnet top test area.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0015",
+      "text": "The bonnet top and windscreen test areas shall record a HIC not exceeding 1,700 for both headforms in the remaining test areas.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.1"
+      }
+    },
+    {
+      "id": "G-0016",
+      "text": "When tested in accordance with Annex 5 paragraphs 3 and 4, the bonnet shall record a HIC not exceeding 1,000 over a minimum of one half of the child headform test area.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0017",
+      "text": "The bonnet shall record a HIC not exceeding 1,700 in the remaining child headform test areas.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0018",
+      "text": "Where the vehicle is fitted with an ARHSS that can change the front axle height by more than 20 mm for any speed between 25 and 40 km/h, the front structure shall meet paragraphs 5.1 and 5.2 at all adjustable steady heights corresponding to speeds from 25 to 40 km/h.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0019",
+      "text": "The active bonnet shall be correctly activated before and/or be active during the relevant pedestrian impact test.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 26,
+        "paragraph": "Annex 3 3.2"
+      }
+    },
+    {
+      "id": "G-0020",
+      "text": "The front-end structure shall be conditioned for testing at a relative humidity of 40 per cent ± 30 per cent and a stabilised temperature of 20 °C ± 4 °C.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 25,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0021",
+      "text": "The bumper shall be assessed by a minimum of three lower legform to bumper tests, one each to the middle and outer thirds of the bumper test area at positions judged most likely to cause injury.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.5"
+      }
+    },
+    {
+      "id": "G-0022",
+      "text": "The bumper test points shall be spaced a minimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.5"
+      }
+    },
+    {
+      "id": "G-0023",
+      "text": "The bumper shall be shaped so that the lower legform impactor bottom is at 75 mm ± 10 mm above the ground reference plane at first contact.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.7"
+      }
+    },
+    {
+      "id": "G-0024",
+      "text": "The bumper shall be tested with a lower legform impact velocity of 11.1 m/s ± 0.2 m/s.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.12"
+      }
+    },
+    {
+      "id": "G-0025",
+      "text": "The vehicle shall bear the approval mark of Annex 2, a circle of at least 8 mm containing the letter E with the distinguishing country number, affixed conspicuously in a readily accessible place.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 25,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0026",
+      "text": "The approval mark affixed to the vehicle shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "4.6"
+      }
+    },
+    {
+      "id": "G-0027",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 18,
+        "paragraph": "4.7"
+      }
+    },
+    {
+      "id": "G-0028",
+      "text": "The front-end structure shall provide exterior protection through protective devices located at the front end of the vehicle designed to allow contacts and small shocks without serious damage.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 1,
+        "paragraph": "2.1"
+      }
+    },
+    {
+      "id": "G-0029",
+      "text": "After each impact test made in accordance with Annex 3, the vehicle shall retain lighting and signalling devices that continue to operate correctly and remain visible.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0030",
+      "text": "After each impact test made in accordance with Annex 3, the bonnet shall be operable in the normal manner.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0031",
+      "text": "After each impact test, the side doors of the vehicle shall not be able to open under the effect of the impact.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0032",
+      "text": "After each impact test, the vehicle's front-end systems shall not cause fuel or cooling system leaks or constricted fluid passages preventing normal functioning.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.3"
+      }
+    },
+    {
+      "id": "G-0033",
+      "text": "After each impact test, the front-end structure shall not cause damage or displacement of the exhaust system preventing its normal function.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.4"
+      }
+    },
+    {
+      "id": "G-0034",
+      "text": "After each impact test, the front-end structure shall leave the propulsion, suspension, steering and braking systems in adjustment and operating normally.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "6.1.5"
+      }
+    },
+    {
+      "id": "G-0035",
+      "text": "The bumper and front-end structure shall be tested against a rigid impactor whose impact contour is of hardened steel.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.3.1"
+      }
+    },
+    {
+      "id": "G-0036",
+      "text": "The front-end structure shall be tested with a longitudinal impactor effective mass equal to the unladen weight of the vehicle.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.3.3"
+      }
+    },
+    {
+      "id": "G-0037",
+      "text": "The bumper shall be impacted at a reference height of 445 mm with the reference line horizontal and plane A of the impactor vertical.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.3.6"
+      }
+    },
+    {
+      "id": "G-0038",
+      "text": "The front-end structure shall withstand two low-speed longitudinal impacts on the front surface, one at unladen weight and one at laden test weight.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.7.1"
+      }
+    },
+    {
+      "id": "G-0039",
+      "text": "The front bumper shall be impacted at two locations whose impactor median planes are at least 300 mm apart, with impactor extremities not passing outside the planes through the vehicle corners.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.7.2"
+      }
+    },
+    {
+      "id": "G-0040",
+      "text": "The bumper shall be impacted with the impactor plane A vertical and the reference line horizontal at the 445 mm reference height.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.7.3"
+      }
+    },
+    {
+      "id": "G-0041",
+      "text": "The front bumper shall be tested at a longitudinal impact speed of 4 km/h with a tolerance of +0.25/-0 km/h.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.7.5"
+      }
+    },
+    {
+      "id": "G-0042",
+      "text": "The front bumper shall withstand a corner impact at one front corner with the vehicle at unladen weight and an impact at the other front corner at laden test weight.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 2.8.1"
+      }
+    },
+    {
+      "id": "G-0043",
+      "text": "For the corner impact, the bumper shall be aligned so that plane A of the impactor makes an angle of 60° ± 5° with the longitudinal median plane.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 2.8.3"
+      }
+    },
+    {
+      "id": "G-0044",
+      "text": "For the corner impact, the bumper corner shall first contact the impactor within ±25 mm of the impactor vertical median plane.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 2.8.3"
+      }
+    },
+    {
+      "id": "G-0045",
+      "text": "The front bumper corner shall be tested at an impact speed of 2.5 km/h with a tolerance of +0.1/-0 km/h.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 2.8.4"
+      }
+    },
+    {
+      "id": "G-0046",
+      "text": "Where the bumper fascia uses self-restoring material, the permitted recovery time between low-speed impact tests shall be as stated by the manufacturer.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 3.2"
+      }
+    },
+    {
+      "id": "G-0047",
+      "text": "The front-end structure impact tests shall be recorded with a speed-measuring instrument accurate to within one per cent.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 3.6"
+      }
+    },
+    {
+      "id": "G-0048",
+      "text": "The vehicle shall bear the approval mark of Annex 2 Model A affixed conspicuously in a readily accessible place specified on the approval form.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 6,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0049",
+      "text": "The approval mark affixed to the vehicle shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.6"
+      }
+    },
+    {
+      "id": "G-0050",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 3,
+        "paragraph": "5.7"
+      }
+    },
+    {
+      "id": "G-0051",
+      "text": "The external surface of the front-end structure shall not exhibit, directed outwards, any pointed or sharp parts or projections likely to increase the risk or seriousness of injury to a person hit by or brushing against the vehicle.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "id": "G-0052",
+      "text": "The external surface of the front-end structure shall not exhibit any outward-directed part likely to catch on pedestrians, cyclists or motor cyclists.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0053",
+      "text": "No protruding part of the front-end external surface shall have a radius of curvature less than 2.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0054",
+      "text": "Where external surface parts of the front-end structure protrude less than 5 mm, their outward facing angles shall be blunted.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.4"
+      }
+    },
+    {
+      "id": "G-0055",
+      "text": "Protruding parts of the bumper fascia made of material with hardness not exceeding 60 Shore A may have a radius of curvature less than 2.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 4,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0056",
+      "text": "Any added ornament on the front-end structure projecting more than 10 mm from its support shall retract, detach or bend over under a force of 10 daN applied at its most salient point.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0057",
+      "text": "After the ornament test, the remaining projections on the front-end structure shall not project more than 10 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0058",
+      "text": "Protective strips or shielding on the front-end external surface shall be firmly secured to the vehicle.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "G-0059",
+      "text": "Where the front bumper fascia incorporates grilles or gaps, the distance between consecutive elements shall not exceed 40 mm and the grilles and gaps shall have a functional purpose.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0060",
+      "text": "Where the gap between consecutive front-end grille elements is between 40 mm and 25 mm, the radii of curvature shall be 1 mm or more.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0061",
+      "text": "Where the distance between two consecutive front-end grille elements is equal to or less than 25 mm, the radii of curvature of the external faces shall not be less than 0.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.3.1"
+      }
+    },
+    {
+      "id": "G-0062",
+      "text": "The junction of the front with the side faces of each element forming a front-end grille or gap shall be blunted.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 5,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "G-0063",
+      "text": "The ends of the bumper shall be turned in towards the external surface to minimise the risk of fouling.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0064",
+      "text": "Where the bumper is not recessed or integrated within the bodywork, the bumper end shall be turned in so it is not contactable by a 100 mm sphere and the gap to the surrounding bodywork shall not exceed 20 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "id": "G-0065",
+      "text": "Where the bumper outline contour lies on a rigid surface, that surface shall have a minimum radius of curvature of 5 mm at all points from the contour line to 20 mm inward.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "G-0066",
+      "text": "In all other cases the bumper surface from the contour line to 20 mm inward shall have a minimum radius of curvature of 2.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 6,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "id": "G-0067",
+      "text": "Parts on the bumper or bumper insets projecting less than 5 mm shall be exempt from the 2.5 mm radius requirement, but their outward facing angles shall be blunted.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "id": "G-0068",
+      "text": "The bumper cover of the front-end structure shall not be subject to the radius of curvature requirement of paragraph 6.5.2, while paragraph 5 remains applicable.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.5.4"
+      }
+    },
+    {
+      "id": "G-0069",
+      "text": "Sheet-metal edges on the front-end structure shall be folded back or fitted with a shield meeting the requirements of this Regulation.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "G-0070",
+      "text": "An unprotected sheet-metal edge of the front-end structure shall be folded back approximately 180° or folded towards the bodywork so it cannot be contacted by a 100 mm sphere.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.8.1"
+      }
+    },
+    {
+      "id": "G-0071",
+      "text": "Folds in front-end body panels may have a radius of curvature less than 2.5 mm provided it is not less than one-tenth of the projection height H.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0072",
+      "text": "Jacking brackets and exhaust pipes at the front-end shall not project more than 10 mm beyond the vertical projection of the floor line lying vertically above them.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.11.1"
+      }
+    },
+    {
+      "id": "G-0073",
+      "text": "Registration plate supporting brackets on the front bumper shall comply with the 2.5 mm radius requirement if contactable by a 100 mm diameter sphere when a plate is fitted.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "6.15.1"
+      }
+    },
+    {
+      "id": "G-0074",
+      "text": "The projection height H of folds in front-end body panels shall be determined graphically by reference to the circumference of a 165 mm diameter circle internally tangential to the external outline.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "Annex 3 1.1"
+      }
+    },
+    {
+      "id": "G-0075",
+      "text": "The projection dimension of a component mounted on a non-convex front-end surface shall be determined by the maximum variation of the distance of the centre of a 100 mm diameter sphere from the nominal line of the panel.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "Annex 3 2.2"
+      }
+    },
+    {
+      "id": "G-0076",
+      "text": "The projection of headlamp visors and rims on the front-end structure shall be measured horizontally from the point of contact of a 100 mm diameter sphere.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 15,
+        "paragraph": "Annex 3 3.1"
+      }
+    },
+    {
+      "id": "G-0077",
+      "text": "The vehicle shall bear the approval mark of Annex 2 with a circle of at least 8 mm containing E and the distinguishing number, affixed conspicuously in a readily accessible place.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 14,
+        "paragraph": "Annex 2"
+      }
+    },
+    {
+      "id": "G-0078",
+      "text": "The approval mark affixed to the vehicle shall be clearly legible and indelible.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 3,
+        "paragraph": "4.1.6"
+      }
+    },
+    {
+      "id": "G-0079",
+      "text": "The approval mark shall be placed close to or on the vehicle data plate.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 3,
+        "paragraph": "4.1.7"
+      }
+    },
+    {
+      "id": "G-0080",
+      "text": "The active bonnet sensors and ECU and other electrical/electronic systems of the front-end structure shall be designed, constructed and fitted so that the vehicle complies with this Regulation in normal conditions of use.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "G-0081",
+      "text": "The vehicle fitted with the pedestrian impact sensors and ECU shall be tested for radiated emissions and immunity to radiated disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "6.1.1.1"
+      }
+    },
+    {
+      "id": "G-0082",
+      "text": "The pedestrian impact sensor and ECU sub-assembly shall be tested for radiated and conducted emissions and for immunity to radiated and conducted disturbances.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.1.1.2"
+      }
+    },
+    {
+      "id": "G-0083",
+      "text": "At a 10.0 ± 0.2 m antenna spacing, the vehicle's broadband radiated emissions shall not exceed 32 dBµV/m in 30 to 75 MHz and 32 to 43 dBµV/m in 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0084",
+      "text": "At a 10.0 ± 0.2 m antenna spacing, the vehicle's broadband radiated emissions shall not exceed 43 dBµV/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.1"
+      }
+    },
+    {
+      "id": "G-0085",
+      "text": "At a 3.0 ± 0.05 m antenna spacing, the vehicle's broadband radiated emissions shall not exceed 42 dBµV/m in 30 to 75 MHz and 42 to 53 dBµV/m in 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.2.2.2"
+      }
+    },
+    {
+      "id": "G-0086",
+      "text": "At a 10.0 ± 0.2 m antenna spacing, the vehicle's narrowband radiated emissions shall not exceed 28 dBµV/m in 30 to 230 MHz and 35 dBµV/m in 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.1"
+      }
+    },
+    {
+      "id": "G-0087",
+      "text": "At a 3.0 ± 0.05 m antenna spacing, the vehicle's narrowband radiated emissions shall not exceed 38 dBµV/m in 30 to 230 MHz and 45 dBµV/m in 230 to 1,000 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 9,
+        "paragraph": "6.3.2.2"
+      }
+    },
+    {
+      "id": "G-0088",
+      "text": "The vehicle shall be immune to radiated field strengths of 30 V/m over 90 per cent and a minimum of 25 V/m over the whole 20 to 2,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0089",
+      "text": "The vehicle shall be immune to radiated field strengths of 10 V/m over 90 per cent and a minimum of 8 V/m over the whole 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.1"
+      }
+    },
+    {
+      "id": "G-0090",
+      "text": "During the immunity tests, the active bonnet pedestrian protection function shall show no degradation of performance as an immunity related function.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.4.2.2"
+      }
+    },
+    {
+      "id": "G-0091",
+      "text": "The pedestrian protection sensor and ECU ESA shall not exceed broadband radiated emission limits of 62 to 52 dBµV/m in 30 to 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0092",
+      "text": "The pedestrian protection sensor and ECU ESA shall not exceed broadband radiated emission limits of 52 to 63 dBµV/m in 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0093",
+      "text": "The pedestrian protection sensor and ECU ESA shall not exceed a broadband radiated emission limit of 63 dBµV/m in the 400 to 1,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.5.2.1"
+      }
+    },
+    {
+      "id": "G-0094",
+      "text": "The pedestrian protection ESA shall not exceed narrowband radiated emission limits of 52 to 42 dBµV/m in 30 to 75 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0095",
+      "text": "The pedestrian protection ESA shall not exceed narrowband radiated emission limits of 42 to 53 dBµV/m in 75 to 400 MHz.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 10,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "id": "G-0096",
+      "text": "The pedestrian protection ESA fitted to a 12 V system shall limit positive transient pulse amplitude on the supply lines to +75 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1"
+      }
+    },
+    {
+      "id": "G-0097",
+      "text": "The pedestrian protection ESA fitted to a 12 V system shall limit negative transient pulse amplitude on the supply lines to -100 V.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.7.1. Table 1"
+      }
+    },
+    {
+      "id": "G-0098",
+      "text": "The pedestrian protection ESA shall withstand a stripline test level of 60 V/m over 90 per cent of the 20 to 400 MHz frequency band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0099",
+      "text": "The pedestrian protection ESA shall withstand an ALSE radiated immunity test level of 30 V/m over 90 per cent of the 80 to 2,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0100",
+      "text": "The pedestrian protection ESA shall withstand a bulk current injection test level of 60 mA over 90 per cent of the 20 to 400 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0101",
+      "text": "The pedestrian protection ESA shall withstand an ALSE radiated immunity test level of 10 V/m over 90 per cent of the 2,000 to 6,000 MHz band.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 11,
+        "paragraph": "6.8.2.1. Table 2a"
+      }
+    },
+    {
+      "id": "G-0102",
+      "text": "During the ESA immunity tests, the pedestrian protection function shall show no degradation of performance.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.8.2.2"
+      }
+    },
+    {
+      "id": "G-0103",
+      "text": "The pedestrian protection ESA shall be immune to transient disturbances conducted along the 12/24 V supply lines as tested by ISO 7637-2 pulses 1, 2a, 2b, 3a and 3b and the ISO 16750-2 starting profile.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0104",
+      "text": "The pedestrian protection ESA which must be operational during engine start phases shall withstand the ISO 16750-2 starting profile with a functional status of B, applied as 10 pulses.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0105",
+      "text": "The pedestrian protection ESA in a 12 V system shall withstand test pulse 1 at -75 V for 500 pulses with functional status III.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0106",
+      "text": "The pedestrian protection ESA in a 12 V system shall withstand test pulse 2a at +37 V for 500 pulses with functional status I.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0107",
+      "text": "The pedestrian protection ESA in a 12 V system shall withstand test pulse 2b at +10 V for 10 pulses with functional status II.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0108",
+      "text": "The pedestrian protection ESA in a 12 V system shall withstand test pulse 3a at -112 V for 1 h with functional status I.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0109",
+      "text": "The pedestrian protection ESA in a 12 V system shall withstand test pulse 3b at +75 V for 1 h with functional status I.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.9.1"
+      }
+    },
+    {
+      "id": "G-0110",
+      "text": "Where the pedestrian protection ESA does not include an electronic oscillator operating above 9 kHz, it shall be deemed to comply with the narrowband emission requirements.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 12,
+        "paragraph": "6.10.1"
+      }
+    },
+    {
+      "id": "G-0111",
+      "text": "Where a radio frequency transmitter is part of the front-end electronics, it shall be tested in transmit mode, with wanted emissions within the necessary bandwidth disregarded.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 13,
+        "paragraph": "6.10.7"
+      }
+    },
+    {
+      "id": "G-0112",
+      "text": "The vehicle shall bear the international approval mark of paragraph 5.3 affixed conspicuously and in an easily accessible place specified on the communication form.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3"
+      }
+    },
+    {
+      "id": "G-0113",
+      "text": "The approval mark shall comprise a circle containing the letter E followed by the distinguishing number of the country granting approval.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.1"
+      }
+    },
+    {
+      "id": "G-0114",
+      "text": "The approval mark shall comprise the number of this Regulation followed by the letter R, a dash and the approval number to the right of the circle.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.3.2"
+      }
+    },
+    {
+      "id": "G-0115",
+      "text": "Every pedestrian protection ESA conforming to an approved type shall bear the approval mark described in paragraph 5.3.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.2.2"
+      }
+    },
+    {
+      "id": "G-0116",
+      "text": "Where the pedestrian protection ESA is installed in the vehicle, its approval marking need not be visible.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 8,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "id": "G-0117",
+      "text": "The approval mark affixed to the vehicle or ESA shall have a circle of at least 6 mm.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 44,
+        "paragraph": "Annex 1"
+      }
+    },
+    {
+      "id": "G-0118",
+      "text": "The radiated broadband emission measurements of the vehicle shall be performed with a spectrum analyser or a scanning receiver using the parameters of Table 1 or Table 2.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 57,
+        "paragraph": "Annex 4 4.3"
+      }
+    },
+    {
+      "id": "G-0119",
+      "text": "The radiated emission measurements shall be made on the left and right sides of the vehicle in both horizontal and vertical polarisation.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 58,
+        "paragraph": "Annex 4 4.6"
+      }
+    },
+    {
+      "id": "G-0120",
+      "text": "The narrowband radiated emission measurements of the vehicle shall be performed with an average detector.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 68,
+        "paragraph": "Annex 5 4.2"
+      }
+    },
+    {
+      "id": "G-0121",
+      "text": "The vehicle shall be exposed to electromagnetic radiation over the 20 to 6,000 MHz range in vertical polarization during the immunity test.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0122",
+      "text": "The immunity test signal shall be amplitude modulated with 1 kHz modulation and 80 per cent depth in the 20 to 400 MHz range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 79,
+        "paragraph": "Annex 6 4.1"
+      }
+    },
+    {
+      "id": "G-0123",
+      "text": "The ESA radiated emission test environment shall have extraneous noise or signal at least 6 dB below the interference limits.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "G-0124",
+      "text": "The pedestrian protection ESA immunity measurements shall be made over the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 98,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "G-0125",
+      "text": "The pedestrian protection ESA may be tested by any combination of the absorber chamber, TEM cell, bulk current injection, stripline or reverberation chamber test methods covering the full frequency range.",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 97,
+        "paragraph": "Annex 9 1.2.1"
+      }
+    }
+  ]
+}

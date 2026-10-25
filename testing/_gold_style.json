@@ -1,0 +1,80 @@
+{
+  "_source": "computed from the expert gold of the dev case (190 requirements, 4 regulations); rules are generic, no product text",
+  "_note": "Use as shape rules for a synthetic expected.json. Numbers are targets, +-25% is fine.",
+  "counts": {
+    "regulations": 4,
+    "regulations_range": [
+      3,
+      5
+    ],
+    "requirements": 190,
+    "requirements_range": [
+      120,
+      240
+    ],
+    "per_regulation": {
+      "largest": 63,
+      "smallest": 32,
+      "median": 47.5,
+      "note": "one regulation (the product's own device regulation) 30-35% of the total, the rest spread 17-30% each"
+    },
+    "distinct_paragraphs": 121,
+    "requirements_per_cited_paragraph": 1.57,
+    "paragraph_multiplicity": "87 of 121 paragraphs hold 1 requirement, 19 hold 2, 8 hold 3, a few hold 4-10 (long enumerations and parameter lists)",
+    "distinct_pages": 53,
+    "requirements_per_page": 3.6
+  },
+  "regulation_choice": [
+    "Cite the consolidated / newest regulation for a topic, never one it supersedes, even when the product description mentions the older device type or the older regulation number.",
+    "Include the vehicle-installation regulation, the device-performance regulation(s) for each light/device the product is, and the device-marking/approval regulation if the product is a type-approved part.",
+    "Include a horizontal regulation (e.g. electromagnetic compatibility) when the product contains electronics (LED modules, a PCB, a controller), although no product-specific regulation cites it by number.",
+    "Leave out regulations about product kinds that are not present (other lamp functions, other vehicle categories, systems the product does not have)."
+  ],
+  "section_mix": {
+    "function_named_sections": "26% of requirements: sections named after a part or function of the product (installation rules, photometry/shape of the function the product performs)",
+    "markings": "17%: approval-mark, identification and marking rules of the device",
+    "general_and_emc_specifications": "44%: general specifications of the device, design/construction, electronic immunity and emission limits, mechanical/colour/material demands that apply because the product is a device, an electronic assembly or a plastic part; many of them are never named in the product description",
+    "test_annex_methods": "12%: test-method annexes (weathering, thermal, ageing, photometric measuring conditions, sample numbers, tolerances), only the parameter lines that fix a condition, limit or sample count"
+  },
+  "include": [
+    "Obligations that bind the product, its design, its marking, its performance or its installation.",
+    "Test-procedure parameters that fix a product condition (temperature, duration, test level, number of samples, tolerance) as a standalone requirement of the product or test sample.",
+    "Conditional obligations (When / Where / For ...) with the condition kept inside the requirement.",
+    "Obligations of the manufacturer that concern the product itself (e.g. what a marking must contain, how a sample must be supplied)."
+  ],
+  "exclude": [
+    "Administrative and application paperwork (how to apply for approval, documents to submit, communication of approvals, conformity of production procedures), and duties of type-approval authorities and technical services.",
+    "Definitions, scope statements, transitional provisions, explanatory notes and pure cross-reference sentences with no obligation of their own.",
+    "Requirements for variants the product is not: in a table keep only the row(s) for the product's own variant (e.g. its colour, class, category), not the other rows.",
+    "Obligations that are only permissions or options for something the product does not have."
+  ],
+  "requirement_form": {
+    "one_atomic_obligation_each": true,
+    "pattern": "X shall Y [when/where Z].",
+    "starts_with": "'The ...' 64%, 'When ...' 12%, 'For ...' 8%, 'Where ...' 5%, 'While ...' 4%, other 7%",
+    "contains_shall_or_must": "99.5%",
+    "negative_form_shall_not": "13%",
+    "length_words": {
+      "median": 35,
+      "mean": 38,
+      "min": 7,
+      "max": 145
+    },
+    "length_chars": {
+      "p10": 113,
+      "median": 212,
+      "p90": 382
+    },
+    "style": "Verbatim or near-verbatim sentence of the regulation, standalone (cross-references like 'paragraph 5.1.7.' are kept as in the source), numbers and units kept exactly. A list item is its own requirement with the lead-in sentence repeated or merged into it."
+  },
+  "citation": {
+    "fields": [
+      "regulation",
+      "version",
+      "page",
+      "paragraph"
+    ],
+    "paragraph_depth": "mostly 3-4 levels deep (e.g. 6.10.4.2): 44% depth 3, 33% depth 2, 14% depth 1, ~6% depth 4+, ~4% top-level; annex items look like 'Annex 6 Part 6 3. Table A6-1'",
+    "note": "paragraph is the numbered paragraph the sentence sits in; page is the page of the PDF the paragraph starts on; the cited paragraph exists in the regulation text."
+  }
+}

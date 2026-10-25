@@ -88,7 +88,12 @@ def text_of(nodes: list[Node]) -> str:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Check that every number of the expert requirements is in the parsed text.")
     parser.add_argument("--all", action="store_true", help="also list the requirements that pass")
+    parser.add_argument("--parser", choices=("rules", "marker"), default="rules", help="which parser to check (default: the hand-crafted rules)")
     args = parser.parse_args(argv)
+    if args.parser == "marker":
+        from regcomp.parse_marker import parse_pdf as parse
+    else:
+        parse = parse_pdf
 
     by_regulation: dict[str, list[dict]] = defaultdict(list)
     for requirement in load_requirements():
@@ -100,7 +105,7 @@ def main(argv: list[str] | None = None) -> int:
         pdf = corpus.pdf_path(corpus.entry_for(regulation), "base")
         if pdf is None:
             raise SystemExit(f"error: the base PDF of {regulation} is not in regulations/data; run tools/fetch_regulations.py")
-        nodes = parse_pdf(pdf).nodes
+        nodes = parse(pdf).nodes
         by_label: dict[str | None, list[Node]] = defaultdict(list)
         for node in nodes:
             by_label[_paragraph_key(node.label)].append(node)

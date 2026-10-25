@@ -1,0 +1,26 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r156-ota-renumber",
+  "changes": [
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The vehicle manufacturer shall assign a dedicated RXSWIN for every Regulation No. X type approval to which the vehicle manufacturer executes software updates to type approval relevant software of the Electronic Control System contributing to the UN Regulation No. X type approval relevant characteristics.",
+      "reason": "Paragraph 7.1.1.3 of UN R156 is new in version 1.0.0: 'A process whereby the vehicle manufacturer assigns a dedicated RXSWIN for every Regulation No. X ty…'.",
+      "source": {
+        "page": 4,
+        "paragraph": "7.1.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The vehicle manufacturer shall not execute software updates to vehicles approved to the 01 series of amendments of this Regulation already registered in the market, unless an RXSWIN has been assigned to every Regulation No. X type approval assessed during the performing of the process in paragraph 7.1.1.9.",
+      "reason": "Paragraph 7.1.4 of UN R156 is new in version 1.0.0: 'The vehicle manufacturer shall not execute software updates to vehicles approved to the 01 series o…'.",
+      "source": {
+        "page": 5,
+        "paragraph": "7.1.4"
+      }
+    }
+  ]
+}

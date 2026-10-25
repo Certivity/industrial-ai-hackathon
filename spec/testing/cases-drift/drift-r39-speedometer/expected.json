@@ -1,0 +1,96 @@
+{
+  "team_id": "synthetic",
+  "case_id": "drift-r39-speedometer",
+  "changes": [
+    {
+      "requirement_id": "R-001",
+      "change": "modified",
+      "new_text": "An on-board odometer complying with the requirements of this UN Regulation shall be fitted to the vehicle to be approved.",
+      "reason": "Paragraph 5.1 of UN R39 was amended in version 2.2.0: 'onboard speedometer and' became 'on-board'; 'UN' was added; 'For vehicles other than those of category X or category Y, an on-board speedometer complying with the requirements of this UN Regulation shall be fitted.' was added; 'onboard' became 'on-board'; 'UN' was added; 'For vehicles of category X or category Y, a speedometer may be fitted, but is not required to meet the requirements of this Regulation.' was added; 'Units,' became 'Units'.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles other than those of category X or category Y, an on-board speedometer complying with the requirements of this UN Regulation shall be fitted.",
+      "reason": "Paragraph 5.1 of UN R39 is new in version 2.2.0: 'An on-board odometer complying with the requirements of this UN Regulation shall be fitted to the v…'.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles of category X or category Y, a speedometer may be fitted, but is not required to meet the requirements of this Regulation.",
+      "reason": "Paragraph 5.1 of UN R39 is new in version 2.2.0: 'An on-board odometer complying with the requirements of this UN Regulation shall be fitted to the v…'.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "requirement_id": "R-002",
+      "change": "modified",
+      "new_text": "If more than one on-board speedometer or odometer is fitted to the vehicle, all these speedometers and odometers shall comply with all the requirements of this UN Regulation when displayed.",
+      "reason": "Paragraph 5.1 of UN R39 was amended in version 2.2.0: 'onboard speedometer and' became 'on-board'; 'UN' was added; 'For vehicles other than those of category X or category Y, an on-board speedometer complying with the requirements of this UN Regulation shall be fitted.' was added; 'onboard' became 'on-board'; 'UN' was added; 'For vehicles of category X or category Y, a speedometer may be fitted, but is not required to meet the requirements of this Regulation.' was added; 'Units,' became 'Units'.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For vehicles fitted with an ADS complying with the provisions on indicators of UN Regulation No [XXX], a speedometer complying to this UN Regulation is not required to indicate the speed while an ADS feature is active.",
+      "reason": "Paragraph 5.2 of UN R39 is new in version 2.2.0: 'Speedometer The display of the speedometer shall be located within the direct field of view of the…'.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.2"
+      }
+    },
+    {
+      "requirement_id": "R-038",
+      "change": "modified",
+      "new_text": "The display of the odometer shall be visible or accessible to a driver, if applicable, or any authorised person.",
+      "reason": "Paragraph 5.5 of UN R39 was amended in version 2.2.0: 'Equipment' became 'equipment'; 'the driver.' became 'a driver, if applicable, or any authorised person.'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.5"
+      }
+    },
+    {
+      "requirement_id": "R-043",
+      "change": "modified",
+      "new_text": "If a setting makes it possible for a driver or ADS to select the odometer display distance in km or miles independently of the speedometer, the odometer shall identify the unit used.",
+      "reason": "Paragraph 5.5.2 of UN R39 was amended in version 2.2.0: 'the driver' became 'a driver or ADS'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.5.2"
+      }
+    },
+    {
+      "requirement_id": "R-052",
+      "change": "modified",
+      "new_text": "In the case of an electrically detectable failure preventing the odometer requirements of this UN Regulation from being met, a malfunction indication shall be provided to the driver, if applicable, if not already covered by other failure warnings and/or other failure conditions.",
+      "reason": "Paragraph 5.11 of UN R39 was amended in version 2.2.0: 'applicable, if' was added; 'In case of vehicles of categories X and Y and vehicles where an ADSF-2 is active, the malfunction shall be transmitted as a logic signal to the ADS.' was added.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.11"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In case of vehicles of categories X and Y and vehicles where an ADSF-2 is active, the malfunction shall be transmitted as a logic signal to the ADS.",
+      "reason": "Paragraph 5.11 of UN R39 is new in version 2.2.0: 'In the case of an electrically detectable failure preventing the odometer requirements of this UN R…'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.11"
+      }
+    }
+  ]
+}

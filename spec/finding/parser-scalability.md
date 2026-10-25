@@ -99,3 +99,75 @@ python eval/fidelity.py --parser marker   # 281/284
 python eval/parser_compare.py --all --anchors     # the table above (about 2.5 min); --regs UN_R49 --verbose lists labels
 REGCOMP_PARSER=marker python src/ai_agent/run.py cases/dev-rear-lamp --no-image
 ```
+
+## 7. Per-document induction (no prior exploration)
+
+Status: results, 2026-10-25. Code: `src/regcomp/marker_induce.py` (induction), `src/regcomp/parse_marker.py` (decoding, structure unchanged), `src/regcomp/marker_outline.py` (model fallback), tests `eval/test_marker_induce.py`, `eval/test_marker_outline.py`, bench `eval/parser_induce_bench.py`. `REGCOMP_PARSER=marker` now induces by default; `REGCOMP_MARKER_INDUCE=0` (or `parse_pdf(..., induce=False)`) is the scheme of sections 1-6, kept for comparison.
+
+### 7.1 Intention
+
+Sections 1-6 work because someone explored the UNECE PDFs first: the keyword list Annex / Appendix / Part, their rank, hand-set evidence weights, a reference-word stoplist, "letters and romans are list items", the footer regex. The aim here is a parser that learns what a document's numbering looks like from that document, accepting some loss. `tools/score_local.py` counts a citation right if the page or the paragraph is right, so well-formed chunks on the right page matter more than a perfect hierarchy.
+
+### 7.2 Design
+
+A. Deterministic, per document (`marker_induce.discover`, `prepare`, `calibrate`):
+1. Shapes. A line start is reduced to leading word, prefix symbol, ordinal classes (arabic, letter, roman, arabic with letter suffix), separators and decoration: `5.1.4.` is `N.N.N.`, `(b)` is `(a)`, `Article 3` is `article N`, `S5.2` is `S N.N`, `§ 4` is `§ N`. A lone `i` has a letter and a roman reading.
+2. Families and keywords. A shape is a marker family if its instances in this document form successor sequences (1,2,3 / a,b,c / 2,2A,2B,3 / 5.1 then 5.1.1). A leading word that starts such a sequence at least twice in set-apart lines (bold, bigger, or a short line that does not wrap on) is a keyword; it is a scope keyword when the numbering restarts after it and does not go back to the numbers before it. A table caption or figure legend restarts too, but the enclosing numbering resumes afterwards, so it is not a scope. Rank comes from the observed nesting (restarts of one keyword inside another, and compound headings `A x - B y`), not from a table.
+3. Typography. Lines are clustered by (bold, size against the body, indent against the margin); vertical space above, what the previous line ended with, line length, and the kind of text after the marker are the other observed features. Running headers and footers are the lines that repeat in the page margins (digits blanked) on at least 40% of the pages: the UNECE footer regex is not used.
+4. Evidence. A naive-Bayes weight per (family, feature value), estimated on the document: positives are readings in a successor sequence (second round: readings the first decoding accepted), shrunk toward the pooled weights of the same role (dotted, keyword, item). It replaces the bold / size / margin / previous-line / reference-word terms. Gap costs come from this document's histogram of gaps, the cost of a missing level from how often a deeper number has no parent before it.
+5. List families. A non-dotted family whose values recur (mean recurrence at least 3) stays in the text of its paragraph; any other becomes a citable node labelled by its parent's number and its mark (`5.1(a)`).
+6. Labels are the generic path: scope keywords as the document prints them, then the number (`Annex 3 1.1`, `5.1.4`). The gold convention "a bare Appendix 1 drops its Annex" is not applied.
+7. Confidence = coverage (body text inside nodes) x consistency (accepted markers that follow their sequence) x granularity (text not in nodes over two pages long). The decoding (beam of 12, sibling / child / nest bonus) is the one of section 1; dividers are not offered for induced scopes (a non-scope keyword is plain text).
+
+B. Model fallback (`marker_outline.parse_with_outline`), used when the confidence is under `marker_induce.CONFIDENCE_MIN` (0.55, the one threshold) or `REGCOMP_MARKER_LLM=1`. DeepSeek (thinking off, paced connection) reads the page text in overlapping windows and returns only an outline (label, page, first words, level, kind), carrying the open-heading stack between windows. Code verifies each heading's first words at a line start on that page in the text layer, drops the rest, and cuts node text itself. Cached by PDF sha256 and prompt hash in `runs/_generic_llm/`. Only public regulation text is sent; `cases/` never.
+
+Not encoded any more: the keyword list, the rank order, the footer pattern, the reference-word stoplist, the letter/roman list rule, the gold label convention for bare appendices, the bold/size/margin weights. Still there: the arithmetic of ordinals; global hyperparameters (beam 12, min count 3, keyword min 2, link window 4 and gap 3, linked share 0.5, heading share 0.6, restart share 0.5, list recurrence 3, NB damping 0.5, shrink 5, the structure costs of section 1); the table-caption regex and the PyMuPDF grid code of `parse.py`, which are plumbing, not structure.
+
+### 7.3 Parser-level numbers (92 PDFs; the five dev-case regulations are in these numbers but were not looked at while tuning, which used the 84 other PDFs)
+
+| | hand rules | marker, hand-fixed scheme (before) | marker, induced (after) |
+|---|---|---|---|
+| expert anchors (`eval/anchors.py`) | 254/259 | 258/259 | 258/259 |
+| fidelity (`eval/fidelity.py`) | 281/284 (section 2) | 393/401, 3 allowed | 393/401, 3 allowed |
+| label agreement with the hand rules, micro P / R / F1 | 1 | 0.951 / 0.944 / 0.947 (section 2) | 0.908 / 0.902 / 0.905 |
+| label agreement with the hand-fixed marker, micro P / R / F1 / F2 | | 1 | 0.938 / 0.937 / 0.938 / 0.938 (84 dev PDFs: 0.931) |
+| (label, page) with the hand-fixed marker, macro | | 1 | 0.944 |
+| DeepSeek-grounded requirements (6,064, 50 cases): quote in one node, on the page | 1.000 | 1.000 | 1.000 |
+| ... paragraph label as the hand rules'; as the model wrote it | 1.000; 0.936 | 1.000; 0.936 | 0.990; 0.927 |
+| time per PDF, no grids: total / median / max | 37 s total (with line extraction) | about 49 s total | 61 s / 0.44 s / 3.7 s |
+| unit tests | `test_parse.py` 67 | `test_parse_marker.py` 28 (pinned to `induce=False`) | `test_marker_induce.py` 21, `test_marker_outline.py` 9 |
+
+The tests of `test_parse_marker.py` encode the hand-fixed scheme on 10-line snippets; run with induction they give 17 of 28 (a snippet has no document to learn from), so they now pin the scheme. `test_ai_agent.py` 52 pass.
+
+Fallback usage: 0 of 92 PDFs fall under the threshold (lowest confidence 0.81). Forced (`REGCOMP_MARKER_LLM=1`) on three small PDFs, labels against the hand-fixed marker parse: R62 P 1.00 / R 0.87, R64 0.98 / 0.88, R162 0.81 / 0.90. R62 and R64: 13 calls, 27.5k prompt and 12.8k completion tokens (about a quarter of the headings DeepSeek returned were dropped by the text-layer check or were overlap duplicates); R162 replayed from cache. At DeepSeek flash prices that is a few cents; a 90-PDF corpus would be a few dollars.
+
+### 7.4 End to end, `cases/dev-rear-lamp` (default config text+image, `REGCOMP_PARSER=marker`, induction on)
+
+| | current output (`outputs/dev-rear-lamp/submission.json`, hand parser) | marker, hand-fixed (`a5-marker`, section 2) | marker, induced (`runs/dev-rear-lamp/marker-induced`) |
+|---|---|---|---|
+| regulation P / R / F1 | 1.00 / 1.00 / 1.00 | 0.80 / 1.00 | 0.80 / 1.00 / 0.89 |
+| page P / R / F1 / F2 | 0.731 / 0.906 / 0.809 / 0.865 | 0.731 / 0.906 | 0.758 / 0.925 / 0.833 / 0.886 |
+| requirement strict P / R / F2 | 0.418 / 0.700 / 0.63 | 0.412 / 0.689 / 0.608 | 0.412 / 0.726 / 0.630 |
+| requirement lenient P / R / F2 | 0.472 / 0.789 / 0.72 | 0.472 / 0.789 / 0.696 | 0.469 / 0.826 / 0.717 |
+
+Strict scores carry about +-0.05 sampling noise, so the requirement and page differences are inside it. The regulation line is not the parser: the 0.80 is R128 being cited, which the `a5` runs under the same emission code show with both parsers, while the older current output predates that. Cost: agent $2.87 (+$1.33 replayed from the cache), judge $0.43; DeepSeek not used (no fallback). The scope-parent fix of `_relink_scopes` was made after this run and changes parents of inner scope headings only.
+
+### 7.5 Where it loses, and why
+
+- A scope keyword needs two instances: R175 has one `Appendix 1`, so `Annex 3 Appendix 1 1.1` becomes `Annex 3 1.1` (numbers by page agree). The same for R131.
+- Scope naming where headings carry two scopes: R100, R92 (`Part A`), R107 (`Model 1` is discovered as a scope). Paragraph numbers agree; labels do not. These are most of the PDFs under label F1 0.85.
+- R49 `Appendix 3 - Item 1..15`: two of fifteen instances have a numbered line after them and both restart, which is all the evidence there is, so `Item` is a false scope (pinned in the tests). Requiring most instances to be followed by numbering would fix it and costs the real appendices of R43 and R49 (micro F1 0.93 down to 0.80), so it was not kept.
+- Dividers (`Part I`, `Part II` of R67, R89) are plain text: no heading node, the text goes to the paragraph before. Table caption nodes are still `parse.py`'s.
+- Ranks need evidence: nesting is a tie where it was not observed twice, and then `Annex 1 - Appendix 1` after `Annex 1 - Part 2` hangs under the Part (R100).
+- Confidence does not see coarse documents with unnumbered headings when the nodes are page-sized; granularity catches only nodes over two pages.
+
+### 7.6 How to run
+
+```
+python eval/test_marker_induce.py            # 21 tests (the first 17 need no PDFs)
+python eval/test_parse_marker.py             # 28, hand-fixed scheme
+python eval/parser_induce_bench.py labels --all [--dev] [--against hand]; grounding; anchors
+REGCOMP_PARSER=marker python src/ai_agent/run.py cases/dev-rear-lamp --out runs/dev-rear-lamp/marker-induced --max-cost 5
+REGCOMP_MARKER_INDUCE=0 ...                  # the scheme of sections 1-6
+REGCOMP_MARKER_LLM=1 ...                     # force the model outline (needs LLM_* in .env)
+```

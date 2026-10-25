@@ -25,8 +25,8 @@
     {
       "requirement_id": "R-021",
       "change": "modified",
-      "new_text": "When the triggering conditions (as outlined in paragraph 5.1.2.) are achieved, the ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located not more than 1.5 m in front of or behind the vehicle, in the vehicle path, provided: (a) Vehicle external influences allow for the required acceleration inhibition, i.e.: (i) The road is flat, horizontal and dry affording good adhesion; (ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C); (b) The vehicle state itself allows for the required acceleration inhibition, e.g.: (i) The tyres are in an appropriate state and properly inflated; (ii) The brakes if intended to be used are properly operational; (iii) There is no severe uneven load distribution; (iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and mass in running order conditions; (v) The vehicle's powertrain management system is properly operational; (vi) If the vehicle is equipped with rear hatches, trunk lids or tailgates, they are closed and latched in the normal conditions of vehicle operation; (c) There are no external influences affecting the physical sensing capabilities, i.e.: (i) The ambient illumination is at least 1000 Lux and there is no extreme blinding of the sensors; (ii) The target vehicle is not extreme with regard to RCS or shape/silhouette; (iii) There are no significant weather conditions affecting the sensing capabilities; (iv) There are no overhead obstructions close to the vehicle; (d) The situation is unambiguous, i.e.: (i) The obstacle is stationary, unobstructed, clearly separated from other objects in the driving direction; (ii) In the case of a vehicle obstacle, the centre line of the obstacle is located between two vertical longitudinal planes defining the extreme outer edge of the vehicle; (iii) In the case of a wall obstacle, the overlap between wall and vehicle is at least 1.0 m; (iv) I",
-      "reason": "Paragraph 5.1.5 of UN R175 was amended in version 1.0.0: 'between 1.0 m and' became 'not more than'; 'accelerator control is applied,' became 'triggering conditions (as outlined in paragraph 5.1.2.) are achieved,'; '(vi) If the vehicle is equipped with rear hatches, trunk lids or tailgates, they are closed and latched in the normal conditions of vehicle operation.' was added; 'The lateral offset between the centreline' became 'In the case of a vehicle obstacle, the centre line'; 'and the centreline' became 'is located between two vertical longitudinal planes defining the extreme outer edge of the vehicle. (iii) In the case of a wall obstacle, the overlap between wall and ve…'; '0.2 m (iii)' became '25 per cent of the vehicle width. (v)'; '(iv)' became '(vi)'; 'wall like' became 'wall-like'; 1 further changes.",
+      "new_text": "The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located not more than 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the triggering conditions (as outlined in paragraph 5.1.2.) are achieved, provided: (a) Vehicle external influences allow for the required acceleration inhibition, i.e.: (i) The road is flat, horizontal and dry affording good adhesion; (ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C); (b) The vehicle state itself allows for the required acceleration inhibition, e.g.: (i) The tyres are in an appropriate state and properly inflated; (ii) The brakes if intended to be used are properly operational (brake temperature, pads condition etc.); (iii) There is no severe uneven load distribution; (iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and mass in running order conditions; (v) The vehicle’s powertrain management system is properly operational; (c) There are no external influences affecting the physical sensing capabilities, i.e.: (i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g. direct blinding sunlight, highly radar-reflective environment); (ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g. below fifth percentile of RCS of all M1 vehicles); (iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain, dense fog, snow, dirt); (iv) There are no overhead obstructions close to the vehicle; (d) The situation is unambiguous, i.e.: (i) The obstacle is stationary, unobstructed, clearly separated from other objects in the driving direction; (ii) The lateral offset between the centreline of the obstacle and the centreline of the vehicle is not more than 0.2 m; (iii) The direction of travel i",
+      "reason": "Paragraph 5.1.5 of UN R175 was amended in version 1.0.0: 'between 1.0 m and' became 'not more than'; 'accelerator control is applied,' became 'triggering conditions (as outlined in paragraph 5.1.2.) are achieved,'; '(i) The road is flat, horizontal and dry affording good adhesion; (ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C)…' was removed.",
       "source": {
         "page": 5,
         "paragraph": "5.1.5"
@@ -120,27 +120,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "The ACPE shall not be required to intervene when there is an AEBS warning or intervention occurring.",
-      "reason": "Paragraph 5.1.4.1 of UN R175 is new in version 1.0.0: 'An ACPE intervention is not required when: (a) there is an AEBS warning or intervention occurring;…'.",
-      "source": {
-        "page": 5,
-        "paragraph": "5.1.4.1"
-      }
-    },
-    {
-      "requirement_id": null,
-      "change": "added",
-      "new_text": "The ACPE shall not be required to intervene when the vehicle speed is greater than 10 km/h.",
-      "reason": "Paragraph 5.1.4.1 of UN R175 is new in version 1.0.0: 'An ACPE intervention is not required when: (a) there is an AEBS warning or intervention occurring;…'.",
-      "source": {
-        "page": 5,
-        "paragraph": "5.1.4.1"
-      }
-    },
-    {
-      "requirement_id": null,
-      "change": "added",
-      "new_text": "The ACPE shall not deactivate or unreasonably switch the control strategy when conditions deviate from those listed above.",
+      "new_text": "When conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the control strategy.",
       "reason": "Paragraph 5.1.5.1 of UN R175 is new in version 1.0.0: 'When conditions deviate from those listed above, the system shall not deactivate or unreasonably sw…'.",
       "source": {
         "page": 6,
@@ -150,7 +130,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "The manufacturer shall demonstrate in accordance with Annex 3 of this Regulation that the system does not deactivate or unreasonably switch the control strategy when conditions deviate from those listed above.",
+      "new_text": "The manufacturer shall demonstrate in accordance with Annex 3 of this Regulation that, when conditions deviate from those listed above, the system does not deactivate or unreasonably switch the control strategy.",
       "reason": "Paragraph 5.1.5.1 of UN R175 is new in version 1.0.0: 'When conditions deviate from those listed above, the system shall not deactivate or unreasonably sw…'.",
       "source": {
         "page": 6,
@@ -170,7 +150,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "The ACPE shall, in the case a collision is not prevented while creeping, reduce the effective demand of the accelerator control to zero at or before the point of collision.",
+      "new_text": "In the case a collision is not prevented while creeping, the ACPE shall reduce the effective demand of the accelerator control to zero at or before the point of collision.",
       "reason": "Paragraph 5.1.6.2 of UN R175 is new in version 1.0.0: 'Acceleration while creeping, In the case a collision is not prevented, the ACPE shall reduce the ef…'.",
       "source": {
         "page": 6,
@@ -230,7 +210,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "The test conditions shall use a distance to target at the point triggering conditions achieved / distance to speed measuring point of 1.0 m with a longitudinal distance tolerance of + 0.1 m and of 1.5 m with a tolerance of -0.1 m, for both forward and rearward driving directions.",
+      "new_text": "The test conditions shall be a distance to target at the point triggering conditions are achieved / distance to speed measuring point of 1.0 m with a tolerance on the longitudinal distance of + 0.1 m and of 1.5 m with a tolerance of -0.1 m, for both the forward and the rearward driving direction.",
       "reason": "Paragraph 6.6. Table 1 of UN R175 is new in version 1.0.0: 'Table 1 Test conditions Driving direction Distance to target at the point triggering conditions ach…'.",
       "source": {
         "page": 10,
@@ -240,7 +220,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "Each test condition according to Table 1 shall be tested with and without the presence of the target for a stationary vehicle.",
+      "new_text": "For a stationary vehicle, each test condition according to Table 1 shall be tested with and without the presence of the target.",
       "reason": "Paragraph 6.6.1.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested with and without the presence of the targe…'.",
       "source": {
         "page": 10,
@@ -250,7 +230,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "For tests without a target the ACPE shall be deactivated if necessary.",
+      "new_text": "For tests without a target with a stationary vehicle, the ACPE shall be deactivated if necessary.",
       "reason": "Paragraph 6.6.1.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested with and without the presence of the targe…'.",
       "source": {
         "page": 10,
@@ -260,7 +240,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "Each test condition according to Table 1 shall be tested once for a creeping vehicle with a starting point and a profile of the accelerator control application selected at the discretion of the Technical Service.",
+      "new_text": "For a creeping vehicle, each test condition according to Table 1 shall be tested once with a starting point and a profile of the accelerator control application selected at the discretion of the Technical Service.",
       "reason": "Paragraph 6.6.2.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested once with a starting point and a profile o…'.",
       "source": {
         "page": 11,
@@ -280,7 +260,7 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "The procedure for each test with a creeping vehicle shall be: position the vehicle at the selected starting point as determined by paragraph 6.6.2.1; hold the vehicle stationary and select the corresponding driving direction; release the braking system so that the vehicle starts creeping; operate the accelerator control in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) at the point the vehicle has reached the distance to target according to Table 1.",
+      "new_text": "In each test with a creeping vehicle, the vehicle shall be positioned at the selected starting point as determined by paragraph 6.6.2.1.",
       "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
       "source": {
         "page": 11,
@@ -290,7 +270,37 @@
     {
       "requirement_id": null,
       "change": "added",
-      "new_text": "In the case a collision is not prevented the manufacturer shall demonstrate to the satisfaction of the technical service that the intervention complies with the requirements of paragraph 5.1.6.2.",
+      "new_text": "In each test with a creeping vehicle, the vehicle shall be held stationary and the corresponding driving direction selected.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In each test with a creeping vehicle, the braking system shall be released so that the vehicle starts creeping.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In each test with a creeping vehicle, the accelerator control shall be operated in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) at the point the vehicle has reached the distance to target according to Table 1.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the case a collision is not prevented in a test with a creeping vehicle, the manufacturer shall demonstrate to the satisfaction of the technical service that the intervention complies with the requirements of paragraph 5.1.6.2.",
       "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
       "source": {
         "page": 11,

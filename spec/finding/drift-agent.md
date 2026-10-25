@@ -91,6 +91,38 @@ python eval/test_ai_agent.py                          # offline tests: alignment
 
 ## 7. Next steps
 
-- Settle the "sentence appended to a changed paragraph" convention. Dev has no example, so an upload of `outputs/subgoal-dev/changes.json` will not tell; ask the organisers, or hedge by flagging the paragraph's requirement `modified` and reporting the sentence as `added` once.
+- ~~Settle the "sentence appended to a changed paragraph" convention.~~ Settled: `added` (see the end of section 8).
 - Sample twice and keep a flag only when both runs agree (precision) or either does (recall); the cost is $0.1 per dev run.
 - Re-pair low-similarity REMOVED/ADDED neighbours inside the same section before the judge, so a rewrite under one label is one `modified` with a proper diff reason.
+
+## 8. Appended-sentence convention (2026-10-25)
+
+**Method.** `run_drift(..., appended=)` and `run_drift.py --appended {added,modified,both}`. Post-processing over the unchanged judge verdicts, so every run replays from `runs/_llm_cache` (33 runs: $0.00 spent, $1.72 replayed, read from `usage.json`; the `added` runs are byte-identical to the earlier `runs/drift/*`). Detection (`drift.appended_sentences`, no model): a MODIFIED node whose word diff (edge punctuation ignored) has only insertions, each starting a sentence (paragraph start or after a word ending in '.') with a capital and ending in '.'. Any replace or delete, or a clause that is not a sentence, means "not appended". Modes on such a node:
+- `added` (default): as before; the judge's verdicts and `new_obligations` decide.
+- `modified`: every requirement on the paragraph the judge did not call removed is `modified`; its `new_text` gets the sentence (appended unless already there), the reason is the word diff (it quotes the sentence), and the judge's `new_obligations` for the node are dropped.
+- `both`: as `modified`, and the sentence is reported once as `added` (the judge's own obligation, else the sentence itself).
+
+Runs: `runs/drift-appended-<option>/<case>`; score: `python eval/score_drift.py --all --runs runs/drift-appended-<option>`. Offline tests: `eval/test_drift_appended.py` (7).
+
+**Results** (flagged = modified + removed; the ten-case golds are DeepSeek's):
+
+| Option | Set | Flagged R | Flagged P | False flags | Added R | Added P | Overall F2 | Lenient flagged R / added P |
+|---|---|---|---|---|---|---|---|---|
+| added | dev | 7/7 | 0.58 | 5/87 | 13/17 | 0.65 | 0.78 | 1.00 / 0.65 |
+| modified | dev | 7/7 | 0.58 | 5/87 | 13/17 | 0.65 | 0.78 | 1.00 / 0.65 |
+| both | dev | 7/7 | 0.58 | 5/87 | 13/17 | 0.65 | 0.78 | 1.00 / 0.65 |
+| added | ten | 36/45 (0.80) | 0.88 | 5/556 | 25/29 (0.86) | 0.69 | 0.82 | see section 3 |
+| modified | ten | 40/45 (0.89) | 0.64 | 23/556 | 19/29 (0.66) | 0.70 | 0.76 | |
+| both | ten | 40/45 (0.89) | 0.64 | 23/556 | 25/29 (0.86) | 0.68 | 0.82 | |
+
+- **Dev: no node is detected as appended, the three outputs are identical** (and equal to `outputs/subgoal-dev/changes.json`). Dev cannot settle the convention.
+- Ten cases: 14 nodes with requirements get an appended sentence; 8 of them are exemptions or ADS conditions ("do not apply whilst an ADSF-2 is active", "Whilst an ADSF-2 is active, paragraph 5.1.4 shall apply"). `modified` and `both` add 22 flags: 4 are in the gold (R64 x2, R100 x2), 18 are not. False flags go from 5 to 23 (R100 4 to 11, R174 0 to 5, R39 0 to 3, R51 1 to 3, R149 0 to 1). Flagged recall rises 0.80 to 0.89, precision falls 0.88 to 0.64. `modified` loses 6 gold added items (the sentence is no longer an item); `both` keeps them and costs 1 extra added item.
+- 5 gold flags stay missed in `modified` and `both` (45 - 40); they are not appended sentences (wording-only edits and kind mismatches, section 4).
+
+**Recommendation.** Keep `added` as the default. On the ten cases `both` ties it on overall F2 (0.82) while trading recall for 18 more false flags, the error the proposal calls costly; `modified` is worse (0.76). The gain depends only on which convention the platform uses, which no data we hold shows. If the platform uses paragraph-level `modified`, `both` is the better setting (recall 0.89, added kept); if it uses sentence-level `added`, `both` costs about 18 false flags per 556 requirements.
+
+**Candidate uploads** (all valid, `--strict`): `outputs/subgoal-dev/changes-appended-{added,modified,both}.json`, identical for dev. Uploading them tells nothing. The ten cases are our own and not uploadable, so the way to settle it is to ask the organisers:
+
+> In a new version, a sentence is appended to an existing paragraph from which requirements were derived (for example "The provisions of this paragraph do not apply whilst an ADSF-2 is active."). In the expected changes, is this one `added` item for the new sentence, or is each requirement derived from that paragraph `modified` (new_text including the sentence), or both? And if it is `modified`, is it every requirement of the paragraph or only those the sentence concerns?
+
+**Settled (2026-10-25).** The user answered the question above: a sentence appended to an existing paragraph is one `added` item for the new sentence. `--appended added` (the default) is the platform's convention; the seven "misses" of section 4 that come from this convention are gold artefacts of the DeepSeek cases, not agent errors. `modified` and `both` stay available but are not to be used for submissions.

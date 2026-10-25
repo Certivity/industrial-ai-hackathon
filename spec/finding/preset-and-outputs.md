@@ -59,3 +59,37 @@ The dev output uses the text+image run because the case ships a drawing, it is b
 
 - Spent by this work: about $2.0, by mistake: the first replay of `run.py cases/dev-rear-lamp` used the drawing by default (a different profile, a cache miss), stopped by the budget, and left `runs/dev-rear-lamp/a3-image-partial/` (incomplete: its regulation stage picked R148, R150 and R48 only, R10 missing). Text-only replays (`--no-image`) are free (`runs/dev-rear-lamp/a3-final`, v1).
 - The synthetic gold is a DeepSeek writer's opinion; the page numbers are comparable between policies, not to the dev case in absolute terms.
+
+## 5. Held-out cases (2026-10-25)
+
+Pulled with `git pull --ff-only` (6c531e8 to e60025f; four new files: `cases/heldout-front-bumper/{spec.md,exploded_view.png}`, `subgoal/heldout/{files.json,requirements_old.json}`). Defaults throughout: text+image, precision-v2, select/vet v1; no code, prompt or env change.
+
+```
+python src/ai_agent/run.py cases/heldout-front-bumper --out runs/heldout-front-bumper/default --max-cost 6
+python tools/validate.py runs/heldout-front-bumper/default/submission.json --strict
+python src/ai_agent/run_drift.py subgoal/heldout --out runs/drift/subgoal-heldout --case-id subgoal-heldout --max-cost 1.5
+python tools/validate.py runs/drift/subgoal-heldout/changes.json --kind subgoal --requirements-old subgoal/heldout/requirements_old.json --strict
+```
+
+**Main (front bumper, M1).** `validate --strict`: "OK: submission.json is valid (200 requirements)". No `expected.json`, so there is no score; `score_local.py` defaults to the dev gold and prints a meaningless number for this case, which is not reported. 200 requirements from 1067 candidates; regulations (requirements, pages): UN R148 (75, 18), UN R48 (47, 11), UN R10 (36, 9), UN R26 (18, 5), UN R42 (14, 3), UN R127 (10, 3). Applicability of the emitted 200: 20 certain, 102 likely, 78 possible. All quotes matched (quote_match 1.0); no failures recorded in `run.json`. Vision read 16 text blocks, 16 components. Cost $3.47 spent, $0.00 replayed, 411 s. Output: `outputs/heldout-front-bumper/submission.json` (`case_id` heldout-front-bumper, `team_id` team-00).
+
+**Drift (UN R171, base 1.1.0 to latest 2.0.0).** `files.json` names `UN_R171_base.pdf` and `UN_R171_latest.pdf`; both were already in `regulations/data/UN_R171/` and their sha256 match `files.json` (no fetch). Appended sentences reported as `added` (default). `validate --strict`: "OK: changes.json is valid (108 changes)". 18 modified, 4 removed, 86 added; of the 117 old requirements 95 are unchanged. Alignment (trace.json): SAME 748, RENUMBERED 14, MODIFIED 70, REMOVED 5, ADDED 84 (paragraph nodes). Cost $0.42 spent, $0.00 replayed, 77 s. Output: `outputs/subgoal-heldout/changes.json` (`case_id` subgoal-heldout).
+
+Total new spend $3.89.
+
+## 6. Final submission with the marker parser (2026-10-25)
+
+`src/ai_agent/store.py` now defaults `REGCOMP_PARSER` to `marker` (per-document induction); `rules` keeps the hand parser. The catalog cards (`catalog.py`, cache keyed by a hash of the marker parser files) and the drift pipeline (`drift.py`) take the parser from the same selector (`store.parser_module()`); before, both called `regcomp.parse` directly. The outline fallback did not trigger on any of the 92 corpus PDFs (checked: every induction confidence is at or above 0.55), so there was no DeepSeek call. Defaults otherwise (text+image, precision-v2, selection v1, drift `--appended added`). Runs: `runs/heldout-front-bumper/marker`, `runs/dev-rear-lamp/marker-final`, `runs/drift/subgoal-{heldout,dev}-marker`. The final files are in `submission/` (team_id DeepFry); the earlier files are kept as `*-rules-parser.json` under `outputs/`.
+
+| | hand rules | marker parser |
+|---|---|---|
+| dev main, requirements | 317 | 334 |
+| dev regulation P / R (F2) | 1.00 / 1.00 (1.00) | 0.80 / 1.00 (0.95), R128 added |
+| dev page P / R (F2) | 0.731 / 0.906 (0.86) | 0.758 / 0.925 (0.89) |
+| dev drift: flagged / added / overall F2 | 7/7, 13/17, 0.78 | 7/7, 15/17, 0.85 |
+| bumper requirements | 200 (R148 75, R48 47, R10 36, R26 18, R42 14, R127 10) | 206 (R148 75, R48 47, R10 37, R26 23, R42 14, R127 10) |
+| bumper regulations | the same six | the same six; 192 of the (regulation, paragraph, page) triples are shared, 14 new, 8 gone |
+| held-out drift changes | 108 | 115 (17 modified, 5 removed, 93 added) |
+| dev drift changes | 32 | 33 |
+
+Cost: $3.51 spent, $4.59 replayed (bumper $2.01 + $1.45, dev main $1.09 + $3.03, drift held-out $0.33 + $0.06, drift dev $0.08 + $0.05). The requirement judge was not rerun. A regulation-stage sample difference (R128 on dev) is mixed with the parser change, because the run is one sample.

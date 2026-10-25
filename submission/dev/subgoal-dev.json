@@ -1,0 +1,331 @@
+{
+  "team_id": "DeepFry",
+  "case_id": "subgoal-dev",
+  "changes": [
+    {
+      "requirement_id": "R-015",
+      "change": "modified",
+      "new_text": "An accelerator control application resulting in continuous acceleration and having a velocity of at least 400 per cent per second over a travel distance of at least 70 per cent of the total travel distance of the accelerator control, and reaching a maximum position of the accelerator control of at least 90 per cent with that velocity shall be regarded as an accelerator control misapplication in the context of the paragraph 5.1.1.",
+      "reason": "Paragraph 5.1.2 of UN R175 was amended in version 1.0.0: 'resulting in continuous acceleration and' was added.",
+      "source": {
+        "page": 4,
+        "paragraph": "5.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-018",
+      "change": "modified",
+      "new_text": "When the vehicle is accelerated from standstill and, as relevant, while creeping, the ACPE shall control acceleration.",
+      "reason": "Paragraph 5.1.4 of UN R175 was amended in version 1.0.0: 'from standstill.' became 'both from standstill and, as relevant, while creeping.'.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.4"
+      }
+    },
+    {
+      "requirement_id": "R-021",
+      "change": "modified",
+      "new_text": "The ACPE shall limit vehicle acceleration in order to prevent or mitigate a collision with an obstacle located not more than 1.5 m in front of or behind the vehicle, in the vehicle path, at the time the triggering conditions (as outlined in paragraph 5.1.2.) are achieved, provided: (a) Vehicle external influences allow for the required acceleration inhibition, i.e.: (i) The road is flat, horizontal and dry affording good adhesion; (ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C); (b) The vehicle state itself allows for the required acceleration inhibition, e.g.: (i) The tyres are in an appropriate state and properly inflated; (ii) The brakes if intended to be used are properly operational (brake temperature, pads condition etc.); (iii) There is no severe uneven load distribution; (iv) No trailer is coupled to the motor vehicle and the mass of the motor vehicle is between maximum mass and mass in running order conditions; (v) The vehicle’s powertrain management system is properly operational; (c) There are no external influences affecting the physical sensing capabilities, i.e.: (i) The ambient illumination conditions are at least 1000 Lux and there is no extreme blinding of the sensors (e.g. direct blinding sunlight, highly radar-reflective environment); (ii) The target vehicle is not extreme with regard to the Radar Cross Section (RCS) or the shape/silhouette (e.g. below fifth percentile of RCS of all M1 vehicles); (iii) There are no significant weather conditions affecting the sensing capabilities of the vehicle (e.g. heavy rain, dense fog, snow, dirt); (iv) There are no overhead obstructions close to the vehicle; (d) The situation is unambiguous, i.e.: (i) The obstacle is stationary, unobstructed, clearly separated from other objects in the driving direction; (ii) The lateral offset between the centreline of the obstacle and the centreline of the vehicle is not more than 0.2 m; (iii) The direction of travel i",
+      "reason": "Paragraph 5.1.5 of UN R175 was amended in version 1.0.0: 'between 1.0 m and' became 'not more than'; 'accelerator control is applied,' became 'triggering conditions (as outlined in paragraph 5.1.2.) are achieved,'; '(i) The road is flat, horizontal and dry affording good adhesion; (ii) The weather conditions do not affect the performance of the vehicle (e.g. no storm, not below 0°C)…' was removed.",
+      "source": {
+        "page": 5,
+        "paragraph": "5.1.5"
+      }
+    },
+    {
+      "requirement_id": "R-025",
+      "change": "modified",
+      "new_text": "When a collision is not prevented in the acceleration from standstill case, the ACPE shall ensure the collision speed is no greater than 8 km/h higher than the vehicle speed at the point where the triggering conditions specified in paragraph 5.1.2. are met.",
+      "reason": "Paragraph 5.1.6.1 (formerly 5.1.6) of UN R175 was amended in version 1.0.0: 'Acceleration from standstill' was added; '70%' became '70 per cent'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.6.1"
+      }
+    },
+    {
+      "requirement_id": "R-026",
+      "change": "modified",
+      "new_text": "When a collision is not prevented in the acceleration from standstill case, the ACPE shall ensure the collision speed is not greater than 70% of that speed the vehicle would have had in the same position and under the same circumstances but without any ACPE intervention.",
+      "reason": "Paragraph 5.1.6.1 (formerly 5.1.6) of UN R175 was amended in version 1.0.0: 'Acceleration from standstill' was added; '70%' became '70 per cent'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.6.1"
+      }
+    },
+    {
+      "requirement_id": "R-084",
+      "change": "modified",
+      "new_text": "For the accelerator control misapplication test, the lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and the distance to the extreme outer edge of the vehicle.",
+      "reason": "Paragraph 6.5.2 (formerly 6.5) of UN R175 was amended in version 1.0.0: 'Accelerator control misapplication test' was removed; 'vehicle' was added; '0.2 m. The test procedure shall be as follows: The test procedure shall be performed with and without an expected ACPE intervention both in a forward and rearward direct…' became 'the distance to extreme outer edge of the vehicle.'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.2"
+      }
+    },
+    {
+      "requirement_id": "R-085",
+      "change": "modified",
+      "new_text": "The test procedures shall be performed both in a forward and rearward direction and at least with the ACPE interventions triggered at 1.0 m (+0.1 m tolerance) and 1.5 m (-0.1 m tolerance) distance from the target position (as detailed in Table 1).",
+      "reason": "Paragraph 6.6 (formerly 6.5) of UN R175 was amended in version 1.0.0: 'Accelerator control misapplication test The lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and 0.2 m. The t…' became 'Test procedures The test procedures'; 'with and without an expected ACPE intervention' was removed; 'vehicle situated' became 'ACPE interventions triggered at'; 'distance' was added; 'at the start of the test' was removed.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6"
+      }
+    },
+    {
+      "requirement_id": "R-086",
+      "change": "modified",
+      "new_text": "The procedure for each test with a stationary (non-creeping) vehicle shall be to position the vehicle at a distance to the relevant target or speed measurement point as defined in Table 1.",
+      "reason": "Paragraph 6.6.1.2 (formerly 6.5) of UN R175 was amended in version 1.0.0: 'Accelerator control misapplication test The lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and 0.2 m. The t…' became 'The procedure for each test with a stationary (non-creeping) vehicle'; 'The test procedure shall be performed with and without an expected ACPE intervention both in a forward and rearward direction and at least with the vehicle situated 1.0…' became '(a) Position the vehicle at a distance to the relevant target or speed measurement point as defined in Table 1. (b) Hold the vehicle stationary and select the correspond…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-087",
+      "change": "modified",
+      "new_text": "The procedure for each test with a stationary (non-creeping) vehicle shall hold the vehicle stationary and select the corresponding driving direction.",
+      "reason": "Paragraph 6.6.1.2 (formerly 6.5) of UN R175 was amended in version 1.0.0: 'Accelerator control misapplication test The lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and 0.2 m. The t…' became 'The procedure for each test with a stationary (non-creeping) vehicle'; 'The test procedure shall be performed with and without an expected ACPE intervention both in a forward and rearward direction and at least with the vehicle situated 1.0…' became '(a) Position the vehicle at a distance to the relevant target or speed measurement point as defined in Table 1. (b) Hold the vehicle stationary and select the correspond…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-088",
+      "change": "modified",
+      "new_text": "The procedure for each test with a stationary (non-creeping) vehicle shall accelerate the vehicle, whilst maintaining the steering control in the neutral position, by operating the accelerator control in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) before the vehicle reaches a speed of 0.5 km/h.",
+      "reason": "Paragraph 6.6.1.2 (formerly 6.5) of UN R175 was amended in version 1.0.0: 'Accelerator control misapplication test The lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and 0.2 m. The t…' became 'The procedure for each test with a stationary (non-creeping) vehicle'; 'The test procedure shall be performed with and without an expected ACPE intervention both in a forward and rearward direction and at least with the vehicle situated 1.0…' became '(a) Position the vehicle at a distance to the relevant target or speed measurement point as defined in Table 1. (b) Hold the vehicle stationary and select the correspond…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-089",
+      "change": "modified",
+      "new_text": "The procedure for each test with a stationary (non-creeping) vehicle shall record the speed at the collision point (if applicable) or the speed at the respective speed measurement point.",
+      "reason": "Paragraph 6.6.1.2 (formerly 6.5) of UN R175 was amended in version 1.0.0: 'Accelerator control misapplication test The lateral offset between the centreline of the target and the centreline of the vehicle shall be between 0.0 m and 0.2 m. The t…' became 'The procedure for each test with a stationary (non-creeping) vehicle'; 'The test procedure shall be performed with and without an expected ACPE intervention both in a forward and rearward direction and at least with the vehicle situated 1.0…' became '(a) Position the vehicle at a distance to the relevant target or speed measurement point as defined in Table 1. (b) Hold the vehicle stationary and select the correspond…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.2"
+      }
+    },
+    {
+      "requirement_id": "R-090",
+      "change": "removed",
+      "reason": "Paragraph 6.5 of UN R175 was amended in version 1.0.0; the provision 'When requested by the manufacturer, before any accelerator control misapplicati…' no longer appears."
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "When conditions deviate from those listed above, the system shall not deactivate or unreasonably switch the control strategy.",
+      "reason": "Paragraph 5.1.5.1 of UN R175 is new in version 1.0.0: 'When conditions deviate from those listed above, the system shall not deactivate or unreasonably sw…'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall demonstrate in accordance with Annex 3 of this Regulation that, when conditions deviate from those listed above, the system does not deactivate or unreasonably switch the control strategy.",
+      "reason": "Paragraph 5.1.5.1 of UN R175 is new in version 1.0.0: 'When conditions deviate from those listed above, the system shall not deactivate or unreasonably sw…'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The rationale for and the results of the verification testing by the Technical Service in conditions deviating from those listed above or those in paragraph 6 shall be appended to the test report.",
+      "reason": "Paragraph 5.1.5.1 of UN R175 is new in version 1.0.0: 'When conditions deviate from those listed above, the system shall not deactivate or unreasonably sw…'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the case a collision is not prevented while creeping, the ACPE shall reduce the effective demand of the accelerator control to zero at or before the point of collision.",
+      "reason": "Paragraph 5.1.6.2 of UN R175 is new in version 1.0.0: 'Acceleration while creeping, In the case a collision is not prevented, the ACPE shall reduce the ef…'.",
+      "source": {
+        "page": 6,
+        "paragraph": "5.1.6.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The targets used for the pedestrian detection tests shall be a child articulated \"soft target\" in its resting position with the articulation being switched off and be representative of the human attributes applicable to the sensor system of the ACPE under test according to ISO 19206-2:2018.",
+      "reason": "Paragraph 6.4.2 of UN R175 is new in version 1.0.0: 'The targets used for the pedestrian detection tests shall be a child articulated \"soft target\" in i…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The reference point for the location of the vehicle shall be the most rearward point on the centreline of the vehicle when going rearwards, and the most forward point of the vehicle when going forwards.",
+      "reason": "Paragraph 6.5.1 of UN R175 is new in version 1.0.0: 'The reference point for the location of the vehicle shall be the most rearward point on the centrel…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The lateral offset between the centre line of the pedestrian obstacle and the centre line of the vehicle shall be not more than 25 per cent of the vehicle width.",
+      "reason": "Paragraph 6.5.3 of UN R175 is new in version 1.0.0: 'The lateral offset between the centre line of the pedestrian obstacle and the centre line of the ve…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The orientation of the pedestrian target shall be determined by the technical service.",
+      "reason": "Paragraph 6.5.4 of UN R175 is new in version 1.0.0: 'The orientation of the pedestrian target is to be determined by the technical service.'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The orientation of the vehicle target shall be 0° or 180° respectively as defined in ISO 19206-3:2021, chosen by the technical service.",
+      "reason": "Paragraph 6.5.5 of UN R175 is new in version 1.0.0: 'The orientation of the vehicle target shall be 0° or 180° respectively as defined in ISO 19206-3:20…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.5.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test conditions shall be a distance to target at the point triggering conditions are achieved / distance to speed measuring point of 1.0 m with a tolerance on the longitudinal distance of + 0.1 m and of 1.5 m with a tolerance of -0.1 m, for both the forward and the rearward driving direction.",
+      "reason": "Paragraph 6.6. Table 1 of UN R175 is new in version 1.0.0: 'Table 1 Test conditions Driving direction Distance to target at the point triggering conditions ach…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6. Table 1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For a stationary vehicle, each test condition according to Table 1 shall be tested with and without the presence of the target.",
+      "reason": "Paragraph 6.6.1.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested with and without the presence of the targe…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For tests without a target with a stationary vehicle, the ACPE shall be deactivated if necessary.",
+      "reason": "Paragraph 6.6.1.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested with and without the presence of the targe…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "6.6.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For a creeping vehicle, each test condition according to Table 1 shall be tested once with a starting point and a profile of the accelerator control application selected at the discretion of the Technical Service.",
+      "reason": "Paragraph 6.6.2.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested once with a starting point and a profile o…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The starting point and the accelerator control application profile shall be selected such that the triggering condition (as outlined in paragraph 5.1.2.) is achieved as close to the maximum creeping speed in the forward direction and 4km/h in the rearward direction as reasonably practical whilst remaining at or below that speed and avoiding any AEBS warning or intervention which results in an ACPE intervention not occurring.",
+      "reason": "Paragraph 6.6.2.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested once with a starting point and a profile o…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In each test with a creeping vehicle, the vehicle shall be positioned at the selected starting point as determined by paragraph 6.6.2.1.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In each test with a creeping vehicle, the vehicle shall be held stationary and the corresponding driving direction selected.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In each test with a creeping vehicle, the braking system shall be released so that the vehicle starts creeping.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In each test with a creeping vehicle, the accelerator control shall be operated in order to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) at the point the vehicle has reached the distance to target according to Table 1.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In the case a collision is not prevented in a test with a creeping vehicle, the manufacturer shall demonstrate to the satisfaction of the technical service that the intervention complies with the requirements of paragraph 5.1.6.2.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For a test with a creeping vehicle, the vehicle shall be positioned at the selected starting point, held stationary with the corresponding driving direction selected, the braking system released so that the vehicle starts creeping, and the accelerator control operated to achieve the relevant triggering conditions (as outlined in paragraph 5.1.2.) at the point the vehicle has reached the distance to target according to Table 1.",
+      "reason": "Paragraph 6.6.2.2 of UN R175 is new in version 1.0.0: 'The procedure for each test with a creeping vehicle shall be as follows: (a) Position the vehicle a…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Each test condition according to Table 1 shall be tested once with a starting point and a profile of the accelerator control application selected at the discretion of the Technical Service, such that the triggering condition is achieved as close as reasonably practical to the maximum creeping speed in the forward direction or 4 km/h in the rearward direction, whilst remaining at or below that speed and avoiding any AEBS warning or intervention which results in an ACPE intervention not occurring.",
+      "reason": "Paragraph 6.6.2.1 of UN R175 is new in version 1.0.0: 'Each test condition according to Table 1 shall be tested once with a starting point and a profile o…'.",
+      "source": {
+        "page": 11,
+        "paragraph": "6.6.2.1"
+      }
+    }
+  ]
+}

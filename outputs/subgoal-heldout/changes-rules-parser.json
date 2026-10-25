@@ -1,0 +1,1066 @@
+{
+  "team_id": "team-00",
+  "case_id": "subgoal-heldout",
+  "changes": [
+    {
+      "requirement_id": "R-013",
+      "change": "modified",
+      "new_text": "If the DCAS identifies that the system or feature boundary is exceeded, then the system or the applicable feature shall leave the ‘active’ mode, with the exception of the driver unavailability response.",
+      "reason": "Paragraph 5.3.5.1 of UN R171 was amended in version 2.0.0: 'it shall transition into ‘stand-by’ mode' became 'the system or the applicable feature shall leave the ‘active’ mode, with the exception of the driver unavailability response,'; 'If the driver is detected to be disengaged while the system or feature boundary is detected to be exceeded, the system shall continue providing lateral and longitudinal…' was added.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": "R-021",
+      "change": "modified",
+      "new_text": "When the driver is not deemed to be disengaged (as specified in paragraphs 5.5.4.2.4. and 5.5.4.2.5.) for more than 2 seconds immediately prior to the start of the manoeuvre, and (a) has commanded the system to perform the manoeuvre for a driver-initiated manoeuvre; or (b) has acknowledged the system’s intention as needed for a driver-confirmed manoeuvre; or (c) is given sufficient notice to react for a system-initiated manoeuvre, the system shall initiate a manoeuvre, except that motoric disengagement may not be considered when HORs are being withheld by the system.",
+      "reason": "Paragraph 5.3.7.2.1.1 of UN R171 was amended in version 2.0.0: 'detected to be disengaged, and (a) has' became 'deemed to be disengaged (as specified in paragraphs 5.5.4.2.4. and 5.5.4.2.5.) for more than 2 seconds immediately prior to its start, and: (a) Has'; 'has' became 'Has'; 'is' became 'Is'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.3.7.2.1.1"
+      }
+    },
+    {
+      "requirement_id": "R-028",
+      "change": "modified",
+      "new_text": "When the driver is detected to be disengaged during a manoeuvre, the manufacturer shall describe in the safety concept the system behaviour (e.g., aborting the manoeuvre, fully executing a manoeuvre, bringing the vehicle to a safe stop).",
+      "reason": "Paragraph 5.3.7.2.1.13 (formerly 5.3.7.2.4.3) of UN R171 was amended in version 2.0.0: 'also' was removed; 'initiation of a risk mitigation function, full execution of the manoeuvre, stop the vehicle).' became 'aborting the manoeuvre, fully executing a manoeuvre, bringing the vehicle to a safe stop).'.",
+      "source": {
+        "page": 11,
+        "paragraph": "5.3.7.2.1.13"
+      }
+    },
+    {
+      "requirement_id": "R-041",
+      "change": "modified",
+      "new_text": "While in highway or highway-like road operation, the system shall aim to respond to work zones, lane reductions, lane closures, toll stations and end of highways (e.g., by notifying the driver, issuing a DCA, or continuing operation if capable).",
+      "reason": "Paragraph 5.3.7.2.5.3.1 of UN R171 was amended in version 2.0.0: 'or highway-like road' was added.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.5.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-043",
+      "change": "modified",
+      "new_text": "The system's driver unavailability response shall comply with the technical requirements and transitional provisions of the 04 or later series of amendments to UN Regulation No. 79 with respect to the Risk Mitigation Function (RMF).",
+      "reason": "Paragraph 5.3.7.3.1 of UN R171 was amended in version 2.0.0: 'system' became 'system’s driver unavailability response'; 'appropriately activate the Risk Mitigation Function in order to' was removed; 'stop.' became 'stop in accordance with the RMF requirements.'.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-044",
+      "change": "modified",
+      "new_text": "When the driver has been determined to be unavailable following a driver disengagement warning escalation sequence as defined in paragraph 5.5.4.2.6., the system shall come to a safe stop in accordance with the RMF requirements.",
+      "reason": "Paragraph 5.3.7.3.1 of UN R171 was amended in version 2.0.0: 'system' became 'system’s driver unavailability response'; 'appropriately activate the Risk Mitigation Function in order to' was removed; 'stop.' became 'stop in accordance with the RMF requirements.'.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-045",
+      "change": "modified",
+      "new_text": "Where the system is equipped with a driver-confirmed or system-initiated lane change feature, the system shall be capable of performing lane changes during the driver unavailability response, in compliance with the technical requirements for RMF capable of bringing the vehicle to a safe stop outside its own lane of travel of the 04 or later series of amendments to UN Regulation No. 79, during an intervention on a highway to bring the vehicle towards a target stop area in a slower or emergency lane.",
+      "reason": "Paragraph 5.3.7.3.3 of UN R171 was amended in version 2.0.0: 'RMF' became 'system'; 'changes,' became 'changes during the driver unavailability response,'; 'systems with the purpose' became 'RMF capable'.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.3"
+      }
+    },
+    {
+      "requirement_id": "R-064",
+      "change": "modified",
+      "new_text": "The system shall aim to provide the visual information at least 3 seconds ahead of the initiation of a relevant intended manoeuvre or with sufficient notice to allow the driver to comprehend the manoeuvre and the traffic situation, taking into account the complexity of the manoeuvre and amount of other road users present.",
+      "reason": "Paragraph 5.5.4.1.9.2 of UN R171 was amended in version 2.0.0: 'information' became 'the visual information at least 3 seconds'; 'or' was added; 'In addition, the initiation of a lane change procedure shall be announced by another modality unless the system has assessed that the driver has observed the visual info…' became 'Where the notice is less than 3 seconds ahead of initiation, the manufacturer shall provide evidence to the satisfaction of the Type Approval Authority that the timing a…'.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.2"
+      }
+    },
+    {
+      "requirement_id": "R-072",
+      "change": "modified",
+      "new_text": "For the purpose of the assessment of visual disengagement, the dashboard and instrument panel may be considered as a driving task relevant area only while manoeuvre relevant information (as detailed in paragraph 5.5.4.1.8.1. or 5.5.4.1.9.4.) is displayed for a maximum duration of 3 seconds.",
+      "reason": "Paragraph 5.5.4.2.5.2 of UN R171 was amended in version 2.0.0: 'shall not' became 'may'; 'area.' became 'area only while manoeuvre relevant information (as detailed in paragraph 5.5.4.1.8.1. or 5.5.4.1.9.4.) is displayed for a maximum duration of 3 seconds. The EOR warning…'.",
+      "source": {
+        "page": 21,
+        "paragraph": "5.5.4.2.5.2"
+      }
+    },
+    {
+      "requirement_id": "R-073",
+      "change": "modified",
+      "new_text": "When either eye gaze or head posture are re-directed towards any currently driving task relevant area with the exception of the dashboard and the instrument panel for a sufficient duration depending on the situation, the system shall deem the driver to be visually reengaged following an aversion of eye gaze or head posture.",
+      "reason": "Paragraph 5.5.4.2.5.2.1 of UN R171 was amended in version 2.0.0: 'engaged or' was removed; 'posture' became 'posture,'; 'with the exception of the dashboard and the instrument panel' was added.",
+      "source": {
+        "page": 21,
+        "paragraph": "5.5.4.2.5.2.1"
+      }
+    },
+    {
+      "requirement_id": "R-077",
+      "change": "modified",
+      "new_text": "The manufacturer shall describe in detail, as part of the documentation required for section 9, the boundary conditions under which Hands-On Requests (HORs) can be withheld when the vehicle is located on a “Highway” or a “Highway-like” road and is operated at a speed up to 130 km/h, as outlined in paragraph 5.3.5.2.",
+      "reason": "Paragraph 5.5.4.2.6.5 of UN R171 was amended in version 2.0.0: 'or a “Highway-like” road' was added; 'Whilst' became 'When the system is capable of withholding of HORs on highway-like roads it shall aim to avoid frequent fluctuations between being able and not able to withhold HORs (e.g…'; 'regardless if operated on a highway or a highway-like road,' was added.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": "R-081",
+      "change": "modified",
+      "new_text": "When no driver input has been determined over prolonged periods (e.g. through a negative determination of driver drowsiness or assessment of changes in gaze direction), the driver state monitoring system shall have strategies to assess whether the driver is disengaged.",
+      "reason": "Paragraph 5.5.4.2.7.1 (formerly 5.5.4.2.7) of UN R171 was amended in version 2.0.0: 'Additional Strategies for Disengagement Detection and Re-Engagement Support' was removed; 'be equipped with' became 'have'; 'drowsiness),' became 'drowsiness or assessment of changes in gaze direction),'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.1"
+      }
+    },
+    {
+      "requirement_id": "R-082",
+      "change": "modified",
+      "new_text": "When no driver input has been determined over prolonged periods (e.g. through a negative determination of driver drowsiness or assessment of changes in gaze direction), the driver state monitoring system shall implement appropriate countermeasures.",
+      "reason": "Paragraph 5.5.4.2.7.1 (formerly 5.5.4.2.7) of UN R171 was amended in version 2.0.0: 'Additional Strategies for Disengagement Detection and Re-Engagement Support' was removed; 'be equipped with' became 'have'; 'drowsiness),' became 'drowsiness or assessment of changes in gaze direction),'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.1"
+      }
+    },
+    {
+      "requirement_id": "R-083",
+      "change": "modified",
+      "new_text": "While the powertrain is active, when the driver is detected to have insufficient engagement, the system shall be disabled for a period of at least 30 minutes, and the disablement shall happen once the driver has resumed control of the vehicle or the vehicle has become stationary.",
+      "reason": "Paragraph 5.5.4.2.8.1 of UN R171 was amended in version 2.0.0: 'The disablement shall happen once the driver has resumed control of the vehicle, or the vehicle has become stationary.' was added.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.8.1"
+      }
+    },
+    {
+      "requirement_id": "R-084",
+      "change": "modified",
+      "new_text": "When the system is disabled due to insufficient engagement by the driver, the system shall only be re-enabled after the driver has confirmed by a deliberate action their understanding of their responsibilities and appropriate use of the system.",
+      "reason": "Paragraph 5.5.4.2.8.4 of UN R171 was amended in version 2.0.0: 'at the latest upon the deactivation of the powertrain,' was removed; 'request that the driver reads the driver information material as outlined in paragraph 5.6.' became 'only be re-enabled after the driver has confirmed by a deliberate action their understanding of their responsibilities and appropriate use of the system.'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.8.4"
+      }
+    },
+    {
+      "requirement_id": "R-090",
+      "change": "modified",
+      "new_text": "The DCAS shall perform the assessment of the approaching vehicle's deceleration with the assumptions that the approaching vehicle begins its deceleration 1.4 seconds after the system starts the lateral movement of the lane change procedure, except that at speeds up to 60 km/h the system may deviate from this assessment, in which case the manufacturer shall explain to the Type Approval Authority the distances and timings for an approaching vehicle under which a lane change manoeuvre can be started, and provide evidence of those situations being deemed controllable for other road users.",
+      "reason": "Paragraph 6.2.4.1 of UN R171 was amended in version 2.0.0: 'At speeds up to 60 km/h the system may deviate from this assessment. In these cases, the manufacturer shall explain the distances and timings for an approaching vehicle…' was added.",
+      "source": {
+        "page": 26,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "requirement_id": "R-091",
+      "change": "modified",
+      "new_text": "The assessment of the approaching vehicle's deceleration shall be performed with the assumptions that the approaching vehicle begins its deceleration either: (i) 0.4 seconds after the system starts the lane change manoeuvre, provided that the approaching vehicle was detected by the DCAS vehicle for a duration of at least 1.0 seconds immediately before the lane change manoeuvre starts; or (ii) 1.4 seconds after the system starts the lane change manoeuvre; except that at speeds up to 60 km/h the system may deviate from this assessment, in which case the manufacturer shall explain the distances and timings under which a lane change can be started to the Type Approval Authority and provide evidence that those situations are deemed controllable for other road users.",
+      "reason": "Paragraph 6.2.4.1 of UN R171 was amended in version 2.0.0: 'At speeds up to 60 km/h the system may deviate from this assessment. In these cases, the manufacturer shall explain the distances and timings for an approaching vehicle…' was added.",
+      "source": {
+        "page": 26,
+        "paragraph": "6.2.4.1"
+      }
+    },
+    {
+      "requirement_id": "R-105",
+      "change": "modified",
+      "new_text": "The manufacturer shall report at least the information listed in the table below, which can be shared in confidence with other Type Approval Authorities on request, and be notified in this case; the information is not intended to be shared publicly.",
+      "reason": "Paragraph 7.2.3.1 of UN R171 was amended in version 2.0.0: 'The information is not intended to be shared publicly.' was added; 'See Table 1 - Information for Periodic Reporting Frequency of Occurrence (Total, with related hours of operation and distance travelled unless specified) 1. Safety-criti…' was added.",
+      "source": {
+        "page": 30,
+        "paragraph": "7.2.3.1"
+      }
+    },
+    {
+      "requirement_id": "R-023",
+      "change": "removed",
+      "reason": "Paragraph 5.3.7.2.3.1 of UN R171 was amended in version 2.0.0; the provision 'The system shall apply the requirements outlined in paragraph 5.5.4.1.8. and su…' no longer appears."
+    },
+    {
+      "requirement_id": "R-025",
+      "change": "removed",
+      "reason": "Paragraph 5.3.7.2.4.2 of UN R171 was amended in version 2.0.0; the provision 'When the system has presented an EOR to the driver in the 7 seconds leading up…' no longer appears."
+    },
+    {
+      "requirement_id": "R-036",
+      "change": "removed",
+      "reason": "Paragraph 5.3.7.2.4.10 of UN R171 was amended in version 2.0.0; the provision 'While the vehicle is located on a highway (including highway slip roads) and th…' no longer appears."
+    },
+    {
+      "requirement_id": "R-066",
+      "change": "removed",
+      "reason": "Paragraph 5.5.4.1.9.2 of UN R171 was amended in version 2.0.0; the provision 'When a lane change procedure is initiated, the system shall announce the initia…' no longer appears."
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The DCAS shall be switched to 'OFF' mode upon activation of an ADS feature.",
+      "reason": "Paragraph 5.2.3 of UN R171 is new in version 2.0.0: 'DCAS shall be switched to 'OFF' mode upon activation of an ADS feature, and shall not be able to be…'.",
+      "source": {
+        "page": 8,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The DCAS shall not be able to be switched to 'ON' mode whilst an ADS feature is active.",
+      "reason": "Paragraph 5.2.3 of UN R171 is new in version 2.0.0: 'DCAS shall be switched to 'OFF' mode upon activation of an ADS feature, and shall not be able to be…'.",
+      "source": {
+        "page": 8,
+        "paragraph": "5.2.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the driver is detected to be disengaged while the system or feature boundary is detected to be exceeded, the system shall continue providing lateral and longitudinal assistance to the extent possible or terminate assistance gradually in a controllable way, as outlined in the safety concept of the vehicle manufacturer.",
+      "reason": "Paragraph 5.3.5.1 of UN R171 is new in version 2.0.0: 'The system shall aim to detect the applicable system boundaries when DCAS or a feature of DCAS is i…'.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The driver state monitoring system shall continue to monitor driver disengagement until the driver is motorically and visually reengaged.",
+      "reason": "Paragraph 5.3.5.1 of UN R171 is new in version 2.0.0: 'The system shall aim to detect the applicable system boundaries when DCAS or a feature of DCAS is i…'.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall initiate a driver unavailability response at the latest 10 seconds after it has detected to be beyond a system boundary, if the driver remains disengaged.",
+      "reason": "Paragraph 5.3.5.1 of UN R171 is new in version 2.0.0: 'The system shall aim to detect the applicable system boundaries when DCAS or a feature of DCAS is i…'.",
+      "source": {
+        "page": 9,
+        "paragraph": "5.3.5.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If a DCA is given while performing a system-initiated manoeuvre, the manufacturer shall consider the time required for the driver to direct their gaze to appropriate driving task relevant area(s) after the DCA is given in order to control the vehicle in the current situation when responding to this DCA.",
+      "reason": "Paragraph 5.3.6.1.2 of UN R171 is new in version 2.0.0: 'If a DCA is given while performing a system-initiated manoeuvre, the manufacturer shall consider th…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "5.3.6.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the DCA is given whilst withholding HORs, the time required for the driver to direct their gaze to appropriate driving task relevant area(s) shall be considered in addition to the time required by paragraph 5.3.6.1.1.",
+      "reason": "Paragraph 5.3.6.1.2 of UN R171 is new in version 2.0.0: 'If a DCA is given while performing a system-initiated manoeuvre, the manufacturer shall consider th…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "5.3.6.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If a DCA is given while performing a system-initiated manoeuvre, the manufacturer shall explain to the Type Approval Authority the strategies and the timing with which the assistance is to be provided to the driver until the DCA is confirmed.",
+      "reason": "Paragraph 5.3.6.1.2 of UN R171 is new in version 2.0.0: 'If a DCA is given while performing a system-initiated manoeuvre, the manufacturer shall consider th…'.",
+      "source": {
+        "page": 10,
+        "paragraph": "5.3.6.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Following completion of a system-initiated manoeuvre initiated to mitigate the risk of an imminent collision and once the situation is controllable for the driver, a DCA shall be given.",
+      "reason": "Paragraph 5.3.7.2.4.10 of UN R171 is new in version 2.0.0: 'Notwithstanding the provisions of paragraph 5.3.7.2.1.1. a system-initiated manoeuvre may be initia…'.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.10"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Following a system-initiated manoeuvre initiated to mitigate the risk of an imminent collision, the system shall be disabled according to paragraph 5.5.4.2.8.",
+      "reason": "Paragraph 5.3.7.2.4.10 of UN R171 is new in version 2.0.0: 'Notwithstanding the provisions of paragraph 5.3.7.2.1.1. a system-initiated manoeuvre may be initia…'.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.10"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where the system-initiated manoeuvre is performed according to paragraph 5.3.7.2.4.10, the circumstances as to when this happens shall be described and justified to the Type Approval Authority.",
+      "reason": "Paragraph 5.3.7.2.4.11 of UN R171 is new in version 2.0.0: 'Where the system-initiated manoeuvre is performed according to paragraph 5.3.7.2.4.10 the circumsta…'.",
+      "source": {
+        "page": 13,
+        "paragraph": "5.3.7.2.4.11"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall be able to recognize lane markings as outlined in Annex 3 of the 01 or later series of amendments to UN Regulation No. 130, as relevant to the countries in which the system can be activated.",
+      "reason": "Paragraph 5.3.7.2.5.3.3 of UN R171 is new in version 2.0.0: 'The system shall be able to recognize lane markings as outlined in Annex 3 of the 01 or later serie…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.2.5.3.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where extended testing in Annex 4 includes different vehicle under test (VUT) speeds, the tested speeds shall cover the maximum operating speed in the applicable test scenarios.",
+      "reason": "Paragraph 5.3.7.2.6.1 of UN R171 is new in version 2.0.0: 'Where extended testing in Annex 4 includes different vehicle under test (VUT) speeds, this shall co…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.2.6.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall only perform a system-initiated manoeuvre as part of the driver unavailability response after driver reengagement strategies have failed or if there is an imminent risk of collision.",
+      "reason": "Paragraph 5.3.7.3.4 of UN R171 is new in version 2.0.0: 'A system-initiated manoeuvre may be performed at any time as part of the driver unavailability resp…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The circumstances as to when a system-initiated manoeuvre is performed as part of the driver unavailability response shall be described and justified to the Type Approval Authority.",
+      "reason": "Paragraph 5.3.7.3.4 of UN R171 is new in version 2.0.0: 'A system-initiated manoeuvre may be performed at any time as part of the driver unavailability resp…'.",
+      "source": {
+        "page": 14,
+        "paragraph": "5.3.7.3.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall inform or warn the driver about the basis for the system being disabled due to insufficient engagement.",
+      "reason": "Paragraph 5.5.4.1.1 of UN R171 is new in version 2.0.0: 'The system shall inform or warn the driver about: (a) The status of the system or feature: ‘stand-b…'.",
+      "source": {
+        "page": 19,
+        "paragraph": "5.5.4.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall inform or warn the driver about the basis for why a DCA has been issued if not addressed by the other information points of 5.5.4.1.1 or if it follows an engagement request escalation.",
+      "reason": "Paragraph 5.5.4.1.1 of UN R171 is new in version 2.0.0: 'The system shall inform or warn the driver about: (a) The status of the system or feature: ‘stand-b…'.",
+      "source": {
+        "page": 19,
+        "paragraph": "5.5.4.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall offer the driver the possibility to visualize at least a representation of the intended manoeuvre.",
+      "reason": "Paragraph 5.5.4.1.9.4 of UN R171 is new in version 2.0.0: 'The system shall offer the driver the possibility to visualize at least a representation of the int…'.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The visualization of the intended manoeuvre shall aim to not cause unnecessary distraction to the driver.",
+      "reason": "Paragraph 5.5.4.1.9.4 of UN R171 is new in version 2.0.0: 'The system shall offer the driver the possibility to visualize at least a representation of the int…'.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Where the notice is less than 3 seconds ahead of initiation, the manufacturer shall provide evidence to the satisfaction of the Type Approval Authority that the timing at which the information is provided ensures an appropriate driver response and that the strategies employed ensure the driver notices the information without undue delay.",
+      "reason": "Paragraph 5.5.4.1.9.2 of UN R171 is new in version 2.0.0: 'The system shall aim to provide the visual information at least 3 seconds ahead of the initiation o…'.",
+      "source": {
+        "page": 20,
+        "paragraph": "5.5.4.1.9.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The EOR warning time shall not be extended with the time the driver's gaze is directed towards the dashboard or instrument panel.",
+      "reason": "Paragraph 5.5.4.2.5.2 of UN R171 is new in version 2.0.0: 'The driver shall be deemed to be visually disengaged when the driver’s eye gaze and/or head posture…'.",
+      "source": {
+        "page": 21,
+        "paragraph": "5.5.4.2.5.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "When the system is capable of withholding HORs on highway-like roads, it shall aim to avoid frequent fluctuations between being able and not able to withhold HORs (e.g., not operating on discontinuous sections of highway-like roads).",
+      "reason": "Paragraph 5.5.4.2.6.5 of UN R171 is new in version 2.0.0: 'Withholding of HORs The system may withhold HORs when the vehicle is located on a “Highway” or a “H…'.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall aim to ensure a reasonable duration of being able to withhold HORs by verifying, before initiating withholding, that the road ahead is deemed to have the necessary characteristics (as per paragraph 2.28.1.) for at least 500 m, or for at least 30 seconds at the vehicle's current speed, or by implementing other strategies reasonably expected to result in at least an equivalent duration.",
+      "reason": "Paragraph 5.5.4.2.6.5 of UN R171 is new in version 2.0.0: 'Withholding of HORs The system may withhold HORs when the vehicle is located on a “Highway” or a “H…'.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall document strategies alternative to the 500 m / 30 s road-ahead verification and demonstrate them to the satisfaction of the Type Approval Authority.",
+      "reason": "Paragraph 5.5.4.2.6.5 of UN R171 is new in version 2.0.0: 'Withholding of HORs The system may withhold HORs when the vehicle is located on a “Highway” or a “H…'.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall demonstrate the system's ability to safely operate in the presence of cyclists, by avoidance of a collision with a longitudinally travelling cyclist ahead in lane as outlined in Annex 4, paragraph 4.2.5.2.16., taking into account the robustness criteria outlined in Appendix 4 of Annex 3.",
+      "reason": "Paragraph 5.5.4.2.6.5 of UN R171 is new in version 2.0.0: 'Withholding of HORs The system may withhold HORs when the vehicle is located on a “Highway” or a “H…'.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "When the end of a highway-like road is expected to require a manoeuvre controlled by the driver, an HOR shall aim to be given at least 7 seconds prior to the time the necessary manoeuvre needs to start.",
+      "reason": "Paragraph 5.5.4.2.6.5 of UN R171 is new in version 2.0.0: 'Withholding of HORs The system may withhold HORs when the vehicle is located on a “Highway” or a “H…'.",
+      "source": {
+        "page": 22,
+        "paragraph": "5.5.4.2.6.5"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The system shall aim to determine whether or not the driver is in an appropriate position to operate the vehicle controls.",
+      "reason": "Paragraph 5.5.4.2.6.5.7.1 of UN R171 is new in version 2.0.0: 'The system shall aim to determine whether or not the driver is in an appropriate position to operat…'.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.7.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The strategy employed for classification and detection of such positions shall be documented by the manufacturer and assessed by the Type Approval Authority.",
+      "reason": "Paragraph 5.5.4.2.6.5.7.1 of UN R171 is new in version 2.0.0: 'The system shall aim to determine whether or not the driver is in an appropriate position to operat…'.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.7.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the driver is deemed, as per the strategy, not to be in an appropriate position to operate the vehicle controls for 10 seconds, the system shall give an HOR.",
+      "reason": "Paragraph 5.5.4.2.6.5.7.2 of UN R171 is new in version 2.0.0: 'If the driver is deemed, as per the strategy, not to be in an appropriate position to operate the v…'.",
+      "source": {
+        "page": 23,
+        "paragraph": "5.5.4.2.6.5.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Following such an HOR, the system shall only resume operating while withholding HORs once the driver has been deemed, as per the strategy, to be in an appropriate position to operate the vehicle controls and not to be motorically disengaged for at least 30 seconds.",
+      "reason": "Paragraph 5.5.4.2.6.5.7.3 of UN R171 is new in version 2.0.0: 'Following such an HOR, the system may continue to perform system-initiated manoeuvres but shall onl…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.6.5.7.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Following such an HOR, the system shall inform the driver of the basis for why the system will not resume withholding HORs.",
+      "reason": "Paragraph 5.5.4.2.6.5.7.3 of UN R171 is new in version 2.0.0: 'Following such an HOR, the system may continue to perform system-initiated manoeuvres but shall onl…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.6.5.7.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During phases of operation where the system is able to perform system-initiated manoeuvres, the driver state monitoring system shall have additional strategies to assess behaviours which indicate that the driver is consistently engaged with the driving task by assessing the determination of drowsiness.",
+      "reason": "Paragraph 5.5.4.2.7.2 of UN R171 is new in version 2.0.0: 'During phases of operation where the system is able to perform system-initiated manoeuvres, the dri…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During phases of operation where the system is able to perform system-initiated manoeuvres, the driver state monitoring system shall have additional strategies to assess behaviours which indicate that the driver is consistently engaged with the driving task by assessing that the driver performs changes in eye gaze with a frequency and/or direction appropriate to the current vehicle traffic environment and upcoming manoeuvres, and that these behaviours do not degrade over time.",
+      "reason": "Paragraph 5.5.4.2.7.2 of UN R171 is new in version 2.0.0: 'During phases of operation where the system is able to perform system-initiated manoeuvres, the dri…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the behaviours of the driver do not indicate consistent engagement with the driving task, the system shall not initiate system-initiated manoeuvres other than those in situation of imminent collision risk.",
+      "reason": "Paragraph 5.5.4.2.7.2 of UN R171 is new in version 2.0.0: 'During phases of operation where the system is able to perform system-initiated manoeuvres, the dri…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the behaviours of the driver do not indicate consistent engagement with the driving task, appropriate countermeasures shall be applied as described in the safety concept.",
+      "reason": "Paragraph 5.5.4.2.7.2 of UN R171 is new in version 2.0.0: 'During phases of operation where the system is able to perform system-initiated manoeuvres, the dri…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The strategies implemented to assess behaviours which indicate that the driver is consistently engaged with the driving task shall be documented by the manufacturer and assessed by the Type Approval Authority.",
+      "reason": "Paragraph 5.5.4.2.7.2 of UN R171 is new in version 2.0.0: 'During phases of operation where the system is able to perform system-initiated manoeuvres, the dri…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The manufacturer shall document the strategies implemented to assess behaviours indicating that the driver is consistently engaged with the driving task, and these shall be assessed by the Type Approval Authority.",
+      "reason": "Paragraph 5.5.4.2.7.2 of UN R171 is new in version 2.0.0: 'During phases of operation where the system is able to perform system-initiated manoeuvres, the dri…'.",
+      "source": {
+        "page": 24,
+        "paragraph": "5.5.4.2.7.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The provisions of paragraphs 6.3.2. to 6.3.8. shall equally apply when going straight across an intersection for systems capable of performing a system-initiated left or right turn at that intersection.",
+      "reason": "Paragraph 6.4.1 of UN R171 is new in version 2.0.0: 'The provisions of paragraphs 6.3.2. to 6.3.8. shall equally apply when going straight across an int…'.",
+      "source": {
+        "page": 29,
+        "paragraph": "6.4.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In non-highway environments, the system shall only make the vehicle automatically accelerate from standstill if the driver is not deemed to be visually disengaged as per paragraph 5.5.4.2.5. for more than 2 seconds immediately prior to the drive off.",
+      "reason": "Paragraph 6.4.2 of UN R171 is new in version 2.0.0: 'In non-highway environments, the system shall only make the vehicle automatically accelerate from s…'.",
+      "source": {
+        "page": 29,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "In non-highway environments, the system shall only make the vehicle automatically accelerate from standstill if the system has confirmed there is no risk of collision detected along the drive-off path.",
+      "reason": "Paragraph 6.4.2 of UN R171 is new in version 2.0.0: 'In non-highway environments, the system shall only make the vehicle automatically accelerate from s…'.",
+      "source": {
+        "page": 29,
+        "paragraph": "6.4.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The vehicle manufacturer shall implement an R171SWIN so that the software of the System can be identified.",
+      "reason": "Paragraph 10.1 of UN R171 is new in version 2.0.0: 'For the purpose of ensuring the software of the System can be identified, an R171SWIN shall be impl…'.",
+      "source": {
+        "page": 35,
+        "paragraph": "10.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "If the R171SWIN is not held on the vehicle, the manufacturer shall declare the software version(s) of the vehicle or single ECUs with the connection to the relevant type approvals to the Type Approval Authority.",
+      "reason": "Paragraph 10.1 of UN R171 is new in version 2.0.0: 'For the purpose of ensuring the software of the System can be identified, an R171SWIN shall be impl…'.",
+      "source": {
+        "page": 35,
+        "paragraph": "10.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "For systems where identical initial conditions (e.g., path or positioning) of the vehicle in a given scenario may not always result in a repeatable outcome (e.g. using non-rule-based algorithms), the manufacturer shall explain this deviation to and agree with the Type Approval Authority on the ranges of different test parameterization that do not modify the objective of the test scenario and diverge from other requirements of this regulation.",
+      "reason": "Paragraph Annex 4 4.2.2.2 of UN R171 is new in version 2.0.0: 'For systems where identical initial conditions (e.g., path or positioning) of the vehicle in a give…'.",
+      "source": {
+        "page": 64,
+        "paragraph": "Annex 4 4.2.2.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The target shall approach at a speed of up to 60 km/h, depending on the declared system boundaries.",
+      "reason": "Paragraph Annex 4 4.2.5.2.13.1.2 of UN R171 is new in version 2.0.0: 'The target shall approach at a speed of up to 60 km/h, depending on the declared system boundaries.'.",
+      "source": {
+        "page": 76,
+        "paragraph": "Annex 4 4.2.5.2.13.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall confirm the declared response capability of the system for a longitudinally moving target and any lateral movement navigating around the target, if applicable.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.1 of UN R171 is new in version 2.0.0: 'Base Test: The test shall confirm the declared response capability of the system for a longitudinal…'.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 4.2.5.2.16.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The bicycle target shall be positioned within the driving path of the VUT facing away from the subject vehicle.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.1.1 of UN R171 is new in version 2.0.0: 'The bicycle target shall be positioned within the driving path of the VUT facing away from the subj…'.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 4.2.5.2.16.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The VUT shall approach the impact point with the cyclist target in a straight line for at least two seconds prior to the functional part of the test.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.1.2 of UN R171 is new in version 2.0.0: 'The VUT shall approach the impact point with the cyclist target in a straight line for at least two…'.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 4.2.5.2.16.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The bicycle target shall travel with a constant speed of 20 (+1/-1) km/h.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.1.3 of UN R171 is new in version 2.0.0: 'The bicycle target shall travel with a constant speed of 20 (+1/-1) km/h.'.",
+      "source": {
+        "page": 79,
+        "paragraph": "Annex 4 4.2.5.2.16.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall demonstrate that the system is not unreasonably changing the control strategy for a bicycle.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.2 of UN R171 is new in version 2.0.0: 'Extended testing: The test shall demonstrate that the system is not unreasonably changing the contr…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.16.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with a bicycle target positioned with different offsets up to the target being outside of the driving path of the VUT.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) A bicycle target positioned with different offsets up…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.16.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with a different speed of the VUT.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) A bicycle target positioned with different offsets up…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.16.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with a different speed of the bicycle target within the range of 10-25 km/h.",
+      "reason": "Paragraph Annex 4 4.2.5.2.16.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) A bicycle target positioned with different offsets up…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.16.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall confirm the declared response capability of the system for a cut-out of the lead M1 category vehicle when other vehicles are fully or partially blocking the lane.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.1 of UN R171 is new in version 2.0.0: 'Base Test: The test shall confirm the declared response capability of the system for a cut-out of t…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.17.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The vehicle cutting out shall perform a full lane change (e.g., 3.5 m lateral displacement) into the adjacent lane to avoid the stationary vehicle target, with the measurement behind the stationary vehicle target indicating that start of the lane change, and the measurement in front of the stationary vehicle target indicating the end of the lane change.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.1.1 of UN R171 is new in version 2.0.0: 'The vehicle cutting out shall perform a full lane change (e.g., 3.5 m lateral displacement) into th…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.17.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "Indicators shall not be used by the lead vehicle during the manoeuvre.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.1.2 of UN R171 is new in version 2.0.0: 'The indicated TTC is defined as the TTC of the lead vehicle to the target when the lead vehicle wil…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.17.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The cutting out vehicle shall not deviate from its defined path by more than ±0.2 m.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.1.3 of UN R171 is new in version 2.0.0: 'The cutting out vehicle shall not deviate from its defined path by more than ±0.2 m. Cut-out test V…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.17.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The cut-out at TTC = 3 s test shall be performed with a VUT set speed of 70 km/h, a lead vehicle (M1 Category) speed of 50 km/h, a lateral acceleration of 1.5 m/s², a lane change length of 44 m and a radius of turning segment of 130 m.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.1.3 of UN R171 is new in version 2.0.0: 'The cutting out vehicle shall not deviate from its defined path by more than ±0.2 m. Cut-out test V…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.17.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The blocking vehicle in the adjacent lane shall drive under conditions where the VUT is prevented from changing lanes, specifically where the conditions of paragraph 6.2.4.1. are not met.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.1.4 of UN R171 is new in version 2.0.0: 'The blocking vehicle in the adjacent lane shall drive under conditions where the VUT is prevented f…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.17.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "During the cut-out of the lead vehicle the blocking vehicle shall perform the following trajectories: continue with the same constant speed; braking with the deceleration as the VUT blocking the way of the lane change until the VUT stops or passes the static target.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.1.4 of UN R171 is new in version 2.0.0: 'The blocking vehicle in the adjacent lane shall drive under conditions where the VUT is prevented f…'.",
+      "source": {
+        "page": 80,
+        "paragraph": "Annex 4 4.2.5.2.17.1.4"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with a stationary vehicle target of a different type or category, including cyclist and pedestrian (if the system is designed to drive in non-highway roads).",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) A stationary vehicle target of a different type or ca…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with the cut-out occurring at less than 3 seconds TTC of the lead vehicle.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) A stationary vehicle target of a different type or ca…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with different speeds of the VUT and lead vehicle.",
+      "reason": "Paragraph Annex 4 4.2.5.2.17.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) A stationary vehicle target of a different type or ca…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.17.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall confirm the declared response capability of the system for a crossing pedestrian target, while other vehicle obstructs the lane of travel and the perception of the pedestrian target.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.1 of UN R171 is new in version 2.0.0: 'Base Test: The test shall confirm the declared response capability of the system for a crossing ped…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "A static target shall be placed in front of the VUT with 50% overlap towards the edge of the road.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.1.1 of UN R171 is new in version 2.0.0: 'A static target shall be placed in front of the VUT with 50% overlap towards the edge of the road.…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The VUT shall travel at least 30 km/h toward the static target with system-initiated manoeuvring activated.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.1.1 of UN R171 is new in version 2.0.0: 'A static target shall be placed in front of the VUT with 50% overlap towards the edge of the road.…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The VUT shall avoid collision with the target if performing a drive around manoeuvre.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.1.1 of UN R171 is new in version 2.0.0: 'A static target shall be placed in front of the VUT with 50% overlap towards the edge of the road.…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The pedestrian target shall travel in a straight line perpendicular to the VUT’s direction of travel at a constant speed of 5 km/h +0/-0.4 km/h from maximum 1 m of the front of the static target.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.1.2 of UN R171 is new in version 2.0.0: 'The pedestrian target shall travel in a straight line perpendicular to the VUT’s direction of trave…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The pedestrian target’s positioning shall be coordinated with the VUT in such a way that the impact point of the pedestrian target on the front of the VUT is on the longitudinal centreline of the VUT if the VUT would remain at the speed when reaching the rear of the static target and does not brake.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.1.2 of UN R171 is new in version 2.0.0: 'The pedestrian target shall travel in a straight line perpendicular to the VUT’s direction of trave…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with a static and pedestrian target of a different type and/or size.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least: (a) A static and pedestrian target of a different type and/or…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with a pedestrian target moving at a different, but constant speed.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least: (a) A static and pedestrian target of a different type and/or…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with a different angle of the pedestrian target path to the VUT path.",
+      "reason": "Paragraph Annex 4 4.2.5.2.18.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least: (a) A static and pedestrian target of a different type and/or…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.18.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall confirm the declared response capability of the system to recognize and offer right of way for a crossing vehicle target driving straight in an intersection.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.1 of UN R171 is new in version 2.0.0: 'Base Test: The test shall confirm the declared response capability of the system to recognize and o…'.",
+      "source": {
+        "page": 81,
+        "paragraph": "Annex 4 4.2.5.2.19.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The VUT shall approach the impact point with another vehicle (passenger car or motorcycle) target in an initial straight line in an intersection from the near side direction to collide the side of the target vehicle at 25 per cent along the length of the target with the centre front of the VUT.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.1.1 of UN R171 is new in version 2.0.0: 'The VUT shall approach the impact point with another vehicle (passenger car or motorcycle) target i…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.19.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The VUT shall give right of way.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.1.2 of UN R171 is new in version 2.0.0: 'The target shall approach at a speed of up to 60 km/h, depending on the declared system boundaries.…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.19.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "A static target shall be placed in the opposite direction of travel at the same side of the intersection which obstructs the view of the coming moving target but does not interfere with the path of the VUT.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.1.3 of UN R171 is new in version 2.0.0: 'A static target shall be placed in the opposite direction of travel at the same side of the interse…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.19.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall demonstrate that the system is not unreasonably changing the control strategy for a crossing vehicle target driving straight in an intersection.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.2 of UN R171 is new in version 2.0.0: 'Extended testing: The test shall demonstrate that the system is not unreasonably changing the contr…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.19.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with different target vehicle types or categories.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) Different target vehicle types or categories; (b) Dif…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.19.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with different overlaps.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) Different target vehicle types or categories; (b) Dif…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.19.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with different positions of the static target.",
+      "reason": "Paragraph Annex 4 4.2.5.2.19.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) Different target vehicle types or categories; (b) Dif…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.19.2.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall confirm the declared response capability of the system for an oncoming vehicle target while the VUT is turning in an intersection with multiple targets.",
+      "reason": "Paragraph Annex 4 4.2.5.2.20.1 of UN R171 is new in version 2.0.0: 'Base Test: The test shall confirm the declared response capability of the system for an oncoming ve…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.20.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The VUT shall approach the impact point with another vehicle (passenger car or motorcycle) target in an initial straight line followed by a turn in an intersection to cross front edges of a target vehicle with a lateral position that gives a 50 per cent overlap of the width of the VUT.",
+      "reason": "Paragraph Annex 4 4.2.5.2.20.1.1 of UN R171 is new in version 2.0.0: 'The VUT shall approach the impact point with another vehicle (passenger car or motorcycle) target i…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.20.1.1"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The first target shall approach at a speed of up to 60 km/h.",
+      "reason": "Paragraph Annex 4 4.2.5.2.20.1.2 of UN R171 is new in version 2.0.0: 'The first target shall approach at a speed of up to 60 km/h.'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.20.1.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The cyclist target shall approach 20 km/h +0/-0.4 km/h from maximum 1 m of the road edge.",
+      "reason": "Paragraph Annex 4 4.2.5.2.20.1.3 of UN R171 is new in version 2.0.0: 'The cyclist target shall approach 20 km/h +0/-0.4 km/h from maximum 1 m of the road edge. The cycli…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.20.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The cyclist target’s positioning shall be coordinated with the target in such a way that the cyclist target reaches the centreline of the road after two s the rear of the moving target passes the same virtual centreline.",
+      "reason": "Paragraph Annex 4 4.2.5.2.20.1.3 of UN R171 is new in version 2.0.0: 'The cyclist target shall approach 20 km/h +0/-0.4 km/h from maximum 1 m of the road edge. The cycli…'.",
+      "source": {
+        "page": 82,
+        "paragraph": "Annex 4 4.2.5.2.20.1.3"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall demonstrate that the system is not unreasonably changing the control strategy for an oncoming vehicle target while the VUT is turning in an intersection.",
+      "reason": "Paragraph Annex 4 4.2.5.2.20.2 of UN R171 is new in version 2.0.0: 'Extended testing: The test shall demonstrate that the system is not unreasonably changing the contr…'.",
+      "source": {
+        "page": 83,
+        "paragraph": "Annex 4 4.2.5.2.20.2"
+      }
+    },
+    {
+      "requirement_id": null,
+      "change": "added",
+      "new_text": "The test shall be executed at least with different lane position of the vehicles and target.",
+      "reason": "Paragraph Annex 4 4.2.5.2.20.2.1 of UN R171 is new in version 2.0.0: 'The test shall be executed at least with: (a) Different target vehicle types or categories; (b) Dif…'.",
+      "source": {
+        "page": 83,
+        "paragraph": "Annex 4 4.2.5.2.20.2.1"
+      }
+    }
+  ]
+}

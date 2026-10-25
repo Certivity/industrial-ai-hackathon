@@ -40,7 +40,7 @@ def raws(*lines: str | tuple, page: int = 1) -> list[P._Raw]:
 
 
 def _parse(lines: list[P._Raw]) -> P.ParsedDocument:
-    return M.parse_raws(lines, body_size=BODY)
+    return M.parse_raws(lines, body_size=BODY, induce=False)
 
 
 def head(text: str) -> tuple:
@@ -249,19 +249,19 @@ class Skip(Exception):
 
 
 def test_corpus_r101_appendix_3_without_the_rescue_rule() -> None:
-    doc = M.parse_pdf(_pdf("UN R101"), grids=False)
+    doc = M.parse_pdf(_pdf("UN R101"), grids=False, induce=False)
     labels_ = {n.label for n in doc.nodes}
     assert "Annex 7 Appendix 3" in labels_ and "Annex 7 Appendix 3 1.1" in labels_
 
 
 def test_corpus_r49_item_lines_are_not_headings() -> None:
-    doc = M.parse_pdf(_pdf("UN R49"), grids=False)
+    doc = M.parse_pdf(_pdf("UN R49"), grids=False, induce=False)
     assert not [n for n in doc.nodes if n.kind not in ("para", "table") and "Item" in n.text[0][:40]]
 
 
 def test_corpus_carry_on_parts_are_dividers() -> None:
     for regulation in ("UN R67", "UN R89", "UN R163"):
-        doc = M.parse_pdf(_pdf(regulation), grids=False)
+        doc = M.parse_pdf(_pdf(regulation), grids=False, induce=False)
         parts = [n for n in doc.nodes if n.kind == "part"]
         assert parts and all(n.scope == "" for n in parts), regulation
         assert not [n for n in doc.nodes if n.kind == "para" and n.label.startswith("Part ")], regulation
@@ -272,7 +272,7 @@ def test_corpus_matches_the_rules_parser_on_the_anchored_regulations() -> None:
     for regulation in ("UN R150", "UN R148", "UN R48", "UN R175"):
         path = _pdf(regulation)
         a = Counter((n.label, n.page_start) for n in P.parse_pdf(path, grids=False).nodes)
-        b = Counter((n.label, n.page_start) for n in M.parse_pdf(path, grids=False).nodes)
+        b = Counter((n.label, n.page_start) for n in M.parse_pdf(path, grids=False, induce=False).nodes)
         assert a == b, (regulation, list((a - b).items())[:3], list((b - a).items())[:3])
 
 

@@ -79,6 +79,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--no-cache", action="store_true")
     parser.add_argument("--no-fallbacks", action="store_true")
     parser.add_argument("--no-new-in-modified", action="store_true", help="report as added only the obligations of added paragraphs")
+    parser.add_argument("--appended", choices=drift.APPENDED_MODES, default="added",
+                        help="a sentence appended to a changed paragraph that carries requirements: 'added' (an added item, default), "
+                             "'modified' (the paragraph's requirements are modified, no added item) or 'both'")
     args = parser.parse_args(argv)
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8")
@@ -107,7 +110,7 @@ def main(argv: list[str] | None = None) -> int:
     llm = LLM(settings, log=stderr_log, call_log=out / "calls.jsonl")
     try:
         result = drift.run_drift(old, new, inputs["requirements"], settings, case_id, inputs["regulation"], llm=llm, log=stderr_log,
-                                 new_in_modified=not args.no_new_in_modified)
+                                 new_in_modified=not args.no_new_in_modified, appended=args.appended)
     except BudgetExceeded as error:
         print(f"stopped: {error}", file=sys.stderr)
         return 3

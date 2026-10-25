@@ -1,4 +1,4 @@
-"""The graph the agent walks: one regulation version parsed by regcomp.parse, with the views the agent needs (outline, table of contents,
+"""The graph the agent walks: one regulation version parsed by the selected parser (store.parser_module: marker by default), with the views the agent needs (outline, table of contents,
 subtree text, search, references) and the grounding check (is a quote really in a node, and on which page).
 
 A node is addressed by its label, in the gold's format ("6.10.4.2", "Annex 4 Part 1 1.2", "5.1.4.4.1. Table 3"). The model only ever
@@ -20,12 +20,24 @@ from regcomp import corpus
 from regcomp.parse import ParsedDocument, parse_pdf
 
 
+def parser_name() -> str:
+    """REGCOMP_PARSER: "marker" (default) or "rules"."""
+    return os.environ.get("REGCOMP_PARSER", "marker")
+
+
+def parser_module():
+    """The module that parses regulation PDFs: the marker parser (generic lexer + stack parse with per-document induction, the default),
+    or with REGCOMP_PARSER=rules the hand-crafted rule parser. The main goal, the regulation cards and the drift pipeline all use this."""
+    if parser_name() == "rules":
+        from regcomp import parse as module
+    else:
+        from regcomp import parse_marker as module
+    return module
+
+
 def _parser():
-    """The structure parser: the hand-crafted rules, or with REGCOMP_PARSER=marker the generic marker lexer + stack parse."""
-    if os.environ.get("REGCOMP_PARSER", "rules") == "marker":
-        from regcomp.parse_marker import parse_pdf as marker_parse_pdf
-        return marker_parse_pdf
-    return parse_pdf
+    return parser_module().parse_pdf
+
 
 CONTENT = ("para", "table")
 CHARS_PER_TOKEN = 3.3  # measured on the regulation text with the token counter: 2.3 for number-heavy text, about 4 for prose

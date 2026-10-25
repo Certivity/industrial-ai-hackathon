@@ -4,6 +4,9 @@ the git-ignored .env in the repository root (the environment wins, as in eval/xp
     AI_AGENT_KEY      required, an Anthropic API key (sk-ant-...)
     AI_AGENT_MODEL    the model id; defaults to claude-sonnet-5-5
     AI_AGENT_FALLBACKS  "default" (the default) asks the API to retry a policy decline on a fallback model; "off" disables it
+    AI_AGENT_SELECT   "v1" (the default), "v2", or "v3": the regulation selection (spec/finding/selection-tuning.md); v3 = the v2 selection as a
+                      shortlist, each member then verified against the verbatim scope text of the regulation (verify.py)
+    AI_AGENT_VET      "v1" or "v2": the citation-hop vetting prompt (default v1; v2 when AI_AGENT_SELECT=v3, whose verification filters the hop)
     AI_AGENT_MAX_COST_USD, AI_AGENT_WORKERS, AI_AGENT_TEAM_ID   optional
 """
 
@@ -19,7 +22,7 @@ DEFAULT_MODEL = "claude-sonnet-5-5"
 # extraction: on UN R175 (eval/bench_extract.py) the same prompt and chunks gave 18 obligations at "medium" (one chunk of 110 nodes returned a
 # single one) and 167 at "high", with recall against the experts going from 1% to 71%. "medium" is enough where the answer is short: the profile,
 # the section walks (they reached every expected paragraph) and the judge.
-DEFAULT_EFFORT = {"vision": "high", "components": "medium", "profile": "medium", "regulations": "high", "sections": "medium", "obligations": "high", "judge": "medium"}
+DEFAULT_EFFORT = {"vision": "high", "components": "medium", "profile": "medium", "regulations": "high", "sections": "medium", "verify": "medium", "obligations": "high", "judge": "medium"}
 
 
 class MissingKey(RuntimeError):
@@ -56,11 +59,14 @@ class Settings:
     max_regulations: int = 8
     chunk_chars: int = 24_000  # text of one extraction call, about 7K tokens: 12K and 40K characters gave the same recall at high effort
     walk_turns: int = 28  # tool turns of one section walk
+    vet: str = "v1"  # citation-hop vetting prompt: "v1" (default) or "v2" recall-oriented (AI_AGENT_VET)
+    select: str = "v1"  # regulation selection prompt: "v1" strict (default), "v2" recall-oriented, "v3" shortlist then verify (AI_AGENT_SELECT)
 
     @classmethod
     def from_env(cls, **overrides) -> "Settings":
         load_env()
         key = os.environ.get("AI_AGENT_KEY", "").strip()
+        select = os.environ.get("AI_AGENT_SELECT", "").strip().lower() or cls.select
         if not key:
             raise MissingKey("AI_AGENT_KEY is not set: add AI_AGENT_KEY=sk-ant-... (and AI_AGENT_MODEL=claude-sonnet-5-5) to the .env in the "
                              "repository root, or export them")
@@ -70,6 +76,8 @@ class Settings:
             team_id=os.environ.get("AI_AGENT_TEAM_ID", "").strip() or "team-00",
             max_cost_usd=float(os.environ.get("AI_AGENT_MAX_COST_USD", "") or cls.max_cost_usd),
             workers=int(os.environ.get("AI_AGENT_WORKERS", "") or cls.workers),
+            vet=os.environ.get("AI_AGENT_VET", "").strip().lower() or ("v2" if select == "v3" else cls.vet),
+            select=select,
             fallbacks=os.environ.get("AI_AGENT_FALLBACKS", "default").strip().lower() not in ("off", "0", "false", "no"),
         )
         return replace(settings, **overrides) if overrides else settings

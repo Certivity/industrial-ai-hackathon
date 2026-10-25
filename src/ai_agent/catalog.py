@@ -16,10 +16,9 @@ from pathlib import Path
 import pymupdf
 
 from regcomp import corpus
-from regcomp import parse as parser
-from regcomp.parse import parse_pdf
 
 from .config import ROOT
+from .store import _parser, parser_module, parser_name
 
 SCOPE_CHARS = 900
 TOC_CHARS = 2600
@@ -35,13 +34,17 @@ def vehicle_letters(text: str) -> list[str]:
 
 
 def parser_hash() -> str:
-    return hashlib.sha1(Path(parser.__file__).read_bytes()).hexdigest()[:8]
+    """Hash of the selected parser's files (marker parser: parse_marker + marker_induce + marker_outline + parse), so cards are per parser."""
+    files = [Path(parser_module().__file__)]
+    if parser_name() != "rules":
+        files = [files[0].with_name(n) for n in ("parse_marker.py", "marker_induce.py", "marker_outline.py", "parse.py")]
+    return hashlib.sha1(b"".join(f.read_bytes() for f in files)).hexdigest()[:8]
 
 
 def build_card(reg: str) -> dict:
     entry = corpus.entry_for(reg)
     path = corpus.pdf_path(entry, "base")
-    doc = parse_pdf(path, grids=False)
+    doc = _parser()(path, grids=False)
     nodes = doc.nodes
     scope = re.sub(r"\s+", " ", " ".join(n.body for n in nodes if n.kind == "para" and not n.scope and n.num[:1] == (1,))).strip()
     with pymupdf.open(path) as pdf:

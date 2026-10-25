@@ -25,11 +25,11 @@ import numpy as np
 from scipy.optimize import linear_sum_assignment
 from scipy.sparse import csr_matrix
 
-from regcomp.parse import NUMBER_PREFIX, ParsedDocument, join_lines, parse_pdf
+from regcomp.parse import NUMBER_PREFIX, ParsedDocument, join_lines
 
 from .config import DEFAULT_EFFORT, Settings
 from .llm import LLM
-from .store import BM25, label_key, words
+from .store import BM25, _parser, label_key, words
 
 CONTENT = ("para", "table")
 SAME, RENUMBERED, MODIFIED, REMOVED, ADDED = "SAME", "RENUMBERED", "MODIFIED", "REMOVED", "ADDED"
@@ -62,7 +62,7 @@ class Version:
 
     @classmethod
     def from_pdf(cls, path: str | Path, regulation: str = "", label: str = "") -> "Version":
-        return cls(parse_pdf(path, grids=True), regulation, label)
+        return cls(_parser()(path, grids=True), regulation, label)
 
     def key(self, i: int) -> str:
         return label_key(self.ids[i])
@@ -240,6 +240,33 @@ def word_edits(old_text: str, new_text: str, merge_gap: int = 2) -> list[Edit]:
             x, y = " ".join(a[i1:i2]), " ".join(b[j1:j2])
             edits.append(Edit("replace" if x and y else "insert" if y else "delete", x, y))
     return edits
+
+
+APPENDED_MODES = ("added", "modified", "both")
+
+
+def _bare(word: str) -> str:
+    return word.strip(".,;:()[]\"'")
+
+
+def appended_sentences(old_text: str, new_text: str) -> list[str]:
+    """The whole sentences a new paragraph adds to an old one that is otherwise kept (words equal, edge punctuation aside), or [] when
+    the paragraph changed in any other way. Deterministic, from the word diff: every non-equal run must be an insertion that starts a
+    sentence (the paragraph start, or after a word ending in '.') with a capital letter and ends with '.'."""
+    a, b = old_text.split(), new_text.split()
+    if not a or len(b) <= len(a):
+        return []
+    out: list[str] = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, [_bare(w) for w in a], [_bare(w) for w in b], autojunk=False).get_opcodes():
+        if tag == "equal":
+            continue
+        if tag != "insert":
+            return []
+        chunk = b[j1:j2]
+        if (j1 > 0 and not b[j1 - 1].endswith(".")) or not chunk[0][:1].isupper() or not chunk[-1].endswith("."):
+            return []
+        out.append(" ".join(chunk))
+    return out
 
 
 QUOTE_LIMIT = 170
@@ -449,7 +476,9 @@ def regulation_of(requirements: list[dict], given: str | None) -> str:
 
 
 def run_drift(old: Version, new: Version, requirements: list[dict], settings: Settings, case_id: str, regulation: str | None = None,
-              llm: LLM | None = None, log=lambda m: None, new_in_modified: bool = True) -> DriftResult:
+              llm: LLM | None = None, log=lambda m: None, new_in_modified: bool = True, appended: str = "added") -> DriftResult:
+    if appended not in APPENDED_MODES:
+        raise ValueError(f"appended must be one of {APPENDED_MODES}")
     reg = regulation_of(requirements, regulation)
     llm = llm or LLM(settings, log=log)
     matches = align(old, new)
@@ -465,7 +494,7 @@ def run_drift(old: Version, new: Version, requirements: list[dict], settings: Se
     trace: dict = {"regulation": reg, "old_version": old.label, "new_version": new.label, "alignment": counts(matches),
                    "unmapped_requirements": [r["id"] for r in requirements if mapping[r["id"]]["node"] is None],
                    "mapped_by_text": [r["id"] for r in requirements if mapping[r["id"]]["by"].startswith("text")],
-                   "nodes_judged": [], "gated_unchanged": [], "added_log": []}
+                   "nodes_judged": [], "gated_unchanged": [], "added_log": [], "appended_mode": appended, "appended_nodes": []}
     homes: set[int] = set()  # new nodes that now carry an old requirement: they are not "added" as well
     new_obligations: list[dict] = []
 
@@ -498,14 +527,25 @@ def run_drift(old: Version, new: Version, requirements: list[dict], settings: Se
     for (i, m, reqs, cands), answer in zip(jobs, answers):
         verdicts = {a["id"]: a for a in answer["requirements"]}
         record = {"old": old.ids[i], "kind": m.kind, "sim": round(m.sim, 3), "candidates": [new.ids[j] for j in cands], "verdicts": {}}
+        tail = appended_sentences(old.plain(i), new.plain(m.new)) if (m.kind == MODIFIED and appended != "added") else []
+        if tail:
+            trace["appended_nodes"].append({"old": old.ids[i], "new": new.ids[m.new], "sentences": tail})
+        tail_text = " ".join(tail)
         for r in reqs:
             a = verdicts.get(r["id"])
             verdict = a["verdict"] if a else "unchanged"
             record["verdicts"][r["id"]] = {"verdict": verdict, "note": (a or {}).get("note", "")}
+            if tail and verdict == "unchanged" and appended in ("modified", "both"):
+                # a sentence appended to the paragraph: the requirement is modified (paragraph-level convention)
+                a = {"new_text": r["text"], "new_paragraph": new.ids[m.new], "note": ""}
+                verdict = "modified"
+                record["verdicts"][r["id"]]["verdict"] = "modified (appended sentence)"
             if verdict == "removed":
                 changes.append({"requirement_id": r["id"], "change": "removed", "reason": removed_reason(reg, new.label, old.ids[i], r["text"])})
             elif verdict == "modified":
                 text = " ".join(a["new_text"].split())
+                if tail and appended in ("modified", "both") and containment(tail_text, text) < 0.8:
+                    text = f"{text} {tail_text}"  # the new sentence is part of the modified requirement
                 j = new.by_key.get(label_key(a["new_paragraph"])) if a["new_paragraph"] else None
                 if j is None and m.kind == MODIFIED:
                     j = m.new
@@ -517,6 +557,8 @@ def run_drift(old: Version, new: Version, requirements: list[dict], settings: Se
                 changes.append({"requirement_id": r["id"], "change": "modified", "new_text": text[:2000],
                                 "reason": modified_reason(reg, new.label, new.ids[j], former, old.plain(i), new.plain(j)),
                                 "source": {"page": new.nodes[j].page_start, "paragraph": new.ids[j]}})
+        if tail and appended == "modified":
+            answer = {**answer, "new_obligations": []}  # the sentence is in the modified requirements, not an item of its own
         if new_in_modified:
             for o in answer["new_obligations"]:
                 j = new.by_key.get(label_key(o["new_paragraph"]))
@@ -524,7 +566,9 @@ def run_drift(old: Version, new: Version, requirements: list[dict], settings: Se
                     j = m.new
                 text = " ".join(o["text"].split())
                 if j is not None and text:
-                    new_obligations.append({"node": j, "text": text})
+                    new_obligations.append({"node": j, "text": text, "appended": bool(tail)})
+        if tail and appended == "both" and not any(o["appended"] and o["node"] == m.new for o in new_obligations):
+            new_obligations.append({"node": m.new, "text": tail_text, "appended": True})  # the sentence itself, once
         trace["nodes_judged"].append(record)
 
     # 3. added: new nodes that carry no old requirement, inside the sections the old requirements cover
@@ -537,9 +581,10 @@ def run_drift(old: Version, new: Version, requirements: list[dict], settings: Se
     if todo:
         found, trace["added_log"] = extract_added(llm, reg, new, todo, examples)
     seen_text = [tokens(c["new_text"]) for c in changes if c["change"] == "modified"]
+    n_modified = len(seen_text)
     for o in found + new_obligations:
         t = tokens(o["text"])
-        if any(similarity(t, s) > 0.8 for s in seen_text):
+        if any(similarity(t, s) > 0.8 for s in seen_text[:n_modified] if not (o.get("appended") and appended == "both")) or                 any(similarity(t, s) > 0.8 for s in seen_text[n_modified:]):
             continue
         seen_text.append(t)
         j = o["node"]

@@ -35,9 +35,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-cost", type=float, help="stop before a call that would start above this many USD")
     parser.add_argument("--workers", type=int, help="concurrent requests")
     parser.add_argument("--effort", action="append", default=[], metavar="STAGE=LEVEL",
-                        help="effort of a stage: vision, profile, regulations, sections, obligations, components (low|medium|high|xhigh|max); repeatable")
+                        help="effort of a stage: vision, profile, regulations, verify, sections, obligations, components (low|medium|high|xhigh|max); repeatable")
     parser.add_argument("--no-fallbacks", action="store_true", help="do not ask the API for a server-side fallback on a policy decline")
     parser.add_argument("--no-cache", action="store_true", help="do not replay or store identical requests (runs/_llm_cache)")
+    parser.add_argument("--stop-after", choices=["profile", "regulations", "sections"],
+                        help="stop before the next stage and write what exists; after sections also upper_bound.json (every selected node cited once, "
+                             "scorable with tools/score_local.py): the cheap benchmark, no obligation extraction")
     parser.add_argument("--team-id", help="team_id of the submission file")
     args = parser.parse_args(argv)
     sys.stdout.reconfigure(encoding="utf-8")
@@ -63,10 +66,14 @@ def main(argv: list[str] | None = None) -> int:
     settings = settings.with_effort(**levels) if levels else settings
     try:
         result = run_case(Path(args.case), settings, Path(args.out) if args.out else None,
-                          use_image=not args.no_image, image=args.image, component_map=args.component_map, use_text=not args.no_text)
+                          use_image=not args.no_image, image=args.image, component_map=args.component_map, use_text=not args.no_text,
+                          stop_after=args.stop_after)
     except BudgetExceeded as error:
         print(f"stopped: {error}", file=sys.stderr)
         return 3
+    if args.stop_after:
+        print(f"stopped after {args.stop_after}: {len(result.regulations)} regulations -> {result.run_dir}")
+        return 0
     print(f"{len(result.submission['requirements'])} requirements -> {result.run_dir / 'submission.json'}")
     return 1 if result.problems else 0
 

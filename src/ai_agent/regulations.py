@@ -29,6 +29,22 @@ Fill `covers` with the profile keys (F1, P2, T1, ...) the regulation is about. `
 and left out, each with the reason."""
 
 
+# v2: the threshold moves from "strict" to "plausible". The bench scores recall twice as heavily as precision (F2), a regulation left out loses
+# every requirement of it for good, and a marginal one is still weighed by the later stages. Same schema and the same cards; only the rules differ.
+SELECT_SYSTEM_V2 = """You decide which UN Regulations a product has to be approved against or comply with. You get the product profile and one card per available regulation (title, vehicle categories its scope names, scope, contents, supersession).
+
+Think like the engineer who writes the type-approval test plan for this product and the vehicle it goes on. Look for regulations at three levels:
+- device level: regulations that approve the product itself as a device or component;
+- vehicle level: regulations on how the product is installed on a vehicle or what it must do there, and regulations on the vehicle system the product belongs to;
+- horizontal level: regulations that apply because of a technology, material or feature the product contains or relies on, whatever the product does.
+
+Selecting is a recall task: a regulation you leave out loses all of its requirements for good, while one that turns out marginal is weighed again by the later steps. So select a regulation when a part, function, material, technology, interface or regulatory concept of the profile plausibly falls inside its scope as the card prints it, and say in `reason` which one. Use `confidence` for how direct the link is: high when the regulation is written for this kind of product, medium when it applies through a feature or a system the product belongs to, low when the link is indirect or depends on a detail the profile does not settle. Do not select a regulation whose scope excludes the product's vehicle category or kind of product, or whose subject the profile lists under not present.
+
+A card marked SUPERSEDED has been replaced: its provisions are now in the regulation it names. Never select a superseded regulation; select its successor if the profile calls for it.
+
+Fill `covers` with the profile keys (F1, P2, T1, ...) the regulation is about. `close_calls` lists up to ten regulations you looked at hard and left out, each with the reason."""
+
+
 def _schema(names: list[str]) -> dict:
     reg = {"type": "string", "enum": names}
     return {"type": "object", "properties": {
@@ -42,11 +58,11 @@ def _schema(names: list[str]) -> dict:
         "required": ["selected", "close_calls"], "additionalProperties": False}
 
 
-def select_regulations(llm: LLM, catalog: Catalog, profile_md: str, max_regulations: int) -> dict:
+def select_regulations(llm: LLM, catalog: Catalog, profile_md: str, max_regulations: int, version: str = "v1") -> dict:
     """{'selected': [...], 'rejected': [...], 'redirects': {...}, 'dropped': [...]} with the supersession applied to the model's picks."""
     user = (f"Product profile:\n{profile_md}\n\nAvailable regulations ({len(catalog.names)}):\n\n{catalog.all_cards_text()}\n\n"
             "Select the regulations that apply.")
-    answer = llm.complete_json(stage="regulations", label="select", system=SELECT_SYSTEM, user=user, schema=_schema(catalog.names),
+    answer = llm.complete_json(stage="regulations", label="select", system=SELECT_SYSTEM_V2 if version in ("v2", "v3") else SELECT_SYSTEM, user=user, schema=_schema(catalog.names),
                                max_tokens=16_000)
     order = {"high": 0, "medium": 1, "low": 2}
     selected, redirects, seen = [], {}, set()
@@ -73,7 +89,14 @@ for a vehicle-level test, for a definition, or as a historical reference. A card
 you are shown the successor instead."""
 
 
-def vet_cited(llm: LLM, catalog: Catalog, profile_md: str, cited: dict[str, dict]) -> dict:
+# v2: the sentence that cites a regulation is evidence the text itself gives; a part or component of the product that falls under the cited
+# regulation is enough, the product need not be that regulation's main subject.
+VET_SYSTEM_V2 = """A product has been matched to some UN Regulations, and the provisions selected from them cite other regulations. You decide which cited regulations ALSO hold requirements this product, or one of its parts, components or functions, has to meet. You get the product profile, and for each cited regulation its card and the sentence that cites it.
+
+Add a regulation when the citation hands the product, or a part, component or function of it, a requirement (for example "type-approved according to Regulation No. X", or a test or condition that Regulation X defines and this product has to satisfy) and that part or function plausibly falls inside X's scope. The product does not have to be X's main subject. Do not add a regulation that is cited only for another kind of device, a definition, or a historical reference. A card marked SUPERSEDED is replaced by the regulation it names; you are shown the successor instead."""
+
+
+def vet_cited(llm: LLM, catalog: Catalog, profile_md: str, cited: dict[str, dict], version: str = "v1") -> dict:
     """`cited` is {regulation: {'count', 'nodes', 'snippet', 'by': [regulations that cite it]}}. Returns {'add': [...], 'skip': [...]}."""
     if not cited:
         return {"add": [], "skip": []}
@@ -88,4 +111,4 @@ def vet_cited(llm: LLM, catalog: Catalog, profile_md: str, cited: dict[str, dict
                                             "required": ["regulation", "reason"], "additionalProperties": False}}},
         "required": ["add", "skip"], "additionalProperties": False}
     user = f"Product profile:\n{profile_md}\n\nCited regulations:\n\n" + "\n\n".join(blocks) + "\n\nWhich of them to add?"
-    return llm.complete_json(stage="regulations", label="vet-cited", system=VET_SYSTEM, user=user, schema=schema, max_tokens=8_000)
+    return llm.complete_json(stage="regulations", label="vet-cited", system=VET_SYSTEM_V2 if version == "v2" else VET_SYSTEM, user=user, schema=schema, max_tokens=8_000)
